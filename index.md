@@ -101,6 +101,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[llm-wiki-pattern]] — persistent compounding wiki vs. RAG; three layers, why it works.
 - [[ingest-query-lint]] — the three core wiki operations.
 - [[second-brain-system]] — Matt Wolfe's wiki + journal + CRM extension.
+- [[agentic-note-taking]] — agents do the data entry; friction-free journaling/logging into the vault.
 - [[ai-second-brain-levels]] — the "5 levels" of a Claude Code second brain; pick the lowest that helps.
 - [[extending-the-llm-wiki]] — roadmap: how this vault instantiates Karpathy's pattern and how to push it further (filed from a query).
 - [[llm-wiki-vs-rag]] — human-readable interlinked wiki vs. opaque vector retrieval.
