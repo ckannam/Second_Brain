@@ -1,0 +1,11 @@
+# OS junk
+.DS_Store
+
+# Obsidian per-machine UI state (churns constantly; not knowledge)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Python
+__pycache__/
+*.pyc
