@@ -20,13 +20,15 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 
 ### Personal bucket — CRM & data sources
 - [ ] **Enrich the top-tier CRM with relationship context** — read message content for the inner-circle (~43) to fill each "Context" section (how you know them, history). Currently records are stats + inferred category only. (added 2026-07-24)
-- [ ] **Instagram** — not reachable via any connector; export your IG data (Settings → Download your information, JSON) and point me at it to catalog the social graph. (added 2026-07-24)
 - [ ] Gmail pass 2 — page the rest of Sent/Inbox to catch email-only professional contacts beyond the Uship team. (added 2026-07-24)
 
 ### Uship
 - [ ] **Build a Uship email responder** — automate replies to the `contact@universityshipping.com` customer inbox (student shipping/storage inquiries); the team currently answers these by hand. [[uship]] [[Uship]] (added 2026-07-24)
 
 ### Vault system
+- [ ] **Build a password holder** — a secure place to store passwords/credentials. ⚠️ Must be **local-only** (gitignored like `crm/`) — never synced to GitHub or the cloud routine — or better, integrate a real password manager rather than plaintext markdown. Decide approach before building. (added 2026-07-24)
+- [ ] **Export Instagram information** — request the IG data export (app → Settings → Accounts Center → *Download your information*, **JSON**; include Messages + Connections), drop the zip in `~/Downloads`, then have the agent ingest it to catalog the social graph. (added 2026-07-24)
+
 - [ ] Fix the raw inbox drift — repoint the Obsidian Web Clipper to `raw/assets/`, or update `AGENTS.md` to say clips land in `raw/`. [[obsidian-web-clipper]] (added 2026-07-24)
 - [ ] Decide whether to build the **Journal** pillar (scaffolded only). [[second-brain-system]] (added 2026-07-24)
 - [ ] Populate the mostly-empty buckets ([[Duke]], [[Uship]], [[JHTV]], [[Job Search]]) as their content lands in the vault. (added 2026-07-24)
