@@ -22,7 +22,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] **Enrich the top-tier CRM with relationship context** — read message content for the inner-circle (~43) to fill each "Context" section (how you know them, history). Currently records are stats + inferred category only. (added 2026-07-24)
 - [ ] Gmail pass 2 — page the rest of Sent/Inbox to catch email-only professional contacts beyond the Uship team. (added 2026-07-24)
 - [ ] **Spotify + concert alerts** — when Spotify is added, set up proactive alerts for nearby/close concerts by Cole's favorite artists (he's into live shows). Pairs with a scheduled/proactive agent. [[proactive-agents]] (added 2026-07-24)
-- [ ] **Add YouTube watch history** — via Google Takeout (complete) and/or desktop browser history (instant, partial) → profile interests/taste. (added 2026-07-24)
+- [ ] **Add YouTube watch history** — ⏳ **Takeout export requested 2026-07-24; awaiting zip in `~/Downloads`.** Ingest watch/search history (JSON) → profile interests/taste when it lands. (added 2026-07-24)
 
 ### Uship
 - [ ] **Build a Uship email responder** — automate replies to the `contact@universityshipping.com` customer inbox (student shipping/storage inquiries); the team currently answers these by hand. [[uship]] [[Uship]] (added 2026-07-24)
