@@ -12,3 +12,6 @@ __pycache__/
 
 # CRM is local-only (personal relationship data; never sync to GitHub or the cloud routine)
 crm/
+
+# Personal profile (identity + derived-from-private-data; local-only)
+profile/
