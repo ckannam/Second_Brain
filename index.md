@@ -66,6 +66,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[n8n]] — node-based automation incumbent, repeatedly contrasted with Claude Code.
 - [[firecrawl]] — turns any website into LLM-ready data (MCP server).
 - [[uship]] — University Shipping: Cole's Duke-focused student shipping/storage venture (see [[Uship]] bucket).
+- [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
 - [[qmd]] — optional local markdown search engine (not yet in use).
 - [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[mcp]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
 
