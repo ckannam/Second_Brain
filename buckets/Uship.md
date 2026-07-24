@@ -11,11 +11,12 @@ entity page [[uship]] for the business overview.
 - [[uship]] — University Shipping business overview (what it is, team, customer base).
 
 ## People (crm/)
-The operating team (identified via `.uss@gmail.com` company addresses; full records local-only):
-- [[John Gorman]] · [[Tag Mehbod]] · [[Ray Kwei]] · [[Daniel Hieman]] · [[Nick Loria]]
+Team (via `.uss@gmail.com` company addresses; full records local-only):
+- **Current:** [[John Gorman]] · [[Matthew Moskow]] · [[Daniel Hieman|Danny Heiman]] · [[Carson Eisner]] · [[Luca Adams-Agresti]] (+ Cole)
+- **Alumni:** [[Tag Mehbod]] · [[Ray Kwei]] · [[Nick Loria]] · [[Marshall Sellingson]]
 
 ## Action items
-- [ ] Confirm each teammate's actual role (cofounder vs. operator) and enrich [[uship]]. (added 2026-07-24)
+- [ ] Confirm each current teammate's specific role and enrich [[uship]]. (added 2026-07-24)
 - [ ] Ingest a primary Uship source (deck / one-pager / site) to document scope + scale. (added 2026-07-24)
 
 ## Sources

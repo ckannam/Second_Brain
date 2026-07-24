@@ -10,28 +10,34 @@ Cole's venture — a **student shipping / storage business** operating out of th
 `universityshipping.com` domain. The life-area hub is the [[Uship]] bucket.
 
 ## What it is
-A campus shipping-and-storage service, **Duke-focused** (the customer base in the outreach
-is heavily `@duke.edu` students plus their parents, with seasonal move-out-season email
-campaigns). _Details of the exact service scope, founding, and scale are not yet documented —
-enrich from a primary source._
+A **"door-to-dorm" shipping and storage** service for college students, **Duke-focused**
+(customer base is heavily `@duke.edu` students plus their parents; sign-up at
+`universityshipping.com/signup`). The team runs on a weekly Tuesday-evening meeting with
+outbound customer-email pushes (Tue/Thu), peaking around move-out season. _Founding date and
+scale not yet documented — enrich from a primary source._
 
-## People
-Cole runs the main `contact@universityshipping.com` address. The operating team is
-identifiable by company `.uss@gmail.com` addresses (from Gmail) — each is also a top iMessage
-contact (records in the local CRM):
+## Team
+Runs out of the shared `contact@universityshipping.com` address; members use company
+`.uss@gmail.com` addresses. Full personal records are in the local CRM.
 
-- **John Gorman** — `john.gorman.uss` · teammate/cofounder (inferred)
-- **Tag Mehbod** — `nmehboduss`
-- **Ray Kwei** — `rkweiuss`
-- **Daniel Heiman** — `daniel.heiman.uss`
-- **Nick Loria** — `nloriauss`
+**Current team** (per the recurring "USHIP WEEKLY MEETING" invite):
+- **Cole** (owner) — `cole.kannamuss` / `contact@universityshipping.com`
+- [[John Gorman]] — `john.gorman.uss`
+- [[Matthew Moskow]] — `matthew.moskow.uss`
+- [[Daniel Hieman|Daniel "Danny" Heiman]] — `daniel.heiman.uss`
+- [[Carson Eisner]] — `carson.eisner.uss`
+- [[Luca Adams-Agresti]] — `luca.adamsagresti.uss` (joined ~Feb 2026)
 
-_(Roles are inferred from company-address usage and customer-thread involvement, not yet
-confirmed.)_
+**Alumni (graduated):**
+- [[Tag Mehbod]] — `nmehboduss`
+- [[Ray Kwei]] — `rkweiuss`
+- [[Nick Loria]] — `nloriauss`
+- [[Marshall Sellingson]] — (personal email only; no `.uss` found)
 
 ## Notes
 - Customers (students/parents) are business contacts, deliberately **not** catalogued as
   personal relationships.
-- Source signal so far is email only (Gmail); no dedicated docs ingested yet.
+- Source signal so far is email only (the connected Gmail is the Uship account,
+  `cole.kannamuss@gmail.com`); no dedicated docs ingested yet.
 
 Related: [[Uship]] (bucket).

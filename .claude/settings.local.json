@@ -11,7 +11,9 @@
       "Bash(git remote *)",
       "Bash(GIT_SSH_COMMAND=\"ssh -o BatchMode=yes\" git push -u origin main)",
       "Skill(schedule)",
-      "mcp__claude_ai_Gmail__search_threads"
+      "mcp__claude_ai_Gmail__search_threads",
+      "Bash(python3 -)",
+      "Bash(python3 autoresearch/score.py)"
     ]
   }
 }

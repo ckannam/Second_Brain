@@ -256,3 +256,12 @@ student-shipping venture; identified the team via `.uss@gmail.com` addresses →
 [[John Gorman]], [[Tag Mehbod]], [[Ray Kwei]], [[Daniel Hieman]], [[Nick Loria]], created the
 [[uship]] entity page, and populated the [[Uship]] bucket. Instagram not reachable (needs a
 data export); JHTV produced no email signal (needs a primary source).
+
+## [2026-07-24] crm | Re-catalogued Uship team (current vs. alumni)
+Corrected the Uship roster per Cole. **Current team:** Cole, [[John Gorman]], [[Matthew Moskow]]
+(created — email-only), [[Daniel Hieman|Danny Heiman]], [[Carson Eisner]], [[Luca Adams-Agresti]]
+(Luca joined ~Feb 2026, found via Gmail). **Alumni (graduated):** [[Tag Mehbod]], [[Ray Kwei]],
+[[Nick Loria]], [[Marshall Sellingson]]. Enriched each CRM record with `uship_status` + company
+`.uss@gmail.com` (and Duke) addresses. Updated the [[uship]] entity (door-to-dorm shipping,
+universityshipping.com/signup, weekly Tue meeting) and the [[Uship]] bucket. Also confirmed the
+connected Gmail IS the Uship account (`cole.kannamuss@gmail.com`), not Cole's personal address.
