@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(ssh -o StrictHostKeyChecking=accept-new -o BatchMode=yes -T git@github.com)",
+      "Bash(git ls-remote *)",
+      "Bash(GIT_SSH_COMMAND=\"ssh -o BatchMode=yes\" git ls-remote git@github.com:ckannam/Second_Brain.git)",
+      "Bash(echo \"EXIT_CODE=$?\")",
+      "Bash(git remote *)",
+      "Bash(GIT_SSH_COMMAND=\"ssh -o BatchMode=yes\" git push -u origin main)",
+      "Skill(schedule)",
+      "mcp__claude_ai_Gmail__search_threads"
+    ]
+  }
+}

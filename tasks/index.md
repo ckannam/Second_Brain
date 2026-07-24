@@ -19,8 +19,9 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
 
 ### Personal bucket — CRM & data sources
-- [ ] Build out the **CRM** — add all the people (one `crm/` file each) with the alphabetical index. [[Personal]] [[second-brain-system]] (added 2026-07-24)
-- [ ] Give the agent **access to Instagram, iMessage, etc.** as data sources so it can learn contacts/relationships to populate the CRM. (added 2026-07-24)
+- [ ] **Enrich the top-tier CRM with relationship context** — read message content for the inner-circle (~43) to fill each "Context" section (how you know them, history). Currently records are stats + inferred category only. (added 2026-07-24)
+- [ ] **Instagram** — not reachable via any connector; export your IG data (Settings → Download your information, JSON) and point me at it to catalog the social graph. (added 2026-07-24)
+- [ ] Gmail pass 2 — page the rest of Sent/Inbox to catch email-only professional contacts beyond the Uship team. (added 2026-07-24)
 
 ### Vault system
 - [ ] Fix the raw inbox drift — repoint the Obsidian Web Clipper to `raw/assets/`, or update `AGENTS.md` to say clips land in `raw/`. [[obsidian-web-clipper]] (added 2026-07-24)
@@ -43,6 +44,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 
 ## Done
 
+- [x] **Catalogued 379 people into the CRM** from iMessage history (mapped to Contacts), tiered by interaction volume, with the alphabetical `crm/index.md`. Kept **local-only** (gitignored). Identified the **Uship team** ([[John Gorman]], [[Tag Mehbod]], [[Ray Kwei]], [[Daniel Hieman]], [[Nick Loria]]) via Gmail and created the [[uship]] entity + populated the [[Uship]] bucket. (done 2026-07-24)
 - [x] Built the **[[vault-autoresearch]]** loop — `git init` (the ratchet) + frozen `autoresearch/score.py` (HEALTH_DEBT metric) + `program.md` + the `vault-autoresearch` skill; proved MODE A self-healing (drove debt 2→0). (done 2026-07-24)
 - [x] Created the 6 **life buckets** as Maps of Content (Duke / Uship / JHTV / Job Search / Personal / Claude Mastery) + `buckets/index.md`, wired into `AGENTS.md` as a re-cuttable overlay. [[buckets/index]] (done 2026-07-24)
 - [x] Stored both **session-opening prompts** in [[session-opening-prompts]] (`--dangerously-skip-permissions` + `--channels plugin:imessage@claude-plugins-official`). (done 2026-07-24)

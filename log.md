@@ -244,3 +244,15 @@ review documented. Proved MODE A live: HEALTH_DEBT 2→0 by indexing [[agentic-n
 (logged in `autoresearch/results.tsv`). Documented as [[vault-autoresearch]]; cross-linked
 from [[autoresearch]], [[self-healing-workflows]], [[extending-the-llm-wiki]], [[index]],
 [[Claude Mastery]], [[tasks/index]].
+
+## [2026-07-24] crm | Catalogued people from iMessage + Gmail
+Built the CRM from device data. iMessage `chat.db` (1,087 handles) mapped to Contacts →
+**379 people** catalogued, one `crm/` file each + alphabetical `crm/index.md`, tiered by
+message volume (inner-circle 43 / close 44 / regular 46 / known 86 / acquaintance 159).
+Records are factual (contact + interaction stats + inferred category); relationship context
+left for enrichment. **`crm/` is local-only (gitignored)** — never synced to GitHub or the
+cloud routine. Gmail (Sent) revealed **Uship = University Shipping**, Cole's Duke-focused
+student-shipping venture; identified the team via `.uss@gmail.com` addresses → enriched
+[[John Gorman]], [[Tag Mehbod]], [[Ray Kwei]], [[Daniel Hieman]], [[Nick Loria]], created the
+[[uship]] entity page, and populated the [[Uship]] bucket. Instagram not reachable (needs a
+data export); JHTV produced no email signal (needs a primary source).

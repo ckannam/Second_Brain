@@ -4,19 +4,22 @@ created: 2026-07-24
 ---
 # Uship  (bucket / MOC)
 
-Uship venture / work. (Define scope: what Uship is and your role.)
+**University Shipping** — Cole's Duke-focused student shipping/storage venture. See the
+entity page [[uship]] for the business overview.
 
 ## Knowledge (wiki)
-- _(none in the vault yet)_
+- [[uship]] — University Shipping business overview (what it is, team, customer base).
 
 ## People (crm/)
-- _(none yet)_
+The operating team (identified via `.uss@gmail.com` company addresses; full records local-only):
+- [[John Gorman]] · [[Tag Mehbod]] · [[Ray Kwei]] · [[Daniel Hieman]] · [[Nick Loria]]
 
 ## Action items
-- _(none yet — will link into [[tasks/index]])_
+- [ ] Confirm each teammate's actual role (cofounder vs. operator) and enrich [[uship]]. (added 2026-07-24)
+- [ ] Ingest a primary Uship source (deck / one-pager / site) to document scope + scale. (added 2026-07-24)
 
 ## Sources
-- _(none yet)_
+- Gmail (email-only signal so far — no docs ingested).
 
 *Scaffold. Add links here as content arrives. Buckets are a link overlay; pages live in
 their home folders (wiki/, crm/, …) and can be re-bucketed anytime.*
