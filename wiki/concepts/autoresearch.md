@@ -52,3 +52,5 @@ Karpathy frames autoresearch as the seed of **recursive self-improvement** — w
 ## Sources & links
 Sources: [[autoresearch-repo]] (the repo itself — README, `program.md`, `prepare.py`), [[autoresearch-tutorial-david-andre]], [[claude-code-karpathy-autoresearch-nick-saraev]], [[autoresearch-broke-internet-greg-isenberg]], and the origin interview [[skill-issue-karpathy-sarah-guo]].
 Related: [[andrej-karpathy]], [[agent-hub]], [[nanochat]], [[agentic-workflows]], [[self-healing-workflows]], [[claude-code-scheduled-tasks]] (the run-while-you-sleep loop), [[claude-code]] / [[codex]] (the agents that drive it), [[eval-driven-model-selection]], [[selling-ai-automations]].
+
+**Applied to this vault:** [[vault-autoresearch]] adapts this exact loop (frozen evaluator + one editable surface + git ratchet) to knowledge upkeep — a HEALTH_DEBT metric the wiki drives to 0.

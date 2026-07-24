@@ -40,6 +40,10 @@ and hands more of the loop to the agent.
 | [[qmd]] optional search tooling | A local markdown-search fallback for when index-summary retrieval isn't enough (the grep-sweep option shelved from the skill design). |
 | **Self-healing** ([[agentic-workflows]], [[self-healing-workflows]]) | Point self-healing at the vault's own upkeep: broken wikilinks, orphan pages, stale model claims fixed autonomously. |
 
+**Shipped 2026-07-24:** the self-healing + AutoResearch rungs are now built — see
+[[vault-autoresearch]] (git ratchet + a HEALTH_DEBT metric). The scheduled *source-seeking*
+rung remains open.
+
 ## The throughline
 
 Each rung is a step up the [[ai-second-brain-levels]] ladder — from a well-maintained manual

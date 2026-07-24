@@ -232,3 +232,15 @@ YouTube explainers → [[autoresearch-tutorial-david-andre]], [[claude-code-karp
 ## [2026-07-24] tasks | Captured AutoResearch follow-up
 Added an open item to try an autoresearch loop hands-on (GPU access). Noted again that the
 raw inbox drift recurred (clips landed in `raw/`, not `raw/assets/`).
+
+## [2026-07-24] build | Vault AutoResearch loop (self-healing + AutoResearch)
+Implemented Karpathy's [[autoresearch]] loop against the vault (all phases). Phase 0:
+`git init` (the keep/revert ratchet) + baseline commit. Phase 1: frozen `autoresearch/score.py`
+emitting **HEALTH_DEBT** (3·orphans + 2·missing-from-index + 1·stale-claims; soft signals
+reported but unscored to keep the metric trustworthy). Phases 2-3: `autoresearch/program.md`
+(MODE A self-healing → `main`; MODE B generative → `autoresearch/pending` review branch) +
+the `vault-autoresearch` skill. Phases 4-5: overnight scheduling recipe + branch-based human
+review documented. Proved MODE A live: HEALTH_DEBT 2→0 by indexing [[agentic-note-taking]]
+(logged in `autoresearch/results.tsv`). Documented as [[vault-autoresearch]]; cross-linked
+from [[autoresearch]], [[self-healing-workflows]], [[extending-the-llm-wiki]], [[index]],
+[[Claude Mastery]], [[tasks/index]].

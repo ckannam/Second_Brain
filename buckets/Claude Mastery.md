@@ -14,6 +14,7 @@ Skill mastery tracks: **prompt max · token max · skill max · agent max** (+ t
 - Memory & autonomy: [[claude-code-memory]], [[claude-code-scheduled-tasks]], [[claude-code-permissions]], [[claude-code-hooks]].
 - Vault meta: [[llm-wiki-pattern]], [[second-brain-system]], [[ai-second-brain-levels]], [[extending-the-llm-wiki]], [[overview]].
 - Self-improving loops: [[autoresearch]] ([[andrej-karpathy]]), [[agent-hub]], [[nanochat]], [[self-healing-workflows]] — the frontier rung of [[agentic-workflows]] (sources [[autoresearch-repo]], [[autoresearch-tutorial-david-andre]], [[claude-code-karpathy-autoresearch-nick-saraev]], [[autoresearch-broke-internet-greg-isenberg]]).
+- Built here: [[vault-autoresearch]] — the self-healing + AutoResearch loop running on this vault (`autoresearch/` + the `vault-autoresearch` skill).
 - Reference: [[session-opening-prompts]].
 
 ## Code with Claude — Anthropic first-party (parallel batch)
