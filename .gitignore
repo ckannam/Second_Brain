@@ -9,3 +9,6 @@
 # Python
 __pycache__/
 *.pyc
+
+# CRM is local-only (personal relationship data; never sync to GitHub or the cloud routine)
+crm/
