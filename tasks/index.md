@@ -19,9 +19,10 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
 
 ### Personal bucket — finance
-- [ ] Pick a **data-connection method** for BofA (spending) + Vanguard (investments) — recommend manual CSV export into local-only `finance/` to start; a Plaid-based app later. [[data-connection]] (added 2026-07-25)
+- [ ] Data connection — **decided 2026-07-25: no paid apps** (Tiller/Monarch declined). Free path = **Empower Personal Dashboard** (fka Personal Capital) for the investment/net-worth dashboard + occasional **manual CSV export** into local-only `finance/` when Cole wants a spending/holdings analysis. [[data-connection]] (added 2026-07-25)
 - [ ] **Personalize** the investment plan with real numbers (savings/emergency fund, Uship take-home, existing accounts, risk tolerance). [[investment-plan]] (added 2026-07-25)
 - [ ] Set a **biotech-vs-med-school decision trigger** that flips the investing mode (Scenario A vs B). [[investment-plan]] (added 2026-07-25)
+- [ ] 🔽 **LOW PRIORITY / someday** — build a **DIY Plaid export script** (self-hosted, no paid app): scaffold in free Plaid **Sandbox** first, then only pursue if willing to do Plaid **Production** approval + BofA OAuth enablement. Runs on the nightly `@local` lane → writes to local-only `finance/`; keys/token in Keychain, never the vault. [[data-connection]] (added 2026-07-25)
 
 ### Personal bucket — CRM & data sources
 - [ ] **Enrich the top-tier CRM with relationship context** — read message content for the inner-circle (~43) to fill each "Context" section (how you know them, history). Currently records are stats + inferred category only. (added 2026-07-24)
@@ -37,7 +38,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] **Export Instagram information** — request the IG data export (app → Settings → Accounts Center → *Download your information*, **JSON**; include Messages + Connections), drop the zip in `~/Downloads`, then have the agent ingest it to catalog the social graph. (added 2026-07-24)
 
 - [ ] Decide whether to build the **Journal** pillar (scaffolded only). [[second-brain-system]] (added 2026-07-24)
-- [ ] Populate the mostly-empty buckets ([[Duke]], [[Uship]], [[JHTV]], [[Job Search]]) as their content lands in the vault. (added 2026-07-24)
+- [ ] Populate the buckets — ✅ [[Uship]], [[JHTV]], [[Job Search]] done; [[Duke]] structured by org/club but **awaiting Cole to name key people per group** so they can be tagged `category: Duke`. (updated 2026-07-25)
 
 ### AutoResearch (Karpathy)
 - **Nightly automation = TWO coordinated lanes (chosen 2026-07-25 for resilience over a single merged routine):**
