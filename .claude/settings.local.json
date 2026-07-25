@@ -13,7 +13,11 @@
       "Skill(schedule)",
       "mcp__claude_ai_Gmail__search_threads",
       "Bash(python3 -)",
-      "Bash(python3 autoresearch/score.py)"
+      "Bash(python3 autoresearch/score.py)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(git -c 'user.name=Cole Kannam' -c user.email=colekannam@gmail.com commit -q -m 'Fix raw-inbox drift: sweep both raw/assets and root assets/ *)",
+      "Bash(GIT_SSH_COMMAND=\"ssh -o BatchMode=yes\" git push -q origin main)"
     ]
   }
 }

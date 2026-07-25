@@ -37,6 +37,11 @@ truth. **Never edit a source's content.** Files move through a two-stage lifecyc
 (relocating a file is bookkeeping, not modifying it):
 - **`raw/assets/`** — Inbox. New data lands here first (point the Obsidian Web Clipper's
   note location here). Anything in `assets/` is unprocessed and waiting to be ingested.
+  - **Drift-proofing:** the Web Clipper's *default* note location is the **vault-root
+    `assets/`** folder, not `raw/assets/`. So the ingest routine treats the inbox as **any
+    source not yet in `raw/Processed/`, sweeping both `raw/assets/` and root `assets/`** — a
+    misconfigured clipper can never silently lose a clip. Best practice is still to point the
+    clipper at `raw/assets/`.
 - **`raw/Processed/`** — After a source is fully ingested, move the source file here so
   `assets/` only ever shows the unprocessed queue.
 

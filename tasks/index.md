@@ -36,7 +36,6 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] **Build a password holder** — a secure place to store passwords/credentials. ⚠️ Must be **local-only** (gitignored like `crm/`) — never synced to GitHub or the cloud routine — or better, integrate a real password manager rather than plaintext markdown. Decide approach before building. (added 2026-07-24)
 - [ ] **Export Instagram information** — request the IG data export (app → Settings → Accounts Center → *Download your information*, **JSON**; include Messages + Connections), drop the zip in `~/Downloads`, then have the agent ingest it to catalog the social graph. (added 2026-07-24)
 
-- [ ] Fix the raw inbox drift — repoint the Obsidian Web Clipper to `raw/assets/`, or update `AGENTS.md` to say clips land in `raw/`. [[obsidian-web-clipper]] (added 2026-07-24)
 - [ ] Decide whether to build the **Journal** pillar (scaffolded only). [[second-brain-system]] (added 2026-07-24)
 - [ ] Populate the mostly-empty buckets ([[Duke]], [[Uship]], [[JHTV]], [[Job Search]]) as their content lands in the vault. (added 2026-07-24)
 
@@ -59,6 +58,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 
 ## Done
 
+- [x] **Fixed the raw-inbox drift** — clipper defaults to vault-root `assets/` (not `raw/assets/`); made ingest + `AGENTS.md` sweep **both** inboxes so no clip is lost, and cleared a stray duplicate. [[obsidian-web-clipper]] (done 2026-07-25)
 - [x] **Created the overnight schedule** — cloud routine `Vault AutoResearch (nightly)` runs 2 AM ET; fired 2026-07-25 and opened a MODE B branch. [[vault-autoresearch]] (done 2026-07-25)
 - [x] **Catalogued 379 people into the CRM** from iMessage history (mapped to Contacts), tiered by interaction volume, with the alphabetical `crm/index.md`. Kept **local-only** (gitignored). Identified the **Uship team** ([[John Gorman]], [[Tag Mehbod]], [[Ray Kwei]], [[Daniel Hieman]], [[Nick Loria]]) via Gmail and created the [[uship]] entity + populated the [[Uship]] bucket. (done 2026-07-24)
 - [x] Built the **[[vault-autoresearch]]** loop — `git init` (the ratchet) + frozen `autoresearch/score.py` (HEALTH_DEBT metric) + `program.md` + the `vault-autoresearch` skill; proved MODE A self-healing (drove debt 2→0). (done 2026-07-24)
