@@ -265,3 +265,7 @@ Corrected the Uship roster per Cole. **Current team:** Cole, [[John Gorman]], [[
 `.uss@gmail.com` (and Duke) addresses. Updated the [[uship]] entity (door-to-dorm shipping,
 universityshipping.com/signup, weekly Tue meeting) and the [[Uship]] bucket. Also confirmed the
 connected Gmail IS the Uship account (`cole.kannamuss@gmail.com`), not Cole's personal address.
+
+## [2026-07-25] autoresearch | Nightly AutoResearch run
+MODE A: HEALTH_DEBT was already 0 (no orphans, no missing-from-index, no stale-claims). Nothing to fix.
+MODE B: Filled [[adversarial-code-review]] stub from a 6-line placeholder to a substantive synthesis page drawing from [[codex-plugin-for-claude-code]], [[running-ai-native-engineering-org]], [[how-we-claude-code]], [[mechanism-over-output]], and [[ai-native-engineering-org]]. Added links to Fiona Fung's "spec drift" framing, the multi-model vs self-review distinction, and the mechanism-over-output trust connection. Proposed on branch `autoresearch/night-2026-07-25` for review.
