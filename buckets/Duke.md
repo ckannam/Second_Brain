@@ -13,7 +13,9 @@ minors **Chemistry** & **I&E**, GPA **3.91**. Coursework, research, Greek life, 
 - **NeuroTech Consulting Club** — Cole = *Lead Consultant* (Duke labs + Durham neurotech startups). Members: _(…)_
 - **Duke Shave & Buzz** — Cole = *Sponsorship Chair*; raised **$380K+** for adolescent cancer research. People: _(…)_
 - **Mission Brain** · **South Indian Club**. People: _(…)_
+- **Research — [[marsh-memory-lab|Marsh Memory Lab]]** (Psychology; PSY 394 independent study, metacognition/IoED). PI [[Elizabeth Marsh]], mentor [[Joyce Park]].
 - **Research — CIPHER / Devinney Lab** (postoperative delirium, intraoperative EEG). Colleagues/PI: _(…)_
+- **Closest professors:** [[Doug Speight]] (I&E) · [[Brian Cox]].
 
 ## People (crm/)
 Known Duke contacts so far: [[Jack Carey]], [[Matt Herman]], [[James Merritt]].
@@ -26,5 +28,9 @@ fast way is **human-curated by group**: Cole names the key people under each org
 the agent then tags each person's CRM record (`category: Duke` + `Bucket: [[Duke]]`) and links them
 here. As Duke topics earn their own pages (clubs, labs, the frat), link them under Knowledge.
 
+## Coursework & academics
+- **[[coursework/index|Fall 2026 coursework]]** — per-class management dashboard (parallel to Canvas).
+- **[[academics]]** — transcript, course history, GPA (local-only).
+
 ## Knowledge (wiki)
-- _(none yet — add as Duke topics get pages.)_
+- [[marsh-memory-lab]] — Cole's metacognition research (editing depth & the Illusion of Explanatory Depth); ties to [[vault-autoresearch]] / [[llm-wiki-pattern]].

@@ -273,3 +273,21 @@ Set up an investment-planning area in the **local-only** (gitignored) `finance/`
 data — recommend manual CSV export first, Plaid-based app later; credentials never in the
 vault). Linked from the [[Personal]] bucket; added 3 finance tasks to [[tasks/index]]. No
 account numbers, balances, or credentials stored anywhere.
+
+## [2026-07-25] build | Finance planning tool (local-only) — a first-class part of the project
+Per Cole's direction, made his financial future a central part of the vault (portfolio =
+the biggest piece), planning-based and **not** dependent on live bank data. Built in the
+local-only `finance/` folder: `index.md` (money & freedom hub — goals anchored to his
+"freedom" north star + the Freedom Number framework + open inputs), rewrote `investment-plan.md`
+(70/30 VTI/VBR engine, account waterfall, reconciled to the operator-first NYC path — med
+school demoted to contingency), and `financial-roadmap.md` (life-stage fuel schedule: the
+golden low-expense window now → senior year → the post-grad NYC budget model → scaling).
+Grounded in `profile/cole.md` + [[five-year-plan]]. Linked from the [[Personal]] bucket;
+updated the finance tasks (define the Freedom Number; open a Roth now; personalize). No
+account numbers/credentials stored; everything stays gitignored.
+
+## [2026-07-25] build | Target compensation research (finance/comp-targets.md)
+Researched new-grad target salaries for Cole's 3 paths (2026 web sources, cited): JHTV/tech-
+transfer ~$60–75k (Baltimore), startup operator ~$80–95k+equity (NYC, primary), VC
+analyst/associate ~$95–130k all-in (NYC, stretch). Set planning anchor to **~$85k NYC operator**
+(raised the $75k placeholder). Linked from [[finance/index]], [[Job Search]], [[investment-plan]].

@@ -67,6 +67,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[firecrawl]] — turns any website into LLM-ready data (MCP server).
 - [[uship]] — University Shipping: Cole's Duke-focused student shipping/storage venture (see [[Uship]] bucket).
 - [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
+- [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]).
 - [[qmd]] — optional local markdown search engine (not yet in use).
 - [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[mcp]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
 
