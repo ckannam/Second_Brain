@@ -29,7 +29,8 @@ the agent then tags each person's CRM record (`category: Duke` + `Bucket: [[Duke
 here. As Duke topics earn their own pages (clubs, labs, the frat), link them under Knowledge.
 
 ## Coursework & academics
-- **[[coursework/index|Fall 2026 coursework]]** — per-class management dashboard (parallel to Canvas).
+- **[[coursework/index|Senior Fall (Fall 2026)]]** — per-class management dashboard (parallel to Canvas).
+  Classes: [[inorganic-chemistry-2|Inorganic Chem II]] · [[fmri|fMRI]] · [[intro-brain-systems|Intro to Brain Systems]] · [[psy-394-marsh-lab|PSY 394 (Marsh Lab)]].
 - **[[academics]]** — transcript, course history, GPA (local-only).
 
 ## Knowledge (wiki)

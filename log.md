@@ -291,3 +291,11 @@ Researched new-grad target salaries for Cole's 3 paths (2026 web sources, cited)
 transfer ~$60–75k (Baltimore), startup operator ~$80–95k+equity (NYC, primary), VC
 analyst/associate ~$95–130k all-in (NYC, stretch). Set planning anchor to **~$85k NYC operator**
 (raised the $75k placeholder). Linked from [[finance/index]], [[Job Search]], [[investment-plan]].
+
+## [2026-07-25] finance | Captured real snapshot + analysis (local-only)
+Cole provided actual account balances + expected income; recorded in local-only
+`finance/snapshot.md` (a living net-worth record) and pointed [[finance/index]] at it. Ran the
+analysis and updated the finance tasks — headline actions: max the Roth (underfunded vs
+taxable), verify the Roth is actually invested, move idle checking to a HYSA, deploy the
+incoming income into the 70/30 plan. No balances in this synced log; all figures stay in
+gitignored `finance/`.

@@ -22,8 +22,11 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] Data connection — **decided 2026-07-25: no paid apps** (Tiller/Monarch declined). Free path = **Empower Personal Dashboard** (fka Personal Capital) for the investment/net-worth dashboard + occasional **manual CSV export** into local-only `finance/` when Cole wants a spending/holdings analysis. [[data-connection]] (added 2026-07-25)
 - ✅ **Built the finance planning tool** (2026-07-25): [[finance/index]] hub + [[investment-plan]] (portfolio + Freedom Number) + [[financial-roadmap]] (life-stage plan incl. post-grad NYC budget). Grounded in profile + 5-year plan; no live data needed.
 - [ ] **Define the Freedom Number** — the key missing input: pick the annual "freedom income" you want; ×25 = target portfolio. Then the plan reverse-engineers the monthly contribution. [[finance/index]] [[five-year-plan]] (added 2026-07-25)
-- [ ] **Personalize with real numbers** — answer the open inputs in [[finance/index]] (Roth/brokerage open? balances? Uship take-home? VXUS yes/no? risk gut-check). (added 2026-07-25)
-- [ ] **Now-window action:** open/fund a **Roth IRA** while expenses are ~zero (living at home) — the golden savings window. [[financial-roadmap]] (added 2026-07-25)
+- ✅ **Captured real numbers** (2026-07-25) → [[snapshot]]: net worth ~$14.7k (checking $3k · taxable $8.9k · Roth $2.8k) + ~$47–55k incoming over the year (JHTV/Uship/grandma).
+- [ ] 💰 **Max the Roth** — ⏳ **planned Sept 2026** with the next Uship check (Cole's call, deliberate). Fund 2026 to ~$7k (at $2.8k), then max 2027 in Jan. *(No rush: 2026 Roth can be funded until Tax Day ~April 2027.)* [[snapshot]] (added 2026-07-25)
+- [ ] **Verify the Roth is invested** in VTI/VBR, not idle settlement cash (the 3.5% return is a flag). [[snapshot]] (added 2026-07-25)
+- [ ] Move idle checking → **HYSA (~4%)** + start the emergency fund. [[financial-roadmap]] (added 2026-07-25)
+- [ ] **VXUS decision** — add ~20% international or keep US-only 70/30? [[investment-plan]] (added 2026-07-25)
 - [ ] 🔽 **LOW PRIORITY / someday** — build a **DIY Plaid export script** (self-hosted, no paid app): scaffold in free Plaid **Sandbox** first, then only pursue if willing to do Plaid **Production** approval + BofA OAuth enablement. Runs on the nightly `@local` lane → writes to local-only `finance/`; keys/token in Keychain, never the vault. [[data-connection]] (added 2026-07-25)
 
 ### Personal bucket — CRM & data sources
