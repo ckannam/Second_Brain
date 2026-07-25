@@ -36,7 +36,8 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] Populate the mostly-empty buckets ([[Duke]], [[Uship]], [[JHTV]], [[Job Search]]) as their content lands in the vault. (added 2026-07-24)
 
 ### AutoResearch (Karpathy)
-- [ ] **Nightly action-item pipeline** — tag board items by execution class (@cloud / @local / @human), triage a vetted "tonight's queue," have the overnight routine(s) work the eligible ones → morning review. Two lanes: cloud routine (synced/research tasks) + a new *local* nightly agent (personal-data tasks). [[vault-autoresearch]] [[claude-code-scheduled-tasks]] [[proactive-agents]] (added 2026-07-25)
+- [ ] **Nightly action-item pipeline — Phase 2 (@local lane):** a *local* nightly agent (on the Mac, full disk access) to work personal-data tasks (CRM enrichment from messages, ingest IG/YouTube exports). Needs a local scheduled job + Mac staying awake. [[claude-code-scheduled-tasks]] [[proactive-agents]] (added 2026-07-25)
+  - ✅ **Phase 1 (@cloud lane) shipped 2026-07-25:** `autoresearch/nightly-queue.md` + routine MODE C + web tools; works vetted research tasks overnight → morning review.
 - [ ] **Build the source-seeking (MODE B) rung** — extend the loop to propose *new sources to ingest*, not just heal defects (the furthest roadmap rung). [[proactive-agents]] [[extending-the-llm-wiki]] (added 2026-07-24)
 - [ ] Tune HEALTH_DEBT weights / add metrics as the vault grows (e.g. promote reciprocal-link gaps into the score once noise is understood). [[vault-autoresearch]] (added 2026-07-24)
 - [ ] Try an **autoresearch loop hands-on** — clone `karpathy/autoresearch`, run it via [[claude-code]] on a rented GPU (Colab T4 / Lambda / RunPod), or adapt the pattern to a business metric (cold email, CRO). [[autoresearch]] [[autoresearch-repo]] (added 2026-07-24)
