@@ -22,6 +22,7 @@ the professional overview.
 
 ## People (crm/) — network
 - [[Stewart Neifart]] — head of Capital Strategy at JHTV; VC + startup relationships → **intros** (see [[stewart-1on1-prep]]).
+- **[[Pike Alumni Directory]]** — ~1,000 PIKE (Duke) alumni as a warm-intro channel, curated for Cole's lanes. **Marquee: Brad Lightcap, COO of OpenAI** (a PIKE brother). Also recent-grad peers in finance/VC/tech/consulting, NYC-heavy.
 - _(Add JHTV colleagues, NeuroTech contacts, and any founder/investor intros as they come.)_
 
 ## Knowledge (wiki)

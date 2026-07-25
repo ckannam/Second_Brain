@@ -9,8 +9,8 @@ Self, health, discipline, relationships, and the people CRM.
 ## Knowledge (wiki)
 - Discipline & behavior change: [[discipline-without-willpower]], [[how-to-build-discipline]], [[temporal-discounting]], [[temptation-bundling]], [[cue-routine-reward-loop]], [[identity-led-goals]], [[environment-design]].
 
-## Finance (local-only)
-- [[investment-plan]] — long-term 70/30 VTI/VBR, biotech-vs-med-school scenarios. · [[data-connection]] — safe way to connect BofA + Vanguard. _(Details live in gitignored `finance/`; never synced.)_
+## Finance (local-only) — a first-class part of the project
+- **[[finance/index]]** — the money & freedom hub. Under it: [[investment-plan]] (70/30 VTI/VBR portfolio + the Freedom Number), [[financial-roadmap]] (life-stage plan incl. the post-grad NYC budget), [[data-connection]] (no live data needed). _(All in gitignored `finance/`; never synced.)_
 
 ## People (crm/)
 - Building — see `crm/index.md`. Data sources to connect: Instagram, iMessage.
