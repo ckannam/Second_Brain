@@ -18,6 +18,11 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] **Agent max** — master agent orchestration: sub-agents + agent teams. [[claude-code-subagents]] [[claude-code-agent-teams]] (added 2026-07-24)
 - [ ] **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
 
+### Personal bucket — finance
+- [ ] Pick a **data-connection method** for BofA (spending) + Vanguard (investments) — recommend manual CSV export into local-only `finance/` to start; a Plaid-based app later. [[data-connection]] (added 2026-07-25)
+- [ ] **Personalize** the investment plan with real numbers (savings/emergency fund, Uship take-home, existing accounts, risk tolerance). [[investment-plan]] (added 2026-07-25)
+- [ ] Set a **biotech-vs-med-school decision trigger** that flips the investing mode (Scenario A vs B). [[investment-plan]] (added 2026-07-25)
+
 ### Personal bucket — CRM & data sources
 - [ ] **Enrich the top-tier CRM with relationship context** — read message content for the inner-circle (~43) to fill each "Context" section (how you know them, history). Currently records are stats + inferred category only. (added 2026-07-24)
 - [ ] Gmail pass 2 — page the rest of Sent/Inbox to catch email-only professional contacts beyond the Uship team. (added 2026-07-24)
@@ -36,8 +41,10 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] Populate the mostly-empty buckets ([[Duke]], [[Uship]], [[JHTV]], [[Job Search]]) as their content lands in the vault. (added 2026-07-24)
 
 ### AutoResearch (Karpathy)
-- [ ] **Nightly action-item pipeline — Phase 2 (@local lane):** a *local* nightly agent (on the Mac, full disk access) to work personal-data tasks (CRM enrichment from messages, ingest IG/YouTube exports). Needs a local scheduled job + Mac staying awake. [[claude-code-scheduled-tasks]] [[proactive-agents]] (added 2026-07-25)
-  - ✅ **Phase 1 (@cloud lane) shipped 2026-07-25:** `autoresearch/nightly-queue.md` + routine MODE C + web tools; works vetted research tasks overnight → morning review.
+- **Nightly automation = TWO coordinated lanes (chosen 2026-07-25 for resilience over a single merged routine):**
+  - ✅ **@cloud lane** — cloud routine `Vault AutoResearch (nightly)` (2 AM ET, always-on even if Mac off): self-heal + 1 generative + `autoresearch/nightly-queue.md` research (MODE C, web tools). Works on a review branch → morning PR.
+  - ✅ **@local lane** — local `daily-ingest` scheduled task (~3 AM, needs Mac awake): **only** ingests `raw/assets/` clips → wiki per AGENTS.md, commits to main. Scoped to stay out of the cloud lane. *(SKILL.md rewritten 2026-07-25.)*
+  - [ ] **Extend the @local lane** to also do personal-data tasks (CRM enrichment from messages, ingest IG/YouTube exports) once those are ready. [[proactive-agents]] (added 2026-07-25)
 - [ ] **Build the source-seeking (MODE B) rung** — extend the loop to propose *new sources to ingest*, not just heal defects (the furthest roadmap rung). [[proactive-agents]] [[extending-the-llm-wiki]] (added 2026-07-24)
 - [ ] Tune HEALTH_DEBT weights / add metrics as the vault grows (e.g. promote reciprocal-link gaps into the score once noise is understood). [[vault-autoresearch]] (added 2026-07-24)
 - [ ] Try an **autoresearch loop hands-on** — clone `karpathy/autoresearch`, run it via [[claude-code]] on a rented GPU (Colab T4 / Lambda / RunPod), or adapt the pattern to a business metric (cold email, CRO). [[autoresearch]] [[autoresearch-repo]] (added 2026-07-24)

@@ -265,3 +265,11 @@ Corrected the Uship roster per Cole. **Current team:** Cole, [[John Gorman]], [[
 `.uss@gmail.com` (and Duke) addresses. Updated the [[uship]] entity (door-to-dorm shipping,
 universityshipping.com/signup, weekly Tue meeting) and the [[Uship]] bucket. Also confirmed the
 connected Gmail IS the Uship account (`cole.kannamuss@gmail.com`), not Cole's personal address.
+
+## [2026-07-25] build | Finance planning area (local-only)
+Set up an investment-planning area in the **local-only** (gitignored) `finance/` folder:
+`investment-plan.md` (long-term target + biotech-vs-med-school scenarios, grounded in
+`profile/cole.md`) and `data-connection.md` (safe options for connecting bank/investment
+data — recommend manual CSV export first, Plaid-based app later; credentials never in the
+vault). Linked from the [[Personal]] bucket; added 3 finance tasks to [[tasks/index]]. No
+account numbers, balances, or credentials stored anywhere.
