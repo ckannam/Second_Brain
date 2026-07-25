@@ -36,7 +36,6 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] Populate the mostly-empty buckets ([[Duke]], [[Uship]], [[JHTV]], [[Job Search]]) as their content lands in the vault. (added 2026-07-24)
 
 ### AutoResearch (Karpathy)
-- [ ] **Create the overnight schedule** — wire the [[vault-autoresearch]] loop to run unattended via desktop `/schedule` or a GitHub Actions cron (`claude -p "run the vault-autoresearch loop"`). [[claude-code-scheduled-tasks]] (added 2026-07-24)
 - [ ] **Build the source-seeking (MODE B) rung** — extend the loop to propose *new sources to ingest*, not just heal defects (the furthest roadmap rung). [[proactive-agents]] [[extending-the-llm-wiki]] (added 2026-07-24)
 - [ ] Tune HEALTH_DEBT weights / add metrics as the vault grows (e.g. promote reciprocal-link gaps into the score once noise is understood). [[vault-autoresearch]] (added 2026-07-24)
 - [ ] Try an **autoresearch loop hands-on** — clone `karpathy/autoresearch`, run it via [[claude-code]] on a rented GPU (Colab T4 / Lambda / RunPod), or adapt the pattern to a business metric (cold email, CRO). [[autoresearch]] [[autoresearch-repo]] (added 2026-07-24)
@@ -51,6 +50,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 
 ## Done
 
+- [x] **Created the overnight schedule** — cloud routine `Vault AutoResearch (nightly)` runs 2 AM ET; fired 2026-07-25 and opened a MODE B branch. [[vault-autoresearch]] (done 2026-07-25)
 - [x] **Catalogued 379 people into the CRM** from iMessage history (mapped to Contacts), tiered by interaction volume, with the alphabetical `crm/index.md`. Kept **local-only** (gitignored). Identified the **Uship team** ([[John Gorman]], [[Tag Mehbod]], [[Ray Kwei]], [[Daniel Hieman]], [[Nick Loria]]) via Gmail and created the [[uship]] entity + populated the [[Uship]] bucket. (done 2026-07-24)
 - [x] Built the **[[vault-autoresearch]]** loop — `git init` (the ratchet) + frozen `autoresearch/score.py` (HEALTH_DEBT metric) + `program.md` + the `vault-autoresearch` skill; proved MODE A self-healing (drove debt 2→0). (done 2026-07-24)
 - [x] Created the 6 **life buckets** as Maps of Content (Duke / Uship / JHTV / Job Search / Personal / Claude Mastery) + `buckets/index.md`, wired into `AGENTS.md` as a re-cuttable overlay. [[buckets/index]] (done 2026-07-24)
