@@ -299,3 +299,26 @@ analysis and updated the finance tasks — headline actions: max the Roth (under
 taxable), verify the Roth is actually invested, move idle checking to a HYSA, deploy the
 incoming income into the 70/30 plan. No balances in this synced log; all figures stay in
 gitignored `finance/`.
+
+## [2026-07-25] ingest | JHTV — org, Capital Strategy, and Cole's tools
+Ingested Cole's JHTV materials (homepage / FastForward / Translational Funding / People pages
+from jhtv.org + GitHub repo snapshots of his two projects). Enriched [[jhtv]] with FY25 facts
+(2,000+ techs, 130+ startups, $4.8B raised, since 2014). Created [[fast-forward]],
+[[translational-funding]], [[capital-strategy]] (the team's mandate + Cole's actual work), and
+project pages [[vc-matching-second-brain]] (his flagship tech→VC auto-matcher — 151 commits, 391
+PitchBook investors, Vercel API, Claude Code) and [[jhtv-grant-finder]] (non-dilutive grant finder
++ AI deadline-updater skill). Populated the [[JHTV]] bucket. **Confidentiality:** licensed
+PitchBook data left in the repos, not copied here; the JHTV staff directory (People page) was
+not catalogued. Moved 6 sources to Processed (deduped one clip).
+
+## [2026-07-25] ingest | JHTV work — deepened from Cole's local repos/files
+Cole pointed to 5 local work dirs (~/Documents: JHTV Second Brain, JHU VC DATABASE, TF reviews,
+Grant Finder, Application Memo). Explored **read-only**; enriched [[vc-matching-second-brain]]
+with the real architecture (JSON-in-git as DB, client-side scoring, Claude+web-search backend
+that auto-researches unknown VCs, ~74 techs/~28 VCs/827 people, shares a grant engine with the
+external Grant Finder). Added two responsibilities to [[capital-strategy]]: **reviewing
+Translational Funding applications** (Spring 2026 review tracker) and **writing application
+memos/one-pagers** (built templates), plus the JHU VC network database.
+**Confidentiality upheld:** did NOT copy any proprietary/licensed content into the vault —
+PitchBook data, the JHU_VC_Network.xlsx, TF review docs, and application memos stay in Cole's
+local repos only. Only experience-level descriptions were written.

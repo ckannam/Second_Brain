@@ -98,6 +98,10 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Products / rivals
 - [[cal-ai]] — $100M vibecoded calorie app.
 
+### JHTV — org & Cole's work (see the [[JHTV]] bucket)
+- [[jhtv]] · [[fast-forward]] · [[translational-funding]] — the org, accelerator, and funding landscape.
+- [[capital-strategy]] — Cole's role/team. · [[vc-matching-second-brain]] — his flagship tech→VC matcher. · [[jhtv-grant-finder]] — his grant finder.
+
 ## Concepts
 
 ### LLM Wiki / knowledge systems

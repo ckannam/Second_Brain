@@ -6,15 +6,24 @@ created: 2026-07-24
 
 # Johns Hopkins Technology Ventures (JHTV)
 
-The technology-transfer / commercialization arm of Johns Hopkins — moving early-stage Hopkins
-research and **spinouts** toward funding and market. Life-area hub: the [[JHTV]] bucket.
+The technology-transfer / commercialization arm of Johns Hopkins — the "front door" (since
+2014) moving early-stage Hopkins research and **spinouts** toward funding and market via a
+**tripartite alliance** (Hopkins + government + industry). Life-area hub: the [[JHTV]] bucket.
 
-## Cole's role
+## By the numbers (FY25)
+- **2,000+** technologies for licensing · **130+** commercial startups formed
+- **$4.8B** venture funding raised by portfolio companies · **43,000 sq ft** incubator space
+- **70+** active research collaborations. Motto: *"Research Saves Lives."*
+- Accelerator/incubator arm: **[[fast-forward|FastForward]]**. Non-dilutive funding:
+  **[[translational-funding]]**. Example spinout: JuneBrain (telehealth OCT + AI for retinal/neuro).
+
+## Cole's role — [[capital-strategy|Capital Strategy]]
 **Capital Strategy Intern** (Baltimore, since **June 2026**). Maps and engages **VC, corporate,
-and philanthropic funders** to find capital pathways for early-stage Hopkins technologies; built
-internal **tech-to-VC / tech-to-funding matching tools**; translates scientific research into
-**investment-ready narratives** and supports due diligence, market positioning, and outreach
-across the translational funding pipeline.
+and philanthropic funders** to find capital pathways for early-stage Hopkins technologies;
+**built the [[vc-matching-second-brain|tech→VC auto-matcher]]** (his flagship) and the
+**[[jhtv-grant-finder]]**; produces **VC one-pagers, market research, Excel models**, and supports
+due diligence, market positioning, and outreach. Reports to [[Stewart Neifart]]. Full breakdown:
+[[capital-strategy]].
 
 ## Why it fits Cole
 Sits squarely on his **science ↔ capital** throughline (see the profile): neuroscience background

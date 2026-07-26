@@ -13,7 +13,7 @@ the professional overview.
   **neuroscience/health literacy + real operating experience + AI-building fluency.**
 - **Role:** **startup operator** (primary — most feasible) *or* **VC** (stretch, worth a parallel attempt).
 - **Lane:** **health / bio / AI** — drug-discovery × AI especially — a *lean, not a cage.*
-- **Where / when:** **NYC**, starting after **May 2027**. Target base **~$85k NYC operator** (was ~$75k) — see the researched breakdown in [[comp-targets]] (JHTV ~$60–75k Baltimore · startup ~$80–95k+equity · VC ~$95–130k all-in). Equity/upside is the real lever.
+- **Where / when:** **NYC *or* DC — the two co-primary options** (updated 2026-07-25; DC is no longer a footnote), starting after **May 2027**. Target base **~$85k NYC operator** (was ~$75k) — see [[comp-targets]] for the researched breakdown + the **DC-vs-NYC read for Cole's path** (JHTV ~$60–75k Baltimore · startup ~$80–95k+equity · VC ~$95–130k all-in). Equity/upside is the real lever; **DC is cheaper + closer to family/JHTV and strong in bio/health**, NYC has more startup/VC density.
 
 ## Assets / credentials
 - [[uship]] — co-owner of a six-figure business (+40% sign-ups, expanded to Columbia): proof he can operate.

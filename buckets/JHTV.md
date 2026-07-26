@@ -1,23 +1,33 @@
 ---
 type: bucket
 created: 2026-07-24
+updated: 2026-07-25
 ---
 # JHTV  (bucket / MOC)
 
-Johns Hopkins Technology Ventures — where Cole is a **Capital Strategy Intern** (since Jun 2026):
-VC-to-tech matching, funder mapping, and translating research into investment-ready narratives.
+**[[jhtv|Johns Hopkins Technology Ventures]]** — where Cole is a **[[capital-strategy|Capital
+Strategy]] Intern** (since Jun 2026): mapping the funder landscape (VC + non-dilutive) onto
+Hopkins spinouts, and **building the AI tools that automate it**. His single strongest recruit
+credential — the concrete form of his science ↔ capital ↔ AI edge.
 
-## Knowledge (wiki)
-- [[jhtv]] — what JHTV is + Cole's Capital Strategy role.
+## The org
+- [[jhtv]] — what JHTV is + the FY25 numbers (2,000+ techs, 130+ startups, $4.8B raised).
+- [[fast-forward]] — JHTV's accelerator/incubator (150+ companies, Baltimore hubs).
+- [[translational-funding]] — the non-dilutive funding landscape (Cohen/Thalheimer/Zizic, MII/TEDCO, MSCRF, Bluefield, Blaze).
+
+## Cole's work
+- [[capital-strategy]] — the team's mandate + everything Cole actually does.
+- **[[vc-matching-second-brain]]** — his flagship: the tech→VC auto-matcher (151 commits, 391 PitchBook investors, Vercel API, built with Claude Code).
+- **[[jhtv-grant-finder]]** — non-dilutive grant finder + AI deadline-updater skill (GitHub Pages, CI).
+- Plus VC one-pagers, market research, Excel models, due diligence, market positioning.
 
 ## People (crm/)
-- _(none yet — add colleagues/mentors as they come up.)_
+- [[Stewart Neifart]] — head of Capital Strategy; Cole's manager + key sponsor (see [[stewart-1on1-prep]]).
 
 ## Action items
-- [ ] Add JHTV colleagues/mentors to the CRM. (added 2026-07-24)
+- [ ] Add JHTV colleagues/mentors to the CRM as they come up. (added 2026-07-24)
 
 ## Sources
-- Résumé (`raw/` — Cole_Kannam_Resume). No dedicated docs ingested yet.
+- Ingested 2026-07-25: JHTV homepage / FastForward / Translational Funding pages (jhtv.org) + the two GitHub repo snapshots (VC_Matching_Second_Brain, jhtv-grant-finder). Résumé in `raw/`.
 
-*Scaffold. Add links here as content arrives. Buckets are a link overlay; pages live in
-their home folders (wiki/, crm/, …) and can be re-bucketed anytime.*
+*Buckets are a link overlay; pages live in their home folders and can be re-bucketed anytime.*

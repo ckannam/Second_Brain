@@ -12,7 +12,7 @@ Format: `- [ ] <action> — <context> [[related-page]] (added YYYY-MM-DD)`
 ### Claude Mastery — skills & agents
 _Goal: create the best possible Claude skills to (a) **maintain & maximize** this second brain and (b) build **alongside** it at a much faster rate._
 - [ ] **Train skills** — build & optimize skills with the Skill Creator + evals workflow, for both vault upkeep and faster building. [[claude-code-skills]] [[claude-code-skills-update]] (added 2026-07-24)
-- [ ] **Prompt max** — master prompt quality (structured prompts, clarifying-question prompting) as a reusable skill. [[prompt-engineering-playbook]] [[the-prompting-playbook]] [[master-claude-code-36min-beginner]] [[json-prompting]] (added 2026-07-24)
+- [ ] **Prompt max** — master prompt quality (structured prompts, clarifying-question prompting) as a reusable skill. ✅ **Shipped 3 prompt-architect skills 2026-07-26** (`claude-chat-prompt` / `claude-cowork-prompt` / `claude-code-prompt`); keep refining/eval-testing them. [[prompt-engineering-playbook]] [[the-prompting-playbook]] [[master-claude-code-36min-beginner]] [[json-prompting]] (added 2026-07-24)
 - [ ] **Token max** — build a token/context-management skill & mastery (efficient context use, compaction, memory). [[claude-code-memory]] (added 2026-07-24)
 - [ ] **Skill max** — master reliable skill creation + trigger tuning. [[master-claude-code-skills-28min]] [[claude-code-skills]] (added 2026-07-24)
 - [ ] **Agent max** — master agent orchestration: sub-agents + agent teams. [[claude-code-subagents]] [[claude-code-agent-teams]] (added 2026-07-24)
