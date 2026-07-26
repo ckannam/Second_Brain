@@ -1,2 +1,6 @@
 ts	mode	target	debt_before	debt_after	status	note
 2026-07-24T12:50	A	wiki/concepts/agentic-note-taking.md	2	0	keep	added missing page to index.md catalog
+2026-07-26T00:00	A	(none)	0	0	skip	HEALTH_DEBT already 0; no MODE A iterations needed
+2026-07-26T00:00	B	wiki/concepts/claude-code-hooks.md	0	0	keep	filled stub with full hooks concept page from official Anthropic docs
+2026-07-26T00:00	C	wiki/concepts/claude-code-permissions.md	0	0	keep	grounded vs official docs; corrected 3-posture to 6-mode; added classifier model (Sonnet 5)
+2026-07-26T00:00	C	wiki/concepts/claude-code-memory.md	0	0	keep	verified Auto Dream cadence; marked unverified; /dream not in official docs

@@ -299,3 +299,23 @@ analysis and updated the finance tasks — headline actions: max the Roth (under
 taxable), verify the Roth is actually invested, move idle checking to a HYSA, deploy the
 incoming income into the 70/30 plan. No balances in this synced log; all figures stay in
 gitignored `finance/`.
+
+## [2026-07-26] autoresearch | Nightly AutoResearch run
+
+**MODE A:** HEALTH_DEBT was 0 at baseline; no self-healing iterations needed.
+
+**MODE B:** Expanded [[claude-code-hooks]] from a 3-sentence stub into a full concept page.
+Sources: official Anthropic docs (code.claude.com/docs/en/hooks-guide + hooks reference).
+Covers 30+ hook events, 5 types, settings.json config, exit codes, common patterns.
+
+**MODE C item 1:** Grounded [[claude-code-permissions]] against official docs. Corrected the
+community "three postures" framing (Nate Herk source) — official docs show 6 modes
+(default/acceptEdits/plan/auto/dontAsk/bypassPermissions). Added classifier model detail:
+Sonnet 5 by default (v2.1.210+), falls back to session model. Preserved community framing
+with an explicit supersession note.
+
+**MODE C item 2:** Verified Auto Dream trigger cadence → [[claude-code-memory]] updated to
+mark this **unverified**. Official Claude Code memory docs cover only CLAUDE.md + Auto memory;
+no /dream command or dreaming toggle documented. "Dreaming" in official Anthropic docs is the
+Managed Agents API (research preview) only. A third-party community repo explicitly calls the
+consumer feature "unreleased." Queue items 1 and 2 checked off in nightly-queue.md.

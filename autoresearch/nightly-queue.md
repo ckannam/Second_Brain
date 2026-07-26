@@ -17,11 +17,17 @@ take **no outward/irreversible actions**.
   outward/irreversible actions. Everything stays on the night branch for morning review.
 
 ## Queue (@cloud)
-- [ ] Ground a single-source feature claim: pick one `claude-code-*` concept page that cites only
+- [x] Ground a single-source feature claim: pick one `claude-code-*` concept page that cites only
       [[nate-herk]], verify it against **official Anthropic docs**, add the official citation, and
       correct/flag any discrepancy. (One page per night.)
-- [ ] Verify the **Auto Dream** trigger cadence (currently community-inferred) → update
+      → Done 2026-07-26: [[claude-code-permissions]] — corrected 3-posture to 6-mode, added
+        classifier model (Sonnet 5 by default, official source code.claude.com/docs/en/permission-modes).
+- [x] Verify the **Auto Dream** trigger cadence (currently community-inferred) → update
       [[claude-code-memory]] with a sourced answer, or explicitly mark it unverified + what you checked.
+      → Done 2026-07-26: marked **unverified** against official docs. Official Claude Code memory page
+        covers only CLAUDE.md + Auto memory; no /dream command or dreaming toggle. "Dreaming" in
+        official docs is Managed Agents API only. Community "dream-skill" repo says feature is
+        "unreleased." Cadence claim (24h+5 sessions) has no official source.
 - [ ] Confirm the **Clawdbot** / **OpenClaw** identities & spellings → update [[clawdbot]] / [[openclaw]].
 - [ ] Capture the **Opus 4.6 vs GPT 5.4** benchmark numbers from a primary source → add to the
       relevant page with citation (or mark not-found).
