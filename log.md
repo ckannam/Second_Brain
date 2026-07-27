@@ -322,3 +322,8 @@ memos/one-pagers** (built templates), plus the JHU VC network database.
 **Confidentiality upheld:** did NOT copy any proprietary/licensed content into the vault —
 PitchBook data, the JHU_VC_Network.xlsx, TF review docs, and application memos stay in Cole's
 local repos only. Only experience-level descriptions were written.
+
+## [2026-07-27] autoresearch | Nightly AutoResearch run
+MODE A: HEALTH_DEBT was 0 on arrival — no self-healing fixes needed. Logged clean night.
+MODE B: Created [[model-speciation]] concept page (fills dangling Karpathy link from skill-issue-karpathy-sarah-guo; covers divergence of AI models into ecological niches, implications for eval-driven selection and multi-model workflows). Added to index.md.
+MODE C: (1) Updated [[claude-code-browser-automation]] — grounded against official Anthropic Week 28 docs (built-in browser, v2.1.202–v2.1.206, July 6–10 2026); added computer use research preview timeline (Week 13–14 March 2026); distinguished Claude in Chrome extension. (2) Updated [[claude-code-memory]] — verified Auto Dream cadence as ≥24h AND ≥5 sessions (community-observed; not in official docs); added launch timeline. Checked off both queue items in nightly-queue.md.
