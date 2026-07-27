@@ -10,8 +10,16 @@ diagnosis of the gap between that target and his vision, followed by a **venue-t
 plan** that always stops for approval before any execution. The skill figures out
 *how* to improve the target autonomously, grounded in what it can already know.
 
-The canonical use case: **"improve the JHTV second brain"** — point `improve` at a
-life-area (bucket) and strengthen that whole Map-of-Content neighborhood.
+**Primary targets in practice (weight the design here):**
+1. **Skills / vault machinery** — the skills we've built to exploit Claude Code
+   (`.claude/skills/*`, `AGENTS.md`, the autoresearch loop). "improve this skill" =
+   make our tooling take better advantage of the tool.
+2. **Projects we're building** — e.g. the **grant finder** and the **JHTV second
+   brain**. These are bucket/life-area-shaped efforts; "improve the JHTV second brain"
+   = strengthen that whole Map-of-Content neighborhood.
+
+Other target types (arbitrary wiki page, task item, whole-vault) are supported but
+secondary — the two above are where `improve` earns its keep.
 
 ## Framework alignment (non-negotiable)
 
@@ -53,15 +61,18 @@ judgment-driven, not a mechanical metric loop.
 ## Procedure
 
 ### 1. Resolve the target
-Parse what `improve` points at. Supported target types:
-- **Bucket / life-area** (Duke, Uship, JHTV, Job Search, Personal, Claude Mastery) —
-  *first-class, primary case.* Target = the MOC and its linked neighborhood.
-- **Wiki page/facet** — a concept, entity, source, or `overview.md`.
-- **Task item** — an entry in `tasks/index.md`; improve = figure out how to advance it.
-- **Workflow / skill / schema** — a `SKILL.md`, `AGENTS.md`, the autoresearch loop, the
-  ingest process.
-- **Nothing named** → **whole-vault**: find the highest-leverage improvement (read
-  `index.md`, scan orphans/staleness, glance at `score.py`).
+Parse what `improve` points at. Supported target types, primary first:
+- **Skill / workflow / schema** *(primary)* — a `SKILL.md`, `AGENTS.md`, the autoresearch
+  loop, the ingest process. Diagnosis asks: does this make better use of Claude Code's
+  capabilities, and is it faithful to `AGENTS.md`?
+- **Project / bucket / life-area** *(primary)* — e.g. grant finder, JHTV second brain, or
+  any of Duke / Uship / Job Search / Personal / Claude Mastery. Target = the MOC and its
+  linked neighborhood.
+- **Wiki page/facet** *(secondary)* — a concept, entity, source, or `overview.md`.
+- **Task item** *(secondary)* — an entry in `tasks/index.md`; improve = figure out how to
+  advance it.
+- **Nothing named** → **whole-vault** *(secondary)*: find the highest-leverage improvement
+  (read `index.md`, scan orphans/staleness, glance at `score.py`).
 
 If the target is ambiguous, ask one sharp clarifying question before proceeding.
 
