@@ -17,11 +17,18 @@ take **no outward/irreversible actions**.
   outward/irreversible actions. Everything stays on the night branch for morning review.
 
 ## Queue (@cloud)
-- [ ] Ground a single-source feature claim: pick one `claude-code-*` concept page that cites only
+- [x] Ground a single-source feature claim: pick one `claude-code-*` concept page that cites only
       [[nate-herk]], verify it against **official Anthropic docs**, add the official citation, and
       correct/flag any discrepancy. (One page per night.)
-- [ ] Verify the **Auto Dream** trigger cadence (currently community-inferred) → update
+      ✓ Done 2026-07-27: updated [[claude-code-browser-automation]] — added official citation to
+      Anthropic Week 28 docs (built-in browser, v2.1.202–v2.1.206, July 6–10 2026); noted computer
+      use research preview timeline (Week 13–14, March 2026); distinguished Claude in Chrome extension.
+- [x] Verify the **Auto Dream** trigger cadence (currently community-inferred) → update
       [[claude-code-memory]] with a sourced answer, or explicitly mark it unverified + what you checked.
+      ✓ Done 2026-07-27: updated [[claude-code-memory]] — cadence is ≥24h AND ≥5 sessions (multiple
+      independent community sources agree); official What's New page does not publish these numbers,
+      so marked *highly plausible but unverified*. Launch timeline added (Feb 2026 auto-memory,
+      late March 2026 auto-dream rollout).
 - [ ] Confirm the **Clawdbot** / **OpenClaw** identities & spellings → update [[clawdbot]] / [[openclaw]].
 - [ ] Capture the **Opus 4.6 vs GPT 5.4** benchmark numbers from a primary source → add to the
       relevant page with citation (or mark not-found).
