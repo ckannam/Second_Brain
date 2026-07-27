@@ -207,11 +207,17 @@ a journal entry.
 — the vault's memory of things to *do* (vs. the wiki, which is things to *know*). **Read it
 at the start of a work session** and whenever the human asks "what's open?" / "what should
 I do?".
-1. **Capture.** When an action item arises — the human says "remember to X" / "add a task",
-   or a Lint pass, Query, or Journal entry surfaces a follow-up — append it under **Open**
-   in `tasks/index.md` as an Obsidian checkbox:
-   `- [ ] <action> — <one-line context> [[related-page]] (added YYYY-MM-DD)`. Cross-link the
-   wiki pages, sources, or CRM people it relates to. Group under a short subheading.
+1. **Capture (with a lane).** When an action item arises, append it under **Open** in
+   `tasks/index.md` as an Obsidian checkbox, **tagged with the lane decided in the moment**:
+   `- [ ] @lane <action> — <one-line context> [[related-page]] (added YYYY-MM-DD)`, where
+   `@lane` is one of:
+   - `@cloud` — the overnight routine can do it **fully** unattended (synced vault + web only;
+     no local data; no outward/irreversible action; no human decision).
+   - `@local` — needs Cole's Mac (local data / connectors the cloud can't see).
+   - `@human` — needs a Cole decision or an outward/irreversible action.
+   Resolve ambiguity **at capture**, not at run time: if a large item is only partly
+   cloud-doable, split it — tag the cloud-safe sub-part `@cloud`, the rest `@local`/`@human`.
+   Cross-link the wiki/CRM pages it relates to; group under a short subheading.
 2. **Complete.** When done, flip `- [ ]` to `- [x]`, append `(done YYYY-MM-DD)`, and move it
    to the **Done** section (newest at top). Never delete history.
 3. **Ground.** Because items link back into the wiki/CRM, "what should I do about X?" can be
