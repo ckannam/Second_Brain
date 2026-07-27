@@ -159,6 +159,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[prompt-engineering-playbook]] — eval-first prompt debugging, XML structure, output contracts.
 - [[llm-as-judge]] — grade equivalent-but-different outputs (the "evals for taste" idea lives on the source hub [[evals-for-taste]]).
 - [[the-capability-curve]] — where model capability is heading (batch hub).
+- [[model-speciation]] — Karpathy's thesis: AI models diverge into specialized ecological niches rather than converging on one universal system.
 
 ### AI-native work & industry
 - [[ai-native-engineering-org]] — the bottlenecks moved; rewrite the norms.
