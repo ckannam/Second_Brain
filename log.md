@@ -323,6 +323,8 @@ memos/one-pagers** (built templates), plus the JHU VC network database.
 PitchBook data, the JHU_VC_Network.xlsx, TF review docs, and application memos stay in Cole's
 local repos only. Only experience-level descriptions were written.
 
+## [2026-07-27] tasks | Backfilled @cloud/@local/@human lanes on all open action items; reconciled 2 Sourcing & verification items completed by the nightly run.
+
 ## [2026-07-27] autoresearch | Nightly AutoResearch run
 MODE A: HEALTH_DEBT was 0 on arrival — no self-healing fixes needed. Logged clean night.
 MODE B: Created [[model-speciation]] concept page (fills dangling Karpathy link from skill-issue-karpathy-sarah-guo; covers divergence of AI models into ecological niches, implications for eval-driven selection and multi-model workflows). Added to index.md.

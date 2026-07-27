@@ -22,12 +22,16 @@ write the wiki. Do not restate either here.
   `raw/`. Lowering the number by changing the scorer is cheating, not healing.
 - **Keep or revert on the metric:** improved → `git commit`; equal/worse →
   `git checkout -- .`. Never keep a non-improving change.
-- **Self-healing → `main`; generative → `autoresearch/pending` branch for human
-  review.** Never auto-merge generative work.
+- **Build first, heal second.** Action-item build work (Phases 0–2) runs before self-heal
+  (Phase 3) and generative work (Phase 4). On a build night, the entire run lives on the
+  night branch → one PR; nothing reaches `main` unreviewed. Pure-maintenance nights may
+  still commit objective self-heal fixes to `main`.
 - Log every iteration to `autoresearch/results.tsv`.
 
 ## Quick start
 
 1. `python3 autoresearch/score.py` — see current debt + the defect list.
-2. Follow `autoresearch/program.md` (MODE A self-healing, then one MODE B proposal).
-3. Stop when HEALTH_DEBT is 0 and one review-branch proposal is logged.
+2. Follow `autoresearch/program.md`'s six phases in order: **Select → Build →
+   Write-back → Self-heal → AutoResearch → PR**.
+3. On a build night the whole run stays on the night branch → one morning PR. Stop after
+   the PR is opened.
