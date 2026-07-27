@@ -211,6 +211,7 @@ I do?".
    `tasks/index.md` as an Obsidian checkbox, **tagged with the lane decided in the moment**:
    `- [ ] @lane <action> — <one-line context> [[related-page]] (added YYYY-MM-DD)`, where
    `@lane` is one of:
+   An optional priority emoji may precede `@lane` (e.g. `- [ ] 💰 @human …`).
    - `@cloud` — the overnight routine can do it **fully** unattended (synced vault + web only;
      no local data; no outward/irreversible action; no human decision).
    - `@local` — needs Cole's Mac (local data / connectors the cloud can't see).

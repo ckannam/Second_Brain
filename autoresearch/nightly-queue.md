@@ -9,6 +9,8 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 2**.
 
+> **Example below — from a prior hand-curated run.** Phase 0 overwrites everything under this line on the next routine run; treat it as illustration, not input.
+
 ## Queue (@cloud)
 - [x] Ground a single-source feature claim: pick one `claude-code-*` concept page that cites only
       [[nate-herk]], verify it against **official Anthropic docs**, add the official citation, and

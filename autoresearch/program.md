@@ -41,7 +41,7 @@ An item is **cloud-doable** only if **all** hold:
 - needs **no human decision**.
 
 Precedence: **explicit `@cloud`/`@local`/`@human` tag wins**; if an item is **untagged**,
-**infer** against the rubric; **when unsure → skip and flag** (note why in the PR). An
+**infer** against the rubric; **when unsure → skip and flag** (note why in the PR). An explicit `@cloud` tag means the item is already cleared for unattended build — the morning-PR merge is its human sign-off, so the "no human decision" clause never disqualifies a tagged `@cloud` item. An
 item partly doable → do the cloud-safe part, leave the rest as a `⏳ progress` note.
 
 ## Write-back rules (Phase 2)
