@@ -323,6 +323,10 @@ memos/one-pagers** (built templates), plus the JHU VC network database.
 PitchBook data, the JHU_VC_Network.xlsx, TF review docs, and application memos stay in Cole's
 local repos only. Only experience-level descriptions were written.
 
+## [2026-07-25] autoresearch | Nightly AutoResearch run
+MODE A: HEALTH_DEBT was already 0 (no orphans, no missing-from-index, no stale-claims). Nothing to fix.
+MODE B: Filled [[adversarial-code-review]] stub from a 6-line placeholder to a substantive synthesis page drawing from [[codex-plugin-for-claude-code]], [[running-ai-native-engineering-org]], [[how-we-claude-code]], [[mechanism-over-output]], and [[ai-native-engineering-org]]. Added links to Fiona Fung's "spec drift" framing, the multi-model vs self-review distinction, and the mechanism-over-output trust connection. Proposed on branch `autoresearch/night-2026-07-25` for review.
+
 ## [2026-07-27] tasks | Backfilled @cloud/@local/@human lanes on all open action items; reconciled 2 Sourcing & verification items completed by the nightly run.
 
 ## [2026-07-27] autoresearch | Nightly AutoResearch run
