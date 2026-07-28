@@ -14,5 +14,7 @@ move those pages.
 - [[Uship]] — Uship venture / work _(scope to fill in)_.
 - [[JHTV]] — Johns Hopkins Technology Ventures: biotech founders, VC matching, grants.
 - [[Job Search]] — roles, applications, networking, interview prep.
+- [[Fulbright]] — Cole's Fulbright U.S. Student Program application (Open Study/Research, 2027-2028).
 - [[Personal]] — self, health, discipline, relationships, and the CRM.
+- [[Neuro]] — Cole's *Neuro* YouTube channel: neuroscience explainer Shorts + production pipeline.
 - [[Claude Mastery]] — mastering Claude Code (skills, agents, prompting) and this vault.

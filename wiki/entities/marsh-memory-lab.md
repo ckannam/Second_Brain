@@ -17,7 +17,9 @@ metacognition — how much you think you **know** and how much you think you **c
 - **Illusion of Explanatory Depth (IoED):** people overrate their understanding until they try to
   explain it in detail (Rozenblit & Keil, 2002). Generating an explanation *breaks* the illusion;
   editing's effect was unclear (Park & Marsh, in prep: reading *inflated* judgments, editing showed
-  *no net effect*).
+  *no net effect*). Same principle as the learning tactic in [[knowledge-types]] /
+  [[learning-by-connection]] — "explain from scratch, never just re-read," because the brain
+  mistakes familiarity for understanding (see [[neuroscience-of-behavior]]).
 - **Cole's hypothesis:** the null editing effect hides two opposing processes → manipulate **edit
   depth**. **Shallow edits** (fix typos/grammar) stay at the surface "gist" and keep confidence
   *inflated*; **Deep edits** (retrieve + add 3 mechanical details) force retrieval and *calibrate*

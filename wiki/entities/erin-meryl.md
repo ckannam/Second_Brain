@@ -14,3 +14,7 @@ restructuring the brain and environment. Presents five strategies grounded in ci
 research: [[temptation-bundling]], [[cue-routine-reward-loop]], [[identity-led-goals]],
 [[environment-design]], and understanding the [[temporal-discounting|neuroscience of
 discounting]].
+
+Her video is what opened the vault's [[neuroscience-of-behavior]] thread — later deepened by
+the ixcarus / Brain Health Decoded sources on [[neuroplasticity]], [[memory-consolidation]],
+and the [[conscious-vs-subconscious|mind model]].

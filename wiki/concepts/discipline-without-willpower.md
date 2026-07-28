@@ -19,7 +19,10 @@ stable foundation for lasting behavior change.
 
 The most disciplined people aren't better at fighting impulses — they've **removed their
 dependence on willpower** by restructuring their brain and [[environment-design|environment]]
-so the fight never happens. Over 90% of why discipline feels hard is
+so the fight never happens. "Restructuring the brain" has a specific mechanism —
+[[neuroplasticity]] (myelinating new pathways through [[hebbian-learning|attention]] and
+repetition until they beat the old ones), detailed in [[neuroscience-of-behavior]] and
+[[neuroplasticity-rewiring-brain-ixcarus]]. Over 90% of why discipline feels hard is
 [[temporal-discounting]]: the cost is now, the reward is later, and the dopamine system
 discounts the future steeply. This is why "just think about your long-term goals" is bad
 advice — it asks willpower to override hardwired biology.

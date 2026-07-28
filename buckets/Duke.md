@@ -4,8 +4,8 @@ created: 2026-07-24
 ---
 # Duke  (bucket / MOC)
 
-Duke University — Trinity College, **class of 2027**. B.S. **Neuroscience + Statistics**,
-minors **Chemistry** & **I&E**, GPA **3.91**. Coursework, research, Greek life, clubs, philanthropy.
+Duke University — Trinity College, **class of 2027**. B.S. **Neuroscience + Chemistry**,
+minor **I&E**, GPA **3.91**. Coursework, research, Greek life, clubs, philanthropy.
 
 ## Organizations & activities (name the key people per group → I'll tag them)
 - **Pi Kappa Alpha (PIKE)** — fraternity; Cole = *Recruitment Chair*. **Alumni network: [[Pike Alumni Directory]]** (~1,000 past brothers, curated for networking — incl. **Brad Lightcap, COO of OpenAI**). Current brothers: _(name them)_
@@ -35,3 +35,7 @@ here. As Duke topics earn their own pages (clubs, labs, the frat), link them und
 
 ## Knowledge (wiki)
 - [[marsh-memory-lab]] — Cole's metacognition research (editing depth & the Illusion of Explanatory Depth); ties to [[vault-autoresearch]] / [[llm-wiki-pattern]].
+
+## Fellowships
+- [[fulbright-us-student-program]] — Cole's Fulbright application runs through Duke's campus endorsement process (adviser [[Anna Bernard-Hoverstad]]); Duke is the affiliated institution. See the [[Fulbright]] bucket.
+- **Degree (confirmed 2026-07-27):** B.S. **Neuroscience + Chemistry** (double major; Statistics dropped), minor **I&E** — this is what goes on the Fulbright application.

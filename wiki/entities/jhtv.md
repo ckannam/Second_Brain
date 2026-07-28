@@ -30,4 +30,6 @@ Sits squarely on his **science ↔ capital** throughline (see the profile): neur
 + I&E minor + venture instincts, applied to commercializing research. Adjacent to his
 [[NeuroTech]] consulting (science → GTM) and his own venture [[uship]].
 
-Related: [[JHTV]] (bucket).
+This JHTV experience is also the **professional grounding for Cole's [[fulbright-us-student-program|Fulbright]] proposal** — his thesis on [[ai-lowering-entrepreneurship-barriers]] draws on watching how early ventures get funded and de-risked here, deliberately in place of his neuro/chem lab work.
+
+Related: [[JHTV]] (bucket) · [[Fulbright]] (bucket).

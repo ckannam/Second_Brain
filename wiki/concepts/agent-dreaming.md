@@ -22,3 +22,7 @@ it further."
 > Same "sleep/dream" metaphor as Claude Code's consumer **[[claude-code-memory|Auto Dream]]**
 > (a background sub-agent consolidating memory), but this is the multi-agent **platform**
 > version. Related: [[outcome-oriented-agents]], [[multi-agent-orchestration]].
+
+The metaphor is load-bearing: this is the machine mirror of human **[[memory-consolidation]]** —
+an out-of-band replay pass that reorganizes memory off the hot path, exactly what the brain does
+during sleep ([[neuroscience-of-behavior]]).

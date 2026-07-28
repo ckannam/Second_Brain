@@ -10,7 +10,7 @@ life, use the **[[buckets/index|buckets]]** (life-area Maps of Content).
 
 ## Buckets (by life area)
 A re-cuttable overlay — hub notes that link to pages by life area (see [[buckets/index]]):
-[[Duke]] · [[Uship]] · [[JHTV]] · [[Job Search]] · [[Personal]] · [[Claude Mastery]].
+[[Duke]] · [[Uship]] · [[JHTV]] · [[Job Search]] · [[Fulbright]] · [[Personal]] · [[Neuro]] · [[Claude Mastery]].
 
 > **Big batch — 2026-07-24:** ingested 42 YouTube sources (41 by [[nate-herk]], 1 by
 > Easy Machine AI, 1 by [[sarah-guo]]) covering the July 2026 Claude Code release wave,
@@ -32,6 +32,38 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 > [[nanochat]] GPT for 5 min, keeps or `git reset`s on `val_bpb`, loops forever — a runnable
 > [[self-healing-workflows|self-improving loop]]. Generalizes to any objective metric
 > (cold email, CRO, trading). Companion project: **[[agent-hub]]** ("GitHub for agents").
+
+> **Stickman-animation batch — 2026-07-27:** ingested 7 free-AI stick-figure tutorials
+> ([[stickman-animation-free-ai-tutorials]]) to design a **no-new-subscription** [[neuro-channel|Neuro]]
+> pipeline → [[neuro-free-tool-stack]] (Claude + Google Flow/Nano Banana 2 + own voice + Remotion/CapCut,
+> all $0). Character consistency via `neuro.png` as reference; **Cole reviews every video before posting.**
+
+> **Neuroscience batch — 2026-07-27:** ingested 3 sources (2 by *ixcarus*, 1 by *Brain Health
+> Decoded*) seeding the **[[neuroscience-of-behavior]]** cluster Cole wants — grounding behavior
+> and learning in brain mechanisms. New concepts: [[neuroplasticity]], [[predictive-processing]],
+> [[productive-discomfort]], [[hebbian-learning]], [[memory-consolidation]],
+> [[learning-by-connection]], [[knowledge-types]], [[conscious-vs-subconscious]],
+> [[reticular-activating-system]], [[cognitive-biases]]. Densely wired into the existing
+> [[discipline-without-willpower|discipline]] cluster and [[marsh-memory-lab]]; cross-links human
+> [[memory-consolidation]] to machine [[agent-dreaming]].
+
+> **Spaced-learning batch — 2026-07-27:** ingested Cole's spaced-repetition research bundle (4
+> sources + 1 competitor) for the **[[neuro-channel|channel × app]]** vision: the
+> [[spacing-math-meta-analysis-murray-2025|Murray 2025 meta-analysis]], the
+> [[neuroscience-of-spacing-brainfacts|BrainFacts]] mechanism piece,
+> [[spacing-testing-complex-skills-study|complex-skills]] study, and
+> [[optimizing-spaced-learning-smolen-2016|Smolen 2016]] (recovered from a broken clip). New
+> concepts: [[spacing-effect]], [[retrieval-practice]], [[interleaving]], [[spaced-repetition]];
+> competitor entity [[spacerep]]. Thesis: **not another Anki — a spacing engine that routes the
+> right retrieval modality per [[knowledge-types|Skill/Concept/Fact]]**. Also ingested (off-thread)
+> [[opus-5-vs-fable-5-nate-herk]] (freshness-flagged: [[opus-5]] / [[fable-5]] beyond the vault's
+> [[opus-4-8]] snapshot); Obsidian-Deep-Dive + 2 stickman clips were re-clips (moved to Processed).
+
+> **Fulbright ingest — 2026-07-27:** captured Cole's **[[fulbright-us-student-program|Fulbright]]**
+> application (Open Study/Research, 2027-2028) from his project brief + [[Anna Bernard-Hoverstad]]'s
+> 2026-07-14 Duke process email. New: [[Fulbright]] bucket, thesis [[ai-lowering-entrepreneurship-barriers]],
+> [[fulbright-country-selection]] (India/Brazil/Indonesia), 3 CRM advisers. Reconciled the stale brief
+> against the authoritative timeline (hard **Sept 10** rec-letter deadline; **Aug 21 noon** campus lock).
 
 ## Entities
 
@@ -65,10 +97,13 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[paperclip]] — run an entire company of AI agents (CEO agent hires/delegates).
 - [[n8n]] — node-based automation incumbent, repeatedly contrasted with Claude Code.
 - [[firecrawl]] — turns any website into LLM-ready data (MCP server).
-- [[uship]] — University Shipping: Cole's Duke-focused student shipping/storage venture (see [[Uship]] bucket).
+- [[uship]] — University Shipping: Cole's storage-first student venture (**Cole 35%** of the legacy LLC); full overview — cap table, finances, email moat, Columbia, UShip Ventures (see [[Uship]] bucket).
+- [[uship-os]] — Carson's multi-tenant OS for UShip; the linchpin of the 2027 expansion.
 - [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
 - [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]).
 - [[qmd]] — optional local markdown search engine (not yet in use).
+- [[neuro-channel]] — **Cole's venture:** the *Neuro* YouTube channel; a walking-brain stick figure explaining neuroscience in ~45–90s Shorts (video #1 rendered). Fed by the [[neuroscience-of-behavior]] cluster.
+- [[remotion]] · [[elevenlabs]] — the render (React→MP4) + voice tools behind the Neuro channel.
 - [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[mcp]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
 
 #### Anthropic platform & products (Code with Claude batch)
@@ -90,6 +125,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[opus-4-6]] (Anthropic) · [[gpt-5-4]] / [[openai]] — benchmarked pair in the Codex plugin source.
 - [[opus-4-8]] — **current flagship** (freshness reconciliation; not in the sources). · [[opus-4-7]] — flagship across the Code with Claude batch. · [[opus-4-5]] — fixed Sonnet 4.5's context anxiety.
 - [[mythos]] — real, publicly-unreleased model named in [[the-thinking-lever]] (~16h human work @50% METR).
+- [[opus-5]] · [[fable-5]] — models named in a Nate Herk video; **unverified**, beyond the vault's [[opus-4-8]] snapshot (freshness stubs).
 
 ### More people
 - [[sarah-guo]] — Conviction / No Priors; interviewed Karpathy.
@@ -97,10 +133,14 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Products / rivals
 - [[cal-ai]] — $100M vibecoded calorie app.
+- [[spacerep]] — spaced-repetition app (FSRS + Google Calendar); the closest competitor to Cole's learning-app idea + the gap it leaves open.
 
 ### JHTV — org & Cole's work (see the [[JHTV]] bucket)
 - [[jhtv]] · [[fast-forward]] · [[translational-funding]] — the org, accelerator, and funding landscape.
 - [[capital-strategy]] — Cole's role/team. · [[vc-matching-second-brain]] — his flagship tech→VC matcher. · [[jhtv-grant-finder]] — his grant finder.
+
+### Fulbright — Cole's application (see the [[Fulbright]] bucket)
+- [[fulbright-us-student-program]] — the fellowship, Cole's Open Study/Research application, components, funding, deadlines, Duke endorsement.
 
 ## Concepts
 
@@ -175,12 +215,62 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[environment-design]] — reduce clutter and friction to make the good action default.
 - [[how-to-build-discipline]] — playbook distilled from the discipline cluster (filed from a query).
 
+### Neuroscience of behavior & learning
+- [[neuroscience-of-behavior]] — **hub**: grounding behavior/decisions in brain mechanisms (Cole's cluster).
+- [[neuroplasticity]] — value-neutral rewiring; myelin; why change is hard; repetition > intensity.
+- [[predictive-processing]] — the brain predicts you'll act as before and makes it true; updates on evidence.
+- [[productive-discomfort]] — plasticity needs challenge (norepinephrine/acetylcholine); train at the edge.
+- [[hebbian-learning]] — neurons that fire together wire together; attention is the selector.
+- [[memory-consolidation]] — consumption vs digestion; learning locks in during sleep/rest.
+- [[learning-by-connection]] — adults learn by connecting to prior knowledge (mirrors the LLM-wiki).
+- [[knowledge-types]] — skill vs concept vs fact each need a different study strategy.
+- [[conscious-vs-subconscious]] — tiny conscious mind (~7±2) riding a vast subconscious (~11M bits/s).
+- [[reticular-activating-system]] — the attention filter you program with conscious focus.
+- [[cognitive-biases]] — the subconscious's fast heuristics and their systematic errors.
+- [[spacing-effect]] — distributed practice beats massing (robust, domain-general; CREB/ERK; optimum is computable).
+- [[retrieval-practice]] — testing > restudy (medium-large in general, *not* robust in math).
+- [[interleaving]] — mixed practice adds discriminative contrast (g=0.34 math).
+- [[spaced-repetition]] — the applied technique/tools (Ebbinghaus→FSRS/Anki); why it's a Fact-only tool as usually shipped.
+
+### Neuro channel (venture)
+- [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
+- [[neuro-character-rig]] — design: best way to build stick-figure animation automatically — image-per-scene (Nano Banana 2) or an articulated SVG rig Claude authors as code.
+- [[neuro-free-tool-stack]] — the $0 / no-new-subscription (Claude-only) tool stack + the review-before-post gate.
+
+### Fulbright (application)
+- [[ai-lowering-entrepreneurship-barriers]] — the research thesis: AI lowers the capital/expertise/infrastructure barriers to founding a company.
+- [[fulbright-country-selection]] — the India/Brazil/Indonesia decision, host angles, award rates, outreach status.
+
 ## Sources
+
+### Ventures — UShip
+- [[carson-uship-vault-page]] — Carson's insider UShip page (shared by Cole 2026-07-27); the source that filled the vault's UShip gaps.
+
+### Fulbright
+- [[fulbright-project-context]] — Cole's own project brief (award type, thesis, countries, components, funding).
+- [[anna-fulbright-duke-2026-07-14]] — Duke adviser's process email; the authoritative campus timeline + GA reviewers + writing groups.
 
 ### Foundational
 - [[llm-wiki-karpathy]] — Karpathy gist: the LLM Wiki pattern (web).
 - [[build-an-ai-second-brain-matt-wolfe]] — YouTube, Matt Wolfe: step-by-step build.
 - [[discipline-without-willpower-erin-meryl]] — YouTube, Erin Meryl Study: 5 discipline strategies.
+
+### Neuroscience & learning
+- [[neuroplasticity-rewiring-brain-ixcarus]] — Substack (ixcarus): change is rewiring, not willpower.
+- [[how-to-remember-everything-brainhealthdecoded]] — Brain Health Decoded: consume vs digest; match strategy to knowledge type.
+- [[conscious-subconscious-mind-ixcarus]] — Substack (ixcarus): conscious/subconscious mind, RAS, cognitive biases.
+
+### Spaced learning & memory science
+- [[spacing-math-meta-analysis-murray-2025]] — Murray et al. 2025 meta-analysis: spacing robust for math (g=0.28); retrieval *not* robust. Keystone evidence.
+- [[neuroscience-of-spacing-brainfacts]] — SfN: the molecular why (CREB, cross-species); students know it works but don't do it.
+- [[spacing-testing-complex-skills-study]] — combined spacing+testing preserved complex clinical *skill* retention at 3 months.
+- [[optimizing-spaced-learning-smolen-2016]] — Nature Reviews: molecular mechanism; optimal spacing is computable (recovered from broken clip).
+
+### Models — creator coverage
+- [[opus-5-vs-fable-5-nate-herk]] — Nate Herk head-to-head across real workflows (freshness-flagged; verify against primary sources).
+
+### Neuro channel — production research
+- [[stickman-animation-free-ai-tutorials]] — 7-video batch on making stick-figure videos with free AI tools (the research behind [[neuro-free-tool-stack]]).
 
 ### Claude Code — native features (July 2026)
 - [[claude-code-2-scheduled-tasks]] — native scheduled tasks / cron agents.

@@ -14,7 +14,10 @@ Filed from a query on 2026-07-23. An actionable distillation of the discipline c
 
 Don't try to get more **willpower** — it's a prefrontal-cortex function that's expensive
 and collapses under stress and fatigue ([[discipline-without-willpower]]). Disciplined
-people **restructure brain and environment so the fight never happens.**
+people **restructure brain and environment so the fight never happens.** For the mechanism
+under "restructure the brain," see the [[neuroscience-of-behavior]] hub —
+[[neuroplasticity]], [[productive-discomfort]], and [[memory-consolidation|sleep]] are the
+levers that make new behavior automatic.
 
 The root cause of low discipline is [[temporal-discounting]]: the dopamine system values
 rewards *now* over bigger rewards *later*, so any "cost now, payoff later" task feels
