@@ -329,3 +329,13 @@ local repos only. Only experience-level descriptions were written.
 MODE A: HEALTH_DEBT was 0 on arrival — no self-healing fixes needed. Logged clean night.
 MODE B: Created [[model-speciation]] concept page (fills dangling Karpathy link from skill-issue-karpathy-sarah-guo; covers divergence of AI models into ecological niches, implications for eval-driven selection and multi-model workflows). Added to index.md.
 MODE C: (1) Updated [[claude-code-browser-automation]] — grounded against official Anthropic Week 28 docs (built-in browser, v2.1.202–v2.1.206, July 6–10 2026); added computer use research preview timeline (Week 13–14 March 2026); distinguished Claude in Chrome extension. (2) Updated [[claude-code-memory]] — verified Auto Dream cadence as ≥24h AND ≥5 sessions (community-observed; not in official docs); added launch timeline. Checked off both queue items in nightly-queue.md.
+
+## [2026-07-28] autoresearch | Night 2026-07-28 (6-phase loop)
+Phase 1 build (web research): corrected a factual error — **Clawdbot and OpenClaw are the same
+project** (Peter Steinberger; Clawdbot ~Nov 2025 → renamed OpenClaw ~Jan 2026), made [[openclaw]]
+canonical and reframed [[clawdbot]] as the former name; captured **Opus 4.6 = 80.8% SWE-bench
+Verified** (Anthropic System Card, Feb 2026) into [[opus-4-6]] and flagged GPT-5.4's contradictory
+secondary numbers in [[gpt-5-4]]. Phase 2: marked both @cloud verification items done. Phase 3
+(MODE A): HEALTH_DEBT already 0 — no objective fix. Phase 4 (MODE B): created [[agent-security-risks]]
+concept (threat model + mitigations for running autonomous/always-on agents), wired into index,
+[[claude-code-permissions]], and [[openclaw]].

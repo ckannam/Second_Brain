@@ -35,5 +35,8 @@ your own hardware or a [[vps|VPS]] rather than a hosted service. Created by **Pe
   [[claude-code-paperclip-openclaw]] — that's competitive *marketing framing* against a different
   product ([[paperclip]], the AI-agent-*company* tool), not evidence that Clawdbot≠OpenClaw.
 
+Running an autonomous, tool-wielding agent on your own box carries real risk — see
+[[agent-security-risks]] (the "100 hours" review flagged this as the main caveat).
+
 Related: [[paperclip]], [[claude-code]], [[ai-executive-assistant]], [[proactive-agents]].
 Former name: [[clawdbot]].

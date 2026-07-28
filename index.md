@@ -120,6 +120,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-memory]] — auto-memory + experimental "Auto Dream" consolidation.
 - [[claude-code-skills]] — reusable skills; Skill Creator, evals, trigger tuning.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
+- [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
 - [[claude-code-computer-use]] · [[claude-code-remote-control]] · [[claude-code-imessage]] — control & remote access (stubs).
 - [[claude-code-agent-teams]] · [[claude-code-subagents]] — parallel & delegated agents.
 - [[claude-code-channels]] · [[claude-code-hooks]] · [[claude-code-browser-automation]] — access, notifications, browser.
