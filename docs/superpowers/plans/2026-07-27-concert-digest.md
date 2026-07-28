@@ -85,13 +85,15 @@ for s in "## Love / seen" "## Want to see" "## Discovery seeds" "## Venues" "## 
 ```
 Expected: seven `OK:` lines, no `MISSING`.
 
-- [ ] **Step 3: Commit**
+- [ ] **Step 3: Do NOT commit**
 
+`profile/` is deliberately gitignored (local-only, derived-from-private-data — same policy
+as `finance/`). The file must live on disk (the skill reads it from disk) but must NOT be
+force-committed into git history. Leave it untracked/ignored. Verify:
 ```bash
-cd "/Users/colekannam/Desktop/Second Brain"
-git add profile/concert-taste.md
-git commit -m "Concert digest: taste profile (source of truth)"
+cd "/Users/colekannam/Desktop/Second Brain" && git check-ignore profile/concert-taste.md
 ```
+Expected: prints `profile/concert-taste.md` (confirming it's ignored, not tracked).
 
 ---
 
