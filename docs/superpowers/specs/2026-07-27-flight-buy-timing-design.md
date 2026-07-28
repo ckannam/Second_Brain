@@ -84,9 +84,16 @@ route + date flexibility + active-metro airports, and **append one row** to
 `~/.claude/travel/pricelog.csv`:
 `checked_on, trip_id, origin, dest, depart, return, cheapest_usd, source`.
 That growing log is Cole's personal price history (Travelpayouts' own cache is only ~7 days, so
-our log is what enables long-run trend detection). The plan pins the exact Travelpayouts endpoints
-(cheapest-fares-for-route/dates, price calendar, and cheapest-destinations-from-origin) against the
-live API docs; auth via the free token in `~/.claude/travel/.token` (gitignored).
+our log is what enables long-run trend detection). Endpoints (verified against the Travelpayouts
+**Data API** docs — the free, token-based API; the real-time Search API is intentionally NOT used,
+as it is gated behind 50,000 MAU):
+- `/v1/prices/cheap` — cheapest tickets for a route with flexible depart/return dates (tracked-trip
+  fares).
+- `/v1/prices/calendar` — cheapest price per day of a month (sweet-spot / best-date detection).
+- `/v1/city-directions` — cheapest/popular destinations from an origin city (idea trips from RDU).
+
+Cached data carries `expires_at` timestamps (never use expired prices). Auth via an
+`X-Access-Token` header using the free token stored in `~/.claude/travel/.token` (gitignored).
 
 ### Buy/wait signal (pure function, unit-tested)
 `buy_signal(current, history, days_to_departure, trip_type, budget, hard_nudge_days, purchased)`
