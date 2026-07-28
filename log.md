@@ -329,3 +329,285 @@ local repos only. Only experience-level descriptions were written.
 MODE A: HEALTH_DEBT was 0 on arrival — no self-healing fixes needed. Logged clean night.
 MODE B: Created [[model-speciation]] concept page (fills dangling Karpathy link from skill-issue-karpathy-sarah-guo; covers divergence of AI models into ecological niches, implications for eval-driven selection and multi-model workflows). Added to index.md.
 MODE C: (1) Updated [[claude-code-browser-automation]] — grounded against official Anthropic Week 28 docs (built-in browser, v2.1.202–v2.1.206, July 6–10 2026); added computer use research preview timeline (Week 13–14 March 2026); distinguished Claude in Chrome extension. (2) Updated [[claude-code-memory]] — verified Auto Dream cadence as ≥24h AND ≥5 sessions (community-observed; not in official docs); added launch timeline. Checked off both queue items in nightly-queue.md.
+
+## [2026-07-27] ingest | Carson Eisner's UShip vault page (shared by Cole)
+Ingested Carson's own UShip topic page (Cole shared it to fill his vault's thin, email-only
+UShip coverage). Saved raw → `raw/Processed/2026-07-27 Carson Eisner UShip vault page (shared).md`;
+source summary [[carson-uship-vault-page]]. Framing per Cole: absorb the facts but **expansion is
+not the #1 point and applies least to Cole** (he forfeits his equity at graduation, spring 2027);
+Cole-POV, not Carson's expansion-protagonist voice.
+- **Rewrote [[uship]]** from a stub into a full overview: Cole's position (**35% of the legacy
+  UShip 6 LLC, tied-largest with [[John Gorman]]; 70% between the two seniors; forfeits at
+  graduation; brand-leverage in the Ventures restructure**), storage-first franchise model,
+  Fall-2018 history + scale, cap table, finances (~$80K net YTD; margins 54–79%), pricing catalog,
+  the Wix/Net-ID email moat (Cole's former domain), Columbia + the trademark cease-and-desist
+  ([[Daniel Eisner]]), and the UShip Ventures (DE holdco) restructure.
+- **New page [[uship-os]]** — Carson's multi-tenant OS (Next.js/Prisma/Supabase, Render); the 2027
+  expansion linchpin.
+- **Enriched CRM** with roles + legacy-LLC stakes: [[Carson Eisner]] (5%, data/finance+OS, father
+  [[Daniel Eisner]]), [[John Gorman]] (35%, logistics/Duke liaison), [[Daniel Hieman|Heiman]] (10%,
+  expansion/Columbia), [[Matthew Moskow]] (10%, data/CTO, holds the list CSVs), [[Luca Adams-Agresti]]
+  (5%, ambassadors), [[Ray Kwei]] ("Papa Ray"? possible founder).
+- Updated [[Uship]] bucket + `index.md`; filed 3 `@human` tasks (name-spelling reconciliation
+  incl. the `Daniel Hieman`→Heiman filename typo; confirm Papa Ray/founding; Cole's stake in the
+  Ventures/pass-down decision).
+- **Cross-check kept:** Carson (joined Feb 2026) omits alumni [[Ray Kwei]]/[[Nick Loria]] and
+  narrows Cole to "email" — the vault keeps Cole's longer tenure (Sep 2023), broader ops role, and
+  those alumni. Carson's page is treated as a rich *secondary* source, not overriding Cole's own
+  knowledge.
+
+## [2026-07-27] update | UShip — Cole's confirmations (Heiman rename, Papa Ray, equity caveat)
+Cole confirmed three things on the Carson-page ingest: (1) Carson's 2018 figure is just his
+Square-**data** range — Carson joined the company in 2026 (already reflected); (2) **name is
+Heiman** → renamed `crm/Daniel Hieman.md`→`Daniel Heiman.md` and updated all live
+`[[Daniel Hieman]]` links (buckets, [[uship]], crm/index, profile); (3) **"Papa Ray" = [[Ray
+Kwei]]** (early/founding-era figure) — updated [[Ray Kwei]] + [[uship]]. Also softened the
+"Cole's leverage" framing on [[uship]] per Cole: team is exploring holding companies but **Cole
+is unsure he'll hold this equity long-term** — flagged as a later conversation, not a decision to
+force. Tasks updated accordingly. (Historical `[[Daniel Hieman]]` mentions in earlier log entries
+left as-is per append-only.)
+
+## [2026-07-27] ingest | Neuroscience batch (3 sources) — seeded neuroscience-of-behavior cluster
+Cole asked to ingest the raw queue and flagged a standing goal: he's **obsessed with neuroscience
+and wants his behaviors/decisions justified in neuro mechanisms** (saved to auto-memory). Ingested
+3 sources: **[[neuroplasticity-rewiring-brain-ixcarus]]** and **[[conscious-subconscious-mind-ixcarus]]**
+(both *ixcarus* on Substack) + **[[how-to-remember-everything-brainhealthdecoded]]** (*Brain Health
+Decoded*).
+- **Filename collision resolved:** the two files both clipped as `How To Remember Everything You
+  Learn(.md / 1.md)` are *different* articles — `1.md` is actually the conscious/subconscious deep
+  dive, not a memory-technique piece. Noted on the source page.
+- **11 new concept pages** (hub + 10): [[neuroscience-of-behavior]], [[neuroplasticity]],
+  [[predictive-processing]], [[productive-discomfort]], [[hebbian-learning]], [[memory-consolidation]],
+  [[learning-by-connection]], [[knowledge-types]], [[conscious-vs-subconscious]],
+  [[reticular-activating-system]], [[cognitive-biases]].
+- **Enrichment / reciprocal links:** [[identity-led-goals]] (identity is neurological),
+  [[environment-design]] (mirror neurons/cues), [[discipline-without-willpower]] +
+  [[how-to-build-discipline]] (neuroplasticity as the "restructure the brain" mechanism),
+  [[agent-dreaming]] (machine ↔ human memory consolidation), [[erin-meryl]] (thread origin),
+  [[marsh-memory-lab]] (IOED ↔ "explain from scratch").
+- Reconciled pop-science claims (7-second pre-decision, superconscious, subliminals, pineal) as
+  framing, not fact, on the source pages. Updated index.md (new concept + source sections, batch
+  note) and the [[Personal]] bucket.
+- **Still in the inbox (not ingested):** re-clip of the Obsidian Vault Deep Dive (already covered by
+  [[obsidian-vault-deep-dive-emai]]) and `I Tested Opus 5 vs. Fable 5` (description/timestamps only,
+  no transcript) — flagged to Cole for a decision.
+
+## [2026-07-27] filed | Neuro — Cole's neuroscience YouTube channel (venture)
+Cole introduced his **[[neuro-channel|Neuro]]** venture: a stick-figure "walking brain" character
+explaining neuroscience in ~45–90s YouTube Shorts, to make brain science accessible. Filed it into
+the vault as the natural output layer of the neuroscience ingest.
+- New entity pages: **[[neuro-channel]]** (venture hub — mission, character, pipeline, status,
+  tech) + tool stubs **[[remotion]]** (React→MP4 renderer) and **[[elevenlabs]]** (voice).
+- **Key connection made:** the vault's [[neuroscience-of-behavior]] cluster *is* the channel's
+  topic bank — mapped 10 existing concept pages to ready video hooks on the [[neuro-channel]] page.
+  Ingest → wiki → Shorts is the same compounding loop as [[llm-wiki-pattern]].
+- Enriched [[cole|profile]] (Neuro under ventures + interests; framed as the synthesis of his
+  science↔business↔service tensions). Updated index.md (Tools/venture) and [[Personal]] bucket.
+- **Open offers to Cole:** (1) give **Neuro its own bucket** (it's a real venture like Uship/JHTV);
+  (2) pick the first real (non-trailer) video topic from the bank; (3) when ready, help build
+  video #2 in the `neuro-video/` Remotion repo. Repo is separate from this vault — nothing built
+  there this session.
+
+## [2026-07-27] update | Neuro bucket + production-pipeline design
+Per Cole ("just incorporate into my vault for now" + asked how to auto-produce/store videos):
+- Created the **[[Neuro]] bucket** (venture, like Uship/JHTV); added to buckets/index, root index
+  buckets line, and repointed the Personal bucket's Neuro note to it.
+- Filed **[[neuro-production-pipeline]]** answering the automation question (design only, not built):
+  core principle **spec.json = source of truth, MP4 = rebuildable artifact**; spec-driven pipeline
+  (Claude API script ← vault concept page → ElevenLabs voice → Remotion render → YouTube upload);
+  3-layer storage (git specs / binaries not-in-git via YouTube-unlisted or R2 / **vault = queryable
+  video catalog**); v1 = local one-command render, v2 = Remotion Lambda / GH Actions + scheduled
+  task; keep Cole's human taste gate. Linked from [[neuro-channel]] and indexed.
+
+## [2026-07-27] query | Best way to build Neuro stick-figure animation automatically → filed design
+Cole asked the best way to build stick-figure animation like Neuro automatically with Claude Code.
+Filed **[[neuro-character-rig]]**: recommend an **articulated SVG rig as a Remotion React component**
+— nested joint `<g>` transforms, a named **pose library** + procedural idle/blink/brain-pulse,
+sequenced to script cue frames; **amplitude-driven mouth-sync** via `@remotion/media-utils`
+(upgrade to Rhubarb visemes later). Chosen over Rive/Lottie/AI-video specifically because the rig is
+**code Claude can author & tweak from a script**, not a binary/visual-tool artifact. One-time step:
+trace/redraw `neuro.png` into a layered, style-matched SVG (round-cap strokes). Linked from
+[[neuro-channel]] (future articulated character), [[neuro-production-pipeline]] (its animation step),
+and the [[Neuro]] bucket; deferred until Cole leaves the flat-PNG format.
+
+## [2026-07-27] ingest | Fulbright application (Cole's brief + Anna's Duke process email)
+Ingested two sources into a new **[[Fulbright]]** bucket: Cole's project brief
+(`raw/Processed/2026-07-27 Fulbright Application Project Context (Cole).md` → [[fulbright-project-context]])
+and [[Anna Bernard-Hoverstad]]'s 2026-07-14 "Fulbright @ Duke 2026" email
+(`raw/Processed/2026-07-14 Anna Bernard-Hoverstad Fulbright Duke email.md` → [[anna-fulbright-duke-2026-07-14]]).
+Created entity [[fulbright-us-student-program]]; concepts [[ai-lowering-entrepreneurship-barriers]]
+(the Open Study/Research thesis, grounded in [[jhtv]]/[[translational-funding]]) and
+[[fulbright-country-selection]] (India/Brazil/Indonesia); CRM records for [[Anna Bernard-Hoverstad]],
+[[Cyprene Caines]], [[Clayton Beasley]]. **Reconciliation** (email supersedes the stale brief):
+added the hard **Sept 10 12pm ET** rec-letter + language-eval deadline, corrected the campus deadline to
+**Aug 21 12pm ET** (lock/"Ready for Review", not submit) and final to **Oct 6 4:59pm ET**; noted the
+July 10 Anna meeting already happened and the **writing-group signup (July 20) already passed** as of today.
+Filed 10 Fulbright action items in `tasks/index.md` (binding constraint = Sept 10 rec letters).
+
+## [2026-07-27] tasks | Captured 9 laned Neuro action items
+Filed a **Neuro — YouTube channel** section on [[tasks/index]]: 2 @cloud (draft top-3 scripts from
+the vault concept pages; benchmark successful neuro Shorts channels), 5 @human (pick first topic;
+create the YouTube channel; get an ElevenLabs API key → Keychain not vault; decide master storage;
+upload video #1), 2 @local (build the v1 render pipeline; build the articulated SVG rig — deferred).
+Sequence: @cloud drafts → Cole picks → @human voice → @local build/render → @human upload.
+
+## [2026-07-27] ingest | Stickman-animation free-AI batch (7 videos) → no-subscription Neuro stack
+Cole added 7 YouTube tutorials on making stick-figure videos with free AI tools; goal = a Neuro
+pipeline that adds **no subscription but the Claude one he has**, and he must **review every video
+before it posts**. Ingested as a cluster:
+- **[[stickman-animation-free-ai-tutorials]]** — one source-cluster page cataloging all 7 (unique
+  URLs; fully read #1 Digital Income Project/Claude, #2 Jackson free course, #5 Mark AI Guy
+  character-consistent finance template; #3/#4/#6/#7 catalogued by tool coverage).
+- **[[neuro-free-tool-stack]]** (new concept) — the $0 stack: **Claude** (brain/script) + **Google
+  Flow / Nano Banana 2** (free image gen, `neuro.png` as consistency reference) + **Cole's own
+  voice** or free TTS (no ElevenLabs) + **Remotion or CapCut** + YouTube audio library + Canva.
+  Hard-wires the **review-before-post** gate (nothing auto-publishes).
+- Enriched [[neuro-production-pipeline]] (own-voice step, review gate, per-scene art) and
+  [[neuro-character-rig]] (added the image-per-scene path alongside the SVG rig).
+- Updated tasks: replaced the "get ElevenLabs API key" @human item with **decide voice (record
+  your own)** + **create free Google Flow/CapCut accounts**; retargeted the build task to the free
+  stack + review gate. Updated index (concept/source/batch note) + [[Neuro]] bucket.
+- Moved 7 files to `raw/Processed/`. **Inbox still holds** the Obsidian re-clip + Opus5/Fable5 stub
+  (both previously flagged, awaiting Cole's call).
+
+## [2026-07-27] research | Fulbright host outreach — expanded roster + 10 drafted emails
+Per [[Anna Bernard-Hoverstad|Anna]]'s advice (contact academic universities + ecosystem hosts in tandem,
+>1 per country), researched and drafted **10 tailored outreach emails** → new working doc
+[[fulbright/outreach|fulbright/outreach.md]]. **Confirmed emails** (official/faculty pages):
+Setia (pankajsetia@iima.ac.in) + IIMA CDT co-chair Deodhar (swanandd@iima.ac.in), CIIE.CO (info@ciie.co),
+Geber Ramalho/CIn-UFPE (glr@cin.ufpe.br), Porto Digital (portodigital@portodigital.org),
+IIE-EAP desk (FBstudent.EAP@iie.org). **Verify-before-send:** ISB Deepa Mani, NSRCEL, CESAR, AMINEF,
+ITB-LPIK, Prasetiya Mulya (contact-page + address pattern given). New hosts added beyond the brief:
+Deepa Mani (ISB), NSRCEL (IIMB), CESAR (Recife), ITB-LPIK, Prasetiya Mulya. Noted Indonesia's AMINEF
+finalizes affiliation post-award. Updated [[fulbright-country-selection]], [[Fulbright]] bucket, tasks.
+
+## [2026-07-27] research | Fulbright outreach — verified addresses + project abstract
+Verified the 6 unconfirmed host emails: **confirmed** AMINEF `infofulbright_usa@aminef.or.id` and
+Prasetiya Mulya `info@prasetiyamulya.ac.id`; **no public email** for ISB (Deepa Mani), NSRCEL, CESAR,
+and ITB-LPIK — route via their contact forms / LinkedIn (recorded per-contact in
+[[fulbright/outreach|outreach.md]], no addresses guessed). 7 of 11 contacts now have a confirmed inbox.
+Wrote a reusable 1-page [[fulbright/project-abstract|project abstract]] (from [[ai-lowering-entrepreneurship-barriers]])
+to attach to the emails, with per-country/host brackets. Updated the [[Fulbright]] bucket + tasks.
+
+## [2026-07-27] decision | Neuro voice plan + brand identity (email/handle/domain)
+- **Voice:** free AI TTS now for drafting/preview; **re-record in Cole's own voice as the final
+  step before each post** (updated [[neuro-free-tool-stack]] + [[neuro-production-pipeline]]).
+- **Brand identity (proposed):** "Meet Neuro" / **`@meetneuro`** (backups `@heyneuro`, `@askneuro`),
+  email `meetneuro@gmail.com` (Cole creating now), domain `meetneuro.com` (~$12/yr, later).
+  Recorded on [[neuro-channel]]; tasks updated (email/handle + channel + domain). Availability TBC.
+
+## [2026-07-27] task | Fulbright — degree reconciled + 10 outreach emails staged to Duke inbox
+Cole confirmed his degree: **Neuroscience + Chemistry** (double major; Statistics dropped, I&E minor) —
+updated [[Duke]] + all outreach materials, closed the reconcile task. Finalized the signature
+(cdk35@duke.edu). Created **10 Gmail drafts** (the Gmail connector is draft-only — no send tool),
+each addressed to **cdk35@duke.edu**, titled `[Fulbright 1/10 … 10/10]`, each with a header block
+(real recipient + confirmed address or contact-form channel + subject + attach reminder) above the
+ready-to-send body. Cole reviews in Gmail, sends to himself, then sends to hosts from his Duke account.
+
+## [2026-07-27] crm | Networking engine built + 6 contacts added (Job Search)
+Built the **networking engine** for the [[Job Search]]: [[outreach-pipeline]] (the weekly board —
+Lane 0 warm/active · Tier 1 marquee cold · Tier 2 roster cold) + [[outreach-kit]] (reusable pitch /
+proof points / ask-menu). **Monday-morning batch** drafts into Gmail (`colekannam@gmail.com`) as
+ready-to-send drafts; **Cole reviews + sends — nothing auto-sends** (connector is draft-only).
+Added/enriched 6 CRM records, all on-strategy (health/bio/AI): **[[Arielle (Forus Health)]]**
+(warm — called 7/14, reconnect near grad re: joining the team, from iMessage), **[[Sean Tunis]]**
+(enriched: Cole's JHTV mentor, CMTP founder / ex-CMS CMO), and 4 from Cole's `~/Documents/Networking
+People/` prep docs — **[[Christina DeMur]]** (JHTV Tech Dev), **[[Dhevi Kumar]]** (Microsoft Health),
+**[[Kahlil DSouza]]** (GondolaBio/BridgeBio), **[[Nancy Kass]]** (Hopkins bioethics + FDA). Updated
+`crm/index.md`, the [[Job Search]] bucket (new Networking-engine section + action items). First
+batch pending Cole's go.
+
+## [2026-07-27] Neuro build session — character solved + pivot to AI doodle scenes (paused)
+Long build session on the [[neuro-channel|Neuro]] / **Doodlecortex** channel (repo `~/Desktop/neuro-video`):
+- **Fixed** a Remotion crash (missing-voice-MP3 404 → `useOptionalAudioData` makes audio optional).
+- **Character solved:** cut Cole's real drawing to `neuro-real.png` + `neuro-head.png`; rebuilt `NeuroSVG`
+  = his head on the existing rigged limb skeleton → Neuro **walks + gestures** and looks exactly like his art.
+  Rebuilt the intro (walk-ins, per-line gestures, kinetic chunked captions); rendered `~/Downloads/neuro-intro-v2.mp4`.
+- **Pivot validated:** Cole set the bar at **@Zenn0009** — those are AI-generated **hand-drawn doodle
+  scenes** (new illustration every few seconds), not a rigged character. Proved **Gemini/Nano Banana**
+  makes Zenn-quality doodle scenes **free via Cole's login** (2 scenes: kitchen doorway; "WORKING MEMORY"
+  brain-door). New direction: AI doodle scenes = engine, Remotion = captions/assembly.
+- **Decided:** brand **Doodlecortex** (`@doodlecortex`); **Shorts** format; AI voice now / own voice as the
+  final pre-post step. **Open decision:** image pipeline route A (Gemini API, ~cents, recommended) vs B (free web UI).
+- Updated [[neuro-channel]], [[Neuro]] tasks (resume note), and the project memory. Working changes in the
+  video repo are uncommitted. Remotion Studio dev server left running on :3000.
+
+## [2026-07-27] improve | Outreach engine upgraded (vault-improve, local steps 1–4)
+Ran `/vault-improve` on the networking engine ([[outreach-pipeline]] + [[outreach-kit]]). Diagnosis:
+open loop, thin manual supply, undirected, unmeasured. Plan → `tasks/improvements/2026-07-27-outreach-engine.md`.
+Executed the 4 local steps: **(1)** closed the loop — runbook now reconciles status via Gmail
+`search_threads` + fires the 7–10-day follow-up rule; **(2)** ran an iMessage career-signal
+**warm-lead harvest** → queue of candidates to confirm (found a Forus-connected connector + Chai
+Discovery; re-found Arielle/Sean, validating the method); **(3)** wired the real résumé PDF into the
+kit + **installed Cole's `networking-prep` skill** to `.claude/skills/`; **(4)** parsed the full
+~1,900-person PIKE roster PDF (pdfplumber) → NY/DC **Tier-2 expansion** (email column garbles on
+auto-extract → verify addresses from the PDF at draft time; no grad-year → verify recency). Parked:
+@cloud target-org map (seed Chai Discovery + Forus), @local reply-rate scoreboard, @human confirm inputs.
+
+## [2026-07-27] improve | networking-prep skill → vault-native (local steps 1–7)
+Ran `/vault-improve` on the `networking-prep` skill (built before the vault, frozen profile).
+Rewrote `.claude/skills/networking-prep/SKILL.md`: loads Cole's **live** positioning
+([[cole]] + [[five-year-plan]] + [[outreach-kit]]) instead of a hardcoded bio; reads the **CRM +
+iMessage history + [[outreach-pipeline]] status** before web research; **Section 5 pitch** now pulls
+the outreach-kit's pitch/proof-points/ask-menu + a take grounded in Cole's own wiki; **Section 2**
+anchors to the current health/bio/AI operator lane; output is a linked **markdown prep page**
+(`crm/prep/<Name>.md`, .docx optional — dropped the Cowork-only tool); and it now **feeds the
+engine** (CRM record + pipeline row + index + log). Kept the strong research method + tone bar.
+Plan: `tasks/improvements/2026-07-27-networking-prep-skill.md`. Parked: @human output-format pref
+(default markdown + optional .docx).
+
+## [2026-07-27] decision | networking-prep = markdown-only
+Cole chose **markdown-only** output for the [[networking-prep]] skill — no `.docx`. Updated
+`SKILL.md` (Step 5-output + description) and **deleted the now-dead `scripts/doc_helper.py`**. The
+vault prep page (`crm/prep/<Name>.md`) is the sole artifact. Closed the parked @human task.
+
+## [2026-07-27] ingest | Spaced-learning batch (4 sources + SpaceRep) for the channel × app vision
+Ingested Cole's spaced-repetition research bundle, tied to the [[neuro-channel|Neuro channel × learning-app]]
+vision. **Sources:** [[spacing-math-meta-analysis-murray-2025]] (keystone meta-analysis — spacing robust for
+math g=0.28; retrieval *not* robust, g=0.18 CI crosses zero; PDF preserved in `raw/Processed/`),
+[[neuroscience-of-spacing-brainfacts]] (CREB/molecular mechanism; cross-species; the adoption gap),
+[[spacing-testing-complex-skills-study]] (combined spacing+testing protects complex *skills* at 3mo),
+[[optimizing-spaced-learning-smolen-2016]] (**recovered from a broken clip** — molecular optimum; optimal
+spacing is computable). **New concepts:** [[spacing-effect]], [[retrieval-practice]], [[interleaving]],
+[[spaced-repetition]]. **New entity:** [[spacerep]] (competitor — FSRS + Google Calendar; the gap it leaves).
+**Enriched:** [[knowledge-types]] (spacing layer + the type→retrieval-modality routing = the product wedge),
+[[memory-consolidation]] (molecular clock), [[neuroscience-of-behavior]] hub, [[neuro-channel]] (added the
+"channel × app" thesis: *not another Anki* — triage + type-matched retrieval; don't rebuild FSRS). Filed a
+new **Neuro — learning app** task section (spec the Learning-Triage vault skill as the finishable wedge).
+**Off-thread, same batch:** [[opus-5-vs-fable-5-nate-herk]] (Nate Herk; freshness-flagged — [[opus-5]]/[[fable-5]]
+are beyond the vault's [[opus-4-8]] snapshot, to-verify). **Re-clips moved to Processed** (no new pages):
+Obsidian-Deep-Dive + 2 stickman clips (already covered by [[stickman-animation-free-ai-tutorials]]).
+
+## [2026-07-27] build | Proactive iMessage networking briefs (launchd + AppleScript)
+Wired **proactive iMessage** as Cole's reminder channel (he doesn't keep a calendar; already lives
+in texts; declined Slack/Discord). Delivery proven: sends to his self-chat **+14436822254** via
+AppleScript (`~/.claude/networking/send.scpt`) — no Claude session needed at fire-time. A
+deterministic composer (`brief.py`, no LLM) reads [[outreach-pipeline]] + `tasks/index.md` and builds
+a short **morning brief**; Mondays append the **"reply go to run the batch"** trigger line. Scheduled
+via a user **launchd** agent (`com.cole.networking-brief`, daily 8:07am; loaded + tested end-to-end,
+two texts confirmed received). Files in `~/.claude/networking/`. **Pending Cole's call:** whether to
+wire the reply-"go" → auto-run (needs a headless-Claude poller w/ skipped permissions — a
+deliberate security choice; nothing to run until his first batch anyway).
+
+## [2026-07-27] build | Morning brief upgraded: time-remaining countdowns + Google "Claude-layer" calendar
+Per Cole: the brief now leads with **time-left countdowns** (fights [[temporal-discounting]]) —
+anchors: **JHTV internship ends Aug 13, 2026**, Fulbright lock Aug 21, rec letters Sept 10,
+**Graduation Sun May 9, 2027** (north star). Config in `~/.claude/networking/brief.py`.
+Found Cole's **Google Calendar is empty going forward → his real calendar (like his email) is
+Outlook**, which I can't read (no Microsoft connector). So the **two-way calendar** uses his Google
+Calendar as a **"Claude layer"**: seeded the 4 milestones as all-day events (with popup reminders)
+via the connector; he subscribes on his phone next to Outlook. **Gmail is NOT his inbox** (Outlook
+is) — dropped inbox-watching; Gmail stays only for outreach drafts. Saved both facts to memory.
+
+## [2026-07-27] build | Weekly concert digest (hobbies: travel + live music)
+Built Cole a **weekly concert digest** over the proven iMessage channel — his first deliberate
+"invest in hobbies" tool. Every **Monday ~8am** a launchd agent (`com.cole.concert-digest`) runs
+`~/.claude/concerts/run_digest.sh`, which computes the active metro deterministically
+(`active_metro.py`: **Baltimore until 2026-08-17, then Triangle/Durham–Raleigh** on his move) and
+launches a headless Claude session running the **`concert-digest`** skill: it reads the
+Cole-editable taste profile (`profile/concert-taste.md` — local-only, gitignored), web-searches his
+artists (Phish, Billy Strings, Goose, Caamp, Tyler Childers, Zach Bryan, JRAD, Sturgill…) + local
+venue calendars, ranks by taste + proximity with 🔎 **taste-matched discovery**, and texts a
+scannable block to his self-chat **+14436822254**. Reuses the [[outreach-pipeline]]/networking-brief
+delivery pattern (AppleScript `send.scpt`). Ships standalone; exposes a `section` mode so a future
+combined weekly update can absorb it. Spec + plan in `docs/superpowers/`.
