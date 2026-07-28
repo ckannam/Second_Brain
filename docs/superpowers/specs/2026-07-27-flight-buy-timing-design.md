@@ -2,7 +2,19 @@
 
 **Date:** 2026-07-27
 **Owner:** Cole
-**Status:** design approved (pending spec review)
+**Status:** ⏸️ PAUSED (2026-07-28) — spec drafted, brainstormed, and committed; all design
+decisions locked (see table). Not yet built.
+
+### ▶️ Resume here (next session)
+1. Cole gives the spec a final thumbs-up (optionally set a Vegas budget target, or leave trend-only).
+2. Cole registers a **free Travelpayouts account** → API token (travelpayouts.com/developers/api,
+   ~5 min, no card). Store it in `~/.claude/travel/.token`.
+3. Then invoke **superpowers:writing-plans** to turn this spec into the implementation plan, and
+   execute it the same way the concert digest was (subagent-driven). Reuse the concert-digest
+   scaffolding pattern (`~/.claude/concerts/` → `~/.claude/travel/`; date→metro flip already
+   solved in `active_metro.py`; AppleScript iMessage send already proven).
+- Nothing is half-built on disk yet — no `~/.claude/travel/` files exist. Clean start from the plan.
+- Time-sensitive: the Vegas trip is Oct 8–13, 2026; the backstop wants a BUY decision by ~Sep 22.
 
 ## Purpose
 
