@@ -56,12 +56,12 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] @cloud Watch **[[agent-hub]]** ("GitHub for agents") — evaluate whether it's relevant to this vault's multi-agent direction. [[extending-the-llm-wiki]] (added 2026-07-24)
 
 ### Sourcing & verification
-- [ ] @cloud Confirm the identities/spellings of **Clawdbot** / **OpenClaw**. [[clawdbot]] [[openclaw]] (added 2026-07-24)
-- [ ] @cloud Capture the **Opus 4.6 vs GPT 5.4** benchmark numbers. [[opus-4-6]] [[gpt-5-4]] (added 2026-07-24)
 - [ ] @cloud (Optional) Deeper notes on specific [[build-sell-claude-code-course]] chapters. (added 2026-07-24)
 
 ## Done
 
+- [x] @cloud Confirm the identities/spellings of **Clawdbot** / **OpenClaw** — resolved a factual error: they are the **same project**, not competitors. *Clawdbot* (Peter Steinberger, ~Nov 2025) was **renamed OpenClaw** (~Jan 2026; alias "Moltbot"). Made [[openclaw]] canonical, reframed [[clawdbot]] as the former name, fixed index/overview + the [[llm-wiki-pattern]] instantiation link. [[clawdbot]] [[openclaw]] (added 2026-07-24) (done 2026-07-28)
+- [x] @cloud Capture the **Opus 4.6 vs GPT 5.4** benchmark numbers — captured with honest sourcing: **Opus 4.6 = 80.8% SWE-bench Verified** is primary (Anthropic System Card, Feb 2026); **GPT-5.4's SWE-bench Verified conflicts across secondary sources (77.2% vs 58.7%) → left unstated/flagged**; added SWE-bench Pro (~57.7%), pricing, and release dates with a secondary-source caveat. [[opus-4-6]] [[gpt-5-4]] (added 2026-07-24) (done 2026-07-28)
 - [x] Ingest official **Anthropic Claude Code docs** to ground single-source (Nate Herk) feature claims. [[claude-code]] [[anthropic]] — grounded [[claude-code-browser-automation]] against official Anthropic Week 28 docs. (added 2026-07-24) (done 2026-07-27)
 - [x] Verify the **Auto Dream** trigger cadence (community-inferred). [[claude-code-memory]] — verified in [[claude-code-memory]] — ≥24h AND ≥5 sessions, marked plausible-but-unverified. (added 2026-07-24) (done 2026-07-27)
 - [x] **Fixed the raw-inbox drift** — clipper defaults to vault-root `assets/` (not `raw/assets/`); made ingest + `AGENTS.md` sweep **both** inboxes so no clip is lost, and cleared a stray duplicate. [[obsidian-web-clipper]] (done 2026-07-25)
