@@ -40,5 +40,8 @@ touch 15 files in one pass, so maintenance cost approaches zero. Lineage: Vannev
 ## Instantiations
 
 [[matt-wolfe]] extended it into a full [[second-brain-system]] (wiki + journal + CRM).
+[[openclaw|OpenClaw]] (formerly [[clawdbot]]) bakes the same idea into an always-on agent:
+plain-text Markdown vault memory with MOCs and wiki-links, plus a "dreaming" consolidation pass —
+which is why [[andrej-karpathy]] singled out its memory system.
 See [[extending-the-llm-wiki]] for how this vault instantiates the pattern and the roadmap
 for pushing it further along Karpathy's own trajectory.

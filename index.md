@@ -60,8 +60,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[obsidian-web-clipper]] — browser extension that clips web pages / YouTube transcripts into `raw/`.
 - [[codex]] — OpenAI coding agent; now also a plugin for Claude Code.
 - [[autoresearch|autoresearch (repo)]] — Karpathy's self-improving research loop (one file, one metric). · [[agent-hub]] — "GitHub for agents." · [[nanochat]] — the small GPT autoresearch trains.
-- [[clawdbot]] — young third-party AI agent tool; alternative to Claude Code for assistants.
-- [[openclaw]] — open-source Claude-agent project noted for its memory system.
+- [[openclaw]] — open-source always-on Claude-agent harness (Markdown memory + "dreaming"); by Peter Steinberger.
+- [[clawdbot]] — **former name of [[openclaw]]** (renamed ~Jan 2026); kept as a pointer, not a separate tool.
 - [[paperclip]] — run an entire company of AI agents (CEO agent hires/delegates).
 - [[n8n]] — node-based automation incumbent, repeatedly contrasted with Claude Code.
 - [[firecrawl]] — turns any website into LLM-ready data (MCP server).
