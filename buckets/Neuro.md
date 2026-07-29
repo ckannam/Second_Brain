@@ -17,6 +17,8 @@ output side of his [[neuroscience-of-behavior|neuroscience]] work.
 
 ## Production research
 - **[[stickman-animation-free-ai-tutorials]]** — 7-video batch on free-AI stick-figure pipelines (Google Flow, Nano Banana 2, CapCut, free voice).
+- **[[neuro-shorts-benchmark]]** — what works in neuro/psych short-form: the channels to model (Psych2Go, BrainCraft, Neuro Transmissions…), title patterns, and data-backed hook/pacing rules.
+- **[[neuro-scripts-batch-1]]** — first 3 ready-to-produce scripts + storyboard JSON (walk-into-a-room / new-car / resolutions), built on the benchmark rules.
 
 ## The app (channel × app) — spaced-learning science
 The learning app the channel funnels into: a spacing engine that routes retrieval by
