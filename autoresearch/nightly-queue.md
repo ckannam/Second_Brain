@@ -9,42 +9,54 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 2**.
 
-## Night of 2026-07-28
+## Night of 2026-07-29
 
-### Selected (@cloud, bounded to ≤2–3) — Sourcing & verification
-Picked the two bounded, purely web-verifiable items — no local data, no outward action,
-no human decision. These were queued (and unfinished) last night.
+### Selected (@cloud, bounded to ≤3) — Fulbright + Neuro channel
+Three bounded, purely web-researchable/vault-only items — no local data, no outward action,
+no human decision. The two Neuro items are sequenced (benchmark informs the scripts).
 
-- [x] **Confirm Clawdbot / OpenClaw identities & spellings** → correct [[clawdbot]] / [[openclaw]].
-      ✓ Done 2026-07-28: Web research resolved a factual error — **Clawdbot and OpenClaw are the
-      *same* project, not competitors.** Created by **Peter Steinberger** as *Clawdbot* (Nov 2025),
-      renamed **OpenClaw** (Jan 2026); some sources also list the alias "Moltbot". Made
-      [[openclaw]] the canonical entity page, reframed [[clawdbot]] as the former name pointing to
-      it, and marked the old "distinct competing products" framing as superseded.
-- [x] **Capture the Opus 4.6 vs GPT-5.4 benchmark numbers** → add to [[opus-4-6]] / [[gpt-5-4]] with
-      citations (or mark not-found).
-      ✓ Done 2026-07-28: One number is primary-sourced — **Opus 4.6 = 80.8% (80.84%) SWE-bench
-      Verified**, per Anthropic's Opus 4.6 System Card (Feb 2026), corroborated by Vellum. **GPT-5.4's
-      SWE-bench Verified figure conflicts across secondary sources (77.2% vs 58.7%) and is NOT stated
-      as fact** — flagged as unverified. Release dates + the commonly-cited SWE-bench Pro figure
-      (GPT-5.4 ~57.7%) and pricing added with a secondary-source caveat.
+1. **Fulbright — Verify current-cycle award rates + requirements** for India / Brazil /
+   Indonesia on the official Fulbright/commission pages → correct/annotate
+   [[fulbright-country-selection]]. Cole's numbers are prior research; confirm before he
+   commits a country. Pure web verification, one page updated.
+2. **Neuro — Benchmark 5–10 successful neuroscience/psychology Shorts channels** — hooks,
+   pacing, title patterns, positioning → new page filed to the [[Neuro]] bucket. Web
+   research; informs item 3.
+3. **Neuro — Draft script + storyboard JSON for the top 3 video topics** — "walk into a
+   room and forget" ([[conscious-vs-subconscious]]), "see your new car everywhere"
+   ([[reticular-activating-system]]), "why resolutions fail" ([[neuroplasticity]]).
+   Researched straight from the vault concept pages; produces drafts Cole approves.
 
 ### Considered but skipped this night (with reason)
-- **Claude Mastery — Train/Token/Skill/Agent max, Improve+general skills** (@cloud): tagged cloud,
-  but each is a large, open-ended "master/build a skill" undertaking, not a bounded one-night task.
-  Deferred to keep the night within the ≤2–3 build bound; better handled as a dedicated build night.
-- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change (edits `program.md`
-  behavior); too large/structural for tonight's bound — dedicated night.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise; touches how
-  the metric behaves — skipped to avoid destabilizing the ratchet unattended.
-- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented GPU
-  (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe here.
+- **Job Search — Build the target-org map** (@cloud): the specified output is
+  `crm/target-orgs.md`, but `crm/` is **gitignored / local-only** — a cloud commit there
+  can't be tracked in the morning PR or synced, and the second half (map known contacts→orgs)
+  is explicitly **@local** (needs Cole's Mac). Skipped pending a decision on relocating the
+  research output to the wiki, or running it on the @local lane. Flagged, not silently dropped.
+- **Claude Mastery — Train/Token/Skill/Agent max, Improve+general skills** (@cloud): each is
+  a large, open-ended "master/build a skill" undertaking, not a bounded one-night task.
+  Deferred to keep within the ≤3 bound; better as a dedicated build night.
+- **Neuro — Recover the broken Smolen 2016 clip** (@cloud): cloud-doable web re-fetch, but
+  deferred behind the higher-value channel work to stay within the bound; a clean pick for a
+  future night.
+- **Fulbright — Verify writing-group status / recommenders / send outreach / country commit /
+  online-app setup / transcripts / language form / aunt email / written materials** (@human):
+  decisions or outward/irreversible actions — not cloud-eligible.
+- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change (edits
+  `program.md` behavior); too large/structural for tonight's bound — dedicated night.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise and
+  touches how the metric behaves — skipped to avoid destabilizing the ratchet unattended.
+- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented
+  GPU (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe here.
 - **Watch [[agent-hub]]** (@cloud): open-ended monitoring, no bounded deliverable tonight.
-- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly optional,
-  lowest priority; deferred behind the two verification wins.
+- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly
+  optional, lowest priority; deferred behind the selected work.
 
 ### Not eligible here (for reference — @local or @human)
-- CRM enrichment from message content; Gmail pass 2; ingest IG/YouTube exports; extend the @local
-  lane → **@local** (need Cole's Mac / local data).
-- Finance decisions (Freedom Number, Roth, HYSA, VXUS), Uship responder, password holder, Journal-pillar
-  decision, Spotify concert alerts, populate Duke people → **@human** (decision / outward action).
+- CRM enrichment from message content; Gmail pass 2; ingest IG/YouTube exports; extend the
+  @local lane; Neuro pipeline build (P1–P4), master-storage default, v1 one-command pipeline,
+  SVG rig → **@local** (need Cole's Mac / local data).
+- Neuro API key, channel/account creation, uploads, topic approval; finance decisions; Uship
+  responder/spellings/founding/equity; password holder; Journal-pillar decision; Spotify
+  concert alerts; populate Duke people; Fulbright human items → **@human** (decision / outward
+  action).
