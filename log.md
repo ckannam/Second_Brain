@@ -635,3 +635,13 @@ venue calendars, ranks by taste + proximity with 🔎 **taste-matched discovery*
 scannable block to his self-chat **+14436822254**. Reuses the [[outreach-pipeline]]/networking-brief
 delivery pattern (AppleScript `send.scpt`). Ships standalone; exposes a `section` mode so a future
 combined weekly update can absorb it. Spec + plan in `docs/superpowers/`.
+
+## [2026-07-28] autoresearch | Night 2026-07-28 (6-phase loop)
+Phase 1 build (web research): corrected a factual error — **Clawdbot and OpenClaw are the same
+project** (Peter Steinberger; Clawdbot ~Nov 2025 → renamed OpenClaw ~Jan 2026), made [[openclaw]]
+canonical and reframed [[clawdbot]] as the former name; captured **Opus 4.6 = 80.8% SWE-bench
+Verified** (Anthropic System Card, Feb 2026) into [[opus-4-6]] and flagged GPT-5.4's contradictory
+secondary numbers in [[gpt-5-4]]. Phase 2: marked both @cloud verification items done. Phase 3
+(MODE A): HEALTH_DEBT already 0 — no objective fix. Phase 4 (MODE B): created [[agent-security-risks]]
+concept (threat model + mitigations for running autonomous/always-on agents), wired into index,
+[[claude-code-permissions]], and [[openclaw]].

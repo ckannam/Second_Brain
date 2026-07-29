@@ -31,7 +31,7 @@ Three sub-threads: **(a) build** — [[agentic-workflows]] (self-healing, [[agen
 displacing [[n8n-vs-claude-code|n8n]]; **(b) organize** — the [[ai-second-brain-levels|5-level second brain]]
 and [[ai-executive-assistant|executive assistants]] (this vault is one instance); **(c) sell** —
 [[selling-ai-automations]] via [[cold-email-outreach|cold email]] and the [[zero-risk-offer]].
-Adjacent tools/rivals: [[clawdbot]], [[paperclip]], [[openclaw]], [[codex]], [[firecrawl]].
+Adjacent tools/rivals: [[openclaw]] (formerly [[clawdbot]]), [[paperclip]], [[codex]], [[firecrawl]].
 
 ## 3. Discipline & behavior change
 

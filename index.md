@@ -92,8 +92,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[obsidian-web-clipper]] — browser extension that clips web pages / YouTube transcripts into `raw/`.
 - [[codex]] — OpenAI coding agent; now also a plugin for Claude Code.
 - [[autoresearch|autoresearch (repo)]] — Karpathy's self-improving research loop (one file, one metric). · [[agent-hub]] — "GitHub for agents." · [[nanochat]] — the small GPT autoresearch trains.
-- [[clawdbot]] — young third-party AI agent tool; alternative to Claude Code for assistants.
-- [[openclaw]] — open-source Claude-agent project noted for its memory system.
+- [[openclaw]] — open-source always-on Claude-agent harness (Markdown memory + "dreaming"); by Peter Steinberger.
+- [[clawdbot]] — **former name of [[openclaw]]** (renamed ~Jan 2026); kept as a pointer, not a separate tool.
 - [[paperclip]] — run an entire company of AI agents (CEO agent hires/delegates).
 - [[n8n]] — node-based automation incumbent, repeatedly contrasted with Claude Code.
 - [[firecrawl]] — turns any website into LLM-ready data (MCP server).
@@ -160,6 +160,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-memory]] — auto-memory + experimental "Auto Dream" consolidation.
 - [[claude-code-skills]] — reusable skills; Skill Creator, evals, trigger tuning.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
+- [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
 - [[claude-code-computer-use]] · [[claude-code-remote-control]] · [[claude-code-imessage]] — control & remote access (stubs).
 - [[claude-code-agent-teams]] · [[claude-code-subagents]] — parallel & delegated agents.
 - [[claude-code-channels]] · [[claude-code-hooks]] · [[claude-code-browser-automation]] — access, notifications, browser.

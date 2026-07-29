@@ -9,27 +9,42 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 2**.
 
-> **Example below — from a prior hand-curated run.** Phase 0 overwrites everything under this line on the next routine run; treat it as illustration, not input.
+## Night of 2026-07-28
 
-## Queue (@cloud)
-- [x] Ground a single-source feature claim: pick one `claude-code-*` concept page that cites only
-      [[nate-herk]], verify it against **official Anthropic docs**, add the official citation, and
-      correct/flag any discrepancy. (One page per night.)
-      → Done 2026-07-26: [[claude-code-permissions]] — corrected 3-posture to 6-mode, added
-        classifier model (Sonnet 5 by default, official source code.claude.com/docs/en/permission-modes).
-      ✓ Done 2026-07-27: updated [[claude-code-browser-automation]] — added official citation to
-      Anthropic Week 28 docs (built-in browser, v2.1.202–v2.1.206, July 6–10 2026); noted computer
-      use research preview timeline (Week 13–14, March 2026); distinguished Claude in Chrome extension.
-- [x] Verify the **Auto Dream** trigger cadence (currently community-inferred) → update
-      [[claude-code-memory]] with a sourced answer, or explicitly mark it unverified + what you checked.
-      ✓ Done 2026-07-27: updated [[claude-code-memory]] — cadence is ≥24h AND ≥5 sessions (multiple
-      independent community sources agree); official What's New page does not publish these numbers,
-      so marked *highly plausible but unverified*. Launch timeline added (Feb 2026 auto-memory,
-      late March 2026 auto-dream rollout).
-- [ ] Confirm the **Clawdbot** / **OpenClaw** identities & spellings → update [[clawdbot]] / [[openclaw]].
-- [ ] Capture the **Opus 4.6 vs GPT 5.4** benchmark numbers from a primary source → add to the
-      relevant page with citation (or mark not-found).
+### Selected (@cloud, bounded to ≤2–3) — Sourcing & verification
+Picked the two bounded, purely web-verifiable items — no local data, no outward action,
+no human decision. These were queued (and unfinished) last night.
 
-## Not eligible here (for reference — these are @local or @human)
-- CRM enrichment from message content, ingesting IG/YouTube exports → **@local** (needs your Mac).
-- Password-holder design, Journal-pillar decision, Stewart prep, IG/Spotify exports → **@human**.
+- [x] **Confirm Clawdbot / OpenClaw identities & spellings** → correct [[clawdbot]] / [[openclaw]].
+      ✓ Done 2026-07-28: Web research resolved a factual error — **Clawdbot and OpenClaw are the
+      *same* project, not competitors.** Created by **Peter Steinberger** as *Clawdbot* (Nov 2025),
+      renamed **OpenClaw** (Jan 2026); some sources also list the alias "Moltbot". Made
+      [[openclaw]] the canonical entity page, reframed [[clawdbot]] as the former name pointing to
+      it, and marked the old "distinct competing products" framing as superseded.
+- [x] **Capture the Opus 4.6 vs GPT-5.4 benchmark numbers** → add to [[opus-4-6]] / [[gpt-5-4]] with
+      citations (or mark not-found).
+      ✓ Done 2026-07-28: One number is primary-sourced — **Opus 4.6 = 80.8% (80.84%) SWE-bench
+      Verified**, per Anthropic's Opus 4.6 System Card (Feb 2026), corroborated by Vellum. **GPT-5.4's
+      SWE-bench Verified figure conflicts across secondary sources (77.2% vs 58.7%) and is NOT stated
+      as fact** — flagged as unverified. Release dates + the commonly-cited SWE-bench Pro figure
+      (GPT-5.4 ~57.7%) and pricing added with a secondary-source caveat.
+
+### Considered but skipped this night (with reason)
+- **Claude Mastery — Train/Token/Skill/Agent max, Improve+general skills** (@cloud): tagged cloud,
+  but each is a large, open-ended "master/build a skill" undertaking, not a bounded one-night task.
+  Deferred to keep the night within the ≤2–3 build bound; better handled as a dedicated build night.
+- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change (edits `program.md`
+  behavior); too large/structural for tonight's bound — dedicated night.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise; touches how
+  the metric behaves — skipped to avoid destabilizing the ratchet unattended.
+- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented GPU
+  (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe here.
+- **Watch [[agent-hub]]** (@cloud): open-ended monitoring, no bounded deliverable tonight.
+- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly optional,
+  lowest priority; deferred behind the two verification wins.
+
+### Not eligible here (for reference — @local or @human)
+- CRM enrichment from message content; Gmail pass 2; ingest IG/YouTube exports; extend the @local
+  lane → **@local** (need Cole's Mac / local data).
+- Finance decisions (Freedom Number, Roth, HYSA, VXUS), Uship responder, password holder, Journal-pillar
+  decision, Spotify concert alerts, populate Duke people → **@human** (decision / outward action).

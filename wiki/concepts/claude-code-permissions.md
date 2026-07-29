@@ -50,6 +50,6 @@ even in auto mode.
 Pair auto mode with `permissions.deny` rules (e.g. `Bash(rm -rf *)`) so unattended runs
 ([[claude-code-scheduled-tasks]]) can't go off the rails. [[claude-code-hooks|Hooks]] extend
 this further: `PreToolUse` hooks fire in *every* mode including `bypassPermissions` and
-can block actions the classifier would otherwise allow.
+can block actions the classifier would otherwise allow. This is the concrete control for the broader [[agent-security-risks]] threat model — least privilege on a tool-wielding agent.
 
 Manage rules via `/permissions` in any session.
