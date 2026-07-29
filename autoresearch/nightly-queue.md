@@ -15,6 +15,8 @@ writes results back to `tasks/index.md` in **Phase 2**.
 - [x] Ground a single-source feature claim: pick one `claude-code-*` concept page that cites only
       [[nate-herk]], verify it against **official Anthropic docs**, add the official citation, and
       correct/flag any discrepancy. (One page per night.)
+      → Done 2026-07-26: [[claude-code-permissions]] — corrected 3-posture to 6-mode, added
+        classifier model (Sonnet 5 by default, official source code.claude.com/docs/en/permission-modes).
       ✓ Done 2026-07-27: updated [[claude-code-browser-automation]] — added official citation to
       Anthropic Week 28 docs (built-in browser, v2.1.202–v2.1.206, July 6–10 2026); noted computer
       use research preview timeline (Week 13–14, March 2026); distinguished Claude in Chrome extension.

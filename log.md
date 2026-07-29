@@ -327,6 +327,26 @@ local repos only. Only experience-level descriptions were written.
 MODE A: HEALTH_DEBT was already 0 (no orphans, no missing-from-index, no stale-claims). Nothing to fix.
 MODE B: Filled [[adversarial-code-review]] stub from a 6-line placeholder to a substantive synthesis page drawing from [[codex-plugin-for-claude-code]], [[running-ai-native-engineering-org]], [[how-we-claude-code]], [[mechanism-over-output]], and [[ai-native-engineering-org]]. Added links to Fiona Fung's "spec drift" framing, the multi-model vs self-review distinction, and the mechanism-over-output trust connection. Proposed on branch `autoresearch/night-2026-07-25` for review.
 
+## [2026-07-26] autoresearch | Nightly AutoResearch run
+
+**MODE A:** HEALTH_DEBT was 0 at baseline; no self-healing iterations needed.
+
+**MODE B:** Expanded [[claude-code-hooks]] from a 3-sentence stub into a full concept page.
+Sources: official Anthropic docs (code.claude.com/docs/en/hooks-guide + hooks reference).
+Covers 30+ hook events, 5 types, settings.json config, exit codes, common patterns.
+
+**MODE C item 1:** Grounded [[claude-code-permissions]] against official docs. Corrected the
+community "three postures" framing (Nate Herk source) — official docs show 6 modes
+(default/acceptEdits/plan/auto/dontAsk/bypassPermissions). Added classifier model detail:
+Sonnet 5 by default (v2.1.210+), falls back to session model. Preserved community framing
+with an explicit supersession note.
+
+**MODE C item 2:** Verified Auto Dream trigger cadence → [[claude-code-memory]] updated to
+mark this **unverified**. Official Claude Code memory docs cover only CLAUDE.md + Auto memory;
+no /dream command or dreaming toggle documented. "Dreaming" in official Anthropic docs is the
+Managed Agents API (research preview) only. A third-party community repo explicitly calls the
+consumer feature "unreleased." Queue items 1 and 2 checked off in nightly-queue.md.
+
 ## [2026-07-27] tasks | Backfilled @cloud/@local/@human lanes on all open action items; reconciled 2 Sourcing & verification items completed by the nightly run.
 
 ## [2026-07-27] autoresearch | Nightly AutoResearch run
