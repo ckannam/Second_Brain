@@ -23,7 +23,7 @@ plain doodle illustrations.
 ---
 
 ## Script 1 — "Why you walk into a room and forget why" ⭐ recommended first
-*Grounds: [[conscious-vs-subconscious]] (working memory ~7±2), event boundaries.*
+*Grounds: [[conscious-vs-subconscious]] (working memory ~7±2), the [[doorway-effect]] (event boundaries).*
 
 **Title options:** "Why you walk into a room and forget why" · "Your brain deletes it at the
 doorway" · "The doorway wipes your memory (on purpose)"

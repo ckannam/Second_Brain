@@ -226,6 +226,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[learning-by-connection]] — adults learn by connecting to prior knowledge (mirrors the LLM-wiki).
 - [[knowledge-types]] — skill vs concept vs fact each need a different study strategy.
 - [[conscious-vs-subconscious]] — tiny conscious mind (~7±2) riding a vast subconscious (~11M bits/s).
+- [[doorway-effect]] — walking through a doorway wipes working memory: the event-boundary mechanism (Radvansky), with honest replication caveats.
 - [[reticular-activating-system]] — the attention filter you program with conscious focus.
 - [[cognitive-biases]] — the subconscious's fast heuristics and their systematic errors.
 - [[spacing-effect]] — distributed practice beats massing (robust, domain-general; CREB/ERK; optimum is computable).

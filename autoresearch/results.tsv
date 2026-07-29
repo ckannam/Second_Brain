@@ -9,3 +9,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-07-27T06:05	A	—	0	0	skip	HEALTH_DEBT already 0; no MODE A fixes needed
 2026-07-28T02:30	A	—	0	0	skip	HEALTH_DEBT already 0 after Phase 1 build; no objective MODE A fix needed
 2026-07-29T02:30	A	—	0	0	skip	HEALTH_DEBT already 0 after Phase 1 builds (2 new pages both indexed + linked); no objective MODE A fix needed
+2026-07-29T02:35	B	wiki/concepts/doorway-effect.md	0	0	keep	new concept page (Radvansky event-boundary model) grounding Neuro Short #1; linked from conscious-vs-subconscious, neuro-scripts-batch-1, index

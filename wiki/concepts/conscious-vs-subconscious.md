@@ -34,3 +34,7 @@ A dual-process model of the mind. From [[conscious-subconscious-mind-ixcarus]].
 
 Its two operational subsystems have their own pages: [[reticular-activating-system]] (the
 attention filter) and [[cognitive-biases]] (the shortcuts).
+
+The everyday proof that the conscious workspace is tiny *and* easily overwritten is the
+[[doorway-effect]] — walking through a doorway flushes the ~7±2 items you were holding, because
+the brain treats the doorway as an "event boundary" and refreshes its model of the room.
