@@ -18,3 +18,12 @@ profile/
 
 # Financial data — local-only, never synced
 finance/
+
+# Raw sources containing customer/personal PII — local-only, never sync
+raw/private/
+
+# Startup tracker — outreach/contact data, local-only (never sync)
+startup-tracker/
+
+# Superpowers agent workspace — local-only
+.superpowers/
