@@ -83,6 +83,26 @@ magnesium** with it. That net loss drives the headache/fog side of a hangover.
   some sleep continuity) — not alcohol's direct damage to sleep architecture or clearance. The
   brain-protecting levers remain **timing, lower peak, clean nights**.
 
+## How fast alcohol clears (and why you can't rush it)
+The liver runs ethanol through **alcohol dehydrogenase** → **acetaldehyde** (toxic) →
+**aldehyde dehydrogenase (ALDH2)** → **acetate** (harmless). Average clearance is **~1 standard
+drink/hour** (~7–10 g/hr; blood alcohol falls ~0.015%/hr).
+- **Why it's fixed:** alcohol follows **zero-order kinetics** — the enzyme saturates immediately,
+  so it clears a flat number of grams/hour regardless of how much is in you (unlike a normal
+  drug half-life). *This is the biological reason you cannot speed it up.*
+- **Myths that do nothing to clearance:** coffee/caffeine (just masks sedation → "wide awake
+  drunk"), water, cold showers, exercise, vomiting. Only chronic heavy drinking speeds it (MEOS/
+  **CYP2E1** induction) — bought with oxidative damage, not worth cultivating.
+- **What actually helps = lower the peak, don't rush the drain:** eat before/while drinking
+  (slows gastric emptying → lower peak + more first-pass metabolism); stay **under ~1 drink/hr**
+  (drink faster and alcohol *accumulates* and lingers past midnight); less total; stop earlier.
+- **Loop back to sleep:** fixed clearance means every extra/fast drink leaves alcohol circulating
+  at 2am — the deep-sleep clearance window. So pacing *is* the sleep-protection strategy.
+
+**Kidneys vs. liver (get this right):** [[glymphatic-system|ADH/vasopressin]] acts on the
+**kidneys** (water reabsorption; alcohol suppresses it → diuresis + salt loss). The **liver**
+does the alcohol metabolism above. Two different organs, two different problems.
+
 ## Sources
 - Lundgaard et al., *Scientific Reports* 2018 — [alcohol dose-dependent glymphatic effects](https://www.nature.com/articles/s41598-018-20424-y).
 - Sabia et al., *BMJ* 2018 — [Whitehall II alcohol & dementia](https://pmc.ncbi.nlm.nih.gov/articles/PMC6066998).
