@@ -23,6 +23,7 @@ _New option (ingested 2026-07-30). Paid 12-mo AI fellowship at a nonprofit, $85k
 - [ ] 💰 @human **Decide: Claude Corps (Aug 2027) vs [[Fulbright]] vs direct startup/VC role** — they compete for the same post-May-2027 window and don't stack. [[claude-corps]] [[Job Search]] (added 2026-07-30)
 - [ ] 🎯 @human **APPLYING (Aug 2027 cohort)** — workspace: [[claude-corps-application]]. Rolling admissions → submit early. (added 2026-07-30)
 - [ ] @local **Do the 2 required Skilljar modules** — "AI Fluency" + "Claude 101" (quick). (added 2026-07-30)
+- [ ] @human **Send the Code the Dream note** — value-first draft ready for [[Daisy Magnus-Aryitey]] (Co-ED); confirm her email (LinkedIn/info@ attn) then send. [[outreach-pipeline]] (added 2026-07-30)
 - [ ] @human **Give the Uship setback specifics** so Claude can finalize the Q2 short answer. [[claude-corps-application]] (added 2026-07-30)
 - [ ] @human **Résumé: lead with the AI-builder line** (second brain + autoresearch + Neuro pipeline) before submitting. (added 2026-07-30)
 - [ ] @human **Open a CodePath / Anthropic channel** — check for a **Duke [[codepath]] chapter** (warmest in); mine an Anthropic contact from the [[gtm-engineering-anthropic|Code with Claude]] event. No existing contact in CRM. [[claude-corps]] (added 2026-07-30)

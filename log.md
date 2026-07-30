@@ -813,3 +813,6 @@ Ingested the Claude Corps announcement. Anthropic + [[codepath]] (employer of re
 - **Timeline:** cohort 1 (Oct 2026 start) closed July 17; rolling apps now open for **Jan 2027** and **Aug 2027** starts.
 - **Best fit for Cole (grad May 2027) = Aug 2027 cohort** (Jan 2027 lands mid-final-semester). Rolling → apply early. Eligibility clears easily.
 - Filed source [[claude-corps]] summary + entity [[claude-corps]]; linked into [[Job Search]] bucket (third post-grad path competing with [[Fulbright]] + direct role), [[anthropic]] + [[fulbright-us-student-program]] (reciprocal), [[comp-targets]], index. Added decision + apply-early + build-CodePath/Anthropic-channel tasks (stub [[codepath]] entity flagged). Moved source to raw/Processed/.
+
+## [2026-07-30] crm | Code the Dream (Claude Corps host) — value-first outreach drafted
+Researched Code the Dream (Durham) for a pre-application [[claude-corps]] touch. Co-EDs: **Daisy Magnus-Aryitey** + Daniel Rearick. Created [[Daisy Magnus-Aryitey]] CRM record with a value-first, no-ask draft (Claude Corps deliberately kept out of the first email); added to crm/index + [[outreach-pipeline]] Tier 1; updated [[claude-corps-application]]. Next: confirm her direct email, then send.
