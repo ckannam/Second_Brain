@@ -19,4 +19,3 @@ Tools/entities: [[obsidian]], [[obsidian-dataview]], [[obsidian-web-viewer]]. Co
 
 **Raw clip:** [[Obsidian Vault Deep Dive! Custom Plugins + Agentic Loops  My Full System]]
 
-**Raw clip (reclip):** [[Obsidian Vault Deep Dive! Custom Plugins + Agentic Loops  My Full System (reclip 2026-07-27)]]

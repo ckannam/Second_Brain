@@ -792,3 +792,9 @@ Went through the vault's orphans (notes with no real inbound links) and fixed th
 - **Confirmed correct-as-orphans (by design, left untouched):** ~360 `crm/` person files (catalog-linked contact DB via `crm/index.md`), 33 `startup-tracker/` notes (gitignored, Obsidian `.base` frontmatter dashboard — not wikilinks), 9 `docs/superpowers/` plans/specs, plus `AGENTS.md`/`CLAUDE.md`/`log.md`/`autoresearch/` infra.
 - **Weak-source weaving:** checked for near-leaf source summaries (≤1 real neighbor) — found none; every source already links ≥2 real pages, so no forced links added.
 - **Flag for Cole:** the 8 stickman-animation reclips + 5 karpathy repo fragments + 4 JHTV page scrapes are genuine near-duplicates now clustered on their summary pages — prune them if you want a cleaner graph (left in place; deleting source captures is your call).
+
+## [2026-07-30] lint | Deduplicated the raw stragglers (true duplicates only)
+Followed up on the orphan sweep: checked the 27 reconnected stragglers for TRUE duplicates (same video/content), per "create sources only when needed."
+- **Found the stickman cluster is 7 DISTINCT videos** (different YouTube IDs), not duplicates — kept all, they remain linked to [[stickman-animation-free-ai-tutorials]].
+- **Deleted 3 true duplicates** (canonical original already held all their content — nothing unique to fold): `Making UNLIMITED Stickman Animations…FREE (reclip 2026-07-27)` (partial reclip of the same Zenn0009 video), `Obsidian Vault Deep Dive!…(reclip 2026-07-27)` (same video VaGpWWiHXm8 as the fuller original; reclip was a strict subset), and `karpathyautoresearch…automatically 4` (body byte-identical to the base README). Removed their now-dangling wikilinks from the summary pages first.
+- **Result: 116 raw source files, 0 disconnected, 0 broken links.** The JHTV website scrapes (4 distinct pages) and karpathy repo fragments (distinct files) were NOT duplicates, so kept.
