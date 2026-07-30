@@ -748,3 +748,11 @@ Built 3 per-country 1-page abstract PDFs (Desktop) + attached Cole's CV; added a
 Andrej-Karpathy-inspired AI-query-engine credential line to every email; fixed the Gmail
 CIIE.CO auto-linkify. Updated [[fulbright/outreach]] status + [[tasks/index]] (send item done,
 follow-up nudge queued for 2026-08-13).
+
+## [2026-07-30] ingest | Claude chat export ("Claude Past data") — career mining
+Mined the 133-conversation export (Sep 2024–Jul 2026). Distilled Cole's BD/deal-fluency
+positioning + a Duke/JHU biotech & AI-bio target roster + warm leads into **local-only** crm
+files (kept out of git per the PII rule): new [[bd-target-companies]], warm leads added to
+[[outreach-pipeline]] (Connor Larkin, Ben Freeberg, Sabah Oney, Matthew Rizzo; Arielle's Jonah
+Scherl intro path). Saved memories: [[cole-working-style]] + folded positioning into
+[[cole-job-search-strategy]]. Raw export not ingested into the wiki.
