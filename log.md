@@ -756,3 +756,14 @@ files (kept out of git per the PII rule): new [[bd-target-companies]], warm lead
 [[outreach-pipeline]] (Connor Larkin, Ben Freeberg, Sabah Oney, Matthew Rizzo; Arielle's Jonah
 Scherl intro path). Saved memories: [[cole-working-style]] + folded positioning into
 [[cole-job-search-strategy]]. Raw export not ingested into the wiki.
+
+## [2026-07-30] ingest | The Economist — Musk & Carlson interviews (2 YouTube)
+Ingested 2 long-form [[the-economist|Economist]] "Insider" interviews (channel: The Economist).
+Created sources [[elon-musk-economist-2026]] + [[tucker-carlson-economist-2026]] and entities
+[[elon-musk]], [[tucker-carlson]], [[the-economist]]. **Connection:** the Musk interview corroborates
+the vault's AI picture from outside — Anthropic as "the leader in AI" and the [[mythos]]→[[fable-5|Fable]]
+lineage (plus China's Kimi K3) — so enriched [[anthropic]], [[mythos]], [[fable-5]] with reciprocal links
+and added a Musk *convergent-superintelligence* counterpoint to [[model-speciation]]. Musk's "work becomes
+optional / abundance" theme linked to [[ai-lowering-entrepreneurship-barriers]] + Cole's freedom frame.
+Carlson kept standalone (geopolitics, off the main clusters). Freshness-flagged (predictions = snapshots).
+Sources moved to `raw/Processed/`.

@@ -65,6 +65,12 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 > [[fulbright-country-selection]] (India/Brazil/Indonesia), 3 CRM advisers. Reconciled the stale brief
 > against the authoritative timeline (hard **Sept 10** rec-letter deadline; **Aug 21 noon** campus lock).
 
+> **Economist interviews — 2026-07-30:** ingested 2 long-form [[the-economist|Economist]] "Insider"
+> interviews (channel: The Economist) — [[elon-musk-economist-2026|Elon Musk]] (AI in ~5 yrs, "work
+> becomes optional," the China/electricity race; corroborates the vault's [[anthropic]] /
+> [[mythos]]→[[fable-5|Fable]] picture from outside) and [[tucker-carlson-economist-2026|Tucker Carlson]]
+> (Iran war, MAGA, Ukraine, Taiwan). New entities [[elon-musk]], [[tucker-carlson]], [[the-economist]].
+
 ## Entities
 
 ### People
@@ -130,6 +136,11 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### More people
 - [[sarah-guo]] — Conviction / No Priors; interviewed Karpathy.
 - [[zach-yedegari]] — built [[cal-ai]]. · [[suvam]] — $500k cold-email case. · [[christian]] — first client in 7 days.
+
+### World & ideas — interview subjects
+- [[elon-musk]] — Tesla/SpaceX/xAI/Neuralink; his AI timeline (superintelligence ~5 yrs), "work optional," China race. Outside read on the [[anthropic]] AI landscape.
+- [[tucker-carlson]] — MAGA dissident; Iran war, Ukraine/Taiwan, power-sharing with China (his stated positions).
+- [[the-economist]] — the publication / YouTube "Insider" long-form interview channel (Zanny Minton Beddoes).
 
 ### Products / rivals
 - [[cal-ai]] — $100M vibecoded calorie app.
@@ -265,6 +276,10 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Job search — target intel
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.
 - [[july-hiring-thread-benlang]] — Ben Lang's July 2026 hiring thread (86 startups); in-lane NYC health/bio/AI names promoted to [[target-orgs]].
+
+### World & ideas — interviews (The Economist)
+- [[elon-musk-economist-2026]] — Musk on AI superintelligence (~5 yrs), abundance / "work optional," the China–electricity race, cross-lab safety testing, and his politics. Corroborates [[anthropic]] as AI leader + the [[mythos]]→[[fable-5|Fable]] lineage.
+- [[tucker-carlson-economist-2026]] — Carlson on the Iran war, the Israel lobby, Gaza, Ukraine sovereignty, Taiwan ("US can't/won't defend"), and power-sharing with China (March 2026).
 
 ### Foundational
 - [[llm-wiki-karpathy]] — Karpathy gist: the LLM Wiki pattern (web).

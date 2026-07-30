@@ -19,4 +19,11 @@ The idea, articulated by [[andrej-karpathy]] in [[skill-issue-karpathy-sarah-guo
 - **Cost-per-successful-outcome** (→ [[cost-per-successful-outcome]]) rather than raw benchmarks is the right lens, because two models on the same benchmark can win in completely different deployment contexts.
 - Karpathy contrasted this with the "one model to rule them all" narrative — he believes speciation is already happening and will accelerate.
 
-Related: [[the-capability-curve]], [[anthropic]], [[multi-agent-orchestration]], [[eval-driven-model-selection]], [[cost-per-successful-outcome]], [[bitter-lesson]].
+## A contrasting view (Musk)
+[[elon-musk|Elon Musk]], in the [[elon-musk-economist-2026|Economist interview]], articulates the opposite of
+speciation: a single, ever-more-general **superintelligence** that exceeds all human intelligence within ~5
+years and can do "anything better than humans." Where Karpathy sees models *diverging* into purpose-fit niches,
+Musk narrates *convergence* toward one dominant, general system. Worth holding both: today's practice looks
+like speciation (route tasks to the right model), while the loudest builders narrate a convergent endgame.
+
+Related: [[the-capability-curve]], [[anthropic]], [[multi-agent-orchestration]], [[eval-driven-model-selection]], [[cost-per-successful-outcome]], [[bitter-lesson]], [[elon-musk-economist-2026]].

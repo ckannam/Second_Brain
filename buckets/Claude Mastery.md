@@ -29,6 +29,9 @@ The official counterpart to the creator videos above (30 Anthropic sessions).
 ## Action items
 - The **Claude Mastery — skills & agents** section of [[tasks/index]] (train skills, prompt/token/skill/agent max, improve).
 
+## Outside-industry reads
+- [[elon-musk-economist-2026]] — Musk (Economist) names **[[anthropic]] the current AI leader**, corroborates the [[mythos]]→[[fable-5|Fable]] lineage + China's Kimi K3, and argues superintelligence in ~5 yrs. A contrast to [[model-speciation]]'s divergence thesis.
+
 ## Sources
 - The full Claude Code / agentic cluster — see the Sources section of [[index]].
 
