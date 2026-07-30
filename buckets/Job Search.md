@@ -14,6 +14,7 @@ the professional overview.
 - **Role:** **startup operator** (primary — most feasible) *or* **VC** (stretch, worth a parallel attempt).
 - **Lane:** **health / bio / AI** — drug-discovery × AI especially — a *lean, not a cage.*
 - **Parallel post-grad path:** the **[[Fulbright]]** application (Open Study/Research, 2027-2028 grant year, starts after May 2027 graduation) — a 9-month international research detour before/around the first role. See [[fulbright-us-student-program]].
+- **Third post-grad option:** **[[claude-corps]]** — Anthropic's paid 12-month AI fellowship at a nonprofit ($85k, **best-fit Aug 2027 cohort**, rolling apps open now). Builds the AI-building credential; competes with Fulbright + a direct role for the same window (decision, not a stack).
 - **Where / when:** **NYC *or* DC — the two co-primary options** (updated 2026-07-25; DC is no longer a footnote), starting after **May 2027**. Target base **~$85k NYC operator** (was ~$75k) — see [[comp-targets]] for the researched breakdown + the **DC-vs-NYC read for Cole's path** (JHTV ~$60–75k Baltimore · startup ~$80–95k+equity · VC ~$95–130k all-in). Equity/upside is the real lever; **DC is cheaper + closer to family/JHTV and strong in bio/health**, NYC has more startup/VC density.
 
 ## Assets / credentials

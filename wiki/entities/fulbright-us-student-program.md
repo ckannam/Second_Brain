@@ -5,6 +5,8 @@ created: 2026-07-27
 
 # Fulbright U.S. Student Program
 
+> **Competing post-grad path (same window):** [[claude-corps]] (Anthropic fellowship, best-fit Aug 2027) is the other option for the post-May-2027 window — decide between them, they don't stack.
+
 The U.S. government's flagship international exchange fellowship. Cole is applying for the **2027-2028 grant year** (9 months, starting after his Duke graduation), on his aunt's suggestion. Hub for his application; see the **[[Fulbright]]** bucket.
 
 ## Cole's application at a glance

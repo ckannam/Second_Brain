@@ -17,6 +17,13 @@ _Improvement plan: [[tasks/improvements/2026-07-27-outreach-engine|2026-07-27-ou
 - [ ] @human **Confirm engine inputs** — [[Arielle (Forus Health)|Arielle]]'s full name/role at Forus; the warm-lead candidates surfaced by the harvest step; and post-Tuesday, drop [[Stewart Neifart|Stewart]]'s 2–3 intros into Lane 0. [[outreach-pipeline]] (added 2026-07-27)
 - [ ] @local **Wire the reply-"go" auto-trigger** — during Cole's **first outreach batch**, build + test live the background watcher (detect "go" in self-chat → headless Claude runs the batch → texts summary). Deferred deliberately until there's a real batch to run. (added 2026-07-27)
 
+### Claude Corps — Anthropic fellowship (best-fit Aug 2027 cohort)
+_New option (ingested 2026-07-30). Paid 12-mo AI fellowship at a nonprofit, $85k. Rolling apps open now for Jan 2027 + Aug 2027 starts; Aug 2027 is the post-graduation fit. See [[claude-corps]]._
+
+- [ ] 💰 @human **Decide: Claude Corps (Aug 2027) vs [[Fulbright]] vs direct startup/VC role** — they compete for the same post-May-2027 window and don't stack. [[claude-corps]] [[Job Search]] (added 2026-07-30)
+- [ ] @human **If pursuing Claude Corps: apply EARLY to the Aug 2027 cohort** (rolling admissions, no posted deadline — early = advantage). [[claude-corps]] (added 2026-07-30)
+- [ ] @human **Open a CodePath / Anthropic channel** — check for a **Duke [[codepath]] chapter** (warmest in); mine an Anthropic contact from the [[gtm-engineering-anthropic|Code with Claude]] event. No existing contact in CRM. [[claude-corps]] (added 2026-07-30)
+
 ### Fulbright — application (2027-2028; Duke campus deadline Aug 21, 2026)
 _Goal: submit a strong Open Study/Research application on [[ai-lowering-entrepreneurship-barriers|AI lowering entrepreneurship barriers]]. See [[Fulbright]] bucket. **Binding constraint = the Sept 10 noon ET rec-letter deadline.**_
 _▶ **Resume here (paused 2026-07-27):** 10 outreach emails staged as Gmail drafts to cdk35@duke.edu — Cole sends from Duke. Next up when we continue: **draft Cole's CV** (from JHTV/uship/Duke/Shave & Buzz) + export [[fulbright/project-abstract|abstract]] to PDF so both attach cleanly._

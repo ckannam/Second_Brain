@@ -19,5 +19,8 @@ and internal-practice talks ([[how-we-claude-code]], [[running-ai-native-enginee
 [[gtm-engineering-anthropic]]). Anthropic frames the [[the-capability-curve|capability curve]]
 as vertical and infrastructure — not intelligence — as the current bottleneck.
 
+Anthropic also runs **[[claude-corps]]**, a $150M national fellowship placing early-career fellows
+at US nonprofits for a paid year of Claude-enabled work (relevant to Cole's [[Job Search]]).
+
 Related: [[claude-code]], [[claude-code-memory]], [[claude-code-scheduled-tasks]],
-[[claude-managed-agents]].
+[[claude-managed-agents]], [[claude-corps]].

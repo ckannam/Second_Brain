@@ -94,6 +94,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Tools & orgs
 - [[claude-code]] — Anthropic's agentic coding tool; the central subject of this vault.
 - [[anthropic]] — maker of Claude Code; shipping features at a rapid cadence.
+- [[claude-corps]] — Anthropic's paid 12-mo AI fellowship at US nonprofits ($85k); best-fit cohort for Cole = **Aug 2027**. See [[Job Search]].
 - [[obsidian]] — markdown front end / reading layer for the wiki.
 - [[obsidian-web-clipper]] — browser extension that clips web pages / YouTube transcripts into `raw/`.
 - [[codex]] — OpenAI coding agent; now also a plugin for Claude Code.

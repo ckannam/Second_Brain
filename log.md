@@ -807,3 +807,9 @@ Cole asked to learn the science of how alcohol affects sleep and in turn dementi
 
 ## [2026-07-30] query | Orders of kinetics (zero vs first order)
 Explained reaction kinetics orders; filed [[reaction-order-kinetics]] (zero-order = flat amount/hr, saturated enzyme, no half-life, e.g. alcohol ~1 drink/hr; first-order = fixed %/hr, half-life, e.g. caffeine; Michaelis–Menten transition). Linked from [[alcohol-sleep-dementia]] and index.
+
+## [2026-07-30] ingest | Introducing Claude Corps (Anthropic fellowship)
+Ingested the Claude Corps announcement. Anthropic + [[codepath]] (employer of record) + Social Finance; paid 12-mo full-time in-person fellowship at US nonprofits, $85k + benefits, $150M / 1,000 fellows.
+- **Timeline:** cohort 1 (Oct 2026 start) closed July 17; rolling apps now open for **Jan 2027** and **Aug 2027** starts.
+- **Best fit for Cole (grad May 2027) = Aug 2027 cohort** (Jan 2027 lands mid-final-semester). Rolling → apply early. Eligibility clears easily.
+- Filed source [[claude-corps]] summary + entity [[claude-corps]]; linked into [[Job Search]] bucket (third post-grad path competing with [[Fulbright]] + direct role), [[anthropic]] + [[fulbright-us-student-program]] (reciprocal), [[comp-targets]], index. Added decision + apply-early + build-CodePath/Anthropic-channel tasks (stub [[codepath]] entity flagged). Moved source to raw/Processed/.
