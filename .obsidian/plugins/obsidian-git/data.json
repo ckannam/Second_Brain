@@ -1,0 +1,10 @@
+{
+  "autoPullOnBoot": true,
+  "syncMethod": "rebase",
+  "pullBeforePush": true,
+  "autoSaveInterval": 10,
+  "autoPullInterval": 10,
+  "commitMessage": "obsidian auto-sync: {{date}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "disablePush": false
+}

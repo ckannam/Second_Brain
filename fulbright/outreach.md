@@ -4,6 +4,8 @@ Working doc for Cole's [[fulbright-us-student-program|Fulbright]] host-affiliati
 
 **Send all countries in parallel.** Country gets committed once a host says yes — see [[fulbright-country-selection]].
 
+> ✅ **SENT 2026-07-30 — all 10 emails out** from Duke (cdk35@duke.edu), each with CV + the matching per-country 1-page abstract PDF and an Andrej-Karpathy-inspired AI-query-engine credential line. Follow-up nudge scheduled for **2026-08-13** (10 business days out) — see [[tasks/index]]. Professors (Setia, Mani, Ramalho) are the priority replies to chase.
+
 > **Legend:** ✅ = email confirmed from an official/faculty page · ⚠️ = verify the address on the linked page before sending (pattern given).
 > **Before sending:** (1) send from your **Duke email**, (2) attach a 1–2 page CV + a short project abstract, (3) fix the degree line once the [[Duke]] major/minor is reconciled, (4) fill the `[bracketed]` blanks.
 
@@ -158,15 +160,15 @@ cdk35@duke.edu
 
 ---
 
-## Address status (verified 2026-07-27)
+## Address status (verified 2026-07-27; gaps closed 2026-07-30)
 **Confirmed ✅ — send directly:**
 - Setia `pankajsetia@iima.ac.in` (cc `swanandd@iima.ac.in`) · CIIE.CO `info@ciie.co` · Geber Ramalho `glr@cin.ufpe.br` · Porto Digital `portodigital@portodigital.org` · IIE-EAP `FBstudent.EAP@iie.org` · AMINEF `infofulbright_usa@aminef.or.id` · Prasetiya Mulya `info@prasetiyamulya.ac.id`
 
-**No public email — use the channel noted (don't guess an address):**
-- [ ] ISB / Deepa Mani → LinkedIn or ISB faculty-profile contact
-- [ ] NSRCEL → contact form (nsrcel.org/contact-us)
-- [ ] CESAR → contact form (cesar.school)
-- [ ] ITB LPIK → lpik.itb.ac.id / LinkedIn (or route via AMINEF first)
+**Former "no email" — now emailable ✅ (found 2026-07-30):**
+- [x] ISB / Deepa Mani → `deepa_mani@isb.edu` — **verified**, published on ISB's own site (discover.isb.edu/about/deepa-mani). The earlier "don't trust this address" caveat is retracted.
+- [x] NSRCEL → `nsrcel.socialmedia@iimb.ac.in` — listed general-inquiries inbox (nsrcel.org/contact-us). Contact form is a backup.
+- [x] CESAR → `biz@cesar.org.br` — official business-inquiries inbox (cesar.org.br English contact page). *(Note: this is the CESAR org inbox, not CESAR School specifically.)*
+- [x] ITB LPIK → `lpik@lpik.itb.ac.id` — verified on ITB's official directory (itb.ac.id). Can still route via AMINEF.
 
 **Before sending anything:**
 - [ ] Attach CV + the 1-page [[fulbright/project-abstract|project abstract]]
