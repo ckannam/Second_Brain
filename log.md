@@ -737,3 +737,14 @@ Phase 3 (MODE A): HEALTH_DEBT 0 after build — no objective fix. Phase 4 (MODE 
 [[enhancing-learning-rats-computational-protocol-2023]] — Smolen's computational-spacing result
 extended from sea slugs to a mammal (irregular schedule beat fixed spacing in rats), reciprocally
 linked. One morning PR (base main); not merged.
+
+## [2026-07-30] outreach | Fulbright host-affiliation emails — all 10 sent
+Sent Cole's 10 Fulbright host-outreach emails from Duke (cdk35@duke.edu): India (Setia/IIMA,
+Deepa Mani/ISB, CIIE.CO, NSRCEL), Brazil (Geber Ramalho/CIn-UFPE, Porto Digital, CESAR),
+Indonesia (IIE+AMINEF guidance, ITB-LPIK, Prasetiya Mulya). Closed all 4 former "no public
+email" gaps with verified addresses (Mani `deepa_mani@isb.edu`, NSRCEL
+`nsrcel.socialmedia@iimb.ac.in`, CESAR `biz@cesar.org.br`, LPIK `lpik@lpik.itb.ac.id`).
+Built 3 per-country 1-page abstract PDFs (Desktop) + attached Cole's CV; added an
+Andrej-Karpathy-inspired AI-query-engine credential line to every email; fixed the Gmail
+CIIE.CO auto-linkify. Updated [[fulbright/outreach]] status + [[tasks/index]] (send item done,
+follow-up nudge queued for 2026-08-13).
