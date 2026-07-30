@@ -75,8 +75,11 @@ the same compounding loop as [[llm-wiki-pattern]], now feeding a channel.
 
 **First 3 scripts drafted (2026-07-29):** the top three rows above now have ready
 voice-ready scripts + storyboard JSON in **[[neuro-scripts-batch-1]]**, built on the
-short-form rules researched in **[[neuro-shorts-benchmark]]** (which channels to model, hooks,
-pacing, titles). Awaiting Cole's topic approval — recommend the doorway-effect one first.
+short-form rules researched in **[[neuro-shorts-benchmark]]** and **[[neuro-channel-benchmarks]]**
+(which channels to model, hooks, pacing, titles). Awaiting Cole's topic approval — recommend the
+doorway-effect one first. For how to *format* these hooks — the curiosity-gap cold open,
+single-concept scoping, and where Neuro's doodle style out-differentiates the incumbents — see
+[[neuro-channel-benchmarks]] (Psych2Go, 2-Minute Neuroscience, Sprouts).
 
 ## The app (channel × app) — Cole's larger vision
 The channel is top-of-funnel for a **learning app** that embodies the neuroscience it teaches.

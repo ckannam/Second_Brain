@@ -245,6 +245,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neuro-character-rig]] — design: best way to build stick-figure animation automatically — image-per-scene (Nano Banana 2) or an articulated SVG rig Claude authors as code.
 - [[neuro-free-tool-stack]] — the $0 / no-new-subscription (Claude-only) tool stack + the review-before-post gate.
 - [[neuro-shorts-benchmark]] — what works in neuro/psych short-form: channels to model (Psych2Go, BrainCraft…), title patterns, data-backed hook/pacing rules.
+- [[neuro-channel-benchmarks]] — competitor & format benchmarks (Psych2Go, 2-Minute Neuroscience, Sprouts): hook/pacing/title patterns to inherit + Neuro's doodle-Short wedge.
 - [[neuro-scripts-batch-1]] — first 3 ready-to-produce scripts + storyboard JSON (doorway-effect / new-car / resolutions), for Cole's approval.
 
 ### Fulbright (application)
@@ -279,7 +280,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[spacing-math-meta-analysis-murray-2025]] — Murray et al. 2025 meta-analysis: spacing robust for math (g=0.28); retrieval *not* robust. Keystone evidence.
 - [[neuroscience-of-spacing-brainfacts]] — SfN: the molecular why (CREB, cross-species); students know it works but don't do it.
 - [[spacing-testing-complex-skills-study]] — combined spacing+testing preserved complex clinical *skill* retention at 3 months.
-- [[optimizing-spaced-learning-smolen-2016]] — Nature Reviews: molecular mechanism; optimal spacing is computable (recovered from broken clip).
+- [[optimizing-spaced-learning-smolen-2016]] — Nature Reviews: molecular mechanism; optimal spacing is computable (10/10/5/30-min protocol), web-grounded.
+- [[enhancing-learning-rats-computational-protocol-2023]] — Zhang et al. 2023: the Smolen computational-spacing result extended from sea slugs to a **mammal** (irregular schedule beat fixed spacing in rats).
 
 ### Models — creator coverage
 - [[opus-5-vs-fable-5-nate-herk]] — Nate Herk head-to-head across real workflows (freshness-flagged; verify against primary sources).

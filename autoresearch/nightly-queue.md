@@ -9,54 +9,51 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 2**.
 
-## Night of 2026-07-29
+## Night of 2026-07-30
 
-### Selected (@cloud, bounded to ≤3) — Fulbright + Neuro channel
-Three bounded, purely web-researchable/vault-only items — no local data, no outward action,
-no human decision. The two Neuro items are sequenced (benchmark informs the scripts).
+### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
+All three touch only the synced vault + web, need no local data, take no outward/irreversible
+action, and land on git-tracked pages (so the morning PR can carry them).
 
-1. **Fulbright — Verify current-cycle award rates + requirements** for India / Brazil /
-   Indonesia on the official Fulbright/commission pages → correct/annotate
-   [[fulbright-country-selection]]. Cole's numbers are prior research; confirm before he
-   commits a country. Pure web verification, one page updated.
-2. **Neuro — Benchmark 5–10 successful neuroscience/psychology Shorts channels** — hooks,
-   pacing, title patterns, positioning → new page filed to the [[Neuro]] bucket. Web
-   research; informs item 3.
-3. **Neuro — Draft script + storyboard JSON for the top 3 video topics** — "walk into a
-   room and forget" ([[conscious-vs-subconscious]]), "see your new car everywhere"
-   ([[reticular-activating-system]]), "why resolutions fail" ([[neuroplasticity]]).
-   Researched straight from the vault concept pages; produces drafts Cole approves.
+- [x] **Verify current-cycle Fulbright award rates + requirements** (India / Brazil / Indonesia)
+      against official IIE/Fulbright country pages → enrich [[fulbright-country-selection]]. Cole's
+      numbers (~46% / ~64% / ~40%+) are from prior research and flagged "confirm before committing";
+      this unblocks the @human country-commit decision.
+- [x] **Web-ground the Smolen 2016 spaced-learning review** → enrich
+      [[optimizing-spaced-learning-smolen-2016]]. The page was previously reconstructed from LLM
+      knowledge of the review (raw clip is truncated); fetch the actual published review / an
+      open-access copy to verify the key claims and add precise, citable specifics.
+- [x] **Benchmark 5–10 successful neuroscience/psychology Shorts channels** (hooks, pacing, title
+      patterns, positioning) → new notes page filed into the [[Neuro]] bucket. Informs the channel's
+      format before scripts are drafted.
 
 ### Considered but skipped this night (with reason)
-- **Job Search — Build the target-org map** (@cloud): the specified output is
-  `crm/target-orgs.md`, but `crm/` is **gitignored / local-only** — a cloud commit there
-  can't be tracked in the morning PR or synced, and the second half (map known contacts→orgs)
-  is explicitly **@local** (needs Cole's Mac). Skipped pending a decision on relocating the
-  research output to the wiki, or running it on the @local lane. Flagged, not silently dropped.
-- **Claude Mastery — Train/Token/Skill/Agent max, Improve+general skills** (@cloud): each is
-  a large, open-ended "master/build a skill" undertaking, not a bounded one-night task.
-  Deferred to keep within the ≤3 bound; better as a dedicated build night.
-- **Neuro — Recover the broken Smolen 2016 clip** (@cloud): cloud-doable web re-fetch, but
-  deferred behind the higher-value channel work to stay within the bound; a clean pick for a
-  future night.
-- **Fulbright — Verify writing-group status / recommenders / send outreach / country commit /
-  online-app setup / transcripts / language form / aunt email / written materials** (@human):
-  decisions or outward/irreversible actions — not cloud-eligible.
-- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change (edits
-  `program.md` behavior); too large/structural for tonight's bound — dedicated night.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise and
-  touches how the metric behaves — skipped to avoid destabilizing the ratchet unattended.
-- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented
-  GPU (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe here.
+- **Build the target-org map → `crm/target-orgs.md`** (@cloud): the named deliverable lives in
+  `crm/`, which is **gitignored / local-only** — a cloud run cannot persist a `crm/` file into the
+  morning PR, and the "map known contacts→orgs" half is `@local` (needs CRM data invisible to the
+  cloud). Skipped + flagged: either re-home the org map to a synced `wiki/` page or run it on the
+  @local lane. Left for Cole to decide the destination.
+- **Draft script + storyboard JSON for the top 3 Neuro topics** (@cloud): valid and cloud-doable, but
+  bounded out tonight — sequenced *after* the channel benchmark (this night) so scripts inherit the
+  proven hook/pacing patterns. Next build night.
+- **Claude Mastery — Train / Token / Skill / Agent max, Improve+general skills** (@cloud): each is a
+  large, open-ended "master/build a skill" undertaking, not a bounded one-night task. Dedicated build
+  night (same call as prior nights).
+- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change to `program.md`
+  behavior; too structural for the ≤3 bound.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise and touches the
+  ratchet; skipped to avoid destabilizing the evaluator unattended.
+- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented GPU
+  (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe.
 - **Watch [[agent-hub]]** (@cloud): open-ended monitoring, no bounded deliverable tonight.
-- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly
-  optional, lowest priority; deferred behind the selected work.
+- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly optional,
+  lowest priority; deferred behind the three wins above.
 
 ### Not eligible here (for reference — @local or @human)
-- CRM enrichment from message content; Gmail pass 2; ingest IG/YouTube exports; extend the
-  @local lane; Neuro pipeline build (P1–P4), master-storage default, v1 one-command pipeline,
-  SVG rig → **@local** (need Cole's Mac / local data).
-- Neuro API key, channel/account creation, uploads, topic approval; finance decisions; Uship
-  responder/spellings/founding/equity; password holder; Journal-pillar decision; Spotify
-  concert alerts; populate Duke people; Fulbright human items → **@human** (decision / outward
-  action).
+- CRM enrichment from message content; Gmail pass 2; ingest IG/YouTube exports; extend the @local
+  lane; DIY Plaid export; v1 Neuro pipeline build; Learning-Triage skill spec → **@local** (need
+  Cole's Mac / local data).
+- Fulbright written materials, recommenders, host-outreach sends, country commit, transcripts; all
+  finance decisions (Freedom Number, Roth, HYSA, VXUS); Uship responder/name-spellings/founding-date;
+  Neuro API key + channel/account creation + uploads; password holder; Journal-pillar decision;
+  Spotify concert alerts; populate Duke people → **@human** (decision / outward / irreversible).
