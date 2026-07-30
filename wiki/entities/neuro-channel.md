@@ -73,6 +73,10 @@ Neuro. Every concept page below is a ready Short:
 Each ingest of a new neuro source (see the [[neuroscience-of-behavior]] hub) refills this bank —
 the same compounding loop as [[llm-wiki-pattern]], now feeding a channel.
 
+For how to *format* these hooks — the curiosity-gap cold open, single-concept scoping, and where
+Neuro's doodle style out-differentiates the incumbents — see the competitor/format research in
+[[neuro-channel-benchmarks]] (Psych2Go, 2-Minute Neuroscience, Sprouts).
+
 ## The app (channel × app) — Cole's larger vision
 The channel is top-of-funnel for a **learning app** that embodies the neuroscience it teaches.
 The thesis (worked out 2026-07-27, grounded in the spaced-learning ingest): **not "another Anki,"

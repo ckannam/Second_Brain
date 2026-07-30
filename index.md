@@ -237,6 +237,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
 - [[neuro-character-rig]] — design: best way to build stick-figure animation automatically — image-per-scene (Nano Banana 2) or an articulated SVG rig Claude authors as code.
 - [[neuro-free-tool-stack]] — the $0 / no-new-subscription (Claude-only) tool stack + the review-before-post gate.
+- [[neuro-channel-benchmarks]] — competitor & format benchmarks (Psych2Go, 2-Minute Neuroscience, Sprouts): hook/pacing/title patterns to inherit + Neuro's doodle-Short wedge.
 
 ### Fulbright (application)
 - [[ai-lowering-entrepreneurship-barriers]] — the research thesis: AI lowers the capital/expertise/infrastructure barriers to founding a company.

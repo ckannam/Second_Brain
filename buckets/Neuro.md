@@ -17,6 +17,7 @@ output side of his [[neuroscience-of-behavior|neuroscience]] work.
 
 ## Production research
 - **[[stickman-animation-free-ai-tutorials]]** — 7-video batch on free-AI stick-figure pipelines (Google Flow, Nano Banana 2, CapCut, free voice).
+- **[[neuro-channel-benchmarks]]** — competitor & format benchmarks (Psych2Go, 2-Minute Neuroscience, Neuro Transmissions, Sprouts): the hook/pacing/title patterns to inherit and where Neuro's doodle-Short wedge is.
 
 ## The app (channel × app) — spaced-learning science
 The learning app the channel funnels into: a spacing engine that routes retrieval by
