@@ -69,6 +69,20 @@ encephalopathy → **Korsakoff amnesia** (alcohol-related dementia proper).
 - **Pairs with the caffeine note:** caffeine late also erodes slow-wave sleep, so a
   caffeinated + drinking evening compounds the clearance hit. (See profile.)
 
+## Hydration & electrolytes (the assist, not the play)
+Alcohol suppresses **vasopressin (ADH)**, so the kidneys stop reabsorbing water and you
+urinate out *more* fluid than the drink contained — taking **sodium, potassium, and especially
+magnesium** with it. That net loss drives the headache/fog side of a hangover.
+- **Water** replaces the lost fluid and, if sipped *between* drinks, slows the pace and lowers
+  the blood-alcohol **peak** (the brain-relevant win). It does **not** sober you up faster (liver
+  clears ~1 drink/hr regardless) and does **not** undo the deep-sleep/glymphatic hit.
+- **Electrolytes** make rehydration *stick* (oral-rehydration principle: sodium/glucose let the
+  gut retain water instead of peeing it back out). **Magnesium** is the one drinkers most reliably
+  deplete; tied to headache and sleep quality.
+- **Honest scope:** water + electrolytes fix the *dehydration axis* (hangover, next-day function,
+  some sleep continuity) — not alcohol's direct damage to sleep architecture or clearance. The
+  brain-protecting levers remain **timing, lower peak, clean nights**.
+
 ## Sources
 - Lundgaard et al., *Scientific Reports* 2018 — [alcohol dose-dependent glymphatic effects](https://www.nature.com/articles/s41598-018-20424-y).
 - Sabia et al., *BMJ* 2018 — [Whitehall II alcohol & dementia](https://pmc.ncbi.nlm.nih.gov/articles/PMC6066998).
