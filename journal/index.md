@@ -6,4 +6,4 @@ whenever a new journal entry is saved.
 
 ## Entries
 
-_None yet._
+- **2026-07-28** — [[2026-07-28 - caffeine-social-and-golf-anger|Caffeine, social wins, and golf-course anger]] — met Myra (Stew's boss) at Fast Forward; banked the "coffee before networking" insight; golf anger with Dad.

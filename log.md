@@ -645,3 +645,81 @@ secondary numbers in [[gpt-5-4]]. Phase 2: marked both @cloud verification items
 (MODE A): HEALTH_DEBT already 0 — no objective fix. Phase 4 (MODE B): created [[agent-security-risks]]
 concept (threat model + mitigations for running autonomous/always-on agents), wired into index,
 [[claude-code-permissions]], and [[openclaw]].
+
+## [2026-07-28] journal | Caffeine, social wins, and golf-course anger
+First journal entry. Cole's day: first Fast Forward team meeting (met [[Stewart Neifart|Stew]]'s
+boss **Myra** — new CRM stub), office bowling day where he was notably talkative. Key self-insight:
+he's "leagues more social when caffeinated" → **coffee-before-networking** is now a standing rule,
+tied into [[cole-job-search-strategy|relationship-first job search]] and [[networking-prep]]. Also
+flagged golf-course anger that spikes specifically around [[Dad]] — gave affect-labeling / breath-reset
+/ reframe tactics. Entry: [[2026-07-28 - caffeine-social-and-golf-anger]].
+
+## [2026-07-29] crm | Job-search targets: Flourish + FedTech added, Ian Ryu (warm path) created
+Added two recruit targets to [[target-orgs]]. **Flourish** (flourishlabs.ai) → 🟢: Bezos-anchored
+($500M, $2.5B val, Jun 2026) **brain-inspired AI** startup; hook = co-founder Thomas Reardon's Duke
+neurobiology MS + Cole's neuro-and-build fit; actively hiring; value-first cold draft written to
+info@. **FedTech** (deep-tech venture studio, actively hiring) filed under a new **🤝 Warm-path
+targets** section (established employers reached via a warm connection, where the no-jobs-ask rule
+relaxes). Created CRM record for **[[Ian Senungwan Ryu]]** — JHTV colleague, ex-FedTech, Cole's
+warm-intro/referral path into FedTech. Next: ask Ian for the inside read + an intro.
+
+## [2026-07-29] ingest | WIRED — Flourish (Bezos-funded neuro-AI startup)
+Ingested Steven Levy's WIRED launch profile of **[[flourish|Flourish]]** (PDF Cole dropped; copied to
+`raw/Processed/`). Created [[flourish-wired-core-algorithm]] (source), [[flourish]] (company entity),
+[[catalio-capital]] (Baltimore neuro VC / backer), and CRM records [[Joshua Vogelstein]] + [[Thomas Reardon]].
+**Key job-search finding:** cofounder **[[Joshua Vogelstein]] is a Johns Hopkins BME professor** and backer
+**[[catalio-capital|Catalio]]** is Baltimore-based → a real **Hopkins/[[jhtv|JHTV]] warm cluster** into
+Flourish, much stronger than a cold info@ note. Corrected the earlier Reardon-Duke hook (he's Columbia;
+Duke MS is minor). Updated [[target-orgs]] Flourish row (→ enriching, route via Vogelstein/JHTV) and
+index.md. Flourish's hippocampus-inspired, learn-without-retraining approach echoes this vault's
+[[llm-wiki-pattern|file-based memory]].
+
+## [2026-07-29] ingest | UShip Fall 2026 move-in signups (Wix export) + funding-feed seed
+Cleared the raw inbox (2 files). **(1) UShip "Forms & Submissions"** — 100 Fall-2026 move-in booking
+submissions. **PII-heavy** (names/emails/phones/home addresses), so per the "customers aren't catalogued"
+rule I kept the raw file **local-only** (moved to new gitignored `raw/private/`; added `.gitignore` rule)
+and synced **only aggregates**: created [[uship-fall2026-signups]] and a "Fall 2026 demand snapshot" on
+[[uship]]. Key: **Email Campaign = 58% of signups** (validates Cole's email-list moat), ~35% repeat/referral,
+Home Pickup upsell chosen ~half, NYC-metro corridor; dedupe needed (edited re-submissions). **(2) "Best
+Startups with Recent Funding in 2026"** = the `startups.gallery/news` feed already seeded into [[target-orgs]]
+on 2026-07-28 → moved to `raw/Processed/` (public data). Both sources out of the inbox.
+
+## [2026-07-29] query | Tell me about my work at JHTV
+Answered from [[JHTV]] bucket → [[jhtv]], [[capital-strategy]], [[vc-matching-second-brain]],
+[[jhtv-grant-finder]], [[translational-funding]], [[Stewart Neifart]]. Synthesis (Capital
+Strategy Intern since Jun 2026; VC-matcher flagship + grant finder + TF app review + memos/
+one-pagers/VC network DB) is already fully owned by [[capital-strategy]] — no new page created
+(would duplicate). No page changes; query logged only.
+
+## [2026-07-29] ingest | FedTech General Application (talent database)
+Ingested the FedTech "General Application" web clip. Key: FedTech runs a **general application / talent
+database** (`fedtech.applytojob.com/apply/dGXQKN4HZq`) — apply with no specific role posted and they reach
+out on a future match. Folded into [[target-orgs]] (FedTech row: entry point + the "Ian intro → then submit
+general app" play) and [[Ian Senungwan Ryu]] next-action. Reaffirms FedTech's self-framing as deep-tech
+"venture builders" (since 2015). Moved source to raw/Processed/. Inbox clear.
+
+## [2026-07-29] ingest | Kronos — foundation model for financial markets (GitHub README)
+Ingested the stray raw file (shiyu-coder/Kronos README). Created [[kronos-financial-foundation-model]]:
+first open-source foundation model for financial K-lines (OHLCV candlesticks), 45+ exchanges,
+decoder-only Transformer + hierarchical tokenizer; AAAI 2026 / arXiv 2508.02739. Framed it as the
+**"foundation-model recipe applied to a non-language domain"** pattern and cross-linked it to [[flourish]]
+(brain) and Chai (antibodies) as siblings. Noted authors' own caveats (raw signals ≠ pure alpha; model
+costs/slippage). Open question logged: why Cole saved it (quant interest vs AI-trend tracking). Moved
+source to raw/Processed/ (renamed cleaner). Inbox clear.
+
+## [2026-07-29] connect | Kronos → quant-investing cluster
+Per Cole, connected [[kronos-financial-foundation-model]] into the investing cluster (not just standalone
+AI): it's a signal generator whose caveats restate [[signals-that-trade-themselves]] ([[man-group]]) — the
+forecast is the tip; backtest/Sharpe/drawdown/risk-neutralization/costs are the iceberg. Added reciprocal
+links from signals-that-trade-themselves + man-group. Noted the contrast with Cole's own passive
+[[investment-plan]] (time-not-timing). Cool tech + genuine quant-AI curiosity.
+
+## [2026-07-29] ingest | Job-search playbook — Ben Lang cold-email + hidden-roles + July hiring thread (3 sources)
+Batch-ingested a coherent Ben Lang / Next Play job-search cluster. Created concept [[cold-email-job-search]]
+(the ≤200-word/one-ask/no-fake-personalization rules + who-why-whycare format + 9 discovery sources) and
+source [[july-hiring-thread-benlang]] (86 hiring startups from @benln's July thread). **Engine enrichment:**
+added the 9 discovery sources to the [[outreach-pipeline]] runbook (step 2) and a pre-send checklist to
+[[outreach-kit]]. **Leads:** promoted in-lane NYC health/bio/AI names to [[target-orgs]] 🟡 — **Ataraxis AI**
+(precision oncology), **Formation Bio** (AI drug dev), **PhotonHealth**. Big theme reinforced: best roles are
+filled before they're posted → discovery + warm-specific outreach beats mass applications. Moved all 3 sources
+to raw/Processed/. Inbox clear.

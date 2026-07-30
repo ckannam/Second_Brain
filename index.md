@@ -142,7 +142,13 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Fulbright — Cole's application (see the [[Fulbright]] bucket)
 - [[fulbright-us-student-program]] — the fellowship, Cole's Open Study/Research application, components, funding, deadlines, Duke endorsement.
 
+### Job-search targets — neuro-AI (see [[Job Search]])
+- [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
+
 ## Concepts
+
+### Job search / networking
+- [[cold-email-job-search]] — the playbook: cold-email rules (≤200 words, one ask, no fake personalization), the who/why/why-they-care format, and 9 sources for finding unposted startup roles. Feeds [[outreach-pipeline]].
 
 ### LLM Wiki / knowledge systems
 - [[llm-wiki-pattern]] — persistent compounding wiki vs. RAG; three layers, why it works.
@@ -246,10 +252,15 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Ventures — UShip
 - [[carson-uship-vault-page]] — Carson's insider UShip page (shared by Cole 2026-07-27); the source that filled the vault's UShip gaps.
+- [[uship-fall2026-signups]] — aggregate analytics from the Fall 2026 move-in signup export (email = 58% of signups; ~35% repeat/referral). Raw customer PII kept local-only.
 
 ### Fulbright
 - [[fulbright-project-context]] — Cole's own project brief (award type, thesis, countries, components, funding).
 - [[anna-fulbright-duke-2026-07-14]] — Duke adviser's process email; the authoritative campus timeline + GA reviewers + writing groups.
+
+### Job search — target intel
+- [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.
+- [[july-hiring-thread-benlang]] — Ben Lang's July 2026 hiring thread (86 startups); in-lane NYC health/bio/AI names promoted to [[target-orgs]].
 
 ### Foundational
 - [[llm-wiki-karpathy]] — Karpathy gist: the LLM Wiki pattern (web).
@@ -269,6 +280,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Models — creator coverage
 - [[opus-5-vs-fable-5-nate-herk]] — Nate Herk head-to-head across real workflows (freshness-flagged; verify against primary sources).
+- [[kronos-financial-foundation-model]] — Kronos: open-source foundation model for financial K-lines (the LLM recipe applied to markets); sibling pattern to [[flourish]] (brain) and Chai (antibodies).
 
 ### Neuro channel — production research
 - [[stickman-animation-free-ai-tutorials]] — 7-video batch on making stick-figure videos with free AI tools (the research behind [[neuro-free-tool-stack]]).

@@ -10,4 +10,4 @@ all output. Made possible inside a regulated firm by a **[[governed-skills-frame
 skills framework]]** + core data layer, scaled across **~750 developers/quants and 100+
 skills**. (The specific signal is their IP and wasn't disclosed.)
 
-Related: [[anthropic]], [[the-briefing-financial-services]], [[claude-code-skills]].
+Related: [[anthropic]], [[the-briefing-financial-services]], [[claude-code-skills]], [[kronos-financial-foundation-model]] (an open-source example of an AI-generated market signal — the "tip" this workflow productionizes).

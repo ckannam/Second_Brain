@@ -34,4 +34,8 @@ retraining, but via [[claude-code-skills|skills]]** + a core data layer, under a
 **[[governed-skills-framework|governed skills framework]]** (~750 devs/quants, 100+ skills)
 that lets compliance say yes on load-bearing workflows.
 
-Related: [[the-briefing-financial-services]], [[self-healing-workflows]], [[claude-code]].
+A concrete open-source example of the "signal" tip of this iceberg: [[kronos-financial-foundation-model|Kronos]],
+a foundation model that forecasts price bars — its authors stress the same point (raw signals still need
+backtesting, risk neutralization, and cost modeling to become tradeable alpha).
+
+Related: [[the-briefing-financial-services]], [[self-healing-workflows]], [[claude-code]], [[kronos-financial-foundation-model]].

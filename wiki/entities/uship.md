@@ -171,9 +171,19 @@ to Cole. Kept here for awareness, not as Cole's focus.)*
   is an administrator, **"Ben."** Competing Duke move-out service: **BlueBox**. [[Bull City Beds]]
   is a partner/peer.
 
+## Fall 2026 move-in demand snapshot ([[uship-fall2026-signups]])
+First live-season data in the vault (100 booking submissions, Jul 6–28 2026):
+- **Email Campaign drove 58% of signups** — direct proof the scraped Net-ID email engine (Cole's build)
+  is the #1 acquisition channel. **Referrals (19) + returning customers (16) ≈ 35%** = a strong loyalty base.
+- **Home Pickup (+$100) chosen 47×** (~half) — the paid convenience upsell dominates among the NYC-metro
+  parent base; Service Stop 22, Out-of-Route ship-in 20.
+- **69 target the Aug 15 first-year move-in; 17 opted into +$40 peak days** — the surcharge is shaping demand.
+- Geography confirms the **NYC-centric Massachusetts→Durham corridor**. Ops note: export has duplicate/edited
+  re-submissions → dedupe before counting unique customers. (Aggregates only; raw customer PII kept local-only.)
+
 ## Notes
 - Customers (students/parents) are business contacts, deliberately **not** catalogued as personal
-  relationships.
+  relationships. (The Fall-2026 signup export is held **local-only** in `raw/private/`; only aggregates are synced.)
 - The connected Gmail is the Uship account (`cole.kannamuss@gmail.com`); members use
   `.uss@gmail.com` addresses; `contact@universityshipping.com` fans out to all six operators.
 
