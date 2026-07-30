@@ -24,7 +24,7 @@ The learning app the channel funnels into: a spacing engine that routes retrieva
 [[knowledge-types|type]]. Evidence + concepts:
 - **[[spacing-effect]]** · **[[retrieval-practice]]** · **[[interleaving]]** · **[[spaced-repetition]]** — the science cluster.
 - **[[spacerep]]** — the closest competitor (FSRS + Google Calendar) and the gap it leaves.
-- Sources: **[[spacing-math-meta-analysis-murray-2025]]**, **[[neuroscience-of-spacing-brainfacts]]**, **[[spacing-testing-complex-skills-study]]**, **[[optimizing-spaced-learning-smolen-2016]]**.
+- Sources: **[[spacing-math-meta-analysis-murray-2025]]**, **[[neuroscience-of-spacing-brainfacts]]**, **[[spacing-testing-complex-skills-study]]**, **[[optimizing-spaced-learning-smolen-2016]]**, **[[enhancing-learning-rats-computational-protocol-2023]]**.
 - See the **Neuro — learning app** section of [[tasks/index]] for the next step (spec the Learning-Triage vault skill).
 
 ## Tools

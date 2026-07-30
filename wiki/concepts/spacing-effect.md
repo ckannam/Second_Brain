@@ -34,10 +34,11 @@ learning science — observed across domains, ages, and even species. It is the 
 - **The optimal gap is an intermediate, computable optimum** — not "longer is always better."
   Because it's set by these molecular kinetics, computational models can *predict* the best
   (often irregular, non-uniform) schedule, which can outperform fixed intervals
-  ([[optimizing-spaced-learning-smolen-2016]]). This is the scientific basis for a *smarter-than-
-  generic scheduler* — the [[neuro-channel|learning-app]] thesis. *(Inference: model-system
-  optima don't translate turnkey to classroom scheduling — FSRS already approximates human
-  forgetting curves empirically.)*
+  ([[optimizing-spaced-learning-smolen-2016]]; extended from sea slugs to a **mammal** in
+  [[enhancing-learning-rats-computational-protocol-2023|rats, 2023]]). This is the scientific basis
+  for a *smarter-than-generic scheduler* — the [[neuro-channel|learning-app]] thesis. *(Inference:
+  model-system optima don't translate turnkey to classroom scheduling — FSRS already approximates
+  human forgetting curves empirically.)*
 
 ## The catch
 Everyone knows spacing works and **almost no one does it** — it's "a slower, harder way to

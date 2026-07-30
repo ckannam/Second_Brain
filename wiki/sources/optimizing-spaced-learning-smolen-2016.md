@@ -45,9 +45,11 @@ matters for a product — whether the **optimal spacing schedule can be computed
     phosphorylated CREB1**, and it **enhanced LTF** beyond the standard schedule — a computer-designed
     irregular schedule beating the textbook uniform one.
   - **It's translating up the ladder:** the same computational-design approach was later shown to
-    **enhance associative learning in rats** (Enhancing Associative Learning in Rats With a
-    Computationally Designed Training Protocol, 2023), moving the result from mollusc synapses toward
-    mammalian behavior — though human classroom scheduling is still a further leap (see honesty check).
+    **enhance associative learning in rats** ([[enhancing-learning-rats-computational-protocol-2023|Zhang
+    et al. 2023]] — a model tuned to *rat hippocampal* PKA/ERK kinetics produced an irregular schedule
+    that beat massed and fixed-interval spacing in fear conditioning), moving the result from mollusc
+    synapses toward mammalian behavior — though human classroom scheduling is still a further leap
+    (see honesty check).
 
 ## Why it matters for Cole
 This is the scientific case that a scheduler grounded in *mechanism* could beat a generic one —
