@@ -22,16 +22,19 @@ write the wiki. Do not restate either here.
   `raw/`. Lowering the number by changing the scorer is cheating, not healing.
 - **Keep or revert on the metric:** improved → `git commit`; equal/worse →
   `git checkout -- .`. Never keep a non-improving change.
-- **Build first, heal second.** Action-item build work (Phases 0–2) runs before self-heal
-  (Phase 3) and generative work (Phase 4). On a build night, the entire run lives on the
-  night branch → one PR; nothing reaches `main` unreviewed. Pure-maintenance nights may
-  still commit objective self-heal fixes to `main`.
+- **Two lanes, split by score-verifiability.** Score-verified *structural* self-heal
+  (fast-track) auto-merges to `main`; new *content* (build + generative) is the review lane
+  and reaches `main` only via the human-merged PR. **New/generated prose never auto-merges.**
+- **Heal pre-existing debt on `main` first, then build on the branch.** Phase-1 heals land on
+  `main` under the auto-merge guards (structural-only, strict score drop, clean fast-forward,
+  pre-existing debt); Phase-2 build + Phase-3 build-heal + Phase-4 generative ride the PR.
+  See `program.md` for the guards — do not auto-merge anything that fails them.
 - Log every iteration to `autoresearch/results.tsv`.
 
 ## Quick start
 
 1. `python3 autoresearch/score.py` — see current debt + the defect list.
-2. Follow `autoresearch/program.md`'s six phases in order: **Select → Build →
-   Write-back → Self-heal → AutoResearch → PR**.
-3. On a build night the whole run stays on the night branch → one morning PR. Stop after
-   the PR is opened.
+2. Follow `autoresearch/program.md`'s phases in order: **Select & baseline → Heal on `main`
+   (auto-merge) → Build → Write-back + build-heal → AutoResearch → PR**.
+3. Fast-track heals land on `main` as they pass the guards; the build/generative work stays
+   on the night branch → one morning PR. Stop after the PR is opened.
