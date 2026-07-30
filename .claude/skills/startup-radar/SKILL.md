@@ -116,6 +116,31 @@ Add one interaction-log line:
 
 Filename: kebab-case of the company name (e.g. `chai-discovery.md`, `prime-intellect.md`).
 
+## Step 5.5 — Contact enrichment
+
+For every new company note, find the single best outreach target and fill the `person` and `contact` fields. Do this before reporting.
+
+**Who to target (in priority order):**
+1. **Warm path first** — check `crm/*.md` for anyone who works at or is connected to this company. If found, set `person: "[[Their Name]]"` and `contact: "warm intro via [[Their Name]]"`.
+2. **Early-stage (Seed / Series A, team < ~30)** — target the CEO or a cofounder directly. They read their own email and make hiring calls.
+3. **Series B+ with engineering team** — target the Head of Engineering, VP Engineering, or a CTO. Avoid generic HR.
+4. **No individual found** — use the company's general hiring email (e.g. `jobs@company.com`, `careers@company.com`) or a careers page URL as `contact`.
+
+**How to find them (use WebSearch and WebFetch):**
+- Search `"[Company] CEO" OR "[Company] founder" site:linkedin.com` for name.
+- Search `"[Company] [Name] email"` or `"[Name] @[domain]"` for a direct address.
+- Check the careers page (`/jobs`, `/careers`) for a posted hiring email address.
+- For YC companies: fetch `https://www.ycombinator.com/companies?q=[company]` — founders are listed.
+- GitHub profile pages sometimes contain email addresses.
+- If only a name is findable (no direct email), set `contact: "linkedin.com/in/[slug]"` or `contact: "[first]@[domain] (pattern — verify)"`.
+
+**Do NOT invent email addresses.** If the domain pattern is guessable from other public sources, mark it `(pattern — verify)`. If nothing is findable, leave `contact` empty and note `"no public contact found"` in the interaction log.
+
+**Update the note** — edit `person` and `contact` frontmatter fields in place, and append to the interaction log:
+```
+- <TODAY> contact research: [what was found or "no public contact found"]
+```
+
 ## Step 6 — Report shortlist in-session
 
 After writing notes, print a ranked shortlist in this format:
