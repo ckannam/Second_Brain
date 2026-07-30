@@ -39,6 +39,9 @@ post-grad path.
    event; his Claude fluency is a strong opener.
 3. **Host orgs near him** — **Code the Dream (Durham)** especially, to signal intent / shape placement.
 
+## Application
+Actively applying — drafts & requirements in **[[claude-corps-application]]** (local-only).
+
 ## Open decision
 - [ ] Decide whether Claude Corps (Aug 2027) is a path to pursue vs. [[Fulbright]] vs. direct
   startup/VC — then, if yes, apply early and open a CodePath/Anthropic channel. (See [[tasks/index]].)
