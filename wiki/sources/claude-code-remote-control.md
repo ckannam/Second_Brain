@@ -16,3 +16,5 @@ created: 2026-07-24
 - Docs: code.claude.com/docs/en/remote-control.
 
 Tools/entities: [[claude-code]], [[anthropic]], [[claude-code-remote-control]]. Related: [[claude-code-imessage]], [[claude-code-computer-use]].
+
+**Raw clip:** [[Claude Code Just Added What Everyone Wanted (Remote Control)]]

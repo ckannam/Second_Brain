@@ -20,3 +20,5 @@ model). His view on strategy in a fast market: **"the only moat is the team's cu
 openness and deep mutual trust, because "the secret you keep today is worthless tomorrow."
 
 Related: [[genspark]], [[sarah-guo]], [[zach-yedegari]] (other founders in the vault).
+
+**Raw clip:** [[The Problem Solvers Kay Zhu at Genspark]]

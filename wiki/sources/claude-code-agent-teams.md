@@ -15,3 +15,5 @@ created: 2026-07-24
 - Dos/don'ts, key rules, common pitfalls and fixes; when to use teams vs not.
 
 Tools/entities: [[claude-code]], [[claude-code-agent-teams]], [[claude-code-subagents]], [[tmux]]. Concept: [[parallel-agents]].
+
+**Raw clip:** [[How to Build Claude Agent Teams Better Than 99% of People]]

@@ -17,3 +17,5 @@ flows back into the agent automatically.
 A lightweight, per-team analogue of [[agent-dreaming]] (self-improvement via curated memory)
 and [[governed-skills-framework]] (shared, reviewed skills). Related: [[claude-code-memory]],
 [[ai-native-engineering-org]].
+
+**Raw clip:** [[Teaching agents to learn from your team]]

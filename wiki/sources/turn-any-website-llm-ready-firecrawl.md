@@ -16,3 +16,5 @@ created: 2026-07-24
 - You don't pick endpoints/config — just say what you want.
 
 Tools/entities: [[claude-code]], [[firecrawl]], [[mcp]]. Concept: [[web-scraping-for-llms]]. Related: [[google-rag-gemini-embeddings-2]].
+
+**Raw clip:** [[Turn Any Website Into LLM Ready Data INSTANTLY]]

@@ -44,3 +44,5 @@ working.*
   channels into themes over coffee.
 
 Companion workshop: [[how-we-claude-code]]. Enterprise view: [[ai-native-enterprise-scale]].
+
+**Raw clip:** [[Running an AI-native engineering org]]

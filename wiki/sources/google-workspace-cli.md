@@ -15,3 +15,5 @@ created: 2026-07-24
 - Big unlock for [[ai-executive-assistant|executive-assistant]] builds that need email/calendar/docs.
 
 Tools/entities: [[claude-code]], [[google-workspace-cli]], [[google]]. Related: [[turn-claude-code-executive-assistant]].
+
+**Raw clip:** [[Google’s New Tool Just 10x’d Claude Code]]

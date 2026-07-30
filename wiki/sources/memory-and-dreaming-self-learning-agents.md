@@ -44,3 +44,5 @@ every agent; dreaming raises it further."
 > Distinct from Claude Code's consumer "[[claude-code-memory|Auto Dream]]" — same metaphor,
 > but this is the Managed Agents platform primitive. Related:
 > [[production-faster-managed-agents]], [[ship-your-first-managed-agent]].
+
+**Raw clip:** [[Memory and dreaming for self learning agents]]

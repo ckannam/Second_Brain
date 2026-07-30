@@ -17,3 +17,7 @@ building the design tool from prompt to production.
 
 Connects [[natural-language-coding]] and [[vibecoding]] to design specifically, and pairs
 with [[frontend-design]] practice. Related: [[html-over-markdown-specs]], [[claude-code]].
+
+**Raw clip:** [[Designing with Claude From prompt to production 1]]
+
+**Raw clip:** [[Designing with Claude From prompt to production]]

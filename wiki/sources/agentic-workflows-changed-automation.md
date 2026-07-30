@@ -14,3 +14,5 @@ created: 2026-07-24
 - Ties the technical shift to the market/selling angle.
 
 Tools/entities: [[claude-code]]. Concepts: [[agentic-workflows]], [[selling-ai-automations]]. Related: [[n8n-vs-claude-code]].
+
+**Raw clip:** [[Agentic Workflows Just Changed AI Automation Forever! (Claude Code)]]

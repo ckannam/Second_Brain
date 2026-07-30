@@ -22,3 +22,5 @@ created: 2026-07-24
 Use cases named: trading (Sharpe ratio), marketing/AB tests, code speedups, on-device model fine-tuning, prompt engineering. (Sponsor: Oxylabs — noted, not endorsed.)
 
 Entities: [[andrej-karpathy]], [[david-andre]], [[claude-code]], [[codex]]. Concepts: [[autoresearch]], [[eval-driven-model-selection]], [[agentic-workflows]].
+
+**Raw clip:** [[(18) The only AutoResearch tutorial you’ll ever need]]

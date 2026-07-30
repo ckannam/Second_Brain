@@ -18,3 +18,5 @@ Panel: three fast-scaling European tech companies, three different bets on [[cla
 Framing echoes [[running-ai-native-engineering-org]]: "what they built, where it broke, and
 how they stay ahead of a model that changes every few months." Related:
 [[ai-native-engineering-org]], [[claude-code-permissions]], [[vibecoding]].
+
+**Raw clip:** [[Building AI-native at enterprise scale monday.com, Doctolib, and Delivery Hero]]

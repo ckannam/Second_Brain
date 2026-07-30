@@ -44,3 +44,5 @@ kind of heavy, contrarian, first-principles argument that fits his intellectual 
 morally-complex, systems-level thinking). No strong wiki cross-links yet; kept as a standalone source.
 
 Related: [[tucker-carlson]] · [[the-economist]].
+
+**Raw clip:** [[A full-length interview with Tucker Carlson  The Economist]]

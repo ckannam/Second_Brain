@@ -14,3 +14,5 @@ created: 2026-07-24
 - Why **visual monitoring** helps for parallel AI coding; a security check; honest "useful or gimmick?" verdict.
 
 Tools/entities: [[claude-code]], [[pixel-agents]], [[vs-code]]. Concept: [[parallel-agents]], [[agent-observability]]. Related: [[claude-code-agent-teams]].
+
+**Raw clip:** [[I Can Actually Watch My AI Agents Work Now]]

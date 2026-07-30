@@ -15,3 +15,5 @@ created: 2026-07-24
 - Known limitations and workarounds covered.
 
 Tools/entities: [[claude-code]], [[anthropic]], [[claude-code-channels]], [[dispatch]]. Related: [[claude-code-remote-control]]. (Meta: this vault itself is reachable over the iMessage channel.)
+
+**Raw clip:** [[Claude Code + iMessage is Finally Here.]]

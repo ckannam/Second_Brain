@@ -25,3 +25,5 @@ Claude batch.
   **infrastructure and process**, not intelligence.
 
 Related: [[the-capability-curve]], [[bitter-lesson]], [[claude-managed-agents]].
+
+**Raw clip:** [[The capability curve]]

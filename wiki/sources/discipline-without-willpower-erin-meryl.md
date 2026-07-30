@@ -39,3 +39,5 @@ Five neuroscience-backed strategies:
 Milkman et al. 2014 (temptation bundling), Amabile & Kramer 2011 (Progress Principle),
 Graybiel 2008 (habits), Lally et al. 2010 (66-day habit study), Brooks 2014 (reappraising
 anxiety), Thaler & Sunstein 2008 (Nudge).
+
+**Raw clip:** [[how to trick your brain into becoming so disciplined your friends will be shocked by your success]]

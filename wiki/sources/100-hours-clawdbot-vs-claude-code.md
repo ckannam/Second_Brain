@@ -15,3 +15,5 @@ created: 2026-07-24
 Bottom line: default to [[claude-code]]; Clawdbot for advanced users who understand the risks.
 
 Tools/entities: [[clawdbot]], [[claude-code]]. Related: [[i-turned-clawdbot-personal-assistant]], [[set-up-clawdbot-vps]].
+
+**Raw clip:** [[100 Hours Testing Clawdbot vs Claude Code (honest results)]]

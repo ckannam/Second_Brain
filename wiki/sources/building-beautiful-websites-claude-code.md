@@ -15,3 +15,5 @@ created: 2026-07-24
 - Beginner-friendly; part of the "sell websites" money angle.
 
 Tools/entities: [[claude-code]], [[vercel]]. Concept: [[website-building-with-ai]]. Related: [[nano-banana-2-claude-code-10k-websites]].
+
+**Raw clip:** [[Building Beautiful Websites with Claude Code Is Too Easy]]

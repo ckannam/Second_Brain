@@ -25,3 +25,5 @@ Themes echoing the vault: *"Why Verification Matters"* (a timestamped section) r
 [[how-we-claude-code|verification-native]] workflows. Related: [[opus-5]], [[fable-5]],
 [[eval-driven-model-selection]], [[cost-per-successful-outcome]].
 </content>
+
+**Raw clip:** [[I Tested Opus 5 vs. Fable 5. What You Need to Know.]]

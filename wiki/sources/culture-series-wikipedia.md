@@ -44,3 +44,5 @@ Love You*, *Experiencing a Significant Gravitas Shortfall*).
 
 Related: [[the-culture]] · [[post-scarcity-and-meaning]] · [[elon-musk]] · [[elon-musk-economist-2026]] ·
 [[ai-lowering-entrepreneurship-barriers]] · [[flourish]].
+
+**Raw clip:** [[Culture series]]

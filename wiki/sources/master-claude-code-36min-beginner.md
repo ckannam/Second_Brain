@@ -18,3 +18,5 @@ created: 2026-07-24
 - Live build of a real workflow end-to-end.
 
 Tools/entities: [[claude-code]], [[mcp]], [[claude-code-skills]]. Concept: [[agentic-workflows]]. Companion to [[master-claude-code-skills-28min]] (skills-focused) and the [[build-sell-claude-code-course]] chapters.
+
+**Raw clip:** [[Master 95% of Claude Code in 36 Mins (as a beginner)]]

@@ -15,3 +15,5 @@ created: 2026-07-24
 - Recommends shifting learning time from n8n to agentic/Claude Code skills.
 
 Tools/entities: [[n8n]], [[claude-code]]. Concepts: [[n8n-vs-claude-code]], [[agentic-workflows]]. Related: [[is-n8n-dead]].
+
+**Raw clip:** [[Stop Learning n8n in 2026...Learn THIS Instead]]

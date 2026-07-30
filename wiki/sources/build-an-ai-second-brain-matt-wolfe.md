@@ -39,3 +39,5 @@ Build details:
 
 This is a meta-source — it describes building the very kind of system this vault is. The
 channel-name front-matter rule now in this vault's `CLAUDE.md` came from this video.
+
+**Raw clip:** [[Build An AI Second Brain Knowledge Base (Step-By-Step)]]

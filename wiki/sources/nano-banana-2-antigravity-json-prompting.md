@@ -15,3 +15,5 @@ created: 2026-07-24
 - Project setup + live demo; pricing.
 
 Tools/entities: [[nano-banana-2]], [[antigravity]], [[gemini]]. Concept: [[json-prompting]]. Related: [[nano-banana-2-claude-code-10k-websites]].
+
+**Raw clip:** [[The NEW Nano Banana 2 + Antigravity Destroys Every AI Image Tool]]

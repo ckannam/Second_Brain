@@ -35,3 +35,5 @@ matter, so for agentic tasks check the steps, not just the outcome. Grade with
 
 Companion talks: [[the-thinking-lever]], [[the-prompting-playbook]]. Related:
 [[the-capability-curve]], [[picking-the-right-model]].
+
+**Raw clip:** [[Picking the right model]]

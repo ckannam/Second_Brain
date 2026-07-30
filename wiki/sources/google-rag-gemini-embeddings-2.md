@@ -16,3 +16,5 @@ created: 2026-07-24
 - Contrast with the [[llm-wiki-vs-rag|LLM Wiki approach]]: this is classic vector RAG, made turnkey.
 
 Tools/entities: [[claude-code]], [[gemini-embeddings-2]], [[google]], [[pinecone]], [[rag]]. Concept: [[multimodal-rag]].
+
+**Raw clip:** [[Google's New Model + Claude Code Just Changed RAG Forever]]

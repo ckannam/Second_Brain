@@ -61,3 +61,5 @@ So it's interesting-to-watch tech, not a nudge to change how *he* invests.
 
 _Why saved (Cole, 2026-07-29): thinks it's cool — and it genuinely plugs into his **quant/AI-in-markets**
 curiosity (the [[man-group]] / [[signals-that-trade-themselves]] cluster), not job search or a build._
+
+**Raw clip:** [[Kronos - Foundation Model for Financial Markets (shiyu-coder README)]]

@@ -18,3 +18,5 @@ with [[claude-code]] (**38 commits**).
 
 Complements the [[vc-matching-second-brain]] (equity funders) by covering **non-dilutive**
 funding. Related: [[translational-funding]], [[capital-strategy]].
+
+**Raw source clips:** [[ckannamVC_Matching_Second_Brain]] · [[ckannamjhtv-grant-finder]]

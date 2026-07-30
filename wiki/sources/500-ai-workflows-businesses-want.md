@@ -17,3 +17,5 @@ created: 2026-07-24
 - Closes with **how to sell them**.
 
 Tools/entities: [[claude-code]]. Concept: [[selling-ai-automations]]. Related: [[sign-first-ai-client-7-days]], [[college-student-500k-cold-email]].
+
+**Raw clip:** [[I’ve Built 500 AI Workflows, This is What Businesses Want in 2026]]

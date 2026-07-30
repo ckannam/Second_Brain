@@ -15,3 +15,5 @@ created: 2026-07-24
 - Pricing, limitations, and what deployment actually takes.
 
 Tools/entities: [[claude-code]], [[gemini-3-1-flash-live]], [[google]]. Concept: [[voice-agents]].
+
+**Raw clip:** [[Gemini 3.1 Flash Live Just Changed Voice Agents Forever]]

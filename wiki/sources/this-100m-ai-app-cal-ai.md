@@ -15,3 +15,5 @@ created: 2026-07-24
 - Framing: the future of software when hits can be vibecoded.
 
 Tools/entities: [[cal-ai]], [[zach-yedegari]]. Concept: [[vibecoding]], [[ai-app-business]].
+
+**Raw clip:** [[This $100M AI App Just Changed Software Forever]]

@@ -16,3 +16,5 @@ created: 2026-07-24
 - Live build of a new skill end-to-end.
 
 Tools/entities: [[claude-code]], [[anthropic]], [[claude-code-skills]]. Related: [[master-claude-code-skills-28min]], [[claude-code-subagents]].
+
+**Raw clip:** [[Claude Code Skills Just Got Even Better]]

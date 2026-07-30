@@ -15,3 +15,5 @@ claude.com/blog/artifacts-in-claude-code.
 
 Complements [[future-of-work-claude-tag|multiplayer]] and [[claude-code-channels|shared]]
 Claude workflows. Related: [[what-new-in-claude-code]], [[html-over-markdown-specs]].
+
+**Raw clip:** [[Artifacts in Claude Code share your work as it happens]]

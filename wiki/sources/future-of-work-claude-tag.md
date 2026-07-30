@@ -29,3 +29,5 @@ on track for days) and a memory system that "finally feels right." Data point: *
 Claude Tag is in Slack (beta) — claude.com/tag. Related: [[proactive-agents]],
 [[claude-code-channels]], [[ai-executive-assistant]], [[ai-native-engineering-org]],
 [[agent-memory]].
+
+**Raw clip:** [[The future of work with @Claude]]

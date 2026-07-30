@@ -64,3 +64,5 @@ superintelligence.
 
 Related: [[elon-musk]] · [[the-economist]] · [[anthropic]] · [[fable-5]] · [[mythos]] ·
 [[model-speciation]] · [[ai-lowering-entrepreneurship-barriers]] · [[the-capability-curve]].
+
+**Raw clip:** [[The full-length interview with Elon Musk  The Economist]]

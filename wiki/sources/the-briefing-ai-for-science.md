@@ -21,3 +21,5 @@ voiced: "**10 years of progress every year**," and teams of "bilingual" people f
 a scientific domain and AI.
 
 Related: [[the-briefing-financial-services]], [[elicit]], [[anthropic]].
+
+**Raw clip:** [[The Briefing AI for Science]]

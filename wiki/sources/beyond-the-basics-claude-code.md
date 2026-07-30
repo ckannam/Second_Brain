@@ -15,3 +15,5 @@ from real leverage: **[[claude-md-router|CLAUDE.md done well]]**, wiring tools i
 
 An Anthropic-first companion to the community "master Claude Code" guides
 ([[master-claude-code-36min-beginner]]). Related: [[how-we-claude-code]], [[what-new-in-claude-code]].
+
+**Raw clip:** [[Beyond the basics with Claude Code]]

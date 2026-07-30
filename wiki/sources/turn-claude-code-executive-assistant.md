@@ -18,3 +18,5 @@ created: 2026-07-24
 Ties directly to the [[ai-second-brain-levels|5 levels]] framing and the "morning coffee" scheduled-task pattern.
 
 Tools/entities: [[claude-code]]. Concept: [[ai-executive-assistant]], [[second-brain-system]]. Related: [[every-level-claude-second-brain]], [[claude-code-2-scheduled-tasks]], [[i-turned-clawdbot-personal-assistant]].
+
+**Raw clip:** [[Turn Claude Code Into Your Executive Assistant in 27 Mins]]

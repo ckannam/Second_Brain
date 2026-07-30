@@ -36,3 +36,5 @@ plasticity, sleep consolidation, Hebbian learning) are well-supported. Same auth
 [[conscious-subconscious-mind-ixcarus]].
 
 Raw: `raw/Processed/Neuroplasticity Rewiring Your Brain To Do Hard Things.md`.
+
+**Raw clip:** [[Neuroplasticity Rewiring Your Brain To Do Hard Things]]

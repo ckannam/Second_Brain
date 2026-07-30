@@ -25,3 +25,5 @@ run is its **own Cowork session with fresh context** (latest files + connectors)
 computer must be awake and the app open, and delayed runs execute when you return.
 
 Related: [[claude-code-scheduled-tasks]], [[proactive-agents]], [[financial-crime-claude-cowork]].
+
+**Raw clip:** [[Delegate and schedule tasks in Claude Cowork]]

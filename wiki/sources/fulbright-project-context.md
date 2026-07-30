@@ -21,3 +21,5 @@ Cole's own project brief for his **[[fulbright-us-student-program|Fulbright U.S.
 - The aunt (who suggested Fulbright) is the writing/narrative sounding board for the Statement of Grant Purpose, Personal Statement, and Short Answers.
 
 Open action items tracked in `tasks/index.md` → **Fulbright**.
+
+**Raw clip:** [[2026-07-27 Fulbright Application Project Context (Cole)]]

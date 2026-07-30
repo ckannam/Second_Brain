@@ -19,3 +19,5 @@ created: 2026-07-24
 This course is the umbrella that nearly every other Nate Herk source in this vault expands on a single chapter of.
 
 Tools/entities: [[claude-code]], [[nate-herk]]. Concepts: [[selling-ai-automations]], [[agentic-workflows]], [[second-brain-system]].
+
+**Raw clip:** [[Build & Sell with Claude Code (10+ Hour Course)]]

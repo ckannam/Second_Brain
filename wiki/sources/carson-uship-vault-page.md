@@ -52,3 +52,5 @@ don't let Carson's page overwrite it.
   Ray" as a possible original founder — plausibly Ray Kwei. Cole keeps these.
 
 Related: [[uship]] · [[uship-os]] · [[Carson Eisner]] · [[Uship]] (bucket).
+
+**Raw clip:** [[2026-07-27 Carson Eisner UShip vault page (shared)]]

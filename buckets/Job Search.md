@@ -5,7 +5,7 @@ created: 2026-07-24
 # Job Search  (bucket / MOC)
 
 Cole's path to his first post-Duke role (graduation **May 2027**). The full, private strategy
-lives in [[five-year-plan]] + [[stewart-1on1-prep]] + [[cole|profile]] (local-only); this hub is
+lives in [[five-year-plan]] + [[growth-plan]] + [[stewart-1on1-prep]] + [[cole|profile]] (local-only); this hub is
 the professional overview.
 
 ## Direction (from the 5-year plan)
@@ -47,3 +47,5 @@ cold** · **Tier 2 roster cold**.
 - [ ] Hand off [[uship]] cleanly to preserve it as a founder credential. (added 2026-07-25)
 
 *Buckets are a link overlay; the private strategy pages live in `profile/` (local-only).*
+
+**Raw source clips:** [[Best Startups with Recent Funding in 2026]] · [[FedTech General Application - FedTech]]

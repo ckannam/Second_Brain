@@ -18,3 +18,5 @@ created: 2026-07-24
 - Inferred dream prompt: "keep under a line limit, it's an index not a dump; link to memory files with one-line descriptions."
 
 Tools/entities: [[claude-code]], [[anthropic]], [[claude-code-memory]]. Note: feature is experimental/rolling out; some details inferred.
+
+**Raw clip:** [[Claude Code Just Dropped Memory 2.0]]

@@ -15,3 +15,5 @@ created: 2026-07-24
 - Uses **Firecrawl** for the data step.
 
 Tools/entities: [[claude-code]], [[firecrawl]]. Concept: [[agentic-workflows]]. Overlaps heavily with [[from-zero-first-agentic-workflow-26min]].
+
+**Raw clip:** [[How I’d Teach a 10 Year Old to Build Agentic Workflows (Claude Code)]]

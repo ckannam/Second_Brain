@@ -24,3 +24,5 @@ implement the last stretch.
 A concrete instance of the [[ai-native-engineering-org|role-blurring]] Fiona Fung describes.
 Full case study: claude.com/blog/how-anthropic-uses-claude-gtm-engineering. Related:
 [[ai-executive-assistant]], [[natural-language-coding]].
+
+**Raw clip:** [[How Anthropic uses Claude in GTM Engineering]]

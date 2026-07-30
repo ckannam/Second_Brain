@@ -67,3 +67,5 @@ enhanced-protocol result traces to the group's computational-design work (Zhang 
 "Enhancing Associative Learning in Rats With a Computationally Designed Training Protocol" (2023).
 Related vault pages: [[spacing-effect]] · [[memory-consolidation]] · [[spaced-repetition]] ·
 [[neuro-channel]].
+
+**Raw clip:** [[The right time to learn mechanisms and optimization of spaced learning]]

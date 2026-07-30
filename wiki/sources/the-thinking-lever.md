@@ -34,3 +34,5 @@ accuracy. (Mythos is a real, publicly-unreleased model — see [[mythos]].)
 
 Companion talks: [[picking-the-right-model]], [[the-capability-curve]]. Related:
 [[claude-code-permissions|effort/auto controls]], [[outcome-oriented-agents]].
+
+**Raw clip:** [[The thinking lever]]

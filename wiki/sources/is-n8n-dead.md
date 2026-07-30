@@ -14,3 +14,5 @@ created: 2026-07-24
 - Presenter's personal framing of when to reach for each tool.
 
 Tools/entities: [[n8n]], [[claude-code]]. Concept: [[n8n-vs-claude-code]]. Related: [[stop-learning-n8n-2026]], [[i-will-never-fix-n8n-self-healing]].
+
+**Raw clip:** [[Is n8n Dead?]]

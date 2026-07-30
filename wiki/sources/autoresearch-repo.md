@@ -32,3 +32,5 @@ Setup: agree a run tag, `git checkout -b autoresearch/<tag>`, read `README`/`pre
 - Companion project referenced by the community: **[[agent-hub]]**.
 
 Entities: [[andrej-karpathy]], [[nanochat]], [[agent-hub]], [[claude-code]], [[codex]]. Concepts: [[autoresearch]], [[self-healing-workflows]], [[eval-driven-model-selection]].
+
+**Raw source clips:** [[karpathyautoresearch AI agents running research on single-GPU nanochat training automatically]] · [[karpathyautoresearch AI agents running research on single-GPU nanochat training automatically 1]] · [[karpathyautoresearch AI agents running research on single-GPU nanochat training automatically 2]] · [[karpathyautoresearch AI agents running research on single-GPU nanochat training automatically 3]] · [[karpathyautoresearch AI agents running research on single-GPU nanochat training automatically 4]]

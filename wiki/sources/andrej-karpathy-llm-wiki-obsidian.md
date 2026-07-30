@@ -16,3 +16,5 @@ created: 2026-07-24
 - Source of the pattern: Karpathy's gist (already ingested as [[llm-wiki-karpathy]]).
 
 Tools/entities: [[claude-code]], [[obsidian]], [[andrej-karpathy]]. Concepts: [[llm-wiki-pattern]], [[second-brain-system]], [[llm-wiki-vs-rag]].
+
+**Raw clip:** [[Andrej Karpathy Just 10x’d Everyone’s Claude Code]]

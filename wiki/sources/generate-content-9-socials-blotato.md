@@ -15,3 +15,5 @@ created: 2026-07-24
 - Test run, fix visual issues, post to X.
 
 Tools/entities: [[claude-code]], [[blotato]]. Concept: [[content-repurposing]], [[claude-code-skills]].
+
+**Raw clip:** [[Generate Content for 9 Socials on Autopilot with Claude Code]]

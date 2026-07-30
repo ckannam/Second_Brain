@@ -30,3 +30,5 @@ created: 2026-07-24
 - **Getting started:** ask [[claude-code]] to walk you through install; needs an NVIDIA GPU (H100 tested) — rent via Lambda Labs / Vast / RunPod / Google Colab (he used Colab, T4 runtime). Repo had 25k+ stars at recording.
 
 Entities: [[greg-isenberg]], [[andrej-karpathy]], [[agent-hub]], [[claude-code]]. Concepts: [[autoresearch]], [[selling-ai-automations]], [[ai-app-business]].
+
+**Raw clip:** [[Karpathy's "autoresearch" broke the internet]]

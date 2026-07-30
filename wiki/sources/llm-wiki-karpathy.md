@@ -34,3 +34,5 @@ Key points:
 
 This is the source of truth for how this vault operates. The schema in `CLAUDE.md` is a
 concrete instantiation of this pattern.
+
+**Raw clip:** [[llm-wiki]]

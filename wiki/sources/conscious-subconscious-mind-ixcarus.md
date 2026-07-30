@@ -37,3 +37,5 @@ consolidation. **Treat as framing, not fact:** the "decision 7 seconds before aw
 invoked loosely. Same author as [[neuroplasticity-rewiring-brain-ixcarus]].
 
 Raw: `raw/Processed/How To Remember Everything You Learn 1.md`.
+
+**Raw clip:** [[How To Remember Everything You Learn 1]]

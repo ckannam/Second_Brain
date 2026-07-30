@@ -15,3 +15,5 @@ claude.com/blog/enterprise-managed-auth.
 Part of the enterprise-governance thread across the batch — cf.
 [[governed-skills-framework]], [[ai-native-enterprise-scale]] (Doctolib governance),
 [[agent-vaults]]. Related: [[mcp]], [[claude-code-permissions]].
+
+**Raw clip:** [[Enterprise-managed auth for MCP connectors]]

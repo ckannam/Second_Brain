@@ -16,3 +16,5 @@ Runs on your laptop, cluster, or on-demand GPUs. Pre-configured for **genomics, 
 proteomics, structural biology, cheminformatics**; connects to **60+ scientific databases**
 day one. Pro / Max / Team / Enterprise, macOS + Linux. See [[the-briefing-ai-for-science]]
 and [[ai-for-science]].
+
+**Raw clip:** [[Introducing Claude Science (now in beta)]]

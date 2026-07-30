@@ -15,3 +15,5 @@ created: 2026-07-24
 - Playbook: outbound campaign structure, lead process, what converts (offer & copy), example email copy 0→1.
 
 Tools/entities: [[suvam]]. Concept: [[selling-ai-automations]], [[cold-email-outreach]], [[zero-risk-offer]]. Related: [[sign-first-ai-client-7-days]], [[500-ai-workflows-businesses-want]].
+
+**Raw clip:** [[How a College Student Made $500k with Cold Email (Exact Framework)]]

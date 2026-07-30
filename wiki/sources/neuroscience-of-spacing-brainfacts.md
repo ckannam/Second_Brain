@@ -31,3 +31,5 @@ Grounds [[spacing-effect]] and [[memory-consolidation]] (CREB / consolidation wi
 "students won't do it" point is the adoption problem the [[neuro-channel|learning app]] must solve
 at capture time. A ready Neuro Short: *"Why cramming doesn't work."*
 </content>
+
+**Raw clip:** [[The Neuroscience Behind the Spacing Effect]]

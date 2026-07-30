@@ -25,3 +25,5 @@ Both take Calendly bookings for advising + draft review.
 Sign-up form due **Mon July 20**, groups assigned **Wed July 22**; you only compete against **same country + same award type**, so you must pick both before signing up. Post-submission **pizza party** for writing-group members who submit by the campus deadline. As of **2026-07-27 this window has closed** — if Cole didn't sign up, writing groups aren't mandatory and he can still work 1:1 with Anna / the GAs.
 
 Related: [[fulbright-us-student-program]] · [[fulbright-country-selection]] · [[Fulbright]] bucket.
+
+**Raw clip:** [[2026-07-14 Anna Bernard-Hoverstad Fulbright Duke email]]

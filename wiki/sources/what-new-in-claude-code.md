@@ -15,3 +15,5 @@ feature pages — see the [[claude-code]] hub for the full list ([[claude-code-s
 [[claude-code-permissions|auto mode]], [[artifacts-in-claude-code|artifacts]], etc.).
 
 Related: [[beyond-the-basics-claude-code]], [[how-we-claude-code]].
+
+**Raw clip:** [[What's new in Claude Code]]

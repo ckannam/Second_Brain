@@ -19,3 +19,5 @@ created: 2026-07-24
 Point: stop re-explaining things and make the agent always know where to look — match the level to the actual problem.
 
 Tools/entities: [[claude-code]]. Concepts: [[ai-second-brain-levels]], [[second-brain-system]], [[claude-md-router]]. Related: [[ai-executive-assistant]].
+
+**Raw clip:** [[Every Level of a Claude Second Brain Explained]]

@@ -58,3 +58,5 @@ resume a session or kick a state from external events.
 encrypted credentials), webhooks, fine-grained permissions, and a console agent builder.
 
 Companion talk: [[production-faster-managed-agents]]. See also [[claude-managed-agents]].
+
+**Raw clip:** [[Ship your first Managed Agent]]

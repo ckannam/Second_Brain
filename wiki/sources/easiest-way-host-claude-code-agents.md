@@ -15,3 +15,5 @@ created: 2026-07-24
 - Key takeaway: go from vague idea → deployed automation with plain-English prompts.
 
 Tools/entities: [[claude-code]], [[trigger-dev]], [[clickup]]. Concept: [[hosting-ai-agents]]. Related: [[set-up-clawdbot-vps]], [[claude-code-2-scheduled-tasks]].
+
+**Raw clip:** [[The EASIEST Way to Host Your Claude Code Agents]]

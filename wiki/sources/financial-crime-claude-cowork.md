@@ -16,3 +16,5 @@ for analyst teams**.
 A financial-services counterpart to [[signals-that-trade-themselves]] — both show regulated
 firms putting Claude on load-bearing workflows with governance and evaluation. Related:
 [[mcp]], [[the-briefing-financial-services]].
+
+**Raw clip:** [[Fighting financial crime with Claude Cowork]]

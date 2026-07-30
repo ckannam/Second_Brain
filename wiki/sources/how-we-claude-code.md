@@ -43,3 +43,5 @@ shares them (e.g. to S3), reducing human touchpoints over time.
 
 Companion internal-practice talk: [[running-ai-native-engineering-org]]. Related:
 [[claude-code-hooks]], [[claude-code-subagents]], [[claude-md-router]], [[adversarial-code-review]].
+
+**Raw clip:** [[How we Claude Code]]

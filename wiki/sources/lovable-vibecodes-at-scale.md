@@ -21,3 +21,5 @@ Systems he walks through:
 
 The production-grade end of [[vibecoding]]. Related: [[lovable]], [[website-building-with-ai]],
 [[self-healing-workflows]].
+
+**Raw clip:** [[How Lovable vibecodes production software at scale]]

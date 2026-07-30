@@ -39,3 +39,5 @@ a foundation model that forecasts price bars — its authors stress the same poi
 backtesting, risk neutralization, and cost modeling to become tradeable alpha).
 
 Related: [[the-briefing-financial-services]], [[self-healing-workflows]], [[claude-code]], [[kronos-financial-foundation-model]].
+
+**Raw clip:** [[Building signals that trade themselves]]

@@ -16,3 +16,5 @@ created: 2026-07-24
 - Same limitations family as scheduled tasks (machine must stay on).
 
 Tools/entities: [[claude-code]], [[claude-code-scheduled-tasks]]. Concept: [[agentic-automation-patterns]].
+
+**Raw clip:** [[This New Claude Code Feature is a Game Changer]]

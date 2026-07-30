@@ -20,3 +20,5 @@ created: 2026-07-24
 Built with [[antigravity]] + Claude Opus 4.6; Slack webhook for monitoring. (Nick Saraev runs the agency **LeftClick**.)
 
 Entities: [[nick-saraev]], [[andrej-karpathy]], [[claude-code]], [[antigravity]]. Concepts: [[autoresearch]], [[cold-email-outreach]], [[selling-ai-automations]], [[claude-code-scheduled-tasks]].
+
+**Raw clip:** [[Claude Code + Karpathy Autoresearch = The New Meta]]

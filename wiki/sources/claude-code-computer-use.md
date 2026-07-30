@@ -16,3 +16,5 @@ created: 2026-07-24
 - Best use cases: automating GUI-only apps that lack APIs.
 
 Tools/entities: [[claude-code]], [[anthropic]], [[dispatch]], [[claude-code-computer-use]]. Related: [[claude-code-remote-control]], [[claude-code-browser-automation]].
+
+**Raw clip:** [[Claude Code Just Got Another Huge Upgrade]]

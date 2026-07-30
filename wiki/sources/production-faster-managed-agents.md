@@ -50,3 +50,5 @@ config optimizations.
   [[mcp]] servers to Claude without the public internet.
 
 Companion workshop: [[ship-your-first-managed-agent]]. Hub: [[claude-managed-agents]].
+
+**Raw clip:** [[How to get to production faster with Claude Managed Agents]]

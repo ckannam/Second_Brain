@@ -15,3 +15,5 @@ created: 2026-07-24
 - Covers why workflows fail, more examples, and what happens if Claude Code **can't** fix it.
 
 Tools/entities: [[claude-code]], [[n8n]], [[mcp]]. Concept: [[self-healing-workflows]]. Related: [[is-n8n-dead]], [[n8n-vs-claude-code]].
+
+**Raw clip:** [[I Will Never Fix Another n8n Workflow (Claude Code)]]

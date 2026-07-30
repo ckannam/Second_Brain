@@ -16,3 +16,5 @@ their tools**, and **evaluate effectiveness**.
 
 A concrete build-with-Claude-Code case study touching [[multi-agent-orchestration]], tool
 design, and [[eval-driven-model-selection|evals]]. Related: [[omni]], [[vibecoding]].
+
+**Raw clip:** [[Building the best agentic analytics harness Powered by Claude, built with Claude Code]]

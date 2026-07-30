@@ -16,3 +16,5 @@ created: 2026-07-24
 - **Six-step skill-building framework**; live build; testing, debugging, and common fixes.
 
 Tools/entities: [[claude-code]], [[claude-code-skills]]. Related: [[claude-code-skills-update]] (Skill Creator + evals). Concept: [[skills-vs-subagents]].
+
+**Raw clip:** [[Master 95% of Claude Code Skills in 28 Minutes]]

@@ -17,3 +17,5 @@ created: 2026-07-24
 - Mindset shift + three psychological hurdles to overcome; then a repeatable loop.
 
 Tools/entities: [[christian]]. Concept: [[selling-ai-automations]], [[zero-risk-offer]]. Related: [[college-student-500k-cold-email]], [[500-ai-workflows-businesses-want]].
+
+**Raw clip:** [[How to Sign Your First AI Automation Client in 7 days (With Proof)]]

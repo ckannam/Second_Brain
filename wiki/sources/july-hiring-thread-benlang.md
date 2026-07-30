@@ -31,3 +31,5 @@ Don't blast. Pick a few in-lane names, find the founder/hiring manager, and send
 per the [[cold-email-job-search]] rules. Full 86-row list lives in the raw file; re-triage as needed.
 
 Related: [[cold-email-job-search]] · [[target-orgs]] · [[outreach-pipeline]] · [[Job Search]].
+
+**Raw clip:** [[Post by Ben Lang on LinkedIn]]

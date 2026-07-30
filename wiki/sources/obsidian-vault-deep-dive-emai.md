@@ -16,3 +16,5 @@ created: 2026-07-24
 - Stack mentioned: [[codex]], [[claude-code]], GitHub CLI, [[google-workspace-cli]], Superpowers, browser harness, FFmpeg, Supabase.
 
 Tools/entities: [[obsidian]], [[obsidian-dataview]], [[obsidian-web-viewer]]. Concepts: [[second-brain-system]], [[agentic-note-taking]].
+
+**Raw clip:** [[Obsidian Vault Deep Dive! Custom Plugins + Agentic Loops  My Full System]]

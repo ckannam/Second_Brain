@@ -15,3 +15,5 @@ created: 2026-07-24
 - Free downloadable skill wraps the workflow.
 
 Tools/entities: [[claude-code]], [[nano-banana-2]], [[google]]. Concepts: [[website-building-with-ai]], [[selling-ai-automations]]. Related: [[building-beautiful-websites-claude-code]], [[nano-banana-2-antigravity-json-prompting]].
+
+**Raw clip:** [[The NEW Nano Banana 2 + Claude Code = $10k Websites]]

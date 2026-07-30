@@ -33,3 +33,5 @@ Sits squarely on his **science ↔ capital** throughline (see the profile): neur
 This JHTV experience is also the **professional grounding for Cole's [[fulbright-us-student-program|Fulbright]] proposal** — his thesis on [[ai-lowering-entrepreneurship-barriers]] draws on watching how early ventures get funded and de-risked here, deliberately in place of his neuro/chem lab work.
 
 Related: [[JHTV]] (bucket) · [[Fulbright]] (bucket).
+
+**Raw source clips:** [[FastForward - Johns Hopkins Technology Ventures]] · [[Homepage - Johns Hopkins Technology Ventures]] · [[People - Johns Hopkins Technology Ventures]] · [[Translational Funding - Johns Hopkins Technology Ventures]]

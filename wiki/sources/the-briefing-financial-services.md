@@ -19,3 +19,5 @@ capitalist economies recreate jobs — but the pace is uncertain, so **prepare**
 fear. Concrete production example in the same vertical: [[signals-that-trade-themselves]]
 (Man Group) and [[financial-crime-claude-cowork]]. Companion event:
 [[the-briefing-ai-for-science]]. Related: [[anthropic]], [[man-group]].
+
+**Raw clip:** [[The Briefing Financial Services]]

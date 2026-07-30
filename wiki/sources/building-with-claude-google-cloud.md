@@ -15,3 +15,5 @@ the full software lifecycle**, using Claude and **[[google|Google Cloud]]** toge
 
 Shows Claude Code composing its power features into a real deploy on a major cloud. Related:
 [[google]], [[building-beautiful-websites-claude-code]], [[website-building-with-ai]].
+
+**Raw clip:** [[Building with Claude on Google Cloud]]

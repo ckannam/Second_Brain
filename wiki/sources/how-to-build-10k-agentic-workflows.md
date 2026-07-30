@@ -16,3 +16,5 @@ created: 2026-07-24
 - **How to sell it** — package the workflow as a deliverable.
 
 Tools/entities: [[claude-code]]. Concepts: [[agentic-workflows]], [[selling-ai-automations]], [[agentic-vs-deterministic]].
+
+**Raw clip:** [[How to Build $10,000 Agentic Workflows (Claude Code Tutorial)]]

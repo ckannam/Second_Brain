@@ -37,3 +37,5 @@ UI ↔ append-only **event log** (distributed state) ↔ Python service ↔ sand
 
 Related: [[html-over-markdown-specs]] (legible artifacts), [[multi-agent-orchestration]]
 (critique agents), [[agentic-workflows]].
+
+**Raw clip:** [[Making agentic workflows trustworthy and verifiable with a custom DSL]]

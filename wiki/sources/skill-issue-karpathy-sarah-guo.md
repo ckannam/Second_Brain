@@ -17,3 +17,5 @@ created: 2026-07-24
 - Also covers: model **speciation**, jobs-market data, open vs closed models, autonomous robotics, MicroGPT & agentic education.
 
 Tools/entities: [[andrej-karpathy]], [[sarah-guo]], [[openclaw]]. Concepts: [[autoresearch]], [[natural-language-coding]], [[model-speciation]].
+
+**Raw clip:** [[Skill Issue Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI]]

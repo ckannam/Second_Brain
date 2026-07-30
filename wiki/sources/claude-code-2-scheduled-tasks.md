@@ -18,3 +18,5 @@ created: 2026-07-24
 - Currently **desktop-app only** (cron metadata lives there); terminal/VS Code can edit but not create tasks.
 
 Tools/entities: [[claude-code]], [[anthropic]], [[claude-code-scheduled-tasks]], [[claude-code-hooks]]. Related: [[claude-code-loops]], [[ai-executive-assistant]].
+
+**Raw clip:** [[Claude Code 2.0 Is Finally Here]]

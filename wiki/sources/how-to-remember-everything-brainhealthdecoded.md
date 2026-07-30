@@ -33,3 +33,5 @@ Well-grounded and evidence-cited — the most rigorous of the three neuro source
 Distinct author/source from the two [[neuroplasticity-rewiring-brain-ixcarus|ixcarus]] pieces.
 
 Raw: `raw/Processed/How To Remember Everything You Learn.md`.
+
+**Raw clip:** [[How To Remember Everything You Learn]]

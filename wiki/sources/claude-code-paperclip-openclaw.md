@@ -16,3 +16,5 @@ created: 2026-07-24
 - OpenClaw ("Open Claude," by "Peter") is also praised by Karpathy for its memory system — see [[skill-issue-karpathy-sarah-guo]].
 
 Tools/entities: [[paperclip]], [[openclaw]], [[claude-code]]. Concept: [[ai-agent-company]], [[multi-agent-orchestration]].
+
+**Raw clip:** [[Claude Code + Paperclip Just Destroyed OpenClaw]]

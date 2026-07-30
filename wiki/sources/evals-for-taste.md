@@ -36,3 +36,5 @@ launch.
   re-scored cheaply.
 
 Related: [[prompt-engineering-playbook]], [[picking-the-right-model]], [[cost-per-successful-outcome]].
+
+**Raw clip:** [[Evals for taste Hill-climbing a slide-generation agent]]

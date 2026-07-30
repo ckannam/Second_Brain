@@ -37,3 +37,5 @@ contract** (e.g. XML tags, or for nested JSON) for format consistency — and re
 
 Companion talks: [[picking-the-right-model]], [[the-thinking-lever]]. Related:
 [[evals-for-taste]], [[json-prompting]].
+
+**Raw clip:** [[The prompting playbook]]

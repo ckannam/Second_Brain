@@ -15,3 +15,5 @@ created: 2026-07-24
 - **Security talk** at the end (important given Clawdbot's risk profile).
 
 Tools/entities: [[clawdbot]], [[vps]], [[hostinger]]. Related: [[100-hours-clawdbot-vs-claude-code]], [[easiest-way-host-claude-code-agents]].
+
+**Raw clip:** [[Set Up Clawdbot on a VPS in Minutes (no mac mini)]]

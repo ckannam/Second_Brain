@@ -15,3 +15,5 @@ created: 2026-07-24
 - Pair with deny-rules (e.g. block destructive bash `rm`/deletes) so autonomous agents can't go off the rails.
 
 Tools/entities: [[claude-code]], [[anthropic]], [[claude-code-permissions]].
+
+**Raw clip:** [[STOP Using Bypass Permissions, Use This New Feature Instead]]

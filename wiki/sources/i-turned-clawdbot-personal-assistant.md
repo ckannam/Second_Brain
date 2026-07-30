@@ -15,3 +15,5 @@ created: 2026-07-24
 - Clawdbot = a distinct third-party agent tool (vs Claude Code); see the head-to-head [[100-hours-clawdbot-vs-claude-code]].
 
 Tools/entities: [[clawdbot]], [[claude-code]]. Concept: [[ai-executive-assistant]], [[proactive-agents]].
+
+**Raw clip:** [[I Turned Clawdbot Into the Ultimate Personal Assistant]]
