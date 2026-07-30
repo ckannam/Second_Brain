@@ -232,6 +232,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[learning-by-connection]] — adults learn by connecting to prior knowledge (mirrors the LLM-wiki).
 - [[knowledge-types]] — skill vs concept vs fact each need a different study strategy.
 - [[conscious-vs-subconscious]] — tiny conscious mind (~7±2) riding a vast subconscious (~11M bits/s).
+- [[doorway-effect]] — walking through a doorway wipes working memory: the event-boundary mechanism (Radvansky), with honest replication caveats.
 - [[reticular-activating-system]] — the attention filter you program with conscious focus.
 - [[cognitive-biases]] — the subconscious's fast heuristics and their systematic errors.
 - [[spacing-effect]] — distributed practice beats massing (robust, domain-general; CREB/ERK; optimum is computable).
@@ -243,6 +244,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
 - [[neuro-character-rig]] — design: best way to build stick-figure animation automatically — image-per-scene (Nano Banana 2) or an articulated SVG rig Claude authors as code.
 - [[neuro-free-tool-stack]] — the $0 / no-new-subscription (Claude-only) tool stack + the review-before-post gate.
+- [[neuro-shorts-benchmark]] — what works in neuro/psych short-form: channels to model (Psych2Go, BrainCraft…), title patterns, data-backed hook/pacing rules.
+- [[neuro-scripts-batch-1]] — first 3 ready-to-produce scripts + storyboard JSON (doorway-effect / new-car / resolutions), for Cole's approval.
 
 ### Fulbright (application)
 - [[ai-lowering-entrepreneurship-barriers]] — the research thesis: AI lowers the capital/expertise/infrastructure barriers to founding a company.

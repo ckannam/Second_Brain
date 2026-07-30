@@ -73,6 +73,11 @@ Neuro. Every concept page below is a ready Short:
 Each ingest of a new neuro source (see the [[neuroscience-of-behavior]] hub) refills this bank —
 the same compounding loop as [[llm-wiki-pattern]], now feeding a channel.
 
+**First 3 scripts drafted (2026-07-29):** the top three rows above now have ready
+voice-ready scripts + storyboard JSON in **[[neuro-scripts-batch-1]]**, built on the
+short-form rules researched in **[[neuro-shorts-benchmark]]** (which channels to model, hooks,
+pacing, titles). Awaiting Cole's topic approval — recommend the doorway-effect one first.
+
 ## The app (channel × app) — Cole's larger vision
 The channel is top-of-funnel for a **learning app** that embodies the neuroscience it teaches.
 The thesis (worked out 2026-07-27, grounded in the spaced-learning ingest): **not "another Anki,"
