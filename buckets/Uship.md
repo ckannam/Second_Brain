@@ -27,7 +27,7 @@ Team (via `.uss@gmail.com` company addresses; full records local-only). Stakes i
 ## Action items
 - [x] Confirm each current teammate's specific role and enrich [[uship]]. (done 2026-07-27 — via Carson's page)
 - [x] Ingest a primary Uship source to document scope + scale. (done 2026-07-27 — [[carson-uship-vault-page]])
-- [ ] Reconcile teammate name spellings (Heiman / Seligson / Adams Agresti) — see [[tasks/index]]. (added 2026-07-27)
+- [x] Reconcile teammate name spellings (Heiman / Seligson / Adams Agresti) — see [[tasks/index]]. (added 2026-07-27)
 
 ## Sources
 - [[carson-uship-vault-page]] — Carson's insider (secondary) UShip page, 2026-07-27.
