@@ -87,7 +87,7 @@ magnesium** with it. That net loss drives the headache/fog side of a hangover.
 The liver runs ethanol through **alcohol dehydrogenase** → **acetaldehyde** (toxic) →
 **aldehyde dehydrogenase (ALDH2)** → **acetate** (harmless). Average clearance is **~1 standard
 drink/hour** (~7–10 g/hr; blood alcohol falls ~0.015%/hr).
-- **Why it's fixed:** alcohol follows **zero-order kinetics** — the enzyme saturates immediately,
+- **Why it's fixed:** alcohol follows **[[reaction-order-kinetics|zero-order kinetics]]** — the enzyme saturates immediately,
   so it clears a flat number of grams/hour regardless of how much is in you (unlike a normal
   drug half-life). *This is the biological reason you cannot speed it up.*
 - **Myths that do nothing to clearance:** coffee/caffeine (just masks sedation → "wide awake
