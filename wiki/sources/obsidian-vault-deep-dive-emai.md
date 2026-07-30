@@ -18,3 +18,5 @@ created: 2026-07-24
 Tools/entities: [[obsidian]], [[obsidian-dataview]], [[obsidian-web-viewer]]. Concepts: [[second-brain-system]], [[agentic-note-taking]].
 
 **Raw clip:** [[Obsidian Vault Deep Dive! Custom Plugins + Agentic Loops  My Full System]]
+
+**Raw clip (reclip):** [[Obsidian Vault Deep Dive! Custom Plugins + Agentic Loops  My Full System (reclip 2026-07-27)]]

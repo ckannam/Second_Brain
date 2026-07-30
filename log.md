@@ -783,3 +783,12 @@ Answered a synthesis question from the vault. Read [[cole|profile]], [[five-year
 not added to root index.md for the same reason). Core verdict: concentrate the spine (operator-first,
 health/bio/AI), reframe "guarantee" as antifragile compounding assets, work the [[outreach-pipeline]]
 weekly (not just build it), and close the knowing-doing gap on discipline (the YouTube/Shorts leak).
+
+## [2026-07-30] lint | Orphan sweep — reconnected all raw source nodes to the graph
+Went through the vault's orphans (notes with no real inbound links) and fixed the ones that shouldn't be orphans.
+- **Root cause found:** all **119 `raw/Processed/` source files floated as fully disconnected graph nodes** (e.g. "A full-length interview with Tucker Carlson The Economist"). Their `wiki/sources/` summaries existed but cited the raw file only as plain-text/backtick paths — never as `[[wikilinks]]` — so the graph never joined them (violating AGENTS.md "cite raw sources so the human can trace it back").
+- **Fixed:** added a `**Raw clip:** [[…]]` wikilink from each summary to its raw file (85 matched by URL, 7 by title). The remaining 27 disconnected raws (8 near-duplicate stickman reclips, 5 karpathy/autoresearch repo fragments, 4 JHTV website scrapes, singles) were linked to their nearest existing summary/entity/bucket. **Result: 0 disconnected raw nodes, 0 broken links.**
+- **Trivial strays:** deleted empty `Untitled.md`; linked orphaned `[[growth-plan]]` into the [[Job Search]] bucket.
+- **Confirmed correct-as-orphans (by design, left untouched):** ~360 `crm/` person files (catalog-linked contact DB via `crm/index.md`), 33 `startup-tracker/` notes (gitignored, Obsidian `.base` frontmatter dashboard — not wikilinks), 9 `docs/superpowers/` plans/specs, plus `AGENTS.md`/`CLAUDE.md`/`log.md`/`autoresearch/` infra.
+- **Weak-source weaving:** checked for near-leaf source summaries (≤1 real neighbor) — found none; every source already links ≥2 real pages, so no forced links added.
+- **Flag for Cole:** the 8 stickman-animation reclips + 5 karpathy repo fragments + 4 JHTV page scrapes are genuine near-duplicates now clustered on their summary pages — prune them if you want a cleaner graph (left in place; deleting source captures is your call).
