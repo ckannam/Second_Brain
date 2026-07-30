@@ -767,3 +767,11 @@ and added a Musk *convergent-superintelligence* counterpoint to [[model-speciati
 optional / abundance" theme linked to [[ai-lowering-entrepreneurship-barriers]] + Cole's freedom frame.
 Carlson kept standalone (geopolitics, off the main clusters). Freshness-flagged (predictions = snapshots).
 Sources moved to `raw/Processed/`.
+
+## [2026-07-30] ingest | The Culture series (Wikipedia) — Banks
+Ingested the Wikipedia clip on Iain M. Banks's *Culture* series (Cole clipped it after the Musk thread).
+Created source [[culture-series-wikipedia]] + entity [[the-culture]], and a new hub concept
+[[post-scarcity-and-meaning]] connecting **[[elon-musk-economist-2026|Musk's "work optional"]] ↔ the Culture
+↔ Cole's own meaning-crisis essay / "free + useful."** Enriched [[elon-musk]] (cites the Culture; SpaceX
+drone-ship names). Also taught Cole the series (what it is, why Musk/Bezos love it, where to start:
+Player of Games → Use of Weapons → Surface Detail). Source moved to `raw/Processed/`.

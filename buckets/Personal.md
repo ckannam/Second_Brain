@@ -23,10 +23,13 @@ Self, health, discipline, relationships, and the people CRM.
   his 2026-08-17 move. Editable source of truth: [[concert-taste]] (local-only, gitignored). Runs
   on the `concert-digest` skill; scaffolding in `~/.claude/concerts/`.
 
-## World & ideas (long-form interviews)
+## World & ideas (long-form interviews + reading)
 - Heavy, first-principles interviews Cole clips to think with — [[the-economist|Economist]] "Insider" series:
   [[elon-musk-economist-2026|Elon Musk]] (AI superintelligence in ~5 yrs, "work becomes optional," the China race)
   and [[tucker-carlson-economist-2026|Tucker Carlson]] (Iran war, Ukraine/Taiwan, power-sharing with China).
+- **Reading:** [[the-culture]] — Banks's post-scarcity AI utopia (Musk/Bezos's favorite future); the
+  [[post-scarcity-and-meaning|meaning-in-abundance]] theme ties straight to Cole's "free + useful." Start with
+  *The Player of Games*.
 
 ## People (crm/)
 - Building — see `crm/index.md`. Data sources to connect: Instagram, iMessage.

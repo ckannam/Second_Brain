@@ -30,5 +30,10 @@ Note: Musk is a **primary actor** in the AI race this vault otherwise tracks thr
 Claude model pages — useful as an outside-the-Anthropic-bubble read, and a contrast to [[model-speciation]]
 (he expects convergent superintelligence, not divergent niches).
 
+**Cultural touchstone:** Musk cites **[[the-culture|Banks's Culture]] series** as the best depiction of the
+future — an *optimistic* human-plus-superintelligence utopia — and named SpaceX drone ships after its
+sentient starships. It's the fictional endpoint of his "abundance / work-optional" thesis
+(→ [[post-scarcity-and-meaning]]).
+
 Related: [[elon-musk-economist-2026]] · [[the-economist]] · [[anthropic]] · [[fable-5]] · [[mythos]] ·
-[[ai-lowering-entrepreneurship-barriers]].
+[[ai-lowering-entrepreneurship-barriers]] · [[the-culture]] · [[post-scarcity-and-meaning]].
