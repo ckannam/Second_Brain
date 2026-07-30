@@ -645,3 +645,18 @@ secondary numbers in [[gpt-5-4]]. Phase 2: marked both @cloud verification items
 (MODE A): HEALTH_DEBT already 0 — no objective fix. Phase 4 (MODE B): created [[agent-security-risks]]
 concept (threat model + mitigations for running autonomous/always-on agents), wired into index,
 [[claude-code-permissions]], and [[openclaw]].
+
+## [2026-07-30] autoresearch night | branch autoresearch/night-2026-07-30
+Phase 0: selected 3 @cloud builds (skipped target-org map — deliverable `crm/target-orgs.md` is
+gitignored/local-only, can't persist from cloud). Phase 1 builds (web research): (1) **verified
+Fulbright award rates** — India ~46% and Brazil ~64% confirmed, **Indonesia corrected ~40%+ → ~24%**,
+added 2027–28 cycle + Indonesia language/award-count/timeline into [[fulbright-country-selection]];
+(2) **web-grounded [[optimizing-spaced-learning-smolen-2016]]** — added the 10/10/5/30-min enhanced
+protocol vs 20-min uniform, phospho-CREB1 result, Aplysia PKA+ERK mechanism, free arXiv full text,
+DOI fix; (3) **benchmarked neuroscience/psychology Shorts channels** → new [[neuro-channel-benchmarks]]
+(Psych2Go, 2-Minute Neuroscience, Neuro Transmissions, Sprouts) with hook/pacing/title patterns +
+Neuro's doodle wedge. Phase 2: 3 items → Done; target-org + draft-scripts got progress notes.
+Phase 3 (MODE A): HEALTH_DEBT 0 after build — no objective fix. Phase 4 (MODE B): created source
+[[enhancing-learning-rats-computational-protocol-2023]] — Smolen's computational-spacing result
+extended from sea slugs to a mammal (irregular schedule beat fixed spacing in rats), reciprocally
+linked. One morning PR (base main); not merged.
