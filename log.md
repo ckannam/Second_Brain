@@ -775,3 +775,11 @@ Created source [[culture-series-wikipedia]] + entity [[the-culture]], and a new 
 ↔ Cole's own meaning-crisis essay / "free + useful."** Enriched [[elon-musk]] (cites the Culture; SpaceX
 drone-ship names). Also taught Cole the series (what it is, why Musk/Bezos love it, where to start:
 Player of Games → Use of Weapons → Surface Detail). Source moved to `raw/Processed/`.
+
+## [2026-07-30] query | Who is Cole & how can he get better
+Answered a synthesis question from the vault. Read [[cole|profile]], [[five-year-plan]], the
+[[Job Search]] + [[Personal]] buckets, and the discipline/neuro clusters. Filed the answer to
+**local-only** `profile/growth-plan.md` (built from gitignored PII, so kept out of the synced wiki/;
+not added to root index.md for the same reason). Core verdict: concentrate the spine (operator-first,
+health/bio/AI), reframe "guarantee" as antifragile compounding assets, work the [[outreach-pipeline]]
+weekly (not just build it), and close the knowing-doing gap on discipline (the YouTube/Shorts leak).
