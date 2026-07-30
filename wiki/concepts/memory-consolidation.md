@@ -36,6 +36,9 @@ Learning has two stages: **consumption** (encoding new information) and **digest
 - **Space it out.** "20 minutes daily beats 2 hours on Saturday" — five sessions give the brain
   five nights of consolidation; one gives it one.
 - **Protect sleep** as part of any learning or habit project.
+- Sleep does double duty: deep NREM both consolidates learning *and* runs the
+  [[glymphatic-system|brain's waste-clearance drain]] — which is why [[alcohol-sleep-dementia|alcohol's]]
+  hit on deep sleep costs you memory *and* long-run brain health.
 
 Cross-domain echo: this is the human version of [[agent-dreaming]] / [[claude-code-memory|Auto
 Dream]] — an out-of-band replay pass that reorganizes memory off the hot path. Pairs with

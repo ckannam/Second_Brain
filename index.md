@@ -244,6 +244,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[productive-discomfort]] — plasticity needs challenge (norepinephrine/acetylcholine); train at the edge.
 - [[hebbian-learning]] — neurons that fire together wire together; attention is the selector.
 - [[memory-consolidation]] — consumption vs digestion; learning locks in during sleep/rest.
+- [[glymphatic-system]] — the brain's overnight waste-clearance drain; deep NREM flushes amyloid-β/tau (Xie 2013; Nedergaard).
+- [[alcohol-sleep-dementia]] — how alcohol degrades deep sleep + astrocyte plumbing (AQP4), and what the dementia epidemiology really shows.
 - [[learning-by-connection]] — adults learn by connecting to prior knowledge (mirrors the LLM-wiki).
 - [[knowledge-types]] — skill vs concept vs fact each need a different study strategy.
 - [[conscious-vs-subconscious]] — tiny conscious mind (~7±2) riding a vast subconscious (~11M bits/s).

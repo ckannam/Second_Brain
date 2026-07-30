@@ -38,7 +38,8 @@ The channel's topics come from this vault's **[[neuroscience-of-behavior]]** clu
 concept page is a candidate Short. Ingesting a new neuro source refills the bank:
 [[neuroplasticity]], [[predictive-processing]], [[productive-discomfort]], [[hebbian-learning]],
 [[memory-consolidation]], [[learning-by-connection]], [[knowledge-types]],
-[[conscious-vs-subconscious]], [[reticular-activating-system]], [[cognitive-biases]].
+[[conscious-vs-subconscious]], [[reticular-activating-system]], [[cognitive-biases]],
+[[glymphatic-system]], [[alcohol-sleep-dementia]].
 
 ## Action items
 - Open items live under a **Neuro** section of [[tasks/index]] when captured.
