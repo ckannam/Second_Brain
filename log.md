@@ -833,3 +833,6 @@ Researched Code the Dream (Durham) for a pre-application [[claude-corps]] touch.
 **Phase 3 write-back:** Added ⏳ progress notes to Agent max + Token max in [[tasks/index]]. No build-introduced debt.
 
 **Phase 4 MODE B:** Enriched [[agent-hub]] entity page — design philosophy, DAG model, vault-relevance table, and evaluation of when/whether to adopt for this vault.
+
+## [2026-07-31] crm/outreach | Fulbright host outreach — CIIE.CO email bounced
+`info@ciie.co` (host #3, IIMA Ahmedabad incubator) **BOUNCED**. The `@ciie.co` domain is stale — the org rebranded **CIIE.CO → IIMA Ventures**. Found + verified the live replacement on their own contact page (ahmedabad.iimaventures.com/contact-us): **`venturesfrontdesk@iima.ac.in`** (Tel +91 79 71524201; backup support form go.iimaventures.com/WebsiteForm). Updated [[fulbright/outreach]] (host #3 → RESEND, address-status table) and filed a resend task in [[tasks/index]]. Same #3 email body — just swap the address. cc: `ciie@iimahd.ernet.in` is a legacy ernet.in address, not used.
