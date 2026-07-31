@@ -2,8 +2,8 @@
 
 Maker of [[claude-code]] and the Claude model family. Sources in this vault track a rapid cadence of Claude Code releases (July 2026): scheduled tasks, loops, Memory 2.0 / Auto Dream, updated Skills, Auto Mode permissions, Computer Use, Remote Control, and the iMessage channel. Presenters repeatedly note Anthropic is "shipping like crazy."
 
-Models referenced: [[opus-4-6]] (benchmarked vs GPT 5.4 in [[codex-plugin-for-claude-code]]);
-[[opus-4-7]] and [[opus-4-5]] appear across the July 2026 **Code with Claude** talks; later flagship
+Models referenced _(point-in-time snapshot, July 2026 — model lineup shifts quickly; see individual pages)_: [[opus-4-6]] (benchmarked vs GPT 5.4 in [[codex-plugin-for-claude-code]]);
+[[opus-4-7]] and [[opus-4-5]] appear across the July 2026 **Code with Claude** talks; then-flagship
 [[opus-4-8]], plus the [[mythos]] → [[fable-5|Fable]] line.
 
 **Outside read (2026-07-30):** [[elon-musk|Elon Musk]], in the [[elon-musk-economist-2026|Economist
