@@ -18,7 +18,7 @@ Map of Content for Cole's **[[fulbright-us-student-program|Fulbright U.S. Studen
 - [[jhtv|JHTV]] / [[JHTV]] bucket — the professional background the proposal draws on ([[translational-funding]], [[capital-strategy]]).
 - [[Duke]] — affiliated institution + campus endorsement process.
 - [[Job Search]] — this is a post-graduation path decision.
-- [[uship]] — Cole's own founder experience, relevant lived credibility for the thesis.
+- [[uship]] — Cole's own venture-operating experience (co-owner, not founder), relevant lived credibility for the thesis.
 
 ## Key dates
 - **Aug 21, 2026 (noon ET)** — Duke campus deadline (lock / "Ready for Review").

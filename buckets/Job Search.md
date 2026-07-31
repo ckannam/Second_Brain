@@ -45,7 +45,7 @@ cold** · **Tier 2 roster cold**.
 - [ ] **Tuesday:** the [[stewart-1on1-prep|Stewart 1:1]] — present the plan; ask for a concrete path + 2–3 intros; drop them into [[outreach-pipeline]] Lane 0. (added 2026-07-25)
 - [ ] Build a **target list** of NYC health/bio/AI **startups + venture funds** → feeds Tier 2 of the [[outreach-pipeline]]. *(engine seeded 2026-07-27)* (added 2026-07-25)
 - [ ] Run the **two-track recruit** (operator + VC) for 2027. (added 2026-07-25)
-- [ ] Hand off [[uship]] cleanly to preserve it as a founder credential. (added 2026-07-25)
+- [ ] Hand off [[uship]] cleanly to preserve it as a co-owner / operator credential. (added 2026-07-25)
 
 *Buckets are a link overlay; the private strategy pages live in `profile/` (local-only).*
 
