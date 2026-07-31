@@ -18,7 +18,7 @@ wiki *working*) and **AutoResearch** (make it *better*) under one machinery.
 | `train.py` (the one editable surface) | the wiki pages themselves |
 | `val_bpb` (the metric) | **HEALTH_DEBT** = 3·orphans + 2·missing-from-index + 1·stale-claims |
 | `program.md` (loop brain) | `autoresearch/program.md` + the `vault-autoresearch` skill |
-| git reset (the ratchet) | this vault is now a git repo; keep on improvement, revert otherwise |
+| git reset (the ratchet) | this vault is now a git repo; keep on improvement, revert otherwise. Note the contrast with Karpathy's [[agent-hub]], which *drops* main/merge for a branch-less DAG — this loop instead depends on a linear `main` + a metric-gated collapse as its ratchet |
 | overnight cron | [[claude-code-scheduled-tasks]] or GitHub Actions |
 
 ## Why the metric is deliberately narrow
