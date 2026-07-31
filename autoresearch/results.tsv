@@ -14,3 +14,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-07-30T02:35	B	wiki/sources/enhancing-learning-rats-computational-protocol-2023.md	0	0	keep	Smolen computational-spacing result extended to a mammal; reciprocal links from Smolen/spacing-effect + index + Neuro bucket
 2026-07-31T02:30	A	index.md	3	1	keep	added [[codepath]] to index.md entities catalog (was missing_from_index)
 2026-07-31T02:31	A	wiki/entities/anthropic.md	1	0	keep	marked opus-4-5/4-6/4-7 superseded by 4-8 (point-in-time snapshot); cleared stale_claim
+2026-07-31T02:35	B	wiki/concepts/test-driven-development.md	0	0	keep	new concept page: TDD reframed for AI-native/agentic eng (test as fake-proof spec); grounded in running-ai-native + ai-native-engineering-org, cross-linked to adversarial-code-review/eval-driven-model-selection/vault-autoresearch; indexed
