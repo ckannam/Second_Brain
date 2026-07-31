@@ -816,3 +816,20 @@ Ingested the Claude Corps announcement. Anthropic + [[codepath]] (employer of re
 
 ## [2026-07-30] crm | Code the Dream (Claude Corps host) — value-first outreach drafted
 Researched Code the Dream (Durham) for a pre-application [[claude-corps]] touch. Co-EDs: **Daisy Magnus-Aryitey** + Daniel Rearick. Created [[Daisy Magnus-Aryitey]] CRM record with a value-first, no-ask draft (Claude Corps deliberately kept out of the first email); added to crm/index + [[outreach-pipeline]] Tier 1; updated [[claude-corps-application]]. Next: confirm her direct email, then send.
+
+## [2026-07-31] autoresearch | Nightly run — 2 heals on vault-state, 2 builds + 1 MODE B on night branch
+**Git note:** Vault backup hooks had committed 75 commits to a detached HEAD (not on any branch); `origin/main` was stale at the 2026-07-24 JHTV fill. Tonight rescued those commits as `vault-state-2026-07-31` branch. Phase-1 heals committed there; Phase 2–4 on `autoresearch/night-2026-07-31`. Morning PR covers recovery + build.
+
+**Phase 0 baseline:** HEALTH_DEBT=3 — `wiki/entities/codepath.md` (missing_from_index ×2) + `wiki/entities/anthropic.md` (stale_claim ×1).
+
+**Phase 1 heals (vault-state branch):**
+1. `codepath.md` → added to `index.md` catalog. Debt 3→1.
+2. `anthropic.md` → added "point-in-time snapshot" label; changed "later flagship" → "then-flagship". Debt 1→0.
+
+**Phase 2 build:**
+- **Agent max:** Created [[claude-code-agent-teams]] concept page (peer vs sub-agent distinction, decision guide, tmux observability, orchestration spectrum). Enriched [[claude-code-subagents]] stub. Fills a dangling wikilink from 5+ pages.
+- **Token max:** Created [[token-context-management]] concept page (CLAUDE.md sizing, compaction, PreCompact/PostCompact hooks, sub-agent isolation, CMA absorption). Added to index + Claude Mastery bucket; reciprocal link from [[claude-code-memory]].
+
+**Phase 3 write-back:** Added ⏳ progress notes to Agent max + Token max in [[tasks/index]]. No build-introduced debt.
+
+**Phase 4 MODE B:** Enriched [[agent-hub]] entity page — design philosophy, DAG model, vault-relevance table, and evaluation of when/whether to adopt for this vault.
