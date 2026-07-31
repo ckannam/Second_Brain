@@ -45,4 +45,5 @@ aspirational/experimental.
 
 Related: [[claude-code]], [[ai-executive-assistant]], [[llm-wiki-pattern]] (this vault's own
 memory design echoes the "index, not a dump" idea). Platform-level analogue: [[agent-memory]]
-and [[agent-dreaming]] (Code with Claude batch).
+and [[agent-dreaming]] (Code with Claude batch). For broader context hygiene (compaction,
+sub-agent isolation, CLAUDE.md sizing): [[token-context-management]].

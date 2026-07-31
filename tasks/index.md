@@ -72,8 +72,10 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] @cloud **Train skills** — build & optimize skills with the Skill Creator + evals workflow, for both vault upkeep and faster building. [[claude-code-skills]] [[claude-code-skills-update]] (added 2026-07-24)
 - [ ] @cloud **Prompt max** — master prompt quality (structured prompts, clarifying-question prompting) as a reusable skill. ✅ **Shipped 3 prompt-architect skills 2026-07-26** (`claude-chat-prompt` / `claude-cowork-prompt` / `claude-code-prompt`); keep refining/eval-testing them. [[prompt-engineering-playbook]] [[the-prompting-playbook]] [[master-claude-code-36min-beginner]] [[json-prompting]] (added 2026-07-24)
 - [ ] @cloud **Token max** — build a token/context-management skill & mastery (efficient context use, compaction, memory). [[claude-code-memory]] (added 2026-07-24)
+  ⏳ progress 2026-07-31: created [[token-context-management]] concept page (CLAUDE.md sizing, auto-compaction, PreCompact/PostCompact hooks, sub-agent isolation, CMA absorption); remaining: build an actual skill or deeper evals for token efficiency.
 - [ ] @cloud **Skill max** — master reliable skill creation + trigger tuning. [[master-claude-code-skills-28min]] [[claude-code-skills]] (added 2026-07-24)
 - [ ] @cloud **Agent max** — master agent orchestration: sub-agents + agent teams. [[claude-code-subagents]] [[claude-code-agent-teams]] (added 2026-07-24)
+  ⏳ progress 2026-07-31: created [[claude-code-agent-teams]] concept page (peer vs sub-agent distinction, decision guide, observability, spectrum); enriched [[claude-code-subagents]] stub; remaining: deeper evals or a skill scaffold for orchestrating teams.
 - [ ] @cloud **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
 
 ### Personal bucket — finance
