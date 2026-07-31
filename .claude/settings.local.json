@@ -124,7 +124,9 @@
       "Bash(git rev-list *)",
       "Bash(awk '/^## \\\\[2026-07-31\\\\]/{p=1} p' log.md)",
       "Bash(security add-generic-password *)",
-      "Bash(security find-generic-password *)"
+      "Bash(security find-generic-password *)",
+      "WebFetch(domain:iimaventures.com)",
+      "WebFetch(domain:ahmedabad.iimaventures.com)"
     ]
   },
   "hooks": {
