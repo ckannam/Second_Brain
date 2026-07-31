@@ -825,3 +825,8 @@ Phase-1 build for the AutoResearch task "Watch [[agent-hub]] — evaluate whethe
 
 ## [2026-07-31] tasks | Write-back — Agent Hub relevance eval done
 Flipped "Watch [[agent-hub]] — evaluate relevance" to done and moved it to the Done section (per AGENTS.md Action Items). No partial items to progress-note this night.
+
+## [2026-07-31] autoresearch self-heal (MODE A) | Drove HEALTH_DEBT 3 → 0
+Two pre-existing objective defects fixed on the night branch (ride the morning PR):
+- **missing_from_index → 0:** added [[codepath]] to `index.md`'s entities catalog (page created 2026-07-30 during the Claude Corps ingest, never catalogued). Debt 3 → 1.
+- **stale_claim → 0:** [[anthropic]] listed [[opus-4-7]]/[[opus-4-5]] on a "flagship" line with no freshness marker. Reframed the Opus line as a point-in-time snapshot (4-5 → 4-6 → 4-7 **superseded by [[opus-4-8]]** as current flagship) — honest per AGENTS.md's freshness rule, not a silent rewrite. Debt 1 → 0.

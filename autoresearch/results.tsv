@@ -13,3 +13,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-07-30T02:30	A	—	0	0	skip	HEALTH_DEBT already 0 after Phase 1 build (new [[neuro-channel-benchmarks]] indexed+linked); no objective MODE A fix needed
 2026-07-30T02:35	B	wiki/sources/enhancing-learning-rats-computational-protocol-2023.md	0	0	keep	Smolen computational-spacing result extended to a mammal; reciprocal links from Smolen/spacing-effect + index + Neuro bucket
 2026-07-31T02:30	A	index.md	3	1	keep	added [[codepath]] to index.md entities catalog (was missing_from_index)
+2026-07-31T02:31	A	wiki/entities/anthropic.md	1	0	keep	marked opus-4-5/4-6/4-7 superseded by 4-8 (point-in-time snapshot); cleared stale_claim
