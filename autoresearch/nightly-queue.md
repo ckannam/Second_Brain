@@ -9,51 +9,41 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 2**.
 
-## Night of 2026-07-30
+## Night of 2026-07-31
+
+**Baseline:** `score.py` HEALTH_DEBT = **3** (missing_from_index: `wiki/entities/codepath.md`;
+stale_claim: `wiki/entities/anthropic.md`). Both pre-existing → healed in Phase 3 on the branch.
 
 ### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
-All three touch only the synced vault + web, need no local data, take no outward/irreversible
-action, and land on git-tracked pages (so the morning PR can carry them).
+Touches only the synced vault + web, needs no local data, takes no outward/irreversible action,
+lands on a git-tracked page (so the morning PR carries it).
 
-- [x] **Verify current-cycle Fulbright award rates + requirements** (India / Brazil / Indonesia)
-      against official IIE/Fulbright country pages → enrich [[fulbright-country-selection]]. Cole's
-      numbers (~46% / ~64% / ~40%+) are from prior research and flagged "confirm before committing";
-      this unblocks the @human country-commit decision.
-- [x] **Web-ground the Smolen 2016 spaced-learning review** → enrich
-      [[optimizing-spaced-learning-smolen-2016]]. The page was previously reconstructed from LLM
-      knowledge of the review (raw clip is truncated); fetch the actual published review / an
-      open-access copy to verify the key claims and add precise, citable specifics.
-- [x] **Benchmark 5–10 successful neuroscience/psychology Shorts channels** (hooks, pacing, title
-      patterns, positioning) → new notes page filed into the [[Neuro]] bucket. Informs the channel's
-      format before scripts are drafted.
+- [x] **Watch [[agent-hub]] — evaluate whether it's relevant to this vault's multi-agent
+      direction** (@cloud). Bounded research + eval on an existing page (enrich, no new page).
+      Web-ground [[agent-hub]] against its current README/coverage (architecture, status) and
+      write an explicit "relevance to this vault" assessment, advancing the AutoResearch task.
+      [[extending-the-llm-wiki]] [[multi-agent-orchestration]].
 
 ### Considered but skipped this night (with reason)
-- **Build the target-org map → `crm/target-orgs.md`** (@cloud): the named deliverable lives in
-  `crm/`, which is **gitignored / local-only** — a cloud run cannot persist a `crm/` file into the
-  morning PR, and the "map known contacts→orgs" half is `@local` (needs CRM data invisible to the
-  cloud). Skipped + flagged: either re-home the org map to a synced `wiki/` page or run it on the
-  @local lane. Left for Cole to decide the destination.
-- **Draft script + storyboard JSON for the top 3 Neuro topics** (@cloud): valid and cloud-doable, but
-  bounded out tonight — sequenced *after* the channel benchmark (this night) so scripts inherit the
-  proven hook/pacing patterns. Next build night.
-- **Claude Mastery — Train / Token / Skill / Agent max, Improve+general skills** (@cloud): each is a
-  large, open-ended "master/build a skill" undertaking, not a bounded one-night task. Dedicated build
-  night (same call as prior nights).
-- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change to `program.md`
-  behavior; too structural for the ≤3 bound.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise and touches the
-  ratchet; skipped to avoid destabilizing the evaluator unattended.
-- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented GPU
-  (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe.
-- **Watch [[agent-hub]]** (@cloud): open-ended monitoring, no bounded deliverable tonight.
-- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly optional,
-  lowest priority; deferred behind the three wins above.
+- **Claude Mastery — Train / Prompt / Token / Skill / Agent max, Improve+general skills**
+  (@cloud): each is a large, open-ended "master/build a skill" undertaking, not a bounded
+  one-night task. Dedicated build night (same call as prior nights).
+- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change to
+  `program.md` behavior; too structural for the ≤3 bound.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise and
+  touches the ratchet; skipped to avoid destabilizing the evaluator unattended.
+- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented
+  GPU (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe.
+- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly
+  optional, lowest priority; deferred behind the agent-hub win and to keep the build bounded/atomic.
 
 ### Not eligible here (for reference — @local or @human)
 - CRM enrichment from message content; Gmail pass 2; ingest IG/YouTube exports; extend the @local
-  lane; DIY Plaid export; v1 Neuro pipeline build; Learning-Triage skill spec → **@local** (need
-  Cole's Mac / local data).
-- Fulbright written materials, recommenders, host-outreach sends, country commit, transcripts; all
-  finance decisions (Freedom Number, Roth, HYSA, VXUS); Uship responder/name-spellings/founding-date;
-  Neuro API key + channel/account creation + uploads; password holder; Journal-pillar decision;
-  Spotify concert alerts; populate Duke people → **@human** (decision / outward / irreversible).
+  lane; DIY Plaid export; v1 Neuro pipeline build; Learning-Triage skill spec; reply-rate scoreboard
+  → **@local** (need Cole's Mac / local data).
+- All Fulbright written materials, recommenders, host-outreach follow-up, country commit,
+  transcripts; every finance decision (Freedom Number, Roth, HYSA, VXUS); Uship responder /
+  name-spellings / founding-date / equity; every Neuro API-key / channel / account / upload step;
+  Claude Corps decisions, application, Skilljar modules, Code-the-Dream send, résumé line, CodePath
+  channel; password holder; IG export; Journal-pillar decision; Spotify concert alerts; populate
+  Duke people → **@human** (decision / outward / irreversible).
