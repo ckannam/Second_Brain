@@ -120,7 +120,9 @@
       "WebFetch(domain:lpik.itb.ac.id)",
       "WebFetch(domain:www.itb.ac.id)",
       "Bash(tail -n 25 \"buckets/Personal.md\")",
-      "Bash(tail -n 20 \"buckets/Claude Mastery.md\")"
+      "Bash(tail -n 20 \"buckets/Claude Mastery.md\")",
+      "Bash(git rev-list *)",
+      "Bash(awk '/^## \\\\[2026-07-31\\\\]/{p=1} p' log.md)"
     ]
   },
   "hooks": {
