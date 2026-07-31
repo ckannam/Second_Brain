@@ -95,6 +95,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code]] — Anthropic's agentic coding tool; the central subject of this vault.
 - [[anthropic]] — maker of Claude Code; shipping features at a rapid cadence.
 - [[claude-corps]] — Anthropic's paid 12-mo AI fellowship at US nonprofits ($85k); best-fit cohort for Cole = **Aug 2027**. See [[Job Search]].
+- [[codepath]] — America's largest collegiate CS-education nonprofit; Anthropic partner + employer of record for [[claude-corps]] fellows; potential warm channel into Corps (check for Duke chapter).
 - [[obsidian]] — markdown front end / reading layer for the wiki.
 - [[obsidian-web-clipper]] — browser extension that clips web pages / YouTube transcripts into `raw/`.
 - [[codex]] — OpenAI coding agent; now also a plugin for Claude Code.
@@ -177,6 +178,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Claude Code capabilities
 - [[claude-code-scheduled-tasks]] — cron-triggered autonomous agentic sessions.
 - [[claude-code-memory]] — auto-memory + experimental "Auto Dream" consolidation.
+- [[token-context-management]] — strategies for context hygiene, compaction, sub-agent isolation, and CLAUDE.md sizing.
 - [[claude-code-skills]] — reusable skills; Skill Creator, evals, trigger tuning.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).

@@ -6,54 +6,53 @@ doable unattended (Doability rubric — tag wins → infer → skip-if-unsure), 
 here as the night's worklist, with one line on why each skipped item was skipped. It is a
 **transparency record**, not an input.
 
-The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
-writes results back to `tasks/index.md` in **Phase 2**.
+The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
+writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-07-30
+## Night of 2026-07-31
+
+### Git state note
+Vault backup hooks committed 75 commits on a detached HEAD, leaving `origin/main` stale at
+the 2026-07-24 JHTV fill. Tonight rescued those commits as `vault-state-2026-07-31` and is
+working from that base. Phase-1 heals commit to `vault-state-2026-07-31`; the morning PR
+covers the full state recovery + build.
+
+### Baseline (Phase 0)
+- **HEALTH_DEBT = 3** (missing_from_index: `wiki/entities/codepath.md` ×2, stale_claim: `wiki/entities/anthropic.md` ×1)
+- Pre-existing defect set: the two items above.
 
 ### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
-All three touch only the synced vault + web, need no local data, take no outward/irreversible
-action, and land on git-tracked pages (so the morning PR can carry them).
 
-- [x] **Verify current-cycle Fulbright award rates + requirements** (India / Brazil / Indonesia)
-      against official IIE/Fulbright country pages → enrich [[fulbright-country-selection]]. Cole's
-      numbers (~46% / ~64% / ~40%+) are from prior research and flagged "confirm before committing";
-      this unblocks the @human country-commit decision.
-- [x] **Web-ground the Smolen 2016 spaced-learning review** → enrich
-      [[optimizing-spaced-learning-smolen-2016]]. The page was previously reconstructed from LLM
-      knowledge of the review (raw clip is truncated); fetch the actual published review / an
-      open-access copy to verify the key claims and add precise, citable specifics.
-- [x] **Benchmark 5–10 successful neuroscience/psychology Shorts channels** (hooks, pacing, title
-      patterns, positioning) → new notes page filed into the [[Neuro]] bucket. Informs the channel's
-      format before scripts are drafted.
+1. **Agent max** → bounded deliverable: create `wiki/concepts/claude-code-agent-teams.md`
+   (fills a dangling wikilink from `claude-code-subagents.md` and `skills-vs-subagents.md`)
+   + enrich the stub `wiki/concepts/claude-code-subagents.md`. All wiki-internal, web-aided,
+   no local data. Explicit `@cloud` tag → auto-cleared for unattended build.
+
+2. **Token max** → bounded deliverable: create `wiki/concepts/token-context-management.md`
+   (concept page on efficient context use, compaction, and memory in Claude Code). Linked to
+   existing `[[claude-code-memory]]`. Web-aided synthesis, no local data.
 
 ### Considered but skipped this night (with reason)
-- **Build the target-org map → `crm/target-orgs.md`** (@cloud): the named deliverable lives in
-  `crm/`, which is **gitignored / local-only** — a cloud run cannot persist a `crm/` file into the
-  morning PR, and the "map known contacts→orgs" half is `@local` (needs CRM data invisible to the
-  cloud). Skipped + flagged: either re-home the org map to a synced `wiki/` page or run it on the
-  @local lane. Left for Cole to decide the destination.
-- **Draft script + storyboard JSON for the top 3 Neuro topics** (@cloud): valid and cloud-doable, but
-  bounded out tonight — sequenced *after* the channel benchmark (this night) so scripts inherit the
-  proven hook/pacing patterns. Next build night.
-- **Claude Mastery — Train / Token / Skill / Agent max, Improve+general skills** (@cloud): each is a
-  large, open-ended "master/build a skill" undertaking, not a bounded one-night task. Dedicated build
-  night (same call as prior nights).
-- **Build the source-seeking (MODE B) rung** (@cloud): a loop-architecture change to `program.md`
-  behavior; too structural for the ≤3 bound.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): needs judgment on scoring noise and touches the
-  ratchet; skipped to avoid destabilizing the evaluator unattended.
-- **Try an autoresearch loop hands-on** (@cloud): requires cloning an external repo + a rented GPU
-  (Colab/Lambda/RunPod) → outward action / external services. Not cloud-safe.
-- **Watch [[agent-hub]]** (@cloud): open-ended monitoring, no bounded deliverable tonight.
-- **(Optional) deeper notes on build-sell-claude-code-course chapters** (@cloud): explicitly optional,
-  lowest priority; deferred behind the three wins above.
+- **Train skills** (@cloud): "build & optimize skills with the Skill Creator + evals" is
+  open-ended with no concrete deliverable tonight; no single bounded artifact to ship.
+  Deferred to a night with explicit scope.
+- **Prompt max** (@cloud): 3 skills already shipped (2026-07-26); "refining/eval-testing"
+  is interactive, not unattended. Deferred.
+- **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — same pattern as
+  train/prompt max; no bounded one-night deliverable. Deferred.
+- **Improve + general skills** (@cloud): open-ended; no bounded deliverable. Deferred.
+- **Build the source-seeking (MODE B) rung** (@cloud): loop-architecture change to
+  `program.md`; too structural for an unattended night.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
+  judgment + human sign-off on what to score.
+- **Try autoresearch loop hands-on** (@cloud): needs external GPU (Colab/RunPod) → outward
+  action outside the vault.
+- **Watch [[agent-hub]]** (@cloud): no bounded deliverable; monitoring task. Folded into
+  Phase 4 (MODE B) as the generative enrichment proposal instead.
+- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
+  deferred behind higher-value items.
 
 ### Not eligible here (for reference — @local or @human)
-- CRM enrichment from message content; Gmail pass 2; ingest IG/YouTube exports; extend the @local
-  lane; DIY Plaid export; v1 Neuro pipeline build; Learning-Triage skill spec → **@local** (need
-  Cole's Mac / local data).
-- Fulbright written materials, recommenders, host-outreach sends, country commit, transcripts; all
-  finance decisions (Freedom Number, Roth, HYSA, VXUS); Uship responder/name-spellings/founding-date;
-  Neuro API key + channel/account creation + uploads; password holder; Journal-pillar decision;
-  Spotify concert alerts; populate Duke people → **@human** (decision / outward / irreversible).
+All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
+(CRM enrichment, Gmail pass 2, IG/YouTube exports, Fulbright writes, finance decisions,
+Neuro pipeline/channel setup, Uship, etc.).

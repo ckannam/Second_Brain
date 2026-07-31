@@ -11,7 +11,7 @@ Skill mastery tracks: **prompt max · token max · skill max · agent max** (+ t
 ## Knowledge (wiki)
 - Core: [[claude-code]], [[anthropic]], [[agentic-workflows]], [[agentic-vs-deterministic]].
 - Skills & agents: [[claude-code-skills]], [[master-claude-code-skills-28min]], [[master-claude-code-36min-beginner]], [[claude-code-subagents]], [[claude-code-agent-teams]], [[skills-vs-subagents]], [[parallel-agents]].
-- Memory & autonomy: [[claude-code-memory]], [[claude-code-scheduled-tasks]], [[claude-code-permissions]], [[claude-code-hooks]].
+- Memory & autonomy: [[claude-code-memory]], [[token-context-management]], [[claude-code-scheduled-tasks]], [[claude-code-permissions]], [[claude-code-hooks]].
 - Vault meta: [[llm-wiki-pattern]], [[second-brain-system]], [[ai-second-brain-levels]], [[extending-the-llm-wiki]], [[overview]].
 - Self-improving loops: [[autoresearch]] ([[andrej-karpathy]]), [[agent-hub]], [[nanochat]], [[self-healing-workflows]] — the frontier rung of [[agentic-workflows]] (sources [[autoresearch-repo]], [[autoresearch-tutorial-david-andre]], [[claude-code-karpathy-autoresearch-nick-saraev]], [[autoresearch-broke-internet-greg-isenberg]]).
 - Built here (skills, in `.claude/skills/`): [[vault-autoresearch]] · **`wiki-query`** (answer from the vault, file back) · **prompt architects — `claude-chat-prompt` · `claude-cowork-prompt` · `claude-code-prompt`** (understand a task → craft the optimal prompt for each arm of Claude, tailored to Cole's profile). *(= the "prompt max" track.)*
