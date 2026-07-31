@@ -51,8 +51,8 @@ cdk35@duke.edu
 >
 > I work at Johns Hopkins Technology Ventures on the VC / translational-funding team and co-founded a student venture, so I approach this from a hands-on funding perspective. Might you have 20 minutes for a call? I'm happy to share a short proposal and CV.
 
-## 3. CIIE.CO / IIMA Ventures — IIM Ahmedabad incubator *(ecosystem)* ✅
-**To:** info@ciie.co
+## 3. CIIE.CO / IIMA Ventures — IIM Ahmedabad incubator *(ecosystem)* ✅ RESENT 2026-07-31
+**To:** `venturesfrontdesk@iima.ac.in` ✅ **resent 2026-07-31.** ~~`info@ciie.co`~~ **BOUNCED 2026-07-31** (the `@ciie.co` domain is stale; the org rebranded CIIE.CO → **IIMA Ventures** on the live `@iima.ac.in` domain). Verified on their own contact page (ahmedabad.iimaventures.com/contact-us) · Tel +91 79 71524201 · backup: support form at go.iimaventures.com/WebsiteForm.
 **Why:** IIMA's incubator/accelerator; runs the **Bharat Inclusion Initiative** (inclusive entrepreneurship) — a near-perfect match for "founding where it wasn't previously possible."
 **Subject:** Fulbright researcher seeking to study inclusive, AI-enabled entrepreneurship with IIMA Ventures
 
@@ -162,7 +162,10 @@ cdk35@duke.edu
 
 ## Address status (verified 2026-07-27; gaps closed 2026-07-30)
 **Confirmed ✅ — send directly:**
-- Setia `pankajsetia@iima.ac.in` (cc `swanandd@iima.ac.in`) · CIIE.CO `info@ciie.co` · Geber Ramalho `glr@cin.ufpe.br` · Porto Digital `portodigital@portodigital.org` · IIE-EAP `FBstudent.EAP@iie.org` · AMINEF `infofulbright_usa@aminef.or.id` · Prasetiya Mulya `info@prasetiyamulya.ac.id`
+- Setia `pankajsetia@iima.ac.in` (cc `swanandd@iima.ac.in`) · Geber Ramalho `glr@cin.ufpe.br` · Porto Digital `portodigital@portodigital.org` · IIE-EAP `FBstudent.EAP@iie.org` · AMINEF `infofulbright_usa@aminef.or.id` · Prasetiya Mulya `info@prasetiyamulya.ac.id`
+
+**Bounced ✗ — needs resend:**
+- [ ] CIIE.CO `info@ciie.co` **BOUNCED 2026-07-31** → resend to **`venturesfrontdesk@iima.ac.in`** (IIMA Ventures front desk, verified on ahmedabad.iimaventures.com/contact-us; org rebranded CIIE.CO → IIMA Ventures). Same #3 email body — just swap the address.
 
 **Former "no email" — now emailable ✅ (found 2026-07-30):**
 - [x] ISB / Deepa Mani → `deepa_mani@isb.edu` — **verified**, published on ISB's own site (discover.isb.edu/about/deepa-mani). The earlier "don't trust this address" caveat is retracted.
