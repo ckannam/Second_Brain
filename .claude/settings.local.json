@@ -126,7 +126,9 @@
       "Bash(security add-generic-password *)",
       "Bash(security find-generic-password *)",
       "WebFetch(domain:iimaventures.com)",
-      "WebFetch(domain:ahmedabad.iimaventures.com)"
+      "WebFetch(domain:ahmedabad.iimaventures.com)",
+      "Bash(awk '/FedTech/,/^###|^---$/' crm/target-orgs.md)",
+      "WebFetch(domain:www.fedtech.io)"
     ]
   },
   "hooks": {
