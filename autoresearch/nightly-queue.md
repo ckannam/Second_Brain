@@ -9,50 +9,60 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-07-31
+## Night of 2026-08-01
 
 ### Git state note
-Vault backup hooks committed 75 commits on a detached HEAD, leaving `origin/main` stale at
-the 2026-07-24 JHTV fill. Tonight rescued those commits as `vault-state-2026-07-31` and is
-working from that base. Phase-1 heals commit to `vault-state-2026-07-31`; the morning PR
-covers the full state recovery + build.
+`origin/main` remains stale (last PR merge at `9153b5d`); the true current vault state —
+including this cycle's local vault-backup commits — lives on the working branch
+`claude/dazzling-newton-8vlrha`, which HEALTH_DEBT scores clean (0). Per this environment's
+hard branch constraint (develop/push only on `claude/dazzling-newton-8vlrha`), that branch
+**is** tonight's night branch: all Phase 1–4 work commits there and the morning PR
+(base `main`) covers the state recovery + tonight's build. No Phase-1 fast-track heal was
+needed (baseline debt already 0), so nothing was pushed to `main`.
 
 ### Baseline (Phase 0)
-- **HEALTH_DEBT = 3** (missing_from_index: `wiki/entities/codepath.md` ×2, stale_claim: `wiki/entities/anthropic.md` ×1)
-- Pre-existing defect set: the two items above.
+- **HEALTH_DEBT = 0** (orphans 0 · missing_from_index 0 · stale_claims 0). Clean.
+- Pre-existing objective defect set: **empty**. Any defect surfacing in Phase 3 is therefore
+  build-introduced.
 
 ### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
 
-1. **Agent max** → bounded deliverable: create `wiki/concepts/claude-code-agent-teams.md`
-   (fills a dangling wikilink from `claude-code-subagents.md` and `skills-vs-subagents.md`)
-   + enrich the stub `wiki/concepts/claude-code-subagents.md`. All wiki-internal, web-aided,
-   no local data. Explicit `@cloud` tag → auto-cleared for unattended build.
+Continues the Claude Mastery "max" cadence: the last two nights grounded **Agent max**
+([[claude-code-agent-teams]]) and **Token max** ([[token-context-management]]). Tonight
+takes the two remaining maxes with a genuine, bounded gap.
 
-2. **Token max** → bounded deliverable: create `wiki/concepts/token-context-management.md`
-   (concept page on efficient context use, compaction, and memory in Claude Code). Linked to
-   existing `[[claude-code-memory]]`. Web-aided synthesis, no local data.
+1. **Skill max** (+ **Train skills**) → new `wiki/concepts/writing-reliable-skills.md`: the
+   *craft* of reliable skill authoring — anatomy & progressive disclosure, the build
+   framework, **description-as-trigger-surface tuning**, the Skill Creator + **eval/variance
+   loop**, and common failure modes. Today `claude-code-skills.md` only name-drops triggering
+   and evals in one-liners; no page owns the technique. Web-aided synthesis + existing
+   sources ([[master-claude-code-skills-28min]], [[claude-code-skills-update]],
+   [[governed-skills-framework]]). All wiki-internal, no local data. Explicit `@cloud`.
+
+2. **Prompt max** → *enrich* `wiki/concepts/prompt-engineering-playbook.md` with
+   **clarifying-question prompting** — the one prompt-quality practice the task explicitly
+   names ("structured prompts, clarifying-question prompting") that the playbook page does not
+   yet cover. Enrichment (AGENTS.md's preferred first move), not a new page — the area is
+   already well-covered. Web-aided + the shipped prompt-architect skills. Explicit `@cloud`.
 
 ### Considered but skipped this night (with reason)
-- **Train skills** (@cloud): "build & optimize skills with the Skill Creator + evals" is
-  open-ended with no concrete deliverable tonight; no single bounded artifact to ship.
-  Deferred to a night with explicit scope.
-- **Prompt max** (@cloud): 3 skills already shipped (2026-07-26); "refining/eval-testing"
-  is interactive, not unattended. Deferred.
-- **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — same pattern as
-  train/prompt max; no bounded one-night deliverable. Deferred.
-- **Improve + general skills** (@cloud): open-ended; no bounded deliverable. Deferred.
+- **Train skills** (@cloud): open-ended, but *advanced* by Build 1 (the skill-authoring
+  page is exactly its grounding). Not a separate build.
+- **Token max / Agent max** (@cloud): already grounded on nights 2026-07-30/31; a third page
+  would be thin. Left with their ⏳ progress notes.
+- **Improve + general skills** (@cloud): open-ended; no bounded one-night deliverable.
 - **Build the source-seeking (MODE B) rung** (@cloud): loop-architecture change to
   `program.md`; too structural for an unattended night.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
-  judgment + human sign-off on what to score.
-- **Try autoresearch loop hands-on** (@cloud): needs external GPU (Colab/RunPod) → outward
-  action outside the vault.
-- **Watch [[agent-hub]]** (@cloud): no bounded deliverable; monitoring task. Folded into
-  Phase 4 (MODE B) as the generative enrichment proposal instead.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
-  deferred behind higher-value items.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the frozen ratchet; needs
+  human sign-off on what to score.
+- **Try autoresearch loop hands-on** (@cloud): needs an external GPU (Colab/RunPod) →
+  outward action outside the vault.
+- **Watch [[agent-hub]]** (@cloud): already enriched as a MODE B proposal on 2026-07-31; a
+  monitoring task with no bounded deliverable tonight.
+- **(Optional) Deeper notes on build-sell-claude-code-course chapters** (@cloud): lowest
+  priority; deferred behind the higher-value maxes.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(CRM enrichment, Gmail pass 2, IG/YouTube exports, Fulbright writes, finance decisions,
-Neuro pipeline/channel setup, Uship, etc.).
+(CRM enrichment, Gmail passes, IG/YouTube exports, Fulbright writes, finance decisions,
+Neuro pipeline/channel setup, Uship, Christy Wyskiel prep, Claude Corps decisions, etc.).
