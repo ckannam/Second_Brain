@@ -836,3 +836,11 @@ Researched Code the Dream (Durham) for a pre-application [[claude-corps]] touch.
 
 ## [2026-07-31] crm/outreach | Fulbright host outreach — CIIE.CO email bounced
 `info@ciie.co` (host #3, IIMA Ahmedabad incubator) **BOUNCED**. The `@ciie.co` domain is stale — the org rebranded **CIIE.CO → IIMA Ventures**. Found + verified the live replacement on their own contact page (ahmedabad.iimaventures.com/contact-us): **`venturesfrontdesk@iima.ac.in`** (Tel +91 79 71524201; backup support form go.iimaventures.com/WebsiteForm). Updated [[fulbright/outreach]] (host #3 → RESEND, address-status table) and filed a resend task in [[tasks/index]]. Same #3 email body — just swap the address. cc: `ciie@iimahd.ernet.in` is a legacy ernet.in address, not used.
+
+## [2026-08-01] autoresearch | Nightly loop — 2026-08-01
+
+Phase 0: HEALTH_DEBT = 0, no pre-existing defects. Phase 1 fast-track lane empty tonight.
+Phase 2: Built 2 skill files — `token-context-management` (4-lever quick-ref) + `orchestrate-agents` (decision ladder + pitfall table). Both complete the pending ⏳ progress notes for Token max + Agent max.
+Phase 3: Marked Token max + Agent max done in `tasks/index.md`; moved to Done section. HEALTH_DEBT remains 0 (no build-introduced debt).
+Phase 4: MODE B — created `wiki/concepts/agentic-automation-patterns.md` (fills dangling `[[agentic-automation-patterns]]` link from `claude-code-loops.md`; 5 patterns + anti-pattern table; web-grounded). Linked from `index.md` + `agentic-workflows.md`.
+Phase 5: PR open → `autoresearch/night-2026-08-01` → `main`. No fast-track heals tonight.
