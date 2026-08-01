@@ -116,7 +116,8 @@ This vault is a live testbed for all of the above — `.claude/skills/` holds `v
 track). Every one is a description (trigger surface) + a body + progressive-disclosure references,
 tuned by watching whether it fires on the right request.
 
-Related: [[claude-code-skills]] · [[skills-vs-subagents]] (when a skill vs a subagent) ·
-[[claude-code-subagents]] · [[ai-second-brain-levels]] (Level 3 = skills) ·
-[[eval-driven-model-selection]] · [[governed-skills-framework]] · [[token-context-management]]
-(progressive disclosure is context economy).
+Related: [[agent-skills]] (the portable format these levers act on) · [[claude-code-skills]] ·
+[[skills-vs-subagents]] (when a skill vs a subagent) · [[claude-code-subagents]] ·
+[[ai-second-brain-levels]] (Level 3 = skills) · [[eval-driven-model-selection]] ·
+[[governed-skills-framework]] · [[token-context-management]] (progressive disclosure is
+context economy).

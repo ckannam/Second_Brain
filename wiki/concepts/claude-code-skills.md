@@ -1,6 +1,6 @@
 # Claude Code Skills
 
-Reusable capabilities you give [[claude-code]]: a folder with a markdown instruction file (name + description that controls **when it triggers**) plus optional **reference files**.
+Reusable capabilities you give [[claude-code]]: a folder with a markdown instruction file (name + description that controls **when it triggers**) plus optional **reference files**. Skills are one instance of Anthropic's portable [[agent-skills]] format — the *same* `SKILL.md` runs on claude.ai and the API too; Claude Code just loads it from the filesystem (`~/.claude/skills/` or `.claude/skills/`).
 
 > **The *craft* of authoring one reliably — description/trigger tuning, progressive
 > disclosure, and the eval loop — lives on [[writing-reliable-skills]] (the "skill max" track).**

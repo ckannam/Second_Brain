@@ -10,7 +10,7 @@ Skill mastery tracks: **prompt max · token max · skill max · agent max** (+ t
 
 ## Knowledge (wiki)
 - Core: [[claude-code]], [[anthropic]], [[agentic-workflows]], [[agentic-vs-deterministic]].
-- Skills & agents: [[claude-code-skills]], [[writing-reliable-skills]] (*skill max* — authoring craft), [[master-claude-code-skills-28min]], [[master-claude-code-36min-beginner]], [[claude-code-subagents]], [[claude-code-agent-teams]], [[skills-vs-subagents]], [[parallel-agents]].
+- Skills & agents: [[agent-skills]] (the portable format), [[claude-code-skills]], [[writing-reliable-skills]] (*skill max* — authoring craft), [[master-claude-code-skills-28min]], [[master-claude-code-36min-beginner]], [[claude-code-subagents]], [[claude-code-agent-teams]], [[skills-vs-subagents]], [[parallel-agents]].
 - Memory & autonomy: [[claude-code-memory]], [[token-context-management]], [[claude-code-scheduled-tasks]], [[claude-code-permissions]], [[claude-code-hooks]].
 - Vault meta: [[llm-wiki-pattern]], [[second-brain-system]], [[ai-second-brain-levels]], [[extending-the-llm-wiki]], [[overview]].
 - Self-improving loops: [[autoresearch]] ([[andrej-karpathy]]), [[agent-hub]], [[nanochat]], [[self-healing-workflows]] — the frontier rung of [[agentic-workflows]] (sources [[autoresearch-repo]], [[autoresearch-tutorial-david-andre]], [[claude-code-karpathy-autoresearch-nick-saraev]], [[autoresearch-broke-internet-greg-isenberg]]).

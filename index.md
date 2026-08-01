@@ -179,6 +179,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-scheduled-tasks]] — cron-triggered autonomous agentic sessions.
 - [[claude-code-memory]] — auto-memory + experimental "Auto Dream" consolidation.
 - [[token-context-management]] — strategies for context hygiene, compaction, sub-agent isolation, and CLAUDE.md sizing.
+- [[agent-skills]] — Anthropic's portable skill format: the 3-level progressive-disclosure architecture, cross-surface (claude.ai/API/Code) portability, and security.
 - [[claude-code-skills]] — reusable skills; Skill Creator, evals, trigger tuning.
 - [[writing-reliable-skills]] — the *craft* of skill authoring ("skill max"): description/trigger tuning, progressive disclosure, the eval loop.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).

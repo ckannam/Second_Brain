@@ -50,5 +50,10 @@ heal), minimum blast radius (read-only lanes, no outward actions, everything gat
 The same discipline is what makes [[openclaw]]/[[paperclip]]-style always-on agents safe enough to
 actually adopt.
 
-Related: [[claude-code-permissions]] · [[ai-executive-assistant]] · [[proactive-agents]] ·
-[[hosting-ai-agents]] · [[vault-autoresearch]] · [[openclaw]] · [[paperclip]].
+A skill-shaped instance of this threat model: an [[agent-skills|Agent Skill]] is executable
+code + instructions, so an untrusted skill can misuse tools or exfiltrate data — audit before
+installing, trust only self-authored/Anthropic sources.
+
+Related: [[claude-code-permissions]] · [[agent-skills]] · [[ai-executive-assistant]] ·
+[[proactive-agents]] · [[hosting-ai-agents]] · [[vault-autoresearch]] · [[openclaw]] ·
+[[paperclip]].
