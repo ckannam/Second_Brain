@@ -2,9 +2,14 @@
 
 Reusable capabilities you give [[claude-code]]: a folder with a markdown instruction file (name + description that controls **when it triggers**) plus optional **reference files**.
 
+> **The *craft* of authoring one reliably — description/trigger tuning, progressive
+> disclosure, and the eval loop — lives on [[writing-reliable-skills]] (the "skill max" track).**
+> This page is the *what*; that page is the *how*.
+
 ## Key ideas
-- **Anatomy & triggering:** the description is the trigger surface; tune it so the skill fires reliably. Src: [[master-claude-code-skills-28min]].
-- **Skill Creator + evals:** Anthropic's Skill Creator scaffolds skills; **evals** measure performance; trigger tuning improves reliability. Src: [[claude-code-skills-update]].
+- **Anatomy & triggering:** the description is the trigger surface; tune it so the skill fires reliably (Claude tends to *under*-trigger, so lean the description slightly pushy). See [[writing-reliable-skills]]. Src: [[master-claude-code-skills-28min]].
+- **Skill Creator + evals:** Anthropic's Skill Creator scaffolds skills; **evals** measure performance; trigger tuning improves reliability — the [[writing-reliable-skills#The eval/iteration loop how skills actually get reliable|eval/iteration loop]]. Src: [[claude-code-skills-update]].
+- **Progressive disclosure:** `SKILL.md` under ~500 lines as a table of contents; reference files one level deep, read only when needed (a context-economy move — [[token-context-management]]).
 - **When to build one:** the feedback cycle — build a skill when you keep repeating the same instructions.
 - **In practice:** content repurposing ([[generate-content-9-socials-blotato]]), [[json-prompting]] images ([[nano-banana-2-antigravity-json-prompting]]), website builds.
 
