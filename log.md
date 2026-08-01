@@ -836,3 +836,13 @@ Researched Code the Dream (Durham) for a pre-application [[claude-corps]] touch.
 
 ## [2026-07-31] crm/outreach | Fulbright host outreach — CIIE.CO email bounced
 `info@ciie.co` (host #3, IIMA Ahmedabad incubator) **BOUNCED**. The `@ciie.co` domain is stale — the org rebranded **CIIE.CO → IIMA Ventures**. Found + verified the live replacement on their own contact page (ahmedabad.iimaventures.com/contact-us): **`venturesfrontdesk@iima.ac.in`** (Tel +91 79 71524201; backup support form go.iimaventures.com/WebsiteForm). Updated [[fulbright/outreach]] (host #3 → RESEND, address-status table) and filed a resend task in [[tasks/index]]. Same #3 email body — just swap the address. cc: `ciie@iimahd.ernet.in` is a legacy ernet.in address, not used.
+
+## [2026-08-01] ingest | Conversation takeaways — conversational presence
+Filed Cole's takeaways from a long morning conversation with Claude into the local profile.
+New page [[conversational-presence]] (profile/, gitignored): his **operating model of people**
+(subconscious-driven, self-focused, incentive-predictable; predictability useful+frustrating;
+rarely blames individuals) and his **social growth front** (talk less, lead with curiosity, pivot
+the spotlight, listen better) + four tools (half-second silence, excitement→questions, two-sentence
+pitch, asking about others = his "quiet superpower"). Cross-linked to [[conscious-vs-subconscious]],
+[[predictive-processing]], [[cognitive-biases]], [[neuroscience-of-behavior]], [[identity-led-goals]].
+Reciprocal enrichments in [[cole]] (Values) and [[growth-plan]] (new lever 5b + Related).
