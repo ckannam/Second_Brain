@@ -860,3 +860,10 @@ Per Cole, moved [[conversational-presence]] from local-only `profile/` into `wik
 part of the synced graph). Added to [[index]] (Discipline & behavior change) and the [[Personal]]
 bucket (new Relationships & presence line); reciprocal prose link added in [[conscious-vs-subconscious]]
 ("Cole's operating model of people"). Frontmatter retyped profile → concept.
+
+## [2026-08-01] crm/research | FedTech direct-reach contacts
+Cole asked for the best FedTech person to reach beyond [[Ian Senungwan Ryu]] (warm/ex-FedTech).
+Researched fedtech.io/team → top pick **Iris Briancon (Head of Tech Transfer & Commercialization)**,
+co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — both role-mirror Cole's
+JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
+Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
