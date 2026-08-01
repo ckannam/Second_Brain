@@ -8,6 +8,7 @@ Self, health, discipline, relationships, and the people CRM.
 
 ## Knowledge (wiki)
 - Discipline & behavior change: [[discipline-without-willpower]], [[how-to-build-discipline]], [[temporal-discounting]], [[temptation-bundling]], [[cue-routine-reward-loop]], [[identity-led-goals]], [[environment-design]].
+- **Relationships & presence:** [[conversational-presence]] — Cole's operating model of people + his social growth front (talk less, lead with curiosity, listen better) and the four tools, incl. his "quiet superpower" of asking about others.
 - **Neuroscience of behavior & learning** (Cole grounds behavior in neuro): [[neuroscience-of-behavior]] (hub) → [[neuroplasticity]], [[predictive-processing]], [[productive-discomfort]], [[hebbian-learning]], [[memory-consolidation]], [[learning-by-connection]], [[knowledge-types]], [[conscious-vs-subconscious]], [[reticular-activating-system]], [[cognitive-biases]].
 
 ## Venture — Neuro (YouTube channel)

@@ -846,3 +846,9 @@ the spotlight, listen better) + four tools (half-second silence, excitement→qu
 pitch, asking about others = his "quiet superpower"). Cross-linked to [[conscious-vs-subconscious]],
 [[predictive-processing]], [[cognitive-biases]], [[neuroscience-of-behavior]], [[identity-led-goals]].
 Reciprocal enrichments in [[cole]] (Values) and [[growth-plan]] (new lever 5b + Related).
+
+## [2026-08-01] update | conversational-presence promoted to the synced wiki
+Per Cole, moved [[conversational-presence]] from local-only `profile/` into `wiki/concepts/` (now
+part of the synced graph). Added to [[index]] (Discipline & behavior change) and the [[Personal]]
+bucket (new Relationships & presence line); reciprocal prose link added in [[conscious-vs-subconscious]]
+("Cole's operating model of people"). Frontmatter retyped profile → concept.
