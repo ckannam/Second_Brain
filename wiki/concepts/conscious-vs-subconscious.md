@@ -32,6 +32,10 @@ A dual-process model of the mind. From [[conscious-subconscious-mind-ixcarus]].
 > pop-science — treat as motivational framing, not settled science. The durable, well-supported
 > core is dual-process cognition (cf. Kahneman System 1/2) and limited working memory.
 
+Cole uses this dual-process view as his **operating model of people** — subconscious-driven,
+self-focused, and therefore incentive-predictable — which he turns into a social-growth practice in
+[[conversational-presence]].
+
 Its two operational subsystems have their own pages: [[reticular-activating-system]] (the
 attention filter) and [[cognitive-biases]] (the shortcuts).
 

@@ -16,3 +16,5 @@ The most autonomous version of an agentic workflow closes the loop on **improvin
 
 ## Sources
 [[how-to-build-10k-agentic-workflows]], [[from-zero-first-agentic-workflow-26min]], [[how-id-teach-10-year-old-agentic]], [[agentic-workflows-changed-automation]], [[stop-learning-n8n-2026]], [[build-sell-claude-code-course]]. Self-optimizing frontier: [[autoresearch-repo]], [[autoresearch-tutorial-david-andre]]. Scale up via [[claude-code-agent-teams]] and [[claude-code-scheduled-tasks]].
+
+For specific implementation patterns (HITL gates, retry loops, circuit breakers, scoped permissions), see [[agentic-automation-patterns]].
