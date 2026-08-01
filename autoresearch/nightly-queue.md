@@ -9,50 +9,48 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-07-31
+## Night of 2026-08-01
 
 ### Git state note
-Vault backup hooks committed 75 commits on a detached HEAD, leaving `origin/main` stale at
-the 2026-07-24 JHTV fill. Tonight rescued those commits as `vault-state-2026-07-31` and is
-working from that base. Phase-1 heals commit to `vault-state-2026-07-31`; the morning PR
-covers the full state recovery + build.
+`origin/main` was force-updated to the detached-HEAD vault-backup chain (as of last
+night's vault-state rescue). Local `main` was synced via `git reset --hard origin/main`
+before Phase 1. Working from that unified base.
 
 ### Baseline (Phase 0)
-- **HEALTH_DEBT = 3** (missing_from_index: `wiki/entities/codepath.md` ×2, stale_claim: `wiki/entities/anthropic.md` ×1)
-- Pre-existing defect set: the two items above.
+- **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
+- Pre-existing defect set: **empty** — Phase 1 fast-track lane has nothing to heal tonight.
 
 ### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
 
-1. **Agent max** → bounded deliverable: create `wiki/concepts/claude-code-agent-teams.md`
-   (fills a dangling wikilink from `claude-code-subagents.md` and `skills-vs-subagents.md`)
-   + enrich the stub `wiki/concepts/claude-code-subagents.md`. All wiki-internal, web-aided,
-   no local data. Explicit `@cloud` tag → auto-cleared for unattended build.
+1. **Token max** → bounded deliverable: create `.claude/skills/token-context-management/SKILL.md`
+   — turns the existing `[[token-context-management]]` concept page (created 2026-07-31) into
+   an actionable skill trigger Cole can invoke in any Claude Code session. Explicit `@cloud`
+   tag; vault-internal only; no local data.
 
-2. **Token max** → bounded deliverable: create `wiki/concepts/token-context-management.md`
-   (concept page on efficient context use, compaction, and memory in Claude Code). Linked to
-   existing `[[claude-code-memory]]`. Web-aided synthesis, no local data.
+2. **Agent max** → bounded deliverable: create `.claude/skills/orchestrate-agents/SKILL.md`
+   — turns the existing `[[claude-code-agent-teams]]` concept page (created 2026-07-31) into
+   a skill that guides agent-team orchestration decisions. Explicit `@cloud` tag; vault-internal
+   only; no local data.
 
 ### Considered but skipped this night (with reason)
-- **Train skills** (@cloud): "build & optimize skills with the Skill Creator + evals" is
-  open-ended with no concrete deliverable tonight; no single bounded artifact to ship.
-  Deferred to a night with explicit scope.
-- **Prompt max** (@cloud): 3 skills already shipped (2026-07-26); "refining/eval-testing"
-  is interactive, not unattended. Deferred.
-- **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — same pattern as
-  train/prompt max; no bounded one-night deliverable. Deferred.
-- **Improve + general skills** (@cloud): open-ended; no bounded deliverable. Deferred.
-- **Build the source-seeking (MODE B) rung** (@cloud): loop-architecture change to
-  `program.md`; too structural for an unattended night.
+- **Train skills** (@cloud): open-ended ("build & optimize skills with Skill Creator + evals");
+  no single bounded artifact. Deferred.
+- **Prompt max** (@cloud): 3 skills shipped 2026-07-26; "refining/eval-testing" is interactive.
+  Deferred.
+- **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — open-ended.
+  Deferred.
+- **Improve + general skills** (@cloud): open-ended. Deferred.
+- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
+  needs human judgment. Deferred.
 - **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
-  judgment + human sign-off on what to score.
-- **Try autoresearch loop hands-on** (@cloud): needs external GPU (Colab/RunPod) → outward
-  action outside the vault.
-- **Watch [[agent-hub]]** (@cloud): no bounded deliverable; monitoring task. Folded into
-  Phase 4 (MODE B) as the generative enrichment proposal instead.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
-  deferred behind higher-value items.
+  human sign-off. Deferred.
+- **Try autoresearch loop hands-on** (@cloud): requires external GPU. Outward action.
+  Deferred.
+- **Watch [[agent-hub]]** (@cloud): completed last night (MODE B created `agent-hub.md`).
+  Still open in tasks as "standing monitor" — not a buildable deliverable tonight.
+- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority.
+  Deferred.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(CRM enrichment, Gmail pass 2, IG/YouTube exports, Fulbright writes, finance decisions,
-Neuro pipeline/channel setup, Uship, etc.).
+(networking/Fulbright, CRM enrichment, Neuro pipeline, finance decisions, Uship, etc.).
