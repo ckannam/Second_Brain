@@ -72,11 +72,7 @@ _Goal: the app alongside the [[neuro-channel|Neuro]] channel — **not another A
 _Goal: create the best possible Claude skills to (a) **maintain & maximize** this second brain and (b) build **alongside** it at a much faster rate._
 - [ ] @cloud **Train skills** — build & optimize skills with the Skill Creator + evals workflow, for both vault upkeep and faster building. [[claude-code-skills]] [[claude-code-skills-update]] (added 2026-07-24)
 - [ ] @cloud **Prompt max** — master prompt quality (structured prompts, clarifying-question prompting) as a reusable skill. ✅ **Shipped 3 prompt-architect skills 2026-07-26** (`claude-chat-prompt` / `claude-cowork-prompt` / `claude-code-prompt`); keep refining/eval-testing them. [[prompt-engineering-playbook]] [[the-prompting-playbook]] [[master-claude-code-36min-beginner]] [[json-prompting]] (added 2026-07-24)
-- [ ] @cloud **Token max** — build a token/context-management skill & mastery (efficient context use, compaction, memory). [[claude-code-memory]] (added 2026-07-24)
-  ⏳ progress 2026-07-31: created [[token-context-management]] concept page (CLAUDE.md sizing, auto-compaction, PreCompact/PostCompact hooks, sub-agent isolation, CMA absorption); remaining: build an actual skill or deeper evals for token efficiency.
 - [ ] @cloud **Skill max** — master reliable skill creation + trigger tuning. [[master-claude-code-skills-28min]] [[claude-code-skills]] (added 2026-07-24)
-- [ ] @cloud **Agent max** — master agent orchestration: sub-agents + agent teams. [[claude-code-subagents]] [[claude-code-agent-teams]] (added 2026-07-24)
-  ⏳ progress 2026-07-31: created [[claude-code-agent-teams]] concept page (peer vs sub-agent distinction, decision guide, observability, spectrum); enriched [[claude-code-subagents]] stub; remaining: deeper evals or a skill scaffold for orchestrating teams.
 - [ ] @cloud **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
 
 ### Personal bucket — finance
@@ -124,6 +120,10 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 
 ## Done
 
+- [x] @cloud **Agent max** — master agent orchestration: sub-agents + agent teams. [[claude-code-subagents]] [[claude-code-agent-teams]] (added 2026-07-24, done 2026-08-01)
+  ✅ 2026-07-31: created [[claude-code-agent-teams]] concept page + enriched [[claude-code-subagents]]; 2026-08-01: shipped `.claude/skills/orchestrate-agents/SKILL.md` (single→sub→team→CMA decision ladder, tmux setup, pitfall table).
+- [x] @cloud **Token max** — build a token/context-management skill & mastery (efficient context use, compaction, memory). [[claude-code-memory]] (added 2026-07-24, done 2026-08-01)
+  ✅ 2026-07-31: created [[token-context-management]] concept page; 2026-08-01: shipped `.claude/skills/token-context-management/SKILL.md` (4-lever quick-ref, heuristic table, links to concept page + related pages).
 - [x] 📧 @human **Resent Fulbright host #3 (CIIE.CO) after `info@ciie.co` bounced** → sent to **`venturesfrontdesk@iima.ac.in`** (IIMA Ventures front desk; org rebranded CIIE.CO → IIMA Ventures). [[fulbright/outreach]] (added 2026-07-31, done 2026-07-31)
 - [x] @cloud **Verify current-cycle Fulbright award rates + requirements** (India / Brazil / Indonesia) — web-verified against IIE 2021–2024 data (secondary aggregators): **India ~46%** and **Brazil ~64%** confirm Cole's figures; **Indonesia corrected down from "~40%+" to ~24%** (still above the ~20% program avg; night-29 first-pass had ~18%, night-30 re-verified to ~24% with more sources). Added 2027–28 cycle detail + Indonesia language/award-count/timeline. Enriched [[fulbright-country-selection]]. (added 2026-07-27) (done 2026-07-29/30)
 - [x] @cloud **Drafted the first 3 Neuro Shorts scripts + storyboard JSON** — doorway-effect ([[conscious-vs-subconscious]]), new-car/RAS ([[reticular-activating-system]]), resolutions/myelin ([[neuroplasticity]]) — voice-ready scripts + scene-by-scene JSON grounded in concept pages. Recommend the doorway one first. Awaiting Cole's topic approval. [[neuro-scripts-batch-1]] [[neuro-channel]] (added 2026-07-27) (done 2026-07-29)
