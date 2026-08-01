@@ -844,3 +844,19 @@ Phase 2: Built 2 skill files — `token-context-management` (4-lever quick-ref) 
 Phase 3: Marked Token max + Agent max done in `tasks/index.md`; moved to Done section. HEALTH_DEBT remains 0 (no build-introduced debt).
 Phase 4: MODE B — created `wiki/concepts/agentic-automation-patterns.md` (fills dangling `[[agentic-automation-patterns]]` link from `claude-code-loops.md`; 5 patterns + anti-pattern table; web-grounded). Linked from `index.md` + `agentic-workflows.md`.
 Phase 5: PR open → `autoresearch/night-2026-08-01` → `main`. No fast-track heals tonight.
+
+## [2026-08-01] ingest | Conversation takeaways — conversational presence
+Filed Cole's takeaways from a long morning conversation with Claude into the local profile.
+New page [[conversational-presence]] (profile/, gitignored): his **operating model of people**
+(subconscious-driven, self-focused, incentive-predictable; predictability useful+frustrating;
+rarely blames individuals) and his **social growth front** (talk less, lead with curiosity, pivot
+the spotlight, listen better) + four tools (half-second silence, excitement→questions, two-sentence
+pitch, asking about others = his "quiet superpower"). Cross-linked to [[conscious-vs-subconscious]],
+[[predictive-processing]], [[cognitive-biases]], [[neuroscience-of-behavior]], [[identity-led-goals]].
+Reciprocal enrichments in [[cole]] (Values) and [[growth-plan]] (new lever 5b + Related).
+
+## [2026-08-01] update | conversational-presence promoted to the synced wiki
+Per Cole, moved [[conversational-presence]] from local-only `profile/` into `wiki/concepts/` (now
+part of the synced graph). Added to [[index]] (Discipline & behavior change) and the [[Personal]]
+bucket (new Relationships & presence line); reciprocal prose link added in [[conscious-vs-subconscious]]
+("Cole's operating model of people"). Frontmatter retyped profile → concept.

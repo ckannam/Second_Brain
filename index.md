@@ -239,6 +239,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[identity-led-goals]] — frame goals as identity ("I am someone who…").
 - [[environment-design]] — reduce clutter and friction to make the good action default.
 - [[how-to-build-discipline]] — playbook distilled from the discipline cluster (filed from a query).
+- [[conversational-presence]] — Cole's operating model of people (subconscious-driven, self-focused, incentive-predictable) + his social growth front (talk less, lead with curiosity, listen) and the four tools incl. his "quiet superpower" (asking about others).
 
 ### Neuroscience of behavior & learning
 - [[neuroscience-of-behavior]] — **hub**: grounding behavior/decisions in brain mechanisms (Cole's cluster).
