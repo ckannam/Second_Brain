@@ -836,3 +836,16 @@ Researched Code the Dream (Durham) for a pre-application [[claude-corps]] touch.
 
 ## [2026-07-31] crm/outreach | Fulbright host outreach — CIIE.CO email bounced
 `info@ciie.co` (host #3, IIMA Ahmedabad incubator) **BOUNCED**. The `@ciie.co` domain is stale — the org rebranded **CIIE.CO → IIMA Ventures**. Found + verified the live replacement on their own contact page (ahmedabad.iimaventures.com/contact-us): **`venturesfrontdesk@iima.ac.in`** (Tel +91 79 71524201; backup support form go.iimaventures.com/WebsiteForm). Updated [[fulbright/outreach]] (host #3 → RESEND, address-status table) and filed a resend task in [[tasks/index]]. Same #3 email body — just swap the address. cc: `ciie@iimahd.ernet.in` is a legacy ernet.in address, not used.
+
+## [2026-08-01] autoresearch | Nightly run — Skill max + Prompt max builds, 1 MODE B (agent-skills)
+**Git note:** `origin/main` still stale (last merge `9153b5d`); the true current vault state (incl. this cycle's local vault-backup commits) lives on the working branch `claude/dazzling-newton-8vlrha`, which this environment constrains all work to. That branch **is** tonight's night branch → one morning PR (base `main`) covering state recovery + build. Baseline HEALTH_DEBT already **0** on it, so no Phase-1 fast-track heal to `main` was needed.
+
+**Phase 0 baseline:** HEALTH_DEBT=0 (orphans 0 · missing_from_index 0 · stale_claims 0). Pre-existing objective defect set empty.
+
+**Phase 2 build (bounded to 2, top-down Claude Mastery maxes):**
+- **Skill max / Train skills:** Created [[writing-reliable-skills]] — the craft of reliable skill authoring: the three levers (description=trigger surface, progressive disclosure=context cost, body=edge cases), the eval/iteration loop (evals-first; Claude-A-builds/Claude-B-uses; trigger tuning as an eval), and anti-patterns. Grounded in Anthropic's official skill-authoring best-practices doc + [[master-claude-code-skills-28min]]/[[claude-code-skills-update]]. Enriched the [[claude-code-skills]] overview to point to it.
+- **Prompt max:** Enriched [[prompt-engineering-playbook]] with **clarifying-question prompting** (+ Rephrase-and-Respond) — the input-intent dual of output contracts, tied to the shipped prompt-architect skills. Enrichment, not a new page (area already covered).
+
+**Phase 3 write-back:** ⏳ progress notes on Skill max / Train skills / Prompt max in [[tasks/index]] (all left open — none is a finishable "mastery"). MODE A: HEALTH_DEBT 0 baseline and 0 after builds → no objective fix; logged skip rows to `results.tsv`.
+
+**Phase 4 MODE B:** Created [[agent-skills]] — Anthropic's portable skill format as the platform primitive beneath [[claude-code-skills]]: 3-level progressive-disclosure architecture (token-cost table), cross-surface portability + its non-sync gotcha, pre-built vs custom, and skill-as-executable-code security (→ [[agent-security-risks]]). Grounded in the official Agent Skills overview.
