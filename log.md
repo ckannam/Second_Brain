@@ -861,6 +861,13 @@ part of the synced graph). Added to [[index]] (Discipline & behavior change) and
 bucket (new Relationships & presence line); reciprocal prose link added in [[conscious-vs-subconscious]]
 ("Cole's operating model of people"). Frontmatter retyped profile → concept.
 
+## [2026-08-01] crm/research | FedTech direct-reach contacts
+Cole asked for the best FedTech person to reach beyond [[Ian Senungwan Ryu]] (warm/ex-FedTech).
+Researched fedtech.io/team → top pick **Iris Briancon (Head of Tech Transfer & Commercialization)**,
+co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — both role-mirror Cole's
+JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
+Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
+
 ## [2026-08-01] autoresearch | Parallel nightly run (PR #10, branch claude/dazzling-newton-8vlrha) — Skill max + Prompt max + MODE B agent-skills
 **Context:** A second nightly run executed on the environment-designated branch `claude/dazzling-newton-8vlrha` (→ PR #10), alongside the `autoresearch/night-2026-08-01` run (PR #11, already merged to `main` above). Complementary, non-overlapping work; on this merge the bookkeeping files (log/tasks/results/nightly-queue) were unioned to preserve both runs.
 
