@@ -9,48 +9,43 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-01
-
-### Git state note
-`origin/main` was force-updated to the detached-HEAD vault-backup chain (as of last
-night's vault-state rescue). Local `main` was synced via `git reset --hard origin/main`
-before Phase 1. Working from that unified base.
+## Night of 2026-08-02
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
 - Pre-existing defect set: **empty** — Phase 1 fast-track lane has nothing to heal tonight.
 
-### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
+### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Token max** → bounded deliverable: create `.claude/skills/token-context-management/SKILL.md`
-   — turns the existing `[[token-context-management]]` concept page (created 2026-07-31) into
-   an actionable skill trigger Cole can invoke in any Claude Code session. Explicit `@cloud`
-   tag; vault-internal only; no local data.
+1. **Skill max / Train skills → `wiki/concepts/skill-trigger-tuning.md`** (new concept page):
+   The vault has two thin source stubs covering skill triggering (`master-claude-code-skills-28min`,
+   `claude-code-skills-update`) and a concept page (`claude-code-skills`) that only mentions
+   triggering in passing. No page owns the "how does a skill actually fire?" question.
+   This passes the new-page test: distinct reusable concept, no existing page owns it.
+   Directly addresses the "Skill max" and "Train skills" @cloud tasks.
+   Web search grounded + synthesized from existing vault sources + real skill anatomy in the vault.
 
-2. **Agent max** → bounded deliverable: create `.claude/skills/orchestrate-agents/SKILL.md`
-   — turns the existing `[[claude-code-agent-teams]]` concept page (created 2026-07-31) into
-   a skill that guides agent-team orchestration decisions. Explicit `@cloud` tag; vault-internal
-   only; no local data.
+2. **Train skills → enrich `wiki/concepts/claude-code-skills.md`**:
+   The current page is thin (5 bullets, no 6-step framework, no Skill Creator workflow detail).
+   Enriching it with the anatomy, lifecycle, and build workflow documented across vault sources
+   makes it a more useful reference and directly advances "Train skills."
 
 ### Considered but skipped this night (with reason)
-- **Train skills** (@cloud): open-ended ("build & optimize skills with Skill Creator + evals");
-  no single bounded artifact. Deferred.
-- **Prompt max** (@cloud): 3 skills shipped 2026-07-26; "refining/eval-testing" is interactive.
-  Deferred.
-- **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — open-ended.
-  Deferred.
-- **Improve + general skills** (@cloud): open-ended. Deferred.
+- **Prompt max** (@cloud): 3 skills already shipped 2026-07-26; "refining/eval-testing" is
+  interactive. No bounded unattended deliverable tonight.
+- **Improve + general skills** (@cloud): open-ended — no single bounded artifact. Deferred.
 - **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment. Deferred.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
-  human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU. Outward action.
-  Deferred.
-- **Watch [[agent-hub]]** (@cloud): completed last night (MODE B created `agent-hub.md`).
-  Still open in tasks as "standing monitor" — not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority.
-  Deferred.
+  needs human judgment on design. Deferred (reserved for MODE B generative proposal tonight
+  if appropriate, but kept off the build list).
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system (`score.py`
+  is frozen); any tuning requires human sign-off. Deferred.
+- **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning. Outward
+  action (spending). Ineligible.
+- **Watch [[agent-hub]]** (@cloud): standing monitor — page created 2026-07-31 (MODE B);
+  no new material in vault since then. Not a buildable deliverable tonight.
+- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
+  deferred in favor of higher-value skill mastery items.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(networking/Fulbright, CRM enrichment, Neuro pipeline, finance decisions, Uship, etc.).
+(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, etc.).
