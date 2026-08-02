@@ -867,3 +867,18 @@ Researched fedtech.io/team → top pick **Iris Briancon (Head of Tech Transfer &
 co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — both role-mirror Cole's
 JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
 Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
+
+## [2026-08-02] autoresearch night | MODE B — test-driven-development concept page
+Near-pure-maintenance night. Phase 0 baseline HEALTH_DEBT = 0 (empty pre-existing defect set →
+Phase 1 fast-track lane had nothing to heal). Phase 2 selected no bounded @cloud build: last night
+shipped the headline Claude Mastery deliverables (token/agent skills), and the remaining @cloud
+task items are open-ended or need human sign-off (see `autoresearch/nightly-queue.md`). Also checked
+the scorer's soft dangling-links signal — the "malformed" backslash links (`[[page\|alias]]`) are
+correct Obsidian table-escape syntax the scorer misparses, not bugs; left untouched.
+Phase 4: MODE B — created `wiki/concepts/test-driven-development.md`, filling the long-pending
+dangling `[[test-driven-development]]` stub (referenced by [[ai-native-engineering-org]] +
+[[running-ai-native-engineering-org]]). Frames TDD as the agentic-coding *verification harness*:
+web-grounded Anthropic red→green→refactor loop (write tests → confirm fail → commit → implement to
+green without editing tests), Fiona Fung's "TDD became fun," and the same objective-ratchet shape as
+`autoresearch/score.py`. Linked from [[index]] (AI-native work & industry) + the [[Claude Mastery]]
+bucket; reciprocal with [[ai-native-engineering-org]]. HEALTH_DEBT held at 0. On night branch → morning PR.

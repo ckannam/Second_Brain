@@ -9,28 +9,49 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-01
+## Night of 2026-08-02
 
 ### Git state note
-`origin/main` was force-updated to the detached-HEAD vault-backup chain (as of last
-night's vault-state rescue). Local `main` was synced via `git reset --hard origin/main`
-before Phase 1. Working from that unified base.
+Ran on branch `claude/dazzling-newton-xfss06` (this session's designated night branch),
+forked cleanly from `origin/main` HEAD (62c235a). All build + generative work rides this
+branch → one morning PR; nothing pushed to `main` (nothing to fast-track).
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — Phase 1 fast-track lane has nothing to heal tonight.
+- Pre-existing defect set: **empty** — Phase 1 fast-track lane had nothing to heal tonight.
 
-### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
+### Selected build (@cloud, bounded to ≤3) — top-down, synced destinations only
 
-1. **Token max** → bounded deliverable: create `.claude/skills/token-context-management/SKILL.md`
-   — turns the existing `[[token-context-management]]` concept page (created 2026-07-31) into
-   an actionable skill trigger Cole can invoke in any Claude Code session. Explicit `@cloud`
-   tag; vault-internal only; no local data.
+**None selected — near-pure-maintenance night.** Going top-down through `tasks/index.md`, no
+Open item yields a *clean, bounded* @cloud build tonight:
+- The headline **Claude Mastery** @cloud deliverables shipped last night (2026-08-01:
+  `token-context-management` + `orchestrate-agents` skills), and the section's remaining items
+  (**Train skills / Skill max / Improve + general skills**) are open-ended meta-goals with no
+  single finishable artifact — forcing one would be thin farming, not a build.
+- The **AutoResearch** @cloud items (**source-seeking MODE B rung**, **tune HEALTH_DEBT
+  weights**) modify the loop/ratchet itself → need human sign-off, not an unattended edit.
+- The **(Optional) build-sell course deeper notes** item is effectively already satisfied —
+  the course's chapters are each decomposed into existing well-linked pages (e.g. the Business
+  chapter is fully covered by [[selling-ai-automations]]); more notes would be duplication.
 
-2. **Agent max** → bounded deliverable: create `.claude/skills/orchestrate-agents/SKILL.md`
-   — turns the existing `[[claude-code-agent-teams]]` concept page (created 2026-07-31) into
-   a skill that guides agent-team orchestration decisions. Explicit `@cloud` tag; vault-internal
-   only; no local data.
+So Phase 2 built nothing; the night's value is the Phase 4 MODE B enrichment (below).
+
+### Phase 4 — MODE B generative proposal (the night's deliverable)
+- Created `wiki/concepts/test-driven-development.md` — fills the long-pending dangling
+  `[[test-driven-development]]` stub (referenced by [[ai-native-engineering-org]] +
+  [[running-ai-native-engineering-org]]). Passes the new-page test: distinct, reusable
+  concept, ≥2 real inbound references, no existing page owns it. Frames TDD as the
+  agentic-coding *verification harness* (web-grounded Anthropic red→green→refactor loop +
+  Fiona Fung's "TDD became fun" + the same objective-ratchet shape as `score.py`). Indexed +
+  Claude Mastery bucket + reciprocal links. HEALTH_DEBT held at 0.
+
+### Note — dangling-links soft signal checked (not a defect)
+The scorer's soft `dangling_links` list flags six "malformed" entries. Five of them
+(`claude-code-subagents\`, `ingest-query-lint\`, `marsh-memory-lab\`, `retrieval-practice\`,
+plus the pipe artifacts) are **correct Obsidian table-escape syntax** `[[page\|alias]]` that
+the scorer misparses — removing the backslash would break the table rendering. Left untouched
+by design. (`claude-code-loops.md` includes a `.md` extension but still resolves in Obsidian.)
+None affect HEALTH_DEBT.
 
 ### Considered but skipped this night (with reason)
 - **Train skills** (@cloud): open-ended ("build & optimize skills with Skill Creator + evals");
@@ -39,18 +60,18 @@ before Phase 1. Working from that unified base.
   Deferred.
 - **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — open-ended.
   Deferred.
-- **Improve + general skills** (@cloud): open-ended. Deferred.
+- **Improve + general skills** (@cloud): open-ended; no identified concrete gap to fix tonight.
+  Deferred (revisit when a specific skill gap is named).
 - **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
   needs human judgment. Deferred.
 - **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
   human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU. Outward action.
-  Deferred.
-- **Watch [[agent-hub]]** (@cloud): completed last night (MODE B created `agent-hub.md`).
-  Still open in tasks as "standing monitor" — not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority.
-  Deferred.
+- **Try autoresearch loop hands-on** (@cloud): requires external GPU. Outward action. Deferred.
+- **Watch [[agent-hub]]** (@cloud): standing monitor, not a buildable deliverable tonight.
+- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): already satisfied by
+  existing per-chapter pages; more would duplicate. Deferred.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(networking/Fulbright, CRM enrichment, Neuro pipeline, finance decisions, Uship, etc.).
+(networking/Fulbright, Claude Corps, CRM enrichment, Neuro pipeline, finance decisions,
+Uship, password holder, exports, etc.).

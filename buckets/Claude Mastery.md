@@ -20,7 +20,7 @@ Skill mastery tracks: **prompt max · token max · skill max · agent max** (+ t
 ## Code with Claude — Anthropic first-party (parallel batch)
 The official counterpart to the creator videos above (30 Anthropic sessions).
 - **Platform & products:** [[claude-managed-agents]], [[claude-cowork]], [[claude-tag]], [[claude-science]], [[claude-design]], [[artifacts-in-claude-code]].
-- **Practice & playbooks:** [[how-we-claude-code]], [[running-ai-native-engineering-org]], [[the-prompting-playbook]] / [[prompt-engineering-playbook]], [[evals-for-taste]] / [[governed-skills-framework]], [[the-thinking-lever]], [[beyond-the-basics-claude-code]].
+- **Practice & playbooks:** [[how-we-claude-code]], [[running-ai-native-engineering-org]], [[test-driven-development]], [[the-prompting-playbook]] / [[prompt-engineering-playbook]], [[evals-for-taste]] / [[governed-skills-framework]], [[the-thinking-lever]], [[beyond-the-basics-claude-code]].
 - **Agent memory & learning:** [[agent-memory]], [[agent-dreaming]], [[teaching-agents-learn-from-team]], [[outcome-oriented-agents]], [[agent-vaults]], [[agentic-dsl]].
 - **Models:** [[opus-4-8]], [[opus-4-7]], [[opus-4-6]], [[opus-4-5]] · [[picking-the-right-model]], [[the-capability-curve]], [[eval-driven-model-selection]].
 - **Enterprise & customers:** [[man-group]], [[lovable]], [[omni]], [[genspark]], [[elicit]] · [[ai-native-enterprise-scale]], [[gtm-engineering-anthropic]], [[enterprise-managed-auth-mcp]].
