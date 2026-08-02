@@ -867,3 +867,13 @@ Researched fedtech.io/team → top pick **Iris Briancon (Head of Tech Transfer &
 co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — both role-mirror Cole's
 JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
 Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
+
+## [2026-08-02] autoresearch | Nightly build — skill trigger tuning + custom commands
+Phase 1: HEALTH_DEBT=0, no fast-track heals.
+Phase 2 build: (1) created [[skill-trigger-tuning]] (lifecycle, description patterns, A/B
+tuning loop, debug table; web-grounded + real vault skills); (2) enriched [[claude-code-skills]]
+(anatomy, 6-step workflow, Skill Creator section, examples table). Tasks advanced: "Skill max"
++ "Train skills" @cloud. Indexed both; [[skill-trigger-tuning]] added to Claude Mastery bucket.
+Phase 4 MODE B: created [[claude-code-custom-commands]] (.claude/commands/ anatomy, 2026
+unification with skills, argument handling, scope, CLAUDE.md relationship). Backlink added
+to [[claude-code-skills]]. One morning PR opened.

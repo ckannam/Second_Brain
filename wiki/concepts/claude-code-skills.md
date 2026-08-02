@@ -60,4 +60,6 @@ Build when you find yourself repeating the same instructions across Claude Code 
 | [[orchestrate-agents]] | Guides agent-team design | "parallel agents", "agent swarm" |
 | [[token-context-management]] | Manages context efficiently | "context is getting long" |
 
+**Legacy form:** `.claude/commands/<name>.md` creates the same `/name` slash command without a folder. As of 2026 this is unified with skills (same frontmatter, same `/` menu). See [[claude-code-custom-commands]] for the full comparison.
+
 Related: [[skills-vs-subagents]], [[claude-code-subagents]], [[ai-second-brain-levels]] (Level 3). Depth: [[skill-trigger-tuning]] (trigger reliability), [[evals-for-taste]] and [[governed-skills-framework]] (evaluating and governing skills at scale).
