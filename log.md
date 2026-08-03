@@ -867,3 +867,13 @@ Researched fedtech.io/team → top pick **Iris Briancon (Head of Tech Transfer &
 co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — both role-mirror Cole's
 JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
 Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
+
+## [2026-08-03] autoresearch | night build — Watch agent-hub + MODE B agent-native-infrastructure
+Phase 2: refreshed [[agent-hub]] with web-verified reference-implementation detail (Go server +
+SQLite + bare git repo, git-bundle transport, DAG browse/diff, channel/threaded-reply board,
+per-agent keys/rate limits), ~25k+ stars + forks, and Karpathy's "exploratory project" framing;
+superseded the stale "no new material" line. Verdict unchanged: track, don't adopt (single-agent
+vault). Phase 4 MODE B: new concept page [[agent-native-infrastructure]] generalizing the pattern
+(human-native vs agent-native tooling; instances = agent-hub/autoresearch/AGENTS.md/index+log),
+wired into index.md + reciprocal links from [[extending-the-llm-wiki]] and [[autoresearch]]. Debt
+0 → 0 throughout.

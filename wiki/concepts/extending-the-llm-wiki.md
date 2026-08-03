@@ -49,3 +49,10 @@ rung remains open.
 Each rung is a step up the [[ai-second-brain-levels]] ladder — from a well-maintained manual
 wiki toward Karpathy's end state where the wiki **maintains, extends, and researches itself**
 and the human mostly curates sources and asks questions.
+
+The furthest rung is a shift in *kind*, not degree: [[agent-native-infrastructure]] — rebuilding
+the tooling itself around agent swarms rather than human readers (Karpathy's [[agent-hub]] is the
+version-control instance). This vault is already partway there (`AGENTS.md` as a machine-read
+schema, `index.md`/`log.md` as catalog+log) while keeping version control human-native, which is
+the right posture for a single-agent loop — see [[agent-native-infrastructure]] for when the swarm
+rung actually pays off.
