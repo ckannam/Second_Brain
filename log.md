@@ -867,3 +867,15 @@ Researched fedtech.io/team → top pick **Iris Briancon (Head of Tech Transfer &
 co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — both role-mirror Cole's
 JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
 Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
+
+## [2026-08-03] autoresearch | nightly build — skill-creation playbook + course chapter notes
+Phase 0: HEALTH_DEBT = 0; pre-existing defect set empty. Phase 1: skipped (nothing to heal).
+Phase 2: (1) Created [[claude-code-skill-creation-playbook]] — end-to-end skill-building guide
+(anatomy, frontmatter fields, description as trigger surface, Skill Creator + evals 3-eval pattern,
+dynamic context injection, context:fork, anti-patterns; grounded in official Anthropic docs Aug 2026).
+Enriched [[claude-code-skills]] + [[Claude Mastery]] bucket with link. (2) Enriched
+[[build-sell-claude-code-course]] source page with two deeper chapter sections: Skills (Three Ms
+framework, Workflows-beat-agents) and Agent Teams (tmux/worktree patterns, orchestrator model,
+3–5 agent scale limit). Phase 3: write-back — marked 2 tasks done (agent-hub eval, deeper
+course notes), progress note on Skill max; moved completed items to Done. Phase 4: MODE B
+generative proposal committed to branch. Phase 5: PR opened.

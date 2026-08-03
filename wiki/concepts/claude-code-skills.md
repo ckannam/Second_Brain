@@ -9,3 +9,5 @@ Reusable capabilities you give [[claude-code]]: a folder with a markdown instruc
 - **In practice:** content repurposing ([[generate-content-9-socials-blotato]]), [[json-prompting]] images ([[nano-banana-2-antigravity-json-prompting]]), website builds.
 
 Related: [[skills-vs-subagents]], [[claude-code-subagents]], [[ai-second-brain-levels]] (Level 3). Anthropic first-party depth (Code with Claude batch): [[evals-for-taste]] and [[governed-skills-framework]] on evaluating and governing skills at scale.
+
+For the full end-to-end build + trigger-tuning + evals guide, see **[[claude-code-skill-creation-playbook]]**.

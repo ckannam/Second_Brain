@@ -35,6 +35,11 @@ cold** · **Tier 2 roster cold**.
 - **[[Pike Alumni Directory]]** — ~1,000 PIKE (Duke) alumni as a warm-intro channel, curated for Cole's lanes. **Marquee: Brad Lightcap, COO of OpenAI** (a PIKE brother). Also recent-grad peers in finance/VC/tech/consulting, NYC-heavy.
 - **Warm / active (health-bio-AI):** [[Arielle (Forus Health)]] (Forus Health — potential post-grad team; reconnect near grad) · [[Sean Tunis]] (JHTV mentor) · [[Christina DeMur]] (JHTV, Tech Dev) · [[Dhevi Kumar]] (Microsoft Health) · [[Kahlil DSouza]] (GondolaBio/BridgeBio) · [[Nancy Kass]] (Hopkins bioethics + FDA).
 
+## Key targets — neuro-AI vertical
+- [[neurotech]] — industry overview: BCI + brain-inspired AI + neurostimulation; $2.36B funded Q1 2025–Q1 2026; Cole's strongest-fit vertical.
+- [[flourish]] — Bezos-backed ($500M/$2.5B), brain-inspired AI (Cortex AI); warmest path = [[jhtv]] (cofounder Joshua Vogelstein is JHU faculty) + [[catalio-capital]] (Baltimore; Flourish backer).
+- [[catalio-capital]] — neuro/science VC; second warm route.
+
 ## Knowledge (wiki)
 - Future of work / jobs in the AI era: [[future-of-work-claude-tag]], [[the-capability-curve]], [[ai-native-enterprise-scale]], [[running-ai-native-engineering-org]], [[natural-language-coding]]. _(Useful for positioning.)_
 

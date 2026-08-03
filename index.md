@@ -157,6 +157,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[fulbright-us-student-program]] — the fellowship, Cole's Open Study/Research application, components, funding, deadlines, Duke endorsement.
 
 ### Job-search targets — neuro-AI (see [[Job Search]])
+- [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 
 ## Concepts
@@ -180,6 +181,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-memory]] — auto-memory + experimental "Auto Dream" consolidation.
 - [[token-context-management]] — strategies for context hygiene, compaction, sub-agent isolation, and CLAUDE.md sizing.
 - [[claude-code-skills]] — reusable skills; Skill Creator, evals, trigger tuning.
+- [[claude-code-skill-creation-playbook]] — end-to-end practical guide: anatomy, description tuning, Skill Creator + evals, dynamic context injection, subagent execution (web-grounded Aug 2026).
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
 - [[claude-code-computer-use]] · [[claude-code-remote-control]] · [[claude-code-imessage]] — control & remote access (stubs).

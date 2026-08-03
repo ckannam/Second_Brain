@@ -46,4 +46,4 @@ this vault's [[llm-wiki-pattern|file-based memory]] design — a genuine talking
 [[kronos-financial-foundation-model|Kronos]] points it at **financial markets**, and Chai at
 **antibodies** — a theme worth tracking (tokenize a domain → pre-train autoregressively).
 
-Related: [[neuroscience-of-behavior]] · [[jhtv]] · [[target-orgs]] · [[outreach-pipeline]] · [[kronos-financial-foundation-model]].
+Related: [[neuroscience-of-behavior]] · [[neurotech]] · [[jhtv]] · [[target-orgs]] · [[outreach-pipeline]] · [[kronos-financial-foundation-model]].
