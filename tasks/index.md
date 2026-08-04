@@ -117,6 +117,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 
 ### Sourcing & verification
 - [ ] @cloud (Optional) Deeper notes on specific [[build-sell-claude-code-course]] chapters. (added 2026-07-24)
+    - ⏳ progress 2026-08-04: rebuilt [[build-sell-claude-code-course]] from a 23-line skeleton into a full **30-chapter map** (grounded in the raw transcript's own Course Outline), each chapter cross-linked to the vault page(s) that deep-dive it — so the hub now navigates the whole Nate-Herk batch. **Remaining:** a few chapters still have no dedicated page (Second Workflow, 3D Animated Websites, Pricing AI Workflows, Delivering AI Projects, Fun Hacks) — write standalone deep-dives only if a chapter proves reusable enough to warrant its own page.
 
 ## Done
 
