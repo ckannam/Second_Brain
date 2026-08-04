@@ -184,6 +184,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
 - [[claude-code-computer-use]] · [[claude-code-remote-control]] · [[claude-code-imessage]] — control & remote access (stubs).
 - [[claude-code-agent-teams]] · [[claude-code-subagents]] — parallel & delegated agents.
+- [[claude-code-worktrees]] — git-worktree file isolation so parallel sessions/sub-agents don't collide (`--worktree`, `isolation: worktree`).
 - [[claude-code-channels]] · [[claude-code-hooks]] · [[claude-code-browser-automation]] — access, notifications, browser.
 - [[claude-md-router]] — Level-1 `CLAUDE.md` router. · [[skills-vs-subagents]] — when to use which.
 

@@ -67,7 +67,7 @@ inline here.
   and Auto Mode in [[claude-code-auto-mode-permissions]]; context side in
   [[token-context-management]].
 - **7:50:09 GitHub & Worktrees** — version control + parallel worktrees to run several
-  agent tasks side by side.
+  agent tasks side by side → [[claude-code-worktrees]].
 - **7:56:45 Fun Hacks** — grab-bag of smaller tricks.
 
 ### Business — selling what you build (8:25:06 – end)
