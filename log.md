@@ -875,3 +875,12 @@ Built Tier-1 networking-prep brief for cold LinkedIn outreach to **R. Jacob Voge
 CRM record + `crm/prep/Jacob Vogelstein.md` (6-section brief + LinkedIn connection note + full message + a
 learning-only cortex/hippocampus explainer for Cole). Added Tier-1 row to [[outreach-pipeline]]; updated
 crm/index; reciprocated links from [[flourish]] + [[catalio-capital]]. Channel = LinkedIn (3rd-degree, no email).
+
+## [2026-08-04] crm/prep + outreach | Joshua T. Vogelstein (Flourish cofounder, JHU)
+Cole provided `jovo@jhu.edu` — which is **Joshua** (JHU BME prof + [[flourish|Flourish]] cofounder), not
+brother **Jacob** (the Catalio VC prepped earlier). Flagged the mix-up; Cole chose to target **Joshua** (warmer
+Hopkins-faculty tie via [[jhtv|JHTV]]). Built `crm/prep/Joshua Vogelstein.md` (6-section brief, hook =
+fly-connectome-~10×-transformer → Flourish's efficiency bet), **created a Gmail draft** to jovo@jhu.edu
+(subject "Hopkins student (JHTV) — your connectome work + Flourish", 20-min learn ask). Updated
+[[Joshua Vogelstein]] CRM (email + prep link + next action), added Tier-1 `drafted` row to [[outreach-pipeline]],
+updated crm/index. Follow-up ~Aug 14 if no reply.
