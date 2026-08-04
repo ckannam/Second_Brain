@@ -867,3 +867,11 @@ Researched fedtech.io/team → top pick **Iris Briancon (Head of Tech Transfer &
 co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — both role-mirror Cole's
 JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
 Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
+
+## [2026-08-04] crm/prep | R. Jacob Vogelstein (Catalio / Flourish)
+Built Tier-1 networking-prep brief for cold LinkedIn outreach to **R. Jacob Vogelstein** (Co-Founder & MP,
+[[catalio-capital|Catalio]]; neuroscientist-turned-VC; [[flourish|Flourish]] investor). Key insight: Flourish's
+"core algorithm" thesis = the **IARPA MICrONS** program he ran → the outreach hook. Created [[Jacob Vogelstein]]
+CRM record + `crm/prep/Jacob Vogelstein.md` (6-section brief + LinkedIn connection note + full message + a
+learning-only cortex/hippocampus explainer for Cole). Added Tier-1 row to [[outreach-pipeline]]; updated
+crm/index; reciprocated links from [[flourish]] + [[catalio-capital]]. Channel = LinkedIn (3rd-degree, no email).

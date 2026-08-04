@@ -7,8 +7,9 @@ created: 2026-07-29
 # Catalio Capital
 
 A **Baltimore/NYC venture & investment firm** focused on **breakthrough science and neuro/health tech**,
-managed in part by **Jacob Vogelstein** (neuroscientist-turned-VC, co-founder of the JHU Open Connectome
-Project and brother of [[Joshua Vogelstein]]). An investor in **[[flourish|Flourish]]**. Source:
+managed in part by **[[Jacob Vogelstein|R. Jacob Vogelstein]]** (neuroscientist-turned-VC, ex-IARPA
+**MICrONS** program manager, co-founder of the JHU Open Connectome Project and brother of
+[[Joshua Vogelstein]]). An investor in **[[flourish|Flourish]]**. Source:
 [[flourish-wired-core-algorithm|WIRED, Jun 2026]].
 
 ## Why it's on Cole's radar
