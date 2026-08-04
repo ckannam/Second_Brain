@@ -9,48 +9,39 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-01
+## Night of 2026-08-04
 
 ### Git state note
-`origin/main` was force-updated to the detached-HEAD vault-backup chain (as of last
-night's vault-state rescue). Local `main` was synced via `git reset --hard origin/main`
-before Phase 1. Working from that unified base.
+Working on the harness-designated branch (`claude/dazzling-newton-sibuex`), which already
+carries the latest vault state (vault-backup chain through 2026-08-03) on top of a stale
+`origin/main` (2026-07-31). **The `main` boundary / Phase-1 fast-track auto-merge is disabled
+in this cloud environment** — the harness scopes work to one branch → one PR, and the clean
+baseline made a direct-to-main heal moot anyway. Whole run → one morning PR.
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
 - Pre-existing defect set: **empty** — Phase 1 fast-track lane has nothing to heal tonight.
 
-### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
+### Selected (@cloud, bounded) — top-down, synced destinations only
 
-1. **Token max** → bounded deliverable: create `.claude/skills/token-context-management/SKILL.md`
-   — turns the existing `[[token-context-management]]` concept page (created 2026-07-31) into
-   an actionable skill trigger Cole can invoke in any Claude Code session. Explicit `@cloud`
-   tag; vault-internal only; no local data.
-
-2. **Agent max** → bounded deliverable: create `.claude/skills/orchestrate-agents/SKILL.md`
-   — turns the existing `[[claude-code-agent-teams]]` concept page (created 2026-07-31) into
-   a skill that guides agent-team orchestration decisions. Explicit `@cloud` tag; vault-internal
-   only; no local data.
+1. **Deeper notes on build-sell-claude-code-course chapters** (@cloud, "Sourcing &
+   verification") → bounded deliverable: rebuild the 23-line `[[build-sell-claude-code-course]]`
+   skeleton into a full **30-chapter map**, each chapter cross-linked to the vault page(s)
+   that deep-dive it. Grounded in the raw transcript's own Course Outline. Pure connection
+   density — the umbrella now navigates the whole ~40-page Nate-Herk batch. Vault-internal + web.
 
 ### Considered but skipped this night (with reason)
-- **Train skills** (@cloud): open-ended ("build & optimize skills with Skill Creator + evals");
-  no single bounded artifact. Deferred.
-- **Prompt max** (@cloud): 3 skills shipped 2026-07-26; "refining/eval-testing" is interactive.
-  Deferred.
-- **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — open-ended.
-  Deferred.
-- **Improve + general skills** (@cloud): open-ended. Deferred.
-- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment. Deferred.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
-  human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU. Outward action.
-  Deferred.
-- **Watch [[agent-hub]]** (@cloud): completed last night (MODE B created `agent-hub.md`).
-  Still open in tasks as "standing monitor" — not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority.
-  Deferred.
+- **`raw/assets/` 5CAST clip** (wrongful-convictions podcast, landed 2026-08-04): **ingest
+  is the @local lane's job by explicit design** ("daily-ingest … only ingests raw/assets/
+  clips … scoped to stay out of the cloud lane"). Not attempted in the cloud; awaits the Mac.
+- **Train skills / Skill max / Improve + general skills** (@cloud): open-ended, no single
+  bounded artifact. Deferred (as prior nights).
+- **Prompt max** (@cloud): 3 skills shipped 2026-07-26; remaining refinement is interactive/eval. Deferred.
+- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`; needs human judgment. Deferred.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the frozen ratchet; needs human sign-off. Deferred.
+- **Try autoresearch loop hands-on** (@cloud): requires an external/rented GPU — outward action. Deferred.
+- **Watch [[agent-hub]]** (@cloud): standing monitor; enriched last night. No buildable deliverable tonight.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(networking/Fulbright, CRM enrichment, Neuro pipeline, finance decisions, Uship, etc.).
+(networking/Fulbright, CRM enrichment, Neuro pipeline, finance decisions, Uship, clip ingest, etc.).
