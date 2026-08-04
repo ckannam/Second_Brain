@@ -29,8 +29,9 @@ Target: a synthetic brain on **~50 watts**, that **learns continuously**. Source
   Flourish; Columbia neuroscience doctorate. Repeat founder, the public face.
 - **Rob Williams** — co-founder; ex-Amazon S-team (Alexa); the operator who pitched Bezos.
 - **[[Joshua Vogelstein]]** — co-founder and **Johns Hopkins BME professor**; connectome scientist.
-- **Jacob Vogelstein** — investor/adviser; **[[catalio-capital|Catalio Capital]]** managing partner
-  (Baltimore/NYC); Joshua's brother.
+- **[[Jacob Vogelstein|R. Jacob Vogelstein]]** — investor/adviser; **[[catalio-capital|Catalio Capital]]**
+  managing partner (Baltimore/NYC); Joshua's brother; ran IARPA **MICrONS** — the program whose thesis
+  Flourish is now the venture-scale continuation of. **Cole outreach target** ([[Jacob Vogelstein|prep]]).
 - Advisers/team: Greg Wayne (DeepMind/Project Astra), Ben Recht (UC Berkeley), Vish Sivakumar, and
   ex-Meta neuroscientists (Nathan Danielson, Sean Bittner, Josh Morgan).
 

@@ -887,3 +887,20 @@ base-ref, `.worktreeinclude`, shared-`.git`). Web-grounded vs official docs. Fil
 "GitHub & Worktrees" course chapter I'd left unlinked; reciprocal links from
 [[claude-code-agent-teams]], [[claude-code-subagents]], index, and the Claude Mastery bucket.
 Phase 5: one morning PR (night branch → main). HEALTH_DEBT stays 0.
+
+## [2026-08-04] crm/prep | R. Jacob Vogelstein (Catalio / Flourish)
+Built Tier-1 networking-prep brief for cold LinkedIn outreach to **R. Jacob Vogelstein** (Co-Founder & MP,
+[[catalio-capital|Catalio]]; neuroscientist-turned-VC; [[flourish|Flourish]] investor). Key insight: Flourish's
+"core algorithm" thesis = the **IARPA MICrONS** program he ran → the outreach hook. Created [[Jacob Vogelstein]]
+CRM record + `crm/prep/Jacob Vogelstein.md` (6-section brief + LinkedIn connection note + full message + a
+learning-only cortex/hippocampus explainer for Cole). Added Tier-1 row to [[outreach-pipeline]]; updated
+crm/index; reciprocated links from [[flourish]] + [[catalio-capital]]. Channel = LinkedIn (3rd-degree, no email).
+
+## [2026-08-04] crm/prep + outreach | Joshua T. Vogelstein (Flourish cofounder, JHU)
+Cole provided `jovo@jhu.edu` — which is **Joshua** (JHU BME prof + [[flourish|Flourish]] cofounder), not
+brother **Jacob** (the Catalio VC prepped earlier). Flagged the mix-up; Cole chose to target **Joshua** (warmer
+Hopkins-faculty tie via [[jhtv|JHTV]]). Built `crm/prep/Joshua Vogelstein.md` (6-section brief, hook =
+fly-connectome-~10×-transformer → Flourish's efficiency bet), **created a Gmail draft** to jovo@jhu.edu
+(subject "Hopkins student (JHTV) — your connectome work + Flourish", 20-min learn ask). Updated
+[[Joshua Vogelstein]] CRM (email + prep link + next action), added Tier-1 `drafted` row to [[outreach-pipeline]],
+updated crm/index. Follow-up ~Aug 14 if no reply.
