@@ -9,53 +9,43 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-05
+## Night of 2026-08-05 (two runs)
+
+> **Note:** Two autoresearch runs fired on 2026-08-05. The **first run (06:12 UTC)** was a
+> pure-maintenance run (no build items selected; MODE B only: created
+> `wiki/concepts/test-driven-development.md`). This file reflects the **second run (≈14:00
+> UTC)**, which ran the full Phases 0–5 with build items selected.
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing objective defect set: **empty** — Phase 1 fast-track lane has nothing to heal.
-- Soft check: 4 dangling-link warnings are **false positives** — table-escaped aliased
-  wikilinks (`[[page\|alias]]` inside markdown tables, the correct Obsidian syntax). Targets
-  all exist (retrieval-practice, claude-code-subagents, ingest-query-lint, marsh-memory-lab).
-  Not fixed — "fixing" the escape would break the table rendering; scorer is frozen anyway.
+- Pre-existing defect set: **empty** — Phase 1 fast-track lane has nothing to heal tonight.
 
-### Selected (@cloud, bounded) — NONE (pure-maintenance night)
-No bounded, non-thin `@cloud` **build** deliverable is available tonight. The concrete
-buildable `@cloud` items were shipped over the prior week (Token max, Agent max skills; the
-neuro/Fulbright/benchmark research threads). What remains is open-ended, needs human
-sign-off, touches frozen systems, or needs local data — see skip reasons below. So tonight is
-maintenance + one MODE B generative proposal (Phase 4).
+### Selected (@cloud, bounded to ≤3) — second run
 
-### MODE B (Phase 4) — the night's one deliverable
-- **`wiki/concepts/test-driven-development.md`** (new). Grounds the two existing dangling
-  `[[test-driven-development]]` refs from `[[ai-native-engineering-org]]` +
-  `[[running-ai-native-engineering-org]]`. Angle: Fiona Fung's "Claude removes the
-  test-writing tax → TDD as the agentic control surface / tests-as-executable-spec"; ties to
-  spec-drift + `[[adversarial-code-review]]`, `[[mechanism-over-output]]`, and the
-  frozen-evaluator parallel in `[[vault-autoresearch]]`. Passes the new-page test (no owning
-  page; distinct reusable concept; 2 real inbound refs). Indexed + reciprocal links added.
+1. **Skill max** → bounded deliverable: substantially enrich `wiki/concepts/claude-code-skills.md`
+   (previously very sparse — key ideas only, no practical guidance) with vault-sourced and
+   web-researched best practices on the Skill Creator workflow, evals, trigger tuning, and
+   anti-patterns. Explicit `@cloud` tag; vault-internal + web only; no local data.
+
+2. **Watch agent-hub** → standing monitor: web-check for any updates since the entity page was
+   written (2026-07-31); enrich the "Evaluation" section if meaningful new info found. Explicit
+   `@cloud` tag; vault-internal + web; no local data.
 
 ### Considered but skipped this night (with reason)
-- **Train skills / Skill max / Improve + general skills** (@cloud): open-ended, no single
-  bounded artifact; "improve an existing skill" would mean editing mature core skills
-  (wiki-query, vault-autoresearch, vault-improve) whose behavior is operational — effectively
-  needs human sign-off. Deferred.
-- **Prompt max** (@cloud): 3 skills already shipped; remaining "refining/eval-testing" is
-  interactive. Deferred.
-- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment. Deferred.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): edits the frozen ratchet system; needs
-  human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires renting external GPU — outward action.
+- **Train skills** (@cloud): open-ended; "Skill max" covers the concrete portion. Deferred.
+- **Prompt max** (@cloud): 3 skills shipped 2026-07-26; "refining/eval-testing" is interactive.
   Deferred.
-- **Watch [[agent-hub]]** (@cloud): page already fully developed with an evaluation
-  (2026-07-31); standing monitor, no buildable deliverable and no new source material.
-- **(Optional) Deeper notes on build-sell-claude-code-course chapters** (@cloud): would need a
-  re-read of the ~830KB raw transcript; lowest priority / optional. Deferred.
+- **Improve + general skills** (@cloud): open-ended; no single bounded artifact. Deferred.
+- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
+  requires human sign-off before touching the loop's design. Deferred.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
+  human sign-off on weight changes. Deferred.
+- **Try autoresearch loop hands-on** (@cloud): requires external GPU — outward action;
+  not cloud-doable unattended. Deferred.
+- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority
+  this night; individual chapters already have dedicated source pages in the vault. Deferred.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(networking/Fulbright, Claude Corps, CRM enrichment, Neuro pipeline, finance decisions, Uship,
-password holder, IG/YouTube exports, etc.). Also: a new clip landed in `raw/assets/` (5CAST
-"How U.S. Prisons Wrongfully Convict Millions") — **ingest is the `@local` daily-ingest lane's
-job, deliberately scoped out of the cloud lane to avoid collision**, so it is left untouched.
+(Christy Wyskiel meeting, networking/Fulbright, CRM enrichment, Neuro pipeline, finance
+decisions, Uship, Claude Corps application, etc.).
