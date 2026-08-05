@@ -904,3 +904,11 @@ fly-connectome-~10×-transformer → Flourish's efficiency bet), **created a Gma
 (subject "Hopkins student (JHTV) — your connectome work + Flourish", 20-min learn ask). Updated
 [[Joshua Vogelstein]] CRM (email + prep link + next action), added Tier-1 `drafted` row to [[outreach-pipeline]],
 updated crm/index. Follow-up ~Aug 14 if no reply.
+
+## [2026-08-05] crm/prep | Christy Wyskiel (head of JHTV) — meeting today
+Her 15-min advice ask (sent 2026-07-29) landed → conversation TODAY (Wed Aug 5). Built confidence-forward
+prep `crm/prep/Christy Wyskiel.md` (6 sections + a "why you have the high ground" opener). Core thesis: Cole
+IS her mission — Baltimore kid (BCPS-servant parents) × works on her Capital Strategy team × founder-profile
+(neuro/chem + Uship operator + AI builder). Refreshed her track record (174 companies, $378M rev, $3B+ VC,
+UpSurge cofounder, Abell trustee) + confirmed contact `wyskiel@jhu.edu`. Ask = advice + stay-in-touch, NO job
+ask. Updated CRM + [[outreach-pipeline]] (status → meeting). Post-meeting: thank-you <24h + log what she said.
