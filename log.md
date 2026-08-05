@@ -904,3 +904,11 @@ web-verified no new material (1.5k stars, no tagged releases); updated page with
 Phase 3: Skill max progress note added; agent-hub task marked done and moved to Done.
 Phase 4 (MODE B run 2): created [[outreach-pipeline]] concept page (tier structure, Monday batch
 runbook, templates, reply-rate tracker plan, current pipeline state, auto-trigger design); indexed.
+
+## [2026-08-05] crm/prep | Christy Wyskiel (head of JHTV) — meeting today
+Her 15-min advice ask (sent 2026-07-29) landed → conversation TODAY (Wed Aug 5). Built confidence-forward
+prep `crm/prep/Christy Wyskiel.md` (6 sections + a "why you have the high ground" opener). Core thesis: Cole
+IS her mission — Baltimore kid (BCPS-servant parents) × works on her Capital Strategy team × founder-profile
+(neuro/chem + Uship operator + AI builder). Refreshed her track record (174 companies, $378M rev, $3B+ VC,
+UpSurge cofounder, Abell trustee) + confirmed contact `wyskiel@jhu.edu`. Ask = advice + stay-in-touch, NO job
+ask. Updated CRM + [[outreach-pipeline]] (status → meeting). Post-meeting: thank-you <24h + log what she said.
