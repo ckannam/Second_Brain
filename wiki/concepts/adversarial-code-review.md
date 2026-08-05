@@ -13,7 +13,7 @@ A **second model (or agent) critiques the first's output**, the critique feeds b
 
 ## What it's good (and not good) for
 
-Good at: style/lint, obvious bugs, **spec-drift** (code that no longer matches the spec), consistency enforcement.
+Good at: style/lint, obvious bugs, **spec-drift** (code that no longer matches the spec), consistency enforcement. Spec-drift detection pairs naturally with [[test-driven-development]] — the failing-test-first habit *is* the spec checked into the repo, giving the reviewer a machine-checkable contract to compare against.
 
 Keep humans for: legal review, risk tolerance, trust boundaries, and **product sense / taste** — the judgment call Fiona described as "the snowman that was actually Mr. Peanut." An AI reviewer can catch that a component renders, not that it looks wrong.
 

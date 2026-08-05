@@ -884,3 +884,16 @@ fly-connectome-~10×-transformer → Flourish's efficiency bet), **created a Gma
 (subject "Hopkins student (JHTV) — your connectome work + Flourish", 20-min learn ask). Updated
 [[Joshua Vogelstein]] CRM (email + prep link + next action), added Tier-1 `drafted` row to [[outreach-pipeline]],
 updated crm/index. Follow-up ~Aug 14 if no reply.
+
+## [2026-08-05] autoresearch night | MODE B: test-driven-development concept page
+Pure-maintenance night (Phase 0 selected no bounded @cloud build; HEALTH_DEBT already 0, no
+objective self-heal). MODE B generative proposal: created [[test-driven-development]]
+(wiki/concepts) — grounds the two existing dangling refs from [[ai-native-engineering-org]] +
+[[running-ai-native-engineering-org]]. Angle = Fiona Fung's "Claude removes the test-writing
+tax → TDD as the agentic control surface / executable spec"; ties to spec-drift +
+[[adversarial-code-review]], [[mechanism-over-output]], and the frozen-evaluator parallel in
+[[vault-autoresearch]]. Added reciprocal prose link in [[adversarial-code-review]], indexed under
+"AI-native work & industry", linked from the [[Claude Mastery]] bucket. Re-scored: HEALTH_DEBT 0
+(no build-introduced debt). Note: score.py's soft dangling-link check false-positives on 4
+table-escaped wikilinks (`[[page\|alias]]` inside markdown tables) — correct Obsidian syntax, left
+as-is; scorer is frozen.
