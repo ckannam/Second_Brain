@@ -73,6 +73,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] @cloud **Train skills** — build & optimize skills with the Skill Creator + evals workflow, for both vault upkeep and faster building. [[claude-code-skills]] [[claude-code-skills-update]] (added 2026-07-24)
 - [ ] @cloud **Prompt max** — master prompt quality (structured prompts, clarifying-question prompting) as a reusable skill. ✅ **Shipped 3 prompt-architect skills 2026-07-26** (`claude-chat-prompt` / `claude-cowork-prompt` / `claude-code-prompt`); keep refining/eval-testing them. [[prompt-engineering-playbook]] [[the-prompting-playbook]] [[master-claude-code-36min-beginner]] [[json-prompting]] (added 2026-07-24)
 - [ ] @cloud **Skill max** — master reliable skill creation + trigger tuning. [[master-claude-code-skills-28min]] [[claude-code-skills]] (added 2026-07-24)
+    ⏳ progress 2026-08-05: substantially enriched [[claude-code-skills]] concept page (skill anatomy, Skill Creator workflow, evals + grader-types + QA loop, trigger-tuning patterns, skills-vs-subagents table, anti-patterns, vault inventory); remaining: run Skill Creator evals on existing vault skills + iterate descriptions.
 - [ ] @cloud **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
 
 ### Personal bucket — finance
@@ -113,13 +114,13 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] @cloud **Build the source-seeking (MODE B) rung** — extend the loop to propose *new sources to ingest*, not just heal defects (the furthest roadmap rung). [[proactive-agents]] [[extending-the-llm-wiki]] (added 2026-07-24)
 - [ ] @cloud Tune HEALTH_DEBT weights / add metrics as the vault grows (e.g. promote reciprocal-link gaps into the score once noise is understood). [[vault-autoresearch]] (added 2026-07-24)
 - [ ] @cloud Try an **autoresearch loop hands-on** — clone `karpathy/autoresearch`, run it via [[claude-code]] on a rented GPU (Colab T4 / Lambda / RunPod), or adapt the pattern to a business metric (cold email, CRO). [[autoresearch]] [[autoresearch-repo]] (added 2026-07-24)
-- [ ] @cloud Watch **[[agent-hub]]** ("GitHub for agents") — evaluate whether it's relevant to this vault's multi-agent direction. [[extending-the-llm-wiki]] (added 2026-07-24)
-
 ### Sourcing & verification
 - [ ] @cloud (Optional) Deeper notes on specific [[build-sell-claude-code-course]] chapters. (added 2026-07-24)
 
 ## Done
 
+- [x] @cloud Watch **[[agent-hub]]** ("GitHub for agents") — evaluate whether it's relevant to this vault's multi-agent direction. [[extending-the-llm-wiki]] (added 2026-07-24, done 2026-08-05)
+  ✅ Created [[agent-hub]] entity page (MODE B 2026-08-01). Evaluation: relevant as a future-direction signal for the vault's multi-agent trajectory, not an immediate action. 2026-08-05 standing monitor: no new material (repo 1.5k stars, no tagged releases, no post-launch announcements since March 2026 launch burst). Item closed.
 - [x] @cloud **Agent max** — master agent orchestration: sub-agents + agent teams. [[claude-code-subagents]] [[claude-code-agent-teams]] (added 2026-07-24, done 2026-08-01)
   ✅ 2026-07-31: created [[claude-code-agent-teams]] concept page + enriched [[claude-code-subagents]]; 2026-08-01: shipped `.claude/skills/orchestrate-agents/SKILL.md` (single→sub→team→CMA decision ladder, tmux setup, pitfall table).
 - [x] @cloud **Token max** — build a token/context-management skill & mastery (efficient context use, compaction, memory). [[claude-code-memory]] (added 2026-07-24, done 2026-08-01)
