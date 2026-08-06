@@ -229,6 +229,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### AI-native work & industry
 - [[ai-native-engineering-org]] — the bottlenecks moved; rewrite the norms.
+- [[test-driven-development]] — write the failing test first; in the agentic era the test is the agent's spec + guardrail (code-side twin of eval-first authoring).
 - [[html-over-markdown-specs]] — HTML for legible, verification-native artifacts. · [[bitter-lesson]] — don't over-constrain capable models.
 - [[governed-skills-framework]] — teach + govern workflows so compliance says yes. · [[ai-for-science]] — compress 50–100 yrs into 5–10.
 

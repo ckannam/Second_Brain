@@ -908,3 +908,11 @@ anti-patterns. Reciprocal links added from [[claude-code-skills]], `index.md`, a
 Appended ⏳ progress notes (2026-08-06) to the three Claude-Mastery cluster items advanced by the
 skill-authoring-playbook build (Train skills, Skill max, Improve+general). None marked done — all
 are ongoing mastery goals; the page is a materially-advancing artifact, not completion.
+
+## [2026-08-06] autoresearch night — Phase 4 MODE B | test-driven-development
+Generative enrichment: created `wiki/concepts/test-driven-development.md`, filling a genuine
+dangling link that TWO existing pages already reference ([[ai-native-engineering-org]] +
+[[running-ai-native-engineering-org]]). Frames TDD in the agentic era — the test as the agent's
+objective spec + spec-drift guardrail, the code-side twin of eval-first skill authoring
+([[skill-authoring-playbook]]/[[evals-for-taste]]) and the vault's own HEALTH_DEBT ratchet.
+Inbound links already reciprocal; added to index (AI-native work). HEALTH_DEBT 0.
