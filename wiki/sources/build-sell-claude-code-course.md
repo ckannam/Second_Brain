@@ -4,19 +4,21 @@ channel: "Nate Herk"
 url: "https://www.youtube.com/watch?v=mpALXah_PBg"
 title: "Build & Sell with Claude Code (10+ Hour Course)"
 created: 2026-07-24
+updated: 2026-08-04
 ---
 # Build & Sell with Claude Code — 10+ Hour Course
 
-**Thesis:** The complete zero-to-professional Claude Code course — setup through building/deploying/selling — with no hand-written code. **(Summarized from the ~830KB transcript's structure, not a full read.)**
+**Thesis:** The complete zero-to-professional Claude Code course — setup through
+building, deploying, and *selling* automations — with no hand-written code. It is the
+**umbrella source**: nearly every other Nate Herk page in this vault deep-dives a single
+chapter of this course, so this page doubles as a **map of content** into that batch.
 
-## Curriculum (timestamped chapters)
-- **Foundations:** Why learn this · Getting set up · Operations · Tokens & context windows · `CLAUDE.md`.
-- **Building:** First & second workflows · Deploying automations · Project architecture & commands · [[rag|RAG]] · turning an n8n workflow into an app.
-- **Web/creative:** Website-building hacks · 3D animated websites · APIs & MCPs · [[google-workspace-cli|Google CLI]].
-- **Agents:** Executive assistant · [[claude-code-skills|Skills]] · [[claude-code-subagents|Sub-agents]] · [[claude-code-agent-teams|Agent teams]] · browser automation · permissions & context mgmt · GitHub & worktrees · fun hacks.
-- **Business:** The selling-AI mindset · finding clients · first client in 7 days · pricing · delivering projects.
+## Chapter map (timestamps → the vault page that expands each)
 
-This course is the umbrella that nearly every other Nate Herk source in this vault expands on a single chapter of.
+Grounded in the transcript's own outline (`raw/Processed/Build & Sell with Claude Code
+(10+ Hour Course).md`, "Course Outline" at 00:00). Each row: the course chapter and the
+vault page(s) that carry the full treatment. Chapters without a dedicated page are covered
+inline here.
 
 ---
 

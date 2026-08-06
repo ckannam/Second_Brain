@@ -868,6 +868,26 @@ co-lead **Thomas B. Shiell (Director, Tech & Commercialization Strategy)** — b
 JHTV Capital Strategy work; door-opener **Ellen Erickson (Sr Mgr, Venture Relations)**. Play:
 Ian flags internally → Cole reaches Iris/Thomas directly. Filed to startup-tracker/companies/fedtech.md.
 
+## [2026-08-04] autoresearch | Nightly loop — 2026-08-04
+
+Phase 0: HEALTH_DEBT = 0, empty pre-existing defect set. Phase 1 fast-track lane empty.
+Regenerated `autoresearch/nightly-queue.md`. Note: the `main` branch boundary is disabled
+in this cloud environment (harness scopes work to one branch → one PR), so no direct-to-main
+heals — the clean baseline made that moot anyway.
+Phase 2 (build): deepened `wiki/sources/build-sell-claude-code-course.md` from a 23-line
+skeleton into a full **30-chapter map** (grounded in the raw transcript's Course Outline),
+each chapter cross-linked to the vault page(s) that deep-dive it — the umbrella now navigates
+the whole ~40-page Nate-Herk batch. (@cloud "deeper notes on course chapters" task, advanced.)
+  ↳ Skipped: the `raw/assets/` 5CAST clip (wrongful-convictions podcast) — ingest is the
+    @local lane's job by design ("scoped to stay out of the cloud lane"); flagged in the queue.
+Phase 3 (self-heal, MODE A): HEALTH_DEBT already 0; no objective fix. Logged skip.
+Phase 4 (MODE B): created `wiki/concepts/claude-code-worktrees.md` — git-worktree file
+isolation for parallel Claude Code sessions/sub-agents (`--worktree`, `isolation: worktree`,
+base-ref, `.worktreeinclude`, shared-`.git`). Web-grounded vs official docs. Fills the
+"GitHub & Worktrees" course chapter I'd left unlinked; reciprocal links from
+[[claude-code-agent-teams]], [[claude-code-subagents]], index, and the Claude Mastery bucket.
+Phase 5: one morning PR (night branch → main). HEALTH_DEBT stays 0.
+
 ## [2026-08-04] crm/prep | R. Jacob Vogelstein (Catalio / Flourish)
 Built Tier-1 networking-prep brief for cold LinkedIn outreach to **R. Jacob Vogelstein** (Co-Founder & MP,
 [[catalio-capital|Catalio]]; neuroscientist-turned-VC; [[flourish|Flourish]] investor). Key insight: Flourish's

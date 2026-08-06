@@ -68,5 +68,10 @@ Agent team       → tasks that benefit from parallelism + cross-review
 CMA platform     → production scale, shared memory, dreaming, outcomes
 ```
 
+Parallelism is only safe when the agents don't stomp each other's files —
+[[claude-code-worktrees]] give each peer its own isolated worktree so concurrent edits
+never collide.
+
 Related: [[claude-code-subagents]], [[parallel-agents]], [[multi-agent-orchestration]],
-[[skills-vs-subagents]], [[agent-observability]], [[tmux]], [[claude-managed-agents]].
+[[claude-code-worktrees]], [[skills-vs-subagents]], [[agent-observability]], [[tmux]],
+[[claude-managed-agents]].
