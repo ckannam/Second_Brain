@@ -71,8 +71,10 @@ _Goal: the app alongside the [[neuro-channel|Neuro]] channel — **not another A
 ### Claude Mastery — skills & agents
 _Goal: create the best possible Claude skills to (a) **maintain & maximize** this second brain and (b) build **alongside** it at a much faster rate._
 - [ ] @cloud **Train skills** — build & optimize skills with the Skill Creator + evals workflow, for both vault upkeep and faster building. [[claude-code-skills]] [[claude-code-skills-update]] (added 2026-07-24)
+  ⏳ progress 2026-08-02: enriched [[claude-code-skills]] (anatomy, 6-step workflow, Skill Creator + evals section, examples table); remaining: hands-on Skill Creator A/B eval run + iterating on existing skills.
 - [ ] @cloud **Prompt max** — master prompt quality (structured prompts, clarifying-question prompting) as a reusable skill. ✅ **Shipped 3 prompt-architect skills 2026-07-26** (`claude-chat-prompt` / `claude-cowork-prompt` / `claude-code-prompt`); keep refining/eval-testing them. [[prompt-engineering-playbook]] [[the-prompting-playbook]] [[master-claude-code-36min-beginner]] [[json-prompting]] (added 2026-07-24)
 - [ ] @cloud **Skill max** — master reliable skill creation + trigger tuning. [[master-claude-code-skills-28min]] [[claude-code-skills]] (added 2026-07-24)
+  ⏳ progress 2026-08-02: created [[skill-trigger-tuning]] concept page (lifecycle, description patterns, A/B tuning loop, debug table); remaining: hands-on trigger tuning pass on existing vault skills + Skill Creator eval run.
 - [ ] @cloud **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
 
 ### Personal bucket — finance

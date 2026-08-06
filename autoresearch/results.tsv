@@ -20,3 +20,8 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-01T02:11	build	.claude/skills/orchestrate-agents/SKILL.md	0	0	keep	Agent max: new skill file (decision ladder + pitfall table); no score impact
 2026-08-01T02:15	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build; no build-introduced debt
 2026-08-01T02:20	B	wiki/concepts/agentic-automation-patterns.md	0	0	keep	MODE B: new concept page filling dangling [[agentic-automation-patterns]] link; 5 patterns (HITL, retry/circuit-breaker, heartbeat loop, results log, scoped permissions) + anti-pattern table; web-grounded
+2026-08-02T02:00	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed tonight
+2026-08-02T02:10	build	wiki/concepts/skill-trigger-tuning.md	0	0	keep	Skill max: new concept page (trigger lifecycle, description patterns, A/B tuning, debug table); indexed + bucket linked
+2026-08-02T02:11	build	wiki/concepts/claude-code-skills.md	0	0	keep	Train skills: enriched existing page (anatomy, 6-step workflow, Skill Creator section, examples table); no score impact (already indexed)
+2026-08-02T02:15	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build; no build-introduced debt
+2026-08-02T02:20	B	wiki/concepts/claude-code-custom-commands.md	0	0	keep	MODE B: new concept page on .claude/commands/ slash commands + 2026 unification with skills; indexed + backlink from claude-code-skills
