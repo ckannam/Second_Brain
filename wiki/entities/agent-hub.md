@@ -40,4 +40,8 @@ For the vault to benefit from Agent Hub, a natural prerequisite is the current s
 
 Agent Hub is an **exploratory/early project** (Karpathy described it this way at launch). As of this synthesis from vault sources, no new material has arrived in this vault — [[autoresearch-broke-internet-greg-isenberg]] remains the primary source. For a vault with a stabilizing nightly loop, Agent Hub is a **future-direction signal**, not an immediate action: worth tracking, not worth adopting until the single-agent loop is more deeply integrated.
 
+## Standing monitor — 2026-08-05 check
+
+Web-checked for new developments (repo, announcements, forks). **No new material.** Repo is public at github.com/karpathy/agenthub (1.5k stars, 107 forks); no tagged releases and no post-launch announcements from Karpathy. All substantive coverage dates from the original March 2026 launch burst. Status unchanged from 2026-07-31 evaluation — remains a future-direction signal, not an immediate action item.
+
 Related: [[andrej-karpathy]], [[autoresearch]], [[autoresearch-repo]], [[vault-autoresearch]], [[extending-the-llm-wiki]], [[multi-agent-orchestration]], [[parallel-agents]], [[claude-code-agent-teams]].

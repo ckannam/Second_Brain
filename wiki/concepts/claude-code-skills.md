@@ -1,6 +1,6 @@
 # Claude Code Skills
 
-Reusable capabilities you give [[claude-code]]: a folder with a markdown instruction file (name + description that controls **when it triggers**) plus optional **reference files**.
+Reusable capabilities you give [[claude-code]]: a folder with a markdown `SKILL.md` (name + trigger description) plus optional reference files. When Claude sees a prompt matching a skill's description, it loads and follows the skill automatically — or it fires on a slash command (`/skill-name`).
 
 ## Anatomy
 

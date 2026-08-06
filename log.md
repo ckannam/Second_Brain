@@ -885,6 +885,26 @@ fly-connectome-~10×-transformer → Flourish's efficiency bet), **created a Gma
 [[Joshua Vogelstein]] CRM (email + prep link + next action), added Tier-1 `drafted` row to [[outreach-pipeline]],
 updated crm/index. Follow-up ~Aug 14 if no reply.
 
+## [2026-08-05] autoresearch night (run 1) | MODE B: test-driven-development concept page
+Pure-maintenance night (Phase 0 selected no bounded @cloud build; HEALTH_DEBT already 0, no
+objective self-heal). MODE B generative proposal: created [[test-driven-development]]
+(wiki/concepts) — grounds the two existing dangling refs from [[ai-native-engineering-org]] +
+[[running-ai-native-engineering-org]]. Angle = Fiona Fung's "Claude removes the test-writing
+tax → TDD as the agentic control surface / executable spec"; ties to spec-drift +
+[[adversarial-code-review]], [[mechanism-over-output]], and the frozen-evaluator parallel in
+[[vault-autoresearch]]. Added reciprocal prose link in [[adversarial-code-review]], indexed under
+"AI-native work & industry", linked from the [[Claude Mastery]] bucket.
+
+## [2026-08-05] autoresearch (run 2) | Skill-max enrichment + agent-hub monitor + outreach-pipeline
+Second nightly run. HEALTH_DEBT=0 baseline; no Phase-1 heals.
+Phase 2: (1) substantially enriched [[claude-code-skills]] concept page — from sparse stub to full
+reference covering skill anatomy, Skill Creator workflow, evals (grader types, QA loop), trigger tuning,
+skills-vs-subagents table, anti-patterns, and vault skill inventory. (2) agent-hub standing monitor:
+web-verified no new material (1.5k stars, no tagged releases); updated page with 2026-08-05 check.
+Phase 3: Skill max progress note added; agent-hub task marked done and moved to Done.
+Phase 4 (MODE B run 2): created [[outreach-pipeline]] concept page (tier structure, Monday batch
+runbook, templates, reply-rate tracker plan, current pipeline state, auto-trigger design); indexed.
+
 ## [2026-08-05] crm/prep | Christy Wyskiel (head of JHTV) — meeting today
 Her 15-min advice ask (sent 2026-07-29) landed → conversation TODAY (Wed Aug 5). Built confidence-forward
 prep `crm/prep/Christy Wyskiel.md` (6 sections + a "why you have the high ground" opener). Core thesis: Cole
