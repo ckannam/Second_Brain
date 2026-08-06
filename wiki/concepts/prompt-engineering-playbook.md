@@ -14,6 +14,18 @@ Best practices for prompting agentic systems, from [[the-prompting-playbook]]:
 - **Output contracts** for format consistency; enforce in the **harness** where the prompt
   isn't enough.
 - **Target failure modes one at a time** against the eval.
+- **Clarifying-question prompting.** For an under-specified request, have the model **ask
+  before it answers** — e.g. *"Before you start, ask me the 3–5 questions that would most
+  change your output; be concise."* Resolving ambiguity up front collapses several correction
+  round-trips into one and measurably lifts accuracy on ambiguous queries (modeling the
+  follow-up turn gives ~5% F1 / ~3% better ask-vs-answer judgment in the research). It's the
+  interactive dual of *output contracts*: contracts pin the **output** shape, clarifying
+  questions pin the **input** intent. This is the core move behind the vault's shipped
+  **prompt-architect skills** (`claude-chat-prompt` / `claude-cowork-prompt` /
+  `claude-code-prompt`) — understand the task (asking when unsure) *then* emit the optimal
+  prompt. Related move: **Rephrase-and-Respond** — ask the model to restate the question in
+  its own words before answering, surfacing a misread cheaply.
 
 Related: [[json-prompting]], [[html-over-markdown-specs]], [[bitter-lesson]] (don't
-over-constrain capable models), [[evals-for-taste]].
+over-constrain capable models), [[evals-for-taste]], [[writing-reliable-skills]] (the same
+evals-before-edits discipline, applied to skills).
