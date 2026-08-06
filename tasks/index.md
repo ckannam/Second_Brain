@@ -117,10 +117,14 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] @cloud Try an **autoresearch loop hands-on** — clone `karpathy/autoresearch`, run it via [[claude-code]] on a rented GPU (Colab T4 / Lambda / RunPod), or adapt the pattern to a business metric (cold email, CRO). [[autoresearch]] [[autoresearch-repo]] (added 2026-07-24)
 
 ### Sourcing & verification
-- [ ] @cloud (Optional) Deeper notes on specific [[build-sell-claude-code-course]] chapters. (added 2026-07-24)
+(no open items)
 
 ## Done
 
+- [x] @cloud (Optional) Deeper notes on specific [[build-sell-claude-code-course]] chapters. (added 2026-07-24, done 2026-08-03)
+  ✅ Added Skills chapter notes (Three Ms framework, Workflows-beat-agents thesis, Skill Creator, AIOS masterclass reference) + Agent Teams chapter notes (tmux panes, git worktrees per-agent, orchestrator session, 3–5 agent limit) to the source summary page.
+- [x] @cloud Watch **[[agent-hub]]** ("GitHub for agents") — evaluate whether it's relevant to this vault's multi-agent direction. [[extending-the-llm-wiki]] (added 2026-07-24, done 2026-08-01)
+  ✅ Evaluation complete (2026-08-01 MODE B): created [[agent-hub]] entity page + [[agentic-automation-patterns]] concept page; verdict = directly relevant as the "GitHub for agent skills," wired into [[extending-the-llm-wiki]] + [[autoresearch]]. Write-back deferred one night; corrected tonight.
 - [x] @cloud **Agent max** — master agent orchestration: sub-agents + agent teams. [[claude-code-subagents]] [[claude-code-agent-teams]] (added 2026-07-24, done 2026-08-01)
   ✅ 2026-07-31: created [[claude-code-agent-teams]] concept page + enriched [[claude-code-subagents]]; 2026-08-01: shipped `.claude/skills/orchestrate-agents/SKILL.md` (single→sub→team→CMA decision ladder, tmux setup, pitfall table).
 - [x] @cloud **Token max** — build a token/context-management skill & mastery (efficient context use, compaction, memory). [[claude-code-memory]] (added 2026-07-24, done 2026-08-01)
