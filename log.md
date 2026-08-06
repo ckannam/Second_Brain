@@ -956,3 +956,17 @@ dangling link that TWO existing pages already reference ([[ai-native-engineering
 objective spec + spec-drift guardrail, the code-side twin of eval-first skill authoring
 ([[skill-authoring-playbook]]/[[evals-for-taste]]) and the vault's own HEALTH_DEBT ratchet.
 Inbound links already reciprocal; added to index (AI-native work). HEALTH_DEBT 0.
+
+## [2026-08-06] ingest | The Antichrist is Here: Story of Peter Thiel (Volksgeist)
+Ingested `raw/assets/The Antichrist is Here Story of Peter Thiel.md` — a ~90-min left-critical video
+essay. First political/tech-power domain in the vault; connected it into the existing AI-landscape
+cluster rather than leaving it siloed. **Source page** [[antichrist-story-peter-thiel]] (flagged POV:
+biographical spine corroborated, motive attribution is the creator's argument). **New entities**
+[[peter-thiel]], [[palantir]], [[founders-fund]], [[paypal-mafia]], [[jd-vance]]. **New concept**
+[[tech-authoritarianism]] (Thiel "capitalism > democracy" + Yarvin CEO-monarch + Land Dark Enlightenment) —
+framed as the **dark mirror** of [[post-scarcity-and-meaning]]. **Enrichments (reciprocal):**
+[[elon-musk]] (PayPal-Mafia origin + Thiel/Founders Fund upstream), [[openai]] (Founders Fund early
+investor + Altman-as-mentee), [[post-scarcity-and-meaning]] (who-controls-the-abundance branch),
+[[agent-security-risks]] (personal↔civilizational-scale surveillance). Updated `index.md` (Thiel-network
+subsection under World & ideas; concept under Futures & meaning; source under World & ideas). Moved source
+to `raw/Processed/`.

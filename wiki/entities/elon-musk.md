@@ -30,10 +30,19 @@ Note: Musk is a **primary actor** in the AI race this vault otherwise tracks thr
 Claude model pages — useful as an outside-the-Anthropic-bubble read, and a contrast to [[model-speciation]]
 (he expects convergent superintelligence, not divergent niches).
 
+## Origin: the PayPal Mafia
+Before Tesla/SpaceX, Musk's **x.com** merged with [[peter-thiel]]'s Confinity to form **PayPal** (sold to
+eBay for $1.5B, 2002) — making him a charter member of the **[[paypal-mafia]]**, the alumni network that
+also seeded LinkedIn, YouTube, Yelp, Affirm, and [[openai]]. Per [[antichrist-story-peter-thiel]], Thiel's
+[[founders-fund]] was later an early investor in **SpaceX** and **Neuralink** — so Thiel's capital sits
+upstream of much of Musk's empire, and the two read as the optimist/authoritarian poles of the same
+tech-power network (cf. [[tech-authoritarianism]]).
+
 **Cultural touchstone:** Musk cites **[[the-culture|Banks's Culture]] series** as the best depiction of the
 future — an *optimistic* human-plus-superintelligence utopia — and named SpaceX drone ships after its
 sentient starships. It's the fictional endpoint of his "abundance / work-optional" thesis
 (→ [[post-scarcity-and-meaning]]).
 
 Related: [[elon-musk-economist-2026]] · [[the-economist]] · [[anthropic]] · [[fable-5]] · [[mythos]] ·
-[[ai-lowering-entrepreneurship-barriers]] · [[the-culture]] · [[post-scarcity-and-meaning]].
+[[ai-lowering-entrepreneurship-barriers]] · [[the-culture]] · [[post-scarcity-and-meaning]] ·
+[[paypal-mafia]] · [[peter-thiel]] · [[founders-fund]].

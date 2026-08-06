@@ -26,5 +26,13 @@ Optimists (Musk, Bezos) sell the **abundance**; the serious fiction (Banks) and 
 **abundance doesn't supply meaning — it removes the excuse of necessity.** The [[ai-lowering-entrepreneurship-barriers|AI-lowers-the-barriers]] thesis is the near-term edge of the same curve: as
 AI removes the *cost* of doing things, the scarce resource becomes knowing *what is worth doing*.
 
+## The dark mirror (who controls the abundance)
+This page assumes abundance gets *distributed*. [[tech-authoritarianism]] (via
+[[antichrist-story-peter-thiel]]) is the counter-case: the same AI/data capability aimed at **elite control
+instead of broad liberation** — [[peter-thiel]]'s "make democracy safe for capitalism," built on
+[[palantir]]-style surveillance. So "meaning once work is optional" is the *optimistic* branch; "who owns the
+machine that made work optional, and do the rest of us get a vote" is the branch this concept has to hold
+next to it.
+
 Related: [[the-culture]] · [[elon-musk-economist-2026]] · [[ai-lowering-entrepreneurship-barriers]] ·
-[[elon-musk]] · [[model-speciation]].
+[[elon-musk]] · [[model-speciation]] · [[tech-authoritarianism]] · [[peter-thiel]].

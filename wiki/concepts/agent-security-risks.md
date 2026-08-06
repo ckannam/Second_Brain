@@ -54,6 +54,11 @@ A skill-shaped instance of this threat model: an [[agent-skills|Agent Skill]] is
 code + instructions, so an untrusted skill can misuse tools or exfiltrate data — audit before
 installing, trust only self-authored/Anthropic sources.
 
+**Same threat, civilizational scale.** This page is the *personal* version (your agent turned against
+you); [[tech-authoritarianism]] / [[palantir]] are the *societal* version — the same data-plus-tooling
+capability aimed at mass surveillance and elite control ([[antichrist-story-peter-thiel]]). Least-privilege
+and democratic checks are the same idea at different scales.
+
 Related: [[claude-code-permissions]] · [[agent-skills]] · [[ai-executive-assistant]] ·
 [[proactive-agents]] · [[hosting-ai-agents]] · [[vault-autoresearch]] · [[openclaw]] ·
-[[paperclip]].
+[[paperclip]] · [[tech-authoritarianism]] · [[palantir]].

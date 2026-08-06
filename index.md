@@ -145,6 +145,13 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[the-economist]] — the publication / YouTube "Insider" long-form interview channel (Zanny Minton Beddoes).
 - [[the-culture]] — Iain M. Banks's post-scarcity, AI-run utopia; the reference "optimistic AI future" Musk & Bezos cite. → concept [[post-scarcity-and-meaning]].
 
+#### Tech-power network (Thiel ingest, 2026-08-06)
+- [[peter-thiel]] — PayPal founder → surveillance/defense investor; the capital+ideology node behind [[openai]], SpaceX, [[palantir]]. Libertarian→authoritarian arc. **Dark mirror** to the vault's AI-optimism.
+- [[palantir]] — Thiel's data/surveillance firm (>$400B); every US security agency, ICE, IDF. PayPal anti-fraud tech → mass surveillance.
+- [[founders-fund]] — Thiel's VC (~$20B); early in [[openai]], SpaceX, Neuralink, Anduril, Palantir — upstream of much of the AI/defense frontier.
+- [[paypal-mafia]] — the PayPal alumni network (Thiel, [[elon-musk]], Hoffman/LinkedIn, YouTube, Affirm, Altman-orbit); origin graph for figures the vault meets separately.
+- [[jd-vance]] — US VP; the clearest case of Thiel *manufacturing a politician* ($15M super-PAC + brokered Trump endorsement).
+
 ### Products / rivals
 - [[cal-ai]] — $100M vibecoded calorie app.
 - [[spacerep]] — spaced-repetition app (FSRS + Google Calendar); the closest competitor to Cole's learning-app idea + the gap it leaves open.
@@ -230,6 +237,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Futures & meaning
 - [[post-scarcity-and-meaning]] — the recurring theme across Cole's sources: once AI makes work/money optional, the scarce resource becomes *meaning* (Musk's abundance ↔ Banks's [[the-culture|Culture]] ↔ Cole's own "free + useful").
+- [[tech-authoritarianism]] — the **dark mirror**: the same AI/data capability aimed at elite control, not liberation. Thiel's "capitalism > democracy," Yarvin's CEO-monarch, Land's Dark Enlightenment, built on [[palantir]]-style surveillance.
 
 ### AI-native work & industry
 - [[ai-native-engineering-org]] — the bottlenecks moved; rewrite the norms.
@@ -298,6 +306,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[elon-musk-economist-2026]] — Musk on AI superintelligence (~5 yrs), abundance / "work optional," the China–electricity race, cross-lab safety testing, and his politics. Corroborates [[anthropic]] as AI leader + the [[mythos]]→[[fable-5|Fable]] lineage.
 - [[tucker-carlson-economist-2026]] — Carlson on the Iran war, the Israel lobby, Gaza, Ukraine sovereignty, Taiwan ("US can't/won't defend"), and power-sharing with China (March 2026).
 - [[culture-series-wikipedia]] — Iain M. Banks's *Culture* series (Wikipedia): the post-scarcity AI utopia Musk/Bezos cite; where to start reading + the meaning-in-abundance theme.
+- [[antichrist-story-peter-thiel]] — Volksgeist video essay (openly left-critical): [[peter-thiel]]'s libertarian→authoritarian 30-yr arc, [[palantir]], [[founders-fund]], the [[paypal-mafia]], [[jd-vance]], and [[tech-authoritarianism]]. Read as argument; biographical spine corroborated.
 
 ### Foundational
 - [[llm-wiki-karpathy]] — Karpathy gist: the LLM Wiki pattern (web).
