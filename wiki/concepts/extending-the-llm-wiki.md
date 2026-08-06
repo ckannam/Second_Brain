@@ -35,7 +35,7 @@ and hands more of the loop to the agent.
 | Karpathy signal (source) | Next rung for this vault |
 |---|---|
 | Praises [[openclaw]] **memory systems** ([[skill-issue-karpathy-sarah-guo]]) | Wire in [[claude-code-memory]] (Memory 2.0 / Auto Dream): out-of-band consolidation — a "dreaming" [[ingest-query-lint\|lint]] that curates the graph while away. |
-| **Parallelize; you're the bottleneck** | Escalate big ingests/lints to [[parallel-agents]] / [[multi-agent-orchestration]] — the escalation path not yet built into `wiki-query`. |
+| **Parallelize; you're the bottleneck** | Escalate big ingests/lints to [[parallel-agents]] / [[multi-agent-orchestration]] — the escalation path not yet built into `wiki-query`. Karpathy's [[agent-hub]] is the reference *substrate* for this rung (a swarm on a branch-less DAG); adopting it would need a collapse step back onto the reviewed `main` — see the relevance evaluation on [[agent-hub]]. |
 | **AutoResearch** — close the loop ([[autoresearch]]) | [[claude-code-scheduled-tasks]] + [[proactive-agents]]: a cron lint that finds graph gaps *and seeks new sources* — the vault researching itself. |
 | [[qmd]] optional search tooling | A local markdown-search fallback for when index-summary retrieval isn't enough (the grep-sweep option shelved from the skill design). |
 | **Self-healing** ([[agentic-workflows]], [[self-healing-workflows]]) | Point self-healing at the vault's own upkeep: broken wikilinks, orphan pages, stale model claims fixed autonomously. |

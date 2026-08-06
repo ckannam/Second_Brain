@@ -113,7 +113,6 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] @cloud **Build the source-seeking (MODE B) rung** — extend the loop to propose *new sources to ingest*, not just heal defects (the furthest roadmap rung). [[proactive-agents]] [[extending-the-llm-wiki]] (added 2026-07-24)
 - [ ] @cloud Tune HEALTH_DEBT weights / add metrics as the vault grows (e.g. promote reciprocal-link gaps into the score once noise is understood). [[vault-autoresearch]] (added 2026-07-24)
 - [ ] @cloud Try an **autoresearch loop hands-on** — clone `karpathy/autoresearch`, run it via [[claude-code]] on a rented GPU (Colab T4 / Lambda / RunPod), or adapt the pattern to a business metric (cold email, CRO). [[autoresearch]] [[autoresearch-repo]] (added 2026-07-24)
-- [ ] @cloud Watch **[[agent-hub]]** ("GitHub for agents") — evaluate whether it's relevant to this vault's multi-agent direction. [[extending-the-llm-wiki]] (added 2026-07-24)
 
 ### Sourcing & verification
 - [ ] @cloud (Optional) Deeper notes on specific [[build-sell-claude-code-course]] chapters. (added 2026-07-24)
