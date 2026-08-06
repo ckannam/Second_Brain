@@ -13,7 +13,7 @@ writes results back to `tasks/index.md` in **Phase 3**.
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — Phase 1 fast-track lane has nothing to heal tonight.
+- Pre-existing defect set: **empty** — no objective self-heal work tonight.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 

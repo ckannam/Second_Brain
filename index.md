@@ -192,7 +192,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-md-router]] — Level-1 `CLAUDE.md` router. · [[skills-vs-subagents]] — when to use which.
 
 ### Agents & orchestration
-- [[parallel-agents]] · [[multi-agent-orchestration]] · [[ai-agent-company]] · [[multi-model-workflows]] · [[adversarial-code-review]] · [[agent-observability]] · [[proactive-agents]] · [[autoresearch]].
+- [[parallel-agents]] · [[multi-agent-orchestration]] · [[ai-agent-company]] · [[multi-model-workflows]] · [[adversarial-code-review]] · [[agent-observability]] · [[proactive-agents]] · [[autoresearch]] · [[agent-native-infrastructure]] — rebuilding dev tooling around agent swarms (the [[agent-hub]] pattern: DAG-not-main, board-not-PR, metric-not-review).
 
 ### Data, RAG & tooling patterns
 - [[multimodal-rag]] · [[web-scraping-for-llms]] · [[content-repurposing]] · [[voice-agents]] · [[website-building-with-ai]] · [[hosting-ai-agents]] · [[vps]] · [[natural-language-coding]] · [[ai-app-business]].
