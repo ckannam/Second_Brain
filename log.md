@@ -903,3 +903,8 @@ key terms, pushy-against-under-triggering), progressive disclosure (metadata→S
 <500 lines, one level deep), degrees-of-freedom heuristic, eval-first Claude-A/Claude-B iteration,
 anti-patterns. Reciprocal links added from [[claude-code-skills]], `index.md`, and the
 [[Claude Mastery]] bucket. HEALTH_DEBT 0→0 (indexed + linked, no build debt).
+
+## [2026-08-06] autoresearch night — Phase 3 write-back | tasks/index.md
+Appended ⏳ progress notes (2026-08-06) to the three Claude-Mastery cluster items advanced by the
+skill-authoring-playbook build (Train skills, Skill max, Improve+general). None marked done — all
+are ongoing mastery goals; the page is a materially-advancing artifact, not completion.
