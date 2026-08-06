@@ -9,12 +9,14 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-01
+## Night of 2026-08-06
 
 ### Git state note
-`origin/main` was force-updated to the detached-HEAD vault-backup chain (as of last
-night's vault-state rescue). Local `main` was synced via `git reset --hard origin/main`
-before Phase 1. Working from that unified base.
+Clean base: `main` synced to `origin/main` (fast-forwarded to include the 2026-08-01 PR
+merge — Token/Agent skills, `agentic-automation-patterns`, `conversational-presence`).
+A new raw clip landed in `raw/assets/` ("How U.S. Prisons Wrongfully Convict Millions —
+5CAST") — **not touched**: ingesting `raw/assets/` is the **@local** `daily-ingest`
+lane's job, out of scope for the cloud lane.
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
@@ -22,35 +24,33 @@ before Phase 1. Working from that unified base.
 
 ### Selected (@cloud, bounded to ≤3) — top-down, synced destinations only
 
-1. **Token max** → bounded deliverable: create `.claude/skills/token-context-management/SKILL.md`
-   — turns the existing `[[token-context-management]]` concept page (created 2026-07-31) into
-   an actionable skill trigger Cole can invoke in any Claude Code session. Explicit `@cloud`
-   tag; vault-internal only; no local data.
-
-2. **Agent max** → bounded deliverable: create `.claude/skills/orchestrate-agents/SKILL.md`
-   — turns the existing `[[claude-code-agent-teams]]` concept page (created 2026-07-31) into
-   a skill that guides agent-team orchestration decisions. Explicit `@cloud` tag; vault-internal
-   only; no local data.
+1. **Skill max / Train skills / Improve + general skills** (Claude Mastery cluster) →
+   bounded deliverable: create `wiki/concepts/skill-authoring-playbook.md` — a focused,
+   web-grounded playbook on writing skills that trigger reliably (description as the trigger
+   surface, progressive disclosure, eval-driven trigger tuning, scoping). Consolidates
+   guidance currently scattered across [[claude-code-skills]], [[master-claude-code-skills-28min]],
+   [[claude-code-skills-update]], [[governed-skills-framework]], [[evals-for-taste]] into one
+   actionable page. Explicit `@cloud`; vault-internal + web only; no local data. Advances
+   three open Claude-Mastery items at once (simplicity criterion → one strong page, not three
+   thin ones).
 
 ### Considered but skipped this night (with reason)
-- **Train skills** (@cloud): open-ended ("build & optimize skills with Skill Creator + evals");
-  no single bounded artifact. Deferred.
-- **Prompt max** (@cloud): 3 skills shipped 2026-07-26; "refining/eval-testing" is interactive.
-  Deferred.
-- **Skill max** (@cloud): "master reliable skill creation + trigger tuning" — open-ended.
-  Deferred.
-- **Improve + general skills** (@cloud): open-ended. Deferred.
+- **Prompt max** (@cloud): 3 prompt-architect skills already shipped 2026-07-26;
+  "refining/eval-testing" is interactive. Deferred.
 - **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
   needs human judgment. Deferred.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system; needs
-  human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU. Outward action.
-  Deferred.
-- **Watch [[agent-hub]]** (@cloud): completed last night (MODE B created `agent-hub.md`).
-  Still open in tasks as "standing monitor" — not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): edits the ratchet system; needs
+  human sign-off. Deferred (never edit the frozen evaluator).
+- **Try autoresearch loop hands-on** (@cloud): requires an external rented GPU — outward
+  action. Deferred.
+- **Watch [[agent-hub]]** (@cloud): a standing monitor, not a buildable deliverable
+  tonight. No new signal. Deferred.
+- **(Optional) Deeper notes on build-sell-claude-code-course chapters** (@cloud): lowest
+  priority; the skill-authoring build is higher-value for the same Claude-Mastery goal.
   Deferred.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(networking/Fulbright, CRM enrichment, Neuro pipeline, finance decisions, Uship, etc.).
+(networking/Fulbright/Claude-Corps, CRM enrichment, Neuro pipeline, finance decisions,
+Uship, password holder, raw-clip ingest, etc.). Honored strictly — never attempted in the
+cloud.
