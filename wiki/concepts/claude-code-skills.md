@@ -8,4 +8,6 @@ Reusable capabilities you give [[claude-code]]: a folder with a markdown instruc
 - **When to build one:** the feedback cycle — build a skill when you keep repeating the same instructions.
 - **In practice:** content repurposing ([[generate-content-9-socials-blotato]]), [[json-prompting]] images ([[nano-banana-2-antigravity-json-prompting]]), website builds.
 
-Related: [[skills-vs-subagents]], [[claude-code-subagents]], [[ai-second-brain-levels]] (Level 3). Anthropic first-party depth (Code with Claude batch): [[evals-for-taste]] and [[governed-skills-framework]] on evaluating and governing skills at scale.
+**How to build one well:** the actionable checklist — description-as-trigger-surface, progressive disclosure, eval-first iteration — lives in [[skill-authoring-playbook]].
+
+Related: [[skill-authoring-playbook]], [[skills-vs-subagents]], [[claude-code-subagents]], [[ai-second-brain-levels]] (Level 3). Anthropic first-party depth (Code with Claude batch): [[evals-for-taste]] and [[governed-skills-framework]] on evaluating and governing skills at scale.

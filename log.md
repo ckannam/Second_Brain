@@ -892,3 +892,14 @@ IS her mission — Baltimore kid (BCPS-servant parents) × works on her Capital 
 (neuro/chem + Uship operator + AI builder). Refreshed her track record (174 companies, $378M rev, $3B+ VC,
 UpSurge cofounder, Abell trustee) + confirmed contact `wyskiel@jhu.edu`. Ask = advice + stay-in-touch, NO job
 ask. Updated CRM + [[outreach-pipeline]] (status → meeting). Post-meeting: thank-you <24h + log what she said.
+
+## [2026-08-06] autoresearch night — Phase 2 build | skill-authoring-playbook
+MODE (Phase 2, @cloud): created `wiki/concepts/skill-authoring-playbook.md` — the actionable
+"how to write a skill that triggers reliably & stays lean" companion to [[claude-code-skills]].
+Advances the Claude-Mastery cluster (Skill max / Train skills / Improve+general skills) with one
+grounded page instead of three thin ones. Web-grounded in Anthropic's official Skill authoring
+best practices (platform.claude.com, 2026): description-as-trigger-surface (third person, what+when,
+key terms, pushy-against-under-triggering), progressive disclosure (metadata→SKILL.md→refs,
+<500 lines, one level deep), degrees-of-freedom heuristic, eval-first Claude-A/Claude-B iteration,
+anti-patterns. Reciprocal links added from [[claude-code-skills]], `index.md`, and the
+[[Claude Mastery]] bucket. HEALTH_DEBT 0→0 (indexed + linked, no build debt).
