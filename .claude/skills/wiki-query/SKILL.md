@@ -1,6 +1,12 @@
 ---
 name: wiki-query
-description: Use when the user asks a question meant to be answered from this Second Brain vault/wiki — "what does the wiki/vault say about X", "ask the wiki/vault", "according to my notes", or any question whose answer lives in the wiki pages, CRM, tasks, or journal rather than general knowledge. Also runs on the /wiki-query command.
+description: >
+  Use when Cole asks a question meant to be answered from his Second Brain vault/wiki —
+  "what does the wiki say about X", "ask the vault", "what do I know about X", "what's in
+  my notes on X", "according to my notes", "what should I do about X", or any question
+  whose answer lives in wiki pages, CRM, tasks, journal, or life-area buckets rather than
+  general knowledge. Skill files the synthesized answer back into the vault automatically.
+  Also runs on the /wiki-query command.
 ---
 
 # Wiki Query
@@ -67,4 +73,6 @@ compounds instead of vanishing into chat.
 - Skipping the file-back step on a real query (only navigational lookups skip it).
 - Reading only the candidate pages and not traversing their links — the neighborhood is
   where the answer completes.
+- For life-area questions (Duke, Uship, JHTV, Job Search, Personal, Claude Mastery), not
+  opening the relevant `buckets/<Area>.md` first — that's the hub and entry point.
 - Re-copying `AGENTS.md`'s rules into an answer or into this skill instead of following them.

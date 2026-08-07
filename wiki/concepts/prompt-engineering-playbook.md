@@ -27,5 +27,5 @@ Best practices for prompting agentic systems, from [[the-prompting-playbook]]:
   its own words before answering, surfacing a misread cheaply.
 
 Related: [[json-prompting]], [[html-over-markdown-specs]], [[bitter-lesson]] (don't
-over-constrain capable models), [[evals-for-taste]], [[writing-reliable-skills]] (the same
+over-constrain capable models), [[evals-for-taste]], [[skill-authoring-playbook]] (the same
 evals-before-edits discipline, applied to skills).

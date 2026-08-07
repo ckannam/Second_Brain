@@ -971,6 +971,47 @@ investor + Altman-as-mentee), [[post-scarcity-and-meaning]] (who-controls-the-ab
 subsection under World & ideas; concept under Futures & meaning; source under World & ideas). Moved source
 to `raw/Processed/`.
 
+## [2026-08-07] autoresearch night — Phase 1 fast-track | index.md catalog heals (×4)
+HEALTH_DEBT opened at **8** (4 missing_from_index defects): `claude-code-skill-creation-playbook`,
+`writing-reliable-skills`, `skill-authoring-playbook`, `agent-skills` — all created in prior
+autoresearch nights but never added to `index.md`. MODE A fast-track: added each to the "Claude Code
+capabilities" section of `index.md` one at a time; each commit passed all four auto-merge guards
+(structural-only, strict debt drop, clean fast-forward, pre-existing debt) and was pushed directly
+to `main`. HEALTH_DEBT **8→6→4→2→0**. Four commits on main.
+
+## [2026-08-07] autoresearch night — Phase 2 build | skill-authoring cluster consolidation + trigger-tuning
+Two bodies of build work on the night branch:
+
+**Cluster consolidation** — three near-duplicate "how to author a skill" pages had accreted on
+separate nights. Consolidated into a role-distinct four-page cluster: [[claude-code-skills]]
+(concept/hub), [[agent-skills]] (portable format), [[skill-authoring-playbook]] (canonical craft),
+[[claude-code-skill-creation-playbook]] (mechanics reference, craft sections trimmed to pointers).
+Deleted pure duplicate `writing-reliable-skills` and repointed its inbound links.
+
+**Skill trigger-tuning** — applied [[skill-authoring-playbook]] description checklist:
+- `vault-improve`: broadened trigger from single "improve" to six synonyms (strengthen/refine/enhance/
+  update/polish/make X better) that were silently missing.
+- `wiki-query`: expanded description with three missing trigger phrases ("what do I know about X",
+  "what's in my notes on X", "what should I do about X"), surfaced auto-filing behavior, added
+  life-area / buckets entry-point gap to Common Mistakes.
+
+## [2026-08-07] autoresearch night — Phase 3 self-heal + write-back | index.md + tasks/index.md
+Phase 3 self-heal: catalogued the three surviving skill cluster pages in `index.md` — HEALTH_DEBT 0
+(the deletion cleared one missing_from_index, index entries cleared the rest). Appended progress
+notes to "Skill max" and "Improve + general skills" in `tasks/index.md`.
+
+## [2026-08-07] autoresearch night — Phase 4 MODE B | skills-vs-subagents + vault-autoresearch enrichment
+Two generative enrichments on the night branch:
+
+**[[skills-vs-subagents]]** — enriched the 10-line decision stub (10 inbound links, the cluster hub)
+into a full decision page: teach-vs-staff frame, comparison table, reach-for-X guidance, reusability
+ladder, the trap. Web-grounded + cluster-linked. HEALTH_DEBT stays 0.
+
+**[[vault-autoresearch]]** — updated the concept page (stale since 2026-07-24, before the two-lane
+model was formalized). Added the two-lane model table (fast-track vs review lane), Phase 0-5 order
+bulleted list, and expanded MODE A/B detail (MODE A runs twice per night; MODE B always review lane).
+All content verified from `program.md` — no speculation.
+
 ## [2026-08-07] ingest (batch of 3) | Ramp AI agents · BBC doomscrolling · Channel 5 carceral
 Swept the inbox (3 clips). **New source pages:** [[ramp-ai-agents-every-step]], [[doomscrolling-attention-science-bbc]],
 [[us-carceral-system-channel5-freleng]]. **New concepts:** [[build-for-future-models]] (Ramp's velocity/tech-debt

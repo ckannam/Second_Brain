@@ -30,13 +30,30 @@ as current). Judgment-heavy signals (stub debt, reciprocal-link gaps) are *repor
 scored*, and all net-new knowledge (MODE B) is routed to a human review branch rather than
 committed autonomously.
 
-## Two modes
+## The two-lane model (how the nightly run splits work)
 
-- **MODE A — self-healing** (autonomous, commits to `main`): drive HEALTH_DEBT to 0 by fixing
-  objective defects, one change per iteration, keep-or-`git reset` on the metric.
-- **MODE B — generative** (proposes on `autoresearch/pending`, never self-merges): grow
-  coverage/connectivity; the human approves each morning — the "log of experiments you wake
-  up to." Guarded by `AGENTS.md`'s new-page test + a simplicity criterion.
+Split by whether `score.py` can objectively verify the output:
+
+| Lane | What | Where it lands |
+|---|---|---|
+| **Fast-track** | Score-verified *structural* self-heal (Phase 1 MODE A) | Directly on `main` — no PR |
+| **Review** | New content (Phase 2 build + Phase 3 build-heal + Phase 4 generative) | Night branch → morning PR |
+
+The boundary is strict: if a fix is purely structural (editing `[[links]]`, `index.md` entries, stale-claim markers) AND strictly lowers HEALTH_DEBT AND applies as a clean fast-forward to `main` AND repairs pre-existing debt → it auto-merges. Anything not meeting all four guards rides the PR.
+
+## Phase order (nightly)
+
+0. **Select & baseline** — read `tasks/index.md`, pick `@cloud` items, regenerate `autoresearch/nightly-queue.md`, run `score.py --json` to record baseline HEALTH_DEBT + the pre-existing defect set.
+1. **Heal on `main` (fast-track)** — MODE A against `main` for the Phase-0 defect set; each fix that passes the auto-merge guards commits + pushes directly to `main`.
+2. **Build (branch)** — fork `autoresearch/night-YYYY-MM-DD` from healed `main`; work ≤2–3 selected items per `AGENTS.md`. Web tools allowed.
+3. **Write-back + build-heal (branch)** — update `tasks/index.md`; MODE A again for build-introduced debt; those fixes commit to the branch.
+4. **AutoResearch (MODE B, branch)** — one generative enrichment proposal.
+5. **PR** — open one morning PR (night branch → `main`) for review-lane work; stop.
+
+## Two modes (detail)
+
+- **MODE A — self-healing**: drive HEALTH_DEBT to 0 by fixing objective defects, one change per iteration, keep-or-`git reset` on the metric. Runs twice per night: Phase 1 (auto-merge, pre-existing debt) and Phase 3 (branch, build-introduced debt).
+- **MODE B — generative**: propose ONE enrichment — a new page a source warrants, a stub worth filling, or a source to ingest — guarded by `AGENTS.md`'s new-page test + simplicity criterion. Always the review lane; never auto-merges.
 
 ## First run
 
@@ -49,4 +66,5 @@ Baseline HEALTH_DEBT was **2** ([[agentic-note-taking]] existed but was absent f
 Complements [[wiki-query]] (which files *answers* back) by continuously improving the graph
 those answers draw from. The furthest rung — a scheduled [[proactive-agents|proactive]] run
 that also *seeks new sources* — remains open (see [[tasks/index]]). Related: [[ingest-query-lint]]
-(the manual Lint this automates), [[ai-second-brain-levels]], [[agentic-workflows]].
+(the manual Lint this automates), [[ai-second-brain-levels]], [[agentic-workflows]],
+[[vault-autoresearch|the skill]] (the router and invariants), [[claude-code-scheduled-tasks]].

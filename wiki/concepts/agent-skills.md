@@ -9,7 +9,7 @@ general-purpose model into a specialist — a directory of instructions, metadat
 scripts/resources that Claude loads *automatically* when relevant. This is the **platform
 primitive** beneath [[claude-code-skills]]: the same `SKILL.md` format Claude Code uses is the
 one that runs on claude.ai and the Claude API. This page owns the *format & architecture*;
-[[claude-code-skills]] is the Claude-Code view and [[writing-reliable-skills]] is the authoring
+[[claude-code-skills]] is the Claude-Code view and [[skill-authoring-playbook]] is the authoring
 craft. Grounded in Anthropic's official [Agent Skills overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview).
 
 ## Why a skill, not a prompt or a fine-tune
@@ -34,7 +34,7 @@ different token cost:
 So you can install *many* skills for ~100 tokens each; you pay for a skill's body only when it
 fires, and never for un-touched bundled files. This is the same context-economy lever covered
 in [[token-context-management]], and the authoring technique that exploits it is on
-[[writing-reliable-skills]].
+[[skill-authoring-playbook]].
 
 ## Cross-surface — one format, but NOT one copy
 
@@ -76,9 +76,10 @@ installing software. Org-scale vetting/governance is the [[governed-skills-frame
 
 This vault runs *on* the format: `.claude/skills/` holds `vault-autoresearch`, `wiki-query`, and
 the prompt-architect skills — the same primitive documented here. Understanding the format (token
-budget, cross-surface limits, security posture) is what lets the "[[writing-reliable-skills|skill
+budget, cross-surface limits, security posture) is what lets the "[[skill-authoring-playbook|skill
 max]]" track author skills that are portable and safe, not just locally handy.
 
-Related: [[claude-code-skills]] · [[writing-reliable-skills]] · [[skills-vs-subagents]] ·
+Related: [[claude-code-skills]] · [[skill-authoring-playbook]] (authoring craft) ·
+[[claude-code-skill-creation-playbook]] (mechanics reference) · [[skills-vs-subagents]] ·
 [[claude-code-subagents]] · [[token-context-management]] · [[agent-security-risks]] ·
 [[governed-skills-framework]] · [[ai-second-brain-levels]] (Level 3 = skills) · [[claude-code]].

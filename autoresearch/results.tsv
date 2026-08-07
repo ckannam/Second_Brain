@@ -26,6 +26,10 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-02T02:15	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build; no build-introduced debt
 2026-08-02T02:20	B	wiki/concepts/claude-code-custom-commands.md	0	0	keep	MODE B: new concept page on .claude/commands/ slash commands + 2026 unification with skills; indexed + backlink from claude-code-skills
 2026-08-07T06:17	A	wiki/concepts/claude-code-skill-creation-playbook.md	8	6	keep	added to index.md catalog (missing_from_index fix); debt 8→6
-2026-08-07T06:17	A	wiki/concepts/writing-reliable-skills.md	6	4	keep	added to index.md catalog (missing_from_index fix); debt 6→4
+2026-08-07T06:17	A	wiki/concepts/writing-reliable-skills.md	6	4	keep	added to index.md catalog (missing_from_index fix); debt 6→4 [later deleted on branch: pure duplicate of skill-authoring-playbook]
 2026-08-07T06:18	A	wiki/concepts/skill-authoring-playbook.md	4	2	keep	added to index.md catalog (missing_from_index fix); debt 4→2
 2026-08-07T06:18	A	wiki/concepts/agent-skills.md	2	0	keep	added to index.md catalog (missing_from_index fix); debt 2→0; HEALTH_DEBT now 0
+2026-08-07T06:19	A	index.md	6	0	keep	[branch] Phase 3 self-heal: consolidated skill cluster (deleted writing-reliable-skills duplicate, indexed 3 survivors as role-distinct cluster); HEALTH_DEBT 0
+2026-08-07T06:19	B	wiki/concepts/skills-vs-subagents.md	0	0	keep	[branch] MODE B: enriched 10-line skills-vs-subagents stub into full decision page (teach-vs-staff frame, comparison table, reach-for-X guidance, reusability ladder); web-grounded + cluster-linked
+2026-08-07T06:22	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 skill trigger-tuning; no build-introduced debt
+2026-08-07T07:15	B	wiki/concepts/vault-autoresearch.md	0	0	keep	[branch] MODE B: enriched stale concept page (created 2026-07-24) with two-lane model table + Phase 0–5 order + expanded MODE A/B detail; all content verified from program.md
