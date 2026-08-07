@@ -13,27 +13,29 @@ writes results back to `tasks/index.md` in **Phase 3**.
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 8** (orphans: 0, missing_from_index: 4, stale_claims: 0)
-- Pre-existing defect set: **4 missing_from_index** — concept pages created in prior nights
-  but never added to the `index.md` catalog:
-  - `wiki/concepts/claude-code-skill-creation-playbook.md`
-  - `wiki/concepts/writing-reliable-skills.md`
-  - `wiki/concepts/skill-authoring-playbook.md`
-  - `wiki/concepts/agent-skills.md`
+- Pre-existing defect set (missing_from_index): `agent-skills.md`, `writing-reliable-skills.md`,
+  `claude-code-skill-creation-playbook.md`, `skill-authoring-playbook.md` — all skill-authoring
+  concept pages created on prior nights (2026-08-01/03/06) but never catalogued in `index.md`.
 - Phase 1 (fast-track, main): all 4 healed → HEALTH_DEBT **8→0**; 4 commits pushed to main.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max → trigger-tune `vault-improve` description**:
+1. **Skill max / Improve + general skills / Train skills → consolidate the skill-authoring cluster.**
+   Three pages (`writing-reliable-skills`, `claude-code-skill-creation-playbook`, `skill-authoring-playbook`)
+   are near-duplicates of "how to author a reliable skill," each created on a different night unaware
+   of the others. Consolidated into a role-distinct cluster; deleted the pure duplicate.
+   Directly advances all three @cloud skill-mastery tasks and removes real graph sprawl.
+
+2. **Skill max → trigger-tune `vault-improve` description.**
    The skill's description only listed "improve" as the trigger verb, silently missing
    "strengthen/refine/enhance/update/polish/make X better" — all natural phrasings Cole uses.
    Broadened the description to cover all six synonyms + "fix the X skill/page/workflow."
-   Directly advances "Skill max."
 
-2. **Improve + general skills → apply [[skill-authoring-playbook]] checklist to `wiki-query`**:
+3. **Improve + general skills → apply [[skill-authoring-playbook]] checklist to `wiki-query`.**
    The skill's description was narrow (missed "what do I know about X", "what's in my notes on X",
    "what should I do about X") and didn't surface the auto-filing behavior. Expanded description +
-   added missing trigger phrases + surfaced auto-filing in the description + extended Common Mistakes
-   with the life-area / buckets gap. Directly advances "Improve + general skills."
+   added missing trigger phrases + surfaced auto-filing + extended Common Mistakes with the life-area /
+   buckets gap.
 
 ### Considered but skipped this night (with reason)
 - **Train skills** (@cloud): "hands-on Skill Creator A/B eval run" is interactive (requires Cole at
@@ -41,8 +43,8 @@ writes results back to `tasks/index.md` in **Phase 3**.
 - **Prompt max** (@cloud): eval-testing the 3 prompt-architect skills is interactive. Deferred.
 - **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`; needs
   human judgment on design. Deferred.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system (`score.py`
-  is frozen); any tuning requires human sign-off. Deferred.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): `score.py` is the frozen evaluator —
+  only a human tunes what it measures. Ineligible for the cloud lane.
 - **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning. Outward
   action (spending). Ineligible.
 - **Watch [[agent-hub]]** (@cloud): standing monitor — no new material to build. Not a buildable
@@ -50,4 +52,5 @@ writes results back to `tasks/index.md` in **Phase 3**.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, etc.).
+(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, password
+holder, IG/YouTube exports, etc.).

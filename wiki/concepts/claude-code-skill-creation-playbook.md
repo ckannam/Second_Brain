@@ -1,6 +1,16 @@
 # Claude Code Skill Creation Playbook
 
-A practical, end-to-end guide for building, testing, and tuning [[claude-code-skills|Claude Code skills]] reliably. Synthesized from [[master-claude-code-skills-28min]], [[claude-code-skills-update]], [[governed-skills-framework]], and the official Anthropic skills docs (verified August 2026).
+The **mechanics reference** for Claude Code skills — the exact frontmatter fields, invocation
+matrix, arguments, dynamic context injection, precedence rules, and content lifecycle you look
+up while building one. Synthesized from [[master-claude-code-skills-28min]],
+[[claude-code-skills-update]], [[governed-skills-framework]], and the official Anthropic skills
+docs (verified August 2026).
+
+> **Role within the skill cluster:** this page is the *mechanics* (the how-it-works knobs).
+> For the **craft** — how to write a description that triggers reliably and a body that stays
+> lean — work from [[skill-authoring-playbook]]. For the *concept*, [[claude-code-skills]]; for
+> the *portable format & three-level architecture*, [[agent-skills]]. This page keeps only the
+> reference material those three don't cover, and points back to them for the craft rationale.
 
 ## When to build a skill (vs the alternatives)
 
@@ -56,20 +66,16 @@ paths: "src/**/*.ts"                # only activate for files matching this glob
 | `disable-model-invocation: true` | ✅ | ❌ | Not loaded (can't trigger) |
 | `user-invocable: false` | ❌ | ✅ | Always loaded |
 
-## The description is the most important field
+## The description field — the mechanics
 
-Claude decides when to auto-invoke a skill by treating all `SKILL.md` descriptions as tool definitions. **`description` + `when_to_use` are truncated together at 1,536 characters in the skill listing** — put the key use case first.
+Claude decides when to auto-invoke a skill by treating all `SKILL.md` descriptions as tool
+definitions. The mechanics constraint to remember: **`description` + `when_to_use` are truncated
+together at 1,536 characters in the skill listing** — so put the key use case first, and push
+overflow detail into `when_to_use` rather than letting a long `description` get cut mid-sentence.
 
-**Proven patterns:**
-- Lead with what the skill does, then when: `"Summarizes uncommitted changes and flags anything risky. Use when the user asks what changed, wants a commit message, or asks to review their diff."`
-- Add explicit triggers: `"DO trigger when the user says: 'write me a prompt', 'create a prompt', 'build a prompt'"`
-- Add explicit exclusions: `"Do NOT trigger when the user is just asking a question about prompting"`
-- Match the phrases users actually type — not how *you* would describe the task
-
-**Failure modes to avoid:**
-- Too vague (`"Do X"`) → fires on everything or nothing
-- Too long → truncated at 1,536 chars; move detail to `when_to_use`
-- Doesn't match natural phrasing → silent non-invocation
+*How to actually word a description that triggers* (third person, what+when, pushy against
+under-triggering, explicit trigger/exclusion phrases) is the craft — see
+[[skill-authoring-playbook#1. The description is the trigger surface|skill-authoring-playbook §1]].
 
 ## Nate Herk's 6-step build framework
 
@@ -178,8 +184,14 @@ Or positionally: `/my-skill "hello world" second` → `$0` = `hello world`, `$1`
 - **Don't set `disable-model-invocation` by default**: only use it for workflows with side effects (deploys, sends, merges).
 - **Don't write multi-paragraph SKILL.md body for reference content that changes**: put that in a supporting file and reference it.
 
+For the *craft* anti-patterns (time-sensitive info, too many options, deep-nested references,
+inconsistent terminology, voodoo constants) see
+[[skill-authoring-playbook#6. Anti-patterns to avoid|skill-authoring-playbook §6]].
+
 ## Related pages
 - [[claude-code-skills]] — concept overview
+- [[skill-authoring-playbook]] — the authoring **craft** (description + progressive disclosure + evals)
+- [[agent-skills]] — the portable **format** & three-level architecture
 - [[skills-vs-subagents]] — when to delegate to a subagent instead
 - [[governed-skills-framework]] — teaching + governing skills at org scale
 - [[claude-code-subagents]] — subagent architecture

@@ -9,6 +9,13 @@ lens ([[governed-skills-framework]], [[evals-for-taste]]). This is the page Cole
 when building or improving the vault's own skills (the **Claude Mastery** goal:
 [[Claude Mastery]]).
 
+> **This is the canonical craft page** in the vault's four-page skill cluster: this page owns
+> *how to author reliably*; [[claude-code-skills]] owns the *concept/overview*, [[agent-skills]]
+> owns the *portable format & three-level architecture*, and
+> [[claude-code-skill-creation-playbook]] is the *mechanics reference* (frontmatter fields,
+> who-invokes matrix, arguments, dynamic context injection, precedence). Reach for this one
+> when you're actually writing or fixing a skill.
+
 ## The two failure modes a skill has
 
 Every skill can fail in exactly two ways, and the playbook is organized around them:
@@ -49,6 +56,9 @@ load only when earned:
 - **Three tiers of loading:** metadata (always) → `SKILL.md` body (on trigger) → reference files
   (on demand, read via bash, zero context cost until opened).
 - **Body under ~500 lines.** Past that, split into `reference/*.md` files that `SKILL.md` links to.
+  One measured data point: splitting a 1,200-line "mega skill" into a ~200-line `SKILL.md` +
+  three supporting files improved instruction-following by nearly **40%** — the body isn't the
+  manual, it's the table of contents that points to the manual.
 - **References one level deep.** `SKILL.md → reference.md`, never `SKILL.md → a.md → b.md` — Claude
   may only `head -100` a nested file and get partial info.
 - **TOC on any reference >100 lines** so a partial read still shows the full scope.
@@ -118,6 +128,7 @@ ladder. Anthropic's **Skill Creator** scaffolds the folder + frontmatter, but Cl
 well-structured `SKILL.md` content natively — no special "writing-skills" skill required
 ([[claude-code-skills-update]]).
 
-Related: [[claude-code-skills]] · [[token-context-management]] · [[evals-for-taste]] ·
-[[governed-skills-framework]] · [[skills-vs-subagents]] · [[master-claude-code-skills-28min]] ·
-[[claude-code-skills-update]] · [[claude-code]].
+Related: [[claude-code-skills]] (overview) · [[agent-skills]] (the portable format) ·
+[[claude-code-skill-creation-playbook]] (mechanics reference) · [[token-context-management]] ·
+[[evals-for-taste]] · [[governed-skills-framework]] · [[skills-vs-subagents]] ·
+[[master-claude-code-skills-28min]] · [[claude-code-skills-update]] · [[claude-code]].
