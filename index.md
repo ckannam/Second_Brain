@@ -192,6 +192,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-trigger-tuning]] — how skill descriptions work as triggers; lifecycle, effective description patterns, A/B tuning, debugging misfires.
 - [[claude-code-custom-commands]] — `.claude/commands/` slash commands; 2026 unification with skills; arguments, scope, CLAUDE.md relationship.
 - [[claude-code-skill-creation-playbook]] — end-to-end practical guide: anatomy, SKILL.md frontmatter, 6-step framework, Skill Creator + evals workflow, dynamic context injection, arguments, anti-patterns.
+- [[writing-reliable-skills]] — authoring craft: three levers (description/progressive-disclosure/body), the Claude A builds / Claude B uses eval loop; the "skill max" track.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
 - [[claude-code-computer-use]] · [[claude-code-remote-control]] · [[claude-code-imessage]] — control & remote access (stubs).
