@@ -23,5 +23,10 @@ and the number of people committing both exploded.
 
 Enterprise instances: [[ai-native-enterprise-scale]] (Delivery Hero 100+ PRs/day merged,
 Doctolib governance, monday.com in-product). Non-engineer instance: [[gtm-engineering-anthropic]].
-Sources: [[running-ai-native-engineering-org]], [[how-we-claude-code]]. Related:
-[[test-driven-development]], [[the-capability-curve]].
+**Customer instance ([[ramp-ai-agents-every-step|Ramp]], 2026-08-07):** agents across the *entire*
+lifecycle (ideation → code → review → prod monitoring → incident root-cause), internal agent products
+(Glass, Inspect, an AI-SRE on-call), **more agent sessions from automations than humans**, **no token
+budgets** for engineers, and the operating posture of **[[build-for-future-models|building for the next
+model, not today's]]** with least-privilege guardrails.
+Sources: [[running-ai-native-engineering-org]], [[how-we-claude-code]], [[ramp-ai-agents-every-step]].
+Related: [[test-driven-development]], [[the-capability-curve]], [[build-for-future-models]].

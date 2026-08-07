@@ -65,6 +65,16 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 > [[fulbright-country-selection]] (India/Brazil/Indonesia), 3 CRM advisers. Reconciled the stale brief
 > against the authoritative timeline (hard **Sept 10** rec-letter deadline; **Aug 21 noon** campus lock).
 
+> **Mixed inbox batch — 2026-08-07:** ingested 3 unrelated clips. **(1) [[ramp-ai-agents-every-step|Ramp]]**
+> (Anthropic Office Hours) — AI agents across the whole engineering lifecycle; new concept
+> [[build-for-future-models]], and an in-prod **corroboration of [[fable-5|Fable 5]]** as the frontier.
+> **(2) [[doomscrolling-attention-science-bbc|BBC/Joss Fong on "brain rot"]]** — the harm is the
+> *swipe-to-decide interaction*, not short content → new concept [[doomscrolling-attention-science]], wired
+> into the discipline cluster + Cole's own attention-leak + a [[neuro-channel|Neuro]] topic. **(3)
+> [[us-carceral-system-channel5-freleng|Channel 5 / Maggie Freleng]]** — the substantive first half →
+> [[mass-incarceration]] (values context under Cole's "useful/help others" half); the back-half conspiracy
+> speculation **deliberately not encoded** per `AGENTS.md`.
+
 > **Economist interviews — 2026-07-30:** ingested 2 long-form [[the-economist|Economist]] "Insider"
 > interviews (channel: The Economist) — [[elon-musk-economist-2026|Elon Musk]] (AI in ~5 yrs, "work
 > becomes optional," the China/electricity race; corroborates the vault's [[anthropic]] /
@@ -241,12 +251,14 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Futures & meaning
 - [[post-scarcity-and-meaning]] — the recurring theme across Cole's sources: once AI makes work/money optional, the scarce resource becomes *meaning* (Musk's abundance ↔ Banks's [[the-culture|Culture]] ↔ Cole's own "free + useful").
 - [[tech-authoritarianism]] — the **dark mirror**: the same AI/data capability aimed at elite control, not liberation. Thiel's "capitalism > democracy," Yarvin's CEO-monarch, Land's Dark Enlightenment, built on [[palantir]]-style surveillance.
+- [[mass-incarceration]] — the US carceral system (scale, three-strikes/juvenile-LWOP, wrongful convictions, engineered re-entry failure, private-prison bed-rate economics). Values context under Cole's "useful/help others" half, not a career lane.
 
 ### AI-native work & industry
 - [[ai-native-engineering-org]] — the bottlenecks moved; rewrite the norms.
 - [[test-driven-development]] — red→green→refactor; in the AI-native era the test becomes the fake-proof executable spec an agent optimizes against (verification, not coding, is the bottleneck).
 - [[html-over-markdown-specs]] — HTML for legible, verification-native artifacts. · [[bitter-lesson]] — don't over-constrain capable models.
 - [[governed-skills-framework]] — teach + govern workflows so compliance says yes. · [[ai-for-science]] — compress 50–100 yrs into 5–10.
+- [[build-for-future-models]] — don't over-build scaffolding for today's model; the next one outgrows it. A velocity/tech-debt bet (Ramp); cousin of the [[bitter-lesson]]. Watch the *rate of change*.
 
 ### Discipline & behavior change
 - [[discipline-without-willpower]] — thesis: discipline is structure, not willpower.
@@ -278,6 +290,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[retrieval-practice]] — testing > restudy (medium-large in general, *not* robust in math).
 - [[interleaving]] — mixed practice adds discriminative contrast (g=0.34 math).
 - [[spaced-repetition]] — the applied technique/tools (Ebbinghaus→FSRS/Anki); why it's a Fact-only tool as usually shipped.
+- [[doomscrolling-attention-science]] — the evidence on short-form video & attention: harm is the *swipe-to-decide interaction* (not short content); "attention isn't broken"; fix = context-limits, not time-limits.
 
 ### Neuro channel (venture)
 - [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
@@ -306,6 +319,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[july-hiring-thread-benlang]] — Ben Lang's July 2026 hiring thread (86 startups); in-lane NYC health/bio/AI names promoted to [[target-orgs]].
 
 ### World & ideas — interviews & reading
+- [[us-carceral-system-channel5-freleng]] — Channel 5 / Maggie Freleng on US mass incarceration (substantive first half → [[mass-incarceration]]); back-half conspiracy content flagged + not encoded. Values context for [[cole]].
 - [[elon-musk-economist-2026]] — Musk on AI superintelligence (~5 yrs), abundance / "work optional," the China–electricity race, cross-lab safety testing, and his politics. Corroborates [[anthropic]] as AI leader + the [[mythos]]→[[fable-5|Fable]] lineage.
 - [[tucker-carlson-economist-2026]] — Carlson on the Iran war, the Israel lobby, Gaza, Ukraine sovereignty, Taiwan ("US can't/won't defend"), and power-sharing with China (March 2026).
 - [[culture-series-wikipedia]] — Iain M. Banks's *Culture* series (Wikipedia): the post-scarcity AI utopia Musk/Bezos cite; where to start reading + the meaning-in-abundance theme.
@@ -317,6 +331,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[discipline-without-willpower-erin-meryl]] — YouTube, Erin Meryl Study: 5 discipline strategies.
 
 ### Neuroscience & learning
+- [[doomscrolling-attention-science-bbc]] — BBC / Joss Fong: the experimental research on short-form video & "brain rot"; the harm is the swipe-to-decide interaction, not short content.
 - [[neuroplasticity-rewiring-brain-ixcarus]] — Substack (ixcarus): change is rewiring, not willpower.
 - [[how-to-remember-everything-brainhealthdecoded]] — Brain Health Decoded: consume vs digest; match strategy to knowledge type.
 - [[conscious-subconscious-mind-ixcarus]] — Substack (ixcarus): conscious/subconscious mind, RAS, cognitive biases.
@@ -336,6 +351,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[stickman-animation-free-ai-tutorials]] — 7-video batch on making stick-figure videos with free AI tools (the research behind [[neuro-free-tool-stack]]).
 
 ### Claude Code — native features (July 2026)
+- [[ramp-ai-agents-every-step]] — Ramp runs Claude Code agents across the whole eng lifecycle (loops vs. dynamic workflows, @Inspect, AI-SRE, no token budgets); corroborates [[fable-5]] + seeds [[build-for-future-models]].
 - [[claude-code-2-scheduled-tasks]] — native scheduled tasks / cron agents.
 - [[claude-code-loops]] — repeat skills/tasks on an interval up to 3 days.
 - [[claude-code-memory-2-autodream]] — Memory 2.0 / Auto Dream memory consolidation.
