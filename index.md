@@ -188,7 +188,10 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-scheduled-tasks]] — cron-triggered autonomous agentic sessions.
 - [[claude-code-memory]] — auto-memory + experimental "Auto Dream" consolidation.
 - [[token-context-management]] — strategies for context hygiene, compaction, sub-agent isolation, and CLAUDE.md sizing.
-- [[claude-code-skills]] — reusable skills; anatomy, 6-step build workflow, Skill Creator, evals.
+- [[claude-code-skills]] — reusable skills; the concept/hub, with the four-page skill-cluster role table.
+- [[agent-skills]] — the portable skill **format**: three-level (metadata/instructions/resources) architecture, cross-surface rules, security posture.
+- [[skill-authoring-playbook]] — the authoring **craft**: description-as-trigger, progressive disclosure, degrees-of-freedom, evals-first, anti-patterns.
+- [[claude-code-skill-creation-playbook]] — the **mechanics reference**: frontmatter fields, who-invokes matrix, arguments, dynamic context injection, precedence, lifecycle.
 - [[skill-trigger-tuning]] — how skill descriptions work as triggers; lifecycle, effective description patterns, A/B tuning, debugging misfires.
 - [[claude-code-custom-commands]] — `.claude/commands/` slash commands; 2026 unification with skills; arguments, scope, CLAUDE.md relationship.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
