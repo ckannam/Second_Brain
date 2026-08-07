@@ -970,3 +970,17 @@ investor + Altman-as-mentee), [[post-scarcity-and-meaning]] (who-controls-the-ab
 [[agent-security-risks]] (personal↔civilizational-scale surveillance). Updated `index.md` (Thiel-network
 subsection under World & ideas; concept under Futures & meaning; source under World & ideas). Moved source
 to `raw/Processed/`.
+
+## [2026-08-07] autoresearch night | Consolidate the skill-authoring cluster
+**Phase 1 build (@cloud Skill max / Improve + general skills / Train skills):** three
+near-duplicate "how to author a skill" pages had accreted on separate nights, each unaware of
+the others. Consolidated into a role-distinct four-page cluster — [[claude-code-skills]]
+(concept/hub, +cluster role table), [[agent-skills]] (portable format), [[skill-authoring-playbook]]
+(canonical craft), [[claude-code-skill-creation-playbook]] (mechanics reference, craft sections
+trimmed to pointers). **Deleted** the pure duplicate `writing-reliable-skills` and repointed its
+inbound links ([[agent-skills]], [[prompt-engineering-playbook]]). **Phase 3 self-heal:** catalogued
+the three surviving pages in `index.md` → **HEALTH_DEBT 8 → 0** (the delete cleared one
+missing_from_index, the index entries cleared the rest). **Phase 4 MODE B:** enriched the
+[[skills-vs-subagents]] decision hub from a 10-line stub (10 inbound) into a full decision page
+(teach-vs-staff frame, comparison table, reach-for-X guidance, reusability ladder). Everything on
+`autoresearch/night-2026-08-07` → morning PR.
