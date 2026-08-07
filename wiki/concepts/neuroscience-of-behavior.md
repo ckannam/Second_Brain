@@ -42,6 +42,9 @@ expected to grow.
   (~11M bits/s); learning is the handoff from conscious struggle to subconscious automation.
 - **[[reticular-activating-system]]** — the attention filter you can program with focus.
 - **[[cognitive-biases]]** — the subconscious's fast shortcuts and their systematic errors.
+- **[[doomscrolling-attention-science]]** — what the research actually shows about short-form video: the
+  harm is the **swipe-to-decide interaction**, not short content; "attention isn't broken," and the fix is
+  context-limits ([[environment-design]]), not time-limits. A live front in Cole's own attention-leak.
 
 ## Where it connects
 The applied playbooks: [[how-to-build-discipline]], [[discipline-without-willpower]],

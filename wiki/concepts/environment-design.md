@@ -18,6 +18,12 @@ Sits alongside [[cue-routine-reward-loop]] (cues live in the environment) and is
 counter to [[temporal-discounting]] by lowering the present cost of starting. Broadly this
 is a "nudge" approach (Thaler & Sunstein 2008).
 
+**Worked example — beating the scroll ([[doomscrolling-attention-science]]):** the reason "I'll only
+scroll 15 minutes" fails is that it's a *time* limit fighting willpower. The environment-design version is
+a **context limit** — bind the behavior to a place/activity ("I only scroll on the treadmill / while
+walking") so it's structurally unavailable the rest of the day. Same family as "move the monkey out of the
+room": change the surroundings, not the resolve.
+
 **Neuro grounding** ([[neuroplasticity-rewiring-brain-ixcarus]]): environmental cues keep the
 old [[neuroplasticity|pathway]] firing (why quitting smoking around smokers fails), and
 **mirror neurons** mean you literally rehearse the habits of people you're around — "show me

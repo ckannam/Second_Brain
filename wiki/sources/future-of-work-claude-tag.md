@@ -26,8 +26,14 @@ with Claude that "drives a little more." Enabled by long-horizon + alignment res
 on track for days) and a memory system that "finally feels right." Data point: **65% of the
 [Claude Code] product team's code is created by Claude.**
 
+**In-production echo ([[ramp-ai-agents-every-step|Ramp]], 2026-08-07):** Ramp's `@Inspect` (a Slack-summoned
+"digital coworker") and their own use of Claude Tag are exactly this pattern — the *vertical slice* where
+you tag the agent to ship an experiment and it lands the PR, reminds itself to check the next day, tunes
+exposures, and ships the winner *with the human out of the loop*. Multiplayer adoption spread the same way:
+people saw an `@Inspect` reply in someone else's thread and went "oh, you can just do that?"
+
 Claude Tag is in Slack (beta) — claude.com/tag. Related: [[proactive-agents]],
 [[claude-code-channels]], [[ai-executive-assistant]], [[ai-native-engineering-org]],
-[[agent-memory]].
+[[agent-memory]], [[ramp-ai-agents-every-step]].
 
 **Raw clip:** [[The future of work with @Claude]]
