@@ -62,4 +62,15 @@ Build when you find yourself repeating the same instructions across Claude Code 
 
 **Legacy form:** `.claude/commands/<name>.md` creates the same `/name` slash command without a folder. As of 2026 this is unified with skills (same frontmatter, same `/` menu). See [[claude-code-custom-commands]] for the full comparison.
 
+## The four-page skill cluster
+
+This overview is the hub; three depth pages own the rest, each a distinct role:
+
+| Page | Owns |
+|---|---|
+| **this page** ([[claude-code-skills]]) | the concept — *what* a skill is, when to build one |
+| [[agent-skills]] | the portable **format** — the three-level architecture, cross-surface rules, security |
+| [[skill-authoring-playbook]] | the authoring **craft** — description-as-trigger, progressive disclosure, evals-first |
+| [[claude-code-skill-creation-playbook]] | the **mechanics reference** — frontmatter fields, invocation matrix, arguments, injection, precedence |
+
 Related: [[skills-vs-subagents]], [[claude-code-subagents]], [[ai-second-brain-levels]] (Level 3). Depth: [[skill-trigger-tuning]] (trigger reliability), [[evals-for-taste]] and [[governed-skills-framework]] (evaluating and governing skills at scale).
