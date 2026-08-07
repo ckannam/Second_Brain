@@ -9,43 +9,52 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-02
+## Night of 2026-08-07
 
 ### Baseline (Phase 0)
-- **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — no objective self-heal work tonight.
+- **HEALTH_DEBT = 8** (orphans: 0, missing_from_index: **4**, stale_claims: 0)
+- Pre-existing defect set (missing_from_index): `agent-skills.md`,
+  `writing-reliable-skills.md`, `claude-code-skill-creation-playbook.md`,
+  `skill-authoring-playbook.md` — all skill-authoring concept pages created on prior
+  nights (2026-08-01/03/06) but never catalogued in `index.md`.
+- **Diagnosis:** these four are not just un-indexed — three of them
+  (`writing-reliable-skills`, `claude-code-skill-creation-playbook`,
+  `skill-authoring-playbook`) are **near-duplicate "how to author a reliable skill" pages**,
+  each spun up on a different night unaware of the others. Cataloguing all four as-is would
+  index the sprawl. The right heal is to **consolidate first, then index** (Phase 1 build →
+  Phase 3 self-heal).
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max / Train skills → `wiki/concepts/skill-trigger-tuning.md`** (new concept page):
-   The vault has two thin source stubs covering skill triggering (`master-claude-code-skills-28min`,
-   `claude-code-skills-update`) and a concept page (`claude-code-skills`) that only mentions
-   triggering in passing. No page owns the "how does a skill actually fire?" question.
-   This passes the new-page test: distinct reusable concept, no existing page owns it.
-   Directly addresses the "Skill max" and "Train skills" @cloud tasks.
-   Web search grounded + synthesized from existing vault sources + real skill anatomy in the vault.
-
-2. **Train skills → enrich `wiki/concepts/claude-code-skills.md`**:
-   The current page is thin (5 bullets, no 6-step framework, no Skill Creator workflow detail).
-   Enriching it with the anatomy, lifecycle, and build workflow documented across vault sources
-   makes it a more useful reference and directly advances "Train skills."
+1. **Skill max / Improve + general skills / Train skills → consolidate the skill-authoring
+   page cluster.** Collapse the three overlapping authoring pages into one canonical craft
+   page and one distinct mechanics reference, keeping the format page separate:
+   - `skill-authoring-playbook` = **canonical craft** (how to write a skill that triggers &
+     stays lean). Absorb the one unique data point from `writing-reliable-skills`.
+   - `claude-code-skill-creation-playbook` = **mechanics reference** (frontmatter fields,
+     who-invokes matrix, arguments, dynamic injection, precedence, lifecycle) — trim its
+     overlapping craft sections to pointers.
+   - `agent-skills` = **the portable format/architecture** (unchanged; already distinct).
+   - **Delete `writing-reliable-skills`** (pure duplicate of `skill-authoring-playbook`);
+     repoint its two inbound links (`agent-skills`, `prompt-engineering-playbook`).
+   Directly advances the three @cloud skill-mastery tasks and removes real graph sprawl.
+   Grounded in the pages themselves + AGENTS.md's "no near-duplicate page" principle.
 
 ### Considered but skipped this night (with reason)
-- **Prompt max** (@cloud): 3 skills already shipped 2026-07-26; "refining/eval-testing" is
-  interactive. No bounded unattended deliverable tonight.
-- **Improve + general skills** (@cloud): open-ended — no single bounded artifact. Deferred.
-- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment on design. Deferred (reserved for MODE B generative proposal tonight
-  if appropriate, but kept off the build list).
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system (`score.py`
-  is frozen); any tuning requires human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning. Outward
-  action (spending). Ineligible.
-- **Watch [[agent-hub]]** (@cloud): standing monitor — page created 2026-07-31 (MODE B);
-  no new material in vault since then. Not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
-  deferred in favor of higher-value skill mastery items.
+- **Prompt max** (@cloud): the 3 prompt-architect skills are shipped; remaining work is
+  "eval-test the skills," which needs an interactive/local eval harness. No bounded
+  unattended deliverable tonight.
+- **Build the source-seeking (MODE B) rung** (@cloud): a structural change to `program.md`;
+  needs human design sign-off. Deferred.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): `score.py` is the frozen evaluator —
+  only a human tunes what it measures. Ineligible for the cloud lane.
+- **Try the autoresearch loop hands-on** (@cloud): requires external GPU provisioning
+  (spending / outward action). Ineligible.
+- **Train skills — hands-on Skill Creator A/B eval run** (@cloud sub-part): the *authoring
+  documentation* advanced tonight; the live eval-run sub-part needs the local skill harness.
+  Left as a `⏳ progress` note.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, etc.).
+(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, password
+holder, IG/YouTube exports, etc.).
