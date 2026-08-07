@@ -1,6 +1,14 @@
 ---
 name: vault-improve
-description: Use when the user says "improve" a target in this Second Brain vault — a skill/workflow (a SKILL.md, AGENTS.md, the ingest process), a project (grant finder, JHTV second brain), a bucket/life-area, a wiki page, a task item, or bare "improve" for the whole vault. Diagnoses the gap to Cole's vision and writes a venue-tagged (local/cloud/human) plan that waits for approval before executing only the local parts. For the autonomous metric-driven heal loop use vault-autoresearch; for answering a question from the vault use wiki-query.
+description: >
+  Use when Cole wants to improve, strengthen, enhance, update, refine, fix, or polish
+  something in this Second Brain vault — a skill (SKILL.md), the ingest workflow (AGENTS.md),
+  a project (grant finder, JHTV second brain), a life-area bucket, a wiki page, a task item,
+  or bare "improve the vault". Trigger on: "improve X", "make X better", "strengthen X",
+  "refine X", "update X", "polish X", "fix the X skill/page/workflow". Diagnoses the gap to
+  Cole's vision and writes a venue-tagged plan (local/cloud/human), then waits for approval
+  before executing local steps only. For the autonomous metric-driven heal loop use
+  vault-autoresearch; for answering questions from the vault use wiki-query.
 ---
 
 # Vault Improve
