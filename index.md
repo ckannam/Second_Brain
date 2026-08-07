@@ -193,6 +193,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-custom-commands]] — `.claude/commands/` slash commands; 2026 unification with skills; arguments, scope, CLAUDE.md relationship.
 - [[claude-code-skill-creation-playbook]] — end-to-end practical guide: anatomy, SKILL.md frontmatter, 6-step framework, Skill Creator + evals workflow, dynamic context injection, arguments, anti-patterns.
 - [[writing-reliable-skills]] — authoring craft: three levers (description/progressive-disclosure/body), the Claude A builds / Claude B uses eval loop; the "skill max" track.
+- [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
 - [[claude-code-computer-use]] · [[claude-code-remote-control]] · [[claude-code-imessage]] — control & remote access (stubs).
