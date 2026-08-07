@@ -9,42 +9,44 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-02
+## Night of 2026-08-07
 
 ### Baseline (Phase 0)
-- **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — no objective self-heal work tonight.
+- **HEALTH_DEBT = 8** (orphans: 0, missing_from_index: 4, stale_claims: 0)
+- Pre-existing defect set: **4 missing_from_index** — concept pages created in prior nights
+  but never added to the `index.md` catalog:
+  - `wiki/concepts/claude-code-skill-creation-playbook.md`
+  - `wiki/concepts/writing-reliable-skills.md`
+  - `wiki/concepts/skill-authoring-playbook.md`
+  - `wiki/concepts/agent-skills.md`
+- Phase 1 (fast-track, main): all 4 healed → HEALTH_DEBT **8→0**; 4 commits pushed to main.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max / Train skills → `wiki/concepts/skill-trigger-tuning.md`** (new concept page):
-   The vault has two thin source stubs covering skill triggering (`master-claude-code-skills-28min`,
-   `claude-code-skills-update`) and a concept page (`claude-code-skills`) that only mentions
-   triggering in passing. No page owns the "how does a skill actually fire?" question.
-   This passes the new-page test: distinct reusable concept, no existing page owns it.
-   Directly addresses the "Skill max" and "Train skills" @cloud tasks.
-   Web search grounded + synthesized from existing vault sources + real skill anatomy in the vault.
+1. **Skill max → trigger-tune `vault-improve` description**:
+   The skill's description only listed "improve" as the trigger verb, silently missing
+   "strengthen/refine/enhance/update/polish/make X better" — all natural phrasings Cole uses.
+   Broadened the description to cover all six synonyms + "fix the X skill/page/workflow."
+   Directly advances "Skill max."
 
-2. **Train skills → enrich `wiki/concepts/claude-code-skills.md`**:
-   The current page is thin (5 bullets, no 6-step framework, no Skill Creator workflow detail).
-   Enriching it with the anatomy, lifecycle, and build workflow documented across vault sources
-   makes it a more useful reference and directly advances "Train skills."
+2. **Improve + general skills → apply [[skill-authoring-playbook]] checklist to `wiki-query`**:
+   The skill's description was narrow (missed "what do I know about X", "what's in my notes on X",
+   "what should I do about X") and didn't surface the auto-filing behavior. Expanded description +
+   added missing trigger phrases + surfaced auto-filing in the description + extended Common Mistakes
+   with the life-area / buckets gap. Directly advances "Improve + general skills."
 
 ### Considered but skipped this night (with reason)
-- **Prompt max** (@cloud): 3 skills already shipped 2026-07-26; "refining/eval-testing" is
-  interactive. No bounded unattended deliverable tonight.
-- **Improve + general skills** (@cloud): open-ended — no single bounded artifact. Deferred.
-- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment on design. Deferred (reserved for MODE B generative proposal tonight
-  if appropriate, but kept off the build list).
+- **Train skills** (@cloud): "hands-on Skill Creator A/B eval run" is interactive (requires Cole at
+  keyboard running Skill Creator). Not doable unattended.
+- **Prompt max** (@cloud): eval-testing the 3 prompt-architect skills is interactive. Deferred.
+- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`; needs
+  human judgment on design. Deferred.
 - **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system (`score.py`
   is frozen); any tuning requires human sign-off. Deferred.
 - **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning. Outward
   action (spending). Ineligible.
-- **Watch [[agent-hub]]** (@cloud): standing monitor — page created 2026-07-31 (MODE B);
-  no new material in vault since then. Not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
-  deferred in favor of higher-value skill mastery items.
+- **Watch [[agent-hub]]** (@cloud): standing monitor — no new material to build. Not a buildable
+  deliverable tonight.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane

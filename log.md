@@ -970,3 +970,36 @@ investor + Altman-as-mentee), [[post-scarcity-and-meaning]] (who-controls-the-ab
 [[agent-security-risks]] (personal↔civilizational-scale surveillance). Updated `index.md` (Thiel-network
 subsection under World & ideas; concept under Futures & meaning; source under World & ideas). Moved source
 to `raw/Processed/`.
+
+## [2026-08-07] autoresearch night — Phase 1 fast-track | index.md catalog heals (×4)
+HEALTH_DEBT opened at **8** (4 missing_from_index defects): `claude-code-skill-creation-playbook`,
+`writing-reliable-skills`, `skill-authoring-playbook`, `agent-skills` — all created in prior
+autoresearch nights but never added to `index.md`. MODE A fast-track: added each to the "Claude Code
+capabilities" section of `index.md` one at a time; each commit passed all four auto-merge guards
+(structural-only, strict debt drop, clean fast-forward, pre-existing debt) and was pushed directly
+to `main`. HEALTH_DEBT **8→6→4→2→0**. Four commits on main.
+
+## [2026-08-07] autoresearch night — Phase 2 build | skill trigger-tuning (vault-improve + wiki-query)
+Two skill description improvements on the night branch:
+
+**`vault-improve`** — broadened trigger from single-word "improve" to six synonyms:
+"improve/strengthen/enhance/update/refine/fix/polish" + "make X better" + "fix the X skill/page/workflow."
+Addresses the silent miss where natural synonyms bypassed the trigger entirely.
+
+**`wiki-query`** — applied [[skill-authoring-playbook]] checklist: expanded description with three missing
+trigger phrases ("what do I know about X", "what's in my notes on X", "what should I do about X"),
+surfaced the auto-filing behavior explicitly in the description, extended Common Mistakes with the
+life-area / buckets entry point gap. HEALTH_DEBT 0 (no build-introduced debt).
+
+## [2026-08-07] autoresearch night — Phase 3 write-back | tasks/index.md
+Appended ⏳ progress notes (2026-08-07) to "Skill max" and "Improve + general skills" in
+`tasks/index.md`. Neither closed — both are ongoing mastery goals with Skill Creator eval runs still
+remaining as the next milestone.
+
+## [2026-08-07] autoresearch night — Phase 4 MODE B | vault-autoresearch concept page enrichment
+Generative enrichment: updated `wiki/concepts/vault-autoresearch.md` (stale since 2026-07-24,
+before the two-lane model was formalized). Added the **two-lane model table** (fast-track vs review
+lane, where each lands), the **Phase 0–5 order** bulleted list, and expanded the **"Two modes
+(detail)"** section to document that MODE A runs twice per night (Phase 1 fast-track on main +
+Phase 3 branch) and MODE B is always the review lane. All content verified from `program.md` — no
+speculation. Reciprocal links already present. HEALTH_DEBT 0.
