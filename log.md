@@ -970,3 +970,15 @@ investor + Altman-as-mentee), [[post-scarcity-and-meaning]] (who-controls-the-ab
 [[agent-security-risks]] (personal↔civilizational-scale surveillance). Updated `index.md` (Thiel-network
 subsection under World & ideas; concept under Futures & meaning; source under World & ideas). Moved source
 to `raw/Processed/`.
+
+## [2026-08-07] ingest (batch of 3) | Ramp AI agents · BBC doomscrolling · Channel 5 carceral
+Swept the inbox (3 clips). **New source pages:** [[ramp-ai-agents-every-step]], [[doomscrolling-attention-science-bbc]],
+[[us-carceral-system-channel5-freleng]]. **New concepts:** [[build-for-future-models]] (Ramp's velocity/tech-debt
+bet), [[doomscrolling-attention-science]] (harm = swipe-to-decide interaction, not short content; fix = context-limits),
+[[mass-incarceration]] (values context under Cole's "useful/help others" half).
+**Enrichments / connection pass:** upgraded [[fable-5]] from creator-rumor → **in-prod corroboration** (Ramp using it
+as the frontier model) — a real freshness reconciliation; added Ramp as a customer instance on [[ai-native-engineering-org]]
++ [[future-of-work-claude-tag]] (@Inspect echo); added the context-limit worked example to [[environment-design]]; linked
+the doomscroll page into the [[neuroscience-of-behavior]] hub; added two pointers into [[cole]] (attention-leak + values).
+**Editorial call:** Channel-5 back-half conspiracy content (Epstein / Charlie Kirk / Israel / QAnon) **deliberately not
+encoded** as fact per AGENTS.md; flagged in the source page. Updated index (batch note + entries). Moved all 3 to Processed.
