@@ -103,6 +103,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Tools & orgs
 - [[claude-code]] — Anthropic's agentic coding tool; the central subject of this vault.
+- [[claude-api]] — Anthropic's developer API (`POST /v1/messages`); programmatic model access behind the Neuro pipeline's script-gen step. Point-in-time model/price snapshot; distinct from Claude Code + the chat app.
 - [[anthropic]] — maker of Claude Code; shipping features at a rapid cadence.
 - [[claude-corps]] — Anthropic's paid 12-mo AI fellowship at US nonprofits ($85k); best-fit cohort for Cole = **Aug 2027**. See [[Job Search]].
 - [[codepath]] — America's largest collegiate CS-education nonprofit; Anthropic partner + employer of record for [[claude-corps]] fellows; potential warm channel into Corps (check for Duke chapter).

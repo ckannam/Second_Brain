@@ -992,3 +992,13 @@ Created [[skill-audit-worked-example]]: verdict + finding per playbook §1–§6
 (description completeness; no evals yet), plus a copy-paste audit template + the unattended-safety
 rule (apply only structural/no-behavior fixes; leave trigger-surface + content changes for review).
 Reciprocal links from [[skill-authoring-playbook]], index.md, and the [[Claude Mastery]] bucket.
+
+## [2026-08-08] autoresearch (night branch) | Phase 4 MODE B — new [[claude-api]] entity page
+Filled the dangling `[[claude-api]]` link (3 inbound references from [[neuro-production-pipeline]],
+[[neuro-channel]], and the [[Neuro]] bucket — all pointing at the pipeline's programmatic script-gen
+step, but no page existed). Created `wiki/entities/claude-api.md`: what the Claude API is (the
+`POST /v1/messages` developer endpoint) vs [[claude-code]] and the chat app, its role as the Neuro
+pipeline's scripting brain (Claude writes script+storyboard JSON; Gemini draws the scenes), a
+snapshot-marked 2026 model/pricing table (freshness rule), and the capability set (tool use,
+structured outputs, adaptive thinking, caching, batches, MCP connector). Indexed under Tools & orgs
++ wired into the [[Claude Mastery]] bucket. Passes the new-page test (distinct, reusable, 3× linked).

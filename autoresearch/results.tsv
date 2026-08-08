@@ -32,3 +32,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-08T02:00	A	(none)	0	0	skip	Phase 1: baseline HEALTH_DEBT 0; empty pre-existing defect set; no fast-track heal on main
 2026-08-08T02:15	build	wiki/concepts/skill-audit-worked-example.md	0	0	keep	Phase 2: worked-example skill audit of startup-radar (playbook §1-§6 + template); indexed+linked; no score impact
 2026-08-08T02:16	A	(build check)	0	0	skip	Phase 3: HEALTH_DEBT 0 after build; new page indexed+linked; no build-introduced debt
+2026-08-08T02:30	B	wiki/entities/claude-api.md	0	0	keep	MODE B: filled dangling [[claude-api]] (3 inbound from Neuro pipeline pages) — grounded Claude API entity page (script-gen step, capabilities, snapshot-marked model/pricing); indexed + Claude Mastery bucket
