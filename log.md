@@ -982,3 +982,23 @@ as the frontier model) — a real freshness reconciliation; added Ramp as a cust
 the doomscroll page into the [[neuroscience-of-behavior]] hub; added two pointers into [[cole]] (attention-leak + values).
 **Editorial call:** Channel-5 back-half conspiracy content (Epstein / Charlie Kirk / Israel / QAnon) **deliberately not
 encoded** as fact per AGENTS.md; flagged in the source page. Updated index (batch note + entries). Moved all 3 to Processed.
+
+## [2026-08-08] autoresearch (night branch) | Phase 2 build — worked-example skill audit
+Ran the [[skill-authoring-playbook]] checklist end-to-end against the `startup-radar` skill as the
+finishable "worked example" the *Improve + general skills* task ([[Claude Mastery]]) asked for.
+Created [[skill-audit-worked-example]]: verdict + finding per playbook §1–§6, ONE safe fix applied
+(§6 — normalized Step 7's validator call from a hardcoded absolute path to vault-relative
+`python3 startup-tracker/validate.py`, matching Steps 4–5), two 🟡 recommendations logged for Cole
+(description completeness; no evals yet), plus a copy-paste audit template + the unattended-safety
+rule (apply only structural/no-behavior fixes; leave trigger-surface + content changes for review).
+Reciprocal links from [[skill-authoring-playbook]], index.md, and the [[Claude Mastery]] bucket.
+
+## [2026-08-08] autoresearch (night branch) | Phase 4 MODE B — new [[claude-api]] entity page
+Filled the dangling `[[claude-api]]` link (3 inbound references from [[neuro-production-pipeline]],
+[[neuro-channel]], and the [[Neuro]] bucket — all pointing at the pipeline's programmatic script-gen
+step, but no page existed). Created `wiki/entities/claude-api.md`: what the Claude API is (the
+`POST /v1/messages` developer endpoint) vs [[claude-code]] and the chat app, its role as the Neuro
+pipeline's scripting brain (Claude writes script+storyboard JSON; Gemini draws the scenes), a
+snapshot-marked 2026 model/pricing table (freshness rule), and the capability set (tool use,
+structured outputs, adaptive thinking, caching, batches, MCP connector). Indexed under Tools & orgs
++ wired into the [[Claude Mastery]] bucket. Passes the new-page test (distinct, reusable, 3× linked).

@@ -7,7 +7,9 @@ lean" checklist — the *build* companion to the [[claude-code-skills]] overview
 ([[master-claude-code-skills-28min]], [[claude-code-skills-update]]) and the governance/eval
 lens ([[governed-skills-framework]], [[evals-for-taste]]). This is the page Cole works from
 when building or improving the vault's own skills (the **Claude Mastery** goal:
-[[Claude Mastery]]).
+[[Claude Mastery]]). For the checklist **run end-to-end against a real skill** — verdict +
+fix per section, plus a copy-paste audit template — see the worked example
+[[skill-audit-worked-example]].
 
 ## The two failure modes a skill has
 
