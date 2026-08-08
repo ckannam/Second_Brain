@@ -78,6 +78,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
   ⏳ progress 2026-08-02: created [[skill-trigger-tuning]] concept page (lifecycle, description patterns, A/B tuning loop, debug table); remaining: hands-on trigger tuning pass on existing vault skills + Skill Creator eval run.
 - [ ] @cloud **Improve + general skills** — continuously improve existing skills and maintain a set of general-purpose ones. (added 2026-07-24)
     - ⏳ progress 2026-08-06: [[skill-authoring-playbook]] gives the checklist to improve *any* existing skill against (concise, references one-level-deep, TOC on long refs, no voodoo constants). Remaining: run one existing vault skill through the checklist as a worked example.
+    - ⏳ progress 2026-08-08: ran the checklist end-to-end on `startup-radar` → [[skill-audit-worked-example]] (verdict+fix per §1–§6; applied the one safe fix — Step 7 validator path → vault-relative; template + unattended-safety rule for reuse). Remaining: apply the two 🟡 recs Cole must approve (name contact-enrichment in the description; write ~3 evals), then audit the next skill using the template.
 
 ### Personal bucket — finance
 - [ ] @human Data connection — **decided 2026-07-25: no paid apps** (Tiller/Monarch declined). Free path = **Empower Personal Dashboard** (fka Personal Capital) for the investment/net-worth dashboard + occasional **manual CSV export** into local-only `finance/` when Cole wants a spending/holdings analysis. [[data-connection]] (added 2026-07-25)
