@@ -986,3 +986,4 @@ encoded** as fact per AGENTS.md; flagged in the source page. Updated index (batc
 ## [2026-08-10] autoresearch night | build + write-back
 - Phase 1 build: worked-example skill audit (startup-radar) folded into [[skill-authoring-playbook]]; applied startup-radar description trigger-tuning fix (under-trigger synonym gap).
 - Phase 2 write-back: progress notes on "Improve + general skills" and "Skill max" @cloud tasks (both still open — remaining work is interactive Skill Creator evals).
+- Phase 4 MODE B: enriched [[claude-code-skills]] with the complete SKILL.md frontmatter reference (10-field table, official Claude Code docs). Enrichment-first — skill cluster saturated, no new page warranted. HEALTH_DEBT stayed 0 all night.
