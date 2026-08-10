@@ -12,6 +12,11 @@ status: draft for review
 **Author:** Cole Kannam · **Date:** August 2026
 **For:** Justin (taking over day-to-day) · Stewart & Oliver (the forward discussion)
 
+> **This is the full internal reference.** Two one-pagers are derived from it for hand-out:
+> **[[JHTV-Second-Brain-Meeting-Onepager]]** (for the meeting — what the tool does now + how integrating with
+> Justin's and Oliver's work grows it; assumes the audience knows the team's job) and
+> **[[JHTV-Second-Brain-Justin-Operator-Onepager]]** (§3 standalone — how it works + how to maintain it).
+
 ---
 
 ## 1. How to read this
