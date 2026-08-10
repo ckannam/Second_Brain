@@ -7,51 +7,55 @@ audience: Justin (operator handoff)
 status: draft for review
 ---
 
-# Second Brain (VC Matcher) — Operator's Guide
+# Second Brain (VC Matcher): Operator's Guide
 
-*For Justin. One page to keep it running and keep using it. Full context:
-[[JHTV-Second-Brain-Vision-and-Handoff]].*
+A short reference for keeping the tool running and using it day to day.
 
 ## What it is
-An internal tool with two front doors: **firm → the Hopkins techs it's most likely to fund** (with fit
-scores, JHU-alumni warm-intro paths, and downloadable one-pagers), and **tech → its best-fit funders +
-a non-dilutive grant screen.** It's what you open to prep a firm meeting or advise a team on next capital.
 
-## How it works (plain version)
-- **A static website on GitHub Pages — no server database, no build step.** The browser downloads a few
-  JSON files and does all matching/scoring in JavaScript, on the machine.
-- **The `data/` JSON files *are* the database** (`vcs.json`, `technologies.json`, `jhu_connections.json`,
-  `jhtv_relationships.json`, `vc_portfolios.json`, deal histories…). **Git is the version history, the
-  review (diffs/PRs), and the undo button.**
-- **One optional moving part:** a small **Render backend** (`server.js`) that wakes only when you search a
-  firm the tool has never seen — it runs Claude + web search and commits the new firm into `vcs.json`. On
-  the free tier it **spins down after 15 min (~30s cold start)** — expected, not a bug. Nothing in
-  day-to-day matching depends on it being awake.
+The tool has two entry points. From a firm, it returns the Hopkins technologies that firm is most likely to
+fund, each with a fit score, the warm introduction path through our alumni network, and a one-pager to
+send. From a technology, it returns the best-fit investors along with a screen of relevant non-dilutive
+grants. It is the tool to open when preparing for a firm meeting or advising a team on where its next
+capital should come from.
 
-## How to maintain it
-- **Add / edit a tech or firm** → edit the JSON in `data/`, commit. Live on next deploy.
-- **Run a match** → type a firm (→ techs) or click a tech (→ firms). No upkeep.
-- **One-pagers** → live in `one-pagers/` (Tech and VC folders — note the real trailing space in the VC
-  folder name; keep it).
-- **Add a new VC automatically** → just search it; the backend researches + saves it.
-- **Refresh the JHU alumni network** → source of truth is `JHU_VC_Network.xlsx`; after editing, run
-  `node scripts/convert_jhu_connections.js` to regenerate `jhu_connections.json`, then commit.
-- **Grants** → powered by the **shared grant engine** (same engine as the external Grant Finder — update
-  once, both stay in sync).
+## How it works
 
-## Why it won't break — and recovery
-Because it's JSON-in-git: a bad change is **one `git revert` away**, every edit is a reviewable diff, and
-there's no server state to corrupt. Realistic failure modes are small:
-- **Malformed JSON edit** → that file won't load; fix the syntax and recommit.
-- **Backend asleep** → wait ~30s; only affects researching *brand-new* firms.
+The tool is a static website hosted on GitHub Pages, with no server database and no build step. When
+someone opens it, the browser downloads a handful of JSON files from the repository and performs all of the
+matching and scoring locally, in JavaScript. Those JSON files in the data folder are effectively the
+database, and git provides the version history, the review process through diffs, and a straightforward way
+to undo any change.
 
-## What your full-time internal access unlocks
-I built this from outside Hopkins' internal systems. You can wire it to **authoritative internal
-sources** — the live tech pipeline, real relationship/CRM data, and the internal system Oliver's vision
-describes — so the data stops being a hand-maintained snapshot and becomes a live mirror of the office.
-That's the whole next chapter.
+There is one optional component. A small backend hosted on Render wakes only when someone searches for a
+firm the tool has never seen; it runs a research pass and commits the new firm to the dataset. Because it
+sits on a free tier, it goes to sleep after fifteen minutes and takes roughly thirty seconds to start again,
+which is expected. None of the day-to-day matching depends on it being awake.
 
-## Quick reference
-Repo `ckannam/VC_Matching_Second_Brain` · frontend = GitHub Pages (static) · backend = Render
-(`server.js`) · data = `data/*.json` · one-pagers = `one-pagers/` · scripts = `scripts/`.
-⚠️ **Licensed PitchBook data + the JHU VC-network database live in the repo — keep them internal.**
+## Maintaining it
+
+Most upkeep is simply editing a JSON file and committing the change, which goes live on the next deploy. To
+add or update a technology or a firm, edit the relevant file in the data folder. To add a firm the tool
+doesn't know, search for it and let the backend research and save it. The alumni network is maintained in a
+spreadsheet; after editing it, run the conversion script to regenerate the connections file and commit the
+result. Grants are handled by a shared engine that also powers the external Grant Finder, so updating it
+once keeps both tools consistent. The one-pagers live in their own folder, organized by technology and by
+firm.
+
+## Why it holds up, and how to recover
+
+Because everything lives as JSON in git, a bad change is a single revert away, every edit is visible as a
+diff, and there is no server state that can become corrupted. The two problems you are most likely to
+encounter are a malformed JSON edit, which prevents that file from loading and is fixed by correcting the
+syntax and committing again, and the backend being asleep, which only affects researching a brand-new firm
+and resolves itself within about thirty seconds.
+
+## What your access changes
+
+I built this from outside the University's internal systems. With full access you can connect it to
+authoritative internal sources, including the live technology pipeline, real relationship data, and the
+internal system Oliver has in mind, so that the data becomes a live reflection of the office rather than a
+snapshot maintained by hand. That is the most valuable next step.
+
+One note on the data: the repository contains licensed information and the alumni network database, both of
+which should stay internal.
