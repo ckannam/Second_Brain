@@ -983,6 +983,17 @@ the doomscroll page into the [[neuroscience-of-behavior]] hub; added two pointer
 **Editorial call:** Channel-5 back-half conspiracy content (Epstein / Charlie Kirk / Israel / QAnon) **deliberately not
 encoded** as fact per AGENTS.md; flagged in the source page. Updated index (batch note + entries). Moved all 3 to Processed.
 
+## [2026-08-07] config | AutoResearch/self-heal cadence: daily → weekly
+Too many `autoresearch/night-*` branches accruing (13 merged + 1 open as of today). Added a **weekly
+cadence gate** to `autoresearch/program.md`: scheduled/unattended runs execute the full loop **only on
+Sunday (ET)**; other nights are a clean no-op (no branch, no PR) even if a session spawns. **Manual runs
+(the `vault-autoresearch` skill / "run autoresearch") are exempt** and still run any day. Net: ~1 night
+branch/week instead of ~7. Note: the daily *cloud trigger* itself could not be isolated via the schedule
+tool (the routines API returned only the spawned one-shot PR-babysitter jobs; cursor paginated in a loop),
+so the program.md gate is the enforcement point — Cole can also flip the routine to weekly at
+claude.ai/code/routines to stop the off-day spawn entirely. 13 merged night branches queued for cleanup
+(pending Cole's go).
+
 ## [2026-08-10] autoresearch night | build + write-back
 - Phase 1 build: worked-example skill audit (startup-radar) folded into [[skill-authoring-playbook]]; applied startup-radar description trigger-tuning fix (under-trigger synonym gap).
 - Phase 2 write-back: progress notes on "Improve + general skills" and "Skill max" @cloud tasks (both still open — remaining work is interactive Skill Creator evals).

@@ -1,10 +1,27 @@
 # Vault AutoResearch — loop instructions (`program.md`)
 
 The **loop's brain** — the human edits it; the loop follows it. `AGENTS.md` is the
-source of truth for *how to write the wiki*; this file governs the *nightly build +
+source of truth for *how to write the wiki*; this file governs the *build +
 improvement loop*. Karpathy's AutoResearch, applied to this vault.
 
-## The nightly order (two lanes: heal-then-build)
+## Cadence gate — WEEKLY (scheduled runs; read this first)
+
+**Scheduled/unattended runs execute the full loop once a week, on SUNDAY (ET) — not nightly.**
+Changed 2026-08-07 (daily runs piled up `autoresearch/night-*` branches faster than they could be
+reviewed/merged).
+
+**First action of every *scheduled* run:** check the day (`TZ=America/New_York date +%u` → `7` = Sunday).
+- **Sunday →** run all phases below in order (the weekly build + heal + PR).
+- **Any other day →** **no-op night**: do **not** run Phase 0–5, do **not** fork a night branch, do
+  **not** open a PR. Exit immediately. (If a scheduled session still spawns on a non-Sunday, this gate
+  makes it a clean no-op so no branch is ever created off-schedule.)
+
+**Manual runs are exempt.** When a human invokes the loop directly (the `vault-autoresearch` skill /
+"run autoresearch" / `/vault-autoresearch`), run in full **regardless of the day** — the gate governs
+only the unattended schedule. Everywhere below, "nightly" means **"on the weekly Sunday run."** The
+`night-YYYY-MM-DD` branch name is unchanged (dated to that Sunday) → ~1 branch/week instead of ~7.
+
+## The weekly order (two lanes: heal-then-build)
 
 The run has two lanes, split by whether the output is **objectively verifiable by
 `score.py`**:
