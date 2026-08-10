@@ -1006,3 +1006,14 @@ cap, July 2026 Anthropic vocabulary (/goal /loop /schedule taxonomy). Fills the 
 from [[overview]] and [[claude-code]]. HEALTH_DEBT = 0 after all changes.
 
 **Phase 5 — PR:** opened autoresearch/night-2026-08-10 → main.
+
+## [2026-08-07] config | AutoResearch/self-heal cadence: daily → weekly
+Too many `autoresearch/night-*` branches accruing (13 merged + 1 open as of today). Added a **weekly
+cadence gate** to `autoresearch/program.md`: scheduled/unattended runs execute the full loop **only on
+Sunday (ET)**; other nights are a clean no-op (no branch, no PR) even if a session spawns. **Manual runs
+(the `vault-autoresearch` skill / "run autoresearch") are exempt** and still run any day. Net: ~1 night
+branch/week instead of ~7. Note: the daily *cloud trigger* itself could not be isolated via the schedule
+tool (the routines API returned only the spawned one-shot PR-babysitter jobs; cursor paginated in a loop),
+so the program.md gate is the enforcement point — Cole can also flip the routine to weekly at
+claude.ai/code/routines to stop the off-day spawn entirely. 13 merged night branches queued for cleanup
+(pending Cole's go).
