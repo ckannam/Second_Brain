@@ -982,3 +982,7 @@ as the frontier model) — a real freshness reconciliation; added Ramp as a cust
 the doomscroll page into the [[neuroscience-of-behavior]] hub; added two pointers into [[cole]] (attention-leak + values).
 **Editorial call:** Channel-5 back-half conspiracy content (Epstein / Charlie Kirk / Israel / QAnon) **deliberately not
 encoded** as fact per AGENTS.md; flagged in the source page. Updated index (batch note + entries). Moved all 3 to Processed.
+
+## [2026-08-10] autoresearch night | build + write-back
+- Phase 1 build: worked-example skill audit (startup-radar) folded into [[skill-authoring-playbook]]; applied startup-radar description trigger-tuning fix (under-trigger synonym gap).
+- Phase 2 write-back: progress notes on "Improve + general skills" and "Skill max" @cloud tasks (both still open — remaining work is interactive Skill Creator evals).
