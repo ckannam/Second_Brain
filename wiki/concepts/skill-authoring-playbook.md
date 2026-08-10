@@ -108,6 +108,23 @@ discipline is what makes a skill library *governable* ([[governed-skills-framewo
   defer** (handle errors in the script rather than making Claude figure them out).
 - **Vague `helper`/`utils` names** → name for the activity.
 
+## Worked example — auditing `startup-radar` against this checklist
+
+The playbook is only as good as what it catches on a *real* skill. Here it is run end-to-end
+against the `startup-radar` skill (the vault's largest single-file skill, ~198 lines, schema-critical
+writes) — the pattern to copy when improving any other skill.
+
+| § | Check | Verdict on `startup-radar` |
+|---|---|---|
+| 1 | Description is the trigger surface | **One fix applied.** What+when ✓, third person ✓, key terms ✓ — but only **two** literal triggers (`"run the startup radar"`, `"weekly startup discovery"`) and no synonym coverage. That's the classic **under-trigger** gap ([[skill-trigger-tuning]] debug table, row 1): a natural ask like "find new startups" or "who's newly funded in health/AI" would miss. Fix = broaden the literal trigger list in the description (applied 2026-08-10). |
+| 2 | Progressive disclosure | **Pass, with a watch-item.** 198 lines is under the ~500-line split threshold, so no split is required *yet*. But the static reference data (source list + URLs, lane definitions, geo-fit rules, note schema) reloads on every trigger. **If the source list grows, split it to `reference/sources.md`** and keep only the procedure in `SKILL.md`. No nested references exist; no load-vs-run ambiguity (Step 7 correctly says *run* the validator). |
+| 3 | Be concise | **Pass.** Gives concrete URLs and the exact YAML schema, not explanations of what a startup or a PDF is. Every line earns its tokens. |
+| 4 | Freedom ↔ fragility | **Pass — correctly a *narrow bridge*.** Schema-valid writes + dedup rules + a validator gate = low-freedom task, and the skill matches it: exact URLs, exact frontmatter schema, exact validator command, "Do NOT invent." Over-constraining would be wrong for a code review; here it's exactly right. |
+| 5 | Evals first | **Gap (shared by every vault skill).** `startup-tracker/validate.py` is an *output* gate (schema check), **not** a behavior/trigger eval of the Claude-A/Claude-B kind. This is the standing "eval-test the skills" task — the validator proves the notes are well-formed, not that the skill fired or triaged correctly. |
+| 6 | Anti-patterns | **Pass, one nit.** Forward slashes ✓, one-default-plus-escape-hatch (Step 5.5 contact ladder + "Do NOT invent") ✓, thresholds justified inline (early-stage founders read their own email) ✓, consistent terminology ✓. Nit: the vault root is a hardcoded absolute path — acceptable for a single-user personal skill, but the one portability snag. |
+
+**Takeaway:** a mature skill usually fails on exactly one axis — here, §1's trigger surface — and the fix is a **description edit, not a body rewrite** (§1's core claim). The audit *also* earns its keep by surfacing the non-urgent watch-items (§2 split threshold, §5 missing behavior evals) before they become debt. Run this same six-row pass on the next skill you touch.
+
 ## Relation to the rest of the toolbox
 
 A skill is one rung of the reusability ladder — reach for it when you keep repeating the same
