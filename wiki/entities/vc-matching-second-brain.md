@@ -36,4 +36,12 @@ when the funding picture hits the non-dilutive part, both call the same engine.
   database live in the repo, deliberately not copied here.**
 
 Embodies Cole's **science → capital + AI-building** edge — his top recruit artifact.
+
+## Long-term vision & handoff
+Forward roadmap + Justin-handoff doc: **[[JHTV-Second-Brain-Vision-and-Handoff]]** (2026-08-10). Frames
+the tool as the **capital-matching engine** behind Oliver's internal "Studio Portal," adds the
+**[[translational-funding|Translational Funding]]** pillar + the TF→MII/SBIR→seed→A escalator, and the two
+data upgrades that compound it (a **PitchBook API** for live deal data; **live portal data** to keep
+tech/firm profiles current). Anchor use case: the team walking into a firm/tech meeting knowing what to say.
+
 Related: [[capital-strategy]], [[jhtv-grant-finder]], [[claude-code]], [[Job Search]].

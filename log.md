@@ -994,6 +994,18 @@ so the program.md gate is the enforcement point — Cole can also flip the routi
 claude.ai/code/routines to stop the off-day spawn entirely. 13 merged night branches queued for cleanup
 (pending Cole's go).
 
+## [2026-08-10] doc | JHTV Second Brain — Vision & Handoff
+Brainstormed + wrote the long-term vision / handoff document for Cole's [[vc-matching-second-brain|VC-matching
+tool]] as his internship ends (handoff to coworker Justin; to be discussed with Stewart & Oliver). Saved to
+`docs/JHTV-Second-Brain-Vision-and-Handoff.md`. Spine: the tool = the **capital-matching engine** behind
+Oliver's internal "Studio Portal" (system of record), alongside Justin's mentorship/Programs matcher. Adds
+the **Translational Funding** pillar + the TF→MII/SBIR→seed→A escalator; two data upgrades (PitchBook API for
+live deals; live portal data to keep tech/firm profiles current + exclude just-licensed techs); the
+stated-vs-revealed ("portfolio does the most work") scoring principle; internal + external firm-view designs
+(grounded in Cole's Notion/Claude-artifact mockups, read via the browser). Anchor use case throughout: the
+team walking into a firm/tech meeting knowing what to say. Linked from [[vc-matching-second-brain]], the
+[[JHTV]] bucket, and index. Draft — pending Cole's review before a copy goes to the tool repo.
+
 ## [2026-08-10] autoresearch night | build + write-back
 - Phase 1 build: worked-example skill audit (startup-radar) folded into [[skill-authoring-playbook]]; applied startup-radar description trigger-tuning fix (under-trigger synonym gap).
 - Phase 2 write-back: progress notes on "Improve + general skills" and "Skill max" @cloud tasks (both still open — remaining work is interactive Skill Creator evals).
