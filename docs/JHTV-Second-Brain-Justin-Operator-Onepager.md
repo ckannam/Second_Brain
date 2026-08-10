@@ -47,8 +47,9 @@ there's no server state to corrupt. Realistic failure modes are small:
 
 ## What your full-time internal access unlocks
 I built this from outside Hopkins' internal systems. You can wire it to **authoritative internal
-sources** — the live tech pipeline, real relationship/CRM data, and Oliver's portal — so the data stops
-being a hand-maintained snapshot and becomes a live mirror of the office. That's the whole next chapter.
+sources** — the live tech pipeline, real relationship/CRM data, and the internal system Oliver's vision
+describes — so the data stops being a hand-maintained snapshot and becomes a live mirror of the office.
+That's the whole next chapter.
 
 ## Quick reference
 Repo `ckannam/VC_Matching_Second_Brain` · frontend = GitHub Pages (static) · backend = Render
