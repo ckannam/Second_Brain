@@ -6,10 +6,13 @@ doable unattended (Doability rubric — tag wins → infer → skip-if-unsure), 
 here as the night's worklist, with one line on why each skipped item was skipped. It is a
 **transparency record**, not an input.
 
-The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
-writes results back to `tasks/index.md` in **Phase 3**.
+The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
+writes results back to `tasks/index.md` in **Phase 2**.
 
-## Night of 2026-08-02
+## Night of 2026-08-10
+
+_Run lives on branch `claude/dazzling-newton-iihycm` (this session's designated branch) →
+one morning PR. Build night, so the whole run (heal + build + generative) rides the branch._
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
@@ -17,35 +20,39 @@ writes results back to `tasks/index.md` in **Phase 3**.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max / Train skills → `wiki/concepts/skill-trigger-tuning.md`** (new concept page):
-   The vault has two thin source stubs covering skill triggering (`master-claude-code-skills-28min`,
-   `claude-code-skills-update`) and a concept page (`claude-code-skills`) that only mentions
-   triggering in passing. No page owns the "how does a skill actually fire?" question.
-   This passes the new-page test: distinct reusable concept, no existing page owns it.
-   Directly addresses the "Skill max" and "Train skills" @cloud tasks.
-   Web search grounded + synthesized from existing vault sources + real skill anatomy in the vault.
+1. **Improve + general skills → worked example: audit `startup-radar` against the
+   [[skill-authoring-playbook]] checklist** (enrich the playbook). The task's remaining step is
+   literally "run one existing vault skill through the checklist as a worked example." No page
+   demonstrates the checklist end-to-end on a real vault skill yet. `startup-radar` is the best
+   subject: the largest single-file skill (198 lines), schema-critical writes, a tunable trigger
+   surface — it exercises every section of the playbook. Enrichment-first (folds into the
+   existing playbook page, not a thin new page). Cloud-doable: reads a synced skill file, no
+   outward action.
 
-2. **Train skills → enrich `wiki/concepts/claude-code-skills.md`**:
-   The current page is thin (5 bullets, no 6-step framework, no Skill Creator workflow detail).
-   Enriching it with the anatomy, lifecycle, and build workflow documented across vault sources
-   makes it a more useful reference and directly advances "Train skills."
+2. **Skill max → hands-on trigger-tuning pass on `startup-radar`** (apply the fix the audit
+   surfaces). The audit's §1 finding is a real under-trigger synonym gap in the description
+   (only two literal phrases). Apply the safe, description-only trigger-tuning fix per
+   [[skill-trigger-tuning]] — this is the "hands-on trigger tuning pass on existing vault
+   skills" the task asks for. Review-lane change (rides the PR); the human approves the new
+   trigger surface at merge.
+
+_Both advance with one coherent build (audit → apply the fix it finds), so it counts as the
+night's bounded build (≤2–3)._
 
 ### Considered but skipped this night (with reason)
-- **Prompt max** (@cloud): 3 skills already shipped 2026-07-26; "refining/eval-testing" is
-  interactive. No bounded unattended deliverable tonight.
-- **Improve + general skills** (@cloud): open-ended — no single bounded artifact. Deferred.
+- **Train skills** (@cloud): remaining work is a "hands-on Skill Creator A/B eval run" —
+  requires the interactive Skill Creator tool + a fresh Claude-B session (the eval loop in
+  [[skill-authoring-playbook]] §5). Not a bounded unattended cloud deliverable. Deferred.
+- **Prompt max** (@cloud): remaining is "eval-test the 3 prompt-architect skills" — same
+  interactive-eval blocker as above. Deferred.
 - **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment on design. Deferred (reserved for MODE B generative proposal tonight
-  if appropriate, but kept off the build list).
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system (`score.py`
-  is frozen); any tuning requires human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning. Outward
-  action (spending). Ineligible.
-- **Watch [[agent-hub]]** (@cloud): standing monitor — page created 2026-07-31 (MODE B);
-  no new material in vault since then. Not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
-  deferred in favor of higher-value skill mastery items.
+  needs human judgment on loop design. Deferred (not a build item).
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the frozen ratchet (`score.py`);
+  requires human sign-off. Ineligible for unattended change.
+- **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning (spending /
+  outward action). Ineligible.
 
 ### Not eligible here (for reference — @local or @human)
 All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, etc.).
+(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, password
+holder, IG/YouTube exports, etc.).
