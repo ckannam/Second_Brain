@@ -32,6 +32,10 @@ Self, health, discipline, relationships, and the people CRM.
   [[post-scarcity-and-meaning|meaning-in-abundance]] theme ties straight to Cole's "free + useful." Start with
   *The Player of Games*.
 
+## Journal (grounded reflections)
+- [[2026-08-10 - senior-year-confidence-and-whats-next]] — going into senior year excited + overwhelmed; keeping self-confidence anchored in [[identity-led-goals|behavioral evidence]], not outcomes.
+- [[2026-07-28 - caffeine-social-and-golf-anger]] — coffee-before-networking insight; golf anger with Dad (outcome-vs-self-worth).
+
 ## People (crm/)
 - Building — see `crm/index.md`. Data sources to connect: Instagram, iMessage.
 

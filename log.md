@@ -1005,3 +1005,14 @@ stated-vs-revealed ("portfolio does the most work") scoring principle; internal 
 (grounded in Cole's Notion/Claude-artifact mockups, read via the browser). Anchor use case throughout: the
 team walking into a firm/tech meeting knowing what to say. Linked from [[vc-matching-second-brain]], the
 [[JHTV]] bucket, and index. Draft — pending Cole's review before a copy goes to the tool repo.
+
+## [2026-08-10] journal | Senior year, confidence, and not knowing what's next
+New entry [[2026-08-10 - senior-year-confidence-and-whats-next]]. Cole heading into senior
+year — excited and overwhelmed at once; doesn't know what's next but believes he spent his
+time/energy in the right places and is confident it leads somewhere great; wants to *keep*
+that self-confidence. Grounded the response in [[identity-led-goals]] (confidence rests on
+accumulated behavioral evidence, and the Erin-Meryl caveat: anchor it in identity/behavior,
+not single outcomes), tied to the live "what's next" forks — [[fulbright-us-student-program]],
+[[outreach-pipeline]], [[claude-corps]], and the 5-year-plan talk with [[Stewart Neifart|Stew]].
+Referenced the prior [[2026-07-28 - caffeine-social-and-golf-anger]] outcome-vs-self-worth thread.
+Added to journal/index.
