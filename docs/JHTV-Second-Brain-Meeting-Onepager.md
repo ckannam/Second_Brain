@@ -7,47 +7,43 @@ audience: Capital Strategy meeting (Stewart, Oliver, Justin + team)
 status: draft for review
 ---
 
-# Capital Strategy "Second Brain" — What it does, and where it's headed
-
-*A quick read on the VC-matching tool: what it does today, and how connecting it to Justin's and Oliver's
-work grows it into the office's capital-and-connections engine.*
+# Capital Strategy Second Brain: Current Capabilities and Direction
 
 ## What it does today
-Type a **firm** → get the **Hopkins technologies that firm is most likely to fund**, ranked by fit, each
-with the **warm-intro path through JHU alumni** and a ready **one-pager** to send. Run it in reverse from
-a **technology** → its **best-fit funders** plus a **non-dilutive grant screen**. It splits results into
-**firms we already know vs. new prospects**, and it self-extends: search a firm it's never seen and it
-researches and files it automatically.
 
-**In one line:** it's the tool you open to walk into a firm or tech-team meeting already knowing what to
-put on the table — and who to route it through.
+The Second Brain is an internal tool that matches Hopkins technologies to the investors most likely to
+fund them. Entering a firm returns the technologies that fit its thesis, ranked by strength of fit,
+together with the warm introduction paths our alumni network provides and a one-pager ready to send. The
+same tool works in reverse: starting from a technology, it identifies the best-fit investors and screens
+the relevant non-dilutive grants. It separates results into the firms we already know and new prospects,
+and it extends itself, since searching a firm it has not seen before prompts it to research that firm and
+add it to the database automatically. In practice, it is the tool we open before a meeting with a firm or
+a tech team so that we walk in knowing which opportunities to put forward and how to route them.
 
-## Where it grows — by connecting to the work already underway
-The tool is deliberately an **engine, not a system of record.** Its next chapter is plugging into the two
-efforts around it:
+## Where it grows
 
-- **Into Oliver's internal portal (the system of record).** Today the tool runs on a maintained snapshot.
-  Fed by **live portal data** — venture stage, meeting touchpoints, firm feedback — it becomes
-  **self-updating and sharper**: it drops technologies that are no longer in play, surfaces the ones in
-  the *right position* for a firm right now, and remembers what each firm has already engaged with. It
-  becomes the intelligence behind the portal's **Capital Management** view. *(A licensed PitchBook API is
-  the single biggest quality unlock here — it makes each firm's real deal behavior live instead of
-  hand-pulled.)*
+The tool is built to be an engine rather than a system of record, and its next phase comes from connecting
+it to two efforts already underway.
 
-- **Alongside Justin's mentorship matching.** Capital is one lever to get a venture to its next stage;
-  mentorship is another. Run together, they produce **one next-stage playbook** for a company — the
-  capital target, the milestone to reach it, and the internal mentor to get there.
+The first is Oliver's vision for a live internal system for the office, which we can define more precisely
+together. The tool currently runs on a maintained snapshot of our data. Drawing on the kind of live
+information that system would hold, such as where each venture stands, our meeting history with a firm, and
+the feedback firms give us, it would keep itself current and become considerably sharper. It would set
+aside technologies that are no longer in play, surface the ones best positioned for a particular firm at a
+particular moment, and remember what each firm has already engaged with. Licensed access to a provider such
+as PitchBook would strengthen this further by making each firm's actual investment behavior live rather
+than compiled by hand.
 
-- **Across the full funding path, not just VC.** Extended down the non-dilutive escalator the team already
-  runs, the tool can map a venture's route from its **first internal check through to a priced round** —
-  meeting matching to where a company actually is.
+The second is Justin's work on mentorship matching. Capital is one way to move a venture to its next stage
+and mentorship is another, and run together they can produce a single plan for a company: the capital to
+target, the milestone required to reach it, and the mentor who can help get there. Extended across the full
+funding path rather than venture capital alone, the tool can map a company's route from its earliest
+support through to a priced round.
 
-## The long-term vision
-A **shared capital-and-connections intelligence layer for the office**: for any Hopkins venture, at any
-stage, it can name the next milestone, the capital that funds it, the firm it's aiming at, and the person
-to get it there — **meeting-ready, memory-keeping, and orchestrated by the portal.** The tools stay
-best-in-class engines; the portal runs the office; together they turn every meeting into the next step of
-a compounding pipeline.
+## Direction
 
----
-*Deeper detail on request: operator guide (maintenance) and the full vision/roadmap document.*
+Taken together, this points toward a shared resource for the office. For any Hopkins venture at any stage,
+it would give a clear read on the next milestone, the capital that funds it, the firm it should be aimed
+at, and the person who can help it get there, ready for the meeting and improving with each one. The
+individual tools remain focused engines, the internal system runs the office, and each conversation becomes
+the next step in a pipeline that builds on itself.
