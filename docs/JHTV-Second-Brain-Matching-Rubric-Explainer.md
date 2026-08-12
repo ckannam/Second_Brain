@@ -21,7 +21,7 @@ The score is portfolio-led: over half of it comes from how well a firm's *actual
 up with the technology by field and stage. The current rubric (v2) is:
 
 ```
-Fit = 0.55 · Portfolio  +  0.30 · StageCheck  +  0.15 · Sector          (geography removed)
+Fit = 0.55 · Portfolio  +  0.30 · StageCheck  +  0.15 · Sector          
 ```
 
 The guiding principle is that revealed behavior (what a firm has funded) beats stated preference (what a
