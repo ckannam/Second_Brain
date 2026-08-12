@@ -80,12 +80,12 @@ start on v1 until portfolio data is added.
 Input is the firm's `companies[]` from `vc_portfolios.json` and the technology's `sectors[]` + `stage`. The
 function walks each company and assigns credit by field and stage proximity:
 
-| Company vs. technology | Credit |
-|---|---|
-| Shares a domain, same stage rung | 1.0 |
-| Shares a domain, one rung apart | 0.75 |
-| Shares a domain, stage unknown or ≥2 rungs apart | 0.5 |
-| No shared domain | 0 |
+| Company vs. technology                           | Credit |
+| ------------------------------------------------ | ------ |
+|                                                  | 1.0    |
+| Shares a domain, one rung apart                  | 0.75   |
+| Shares a domain, stage unknown or ≥2 rungs apart | 0.5    |
+| No shared domain                                 | 0      |
 
 Stage rungs come from `companyStageToRung` (company round string) and `techStageToRung` (tech milestone
 string) on a 0–5 ladder: pre-seed, seed, Series A, Series B, Series C, growth/late. Milestone tokens like
