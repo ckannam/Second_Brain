@@ -6,53 +6,53 @@ doable unattended (Doability rubric — tag wins → infer → skip-if-unsure), 
 here as the night's worklist, with one line on why each skipped item was skipped. It is a
 **transparency record**, not an input.
 
-The routine then works these in **Phase 1 (Build)**, top-down, bounded to ≤2–3/night, and
-writes results back to `tasks/index.md` in **Phase 2**.
+The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
+writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-10
-
-_Run lives on branch `claude/dazzling-newton-iihycm` (this session's designated branch) →
-one morning PR. Build night, so the whole run (heal + build + generative) rides the branch._
+## Night of 2026-08-16
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — no objective self-heal work tonight.
+- Pre-existing defect set: **empty** — no objective fast-track self-heal work tonight.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Improve + general skills → worked example: audit `startup-radar` against the
-   [[skill-authoring-playbook]] checklist** (enrich the playbook). The task's remaining step is
-   literally "run one existing vault skill through the checklist as a worked example." No page
-   demonstrates the checklist end-to-end on a real vault skill yet. `startup-radar` is the best
-   subject: the largest single-file skill (198 lines), schema-critical writes, a tunable trigger
-   surface — it exercises every section of the playbook. Enrichment-first (folds into the
-   existing playbook page, not a thin new page). Cloud-doable: reads a synced skill file, no
-   outward action.
+1. **Skill max / Improve + general skills → trigger-tuning pass on vault skills**:
+   The `skill-trigger-tuning` concept page (built 2026-08-02) identified three patterns for
+   effective descriptions: "Use when…" + specific phrases, sibling-skill cross-redirects, and
+   covering both semantic intent and literal strings. Applying this checklist to the vault's
+   own skills is the direct next step for both "Skill max" (remaining: trigger tuning pass)
+   and "Improve + general skills" (remaining: run one skill through the checklist). Tonight:
+   audit all vault skills, fix the two highest-impact issues found:
+   (a) `vault-autoresearch` description has "improve the vault" — overlaps with vault-improve's
+   core trigger; needs a redirect clause added.
+   (b) `wiki-query` description has no sibling-skill cross-redirects; needs them added.
+   (c) `startup-radar` description has only 2 literal trigger phrases; needs semantic intent
+   coverage added per the playbook checklist.
 
-2. **Skill max → hands-on trigger-tuning pass on `startup-radar`** (apply the fix the audit
-   surfaces). The audit's §1 finding is a real under-trigger synonym gap in the description
-   (only two literal phrases). Apply the safe, description-only trigger-tuning fix per
-   [[skill-trigger-tuning]] — this is the "hands-on trigger tuning pass on existing vault
-   skills" the task asks for. Review-lane change (rides the PR); the human approves the new
-   trigger surface at merge.
-
-_Both advance with one coherent build (audit → apply the fix it finds), so it counts as the
-night's bounded build (≤2–3)._
+2. **MODE B (Phase 4) — create `wiki/concepts/claude-api.md`**:
+   A concept page for the Anthropic Messages API is referenced as a dangling `[[claude-api]]`
+   link from `tasks/index.md` and skills. No wiki page currently owns the "what is the Claude
+   API, how does it work, what are its key parameters" question. Passes the new-page test:
+   distinct reusable concept (separate from `[[claude-code]]` the CLI and `[[anthropic]]`
+   the entity), genuinely linkable from multiple pages. Web-grounded against current Anthropic
+   docs; review-lane only (generated content → PR).
 
 ### Considered but skipped this night (with reason)
-- **Train skills** (@cloud): remaining work is a "hands-on Skill Creator A/B eval run" —
-  requires the interactive Skill Creator tool + a fresh Claude-B session (the eval loop in
-  [[skill-authoring-playbook]] §5). Not a bounded unattended cloud deliverable. Deferred.
-- **Prompt max** (@cloud): remaining is "eval-test the 3 prompt-architect skills" — same
-  interactive-eval blocker as above. Deferred.
-- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment on loop design. Deferred (not a build item).
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the frozen ratchet (`score.py`);
-  requires human sign-off. Ineligible for unattended change.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning (spending /
-  outward action). Ineligible.
+- **Train skills — Skill Creator A/B eval run** (@cloud): The Skill Creator tool runs inside
+  the Claude platform and requires interactive evaluation runs; can't be run fully unattended.
+  Deferred. (Trigger tuning pass tonight is the manual analog of the Skill Creator A/B loop
+  and directly advances this item.)
+- **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): Evals require interactive
+  baseline measurement against real tasks. No bounded unattended deliverable tonight.
+- **Build the source-seeking (MODE B) rung** (@cloud): Structural change to `program.md`;
+  architectural design warrants human sign-off. Too large for a single night's build.
+  Reserved as a future MODE B or @human discussion item.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches the scorer system; any tuning
+  needs human sign-off. HEALTH_DEBT = 0 tonight anyway.
+- **Try autoresearch loop hands-on** (@cloud): Requires external GPU provisioning → outward
+  action. Ineligible.
 
 ### Not eligible here (for reference — @local or @human)
-All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, password
-holder, IG/YouTube exports, etc.).
+All `@local` and `@human` items (Fulbright deadlines, Neuro pipeline, CRM enrichment, finance
+decisions, Uship, Claude Corps application steps, etc.) are ineligible for the cloud lane.

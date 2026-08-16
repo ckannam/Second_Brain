@@ -169,7 +169,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### JHTV — org & Cole's work (see the [[JHTV]] bucket)
 - [[jhtv]] · [[fast-forward]] · [[translational-funding]] — the org, accelerator, and funding landscape.
 - [[capital-strategy]] — Cole's role/team. · [[vc-matching-second-brain]] — his flagship tech→VC matcher. · [[jhtv-grant-finder]] — his grant finder.
-- [[JHTV-Second-Brain-Vision-and-Handoff]] — the VC-matcher's long-term vision + Justin-handoff doc: continuity, the TF pillar, PitchBook-API/live-portal-data upgrades, and feeding Oliver's Studio Portal.
+- [[JHTV-Second-Brain-Vision-and-Handoff]] — the VC-matcher's long-term vision + Justin-handoff doc: continuity, the TF pillar, PitchBook-API/live-office-data upgrades, and feeding Oliver's vision.
+- [[JHTV-Second-Brain-Matching-Rubric-Explainer]] — deep technical reference on how the matcher scores (formula, portfolio curve, sector taxonomy, data files + pipelines, known limits). · [[JHTV-Second-Brain-Meeting-Onepager]] (room hand-out) · [[JHTV-Second-Brain-Justin-Operator-Onepager]] (maintenance guide).
 
 ### Fulbright — Cole's application (see the [[Fulbright]] bucket)
 - [[fulbright-us-student-program]] — the fellowship, Cole's Open Study/Research application, components, funding, deadlines, Duke endorsement.

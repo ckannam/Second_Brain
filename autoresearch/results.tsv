@@ -31,3 +31,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-07T06:18	A	wiki/concepts/agent-skills.md	2	0	keep	added to index.md catalog (missing_from_index fix); debt 2→0; HEALTH_DEBT now 0
 2026-08-10T02:15	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 1 build (enriched indexed page + SKILL.md frontmatter; no new wiki pages); no build-introduced debt
 2026-08-10T02:20	B	wiki/concepts/claude-code-skills.md	0	0	keep	MODE B enrichment (cluster saturated, no new page warranted): completed the SKILL.md frontmatter reference to a full 10-field table grounded in official Claude Code docs; corrected imprecise allowed-tools claim; links to existing pages only (score 0)
+2026-08-16T02:11	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed tonight
