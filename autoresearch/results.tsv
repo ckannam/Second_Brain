@@ -29,3 +29,6 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-07T06:17	A	wiki/concepts/writing-reliable-skills.md	6	4	keep	added to index.md catalog (missing_from_index fix); debt 6→4
 2026-08-07T06:18	A	wiki/concepts/skill-authoring-playbook.md	4	2	keep	added to index.md catalog (missing_from_index fix); debt 4→2
 2026-08-07T06:18	A	wiki/concepts/agent-skills.md	2	0	keep	added to index.md catalog (missing_from_index fix); debt 2→0; HEALTH_DEBT now 0
+2026-08-16T02:09	build	wiki/concepts/skill-authoring-playbook.md	0	0	keep	Improve+general skills: appended worked-example audit of startup-radar (6-section verdict table); enriched existing indexed page, no score impact
+2026-08-16T02:09	build	.claude/skills/startup-radar/SKILL.md	0	0	keep	Skill max trigger-tuning: widened startup-radar description (under-triggering fix); skill file not scored by score.py
+2026-08-16T02:09	A	(build check)	0	0	skip	Phase 3: HEALTH_DEBT 0 after build; no build-introduced objective debt to heal
