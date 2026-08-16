@@ -9,43 +9,50 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-02
+## Night of 2026-08-16
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — no objective self-heal work tonight.
+- Pre-existing defect set: **empty** — no objective fast-track self-heal work tonight.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max / Train skills → `wiki/concepts/skill-trigger-tuning.md`** (new concept page):
-   The vault has two thin source stubs covering skill triggering (`master-claude-code-skills-28min`,
-   `claude-code-skills-update`) and a concept page (`claude-code-skills`) that only mentions
-   triggering in passing. No page owns the "how does a skill actually fire?" question.
-   This passes the new-page test: distinct reusable concept, no existing page owns it.
-   Directly addresses the "Skill max" and "Train skills" @cloud tasks.
-   Web search grounded + synthesized from existing vault sources + real skill anatomy in the vault.
+1. **Skill max / Improve + general skills → trigger-tuning pass on vault skills**:
+   The `skill-trigger-tuning` concept page (built 2026-08-02) identified three patterns for
+   effective descriptions: "Use when…" + specific phrases, sibling-skill cross-redirects, and
+   covering both semantic intent and literal strings. Applying this checklist to the vault's
+   own skills is the direct next step for both "Skill max" (remaining: trigger tuning pass)
+   and "Improve + general skills" (remaining: run one skill through the checklist). Tonight:
+   audit all vault skills, fix the two highest-impact issues found:
+   (a) `vault-autoresearch` description has "improve the vault" — overlaps with vault-improve's
+   core trigger; needs a redirect clause added.
+   (b) `wiki-query` description has no sibling-skill cross-redirects; needs them added.
+   (c) `startup-radar` description has only 2 literal trigger phrases; needs semantic intent
+   coverage added per the playbook checklist.
 
-2. **Train skills → enrich `wiki/concepts/claude-code-skills.md`**:
-   The current page is thin (5 bullets, no 6-step framework, no Skill Creator workflow detail).
-   Enriching it with the anatomy, lifecycle, and build workflow documented across vault sources
-   makes it a more useful reference and directly advances "Train skills."
+2. **MODE B (Phase 4) — create `wiki/concepts/claude-api.md`**:
+   A concept page for the Anthropic Messages API is referenced as a dangling `[[claude-api]]`
+   link from `tasks/index.md` and skills. No wiki page currently owns the "what is the Claude
+   API, how does it work, what are its key parameters" question. Passes the new-page test:
+   distinct reusable concept (separate from `[[claude-code]]` the CLI and `[[anthropic]]`
+   the entity), genuinely linkable from multiple pages. Web-grounded against current Anthropic
+   docs; review-lane only (generated content → PR).
 
 ### Considered but skipped this night (with reason)
-- **Prompt max** (@cloud): 3 skills already shipped 2026-07-26; "refining/eval-testing" is
-  interactive. No bounded unattended deliverable tonight.
-- **Improve + general skills** (@cloud): open-ended — no single bounded artifact. Deferred.
-- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  needs human judgment on design. Deferred (reserved for MODE B generative proposal tonight
-  if appropriate, but kept off the build list).
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): touches the ratchet system (`score.py`
-  is frozen); any tuning requires human sign-off. Deferred.
-- **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning. Outward
-  action (spending). Ineligible.
-- **Watch [[agent-hub]]** (@cloud): standing monitor — page created 2026-07-31 (MODE B);
-  no new material in vault since then. Not a buildable deliverable tonight.
-- **(Optional) Deeper notes on build-sell-claude-code-course** (@cloud): lowest priority;
-  deferred in favor of higher-value skill mastery items.
+- **Train skills — Skill Creator A/B eval run** (@cloud): The Skill Creator tool runs inside
+  the Claude platform and requires interactive evaluation runs; can't be run fully unattended.
+  Deferred. (Trigger tuning pass tonight is the manual analog of the Skill Creator A/B loop
+  and directly advances this item.)
+- **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): Evals require interactive
+  baseline measurement against real tasks. No bounded unattended deliverable tonight.
+- **Build the source-seeking (MODE B) rung** (@cloud): Structural change to `program.md`;
+  architectural design warrants human sign-off. Too large for a single night's build.
+  Reserved as a future MODE B or @human discussion item.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches the scorer system; any tuning
+  needs human sign-off. HEALTH_DEBT = 0 tonight anyway.
+- **Try autoresearch loop hands-on** (@cloud): Requires external GPU provisioning → outward
+  action. Ineligible.
 
 ### Not eligible here (for reference — @local or @human)
-All `@local` and `@human` items in `tasks/index.md` are ineligible for the cloud lane
-(Fulbright deadlines, Neuro pipeline, CRM enrichment, finance decisions, Uship, etc.).
+All `@local` and `@human` items (Fulbright deadlines, Neuro pipeline, CRM enrichment, finance
+decisions, Uship, Claude Corps application steps, etc.) are ineligible for the cloud lane.

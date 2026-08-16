@@ -29,3 +29,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-07T06:17	A	wiki/concepts/writing-reliable-skills.md	6	4	keep	added to index.md catalog (missing_from_index fix); debt 6→4
 2026-08-07T06:18	A	wiki/concepts/skill-authoring-playbook.md	4	2	keep	added to index.md catalog (missing_from_index fix); debt 4→2
 2026-08-07T06:18	A	wiki/concepts/agent-skills.md	2	0	keep	added to index.md catalog (missing_from_index fix); debt 2→0; HEALTH_DEBT now 0
+2026-08-16T02:11	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed tonight
