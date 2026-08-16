@@ -1016,3 +1016,11 @@ not single outcomes), tied to the live "what's next" forks — [[fulbright-us-st
 [[outreach-pipeline]], [[claude-corps]], and the 5-year-plan talk with [[Stewart Neifart|Stew]].
 Referenced the prior [[2026-07-28 - caffeine-social-and-golf-anger]] outcome-vs-self-worth thread.
 Added to journal/index.
+
+## [2026-08-16] autoresearch | Weekly Sunday run (night 2026-08-16)
+MODE B generative: created [[startup-radar]] concept page — the weekly startup-discovery skill
+that feeds Tier 1 of [[outreach-pipeline]] (lanes, pipeline position, design notes); wired
+reciprocal links from [[outreach-pipeline]] + [[skill-authoring-playbook]] and added to index.
+Phase 1 build: appended a worked-example skill audit (startup-radar vs. the six-section checklist)
+to [[skill-authoring-playbook]] and widened startup-radar's under-triggering description. HEALTH_DEBT
+held at 0 throughout (clean baseline, no build-introduced debt). Branch → morning PR.
