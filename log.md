@@ -1017,3 +1017,26 @@ tool (the routines API returned only the spawned one-shot PR-babysitter jobs; cu
 so the program.md gate is the enforcement point — Cole can also flip the routine to weekly at
 claude.ai/code/routines to stop the off-day spawn entirely. 13 merged night branches queued for cleanup
 (pending Cole's go).
+
+## [2026-08-10] doc | JHTV Second Brain — Vision & Handoff
+Brainstormed + wrote the long-term vision / handoff document for Cole's [[vc-matching-second-brain|VC-matching
+tool]] as his internship ends (handoff to coworker Justin; to be discussed with Stewart & Oliver). Saved to
+`docs/JHTV-Second-Brain-Vision-and-Handoff.md`. Spine: the tool = the **capital-matching engine** behind
+Oliver's internal "Studio Portal" (system of record), alongside Justin's mentorship/Programs matcher. Adds
+the **Translational Funding** pillar + the TF→MII/SBIR→seed→A escalator; two data upgrades (PitchBook API for
+live deals; live portal data to keep tech/firm profiles current + exclude just-licensed techs); the
+stated-vs-revealed ("portfolio does the most work") scoring principle; internal + external firm-view designs
+(grounded in Cole's Notion/Claude-artifact mockups, read via the browser). Anchor use case throughout: the
+team walking into a firm/tech meeting knowing what to say. Linked from [[vc-matching-second-brain]], the
+[[JHTV]] bucket, and index. Draft — pending Cole's review before a copy goes to the tool repo.
+
+## [2026-08-10] journal | Senior year, confidence, and not knowing what's next
+New entry [[2026-08-10 - senior-year-confidence-and-whats-next]]. Cole heading into senior
+year — excited and overwhelmed at once; doesn't know what's next but believes he spent his
+time/energy in the right places and is confident it leads somewhere great; wants to *keep*
+that self-confidence. Grounded the response in [[identity-led-goals]] (confidence rests on
+accumulated behavioral evidence, and the Erin-Meryl caveat: anchor it in identity/behavior,
+not single outcomes), tied to the live "what's next" forks — [[fulbright-us-student-program]],
+[[outreach-pipeline]], [[claude-corps]], and the 5-year-plan talk with [[Stewart Neifart|Stew]].
+Referenced the prior [[2026-07-28 - caffeine-social-and-golf-anger]] outcome-vs-self-worth thread.
+Added to journal/index.

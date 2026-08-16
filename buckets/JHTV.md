@@ -18,6 +18,9 @@ credential — the concrete form of his science ↔ capital ↔ AI edge.
 ## Cole's work
 - [[capital-strategy]] — the team's mandate + everything Cole actually does.
 - **[[vc-matching-second-brain]]** — his flagship: the tech→VC auto-matcher (151 commits, 391 PitchBook investors, Vercel API, built with Claude Code).
+  - **[[JHTV-Second-Brain-Vision-and-Handoff]]** — the tool's long-term vision + Justin-handoff doc (2026-08-10): continuity, the TF pillar, PitchBook-API + live-portal-data upgrades, and how it feeds Oliver's vision.
+  - **[[JHTV-Second-Brain-Matching-Rubric-Explainer]]** — deep technical reference on how the scoring rubric works (the 0.55/0.30/0.15 formula, portfolio curve, taxonomy, data files + pipelines, known limits). For the Oliver conversation.
+  - **[[JHTV-Second-Brain-Meeting-Onepager]]** — the room hand-out (what it does now → how it grows → direction). · **[[JHTV-Second-Brain-Justin-Operator-Onepager]]** — Justin's how-it-works + maintenance guide.
 - **[[jhtv-grant-finder]]** — non-dilutive grant finder + AI deadline-updater skill (GitHub Pages, CI).
 - Plus VC one-pagers, market research, Excel models, due diligence, market positioning.
 
