@@ -1,6 +1,6 @@
 ---
 name: startup-radar
-description: Use to discover and triage newly-funded startups matching Cole's job-search lanes. Sweeps free public sources, lane-filters to health-bio-ai and ai-infra, dedupes against existing company notes, and writes new startup-tracker entries. Triggered when Cole says "run the startup radar" or "weekly startup discovery".
+description: Use to discover and triage newly-funded startups matching Cole's job-search lanes (health-bio-AI, AI-infra). Sweeps free public sources, lane-filters, dedupes against existing company notes, and writes new startup-tracker entries. Trigger whenever Cole wants to surface new companies to apply to — e.g. "run the startup radar", "weekly startup discovery", "find newly funded startups", "new companies to apply to", "who's hiring in health-bio-AI / AI-infra", or any request for startup/company discovery for the job search.
 ---
 
 # Startup Radar
