@@ -8,6 +8,7 @@ Self, health, discipline, relationships, and the people CRM.
 
 ## Knowledge (wiki)
 - Discipline & behavior change: [[discipline-without-willpower]], [[how-to-build-discipline]], [[temporal-discounting]], [[temptation-bundling]], [[cue-routine-reward-loop]], [[identity-led-goals]], [[environment-design]].
+- **Attention & the phone** (Cole loves YouTube but hates Shorts / over-uses them): [[tech-addiction]] ([[arthur-brooks]]'s addiction test + tech-free protocol) · [[flow-state]] (boredom is the doorway) · [[doomscrolling-attention-science]] (swipe-to-decide, not short content).
 - **Relationships & presence:** [[conversational-presence]] — Cole's operating model of people + his social growth front (talk less, lead with curiosity, listen better) and the four tools, incl. his "quiet superpower" of asking about others.
 - **Neuroscience of behavior & learning** (Cole grounds behavior in neuro): [[neuroscience-of-behavior]] (hub) → [[neuroplasticity]], [[predictive-processing]], [[productive-discomfort]], [[hebbian-learning]], [[memory-consolidation]], [[learning-by-connection]], [[knowledge-types]], [[conscious-vs-subconscious]], [[reticular-activating-system]], [[cognitive-biases]].
 

@@ -44,6 +44,11 @@ Tracker for the live pipeline state lives in the [[Job Search]] bucket.
 - **[[cold-email-job-search]]** — the underlying playbook (rules, the who/why/why-they-care format, 9 sources for unposted roles).
 - **CRM** (`crm/`) — per-contact records, history, next actions (local-only).
 
+**Prior art — the done-for-you version:** [[relentless]] (joinrelentless.com) sells this exact stack as a
+paid service for senior/exec searches — resume/positioning, direct recruiter + hiring-manager outreach,
+interview prep, and "wake up to a full calendar" scheduling. A useful mirror of what a fully-built-out
+version of this engine looks like (their pitch: "applying online is only ~10% of the work").
+
 ## Reply-rate scoreboard (deferred)
 
 Planned metric block: sent / replied / meetings booked + reply-rate by tier and template.
