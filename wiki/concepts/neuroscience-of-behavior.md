@@ -45,6 +45,11 @@ expected to grow.
 - **[[doomscrolling-attention-science]]** — what the research actually shows about short-form video: the
   harm is the **swipe-to-decide interaction**, not short content; "attention isn't broken," and the fix is
   context-limits ([[environment-design]]), not time-limits. A live front in Cole's own attention-leak.
+- **[[tech-addiction]]** — the sibling addiction/happiness frame ([[arthur-brooks]]): the phone hijacks
+  the [[temporal-discounting|dopamine seeking loop]], numbs emotion, and steals **[[flow-state|flow]]** —
+  with a concrete recovery + prevention protocol.
+- **[[flow-state]]** — full immersion (Csikszentmihalyi); a top source of happiness, and getting rarer.
+  Key mechanism: **boredom is the doorway** — tech-driven boredom-aversion is why we never cross into it.
 
 ## Where it connects
 The applied playbooks: [[how-to-build-discipline]], [[discipline-without-willpower]],

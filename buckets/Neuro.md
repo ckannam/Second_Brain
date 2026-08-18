@@ -39,7 +39,9 @@ concept page is a candidate Short. Ingesting a new neuro source refills the bank
 [[neuroplasticity]], [[predictive-processing]], [[productive-discomfort]], [[hebbian-learning]],
 [[memory-consolidation]], [[learning-by-connection]], [[knowledge-types]],
 [[conscious-vs-subconscious]], [[reticular-activating-system]], [[cognitive-biases]],
-[[glymphatic-system]], [[alcohol-sleep-dementia]].
+[[glymphatic-system]], [[alcohol-sleep-dementia]], [[tech-addiction]], [[flow-state]],
+[[doomscrolling-attention-science]] (the attention/phone sub-bank — "you have to be bored to reach flow"
+and "the phone is a dopamine slot machine" are strong, self-aware Shorts).
 
 ## Action items
 - Open items live under a **Neuro** section of [[tasks/index]] when captured.

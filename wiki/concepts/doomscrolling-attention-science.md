@@ -40,6 +40,16 @@ away for three days** and the ability to read usually returns.
 - **Creator:** a strong **[[neuro-channel|Neuro]]** topic — "brain rot isn't what you think, it's the
   swipe" — and a *self-aware* one, since Neuro is itself short-form (add to [[neuro-scripts-batch-1]]).
 
-Source: [[doomscrolling-attention-science-bbc]]. Related: [[environment-design]] ·
-[[neuroscience-of-behavior]] · [[reticular-activating-system]] · [[conscious-vs-subconscious]] ·
-[[discipline-without-willpower]] · [[neuro-channel]].
+## Sibling page — the addiction/happiness frame
+This page is the **attention-science** angle (Joss Fong's experiments: what short-form does to
+cognition). Its sibling [[tech-addiction]] ([[arthur-brooks]]) is the **dopamine-addiction + happiness**
+angle on the *same* device: phone use as a literal [[temporal-discounting|anticipation-of-reward]]
+hijack that numbs emotion and, above all, destroys the boredom you need to reach [[flow-state|flow]].
+Fong's *"attention isn't broken, we're carrying the monkey around"* and Brooks's *"monkey mind"* are the
+same metaphor arrived at independently. Read them together; Brooks also supplies the concrete
+prevention protocol (tech-free times/zones/fasts, grayscale, notifications-off).
+
+Source: [[doomscrolling-attention-science-bbc]]. Related: [[tech-addiction]] · [[flow-state]] ·
+[[arthur-brooks]] · [[environment-design]] · [[neuroscience-of-behavior]] ·
+[[reticular-activating-system]] · [[conscious-vs-subconscious]] · [[discipline-without-willpower]] ·
+[[neuro-channel]].

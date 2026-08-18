@@ -1031,3 +1031,26 @@ contacts for the starred ones — **Nucleate DMV / Raygan Murray** (JHU, warmest
 (Duke BME), **Flagship / Yinan Liu** (JHU→Associate), **ARCH / Sabah Oney** (warm Duke alum), **ARPA-H /
 Kimberley Steele** (ex-JHU, advice-only); The Engine held pending a warm entry. Ties to [[five-year-plan]]
 (operator-first, health/bio/AI, science→capital) and [[Job Search]].
+
+## [2026-08-18] ingest | Big Think / Arthur Brooks — phone addiction vs. flow
+Ingested [[phone-addiction-flow-arthur-brooks]] (channel: Big Think). Layered a **happiness/meaning**
+frame on the existing attention-science + discipline clusters. New: person [[arthur-brooks]]; concepts
+[[tech-addiction]] (phone as a literal [[temporal-discounting|dopamine]] hijack — the "once every 5 min"
+addiction test, the emotional-numbing role, and the recovery→prevention protocol: tech-free
+times/zones/fasts, grayscale, notifications-off) and [[flow-state]] (Csikszentmihalyi; **boredom is the
+doorway** — tech-driven boredom-aversion is why flow is getting rarer). Enriched
+[[temporal-discounting]] (dopamine = anticipation-of-reward, hijacked), [[doomscrolling-attention-science]]
+(named it the sibling page; both reach the "monkey mind"), [[environment-design]] +
+[[how-to-build-discipline]] (added the phone protocol), and the [[neuroscience-of-behavior]] hub. Wired
+into the [[Personal]] and [[Neuro]] buckets. Updated index; moved source to Processed.
+
+## [2026-08-18] ingest | Relentless (joinrelentless.com) — job-search service, flagged for Q&A
+Cole flagged this one to **remember for questions.** Ingested 3 "Relentless Reviews" testimonials
+([[relentless-review-roger-wyatt]] +$60K Director of Eng, [[relentless-review-yasmin-endassa]] offer while
+running her business, [[relentless-review-yanis-romero]] +$155K in 6 weeks) and built the reference entity
+[[relentless]] — a **done-for-you executive job-search service** (resume/positioning, direct recruiter +
+hiring-manager outreach, interview prep, calendar management; "applying online is only ~10% of the work").
+Flagged the outcomes as marketing/survivorship bias; noted founder is referred to as "her" + coach
+**Kareem**. Positioned as the paid mirror of Cole's own [[outreach-pipeline]] + [[outreach-kit]] (added a
+reciprocal note there), and as **market intel, not a new-grad fit** — wired into the [[Job Search]] bucket.
+Updated index; moved 3 sources to Processed.

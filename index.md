@@ -81,12 +81,28 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 > [[mythos]]→[[fable-5|Fable]] picture from outside) and [[tucker-carlson-economist-2026|Tucker Carlson]]
 > (Iran war, MAGA, Ukraine, Taiwan). New entities [[elon-musk]], [[tucker-carlson]], [[the-economist]].
 
+> **Phone-addiction → flow — 2026-08-18:** ingested [[phone-addiction-flow-arthur-brooks|Arthur Brooks]]
+> (Big Think) — the **happiness** frame on top of the attention-science cluster. New person [[arthur-brooks]]
+> and two concepts: [[tech-addiction]] (phone as a literal [[temporal-discounting|dopamine]] hijack that
+> numbs emotion; the "once every 5 min" addiction test + recovery/prevention protocol) and [[flow-state]]
+> (**boredom is the doorway** to flow — tech kills the boredom you need). Sibling to
+> [[doomscrolling-attention-science]] (both land on the "monkey mind"); wired into
+> [[discipline-without-willpower|discipline]] + [[environment-design]] + a [[neuro-channel|Neuro]] topic.
+
+> **Relentless service — 2026-08-18:** ingested 3 "Relentless Reviews" testimonials for **[[relentless]]**
+> (joinrelentless.com), a **done-for-you executive job-search service** — **Cole flagged it for Q&A.**
+> One entity page + 3 source clips ([[relentless-review-roger-wyatt|Roger Wyatt]] +$60K,
+> [[relentless-review-yasmin-endassa|Yasmin Endassa]], [[relentless-review-yanis-romero|Yanis Romero]] +$155K).
+> It's the paid mirror of Cole's own [[outreach-pipeline]] + [[outreach-kit]]; built for senior/exec searches,
+> **not** a new-grad fit. Read the outcomes as marketing (survivorship bias).
+
 ## Entities
 
 ### People
 - [[andrej-karpathy]] — originator of the LLM Wiki pattern; now delegates nearly all coding to agents.
 - [[matt-wolfe]] — YouTuber who built a second-brain system (wiki + journal + CRM).
 - [[erin-meryl]] — Cambridge student, "Erin Meryl Study" channel; neuroscience of discipline.
+- [[arthur-brooks]] — Harvard/Vanderbilt happiness scientist; phone-as-addiction vs. flow (Big Think).
 - [[nate-herk]] — creator (Uppit AI / AI Automation Society) behind 41 of the Claude Code sources here.
 - [[sarah-guo]] — investor (Conviction / No Priors) who interviewed Karpathy.
 - [[david-andre]] · [[nick-saraev]] · [[greg-isenberg]] — creators behind the AutoResearch explainer batch.
@@ -120,6 +136,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
 - [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]).
 - [[qmd]] — optional local markdown search engine (not yet in use).
+- [[relentless]] — done-for-you executive job-search service (joinrelentless.com); the paid mirror of Cole's [[outreach-pipeline]]. **Flagged for Q&A.** See [[Job Search]].
 - [[neuro-channel]] — **Cole's venture:** the *Neuro* YouTube channel; a walking-brain stick figure explaining neuroscience in ~45–90s Shorts (video #1 rendered). Fed by the [[neuroscience-of-behavior]] cluster.
 - [[remotion]] · [[elevenlabs]] — the render (React→MP4) + voice tools behind the Neuro channel.
 - [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[mcp]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
@@ -271,6 +288,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[identity-led-goals]] — frame goals as identity ("I am someone who…").
 - [[environment-design]] — reduce clutter and friction to make the good action default.
 - [[how-to-build-discipline]] — playbook distilled from the discipline cluster (filed from a query).
+- [[tech-addiction]] — phone use as a literal dopamine addiction ([[arthur-brooks]]); recovery (get mad → detox → live differently) + prevention protocol (tech-free times/zones/fasts, grayscale, notifications-off).
+- [[flow-state]] — full immersion (Csikszentmihalyi); a top source of happiness. Key mechanism: **boredom is the doorway** — tech-driven boredom-aversion is why we never enter it.
 - [[conversational-presence]] — Cole's operating model of people (subconscious-driven, self-focused, incentive-predictable) + his social growth front (talk less, lead with curiosity, listen) and the four tools incl. his "quiet superpower" (asking about others).
 
 ### Neuroscience of behavior & learning
@@ -320,6 +339,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Job search — target intel
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.
 - [[july-hiring-thread-benlang]] — Ben Lang's July 2026 hiring thread (86 startups); in-lane NYC health/bio/AI names promoted to [[target-orgs]].
+- **[[relentless]] testimonials** — 3 "Relentless Reviews" YouTube clips on the done-for-you job-search service: [[relentless-review-roger-wyatt]] (+$60K, Director of Eng), [[relentless-review-yasmin-endassa]] (offer while running her business), [[relentless-review-yanis-romero]] (+$155K in 6 weeks). Marketing — read with survivorship bias.
 
 ### World & ideas — interviews & reading
 - [[us-carceral-system-channel5-freleng]] — Channel 5 / Maggie Freleng on US mass incarceration (substantive first half → [[mass-incarceration]]); back-half conspiracy content flagged + not encoded. Values context for [[cole]].
@@ -335,6 +355,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Neuroscience & learning
 - [[doomscrolling-attention-science-bbc]] — BBC / Joss Fong: the experimental research on short-form video & "brain rot"; the harm is the swipe-to-decide interaction, not short content.
+- [[phone-addiction-flow-arthur-brooks]] — Big Think / [[arthur-brooks]]: the phone as a literal dopamine addiction that numbs emotion and steals [[flow-state|flow]]; the addiction test + the tech-free protocol.
 - [[neuroplasticity-rewiring-brain-ixcarus]] — Substack (ixcarus): change is rewiring, not willpower.
 - [[how-to-remember-everything-brainhealthdecoded]] — Brain Health Decoded: consume vs digest; match strategy to knowledge type.
 - [[conscious-subconscious-mind-ixcarus]] — Substack (ixcarus): conscious/subconscious mind, RAS, cognitive biases.
