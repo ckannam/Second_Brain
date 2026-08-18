@@ -1016,3 +1016,13 @@ not single outcomes), tied to the live "what's next" forks — [[fulbright-us-st
 [[outreach-pipeline]], [[claude-corps]], and the 5-year-plan talk with [[Stewart Neifart|Stew]].
 Referenced the prior [[2026-07-28 - caffeine-social-and-golf-anger]] outcome-vs-self-worth thread.
 Added to journal/index.
+
+## [2026-08-18] job-search | Science-commercialization / venture-building lane
+Cole loved the [[capital-strategy|JHTV Capital Strategy]] work but can't stay post-grad; he's in contact
+with **Activate**'s chief of staff (a science→company fellowship like his summer job). Built a matching
+target lane in [[outreach-pipeline]]: 10 orgs that help early-stage science cross the valley of death
+(fellowships, venture creation, incubators, non-dilutive funders). Web-researched named, profile-matched
+contacts for the starred ones — **Nucleate DMV / Raygan Murray** (JHU, warmest), **IndieBio / Mohan Iyer**
+(Duke BME), **Flagship / Yinan Liu** (JHU→Associate), **ARCH / Sabah Oney** (warm Duke alum), **ARPA-H /
+Kimberley Steele** (ex-JHU, advice-only); The Engine held pending a warm entry. Ties to [[five-year-plan]]
+(operator-first, health/bio/AI, science→capital) and [[Job Search]].
