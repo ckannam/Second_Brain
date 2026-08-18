@@ -19,7 +19,10 @@ Tracker for the live pipeline state lives in the [[Job Search]] bucket.
 
 ## The weekly batch (Monday runbook)
 
-1. **Scan** `startups.gallery/news` (and other funding feeds) for new rounds.
+The scan step is automated by the **[[startup-radar]]** skill, which sweeps the free funding
+surfaces, lane-filters, and dedupes before anything reaches the triage board.
+
+1. **Scan** `startups.gallery/news` (and other funding feeds) for new rounds — via [[startup-radar]].
 2. **Filter** for health/bio/AI + AI-infra alignment.
 3. **Triage** into [[target-orgs]] board: 🟢 (high-fit, pursue now) · 🟡 (watch) · ⚪ (skip).
 4. **Enrich** 🟢 orgs: named contact, geo, funding context, warm angle.

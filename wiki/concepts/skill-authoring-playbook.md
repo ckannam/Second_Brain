@@ -108,6 +108,32 @@ discipline is what makes a skill library *governable* ([[governed-skills-framewo
   defer** (handle errors in the script rather than making Claude figure them out).
 - **Vague `helper`/`utils` names** → name for the activity.
 
+## Worked example — auditing `startup-radar` against this checklist
+
+The checklist above is the *what*; this is the checklist *run on a real skill* so the moves
+are concrete. Subject: the vault's own [[startup-radar]] skill
+(`.claude/skills/startup-radar/SKILL.md`) — at ~198 lines it's the vault's most substantial
+skill and a good stress-test. Verdict per section:
+
+| # | Section | Verdict | Evidence / fix |
+|---|---------|---------|----------------|
+| 1 | **Description = trigger surface** | ⚠️ **under-triggering** | What+when both present, third-person, key nouns in — *but* it lists only **two** trigger phrasings ("run the startup radar" / "weekly startup discovery"). §1 says *be pushy*; `standard-of-care` lists a dozen. A natural ask like "find newly funded startups I could apply to" would miss. **This is the highest-value fix** (see below). |
+| 2 | **Progressive disclosure** | ✅ pass | 198 lines < the ~500-line split threshold; single `SKILL.md`, no nested references. No restructure needed — splitting now would be premature. |
+| 3 | **Be concise** | ✅ pass | Tight. The verbose parts (exact source URLs, the field schema) are *load-bearing* for a data-pipeline task, not padding — see §4. |
+| 4 | **Freedom ↔ fragility** | ✅ well-matched | This is a "narrow bridge": schema-valid notes + dedup + a validator gate. The skill correctly gives **low freedom** — exact URLs, an exact YAML schema, an exact `validate.py` command. Textbook match. |
+| 5 | **Evals first** | ⚠️ **gap** | No behavioral evals. `validate.py` is a schema ratchet (good) but doesn't test the two things that actually decide quality: **lane-filter** correctness (does an "other"-lane company get dropped?) and **dedup** (does a known company get skipped?). Recommend ~3 evals covering exactly those. |
+| 6 | **Anti-patterns** | ✅ mostly clean | Consistent terminology ("company note"), one default per choice, forward slashes. Minor: a hardcoded absolute vault path (`/Users/colekannam/…`) recurs — fine for a personal local skill, but the one portability smell worth noting. |
+
+**Highest-weight fix applied this pass (§1, trigger tuning):** widened the `description`'s
+trigger surface with natural-language phrasings a job-seeker would actually type — "find newly
+funded startups", "new companies to apply to", "who's hiring in health-bio-AI / AI-infra" —
+keeping the two named triggers and staying under the 1,024-char limit. Left for a human/eval
+pass: the §5 behavioral evals (they want real fixture notes + a baseline run).
+
+**Lesson generalized:** on a mature skill the body is usually fine (§2–4 passed untouched); the
+recurring wins are §1 (descriptions drift toward *under*-triggering as usage reveals new phrasings)
+and §5 (evals are the step most skills skip). Audit those two first.
+
 ## Relation to the rest of the toolbox
 
 A skill is one rung of the reusability ladder — reach for it when you keep repeating the same
