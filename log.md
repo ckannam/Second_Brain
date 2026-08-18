@@ -1021,3 +1021,13 @@ Added to journal/index.
 - Phase 1 build: worked-example skill audit (startup-radar) folded into [[skill-authoring-playbook]]; applied startup-radar description trigger-tuning fix (under-trigger synonym gap).
 - Phase 2 write-back: progress notes on "Improve + general skills" and "Skill max" @cloud tasks (both still open — remaining work is interactive Skill Creator evals).
 - Phase 4 MODE B: enriched [[claude-code-skills]] with the complete SKILL.md frontmatter reference (10-field table, official Claude Code docs). Enrichment-first — skill cluster saturated, no new page warranted. HEALTH_DEBT stayed 0 all night.
+
+## [2026-08-18] job-search | Science-commercialization / venture-building lane
+Cole loved the [[capital-strategy|JHTV Capital Strategy]] work but can't stay post-grad; he's in contact
+with **Activate**'s chief of staff (a science→company fellowship like his summer job). Built a matching
+target lane in [[outreach-pipeline]]: 10 orgs that help early-stage science cross the valley of death
+(fellowships, venture creation, incubators, non-dilutive funders). Web-researched named, profile-matched
+contacts for the starred ones — **Nucleate DMV / Raygan Murray** (JHU, warmest), **IndieBio / Mohan Iyer**
+(Duke BME), **Flagship / Yinan Liu** (JHU→Associate), **ARCH / Sabah Oney** (warm Duke alum), **ARPA-H /
+Kimberley Steele** (ex-JHU, advice-only); The Engine held pending a warm entry. Ties to [[five-year-plan]]
+(operator-first, health/bio/AI, science→capital) and [[Job Search]].
