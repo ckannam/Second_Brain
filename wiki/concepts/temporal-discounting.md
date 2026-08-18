@@ -17,4 +17,10 @@ The practical countermeasures all work by **pulling the reward into the present*
 lowering present cost: [[temptation-bundling]], [[cue-routine-reward-loop]],
 [[environment-design]].
 
+**The same circuit, hijacked** ([[arthur-brooks]], [[phone-addiction-flow-arthur-brooks]]):
+dopamine is precisely **anticipation of reward**, not pleasure — it evolved to make us *seek*.
+Notifications and feeds artificially juice that seeking loop, which is why the phone is a genuine
+[[tech-addiction|addiction]] and why it's so corrosive to [[flow-state|flow]]. Same present-biased
+machinery as discipline, pointed at the screen.
+
 Source: [[discipline-without-willpower-erin-meryl]].

@@ -24,6 +24,14 @@ a **context limit** — bind the behavior to a place/activity ("I only scroll on
 walking") so it's structurally unavailable the rest of the day. Same family as "move the monkey out of the
 room": change the surroundings, not the resolve.
 
+**Second worked example — the phone as a device ([[tech-addiction]], [[arthur-brooks]]):** Brooks's whole
+anti-addiction protocol is environment design, not willpower. **Tech-free *zones*** — no phone in the
+bedroom (a $5 alarm clock replaces it) — and **tech-free *times*** (first hour, meals, last hour) make
+the good default structural. Two device-level tweaks belong here too: **kill notifications** (so the
+phone stops cueing itself — "it's bad enough you think of the phone; worse when the phone thinks of you")
+and **grayscale the screen** (removing color makes the device measurably less magnetic). All shape the
+surroundings so the pull never starts.
+
 **Neuro grounding** ([[neuroplasticity-rewiring-brain-ixcarus]]): environmental cues keep the
 old [[neuroplasticity|pathway]] firing (why quitting smoking around smokers fails), and
 **mirror neurons** mean you literally rehearse the habits of people you're around — "show me

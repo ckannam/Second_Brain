@@ -36,6 +36,15 @@ override hardwired biology.
 4. **[[environment-design]]** — cut clutter (it overloads working memory) and cut friction
    (lay out clothes/materials the night before).
 
+## Applied case — reclaiming attention (the biggest present-day leak)
+
+The phone is where [[temporal-discounting]] does the most damage, so it gets its own protocol
+([[tech-addiction]], [[arthur-brooks]]) — all of it lever #4 [[environment-design]], not willpower:
+**tech-free times** (first hour of the day, meals, last hour before bed), **tech-free zones** (phone out
+of the bedroom — buy the $5 alarm clock), **notifications off**, and **grayscale the screen**. The payoff
+isn't just time saved — it's protecting the **boredom you need to reach [[flow-state|flow]]**, the state
+that actually makes the disciplined life feel good.
+
 ## The through-line
 
 All four **reduce friction and pull the reward forward** so discipline stops depending on
