@@ -1059,11 +1059,13 @@ top-10 incubator). Named targets: **[[Doug Speight]]** (his close professor + Du
 ex-ED American Underground = warmest entry), **Jeff Welch** (Dir. New Ventures, Duke OTC = peer function),
 **Robin Rasor** (AVP, Duke OTC = the Duke analog of [[Christy Wyskiel]]). Enriched Doug Speight's CRM.
 
-## 2026-08-19 — Networking prep: Caitlin Cutter (Activate COS)
-Ran `networking-prep` for Cole's warm intro call with **Caitlin Cutter, Chief of Staff at [[activate]]**
-(family-friend referral). Researched Activate (2-yr, non-dilutive, equity-free, $300K+, PhD hard-tech
-founders; 5 communities; Cyclotron Road roots; 346 scientists→276 cos) and pinned Caitlin's real vantage
-(ops/COS, ex-EA-to-CEO — not science/investment). Built the brief around Cole's explicit ask: **learn the
-fellowship + compare/contrast to JHTV** (IP/equity, scope, stage, funder-role, sector, duration table).
-Created: **[[Caitlin Cutter|prep]]** (`crm/prep/`), CRM record **[[Caitlin Cutter]]**, entity **[[activate]]**;
-added to [[outreach-pipeline]] Lane 0 (prep-ready). Ask = learn + stay-in-touch; soft ecosystem/intro ask only.
+## 2026-08-19 — Networking prep: Natasha Feshbach (Activate — Chief of Staff, Fellowship)
+Ran `networking-prep` for Cole's warm intro call with **Natasha Feshbach, Chief of Staff, Fellowship at
+[[activate]]** (family-friend referral). *(First research pass targeted the wrong person — Caitlin Cutter,
+the CEO-side COS; corrected to Natasha, who Cole named.)* Researched Activate (2-yr, non-dilutive, equity-
+free, $300K+, PhD hard-tech founders; 5 communities; Cyclotron Road roots; 346 scientists→276 cos) and
+pinned Natasha's real vantage: rose through **fellowship operations**, **ran the NY community ~3 yrs**;
+Yale enviro/food-justice/climate-comms background (mission-driven, not science-PhD or finance). Built the
+brief around Cole's ask: **learn the fellowship + compare/contrast to JHTV** (IP/equity, scope, stage,
+funder-role, sector, duration table), with the **NYC overlap** (she ran Activate NY, Cole's target city).
+Created **[[Natasha Feshbach|prep]]** + CRM record; entity **[[activate]]**; added to [[outreach-pipeline]].
