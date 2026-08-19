@@ -1049,3 +1049,21 @@ Flagged the outcomes as marketing/survivorship bias; noted founder is referred t
 **Kareem**. Positioned as the paid mirror of Cole's own [[outreach-pipeline]] + [[outreach-kit]] (added a
 reciprocal note there), and as **market intel, not a new-grad fit** — wired into the [[Job Search]] bucket.
 Updated index; moved 3 sources to Processed.
+
+## [2026-08-18] job-search | Duke commercialization angle + TIME incubators triage
+Cole flagged TIME's "Best Incubators & Accelerators 2026" — triaged in [[outreach-pipeline]] (it's a GENERAL
+list; kept the NY/DC/MD + science-capable cut as employer targets; **dropped FastForward@JHU as a reach — his
+own org**, talking point only). New distinctive angle he wants: reach **Duke's commercialization ecosystem** to
+learn AND offer how JHTV's success could influence change at Duke (he's a Duke student who worked inside JHTV, a
+top-10 incubator). Named targets: **[[Doug Speight]]** (his close professor + Duke I&E fellow / serial founder /
+ex-ED American Underground = warmest entry), **Jeff Welch** (Dir. New Ventures, Duke OTC = peer function),
+**Robin Rasor** (AVP, Duke OTC = the Duke analog of [[Christy Wyskiel]]). Enriched Doug Speight's CRM.
+
+## 2026-08-19 — Networking prep: Caitlin Cutter (Activate COS)
+Ran `networking-prep` for Cole's warm intro call with **Caitlin Cutter, Chief of Staff at [[activate]]**
+(family-friend referral). Researched Activate (2-yr, non-dilutive, equity-free, $300K+, PhD hard-tech
+founders; 5 communities; Cyclotron Road roots; 346 scientists→276 cos) and pinned Caitlin's real vantage
+(ops/COS, ex-EA-to-CEO — not science/investment). Built the brief around Cole's explicit ask: **learn the
+fellowship + compare/contrast to JHTV** (IP/equity, scope, stage, funder-role, sector, duration table).
+Created: **[[Caitlin Cutter|prep]]** (`crm/prep/`), CRM record **[[Caitlin Cutter]]**, entity **[[activate]]**;
+added to [[outreach-pipeline]] Lane 0 (prep-ready). Ask = learn + stay-in-touch; soft ecosystem/intro ask only.
