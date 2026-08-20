@@ -8,7 +8,13 @@ created: 2026-07-25
 # PSY 394 — Research Independent Study ([[marsh-memory-lab|Marsh Memory Lab]])
 
 Cole's continuing independent study with **[[Elizabeth Marsh|Dr. Marsh]]** / mentor **[[Joyce Park]]**.
-Project background + science: **[[marsh-memory-lab]]**. This page is the *operational* tracker.
+Project background + science: **[[marsh-memory-lab]]**. This page tracks the *research*; the
+**thesis / GwD pathway** (deadlines, committee, course sequence) lives at **[[gwd-thesis-pathway]]** —
+this study is the basis for [[gwd-psychology-program|Graduation with Distinction]].
+
+> ⚠️ **Course-sequence flag:** GwD requires two RIS semesters with the 2nd via **PSY 495** (and names
+> **PSY 493** as the fall RIS), but this page is logged as **PSY 394**. Confirm sequencing with
+> Joyce/Marsh — tracked in [[gwd-thesis-pathway]].
 
 ## Where it stands (from the Spring '26 write-up)
 - Paper drafted (Apr 29 2026): *Editing Depth & the Illusion of Explanatory Depth*.
@@ -23,6 +29,8 @@ Project background + science: **[[marsh-memory-lab]]**. This page is the *operat
 - [ ] Set a **recurring meeting** cadence with Joyce.
 
 ## Key dates
+- **Nov 9, 2026** — GwD application form due (see [[gwd-thesis-pathway]]).
+- **Apr 13, 2027** — defend by this date for Zener Award eligibility.
 - _(add: meeting times, lab deadlines, any presentation/submission dates)_
 
 ## Notes / resources

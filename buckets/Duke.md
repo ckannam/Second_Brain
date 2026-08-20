@@ -13,7 +13,7 @@ minor **I&E**, GPA **3.91**. Coursework, research, Greek life, clubs, philanthro
 - **NeuroTech Consulting Club** — Cole = *Lead Consultant* (Duke labs + Durham neurotech startups). Members: _(…)_
 - **Duke Shave & Buzz** — Cole = *Sponsorship Chair*; raised **$380K+** for adolescent cancer research. People: _(…)_
 - **Mission Brain** · **South Indian Club**. People: _(…)_
-- **Research — [[marsh-memory-lab|Marsh Memory Lab]]** (Psychology; PSY 394 independent study, metacognition/IoED). PI [[Elizabeth Marsh]], mentor [[Joyce Park]].
+- **Research — [[marsh-memory-lab|Marsh Memory Lab]]** (Psychology; PSY 394 independent study, metacognition/IoED). PI [[Elizabeth Marsh]], mentor [[Joyce Park]]. → **[[gwd-thesis-pathway|Graduation with Distinction]] thesis** (⚠️ application due **Nov 9, 2026**; [[gwd-psychology-program|program details]]).
 - **Research — CIPHER / Devinney Lab** (postoperative delirium, intraoperative EEG). Colleagues/PI: _(…)_
 - **Closest professors:** [[Doug Speight]] (I&E) · [[Brian Cox]].
 
