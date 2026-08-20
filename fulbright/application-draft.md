@@ -60,14 +60,14 @@ Flagship story: the University Shipping overloaded-truck crisis night ([[uship]]
 >
 > I also want to learn at least as much as I share. I would learn Portuguese well enough to be a guest rather than a tourist, learn how Brazilians build companies and community in a way I expect is more relational than what I know, and let the people of Recife show me their city on their own terms. That, to me, is how you represent the United States well: meet people as they are, be honest about where you come from, stay humble about what you do not know, and let curiosity, not certainty, lead.
 
-### Impact of Fulbright Award *(1000 max — 977 chars)*
-Ties to [[five-year-plan]] (science↔capital bridge; JHTV). *(Revised 2026-08-20: led with the "multiplier effect" the prompt quotes — Cole's career-as-bridge puts him in a position to pass knowledge to many founders; explicit share-on-return plan.)*
+### Impact of Fulbright Award *(1000 max — 997 chars)*
+Ties to [[five-year-plan]] (science↔capital bridge; JHTV). *(Revised 2026-08-20 w/ Cole's edits: para 1 = mission to keep good science from being lost so it reaches real people; para 2 = "be the bridge that gets real innovation from anywhere to the people it can help"; para 3 closes on Cole as the lasting connector between this promising region and America's capital/networks "that let its true innovation shine through." Paras 1 & core of 3 are Cole's own wording.)*
 
-> After the grant I want to spend my career helping founders turn science and technology into companies that get built and funded. I already do this at Johns Hopkins Technology Ventures, connecting early-stage research to capital, and long term I see myself in venture or building my own firm.
+> After the grant I want to spend my career helping founders turn science and technology into companies that get built and reach real people in their lives. So much science is lost along the way that could change people's lives today, that is what I want to work on. I got to do this at Johns Hopkins Technology Ventures, connecting early-stage research to capital.
 >
-> A Fulbright would put me years ahead. Learning firsthand how AI lowers the barriers to entrepreneurship where capital and infrastructure are scarcest teaches me how the next decade of company-building will work, in exactly the markets and for the founders that investing is starting to reach.
+> A Fulbright would teach me what I cannot learn from where I sit: AI now lets real innovation come from anywhere, and I would learn how to get world-changing ideas to the people they can help.
 >
-> The multiplier matters because of the seat I want to hold. My career is meant to be a bridge between builders and the resources they need, so what I learn in Brazil would not stay with me. I would carry it back to the founders I work with, to students, and to the U.S. innovation community through writing and talks, and keep the exchange with my host community going well beyond the grant.
+> The multiplier matters because of the seat I want to hold. My career is meant to be a bridge between builders and the resources they need, so what I learn in Brazil would not stay with me. I would carry it back to the founders I work with and the U.S. innovation community through talks and writing. Above all, I would keep connecting this promising region to the capital and networks in America that let its true innovation shine through.
 
 ---
 
