@@ -196,6 +196,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Job-search targets — neuro-AI (see [[Job Search]])
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
+- [[ply]] — NYC seed-stage vertical-SaaS for the trades (inventory/purchasing for HVAC/plumbing/electrical); Ferguson-Ventures-backed. Cole's operator-lane target (strong Uship overlap); contact [[Ryan Berger]].
 
 ## Concepts
 
