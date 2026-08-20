@@ -134,7 +134,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[uship]] — University Shipping: Cole's storage-first student venture (**Cole 35%** of the legacy LLC); full overview — cap table, finances, email moat, Columbia, UShip Ventures (see [[Uship]] bucket).
 - [[uship-os]] — Carson's multi-tenant OS for UShip; the linchpin of the 2027 expansion.
 - [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
-- [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]).
+- [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]); basis for his [[gwd-thesis-pathway|GwD thesis]].
+- [[gwd-thesis-pathway]] — operational tracker for Cole's Graduation with Distinction thesis (⚠️ application due **Nov 9, 2026**; course-sequence flag PSY 394 vs 493/495).
 - [[qmd]] — optional local markdown search engine (not yet in use).
 - [[relentless]] — done-for-you executive job-search service (joinrelentless.com); the paid mirror of Cole's [[outreach-pipeline]]. **Flagged for Q&A.** See [[Job Search]].
 - [[neuro-channel]] — **Cole's venture:** the *Neuro* YouTube channel; a walking-brain stick figure explaining neuroscience in ~45–90s Shorts (video #1 rendered). Fed by the [[neuroscience-of-behavior]] cluster.
@@ -335,6 +336,9 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Fulbright
 - [[fulbright-project-context]] — Cole's own project brief (award type, thesis, countries, components, funding).
 - [[anna-fulbright-duke-2026-07-14]] — Duke adviser's process email; the authoritative campus timeline + GA reviewers + writing groups.
+
+### Duke — thesis / GwD
+- [[gwd-psychology-program]] — Duke P&N Graduation with Distinction page: eligibility, requirements, full timeline (Psych + Neuro tracks). Basis for [[gwd-thesis-pathway]].
 
 ### Job search — target intel
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.

@@ -19,6 +19,9 @@ The *operational* layer lives here; durable *knowledge* still flows into [[wiki]
 | **Introduction to Brain Systems** | systems neuroscience | [[intro-brain-systems]] | ⏳ awaiting syllabus |
 | **PSY 394 — Research Independent Study** | [[marsh-memory-lab\|Marsh Memory Lab]] (editing depth & IoED) | [[psy-394-marsh-lab]] | ⏳ ongoing |
 
+**Thesis track:** [[gwd-thesis-pathway]] — Graduation with Distinction pathway built on the Marsh Lab
+research (⚠️ **GwD application due Nov 9, 2026**; program details in [[gwd-psychology-program]]).
+
 ## How each class page works
 - **Course info** (code, prof, meetings, grading) · **The material** (build full understanding) ·
   **Assignments & HW tracker** (checkbox + due date; I help work through them) · **Key dates** · **Resources**.

@@ -1086,3 +1086,12 @@ short small-company hiring windows). Excited to connect Cole to people + be an o
 records + pipeline rows for **[[Ryan Berger]]** (⭐advocate) and **[[Hugo]]** (⚠️stub — mentor who hires
 for VC/startup, Mon 12pm ET call; needs last name/company); confirmed **[[Natasha Feshbach]]** in CRM.
 New entity **[[ply]]**. All three now queryable in [[outreach-pipeline]] Lane 0 as active assets.
+
+## [2026-08-20] ingest | Duke P&N — Graduation with Distinction (GwD)
+Webclip of Duke Psychology & Neuroscience GwD program page (Psych + Neuro tracks). Cole's
+[[marsh-memory-lab]] research is his GwD thesis. New pages: source summary [[gwd-psychology-program]]
++ operational tracker [[gwd-thesis-pathway]]. Enriched [[psy-394-marsh-lab]] (thesis link + course-
+sequence flag + key dates), [[marsh-memory-lab]] (GwD status), coursework [[coursework/index|index]],
+[[Duke]] bucket, and root index.md. **Hard deadline surfaced: GwD application due Nov 9, 2026.**
+Open flag: RIS sequence — GwD wants PSY 493→495, currently logged as PSY 394 (confirm w/ Joyce/Marsh).
+Source moved to raw/Processed/.

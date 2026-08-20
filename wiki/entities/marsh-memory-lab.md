@@ -30,6 +30,10 @@ metacognition — how much you think you **know** and how much you think you **c
   glass, zippers, moon phases, time zones), 3 conditions (Explain / Shallow / Deep), T1/T2/T3
   ratings. Target **N=250** (~90 collected as of Apr 2026). IRB-approved.
 - **Status:** end-of-Spring-2026 write-up done (Apr 29 2026); **continues Fall 2026**.
+- **This project is Cole's [[gwd-thesis-pathway|Graduation with Distinction]] thesis.** Program
+  requirements + timeline: [[gwd-psychology-program]]; the hard deadline is the **GwD application by
+  Nov 9, 2026**. Note the open flag that the RIS course sequence (GwD wants PSY 493 → 495) doesn't
+  match the currently-logged **PSY 394** — see [[gwd-thesis-pathway]].
 
 ## Why this connects to *this vault* (worth internalizing)
 Cole's research is about the **metacognition of editing a shared knowledge base** — and this
