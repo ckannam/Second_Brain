@@ -49,25 +49,25 @@ Flagship story: the University Shipping overloaded-truck crisis night ([[uship]]
 >
 > Practically, I adapt fast to logistics and discomfort — new cities, long hours, plans that break — and I will prepare the controllable parts, from language basics to local context, so my energy on the ground goes to the people and the questions, not the friction.
 
-### Community Engagement *(2000 max — 1,497 chars)*
-*(Revised 2026-08-20: removed neuro-channel line; reframed "privilege is an obligation" → "raised that what you have is best used for others"; stripped the "lives looked nothing like mine" othering.)*
+### Community Engagement *(2000 max — 1,931 chars)*
+*(Revised 2026-08-20: removed neuro-channel line + "privilege is an obligation" + othering; added opioid-response service beat; then sharpened to directly answer "unique ways to share your culture/values AND learn from others" — para 3 = share (Karpathy-inspired AI system, taught to others; parents' value), para 4 = learn + ambassador. Karpathy line pending Cole's OK on tone.)*
 
 > I engage by being genuinely curious about people and by showing up for the communities I am part of — and I plan to do both from day one in Brazil.
 >
-> At Duke I have learned that the fastest way in is through shared activity, not small talk. I played soccer competitively for years and still follow it closely — in Brazil, football is practically a shared language, and a pickup game is how I would expect to make my first real friends. I also help lead cultural and service groups at Duke, and as Sponsorship Chair for Shave and Buzz I helped raise over $380,000 for adolescent cancer research, mostly through a lot of unglamorous, one-on-one asks. I would look for the local version of that work — a cause my host community already cares about — and contribute rather than observe.
+> At Duke I have learned that the fastest way in is through shared activity, not small talk. I played soccer competitively for years and still follow it closely — in Brazil, football is practically a shared language, and a pickup game is how I would expect to make my first real friends. As Sponsorship Chair for Shave and Buzz I helped raise over $380,000 for adolescent cancer research, mostly through a lot of unglamorous, one-on-one asks, and closer to home I spent a summer in Baltimore's Mayor's Office helping organize the city's opioid response, where I saw that the care that actually reaches people is built on trust and relationships, not top-down programs. I would look for the local version of that work and contribute rather than observe.
 >
-> What I would bring traces back to my parents, a librarian and a principal in Baltimore's public schools. They raised me to believe that whatever you have is best used for other people, and that the point of what you know is to make it useful. In that spirit I would gladly give talks for students and founders on how I use AI and on the U.S. startup ecosystem I work in, and pitch in wherever else I can be useful.
+> The most distinctive thing I can share is how I work: inspired by Andrej Karpathy, I built a personal system that indexes my life and work so the AI tools I use have full context, and I would happily run informal sessions teaching founders and students to build their own. More than any tool, I want to share the value my parents, a librarian and a principal in Baltimore's public schools, raised me on — that whatever you have is best used for other people — and to be the kind of American who shows up to give, not only to study.
 >
-> Mostly I want to learn. My most useful habit is asking about other people and actually listening, the one thing that travels everywhere. Baltimore taught me to meet people as they are, represent where I am from honestly, stay humble about what I do not know, and let curiosity, not certainty, lead.
+> I also want to learn at least as much as I share. I would learn Portuguese well enough to be a guest rather than a tourist, learn how Brazilians build companies and community in a way I expect is more relational than what I know, and let the people of Recife show me their city on their own terms. That, to me, is how you represent the United States well: meet people as they are, be honest about where you come from, stay humble about what you do not know, and let curiosity, not certainty, lead.
 
-### Impact of Fulbright Award *(1000 max — 955 chars)*
-Ties to [[five-year-plan]] (science↔capital bridge; JHTV).
+### Impact of Fulbright Award *(1000 max — 977 chars)*
+Ties to [[five-year-plan]] (science↔capital bridge; JHTV). *(Revised 2026-08-20: led with the "multiplier effect" the prompt quotes — Cole's career-as-bridge puts him in a position to pass knowledge to many founders; explicit share-on-return plan.)*
 
-> After the grant I want to spend my career helping early-stage founders turn science and technology into companies that actually get built and funded — the bridge between the lab and the market I already work on at Johns Hopkins Technology Ventures, and where I see myself long term, in venture or building my own firm.
+> After the grant I want to spend my career helping founders turn science and technology into companies that get built and funded. I already do this at Johns Hopkins Technology Ventures, connecting early-stage research to capital, and long term I see myself in venture or building my own firm.
 >
-> A Fulbright studying how AI lowers the barriers to entrepreneurship in an emerging economy puts me years ahead: I will understand firsthand how the tools reshaping startups everywhere play out where capital and infrastructure are scarcest — exactly the founders and markets the next decade of investing will reach.
+> A Fulbright would put me years ahead. Learning firsthand how AI lowers the barriers to entrepreneurship where capital and infrastructure are scarcest teaches me how the next decade of company-building will work, in exactly the markets and for the founders that investing is starting to reach.
 >
-> I will share it the way I share everything, by making it useful: publishing my findings for the founders and researchers I work with, bringing what I learn back to the U.S. innovation community and to students through talks and writing, and keeping the relationships from my host community alive as an ongoing exchange.
+> The multiplier matters because of the seat I want to hold. My career is meant to be a bridge between builders and the resources they need, so what I learn in Brazil would not stay with me. I would carry it back to the founders I work with, to students, and to the U.S. innovation community through writing and talks, and keep the exchange with my host community going well beyond the grant.
 
 ---
 
