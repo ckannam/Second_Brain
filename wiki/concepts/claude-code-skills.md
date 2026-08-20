@@ -10,11 +10,25 @@ Reusable capabilities you give [[claude-code]]: a folder with a markdown `SKILL.
   <ref-files>     # optional — any files Claude may read during execution
 ```
 
-**Frontmatter fields** (YAML between `---` markers at top of SKILL.md):
-- `name` — the skill's identifier (kebab-case).
-- `description` — **the trigger surface.** Claude reads only `name` + `description` at startup; the body loads only when a description match fires. See [[skill-trigger-tuning]] for how to write effective descriptions.
-- `disable-model-invocation: true` — opt out of automatic triggering; skill runs only on explicit invocation.
-- `allowed-tools` — restrict which tools the skill may use during execution.
+**Frontmatter fields** (YAML between `---` markers at top of SKILL.md). Only `description`
+is really needed; everything else is optional (grounded in the official
+[Claude Code skills docs](https://code.claude.com/docs/en/skills)):
+
+| Field | What it does |
+|---|---|
+| `name` | Display name in the skill listing; defaults to the directory name. Kebab-case. |
+| `description` | **The trigger surface.** What the skill does *and when to use it* — Claude reads only `name` + `description` at startup and matches requests against it; the body loads only on a match. Combined with `when_to_use`, truncated at **1,536 chars** in the listing, so put the key use case first. See [[skill-trigger-tuning]]. |
+| `argument-hint` | Autocomplete hint for expected args (e.g. `[issue-number]`). |
+| `disable-model-invocation` | `true` = never auto-load; runs only on explicit `/name`. Also blocks preloading into [[claude-code-subagents|subagents]] and (as of v2.1.196) **prevents the skill from firing when a [[proactive-agents|scheduled task]] uses it as the prompt** — relevant to this vault's own nightly run. Default `false`. |
+| `user-invocable` | `false` = hide from the `/` menu (background knowledge users shouldn't call directly). Default `true`. |
+| `allowed-tools` | Tools pre-approved **without a permission prompt** for the turn that invokes the skill; the grant **clears on your next message**. Space/comma-separated or a YAML list. (Not a restriction list — a per-turn pre-approval.) |
+| `model` | Model override while the skill is active; reverts to the session model next prompt. |
+| `context: fork` | Run the skill in a **forked subagent context** instead of the main thread — the frontmatter bridge to [[skills-vs-subagents|skills-vs-subagents]]. |
+| `agent` | Which subagent type to use when `context: fork` is set. |
+| `paths` | Glob patterns that limit auto-activation to matching files (comma-separated or YAML list). |
+
+Custom slash commands (`.claude/commands/*.md`) are now the same primitive — see
+[[claude-code-custom-commands]].
 
 ## Skill types (personal vs project)
 

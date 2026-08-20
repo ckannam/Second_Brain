@@ -189,6 +189,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[capital-strategy]] — Cole's role/team. · [[vc-matching-second-brain]] — his flagship tech→VC matcher. · [[jhtv-grant-finder]] — his grant finder.
 - [[JHTV-Second-Brain-Vision-and-Handoff]] — the VC-matcher's long-term vision + Justin-handoff doc: continuity, the TF pillar, PitchBook-API/live-office-data upgrades, and feeding Oliver's vision.
 - [[JHTV-Second-Brain-Matching-Rubric-Explainer]] — deep technical reference on how the matcher scores (formula, portfolio curve, sector taxonomy, data files + pipelines, known limits). · [[JHTV-Second-Brain-Meeting-Onepager]] (room hand-out) · [[JHTV-Second-Brain-Justin-Operator-Onepager]] (maintenance guide).
+- [[activate]] — national hard-tech founder fellowship (non-dilutive, equity-free); the founder-first cousin of the JHTV/FastForward model. Cole's contact: [[Natasha Feshbach]].
 
 ### Fulbright — Cole's application (see the [[Fulbright]] bucket)
 - [[fulbright-us-student-program]] — the fellowship, Cole's Open Study/Research application, components, funding, deadlines, Duke endorsement.
@@ -196,6 +197,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Job-search targets — neuro-AI (see [[Job Search]])
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
+- [[ply]] — NYC seed-stage vertical-SaaS for the trades (inventory/purchasing for HVAC/plumbing/electrical); Ferguson-Ventures-backed. Cole's operator-lane target (strong Uship overlap); contact [[Ryan Berger]].
 
 ## Concepts
 
