@@ -1074,3 +1074,20 @@ Yale enviro/food-justice/climate-comms background (mission-driven, not science-P
 brief around Cole's ask: **learn the fellowship + compare/contrast to JHTV** (IP/equity, scope, stage,
 funder-role, sector, duration table), with the **NYC overlap** (she ran Activate NY, Cole's target city).
 Created **[[Natasha Feshbach|prep]]** + CRM record; entity **[[activate]]**; added to [[outreach-pipeline]].
+
+## 2026-08-19 — Natasha Feshbach call done → confirmed resource
+Cole's intro call with **[[Natasha Feshbach]]** (Chief of Staff, Fellowship @ [[activate]]) happened and
+the **thank-you note went out**. Outcome: **she's a confirmed job-search resource** — agreed to flag
+fitting roles (Activate or portfolio) + point Cole to others. Cole's commitments: apply to an Activate
+**internship**; forwarded the fellowship to [[Stewart Neifart]] as a destination for Hopkins spinouts.
+Updated her CRM record + [[outreach-pipeline]] (status `nurtured`, ⭐resource). Re-engage **spring 2027**;
+open decision = **climate-hardtech vs. health/bio** fork before asking her to point at portfolio companies.
+
+## 2026-08-20 — Ryan Berger call (best yet) + CRM: Ryan, Hugo, Natasha as job-search assets
+Cole's call with **[[Ryan Berger]]** (Head of Ops @ [[ply]], **Justin's brother**) was his **most
+successful yet** — Ryan: **"I'd love to hire you,"** blocked only by **timeline** (May-2027 grad vs.
+short small-company hiring windows). Excited to connect Cole to people + be an ongoing asset;
+**follow-up next week** to strategize. Uship internal-OS build landed as peer credibility. Created CRM
+records + pipeline rows for **[[Ryan Berger]]** (⭐advocate) and **[[Hugo]]** (⚠️stub — mentor who hires
+for VC/startup, Mon 12pm ET call; needs last name/company); confirmed **[[Natasha Feshbach]]** in CRM.
+New entity **[[ply]]**. All three now queryable in [[outreach-pipeline]] Lane 0 as active assets.
