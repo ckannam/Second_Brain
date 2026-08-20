@@ -23,7 +23,8 @@ improvement of a *named* target toward Cole's vision.
 ## Invariants (do not violate)
 
 - **Improvement = a denser, more current, better-connected graph** — not page count, not
-  net-new invented content. **Links > pages. Enrich before you create. Never invent facts.**
+  net-new invented content. **Links > pages. Enrich before you create. Never invent facts.
+  Snapshots age — reconcile freshness and mark superseded claims.**
 - **`AGENTS.md` wins on any conflict**; this skill is a thin router, not a second schema.
 - **Separate from autoresearch.** You *may read* `python3 autoresearch/score.py` as one
   signal when a target is metric-shaped, but you are **never bound by the ratchet**, you
@@ -90,12 +91,3 @@ After Cole says go, do the `[local]` steps following `AGENTS.md` exactly — enr
 create, make links reciprocal, update `index.md`, add the relevant `buckets/` link, append
 `log.md`. Then report what changed and what remains for cloud/human.
 
-## Guardrails
-
-- `AGENTS.md` wins on any conflict; don't restate its rules here.
-- Never invent facts; snapshots age — reconcile freshness and mark superseded claims.
-- Never edit `autoresearch/score.py` or anything under `raw/`.
-- Never auto-merge generative/cloud work; the plan-first approval gate is sacred.
-- Don't duplicate the autoresearch ratchet — `improve` is directed, not metric-bound.
-- Links > pages; enrichment before creation; apply `AGENTS.md`'s new-page test before
-  creating anything.

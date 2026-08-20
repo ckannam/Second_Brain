@@ -983,6 +983,30 @@ the doomscroll page into the [[neuroscience-of-behavior]] hub; added two pointer
 **Editorial call:** Channel-5 back-half conspiracy content (Epstein / Charlie Kirk / Israel / QAnon) **deliberately not
 encoded** as fact per AGENTS.md; flagged in the source page. Updated index (batch note + entries). Moved all 3 to Processed.
 
+## [2026-08-10] autoresearch | Night build — skill improvement + loops concept page
+
+**Phase 0:** HEALTH_DEBT = 0; pre-existing defect set empty; no Phase-1 fast-track heals.
+
+**Phase 2 — Build:**
+1. **`vault-improve` SKILL.md improved** — applied [[skill-authoring-playbook]] 6-section checklist.
+   Finding: Guardrails section was a partial duplicate of Invariants. Fix: removed the duplicate
+   section, absorbed the one unique item (snapshot-reconciliation) into Invariant #1. File trimmed
+   102→94 lines with no loss of coverage. Advances "Improve + general skills" @cloud task.
+2. **[[skills-vs-subagents]] enriched** — stub (11 lines) expanded to a full concept page with
+   decision table, context-economics rationale, concrete rubric, and escalation ladder (skill →
+   sub-agent → team → CMA). Advances "Skill max" and "Train skills" @cloud tasks.
+
+**Phase 3 — Write-back:** tasks/index.md updated with ⏳ progress notes for "Skill max" (trigger
+tuning pass complete: all 11 vault skills pass) and "Improve + general skills" (vault-improve worked
+example + skills-vs-subagents enrichment).
+
+**Phase 4 — MODE B:** Created [[claude-code-loops]] concept page — the in-session `/loop` command,
+distinct from [[claude-code-scheduled-tasks]]. Web-grounded: fixed vs. dynamic mode, 50-iteration
+cap, July 2026 Anthropic vocabulary (/goal /loop /schedule taxonomy). Fills the dangling wikilink
+from [[overview]] and [[claude-code]]. HEALTH_DEBT = 0 after all changes.
+
+**Phase 5 — PR:** opened autoresearch/night-2026-08-10 → main.
+
 ## [2026-08-07] config | AutoResearch/self-heal cadence: daily → weekly
 Too many `autoresearch/night-*` branches accruing (13 merged + 1 open as of today). Added a **weekly
 cadence gate** to `autoresearch/program.md`: scheduled/unattended runs execute the full loop **only on
