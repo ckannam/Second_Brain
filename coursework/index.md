@@ -14,9 +14,9 @@ The *operational* layer lives here; durable *knowledge* still flows into [[wiki]
 ## Classes (4)
 | Course | Focus | Page | Status |
 |---|---|---|---|
-| **Inorganic Chemistry II** | coordination/transition-metal chem | [[inorganic-chemistry-2]] | ⏳ awaiting syllabus |
-| **fMRI (Functional Neuroimaging)** | BOLD, design, GLM analysis | [[fmri]] | ⏳ awaiting syllabus |
-| **Introduction to Brain Systems** | systems neuroscience | [[intro-brain-systems]] | ⏳ awaiting syllabus |
+| **CHEM 210D — Modern Applications of Inorganic Chemistry** | nuclear/quantum/periodic → coordination, redox, solid state | [[chem-210]] | ✅ syllabus + Unit 1 ingested |
+| **fMRI (Functional Neuroimaging)** | MR physics, BOLD, GLM analysis | [[fmri]] | ✅ syllabus + Wk 1–5 ingested |
+| **NEUROSCI 206L — Intro to Systems Neuroscience** | sensory + motor systems, human neuroanatomy (TBL lab) | [[neurosci-206]] | ✅ syllabus + Wk 1 ingested |
 | **PSY 394 — Research Independent Study** | [[marsh-memory-lab\|Marsh Memory Lab]] (editing depth & IoED) | [[psy-394-marsh-lab]] | ⏳ ongoing |
 
 **Thesis track:** [[gwd-thesis-pathway]] — Graduation with Distinction pathway built on the Marsh Lab

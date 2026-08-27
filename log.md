@@ -1095,3 +1095,68 @@ sequence flag + key dates), [[marsh-memory-lab]] (GwD status), coursework [[cour
 [[Duke]] bucket, and root index.md. **Hard deadline surfaced: GwD application due Nov 9, 2026.**
 Open flag: RIS sequence — GwD wants PSY 493→495, currently logged as PSY 394 (confirm w/ Joyce/Marsh).
 Source moved to raw/Processed/.
+
+## [2026-08-26] ingest | fMRI / Functional Neuroimaging (NEUROSCI 382) — syllabus + Weeks 1–5
+Cataloged Cole's Fall 2026 Functional Neuroimaging class from 9 provided items: the
+[[fmri-syllabus-fall2026|syllabus]], Week 1 lecture deck ([[fmri-week1-lecture-intro]]), textbook
+[[huettel-ch1-intro-to-fmri|Ch 1]] & [[huettel-ch2-mri-scanners|Ch 2]] (scanned PDFs OCR'd via two
+parallel subagents), and Weeks 2/3/5 lab handouts ([[fmri-lab1-neuroanatomy]],
+[[fmri-lab2-kspace-contrast]], [[fmri-lab3-preprocessing]]). New concept cluster: [[mri-physics]],
+[[mri-contrast]], [[k-space]], [[bold-signal]], [[fmri-preprocessing]], [[fmri-glm-analysis]],
+[[mni-space]], [[neuroanatomy-landmarks]]. New entities: [[spm]], [[biac]], [[huettel-fmri-textbook]].
+New CRM: [[Tobias Overath]] (prof), [[Hector Sanchez Melendez]] (TA), [[Jim Voyvodic]] (guest).
+Rewrote the [[fmri]] hub with full course info, a complete reading/lab/exam/project tracker, and key
+dates. Updated [[coursework/index]], [[Duke]] + [[Neuro]] buckets, root index.md (+ dated callout),
+crm/index.md. The 486 MB SPM lab dataset (`bia5_20105_*`, = the finger-tapping analysis) is referenced
+by its Downloads path, NOT copied into the vault. Source docs (syllabus/lecture/chapters/labs) copied
+to raw/Processed/. Minor flag: lecture deck template says "Thursdays"/"SPM25" while the syllabus says
+Tuesdays and labs were written for spm12 — syllabus treated as authoritative, version discrepancy noted.
+
+## [2026-08-26] ingest | CHEM 210D — Modern Applications of Inorganic Chemistry (syllabus + Unit 1)
+Cole handed over the first batch of CHEM 210 materials (Prof. [[Charlie Cox]], Fall 2026): syllabus + Unit 1
+(59-slide lecture deck, unit overview handout, Bohr-model derivation handout). **Connection-first:** corrected the
+old "Inorganic Chemistry II" misnomer and **renamed** the stub `coursework/inorganic-chemistry-2.md` →
+[[chem-210]] (git mv; updated the 2 inbound links in [[coursework/index|coursework index]] + [[Duke]] bucket).
+Built the hub [[chem-210]] (info, grading 50/35/15 + resurrection quizzes, HW tracker, exam dates Oct 1 / Nov 12 /
+Dec 9) and three atomic Unit-1 knowledge notes: [[chem-210-nuclear-chemistry]], [[chem-210-quantum-atomic-structure]],
+[[chem-210-periodic-trends]]. Source summaries: [[chem-210-syllabus-fall-2026]], [[chem-210-unit1-nuclear-quantum]],
+[[chem-210-bohr-model-handout]]. Enriched [[reaction-order-kinetics]] with a reciprocal link (radioactive decay =
+the pure first-order case). Updated root index.md (ingest callout + Concepts + Sources sections) and the [[Duke]]
+knowledge cluster. HW deadlines live in the [[chem-210]] tracker (not `tasks/index.md`, which is vault-system-only).
+4 source PDFs moved to raw/Processed/. Open flags: confirm Cole's discussion section (10D–18D); HW points 10 vs 12
+(syllabus vs Unit 1 handout); [[Charlie Cox]] left as a stub link (worth a CRM entry — possible Duke recommender).
+"This is a start of all the data" — later units + problem sets to follow.
+
+## [2026-08-26] ingest | CHEM 210 Discussion I — Stoichiometry Review (prereq)
+Cole's Discussion I worksheet (prereq review from Chem 101/110 — stoichiometry, limiting reagent, ideal gas law,
+formula-from-mole-ratio). Worked all three problems with him and filed the methods + solutions as
+[[chem-210-prereq-review]] (linked from [[chem-210]] material section + root index). Answers: 1a) 0.370 L H₂ + 2.06 g
+Al left; 1b) 19 soda cans; 2) MnCl₄; 3) ≈45 mL O₂. Flagged prereq (Unit 0), distinct from the first graded content
+([[chem-210-nuclear-chemistry|Unit 1: Nuclear]]). Source moved to raw/Processed/.
+
+## [2026-08-26] ingest | NEUROSCI 206L — Introduction to Systems Neuroscience (syllabus + Week 1)
+Cole handed over NEUROSCI 206L materials (Profs [[Leonard White]] & [[Henry Yin]], Fall 2026) ahead of his Wed
+afternoon class. **Connection-first:** the existing "Introduction to Brain Systems" stub was this course — corrected the
+name and **renamed** `coursework/intro-brain-systems.md` → [[neurosci-206]] (git mv; updated 3 inbound links: [[coursework/index]],
+[[Duke]] bucket, and [[neuroanatomy-landmarks]] which already cross-referenced it). Built the hub [[neurosci-206]]
+(TBL format, 60/40 individual/team grading, drop policy, 15-week sensory→motor schedule, midterm Oct 14 / final Dec 13,
+Lt + Sylvius = free-for-Duke via Canvas) and the Wk1 knowledge note [[neurosci-206-human-neuroanatomy]] (human-brain
+anatomy foundations). Source summaries: [[neurosci-206-syllabus-fall-2026]], [[neurosci-206-first-class-human-brain]].
+Reciprocated the fMRI tie — [[neuroanatomy-landmarks]] ↔ 206 share gross anatomy. Updated root index.md (callout +
+Concepts + Sources) and the [[Duke]] knowledge cluster. Also answered Cole's live questions (Lt via Canvas Week-0 module;
+readings = Neuroscience 7e / used 4th–6th ed ~$15 / Oxford Insight; Wk1 = Neuroanatomy Appendix; do the Getting-to-Know-You
+survey for team assignment). Open flags: confirm Cole's lab day (Thu vs Fri); Profs White/Yin left as stub links (possible
+CRM entries + recommenders). 2 source PDFs moved to raw/Processed/. More weeks to follow.
+
+## [2026-08-27] networking-prep | Will Lipman (Transcend Therapeutics)
+Stew connected Cole with **Will Lipman** — UNC neuroscience grad, **JHTV Commercialization Fellow '24**
+(one year ahead of Cole), now **Associate, Clinical Operations at [[transcend-therapeutics|Transcend
+Therapeutics]]** (NYC). Ran the vault-native networking-prep: loaded [[cole]], [[five-year-plan]],
+[[outreach-kit]], [[Stewart Neifart]]; web-researched the company. **Headline: Transcend was acquired by
+Otsuka for $700M + up to $525M milestones (closed June 2026)** — 3 months after Will joined; a live
+science→capital→exit that mirrors Cole's operator-first health/bio lane. Wrote deep brief
+`crm/prep/Will Lipman.md`; created CRM record `crm/Will Lipman.md` and entity page
+[[transcend-therapeutics]] (TSND-201/methylone = non-hallucinogenic neuroplastogen for PTSD; IMPACT-1
+Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy Jul 2025; Phase 3
+recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
+entries. Ask = advice + keep-warm for 2027 recruiting.

@@ -21,6 +21,17 @@ this study is the basis for [[gwd-psychology-program|Graduation with Distinction
 - **Data:** ~90 / **N=250** collected → **more data collection needed**.
 - Design/methods built (Qualtrics sim-Wikipedia, 3 conditions, T1/T2/T3 + credit attribution).
 
+## ⏰ PSY 493 enrollment — proposal & W-code (Fall 2026)
+- [ ] **Submit RIS proposal by Fri Aug 28, 2026** (one week before drop/add ends Sept 4) →
+  Qualtrics form `https://duke.qualtrics.com/jfe/form/SV_6ya7eydlkEbuEAt`. Project = GwD thesis
+  *Editing Depth & the Illusion of Explanatory Depth* (the real study — ~90/250 collected; paper type =
+  **Full report of an empirical study**; multi-semester = data collection + analysis). Get **permission
+  number** after approval → enroll in 493. *(NB: "Outsourcing Cognition" AI study = a separate follow-up idea, not this semester's data project.)*
+- [ ] **@human — heads-up to Dr. Marsh** she'll be tagged as supervisor (form needs faculty approval).
+- [ ] **W-code follow-up (separate step, easy to forget):** to count this RIS toward Trinity's **W code**,
+  a *second* form + a **paragraph composed by Dr. Marsh** must go to **`psychologyDUS@duke.edu`** with her
+  **signature**. Form link is in the Qualtrics flow's W-code question. Do this **right after** submitting the RIS.
+
 ## Fall 2026 — deliverables & tasks (confirm with Joyce/Dr. Marsh)
 - [ ] **Reach N=250** — continue SONA data collection.
 - [ ] Run **analyses** (T1→T2→T3 calibration by condition; credit-attribution overclaiming).

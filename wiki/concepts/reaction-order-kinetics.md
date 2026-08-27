@@ -41,4 +41,9 @@ zero-order once they **saturate** their enzymes — **aspirin** and the seizure 
 **One-liner:** first-order = a percentage per hour (a half-life); zero-order = a flat amount per
 hour (a conveyor belt you can't speed up).
 
-Related: [[alcohol-sleep-dementia]] · [[glymphatic-system]].
+## In coursework
+**Radioactive decay** is the textbook-pure first-order process — a fixed *fraction* of nuclei decay per unit time,
+giving a constant half-life (`t½ = 0.693/k`). Worked in Cole's [[chem-210-nuclear-chemistry|CHEM 210 nuclear chemistry]]
+note (activity `A = A₀e^(−kt)`, activity↔mass conversions, medical-isotope problems).
+
+Related: [[alcohol-sleep-dementia]] · [[glymphatic-system]] · [[chem-210-nuclear-chemistry]].

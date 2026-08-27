@@ -96,6 +96,31 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 > It's the paid mirror of Cole's own [[outreach-pipeline]] + [[outreach-kit]]; built for senior/exec searches,
 > **not** a new-grad fit. Read the outcomes as marketing (survivorship bias).
 
+> **fMRI course ingest — 2026-08-26:** cataloged Cole's **[[fmri|Functional Neuroimaging]]** class
+> (NEUROSCI 382 / PSY 303, Fall 2026) — [[fmri-syllabus-fall2026|syllabus]] + Week 1 lecture + textbook
+> [[huettel-ch1-intro-to-fmri|Ch 1]]/[[huettel-ch2-mri-scanners|Ch 2]] + Weeks 2/3/5 labs. Built the
+> methods concept cluster ([[mri-physics]], [[mri-contrast]], [[k-space]], [[bold-signal]],
+> [[fmri-preprocessing]], [[fmri-glm-analysis]], [[mni-space]], [[neuroanatomy-landmarks]]), entities
+> [[spm]]/[[biac]]/[[huettel-fmri-textbook]], and CRM for Prof [[Tobias Overath]], TA
+> [[Hector Sanchez Melendez]], guest [[Jim Voyvodic]]. Full tracker + key dates on [[fmri]]. The 486 MB
+> SPM lab dataset (`bia5_20105_*`) is referenced by path, not copied into the vault.
+
+> **CHEM 210 course ingest — 2026-08-26:** cataloged Cole's **[[chem-210|CHEM 210D — Modern Applications of
+> Inorganic Chemistry]]** class (Prof. [[Charlie Cox]], Fall 2026). Corrected the old "Inorganic Chemistry II"
+> misnomer + renamed the page. Ingested the [[chem-210-syllabus-fall-2026|syllabus]] and all of **Unit 1**
+> ([[chem-210-unit1-nuclear-quantum|lecture slides + overview]] + [[chem-210-bohr-model-handout|Bohr handout]]),
+> building three atomic knowledge notes: [[chem-210-nuclear-chemistry]], [[chem-210-quantum-atomic-structure]],
+> [[chem-210-periodic-trends]]. Wired decay kinetics into the existing [[reaction-order-kinetics]] concept. Full
+> HW tracker + exam dates on [[chem-210]]. "This is a start" — later units to follow.
+
+> **NEUROSCI 206L course ingest — 2026-08-26:** cataloged Cole's **[[neurosci-206|NEUROSCI 206L — Intro to Systems
+> Neuroscience]]** (Profs [[Leonard White]] & [[Henry Yin]], Fall 2026) — corrected + renamed the "Introduction to Brain
+> Systems" stub. Ingested the [[neurosci-206-syllabus-fall-2026|syllabus]] (Team-Based Learning format, 60/40
+> individual/team grading) + the [[neurosci-206-first-class-human-brain|Week 1 deck]] → knowledge note
+> [[neurosci-206-human-neuroanatomy]] (CNS/PNS, neurodevelopment, glia, gray/white, lobes, ventricles, meninges,
+> vasculature, axes/planes). Wired to the fMRI [[neuroanatomy-landmarks]] (shared gross anatomy). Full 15-week schedule +
+> key dates (midterm Oct 14, final Dec 13) on [[neurosci-206]]. Lt software + Sylvius = free-for-Duke via Canvas.
+
 ## Entities
 
 ### People
@@ -163,6 +188,11 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[mythos]] — real, publicly-unreleased model named in [[the-thinking-lever]] (~16h human work @50% METR).
 - [[opus-5]] · [[fable-5]] — models named in a Nate Herk video; **unverified**, beyond the vault's [[opus-4-8]] snapshot (freshness stubs).
 
+### Coursework — fMRI (NEUROSCI 382)
+- [[spm]] — Statistical Parametric Mapping; MATLAB-based software for all the course's preprocessing & GLM analysis.
+- [[biac]] — Duke's Brain Imaging and Analysis Center; the 3 T scanner where the group projects acquire data.
+- [[huettel-fmri-textbook]] — Huettel, Song & McCarthy, *fMRI* 3rd ed. — the course textbook (chapter→week map).
+
 ### More people
 - [[sarah-guo]] — Conviction / No Priors; interviewed Karpathy.
 - [[zach-yedegari]] — built [[cal-ai]]. · [[suvam]] — $500k cold-email case. · [[christian]] — first client in 7 days.
@@ -196,6 +226,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Job-search targets — neuro-AI (see [[Job Search]])
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
+- [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
 
 ## Concepts
 
@@ -315,6 +346,27 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[spaced-repetition]] — the applied technique/tools (Ebbinghaus→FSRS/Anki); why it's a Fact-only tool as usually shipped.
 - [[doomscrolling-attention-science]] — the evidence on short-form video & attention: harm is the *swipe-to-decide interaction* (not short content); "attention isn't broken"; fix = context-limits, not time-limits.
 
+### fMRI / Functional Neuroimaging (NEUROSCI 382 coursework)
+- [[mri-physics]] — spins, resonance, B₀, RF & gradient coils, scanner components & safety (Huettel Ch 2–3).
+- [[mri-contrast]] — contrast (anatomical/functional/CNR) & resolution (spatial/temporal/functional); T1/T2/T2\*, TR/TE.
+- [[k-space]] — the spatial-frequency domain MR data are acquired in; Fourier reconstruction; EPI vs spiral.
+- [[bold-signal]] — oxy vs deoxy-Hb, neurovascular coupling, the sluggish hemodynamic response.
+- [[fmri-preprocessing]] — realign → slice-time → coregister → segment → normalize → smooth (SPM).
+- [[fmri-glm-analysis]] — the GLM; 1st/2nd-level; contrasts; the multiple-comparisons problem.
+- [[mni-space]] — the standard stereotactic space normalization warps brains into.
+- [[neuroanatomy-landmarks]] — gross-anatomy landmarks for localizing fMRI activations.
+
+### CHEM 210 / Inorganic Chemistry (Fall 2026 coursework)
+- [[chem-210]] — course hub (Prof. Cox): info, grading, HW tracker, key dates, unit map.
+- [[chem-210-prereq-review]] — Discussion I prereq review (assumed from 101/110): stoichiometry, limiting reagent, ideal gas law, formula-from-mole-ratio, with worked solutions.
+- [[chem-210-nuclear-chemistry]] — Unit 1: discovery arc, strong force, mass defect/binding energy, band of stability, decay modes, fission/fusion, first-order decay kinetics.
+- [[chem-210-quantum-atomic-structure]] — Unit 1: Bohr model, wave–particle duality, Schrödinger/wavefunctions, particle-in-a-box, orbitals & nodes, electron configs (Aufbau/Hund/Pauli, Cr/Cu exceptions).
+- [[chem-210-periodic-trends]] — Unit 1: Z_eff & Slater's rules, ionization energy, radii, lanthanide contraction, electron affinity, 3 electronegativity scales, relativistic effects / inert-pair effect.
+
+### NEUROSCI 206L / Systems Neuroscience (Fall 2026 coursework)
+- [[neurosci-206]] — course hub (Profs White & Yin): TBL format, 60/40 grading, 15-week schedule, key dates, resources (Lt/Sylvius).
+- [[neurosci-206-human-neuroanatomy]] — Wk1: systems-neuro definition, CNS/PNS divisions, neurodevelopment (neural tube → vesicles → adult brain), neurons/glia, gray/white matter, lobes & sulci, ventricles, meninges, arterial supply, anatomical axes & planes.
+
 ### Neuro channel (venture)
 - [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
 - [[neuro-character-rig]] — design: best way to build stick-figure animation automatically — image-per-scene (Nano Banana 2) or an articulated SVG rig Claude authors as code.
@@ -339,6 +391,24 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Duke — thesis / GwD
 - [[gwd-psychology-program]] — Duke P&N Graduation with Distinction page: eligibility, requirements, full timeline (Psych + Neuro tracks). Basis for [[gwd-thesis-pathway]].
+
+### Duke — fMRI course (NEUROSCI 382, Fall 2026)
+- [[fmri-syllabus-fall2026]] — the syllabus: schedule, grading (30/30/30/10), policies (no-tech, no-AI-on-write-up), group-project structure.
+- [[fmri-week1-lecture-intro]] — Week 1 lecture deck: what fMRI is/isn't, contrast & resolution, MR history, scanners & safety.
+- [[huettel-ch1-intro-to-fmri]] — textbook Ch 1: measurement vs manipulation, the four core concepts, fMRI history.
+- [[huettel-ch2-mri-scanners]] — textbook Ch 2: the six scanner components + the three MRI-safety domains.
+- [[fmri-lab1-neuroanatomy]] — Lab 1: viewing anatomy/function in SPM + landmark IDs (the `bia5_20105` dataset).
+- [[fmri-lab2-kspace-contrast]] — Lab 2: k-space manipulations in MATLAB + T1/T2 contrast, TR/TE.
+- [[fmri-lab3-preprocessing]] — Lab 3: the full SPM preprocessing pipeline (realign→…→smooth).
+
+### Duke — CHEM 210 course (Modern Applications of Inorganic Chemistry, Fall 2026)
+- [[chem-210-syllabus-fall-2026]] — the syllabus: logistics, grading (50/35/15 + resurrection quizzes), exam dates, AI policy, 6-module arc.
+- [[chem-210-unit1-nuclear-quantum]] — Unit 1 lecture slides (59) + overview handout: nuclear, quantum, periodic-trends anchors, reading & HW schedule.
+- [[chem-210-bohr-model-handout]] — Cox's 2-page Bohr-model derivation (forces → radius → energy); relationships tested, derivation not.
+
+### Duke — NEUROSCI 206L course (Intro to Systems Neuroscience, Fall 2026)
+- [[neurosci-206-syllabus-fall-2026]] — the syllabus: TBL format, 60/40 individual/team grading, drop policy, AI policy, 15-week sensory→motor schedule, key dates.
+- [[neurosci-206-first-class-human-brain]] — Week 1 first-class deck (51 slides): course orientation + human-brain anatomy foundations.
 
 ### Job search — target intel
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.

@@ -30,11 +30,14 @@ here. As Duke topics earn their own pages (clubs, labs, the frat), link them und
 
 ## Coursework & academics
 - **[[coursework/index|Senior Fall (Fall 2026)]]** — per-class management dashboard (parallel to Canvas).
-  Classes: [[inorganic-chemistry-2|Inorganic Chem II]] · [[fmri|fMRI]] · [[intro-brain-systems|Intro to Brain Systems]] · [[psy-394-marsh-lab|PSY 394 (Marsh Lab)]].
+  Classes: [[chem-210|CHEM 210 (Inorganic)]] · [[fmri|fMRI]] · [[neurosci-206|NEUROSCI 206L (Systems Neuro)]] · [[psy-394-marsh-lab|PSY 394 (Marsh Lab)]].
 - **[[academics]]** — transcript, course history, GPA (local-only).
 
 ## Knowledge (wiki)
 - [[marsh-memory-lab]] — Cole's metacognition research (editing depth & the Illusion of Explanatory Depth); ties to [[vault-autoresearch]] / [[llm-wiki-pattern]].
+- **[[fmri|Functional Neuroimaging]] concept cluster** — [[mri-physics]] · [[mri-contrast]] · [[k-space]] · [[bold-signal]] · [[fmri-preprocessing]] · [[fmri-glm-analysis]] · [[mni-space]] · [[neuroanatomy-landmarks]]; tools [[spm]] / [[biac]]. Prof [[Tobias Overath]] · TA [[Hector Sanchez Melendez]].
+- **[[chem-210|CHEM 210 Inorganic Chemistry]] knowledge cluster** (Unit 1) — [[chem-210-nuclear-chemistry]] · [[chem-210-quantum-atomic-structure]] · [[chem-210-periodic-trends]]; ties to [[reaction-order-kinetics]] (decay = first-order). Prof [[Charlie Cox]].
+- **[[neurosci-206|NEUROSCI 206L Systems Neuroscience]] knowledge cluster** (Wk1) — [[neurosci-206-human-neuroanatomy]]; shares gross anatomy with the fMRI [[neuroanatomy-landmarks]]. TBL lab course; Profs [[Leonard White]] · [[Henry Yin]].
 
 ## Fellowships
 - [[fulbright-us-student-program]] — Cole's Fulbright application runs through Duke's campus endorsement process (adviser [[Anna Bernard-Hoverstad]]); Duke is the affiliated institution. See the [[Fulbright]] bucket.

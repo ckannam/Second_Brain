@@ -43,6 +43,10 @@ concept page is a candidate Short. Ingesting a new neuro source refills the bank
 [[doomscrolling-attention-science]] (the attention/phone sub-bank — "you have to be bored to reach flow"
 and "the phone is a dopamine slot machine" are strong, self-aware Shorts).
 
+Cole's [[fmri|Functional Neuroimaging]] coursework adds a **methods sub-bank** of candidate Shorts —
+[[bold-signal|how your brain "lights up" on an fMRI]], [[k-space]], [[mri-physics]],
+[[neuroanatomy-landmarks]] — explaining *how we know* what we know about the brain.
+
 ## Action items
 - Open items live under a **Neuro** section of [[tasks/index]] when captured.
 
