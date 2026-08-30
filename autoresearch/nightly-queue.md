@@ -9,47 +9,52 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-16
+## Night of 2026-08-30
 
 ### Baseline (Phase 0)
-- **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — no objective fast-track self-heal work tonight.
+- **HEALTH_DEBT = 16** (orphans: 2 × 3 = 6, missing_from_index: 5 × 2 = 10)
+- Defects:
+  - Orphans: `skill-authoring-playbook` (no inbound from `startup-radar` / `skill-audit-worked-example`), `skill-audit-worked-example` itself had no inbound
+  - Missing from index: `startup-radar`, `skill-audit-worked-example`, `activate`, `claude-api`, `ply`
+- All 7 defects are pre-existing; all are structural → Phase-1 fast-track eligible.
 
-### Selected (@cloud, bounded to ≤3) — top-down
+### Phase 1 fast-track heals (→ main, auto-merged)
 
-1. **Skill max / Improve + general skills → trigger-tuning pass on vault skills**:
-   The `skill-trigger-tuning` concept page (built 2026-08-02) identified three patterns for
-   effective descriptions: "Use when…" + specific phrases, sibling-skill cross-redirects, and
-   covering both semantic intent and literal strings. Applying this checklist to the vault's
-   own skills is the direct next step for both "Skill max" (remaining: trigger tuning pass)
-   and "Improve + general skills" (remaining: run one skill through the checklist). Tonight:
-   audit all vault skills, fix the two highest-impact issues found:
-   (a) `vault-autoresearch` description has "improve the vault" — overlaps with vault-improve's
-   core trigger; needs a redirect clause added.
-   (b) `wiki-query` description has no sibling-skill cross-redirects; needs them added.
-   (c) `startup-radar` description has only 2 literal trigger phrases; needs semantic intent
-   coverage added per the playbook checklist.
+1. Fixed both orphans: added `[[startup-radar]]` + `[[skill-audit-worked-example]]` to `skill-authoring-playbook.md` Related section. HEALTH_DEBT 16→10.
+2. Added `startup-radar` to index.md. Debt 10→8.
+3. Added `skill-audit-worked-example` to index.md. Debt 8→6.
+4. Added `activate` to index.md. Debt 6→4.
+5. Added `claude-api` to index.md. Debt 4→2.
+6. Added `ply` to index.md. Debt 2→0. **HEALTH_DEBT = 0** after Phase 1.
 
-2. **MODE B (Phase 4) — create `wiki/concepts/claude-api.md`**:
-   A concept page for the Anthropic Messages API is referenced as a dangling `[[claude-api]]`
-   link from `tasks/index.md` and skills. No wiki page currently owns the "what is the Claude
-   API, how does it work, what are its key parameters" question. Passes the new-page test:
-   distinct reusable concept (separate from `[[claude-code]]` the CLI and `[[anthropic]]`
-   the entity), genuinely linkable from multiple pages. Web-grounded against current Anthropic
-   docs; review-lane only (generated content → PR).
+### Phase 2 build — Selected (@cloud, 1 item)
+
+1. **Improve + general skills → audit `networking-prep` SKILL.md against authoring playbook**:
+   The skill-authoring-playbook checklist was built last session; applying it to a live skill
+   is the outstanding "run one skill through the checklist" deliverable. `networking-prep` chosen
+   because it's cloud-visible (no raw/ dependency) and was recently extended (~119 lines).
+   Deliverable: `wiki/concepts/skill-audit-networking-prep.md` + one structural fix on the skill
+   itself (step-numbering bug `Step 5-output`→`Step 4`, `Step 6`→`Step 5`). Review lane.
+
+### Phase 4 MODE B
+
+- **Gap-fill: `wiki/concepts/fmri-experimental-design.md`**:
+  The fMRI concept cluster covers preprocessing, GLM/stats, and the lab pages but had no page
+  on experimental design — the upstream step that determines what the GLM can detect.
+  `fmri-glm-analysis` already referenced it ("the timing/condition choices that generate the
+  design matrix") with no target. New page written from course knowledge (Huettel Ch. 7 +
+  NEUROSCI 382 context); synthesis note included; reciprocal links from `fmri-glm-analysis`
+  and entry in index.md. Review lane.
 
 ### Considered but skipped this night (with reason)
-- **Train skills — Skill Creator A/B eval run** (@cloud): The Skill Creator tool runs inside
-  the Claude platform and requires interactive evaluation runs; can't be run fully unattended.
-  Deferred. (Trigger tuning pass tonight is the manual analog of the Skill Creator A/B loop
-  and directly advances this item.)
+- **Train skills — Skill Creator A/B eval run** (@cloud): Requires interactive evaluation
+  runs inside the Claude platform; can't be run fully unattended. Deferred.
 - **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): Evals require interactive
-  baseline measurement against real tasks. No bounded unattended deliverable tonight.
+  baseline measurement. No bounded unattended deliverable.
 - **Build the source-seeking (MODE B) rung** (@cloud): Structural change to `program.md`;
-  architectural design warrants human sign-off. Too large for a single night's build.
-  Reserved as a future MODE B or @human discussion item.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches the scorer system; any tuning
-  needs human sign-off. HEALTH_DEBT = 0 tonight anyway.
+  warrants human sign-off. Reserved.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches scorer system; needs human
+  sign-off. HEALTH_DEBT = 0 tonight anyway.
 - **Try autoresearch loop hands-on** (@cloud): Requires external GPU provisioning → outward
   action. Ineligible.
 
