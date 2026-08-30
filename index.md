@@ -260,6 +260,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[writing-reliable-skills]] — authoring craft: three levers (description/progressive-disclosure/body), the Claude A builds / Claude B uses eval loop; the "skill max" track.
 - [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
 - [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill.
+- [[skill-audit-networking-prep]] — [[skill-authoring-playbook]] checklist applied to `networking-prep`; §1–§4 clean; step-numbering fix applied; §5 eval recommendations logged for Cole.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
@@ -356,6 +357,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[mri-contrast]] — contrast (anatomical/functional/CNR) & resolution (spatial/temporal/functional); T1/T2/T2\*, TR/TE.
 - [[k-space]] — the spatial-frequency domain MR data are acquired in; Fourier reconstruction; EPI vs spiral.
 - [[bold-signal]] — oxy vs deoxy-Hb, neurovascular coupling, the sluggish hemodynamic response.
+- [[fmri-experimental-design]] — block vs event-related vs mixed designs; efficiency and jitter (randomized ISIs); contrast orthogonality; practical rules for the NEUROSCI 382 group project. *(Synthesis note: reconcile chapter refs against Huettel 3rd ed.)*
 - [[fmri-preprocessing]] — realign → slice-time → coregister → segment → normalize → smooth (SPM).
 - [[fmri-glm-analysis]] — the GLM; 1st/2nd-level; contrasts; the multiple-comparisons problem.
 - [[mni-space]] — the standard stereotactic space normalization warps brains into.
