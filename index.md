@@ -233,6 +233,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Job search / networking
 - [[cold-email-job-search]] — the playbook: cold-email rules (≤200 words, one ask, no fake personalization), the who/why/why-they-care format, and 9 sources for finding unposted startup roles. Feeds [[outreach-pipeline]].
 - [[outreach-pipeline]] — the job-search outreach system: tier structure (Lane 0 warm intros → Tier 1 funded targets → general), Monday batch runbook, templates, and reply-rate tracking. Backed by [[outreach-kit]] and [[target-orgs]].
+- [[startup-radar]] — Cole's weekly discovery engine: sweeps HN/YC/VC portfolio boards, filters to health-bio-AI and AI-infra lanes, dedupes against existing tracker, and writes schema-valid company notes for the [[outreach-pipeline]].
 
 ### LLM Wiki / knowledge systems
 - [[llm-wiki-pattern]] — persistent compounding wiki vs. RAG; three layers, why it works.
