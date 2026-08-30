@@ -44,9 +44,10 @@ The vault already knows a lot. Load, in order:
 If `crm/<Name>.md` doesn't exist yet, note it — Step 6 will create it.
 
 ## Step 1 — (context) Anchor to Cole's current lane
-From `five-year-plan.md`: Cole's direction drives Sections 2, 4, and 5. Use the **current** lane
-(don't assume — read it). As of this writing it's *operator-first in health/bio/AI, NYC or DC,
-grad May 2027* — but **trust the file over this sentence** if they differ.
+From `five-year-plan.md`: Cole's direction drives Sections 2, 4, and 5. Read the **current** lane
+straight from the file every run — never assume it, and never trust a lane baked into this skill.
+Per the Freshness principle above, no snapshot of Cole's lane lives in this file (it went stale
+once that way); `five-year-plan.md` is the only source.
 
 ## Step 2 — Research the person
 Start from name + city and work outward: `[name] [city]` → `[name] [employer]` →
