@@ -107,4 +107,5 @@ can't be truth-checked without a live run. Same split the [[vault-autoresearch]]
 its auto-merge fast-track and its review-lane PR.
 
 Related: [[skill-authoring-playbook]] · [[claude-code-skills]] · [[skill-trigger-tuning]] ·
-[[token-context-management]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
+[[token-context-management]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]] ·
+[[skill-audit-networking-prep]].

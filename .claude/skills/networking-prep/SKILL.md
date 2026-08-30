@@ -56,7 +56,7 @@ find and mark inferences. **Do not fabricate specific claims.**
 
 ## Step 3 — Build the brief
 Six sections below, full content, no placeholders. Sections **1, 3, 6** keep the original strong
-structure; **2, 4-as-§4, 5** are vault-grounded. Output format is in Step 5-output.
+structure; **2, 4-as-§4, 5** are vault-grounded. Output format is in Step 4.
 
 ### Section 1 — Their Career Path (what each role actually meant)
 For each role: **subheading** (Role — Org, approx years) · **"What they did:"** (1-2 concrete
@@ -95,14 +95,14 @@ Keep it consistent with the kit — if the kit changes, this section changes wit
 person/resource:** specific follow-ups + timelines. **Re-engage (timed to Cole's search):** a warm
 template for later. Close on the long-game value of this person's network to Cole's lane.
 
-## Step 5-output — Save it into the vault (markdown only)
+## Step 4 — Save it into the vault (markdown only)
 Write a markdown prep page to `crm/prep/<FirstName> <LastName>.md` (create the `crm/prep/` folder if
 needed; it's under the local-only `crm/`). Frontmatter `type: crm/prep`, `created`, `person`,
 `meeting`. **Cross-link** it to `[[<Name>]]` (their CRM record) and `[[outreach-pipeline]]`. Add a
 footer: "Research compiled <month year>. Sources: <list>." Tell Cole the vault path.
 **No .docx / no external export** — the vault markdown page is the artifact (Cole's decision 2026-07-27).
 
-## Step 6 — Feed the engine (so prep compounds)
+## Step 5 — Feed the engine (so prep compounds)
 - If `crm/<Name>.md` doesn't exist, **create it** (per `AGENTS.md` CRM rules) with what research +
   any iMessage history gave you; else **update** it. Link the prep page.
 - Add/update their row in `crm/outreach-pipeline.md` (right lane; status `queued`/`warm` + next
