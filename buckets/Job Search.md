@@ -28,7 +28,9 @@ The **[[outreach-pipeline|Outreach Pipeline]]** is the board Cole works every we
 Monday, say **"run the outreach batch"** and the engine drafts the next batch into Gmail
 (`colekannam@gmail.com`) as ready-to-send drafts, flags overdue follow-ups, and updates the board —
 **Cole reviews + sends; nothing auto-sends.** Three lanes: **Lane 0 warm/active** · **Tier 1 marquee
-cold** · **Tier 2 roster cold**.
+cold** · **Tier 2 roster cold**. The **[[startup-radar]]** skill is the *discovery rung* that feeds
+Tier 1 — a weekly sweep of free funding surfaces, lane-filtered to health-bio-AI + AI-infra, that
+writes new company notes for the triage.
 
 ## People (crm/) — network
 - [[Stewart Neifart]] — head of Capital Strategy at JHTV; VC + startup relationships → **intros** (see [[stewart-1on1-prep]]).

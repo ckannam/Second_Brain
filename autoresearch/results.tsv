@@ -30,9 +30,13 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-07T06:18	A	wiki/concepts/skill-authoring-playbook.md	4	2	keep	added to index.md catalog (missing_from_index fix); debt 4→2
 2026-08-07T06:18	A	wiki/concepts/agent-skills.md	2	0	keep	added to index.md catalog (missing_from_index fix); debt 2→0; HEALTH_DEBT now 0
 2026-08-16T02:11	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed tonight
+2026-08-30T02:20	A	wiki/concepts/startup-radar.md	13	10	keep	orphan fix: reciprocal [[startup-radar]] links from outreach-pipeline (Tier 1 source + Monday sweep) + Job Search bucket; debt 13->10
+2026-08-30T02:25	A	index.md	10	0	keep	missing_from_index fix: added startup-radar, skill-audit-worked-example, claude-api, activate, ply to index.md catalog; debt 10->0; HEALTH_DEBT now 0
+2026-08-30T02:35	B	wiki/entities/mcp.md	0	0	keep	MODE B: built the 19x-referenced mcp stub (14 lines) into a hub — architecture, primitives, transports, web-grounded 2026-07-28 spec snapshot; promoted index entry; HEALTH_DEBT stays 0
 2026-08-30T06:12	A	wiki/concepts/skill-authoring-playbook.md	16	10	keep	fixed 2 orphans: added [[startup-radar]] + [[skill-audit-worked-example]] to Related section; debt 16→10
 2026-08-30T06:14	A	index.md (startup-radar)	10	8	keep	added startup-radar to index.md catalog; debt 10→8
 2026-08-30T06:14	A	index.md (skill-audit-worked-example)	8	6	keep	added skill-audit-worked-example to index.md catalog; debt 8→6
 2026-08-30T06:14	A	index.md (activate)	6	4	keep	added activate to index.md catalog; debt 6→4
 2026-08-30T06:14	A	index.md (claude-api)	4	2	keep	added claude-api to index.md catalog; debt 4→2
 2026-08-30T06:14	A	index.md (ply)	2	0	keep	added ply to index.md catalog; debt 2→0; HEALTH_DEBT now 0
+2026-08-30T06:12	B	wiki/concepts/fmri-experimental-design.md	0	0	keep	new concept page filling fMRI cluster gap (block/event-related/mixed design, efficiency, jitter, contrast power); synthesis note; linked from fmri-glm-analysis

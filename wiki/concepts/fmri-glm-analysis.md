@@ -32,6 +32,7 @@ labs in **Week 9 (1st-level)** and **Week 11 (2nd-level)**. Built on the **Gener
   with cluster-extent thresholds. (Advanced topics, Ch 11.)
 
 ## Links
-Consumes [[fmri-preprocessing]] output; runs in [[spm]]; the "contrast" is the **functional
+Preceded by [[fmri-experimental-design]] (the timing/condition choices that generate the design
+matrix). Consumes [[fmri-preprocessing]] output; runs in [[spm]]; the "contrast" is the **functional
 contrast** of [[mri-contrast]] and rides on the [[bold-signal]]. Applied in the group
 [[fmri|project]]. Textbook: [[huettel-fmri-textbook]].

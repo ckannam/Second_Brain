@@ -1184,3 +1184,17 @@ science→capital→exit that mirrors Cole's operator-first health/bio lane. Wro
 Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy Jul 2025; Phase 3
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
+
+## [2026-08-30] autoresearch | AutoResearch night (Sunday weekly run)
+Full six-phase loop on branch `autoresearch/night-2026-08-30`. **Phase 1 build:** ran the
+[[skill-authoring-playbook]] checklist against the `networking-prep` skill (2nd worked example on
+[[skill-audit-worked-example]]) — one safe fix: removed a baked, stale-prone lane snapshot from
+Step 1 that violated the skill's own Freshness principle; lane now read live from `five-year-plan.md`.
+Advances *Improve + general skills* ([[Claude Mastery]]). **Phase 3 self-heal:** drove HEALTH_DEBT
+16→0 — fixed the `startup-radar` orphan (reciprocal links from [[outreach-pipeline]] + [[Job Search]])
+and indexed 5 missing pages ([[startup-radar]], [[skill-audit-worked-example]], [[claude-api]],
+[[activate]], [[ply]]). **Phase 4 MODE B:** built the [[mcp]] stub (14 lines) into a full hub —
+host/client/server architecture, the tools/resources/prompts primitives, stdio + Streamable HTTP
+transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
+extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
+→ one morning PR. Baseline debt 16 → final 0.
