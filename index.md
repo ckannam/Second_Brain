@@ -159,6 +159,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[uship]] — University Shipping: Cole's storage-first student venture (**Cole 35%** of the legacy LLC); full overview — cap table, finances, email moat, Columbia, UShip Ventures (see [[Uship]] bucket).
 - [[uship-os]] — Carson's multi-tenant OS for UShip; the linchpin of the 2027 expansion.
 - [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
+- [[activate]] — Activate.org national nonprofit; 2-year, $300K+, non-dilutive fellowship turning PhD scientists into hard-tech founders (~50/yr). The independent, founder-first cousin of [[jhtv]]. Cole's contact: [[Natasha Feshbach]].
 - [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]); basis for his [[gwd-thesis-pathway|GwD thesis]].
 - [[gwd-thesis-pathway]] — operational tracker for Cole's Graduation with Distinction thesis (⚠️ application due **Nov 9, 2026**; course-sequence flag PSY 394 vs 493/495).
 - [[qmd]] — optional local markdown search engine (not yet in use).
