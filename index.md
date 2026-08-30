@@ -173,6 +173,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-tag]] — proactive, multiplayer @Claude (Slack beta).
 - [[claude-science]] — reproducible research AI workbench (beta).
 - [[claude-design]] — plain-language → production, on-brand design outputs.
+- [[claude-api]] — Anthropic's developer platform (`platform.claude.com`); programmatic Claude via `POST /v1/messages` + official SDKs — the third way to use Claude alongside [[claude-code]] and the chat app. Carries a 2026 model/price snapshot.
 
 #### Companies building on Claude
 - [[elicit]] — research assistant; custom agentic DSL. · [[man-group]] — $200B fund; AI trading signals in prod.
@@ -228,11 +229,16 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
 
+### Job-search targets — other lanes (see [[Job Search]])
+- [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
+- [[ply]] — Ply (getply.com), an NYC seed-stage vertical-SaaS startup (inventory + purchasing software for the trades); an **off-tilt** operator target with strong [[uship]] overlap (trucks/warehouses/invoicing). Cole's contact: [[Ryan Berger]] (Head of Ops).
+
 ## Concepts
 
 ### Job search / networking
 - [[cold-email-job-search]] — the playbook: cold-email rules (≤200 words, one ask, no fake personalization), the who/why/why-they-care format, and 9 sources for finding unposted startup roles. Feeds [[outreach-pipeline]].
 - [[outreach-pipeline]] — the job-search outreach system: tier structure (Lane 0 warm intros → Tier 1 funded targets → general), Monday batch runbook, templates, and reply-rate tracking. Backed by [[outreach-kit]] and [[target-orgs]].
+- [[startup-radar]] — the weekly startup-discovery engine (a vault skill): sweeps free funding surfaces, lane-filters to health-bio-AI + AI-infra, dedupes against tracked orgs, and writes company notes that seed Tier 1 of [[outreach-pipeline]]. The discovery rung of the [[Job Search]] engine.
 
 ### LLM Wiki / knowledge systems
 - [[llm-wiki-pattern]] — persistent compounding wiki vs. RAG; three layers, why it works.
@@ -255,6 +261,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-skill-creation-playbook]] — end-to-end practical guide: anatomy, SKILL.md frontmatter, 6-step framework, Skill Creator + evals workflow, dynamic context injection, arguments, anti-patterns.
 - [[writing-reliable-skills]] — authoring craft: three levers (description/progressive-disclosure/body), the Claude A builds / Claude B uses eval loop; the "skill max" track.
 - [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
+- [[skill-audit-worked-example]] — the [[skill-authoring-playbook]] run against real skills (`startup-radar` + `networking-prep`): a verdict + finding per section, safe fixes applied, and a copy-paste audit template to rerun on any skill.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
