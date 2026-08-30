@@ -165,7 +165,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[relentless]] — done-for-you executive job-search service (joinrelentless.com); the paid mirror of Cole's [[outreach-pipeline]]. **Flagged for Q&A.** See [[Job Search]].
 - [[neuro-channel]] — **Cole's venture:** the *Neuro* YouTube channel; a walking-brain stick figure explaining neuroscience in ~45–90s Shorts (video #1 rendered). Fed by the [[neuroscience-of-behavior]] cluster.
 - [[remotion]] · [[elevenlabs]] — the render (React→MP4) + voice tools behind the Neuro channel.
-- [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[mcp]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
+- [[mcp]] — **Model Context Protocol**: the open host/client/server standard (JSON-RPC; tools/resources/prompts primitives) that connects Claude Code and agents to external tools & data — the plumbing this vault's own automation runs on. Now covers the 2026-07-28 spec (stateless core, Tasks/MCP Apps/EMA extensions, OAuth/CIMD).
+- [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
 
 #### Anthropic platform & products (Code with Claude batch)
 - [[claude-managed-agents]] — managed platform for production agents (agent/environment/session).

@@ -32,3 +32,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-16T02:11	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed tonight
 2026-08-30T02:20	A	wiki/concepts/startup-radar.md	13	10	keep	orphan fix: reciprocal [[startup-radar]] links from outreach-pipeline (Tier 1 source + Monday sweep) + Job Search bucket; debt 13->10
 2026-08-30T02:25	A	index.md	10	0	keep	missing_from_index fix: added startup-radar, skill-audit-worked-example, claude-api, activate, ply to index.md catalog; debt 10->0; HEALTH_DEBT now 0
+2026-08-30T02:35	B	wiki/entities/mcp.md	0	0	keep	MODE B: built the 19x-referenced mcp stub (14 lines) into a hub — architecture, primitives, transports, web-grounded 2026-07-28 spec snapshot; promoted index entry; HEALTH_DEBT stays 0
