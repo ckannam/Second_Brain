@@ -160,7 +160,6 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[uship]] — University Shipping: Cole's storage-first student venture (**Cole 35%** of the legacy LLC); full overview — cap table, finances, email moat, Columbia, UShip Ventures (see [[Uship]] bucket).
 - [[uship-os]] — Carson's multi-tenant OS for UShip; the linchpin of the 2027 expansion.
 - [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
-- [[activate]] — Activate.org national nonprofit; 2-year, $300K+, non-dilutive fellowship turning PhD scientists into hard-tech founders (~50/yr). The independent, founder-first cousin of [[jhtv]]. Cole's contact: [[Natasha Feshbach]].
 - [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]); basis for his [[gwd-thesis-pathway|GwD thesis]].
 - [[gwd-thesis-pathway]] — operational tracker for Cole's Graduation with Distinction thesis (⚠️ application due **Nov 9, 2026**; course-sequence flag PSY 394 vs 493/495).
 - [[qmd]] — optional local markdown search engine (not yet in use).
@@ -176,7 +175,6 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-tag]] — proactive, multiplayer @Claude (Slack beta).
 - [[claude-science]] — reproducible research AI workbench (beta).
 - [[claude-design]] — plain-language → production, on-brand design outputs.
-- [[claude-api]] — Anthropic's developer platform (`platform.claude.com`); programmatic Claude via `POST /v1/messages` + official SDKs — the third way to use Claude alongside [[claude-code]] and the chat app. Carries a 2026 model/price snapshot.
 
 #### Companies building on Claude
 - [[elicit]] — research assistant; custom agentic DSL. · [[man-group]] — $200B fund; AI trading signals in prod.
@@ -231,11 +229,10 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
-- [[ply]] — NYC seed-stage vertical SaaS for trade contractors (HVAC/R, plumbing, electrical); ~$14.2M raised (Ferguson Ventures, Primary, SignalFire). Off Cole's health/bio tilt but strong Uship-operator overlap. Cole's contact: [[Ryan Berger]] (Head of Ops).
 
 ### Job-search targets — other lanes (see [[Job Search]])
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
-- [[ply]] — Ply (getply.com), an NYC seed-stage vertical-SaaS startup (inventory + purchasing software for the trades); an **off-tilt** operator target with strong [[uship]] overlap (trucks/warehouses/invoicing). Cole's contact: [[Ryan Berger]] (Head of Ops).
+- [[ply]] — Ply (getply.com), an NYC seed-stage vertical-SaaS startup (inventory + purchasing software for the trades; ~$14.2M raised, Ferguson Ventures + Primary + SignalFire); an **off-tilt** operator target with strong [[uship]] overlap (trucks/warehouses/invoicing). Cole's contact: [[Ryan Berger]] (Head of Ops).
 
 ## Concepts
 

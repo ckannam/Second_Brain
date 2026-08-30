@@ -5,12 +5,12 @@ created: 2026-08-08
 
 # Skill audit — a worked example (`startup-radar`)
 
-The [[skill-authoring-playbook]] is the *checklist*; this page is the checklist **run against
-real skills** so it stops being abstract. It audits `startup-radar` (the main worked example)
-against all six playbook sections, records a verdict + specific finding per section, applies the
-safe fixes, then repeats the run on a **second skill (`networking-prep`)** to prove the template
-travels, and ends with a **copy-paste audit template** Cole can rerun on every other skill. It's
-the worked example the *Improve + general skills* task ([[Claude Mastery]]) asked for.
+The [[skill-authoring-playbook]] is the *checklist*; this page is the checklist **run against a
+real skill** so it stops being abstract. It audits `startup-radar` against all six playbook
+sections, records a verdict + specific finding per section, applies the safe fixes, and ends with a
+**copy-paste audit template** Cole can rerun on every other skill. A second skill has already been
+run through it — see the companion [[skill-audit-networking-prep]]. It's the worked example the
+*Improve + general skills* task ([[Claude Mastery]]) asked for.
 
 **Subject chosen:** `startup-radar` — at ~198 lines it's the vault's largest skill, so it exposes
 the most checklist surface (progressive disclosure, degrees of freedom, anti-patterns), and only
@@ -80,35 +80,6 @@ hardcoded the absolute `python3 /Users/colekannam/Desktop/Second\ Brain/startup-
 1 safe fix applied. That ratio is the point — the audit's job is to find the real issue (the Step 7
 path) and honestly log the rest, not to farm edits. The two 🟡 recommendations (description
 completeness, evals) are now captured so they don't get lost.
-
-## Second run — `networking-prep` (2026-08-30)
-
-Proof the template survives a second skill (the *Improve + general skills* task asks for iterations,
-not a one-off). Subject: `networking-prep` — 118 lines, `SKILL.md` git-tracked, the prep *pages* it
-writes live under the gitignored `crm/`, so auditing the file touches nothing personal.
-
-- **§1 Description — ✅.** Third-person, what+when both present, real trigger phrasings ("I'm
-  networking with X", "info interview with X", "meeting someone at [company]"), a sibling
-  cross-redirect ("Complements the outreach engine"), and concrete nouns. Clean.
-- **§2 Progressive disclosure — ✅.** 118 lines, well under the ~500 ceiling; a single-artifact
-  skill with no reference files to nest. No split needed.
-- **§3 Concise — ✅ / 🟡.** Lean overall; the Freshness principle is stated twice (top block +
-  Steps 0.5/1), but the redundancy is load-bearing (it's the skill's central rule), so left as-is.
-- **§4 Degrees of freedom — ✅.** Correctly **medium**: a fixed 6-section brief template (narrow
-  where structure matters) with prose latitude for research and judgment. Well-matched.
-- **§5 Evals — 🟡 (recommend, not applied).** Like most vault skills it has none; a follow-up, not
-  a nightly fix (same reasoning as the `startup-radar` run).
-- **§6 Anti-patterns — 🔧 (fixed).** One real, safe finding: **Step 1 baked a time-sensitive lane
-  snapshot** (`operator-first in health/bio/AI, NYC or DC, grad May 2027`) directly into the file —
-  the exact §6 "time-sensitive info" anti-pattern, and a violation of the skill's *own* stated
-  Freshness principle ("never bake Cole's bio, goals, or pitch into this file"). **Fixed:** removed
-  the snapshot; Step 1 now reads the current lane straight from `five-year-plan.md` every run. This
-  is a structural, no-new-behavior fix (it *enforces* the file's already-declared rule), so it's
-  safe to apply in the audit rather than deferring.
-
-**Verdict:** `networking-prep` is **healthy** — 4 clean, 1 recommendation (evals), 1 safe fix. The
-same shape as `startup-radar`: the audit earns its keep by catching the one real issue (the baked
-lane) and honestly logging the rest.
 
 ## The reusable audit template
 
