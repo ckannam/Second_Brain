@@ -15,10 +15,34 @@ writes results back to `tasks/index.md` in **Phase 3**.
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
 - Pre-existing defect set: **empty** — no scored defects to fast-track heal tonight.
 - Cadence gate: Sunday ET ✅ — running full loop.
+- **Note:** Two concurrent runs contributed this week's build. Items 1–2 were completed by an earlier firing; items 3–4 by a later firing. All four are recorded here for transparency.
 
-### Selected (@cloud, bounded to ≤3) — top-down
+### Selected (@cloud, bounded to ≤3 per run) — top-down
 
-1. **Improve + general skills → cross-redirect pass on `vault-autoresearch` and `wiki-query` skill descriptions**:
+**Earlier firing:**
+
+1. **Improve + general skills / Skill max → land the real fix + vault-wide audit sweep**:
+   The `skill-audit-worked-example` page (2026-08-08) audited `startup-radar` against the
+   playbook and recorded a §6 path fix (Step 7 validator) as **applied** — but the change
+   never reached the `SKILL.md` (still hardcoded the absolute
+   `/Users/colekannam/Desktop/Second Brain/startup-tracker/validate.py`; file last edited
+   2026-07-31). Tonight: (a) **land the fix** — normalize Step 7 to `startup-tracker/validate.py`
+   (structural, no behavior change, matches Steps 4–5), reconciling the claim with the file;
+   (b) **rerun the reusable audit template across all 11 vault skills** and record the honest
+   per-skill verdicts in the worked-example page — proving the template scales and catching any
+   other real defect. Result: 10 clean, 1 fix. Directly advances "Improve + general skills"
+   (remaining: more skill iterations) and "Skill max".
+
+2. **MODE B (Phase 4) — create `wiki/concepts/skill-evals.md`**:
+   Concrete skill-eval how-to (official query/files/expected_behavior format, baseline-first
+   5-step process, Claude A/B loop, "no built-in runner" reality, runnable worked eval set for
+   startup-radar); grounded in Anthropic's Skill authoring best practices. Wired into
+   [[skill-authoring-playbook]] §5, [[skill-audit-worked-example]], index, and [[Claude Mastery]]
+   bucket. Review-lane only (generated content → PR).
+
+**Later firing:**
+
+3. **Improve + general skills → cross-redirect pass on `vault-autoresearch` and `wiki-query` skill descriptions**:
    The skill-authoring-playbook checklist requires sibling-skill cross-redirects so Claude
    routes correctly among related skills. Currently:
    - `vault-improve` already redirects to both `vault-autoresearch` and `wiki-query` ✅
@@ -27,11 +51,7 @@ writes results back to `tasks/index.md` in **Phase 3**.
    Fix: add the missing redirect clauses to both descriptions. Small structural change to
    skill files (not scored, rides the PR).
 
-2. **Train skills → same cross-redirect fix counts as a skill iteration**:
-   Both "Improve + general skills" and "Train skills" list "iterating on existing skills"
-   as their remaining cloud-doable work. The cross-redirect pass partially advances both.
-
-3. **MODE B (Phase 4) — create `wiki/concepts/outreach-kit.md`**:
+4. **MODE B (Phase 4) — create `wiki/concepts/outreach-kit.md`**:
    Fills the long-standing dangling `[[outreach-kit]]` link referenced from
    `outreach-pipeline.md` and `tasks/index.md`. No existing page owns the template library
    (separate from `outreach-pipeline` which describes the process). Passes the new-page test:
