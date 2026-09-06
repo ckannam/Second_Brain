@@ -1184,3 +1184,13 @@ science→capital→exit that mirrors Cole's operator-first health/bio lane. Wro
 Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy Jul 2025; Phase 3
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
+
+## [2026-09-06] autoresearch | Weekly AutoResearch — skill cross-redirects + outreach-kit
+Nightly AutoResearch (Sunday 2026-09-06). HEALTH_DEBT = 0 at baseline; no fast-track heals.
+**Phase 2 (build):** added sibling-skill cross-redirects to `vault-autoresearch` + `wiki-query`
+SKILL.md descriptions per [[skill-authoring-playbook]] §1 (vault-autoresearch now redirects to
+vault-improve; wiki-query now redirects to both siblings). Advances "Improve + general skills"
+and "Train skills" @cloud items. **Phase 4 (MODE B):** created [[outreach-kit]] — the executable
+template library (4 ready-to-send templates + pre-send checklist); fills the long-standing dangling
+link from [[outreach-pipeline]] and [[cold-email-job-search]]; wired into [[Job Search]] bucket.
+Opened morning PR `autoresearch/night-2026-09-06 → main` for review.
