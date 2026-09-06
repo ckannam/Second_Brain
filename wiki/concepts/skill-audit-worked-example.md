@@ -136,8 +136,10 @@ paths relative).
 
 **One systemic §5 finding (recommendation, not a nightly fix):** *no vault skill has evals.* That's
 the standing gap against the playbook's core discipline — an objective signal that a description or
-logic change is an improvement, not a vibe. Building them needs the eval harness + live runs, so it
-stays a [[Claude Mastery]] follow-up for Cole (the same interactive Skill-Creator eval run the
+logic change is an improvement, not a vibe. The concrete how-to (official eval format, baseline-first
+run, and a runnable worked eval set for `startup-radar`) now lives on [[skill-evals]], so this is no
+longer blocked on *how* — only on Cole running it. Building/running them needs the eval harness + live
+runs, so it stays a [[Claude Mastery]] follow-up (the same interactive Skill-Creator eval run the
 `Train skills` / `Skill max` tasks already track).
 
 Related: [[skill-authoring-playbook]] · [[claude-code-skills]] · [[skill-trigger-tuning]] ·
