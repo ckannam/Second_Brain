@@ -181,7 +181,7 @@ Keep the iMessage version tight — company name, location, one-line angle, sour
 Run the validator to confirm all new notes are schema-valid:
 
 ```bash
-python3 /Users/colekannam/Desktop/Second\ Brain/startup-tracker/validate.py
+python3 startup-tracker/validate.py
 ```
 
 Expected output: `OK: N company notes valid`
