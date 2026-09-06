@@ -235,6 +235,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Job search / networking
 - [[cold-email-job-search]] — the playbook: cold-email rules (≤200 words, one ask, no fake personalization), the who/why/why-they-care format, and 9 sources for finding unposted startup roles. Feeds [[outreach-pipeline]].
+- [[outreach-kit]] — the executable template library: 4 ready-to-send templates (fresh-funding, warm-intro, follow-up, thank-you), the pre-send checklist, and sourcing channels. The send-time tool that enforces [[cold-email-job-search]] rules.
 - [[outreach-pipeline]] — the job-search outreach system: tier structure (Lane 0 warm intros → Tier 1 funded targets → general), Monday batch runbook, templates, and reply-rate tracking. Backed by [[outreach-kit]] and [[target-orgs]].
 - [[startup-radar]] — Cole's weekly discovery engine: sweeps HN/YC/VC portfolio boards, filters to health-bio-AI and AI-infra lanes, dedupes against existing tracker, and writes schema-valid company notes for the [[outreach-pipeline]].
 
@@ -259,7 +260,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-skill-creation-playbook]] — end-to-end practical guide: anatomy, SKILL.md frontmatter, 6-step framework, Skill Creator + evals workflow, dynamic context injection, arguments, anti-patterns.
 - [[writing-reliable-skills]] — authoring craft: three levers (description/progressive-disclosure/body), the Claude A builds / Claude B uses eval loop; the "skill max" track.
 - [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
-- [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill.
+- [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill, plus a vault-wide sweep of all 11 skills.
+- [[skill-evals]] — the concrete how-to for skill evaluations: official eval file format (query/files/expected_behavior), the baseline-first 5-step process, the Claude-A/B loop, the "no built-in runner" reality, and a runnable worked eval set for `startup-radar`.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).

@@ -1184,3 +1184,16 @@ science→capital→exit that mirrors Cole's operator-first health/bio lane. Wro
 Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy Jul 2025; Phase 3
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
+
+## [2026-09-06] autoresearch | Weekly Sunday run — skill-audit sweep + skill-evals page
+Phase 1 build: landed `startup-radar`'s Step 7 validator path fix (relative `startup-tracker/validate.py`) that the 2026-08-08 audit recorded as applied but had never reached the SKILL.md; added a vault-wide audit-sweep table (all 11 skills: 10 clean, 1 fix) to [[skill-audit-worked-example]]. Phase 2 write-back: progress notes on "Improve + general skills" and "Skill max". Phase 3: HEALTH_DEBT held at 0 (no build-introduced defect). Phase 4 MODE B: created [[skill-evals]] — the concrete skill-eval how-to (official query/files/expected_behavior format, baseline-first 5-step process, Claude-A/B loop, "no built-in runner" reality, runnable worked eval set for startup-radar); grounded in Anthropic's Skill authoring best practices (platform.claude.com/docs, 2026); wired into [[skill-authoring-playbook]] §5, [[skill-audit-worked-example]], index, and the [[Claude Mastery]] bucket. Review-lane → morning PR.
+
+## [2026-09-06] autoresearch | Weekly AutoResearch — skill cross-redirects + outreach-kit
+Nightly AutoResearch (Sunday 2026-09-06). HEALTH_DEBT = 0 at baseline; no fast-track heals.
+**Phase 2 (build):** added sibling-skill cross-redirects to `vault-autoresearch` + `wiki-query`
+SKILL.md descriptions per [[skill-authoring-playbook]] §1 (vault-autoresearch now redirects to
+vault-improve; wiki-query now redirects to both siblings). Advances "Improve + general skills"
+and "Train skills" @cloud items. **Phase 4 (MODE B):** created [[outreach-kit]] — the executable
+template library (4 ready-to-send templates + pre-send checklist); fills the long-standing dangling
+link from [[outreach-pipeline]] and [[cold-email-job-search]]; wired into [[Job Search]] bucket.
+Opened morning PR `autoresearch/night-2026-09-06 → main` for review.
