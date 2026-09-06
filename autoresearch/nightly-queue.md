@@ -9,50 +9,49 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-16
+## Week of 2026-09-06 (Sunday — full run)
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — no objective fast-track self-heal work tonight.
+- Pre-existing defect set: **empty** — no scored defects to fast-track heal tonight.
+- Cadence gate: Sunday ET ✅ — running full loop.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max / Improve + general skills → trigger-tuning pass on vault skills**:
-   The `skill-trigger-tuning` concept page (built 2026-08-02) identified three patterns for
-   effective descriptions: "Use when…" + specific phrases, sibling-skill cross-redirects, and
-   covering both semantic intent and literal strings. Applying this checklist to the vault's
-   own skills is the direct next step for both "Skill max" (remaining: trigger tuning pass)
-   and "Improve + general skills" (remaining: run one skill through the checklist). Tonight:
-   audit all vault skills, fix the two highest-impact issues found:
-   (a) `vault-autoresearch` description has "improve the vault" — overlaps with vault-improve's
-   core trigger; needs a redirect clause added.
-   (b) `wiki-query` description has no sibling-skill cross-redirects; needs them added.
-   (c) `startup-radar` description has only 2 literal trigger phrases; needs semantic intent
-   coverage added per the playbook checklist.
+1. **Improve + general skills → cross-redirect pass on `vault-autoresearch` and `wiki-query` skill descriptions**:
+   The skill-authoring-playbook checklist requires sibling-skill cross-redirects so Claude
+   routes correctly among related skills. Currently:
+   - `vault-improve` already redirects to both `vault-autoresearch` and `wiki-query` ✅
+   - `vault-autoresearch` redirects to `wiki-query` but NOT to `vault-improve` ❌
+   - `wiki-query` redirects to neither sibling ❌
+   Fix: add the missing redirect clauses to both descriptions. Small structural change to
+   skill files (not scored, rides the PR).
 
-2. **MODE B (Phase 4) — create `wiki/concepts/claude-api.md`**:
-   A concept page for the Anthropic Messages API is referenced as a dangling `[[claude-api]]`
-   link from `tasks/index.md` and skills. No wiki page currently owns the "what is the Claude
-   API, how does it work, what are its key parameters" question. Passes the new-page test:
-   distinct reusable concept (separate from `[[claude-code]]` the CLI and `[[anthropic]]`
-   the entity), genuinely linkable from multiple pages. Web-grounded against current Anthropic
-   docs; review-lane only (generated content → PR).
+2. **Train skills → same cross-redirect fix counts as a skill iteration**:
+   Both "Improve + general skills" and "Train skills" list "iterating on existing skills"
+   as their remaining cloud-doable work. The cross-redirect pass partially advances both.
 
-### Considered but skipped this night (with reason)
-- **Train skills — Skill Creator A/B eval run** (@cloud): The Skill Creator tool runs inside
-  the Claude platform and requires interactive evaluation runs; can't be run fully unattended.
-  Deferred. (Trigger tuning pass tonight is the manual analog of the Skill Creator A/B loop
-  and directly advances this item.)
-- **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): Evals require interactive
-  baseline measurement against real tasks. No bounded unattended deliverable tonight.
-- **Build the source-seeking (MODE B) rung** (@cloud): Structural change to `program.md`;
-  architectural design warrants human sign-off. Too large for a single night's build.
-  Reserved as a future MODE B or @human discussion item.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches the scorer system; any tuning
-  needs human sign-off. HEALTH_DEBT = 0 tonight anyway.
-- **Try autoresearch loop hands-on** (@cloud): Requires external GPU provisioning → outward
-  action. Ineligible.
+3. **MODE B (Phase 4) — create `wiki/concepts/outreach-kit.md`**:
+   Fills the long-standing dangling `[[outreach-kit]]` link referenced from
+   `outreach-pipeline.md` and `tasks/index.md`. No existing page owns the template library
+   (separate from `outreach-pipeline` which describes the process). Passes the new-page test:
+   distinct reusable thing (Cole would link to it on every outreach session), genuinely
+   cloud-doable (grounded in vault's `cold-email-job-search.md` + pipeline templates).
+   Review-lane only (generated content → PR).
 
-### Not eligible here (for reference — @local or @human)
+### Considered but skipped this week (with reason)
+- **Train skills — Skill Creator A/B eval run** (@cloud): requires interactive Claude platform
+  evaluation runs; not fully unattended. Deferred.
+- **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): interactive baseline
+  measurement needed. Not doable unattended.
+- **Skill max — Skill Creator A/B eval run** (@cloud): same constraint. Deferred.
+- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
+  architectural design warrants human sign-off.
+- **Tune HEALTH_DEBT weights** (@cloud): touches the scorer; needs human sign-off. Also
+  HEALTH_DEBT = 0 tonight — no urgency.
+- **Try autoresearch loop hands-on** (@cloud): requires external GPU provisioning (outward
+  irreversible action). Ineligible.
+
+### Not eligible this week (for reference — @local or @human)
 All `@local` and `@human` items (Fulbright deadlines, Neuro pipeline, CRM enrichment, finance
 decisions, Uship, Claude Corps application steps, etc.) are ineligible for the cloud lane.
