@@ -106,5 +106,39 @@ fires* — descriptions, added options, new steps — is a **recommendation for 
 can't be truth-checked without a live run. Same split the [[vault-autoresearch]] loop draws between
 its auto-merge fast-track and its review-lane PR.
 
+## Vault-wide sweep (2026-09-06)
+
+The template above, rerun across **all 11 vault skills** — the objective anti-pattern surface
+(§2 nesting, §6 path style / dead refs / Windows paths) checked on every one; §1 descriptions
+re-read for third-person + what/when + key terms. The point of a full sweep is to confirm the
+"mature skills mostly pass" thesis at scale and catch the *one* real fix hiding in the set.
+
+| Skill | Lines | §1 desc | §6 paths/refs | Verdict |
+|---|---|---|---|---|
+| `claude-chat-prompt` | 38 | ✅ 3rd-person, what+when, sibling cross-links | ✅ | ✅ clean |
+| `claude-code-prompt` | 37 | ✅ | ✅ | ✅ clean |
+| `claude-cowork-prompt` | 38 | ✅ | ✅ | ✅ clean |
+| `concert-digest` | 50 | ✅ | ✅ `osascript …/send.scpt` absolute = correct (external system script) | ✅ clean |
+| `networking-prep` | 118 | ✅ | ✅ | ✅ clean |
+| `orchestrate-agents` | 56 | ✅ | ✅ | ✅ clean |
+| `startup-radar` | 198 | 🟡 (desc completeness — logged above) | 🔧 Step 7 internal path | 🔧 fixed |
+| `token-context-management` | 50 | ✅ | ✅ | ✅ clean |
+| `vault-autoresearch` | 40 | ✅ | ✅ `score.py` refs relative | ✅ clean |
+| `vault-improve` | 93 | ✅ (checklist-audited 2026-08-10) | ✅ | ✅ clean |
+| `wiki-query` | 70 | ✅ | ✅ | ✅ clean |
+
+**Result:** 10 clean, 1 fix. The lone real defect was `startup-radar`'s Step 7 validator path —
+recorded as fixed in §6 above (2026-08-08 audit) but the change hadn't actually reached the
+`SKILL.md`; **landed 2026-09-06** (`python3 startup-tracker/validate.py`). Every body is under the
+§2 ~500-line ceiling and one-level-deep on references; the external-vs-internal path rule held
+everywhere (`concert-digest` + `startup-radar`'s `osascript` correctly absolute, all vault-internal
+paths relative).
+
+**One systemic §5 finding (recommendation, not a nightly fix):** *no vault skill has evals.* That's
+the standing gap against the playbook's core discipline — an objective signal that a description or
+logic change is an improvement, not a vibe. Building them needs the eval harness + live runs, so it
+stays a [[Claude Mastery]] follow-up for Cole (the same interactive Skill-Creator eval run the
+`Train skills` / `Skill max` tasks already track).
+
 Related: [[skill-authoring-playbook]] · [[claude-code-skills]] · [[skill-trigger-tuning]] ·
 [[token-context-management]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
