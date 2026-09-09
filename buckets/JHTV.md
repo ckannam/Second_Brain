@@ -13,7 +13,8 @@ credential — the concrete form of his science ↔ capital ↔ AI edge.
 ## The org
 - [[jhtv]] — what JHTV is + the FY25 numbers (2,000+ techs, 130+ startups, $4.8B raised).
 - [[fast-forward]] — JHTV's accelerator/incubator (150+ companies, Baltimore hubs).
-- [[translational-funding]] — the non-dilutive funding landscape (Cohen/Thalheimer/Zizic, MII/TEDCO, MSCRF, Bluefield, Blaze).
+- [[translational-funding]] — the non-dilutive funding landscape (Cohen/Thalheimer/Zizic, MII/TEDCO, MSCRF, Bluefield, Blaze) + the **new DS/AI track**.
+- [[dsai-institute]] — JHU's university-wide **Data Science & AI Institute** (80-faculty cluster hire, Demonstration Projects grants) — the DS/AI top-of-funnel JHTV now commercializes.
 
 ## Cole's work
 - [[capital-strategy]] — the team's mandate + everything Cole actually does.

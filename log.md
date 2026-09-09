@@ -1184,3 +1184,16 @@ science→capital→exit that mirrors Cole's operator-first health/bio lane. Wro
 Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy Jul 2025; Phase 3
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
+
+## [2026-09-08] query | Prep — Kelli Luginbuhl: Duke vs. JHU innovation ecosystems
+Cole prepping a conversation with [[Kelli Luginbuhl]] on Duke vs. JHU innovation ecosystems, with
+concrete examples. Filed the answer as **[[kelli-luginbuhl-call-prep]]** (4 beats: JHTV as
+capital-first tech transfer vs. Duke · the DSAI institute + JHTV's DS/AI TF track · Cole's
+[[vc-matching-second-brain|VC-matcher]] · postgrad = joining ATP operator-first). Two new entity
+pages created from Cole's inputs + web research: **[[dsai-institute]]** (JHU Data Science & AI
+Institute — 80-faculty cluster hire, 30 Bloomberg Distinguished Profs, Demonstration Projects
+grants $100k/yr×2→5, + JHTV's new DS/AI translational-funding track; sources: ai.jhu.edu,
+engineering.jhu.edu, hub.jhu.edu) and **[[athletic-training-portal]]** (ATP — the startup Cole is
+joining post-grad as an early operator; stub, needs product/stage/role detail). Enriched
+[[translational-funding]] (DS/AI track), the [[JHTV]] + [[Job Search]] buckets, [[Kelli Luginbuhl]]
+CRM, and root index.

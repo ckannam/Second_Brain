@@ -16,6 +16,10 @@ participation/payback terms). The landscape Cole's [[jhtv-grant-finder]] tracks.
 - **Maryland Stem Cell Research Fund (MSCRF)** — TEDCO, stem-cell commercialization.
 - **Bluefield Innovations** — Deerfield Management × JHU, early-stage therapeutics.
 - **Blaze / Pava Center** — student & alumni venture funding + mentorship.
+- **DS/AI track (new, 2026)** — JHTV **expanded the TF program with a dedicated Data Science & AI
+  lane**, feeding [[dsai-institute|JHU Data Science and AI Institute]] research into the same
+  commercialization escalator. Pairs with the Institute's own **Demonstration Projects** grants
+  ($100k/yr × 2, extendable to 5). See [[dsai-institute]].
 
 Complements equity funding (VCs) — see [[capital-strategy]] and [[vc-matching-second-brain]].
 Source: JHTV Translational Funding page (jhtv.org).
