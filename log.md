@@ -1197,3 +1197,47 @@ engineering.jhu.edu, hub.jhu.edu) and **[[athletic-training-portal]]** (ATP — 
 joining post-grad as an early operator; stub, needs product/stage/role detail). Enriched
 [[translational-funding]] (DS/AI track), the [[JHTV]] + [[Job Search]] buckets, [[Kelli Luginbuhl]]
 CRM, and root index.
+
+## [2026-09-08] ingest | The Business of Science (I&E 710) syllabus — Kelli & Doug's class
+Cole asked to fold "what he learned from Kelli" into the prep; flagged the **valley of death** as
+the most useful concept and asked what else was helpful. Ingested the Spring 2026 syllabus
+([[business-of-science-syllabus-spring2026]], copied to `raw/Processed/`). New concept pages:
+**[[valley-of-death]]** (the lab→market funding gap that [[translational-funding]] bridges — Cole's
+#1) and **[[technology-commercialization]]** (full framework map: stakeholder landscape &
+misaligned incentives, commercialization phases, TTOs & SBIR/STTR, transactional intelligence,
+tech/market/execution risk, H5W brief, AI invention-disclosure scouting = the manual version of his
+[[vc-matching-second-brain|matcher]]). Enriched [[kelli-luginbuhl-call-prep]] (new "§0 What you
+learned in her class"), [[Kelli Luginbuhl]] CRM, and [[translational-funding]]; added index entries.
+Also **resolved a git merge conflict** in index.md (kept both [[ply]] and [[athletic-training-portal]]).
+Open q for Cole: exact definition of the course's **H5W framework**.
+
+## [2026-09-09] query | How the Duke innovation ecosystem is actually set up
+Cole asked to research the Duke side so the JHU-vs-Duke comparison is concrete on both ends. Web
+research (Duke OTC, Duke Capital Partners, Duke I&E, CTSI/MEDx). Finding: **Duke runs a distributed,
+federated ecosystem of 4 separate pillars — not JHTV's single integrated "front door."** New pages:
+concept **[[duke-innovation-ecosystem]]** (the synthesis + a JHU-vs-Duke comparison table) and
+entities **[[duke-otc]]** (Robin Rasor; FY23 15 startups / $102M), **[[duke-capital-partners]]**
+(ex-Duke Angel Network; $105M+/60+ cos; top-5 university investor in NA), **[[duke-ie]]** (Bullpen /
+Foundry / Co-Lab; where Kelli teaches), **[[duke-ctsi-medx]]** (medical translational engine).
+Key structural insight: Duke's capital function is an **affiliated alumni-angel network (DCP)**,
+where JHU's is a **staff capital-strategy team** inside tech transfer — the whitespace Cole's
+[[vc-matching-second-brain|matcher]] addresses. Enriched [[kelli-luginbuhl-call-prep]] §1 (concrete
+Duke-side facts + the insight to voice), [[Robin Rasor]] CRM, and index.
+
+## [2026-09-12] ingest | affaan-m/ECC — the agent harness operating system (README)
+Cole added the ECC repo README to `raw/assets/` and asked what it teaches about Claude Code beyond his
+current setup (`superpowers` plugin + file-memory + home-grown vault skills), then to fold the most
+helpful lessons into the vault. Digested the full 1,779-line README and checked Cole's actual
+`~/.claude` (no hooks, no rules dir, no instinct store, empty env). **Verdict: mine the patterns,
+don't install** — ~70% overlaps `superpowers`, its 291-skill catalog advertises itself into context,
+and it's a large third-party trusted-code surface. New pages: entity **[[ecc]]** (full lesson breakdown
++ don't-install rationale) and source **[[affaan-ecc-agent-harness-os]]**. Connection-first enrichment
+of the five net-new lessons onto existing pages: **[[agent-dreaming]]** (instincts = OSS analog:
+confidence-scored session patterns, `/learn`→`/evolve`→`/prune`), **[[token-context-management]]**
+(concrete knobs + the MCP budget rule <10 servers/<80 tools, directly relevant given Cole's many
+connectors; rules-as-a-third-layer), **[[claude-code-hooks]]** (hooks-as-enforcement framing + starter
+recipes + the v2.1 plugin `hooks.json` double-fire gotcha), **[[agent-security-risks]]** (scan your own
+`~/.claude` config as an attack surface / AgentShield posture). Also enriched the **[[claude-code]]**
+entity (harness-framework layer) and the **[[Claude Mastery]]** bucket; added index entries. Flagged
+follow-up sources to clip next: ECC's Longform/Security/Shorthand guides (Longform = most implementable).
+Moved the source to `raw/Processed/`.
