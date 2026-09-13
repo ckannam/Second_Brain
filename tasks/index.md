@@ -122,7 +122,7 @@ _Goal: create the best possible Claude skills to (a) **maintain & maximize** thi
 - [ ] @cloud Try an **autoresearch loop hands-on** — clone `karpathy/autoresearch`, run it via [[claude-code]] on a rented GPU (Colab T4 / Lambda / RunPod), or adapt the pattern to a business metric (cold email, CRO). [[autoresearch]] [[autoresearch-repo]] (added 2026-07-24)
 
 ### Sourcing & verification
-(no open items)
+- [ ] @human **Ingest + verify: Anthropic "Code with Claude 2026" announcements + Claude Code mid-2026 release notes** — refreshes [[claude-code-memory]] (Anthropic reportedly shipped **"Dreaming"** — out-of-band memory consolidation — which is exactly the "dreaming lint" rung [[extending-the-llm-wiki]] flagged as unbuilt), [[claude-code-subagents]] (**nested sub-agents ~3-level depth**, **scoped permissions**, **`fallbackModel`** chains), [[claude-code-agent-teams]] / [[multi-agent-orchestration]] (**multi-agent orchestration** + **"Outcomes"**), and [[agentic-automation-patterns]] (scoped-permission least-privilege). **Likely-stale:** the vault's Claude Code capability pages predate the May 2026 keynote + mid-2026 releases, and per the AGENTS.md snapshot rule these age fastest. ⚠️ **Signals are secondary (MindStudio/InfoQ/SitePoint) — verify every claim against primary sources before writing to the wiki:** `anthropic.com/news`, `docs.claude.com` (`docs.anthropic.com`). Surfaced by the source-seeking rung's first live run ([[tasks/improvements/2026-09-13-source-seeking-rung|MODE B-src]]) 2026-09-13. (added 2026-09-13)
 
 ## Done
 

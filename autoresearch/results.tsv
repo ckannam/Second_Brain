@@ -36,3 +36,5 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-08-30T06:14	A	index.md (activate)	6	4	keep	added activate to index.md catalog; debt 6→4
 2026-08-30T06:14	A	index.md (claude-api)	4	2	keep	added claude-api to index.md catalog; debt 4→2
 2026-08-30T06:14	A	index.md (ply)	2	0	keep	added ply to index.md catalog; debt 2→0; HEALTH_DEBT now 0
+2026-09-13T06:13	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase-1 build (tasks/+autoresearch/ only; scorer scans wiki/+crm/); no build-introduced defect
+2026-09-13T06:13	B	tasks/index.md (Sourcing & verification)	0	0	keep	MODE B-src first live run: 1 source-to-ingest proposal (Code with Claude 2026 -> refresh claude-code-memory/subagents/agent-teams); @human verify vs primary sources

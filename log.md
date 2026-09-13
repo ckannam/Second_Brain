@@ -1184,3 +1184,21 @@ science→capital→exit that mirrors Cole's operator-first health/bio lane. Wro
 Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy Jul 2025; Phase 3
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
+
+## [2026-09-13] autoresearch | night — source-seeking (MODE B) rung: design + first live run
+Weekly Sunday run. Baseline HEALTH_DEBT = 0 (no orphans/missing/stale); vault mature (137 concept +
+100 entity + 122 source pages). Phase 0 selected the long-open @cloud roadmap item **"Build the
+source-seeking (MODE B) rung"**; skipped the skill items (cloud portions complete — trigger-tuning +
+audit template already shipped; remainder needs interactive eval runs), weight-tuning (frozen
+score.py), and hands-on autoresearch (needs a rented GPU). **Phase 1:** authored the rung's design
+proposal → [[tasks/improvements/2026-09-13-source-seeking-rung|source-seeking-rung]] (proposal-only
+Phase-4 sub-mode: gap signals → precision filter → one prioritized "Sourcing & verification" entry/run;
+does NOT touch program.md or score.py — wiring is Cole's call). **Phase 2:** progress note on the task
+item (left open). **Phase 3:** re-score → still 0, no build-introduced defect (build touched only
+tasks/+autoresearch/, which the scorer doesn't scan). **Phase 4 (MODE B):** ran the rung once by hand →
+one source-to-ingest proposal filed under tasks/index.md "Sourcing & verification" — Anthropic "Code
+with Claude 2026" + Claude Code mid-2026 release notes (would refresh [[claude-code-memory]] re:
+"Dreaming", [[claude-code-subagents]] re: nested sub-agents/scoped-permissions/fallbackModel,
+[[claude-code-agent-teams]]/[[multi-agent-orchestration]]); flagged @human + secondary-source, verify
+vs anthropic.com/news + docs.claude.com before writing to the wiki. All work on the review branch → one
+morning PR (nothing auto-merged to main).
