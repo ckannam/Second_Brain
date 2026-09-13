@@ -9,50 +9,49 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-16
+## Night of 2026-09-13 (Sunday weekly run)
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
 - Pre-existing defect set: **empty** — no objective fast-track self-heal work tonight.
+- Vault state: mature & healthy. 137 concept + 100 entity + 122 source pages. The short
+  concept pages (json-prompting, parallel-agents, agent-observability, …) were inspected and
+  are **deliberately atomic, densely-linked nodes** grounded in real sources — NOT stubs to
+  pad. Filling them would violate the conciseness/atomicity principle (no thin filler).
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max / Improve + general skills → trigger-tuning pass on vault skills**:
-   The `skill-trigger-tuning` concept page (built 2026-08-02) identified three patterns for
-   effective descriptions: "Use when…" + specific phrases, sibling-skill cross-redirects, and
-   covering both semantic intent and literal strings. Applying this checklist to the vault's
-   own skills is the direct next step for both "Skill max" (remaining: trigger tuning pass)
-   and "Improve + general skills" (remaining: run one skill through the checklist). Tonight:
-   audit all vault skills, fix the two highest-impact issues found:
-   (a) `vault-autoresearch` description has "improve the vault" — overlaps with vault-improve's
-   core trigger; needs a redirect clause added.
-   (b) `wiki-query` description has no sibling-skill cross-redirects; needs them added.
-   (c) `startup-radar` description has only 2 literal trigger phrases; needs semantic intent
-   coverage added per the playbook checklist.
+1. **Build the source-seeking (MODE B) rung** (@cloud) — the AutoResearch roadmap item, open
+   since 2026-07-24 and deferred every prior night as "too large / architectural." Tonight it
+   gets its **cloud-safe, reviewable slice**: a concrete design proposal in
+   `tasks/improvements/2026-09-13-source-seeking-rung.md` — the mechanism (where it looks, how
+   it lane-filters, how it proposes, the guardrails) plus a worked first-run demonstration.
+   Does **not** touch `program.md` (the human-owned loop brain) or the frozen `score.py`; the
+   wiring is Cole's call, so the proposal rides the morning PR for sign-off. This is exactly
+   the reviewable artifact that unblocks the decision — the pattern `tasks/improvements/`
+   already uses for the outreach-engine and wiki-query designs.
 
-2. **MODE B (Phase 4) — create `wiki/concepts/claude-api.md`**:
-   A concept page for the Anthropic Messages API is referenced as a dangling `[[claude-api]]`
-   link from `tasks/index.md` and skills. No wiki page currently owns the "what is the Claude
-   API, how does it work, what are its key parameters" question. Passes the new-page test:
-   distinct reusable concept (separate from `[[claude-code]]` the CLI and `[[anthropic]]`
-   the entity), genuinely linkable from multiple pages. Web-grounded against current Anthropic
-   docs; review-lane only (generated content → PR).
+### Phase 4 (MODE B) — planned
+- ONE generative enrichment: a **first live run of the source-seeking rung** producing one
+  concrete, web-grounded source-to-ingest proposal for an active goal — validating the Phase-1
+  design against a real gap rather than staying abstract. ("A source to ingest" is an explicit
+  MODE B proposal type in `program.md`.)
 
 ### Considered but skipped this night (with reason)
-- **Train skills — Skill Creator A/B eval run** (@cloud): The Skill Creator tool runs inside
-  the Claude platform and requires interactive evaluation runs; can't be run fully unattended.
-  Deferred. (Trigger tuning pass tonight is the manual analog of the Skill Creator A/B loop
-  and directly advances this item.)
-- **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): Evals require interactive
-  baseline measurement against real tasks. No bounded unattended deliverable tonight.
-- **Build the source-seeking (MODE B) rung** (@cloud): Structural change to `program.md`;
-  architectural design warrants human sign-off. Too large for a single night's build.
-  Reserved as a future MODE B or @human discussion item.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches the scorer system; any tuning
-  needs human sign-off. HEALTH_DEBT = 0 tonight anyway.
-- **Try autoresearch loop hands-on** (@cloud): Requires external GPU provisioning → outward
-  action. Ineligible.
+- **Train skills / Skill max / Improve + general skills / Prompt max** (@cloud): their
+  **cloud-doable portions are complete** across prior nights — trigger-tuning pass (2026-08-10,
+  no description changes needed), the `skill-authoring-playbook`, and the `skill-audit-worked-example`
+  (a reusable audit template, run against `startup-radar`). The genuine remaining work is the
+  **hands-on Skill Creator A/B eval runs** and **prompt eval-testing**, which need the interactive
+  eval harness + Cole — not unattended-cloud-doable. Re-auditing already-tuned skills tonight would
+  be churn, which the loop's "no thin filler" rule forbids. No fresh cloud deliverable here.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): would edit the **frozen** `score.py` —
+  out of bounds. HEALTH_DEBT = 0 tonight anyway.
+- **Try the autoresearch loop hands-on** (@cloud): requires renting an external GPU
+  (Colab/Lambda/RunPod) → outward/spending action. Ineligible for the unattended cloud lane.
 
 ### Not eligible here (for reference — @local or @human)
-All `@local` and `@human` items (Fulbright deadlines, Neuro pipeline, CRM enrichment, finance
-decisions, Uship, Claude Corps application steps, etc.) are ineligible for the cloud lane.
+All `@local` and `@human` items (Fulbright deadlines & materials, Neuro production pipeline &
+account creation, CRM enrichment from messages, finance decisions, Uship, Claude Corps
+application steps, password holder, IG/YouTube exports) are ineligible for the cloud lane —
+they need Cole's Mac, local/personal data, or a human decision/outward action.
