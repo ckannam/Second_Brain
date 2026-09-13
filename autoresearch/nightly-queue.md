@@ -9,47 +9,43 @@ here as the night's worklist, with one line on why each skipped item was skipped
 The routine then works these in **Phase 2 (Build)**, top-down, bounded to ≤2–3/night, and
 writes results back to `tasks/index.md` in **Phase 3**.
 
-## Night of 2026-08-16
+## Night of 2026-09-13 (Sunday — weekly run)
 
 ### Baseline (Phase 0)
 - **HEALTH_DEBT = 0** (orphans: 0, missing_from_index: 0, stale_claims: 0)
-- Pre-existing defect set: **empty** — no objective fast-track self-heal work tonight.
+- Pre-existing defect set: **empty** — no fast-track self-heal work in Phase 1.
 
 ### Selected (@cloud, bounded to ≤3) — top-down
 
-1. **Skill max / Improve + general skills → trigger-tuning pass on vault skills**:
-   The `skill-trigger-tuning` concept page (built 2026-08-02) identified three patterns for
-   effective descriptions: "Use when…" + specific phrases, sibling-skill cross-redirects, and
-   covering both semantic intent and literal strings. Applying this checklist to the vault's
-   own skills is the direct next step for both "Skill max" (remaining: trigger tuning pass)
-   and "Improve + general skills" (remaining: run one skill through the checklist). Tonight:
-   audit all vault skills, fix the two highest-impact issues found:
-   (a) `vault-autoresearch` description has "improve the vault" — overlaps with vault-improve's
-   core trigger; needs a redirect clause added.
-   (b) `wiki-query` description has no sibling-skill cross-redirects; needs them added.
-   (c) `startup-radar` description has only 2 literal trigger phrases; needs semantic intent
-   coverage added per the playbook checklist.
+1. **Improve + general skills → skill audit pass on `orchestrate-agents` + `wiki-query`**:
+   Task "Improve + general skills" remaining work = "more skill iterations." The
+   `startup-radar` audit (skill-audit-worked-example, 2026-08-08) is the only completed
+   audit. Auditing two more vault skills tonight advances the task: apply the
+   [[skill-authoring-playbook]] 6-section checklist to `orchestrate-agents` and `wiki-query`,
+   apply any structural/no-behavior-change fixes unattended, document findings in a combined
+   audit wiki page, and log recommendations for Cole.
 
-2. **MODE B (Phase 4) — create `wiki/concepts/claude-api.md`**:
-   A concept page for the Anthropic Messages API is referenced as a dangling `[[claude-api]]`
-   link from `tasks/index.md` and skills. No wiki page currently owns the "what is the Claude
-   API, how does it work, what are its key parameters" question. Passes the new-page test:
-   distinct reusable concept (separate from `[[claude-code]]` the CLI and `[[anthropic]]`
-   the entity), genuinely linkable from multiple pages. Web-grounded against current Anthropic
-   docs; review-lane only (generated content → PR).
+2. **MODE B (Phase 4) — enrich `wiki/concepts/evals-for-taste.md`**:
+   `evals-for-taste` is referenced by six wiki pages (skill-authoring-playbook,
+   writing-reliable-skills, skill-audit-worked-example, the-prompting-playbook,
+   skill-authoring-playbook, agent-skills) but the page itself has no inbound backlinks
+   from those referencing pages (all appear as reciprocal_gaps in the score output) and
+   may be a stub. Tonight: web-ground the "evals for taste" concept, enrich the page, and
+   add reciprocal backlinks. Review-lane only (generated content → PR).
 
 ### Considered but skipped this night (with reason)
+
 - **Train skills — Skill Creator A/B eval run** (@cloud): The Skill Creator tool runs inside
-  the Claude platform and requires interactive evaluation runs; can't be run fully unattended.
-  Deferred. (Trigger tuning pass tonight is the manual analog of the Skill Creator A/B loop
-  and directly advances this item.)
+  the Claude platform and requires interactive evaluation runs; cannot be run fully unattended.
+  Deferred again.
 - **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): Evals require interactive
-  baseline measurement against real tasks. No bounded unattended deliverable tonight.
+  baseline measurement against real tasks; no bounded unattended deliverable.
+- **Skill max — Skill Creator A/B eval run** (@cloud): Same as above; the interactive portion
+  needs Cole. The manual skill-audit portion (tonight's item) is the cloud-safe analog.
 - **Build the source-seeking (MODE B) rung** (@cloud): Structural change to `program.md`;
-  architectural design warrants human sign-off. Too large for a single night's build.
-  Reserved as a future MODE B or @human discussion item.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches the scorer system; any tuning
-  needs human sign-off. HEALTH_DEBT = 0 tonight anyway.
+  architectural design warrants human sign-off. Too large for a single night.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): Touches the scorer; needs human sign-off.
+  HEALTH_DEBT = 0 tonight anyway.
 - **Try autoresearch loop hands-on** (@cloud): Requires external GPU provisioning → outward
   action. Ineligible.
 

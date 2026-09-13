@@ -1184,3 +1184,12 @@ science→capital→exit that mirrors Cole's operator-first health/bio lane. Wro
 Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy Jul 2025; Phase 3
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
+
+## [2026-09-13] autoresearch | Weekly AutoResearch run — skill audit batch + evals-for-taste enrichment
+
+**Phase 0:** HEALTH_DEBT=0 (orphans:0, missing_from_index:0, stale_claims:0). Pre-existing defect set empty.
+**Phase 1:** Fast-track skip — no pre-existing debt to heal; results.tsv logged.
+**Phase 2 build (autoresearch/night-2026-09-13):** Applied skill-authoring-playbook 6-section checklist to `orchestrate-agents`, `wiki-query`, `vault-autoresearch`; all three clean (no structural fixes needed). Created [[skill-audits-2026]] audit log + updated [[skill-audit-worked-example]] with cross-link. Updated index.md.
+**Phase 3:** HEALTH_DEBT=0 after build (no build-introduced debt). Updated tasks/index.md progress note for "Improve + general skills."
+**Phase 4 MODE B:** Enriched [[evals-for-taste]] source page with a vault-skill application section connecting the evals-for-taste pattern to the skill audit work; added reciprocal backlinks to skill-authoring-playbook, writing-reliable-skills, skill-audit-worked-example, skill-audits-2026, llm-as-judge, vault-autoresearch.
+**Phase 5:** Morning PR opened (autoresearch/night-2026-09-13 → main).
