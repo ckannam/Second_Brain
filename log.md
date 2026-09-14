@@ -1285,3 +1285,11 @@ outreach messages, and a reusable answer bank for future applications.
   is a private verifiable claim; (3) ATP join-vs-invest conflict of interest; (4) May 2027 graduation
   vs. DRF ">1 year remaining" eligibility. Also noticed a stray git merge-conflict marker in index.md
   (>>>>>>> origin/autoresearch/night-2026-08-30, ~line 245) worth cleaning in a future lint.
+
+## [2026-09-14] CRM | Christian McGrew (DRF Managing Partner)
+Added [[Christian McGrew]] — Managing Partner at [[dorm room fund|Dorm Room Fund]], Cole's key
+DRF-application contact. Logged the full exchange: Christian declined a 1:1 call but is warm/eager to
+see the app and hopes to meet at an applicant coffee chat; asked Cole to spread DRF recruiting copy in
+Duke builder/entrepreneurship group chats (target freshmen–juniors close to talent-dense networks;
+apply by Sept 17). Cole agreed and used the reply to advocate for himself as a senior. Updated
+crm/index.md (C section). Cross-linked to [[dorm room fund]] · [[Job Search]] · [[Duke]].
