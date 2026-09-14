@@ -27,6 +27,10 @@ Anterior cingulate gyrus · Hippocampus · **Central sulcus** (separates motor/s
 gyrus of Heschl** (primary auditory cortex). Functional landmarks used in lab: **motor cortex**
 (finger-tapping activation) and **visual cortex**.
 
+The two auditory landmarks here are exactly where the 206 auditory pathway lands: the **inferior colliculus**
+is the midbrain convergence station and **Heschl's gyrus** is the cortical target of the MGC — see
+[[neurosci-206-auditory-system]] for the full ascending pathway and tonotopy.
+
 ## Links
 Read out in [[spm]] and reported in [[mni-space]] coordinates. Sibling course:
 [[neurosci-206]] ([[neurosci-206-human-neuroanatomy]]). Broader brain science: [[neuroscience-of-behavior]].

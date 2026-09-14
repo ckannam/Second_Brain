@@ -1264,3 +1264,30 @@ host/client/server architecture, the tools/resources/prompts primitives, stdio +
 transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
 extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
 → one morning PR. Baseline debt 16 → final 0.
+
+## [2026-09-14] ingest | NEUROSCI 206L — Auditory System (Week 4, Ch 10)
+Cole prepping for his Wk4 auditory class. Ingested two PDFs (Prof [[Leonard White]]): the **tutorial notes** (10 pp)
++ **lecture deck** (35 slides) → source pages [[neurosci-206-auditory-tutorial-notes]] & [[neurosci-206-auditory-deck]].
+Built the Wk4 knowledge note [[neurosci-206-auditory-system]] — all 9 Key Concepts (10.1–10.9): sound/Fourier,
+ear air-to-fluid + basilar-membrane tonotopy (base=high, apex=low), hair-cell K⁺ transduction (endolymph +80 mV),
+temporal (~3 kHz) + labeled-line codes, OHC cochlear amplifier + otoacoustic emissions, ascending pathway (cochlear
+nuclei → SOC[MSO timing/LSO intensity] → IC → MGC → core/belt cortex + Wernicke's/planum temporale), sound
+localization (ITD/ILD/spectral cues), McGurk + head-centered-vs-retinotopic coordinate problem — plus the prof's 5
+study Qs explained (#1=C #2=D #3=C #4=B #5=F). Connection pass: reciprocated [[neuroanatomy-landmarks]] (its inferior
+colliculus + Heschl's gyrus landmarks now point to the auditory pathway — the fMRI↔206 tie). Updated [[neurosci-206]]
+hub (material table Wk4 row + tracker + resources) and root index.md (concept + 2 source entries). Moved both raw PDFs
+to raw/Processed/.
+
+## [2026-09-14] ingest | Dorm Room Fund investor application
+Filed Cole's full DRF student Investment Partner application into [[dorm room fund]] (vault root):
+all six polished answers (UShip margins, context-engine rabbit hole, Duke gatekeepers, two-lens
+contribution, "seeking hard things", two picks), the two investment picks, ≤200-char LinkedIn
+outreach messages, and a reusable answer bank for future applications.
+- New pages: [[everyday-robotics]] (JHU pick — Antony/de la Sierra Renier, ELLA, Baltimore reading
+  robots), and enriched the [[athletic-training-portal]] stub with real product detail (frame-by-frame
+  joint-angle capture, Duke football contract, DoD/SBIR, CEO Jaylen Coleman).
+- Connections: linked from [[Job Search]] bucket (VC stretch lane) + index.md; cross-linked to
+  [[uship]], [[jhtv]], [[andrej-karpathy]], [[duke-innovation-ecosystem]], [[outreach-kit]].
+- Flags raised: (1) verify "Amy Linane" / "Amy Wyron Robinson" name spellings + titles; (2) DoD/SBIR
+  is a private verifiable claim; (3) ATP join-vs-invest conflict of interest; (4) May 2027 graduation
+  vs. DRF ">1 year remaining" eligibility. Stray git conflict marker in index.md cleaned in this merge.

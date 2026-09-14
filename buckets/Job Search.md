@@ -12,6 +12,7 @@ the professional overview.
 - **Business-first** (med school leaning out). Play to the intersection Cole already owns:
   **neuroscience/health literacy + real operating experience + AI-building fluency.**
 - **Role:** **startup operator** (primary — most feasible) *or* **VC** (stretch, worth a parallel attempt).
+  - **VC stretch, live:** [[dorm room fund]] — Cole's application to be a student Investment Partner at **Dorm Room Fund** (deadline **Sept 17, 2026**; Duke + JHU are both DRF Philly & Southeast). His wedge = **proprietary deal flow on two campuses DRF hasn't reached.** Holds all six polished answers + a **reusable answer bank** for future apps.
 - **Lane:** **health / bio / AI** — drug-discovery × AI especially — a *lean, not a cage.*
 - **Parallel post-grad path:** the **[[Fulbright]]** application (Open Study/Research, 2027-2028 grant year, starts after May 2027 graduation) — a 9-month international research detour before/around the first role. See [[fulbright-us-student-program]].
 - **Third post-grad option:** **[[claude-corps]]** — Anthropic's paid 12-month AI fellowship at a nonprofit ($85k, **best-fit Aug 2027 cohort**, rolling apps open now). Builds the AI-building credential; competes with Fulbright + a direct role for the same window (decision, not a stack).

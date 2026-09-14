@@ -240,6 +240,11 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
 - [[ply]] — Ply (getply.com), an NYC seed-stage vertical-SaaS startup (inventory + purchasing software for the trades; ~$14.2M raised, Ferguson Ventures + Primary + SignalFire); an **off-tilt** operator target with strong [[uship]] overlap (trucks/warehouses/invoicing). Cole's contact: [[Ryan Berger]] (Head of Ops).
 
+### Dorm Room Fund — Cole's application (VC stretch lane, see [[Job Search]])
+- [[dorm room fund]] — Cole's application to be a student Investment Partner at **Dorm Room Fund** (deadline Sept 17, 2026). Holds all six polished answers, the two investment picks, the ≤200-char LinkedIn outreach messages, open verify-before-submit flags, and a **reusable answer bank** for future apps.
+- [[everyday-robotics]] — JHU spinout building LLM-powered social robots (kids-reading tabletop robot, deployed in Baltimore schools); founders [[Victor Nikhil Antony]] (JHU CS PhD, ELLA) + Andrés de la Sierra Renier (ex-J.P. Morgan). Cole's **JHU DRF pick.**
+- [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged).
+
 ## Concepts
 
 ### Job search / networking
@@ -389,6 +394,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### NEUROSCI 206L / Systems Neuroscience (Fall 2026 coursework)
 - [[neurosci-206]] — course hub (Profs White & Yin): TBL format, 60/40 grading, 15-week schedule, key dates, resources (Lt/Sylvius).
 - [[neurosci-206-human-neuroanatomy]] — Wk1: systems-neuro definition, CNS/PNS divisions, neurodevelopment (neural tube → vesicles → adult brain), neurons/glia, gray/white matter, lobes & sulci, ventricles, meninges, arterial supply, anatomical axes & planes.
+- [[neurosci-206-auditory-system]] — Wk4 (Ch 10): sound as pressure wave; ear→cochlea air-to-fluid + basilar-membrane tonotopy (base=high/apex=low); hair-cell K⁺ transduction; OHC cochlear amplifier + otoacoustic emissions; ascending pathway (cochlear nuclei → SOC → IC → MGC → cortex); MSO/timing vs LSO/intensity localization; core/belt cortex + Wernicke's; McGurk & coordinate-frame problem; 5 study Qs.
 
 ### Neuro channel (venture)
 - [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
@@ -435,6 +441,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Duke — NEUROSCI 206L course (Intro to Systems Neuroscience, Fall 2026)
 - [[neurosci-206-syllabus-fall-2026]] — the syllabus: TBL format, 60/40 individual/team grading, drop policy, AI policy, 15-week sensory→motor schedule, key dates.
 - [[neurosci-206-first-class-human-brain]] — Week 1 first-class deck (51 slides): course orientation + human-brain anatomy foundations.
+- [[neurosci-206-auditory-tutorial-notes]] — Wk4 tutorial-notes handout (10 pp): Ch 10 outline of Key Concepts 10.1–10.9 + learning objectives + 5 study Qs w/ answer key.
+- [[neurosci-206-auditory-deck]] — Wk4 lecture deck (35 slides): the figure companion (ear/cochlea/organ-of-Corti, pathway, MSO/LSO, cortex, McGurk).
 
 ### Job search — target intel
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.
