@@ -155,19 +155,20 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[openclaw]] — open-source always-on Claude-agent harness (Markdown memory + "dreaming"); by Peter Steinberger.
 - [[clawdbot]] — **former name of [[openclaw]]** (renamed ~Jan 2026); kept as a pointer, not a separate tool.
 - [[paperclip]] — run an entire company of AI agents (CEO agent hires/delegates).
+- [[ecc]] — third-party MIT "agent harness OS" for Claude Code (+12 harnesses); 291 skills/68 agents/hooks/rules/instincts. **Mine the patterns, don't install** (overlaps `superpowers`, advertises its catalog into context). Src [[affaan-ecc-agent-harness-os]].
 - [[n8n]] — node-based automation incumbent, repeatedly contrasted with Claude Code.
 - [[firecrawl]] — turns any website into LLM-ready data (MCP server).
 - [[uship]] — University Shipping: Cole's storage-first student venture (**Cole 35%** of the legacy LLC); full overview — cap table, finances, email moat, Columbia, UShip Ventures (see [[Uship]] bucket).
 - [[uship-os]] — Carson's multi-tenant OS for UShip; the linchpin of the 2027 expansion.
 - [[jhtv]] — Johns Hopkins Technology Ventures; Cole's Capital Strategy internship (see [[JHTV]] bucket).
-- [[activate]] — Activate.org national nonprofit; 2-year, $300K+, non-dilutive fellowship turning PhD scientists into hard-tech founders (~50/yr). The independent, founder-first cousin of [[jhtv]]. Cole's contact: [[Natasha Feshbach]].
 - [[marsh-memory-lab]] — Duke metacognition lab; Cole's PSY 394 study on editing depth & the Illusion of Explanatory Depth (ties to [[vault-autoresearch]]); basis for his [[gwd-thesis-pathway|GwD thesis]].
 - [[gwd-thesis-pathway]] — operational tracker for Cole's Graduation with Distinction thesis (⚠️ application due **Nov 9, 2026**; course-sequence flag PSY 394 vs 493/495).
 - [[qmd]] — optional local markdown search engine (not yet in use).
 - [[relentless]] — done-for-you executive job-search service (joinrelentless.com); the paid mirror of Cole's [[outreach-pipeline]]. **Flagged for Q&A.** See [[Job Search]].
 - [[neuro-channel]] — **Cole's venture:** the *Neuro* YouTube channel; a walking-brain stick figure explaining neuroscience in ~45–90s Shorts (video #1 rendered). Fed by the [[neuroscience-of-behavior]] cluster.
 - [[remotion]] · [[elevenlabs]] — the render (React→MP4) + voice tools behind the Neuro channel.
-- [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[mcp]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
+- [[mcp]] — **Model Context Protocol**: the open host/client/server standard (JSON-RPC; tools/resources/prompts primitives) that connects Claude Code and agents to external tools & data — the plumbing this vault's own automation runs on. Now covers the 2026-07-28 spec (stateless core, Tasks/MCP Apps/EMA extensions, OAuth/CIMD).
+- [[trigger-dev]] · [[pixel-agents]] · [[blotato]] · [[dispatch]] · [[tmux]] · [[vercel]] · [[obsidian-dataview]] · [[obsidian-web-viewer]] — supporting tools.
 
 #### Anthropic platform & products (Code with Claude batch)
 - [[claude-managed-agents]] — managed platform for production agents (agent/environment/session).
@@ -219,8 +220,12 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### JHTV — org & Cole's work (see the [[JHTV]] bucket)
 - [[jhtv]] · [[fast-forward]] · [[translational-funding]] — the org, accelerator, and funding landscape.
 - [[capital-strategy]] — Cole's role/team. · [[vc-matching-second-brain]] — his flagship tech→VC matcher. · [[jhtv-grant-finder]] — his grant finder.
+- [[dsai-institute]] — JHU **Data Science & AI Institute** (80-faculty cluster hire; Demonstration Projects grants) + JHTV's new DS/AI translational-funding track. The DS/AI comparison point for the [[kelli-luginbuhl-call-prep|Kelli conversation]].
 - [[JHTV-Second-Brain-Vision-and-Handoff]] — the VC-matcher's long-term vision + Justin-handoff doc: continuity, the TF pillar, PitchBook-API/live-office-data upgrades, and feeding Oliver's vision.
 - [[JHTV-Second-Brain-Matching-Rubric-Explainer]] — deep technical reference on how the matcher scores (formula, portfolio curve, sector taxonomy, data files + pipelines, known limits). · [[JHTV-Second-Brain-Meeting-Onepager]] (room hand-out) · [[JHTV-Second-Brain-Justin-Operator-Onepager]] (maintenance guide).
+
+### Duke — innovation ecosystem (see the [[Duke]] bucket)
+- [[duke-otc]] — Duke's tech-transfer core (Robin Rasor; FY23: 15 startups, $102M returned). · [[duke-capital-partners]] — the capital layer (ex-Duke Angel Network; $105M+, 60+ cos). · [[duke-ie]] — education/culture/space (Bullpen, Foundry, Co-Lab; where Kelli teaches). · [[duke-ctsi-medx]] — the medical translational engine.
 
 ### Fulbright — Cole's application (see the [[Fulbright]] bucket)
 - [[fulbright-us-student-program]] — the fellowship, Cole's Open Study/Research application, components, funding, deadlines, Duke endorsement.
@@ -229,14 +234,23 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
-- [[ply]] — NYC seed-stage vertical SaaS for trade contractors (HVAC/R, plumbing, electrical); ~$14.2M raised (Ferguson Ventures, Primary, SignalFire). Off Cole's health/bio tilt but strong Uship-operator overlap. Cole's contact: [[Ryan Berger]] (Head of Ops).
+- [[athletic-training-portal]] — **ATP**, the startup Cole is joining post-grad as an early operator (the operator-first bet from the [[five-year-plan]]). · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
+
+### Job-search targets — other lanes (see [[Job Search]])
+- [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
+- [[ply]] — Ply (getply.com), an NYC seed-stage vertical-SaaS startup (inventory + purchasing software for the trades; ~$14.2M raised, Ferguson Ventures + Primary + SignalFire); an **off-tilt** operator target with strong [[uship]] overlap (trucks/warehouses/invoicing). Cole's contact: [[Ryan Berger]] (Head of Ops).
 
 ## Concepts
 
 ### Job search / networking
 - [[cold-email-job-search]] — the playbook: cold-email rules (≤200 words, one ask, no fake personalization), the who/why/why-they-care format, and 9 sources for finding unposted startup roles. Feeds [[outreach-pipeline]].
 - [[outreach-pipeline]] — the job-search outreach system: tier structure (Lane 0 warm intros → Tier 1 funded targets → general), Monday batch runbook, templates, and reply-rate tracking. Backed by [[outreach-kit]] and [[target-orgs]].
-- [[startup-radar]] — Cole's weekly discovery engine: sweeps HN/YC/VC portfolio boards, filters to health-bio-AI and AI-infra lanes, dedupes against existing tracker, and writes schema-valid company notes for the [[outreach-pipeline]].
+- [[startup-radar]] — the weekly startup-discovery engine (a vault skill): sweeps free funding surfaces, lane-filters to health-bio-AI + AI-infra, dedupes against tracked orgs, and writes company notes that seed Tier 1 of [[outreach-pipeline]]. The discovery rung of the [[Job Search]] engine.
+
+### Technology commercialization (Duke I&E 710, from Kelli & Doug's class)
+- [[technology-commercialization]] — the frameworks Cole learned in [[business-of-science-syllabus-spring2026|The Business of Science]]: stages, stakeholder landscape & misaligned incentives, TTOs, transactional intelligence, risk triad, AI invention-disclosure scouting.
+- [[valley-of-death]] — **Cole's #1 takeaway**: the funding gap between lab and market that non-dilutive [[translational-funding]] exists to bridge; the frame behind JHTV's whole capital function.
+- [[duke-innovation-ecosystem]] — **how Duke's system is actually set up**: a distributed, federated 4-pillar ecosystem (OTC · Duke Capital Partners · Duke I&E · CTSI/MEDx) vs. JHTV's centralized "front door" — the concrete both-sides comparison for the [[kelli-luginbuhl-call-prep|Kelli conversation]].
 
 ### LLM Wiki / knowledge systems
 - [[llm-wiki-pattern]] — persistent compounding wiki vs. RAG; three layers, why it works.
@@ -260,6 +274,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[writing-reliable-skills]] — authoring craft: three levers (description/progressive-disclosure/body), the Claude A builds / Claude B uses eval loop; the "skill max" track.
 - [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
 - [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill.
+- [[skill-audit-networking-prep]] — [[skill-authoring-playbook]] checklist applied to `networking-prep`; §1–§4 clean; step-numbering fix applied; §5 eval recommendations logged for Cole.
 - [[skill-audits-2026]] — running audit log applying the playbook checklist across vault skills; Sept 2026 batch covers `orchestrate-agents`, `wiki-query`, `vault-autoresearch`; cross-skill finding: every skill lacks evals (§5 gap).
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
@@ -269,6 +284,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-worktrees]] — git-worktree file isolation so parallel sessions/sub-agents don't collide (`--worktree`, `isolation: worktree`).
 - [[claude-code-channels]] · [[claude-code-hooks]] · [[claude-code-browser-automation]] — access, notifications, browser.
 - [[claude-md-router]] — Level-1 `CLAUDE.md` router. · [[skills-vs-subagents]] — when to use which.
+- [[ecc]] — third-party harness framework; the five net-new lessons it teaches (instincts, hook-enforcement, rules-as-a-layer, context knobs, scan-your-own-config) folded into the pages above.
 
 ### Agents & orchestration
 - [[parallel-agents]] · [[multi-agent-orchestration]] · [[ai-agent-company]] · [[multi-model-workflows]] · [[adversarial-code-review]] · [[agent-observability]] · [[proactive-agents]] · [[autoresearch]] · [[agent-native-infrastructure]] — rebuilding dev tooling around agent swarms (the [[agent-hub]] pattern: DAG-not-main, board-not-PR, metric-not-review).
@@ -357,6 +373,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[mri-contrast]] — contrast (anatomical/functional/CNR) & resolution (spatial/temporal/functional); T1/T2/T2\*, TR/TE.
 - [[k-space]] — the spatial-frequency domain MR data are acquired in; Fourier reconstruction; EPI vs spiral.
 - [[bold-signal]] — oxy vs deoxy-Hb, neurovascular coupling, the sluggish hemodynamic response.
+- [[fmri-experimental-design]] — block vs event-related vs mixed designs; efficiency and jitter (randomized ISIs); contrast orthogonality; practical rules for the NEUROSCI 382 group project. *(Synthesis note: reconcile chapter refs against Huettel 3rd ed.)*
 - [[fmri-preprocessing]] — realign → slice-time → coregister → segment → normalize → smooth (SPM).
 - [[fmri-glm-analysis]] — the GLM; 1st/2nd-level; contrasts; the multiple-comparisons problem.
 - [[mni-space]] — the standard stereotactic space normalization warps brains into.
@@ -394,6 +411,9 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Fulbright
 - [[fulbright-project-context]] — Cole's own project brief (award type, thesis, countries, components, funding).
 - [[anna-fulbright-duke-2026-07-14]] — Duke adviser's process email; the authoritative campus timeline + GA reviewers + writing groups.
+
+### Duke — I&E / commercialization
+- [[business-of-science-syllabus-spring2026]] — syllabus for [[Kelli Luginbuhl]] & [[Doug Speight]]'s I&E 710 "The Business of Science"; source of the [[technology-commercialization]] frameworks + [[valley-of-death]].
 
 ### Duke — thesis / GwD
 - [[gwd-psychology-program]] — Duke P&N Graduation with Distinction page: eligibility, requirements, full timeline (Psych + Neuro tracks). Basis for [[gwd-thesis-pathway]].
@@ -466,6 +486,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[claude-code-remote-control]] — drive Claude Code from your phone.
 - [[claude-code-agent-teams]] — parallel, collaborating agents (tmux view).
 - [[codex-plugin-for-claude-code]] — OpenAI Codex as adversarial reviewer for Opus.
+- [[affaan-ecc-agent-harness-os]] — README for [[ecc]]; digested for Claude Code lessons (verdict: mine, don't install).
 
 ### Knowledge, second brain & RAG
 - [[andrej-karpathy-llm-wiki-obsidian]] — build Karpathy's LLM Wiki in Obsidian + Claude Code.

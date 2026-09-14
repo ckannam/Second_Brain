@@ -100,6 +100,23 @@ For richer control, exit 0 and write a JSON object to stdout:
 - **Auto-approve a known-safe permission:** `PermissionRequest` hook, narrow matcher, return `{"behavior": "allow"}` JSON.
 - **Prompt-based stop check:** `Stop` `prompt` hook; model returns `{"ok": false, "reason": "…"}` to keep Claude working.
 
+## Hooks as enforcement (ECC recipes + a gotcha)
+The [[ecc]] harness's core framing is worth internalizing: **"please use TDD" is an instruction the
+model may forget; a hook enforces it deterministically outside the prompt.** Anything you keep having
+to *remind* Claude to do is a candidate to move from [[instructions-as-code|CLAUDE.md]] into a hook.
+Liftable starter recipes (Cole currently runs **zero** hooks — low-hanging fruit, install via the
+`update-config` skill):
+- **Secret-scan on prompt submit:** `UserPromptSubmit` hook that greps for `sk-`, `ghp_`, `AKIA`
+  patterns and blocks (exit 2) before they leave the machine.
+- **Typecheck + format on edit:** `PostToolUse` `Edit|Write`, run `tsc --noEmit` / formatter, surface errors.
+- **Dev-server-outside-tmux guard:** `PreToolUse` `Bash`, block long-running servers not launched in tmux.
+- **Git-push review gate:** `PreToolUse` `Bash`, pause on `git push` for a review step.
+
+**Gotcha (for plugin authors):** Claude Code v2.1+ **auto-loads** a plugin's `hooks/hooks.json` by
+convention. Do **not** also declare a `"hooks"` field in `.claude-plugin/plugin.json`, and do **not**
+copy a plugin's `hooks.json` into `~/.claude/settings.json` — either causes a *"Duplicate hooks file"*
+error or makes hooks **fire twice**. This bit ECC repeatedly across versions. Src: [[affaan-ecc-agent-harness-os]].
+
 ## Hooks and permission modes
 
 `PreToolUse` hooks fire in *every* permission mode, including `bypassPermissions`. A hook

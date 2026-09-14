@@ -49,4 +49,24 @@ For [[claude-code-agent-teams|agent teams]], each team member also has its own w
 - **Compact proactively:** If you're about to switch to a very different task in the same session, `/compact` first rather than letting noise accumulate.
 - **Sub-agent for heavy reads:** If a task requires reading 10+ files, consider a sub-agent so the parent thread isn't consumed.
 
-Related: [[claude-code-memory]], [[claude-code-hooks]], [[claude-code-subagents]], [[claude-code-agent-teams]], [[context-anxiety]], [[skills-vs-subagents]].
+## Concrete knobs & the MCP budget (from ECC)
+The third-party [[ecc]] harness packages a set of specific context-economy settings worth knowing
+(reconcile against the current [[opus-4-8]] defaults — these are its 2026 opinions, not Anthropic law):
+- **`CLAUDE_CODE_SUBAGENT_MODEL=haiku`** — run [[claude-code-subagents|sub-agents]] on a cheaper model; pairs with the context-isolation point above.
+- **`CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=50`** — compact at 50% rather than ~95%, trading a little history for better quality in long sessions.
+- **`MAX_THINKING_TOKENS`** — cap hidden reasoning spend per request.
+- **The MCP budget rule (the one most relevant to this vault):** each enabled MCP server's tool
+  descriptions consume context. **Keep <10 MCP servers and <80 tools active** — a window overloaded
+  with MCP metadata can shrink a 200k budget to ~70k of usable space. Cole runs *many* connectors
+  (Notion, Gmail, Calendar, Drive, PitchBook, Spotify, Strava, Wispr, Chrome…); disabling unused ones
+  per-project is real context reclaimed. Src: [[affaan-ecc-agent-harness-os]].
+
+## Rules as a third, always-loaded layer
+ECC also argues for separating **rules** — always-loaded, *selectively installed* language/project
+standards — from [[claude-code-skills|skills]] (loaded on demand) and [[claude-code-hooks|hooks]] (run
+outside the model). The insight for context hygiene: always-loaded standards are a permanent tax, so
+install only the one or two packs you actually use rather than dumping every convention into
+`CLAUDE.md`. This vault collapses all of this into CLAUDE.md/[[instructions-as-code|AGENTS.md]]; the
+layer distinction is a cleaner mental model even without adopting ECC's tooling.
+
+Related: [[claude-code-memory]], [[claude-code-hooks]], [[claude-code-subagents]], [[claude-code-agent-teams]], [[context-anxiety]], [[skills-vs-subagents]], [[ecc]], [[mcp]], [[instructions-as-code]].

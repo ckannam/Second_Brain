@@ -17,6 +17,9 @@ the professional overview.
 - **Third post-grad option:** **[[claude-corps]]** — Anthropic's paid 12-month AI fellowship at a nonprofit ($85k, **best-fit Aug 2027 cohort**, rolling apps open now). Builds the AI-building credential; competes with Fulbright + a direct role for the same window (decision, not a stack).
 - **Where / when:** **NYC *or* DC — the two co-primary options** (updated 2026-07-25; DC is no longer a footnote), starting after **May 2027**. Target base **~$85k NYC operator** (was ~$75k) — see [[comp-targets]] for the researched breakdown + the **DC-vs-NYC read for Cole's path** (JHTV ~$60–75k Baltimore · startup ~$80–95k+equity · VC ~$95–130k all-in). Equity/upside is the real lever; **DC is cheaper + closer to family/JHTV and strong in bio/health**, NYC has more startup/VC density.
 
+## Postgrad landing (Phase 1 of the plan)
+- **[[athletic-training-portal|ATP (Athletic Training Portal)]]** — the startup Cole is joining post-grad as an **early operator**. The "operator-first, health/bio/AI" bet from the [[five-year-plan]] made real. *(Page is a stub — needs product/stage/role detail.)*
+
 ## Assets / credentials
 - [[uship]] — co-owner of a six-figure business (+40% sign-ups, expanded to Columbia): proof he can operate.
 - [[jhtv]] — Capital Strategy intern (VC/funder mapping, science→investment translation).
@@ -28,7 +31,9 @@ The **[[outreach-pipeline|Outreach Pipeline]]** is the board Cole works every we
 Monday, say **"run the outreach batch"** and the engine drafts the next batch into Gmail
 (`colekannam@gmail.com`) as ready-to-send drafts, flags overdue follow-ups, and updates the board —
 **Cole reviews + sends; nothing auto-sends.** Three lanes: **Lane 0 warm/active** · **Tier 1 marquee
-cold** · **Tier 2 roster cold**.
+cold** · **Tier 2 roster cold**. The **[[startup-radar]]** skill is the *discovery rung* that feeds
+Tier 1 — a weekly sweep of free funding surfaces, lane-filtered to health-bio-AI + AI-infra, that
+writes new company notes for the triage.
 
 ## People (crm/) — network
 - [[Stewart Neifart]] — head of Capital Strategy at JHTV; VC + startup relationships → **intros** (see [[stewart-1on1-prep]]).
