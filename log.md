@@ -1270,3 +1270,18 @@ study Qs explained (#1=C #2=D #3=C #4=B #5=F). Connection pass: reciprocated [[n
 colliculus + Heschl's gyrus landmarks now point to the auditory pathway — the fMRI↔206 tie). Updated [[neurosci-206]]
 hub (material table Wk4 row + tracker + resources) and root index.md (concept + 2 source entries). Moved both raw PDFs
 to raw/Processed/.
+
+## [2026-09-14] ingest | Dorm Room Fund investor application
+Filed Cole's full DRF student Investment Partner application into [[dorm room fund]] (vault root):
+all six polished answers (UShip margins, context-engine rabbit hole, Duke gatekeepers, two-lens
+contribution, "seeking hard things", two picks), the two investment picks, ≤200-char LinkedIn
+outreach messages, and a reusable answer bank for future applications.
+- New pages: [[everyday-robotics]] (JHU pick — Antony/de la Sierra Renier, ELLA, Baltimore reading
+  robots), and enriched the [[athletic-training-portal]] stub with real product detail (frame-by-frame
+  joint-angle capture, Duke football contract, DoD/SBIR, CEO Jaylen Coleman).
+- Connections: linked from [[Job Search]] bucket (VC stretch lane) + index.md; cross-linked to
+  [[uship]], [[jhtv]], [[andrej-karpathy]], [[duke-innovation-ecosystem]], [[outreach-kit]].
+- Flags raised: (1) verify "Amy Linane" / "Amy Wyron Robinson" name spellings + titles; (2) DoD/SBIR
+  is a private verifiable claim; (3) ATP join-vs-invest conflict of interest; (4) May 2027 graduation
+  vs. DRF ">1 year remaining" eligibility. Also noticed a stray git merge-conflict marker in index.md
+  (>>>>>>> origin/autoresearch/night-2026-08-30, ~line 245) worth cleaning in a future lint.

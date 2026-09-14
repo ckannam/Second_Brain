@@ -242,6 +242,11 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Job-search targets — other lanes (see [[Job Search]])
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
 - [[ply]] — Ply (getply.com), an NYC seed-stage vertical-SaaS startup (inventory + purchasing software for the trades; ~$14.2M raised, Ferguson Ventures + Primary + SignalFire); an **off-tilt** operator target with strong [[uship]] overlap (trucks/warehouses/invoicing). Cole's contact: [[Ryan Berger]] (Head of Ops).
+
+### Dorm Room Fund — Cole's application (VC stretch lane, see [[Job Search]])
+- [[dorm room fund]] — Cole's application to be a student Investment Partner at **Dorm Room Fund** (deadline Sept 17, 2026). Holds all six polished answers, the two investment picks, the ≤200-char LinkedIn outreach messages, open verify-before-submit flags, and a **reusable answer bank** for future apps.
+- [[everyday-robotics]] — JHU spinout building LLM-powered social robots (kids-reading tabletop robot, deployed in Baltimore schools); founders [[Victor Nikhil Antony]] (JHU CS PhD, ELLA) + Andrés de la Sierra Renier (ex-J.P. Morgan). Cole's **JHU DRF pick.**
+- [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged).
 >>>>>>> origin/autoresearch/night-2026-08-30
 
 ## Concepts
