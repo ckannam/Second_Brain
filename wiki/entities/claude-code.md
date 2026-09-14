@@ -19,6 +19,13 @@ Anthropic's agentic coding tool and the **central entity** of this vault — nea
 ## Built on Claude Code (in this vault)
 [[ai-executive-assistant|Executive assistants]], the [[ai-second-brain-levels|5-level second brain]], [[agentic-workflows]], website building, content pipelines. Competes with [[clawdbot]], [[paperclip]], [[openclaw]].
 
+## Harness-framework layers on top
+Beyond always-on runtimes, a class of tools adds **workflow discipline** on top of the raw CLI —
+Anthropic's own `superpowers` plugin (Cole's current setup) and the third-party [[ecc]] harness
+(plan→test→review→verify→remember→improve, [[claude-code-hooks|hooks]], rules, instincts). Mine these
+for patterns; the vault's own skills ([[vault-autoresearch]], the prompt architects) are the home-grown
+equivalent.
+
 ## Beyond the CLI: the Claude Platform
 The Code-with-Claude batch situates Claude Code inside a larger platform:
 [[claude-managed-agents]] runs production agents server-side (the Agent SDK drives Claude

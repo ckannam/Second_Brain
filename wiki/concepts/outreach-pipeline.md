@@ -14,12 +14,14 @@ Tracker for the live pipeline state lives in the [[Job Search]] bucket.
 | Tier | Description | Source |
 |---|---|---|
 | **Lane 0 — warm intros** | Existing relationships + intro'd contacts (e.g., Stewart Neifart's introductions) | CRM inner-circle |
-| **Tier 1 — funded targets** | Funded startups in Cole's target domain (health/bio/AI, AI-infra, NYC) that pass the 🟢 triage | [[target-orgs]] board from weekly funding feed |
+| **Tier 1 — funded targets** | Funded startups in Cole's target domain (health/bio/AI, AI-infra, NYC) that pass the 🟢 triage | [[startup-radar]] sweep → [[target-orgs]] board from weekly funding feed |
 | **General** | Cold outreach to target orgs after enrichment; warm-first framing even in cold email | [[cold-email-job-search]] playbook |
 
 ## The weekly batch (Monday runbook)
 
-1. **Scan** `startups.gallery/news` (and other funding feeds) for new rounds.
+1. **Scan** `startups.gallery/news` (and other funding feeds) for new rounds — the
+   [[startup-radar]] skill automates this sweep + the lane-filter/dedup below, writing
+   schema-valid company notes that seed the 🟢 triage.
 2. **Filter** for health/bio/AI + AI-infra alignment.
 3. **Triage** into [[target-orgs]] board: 🟢 (high-fit, pursue now) · 🟡 (watch) · ⚪ (skip).
 4. **Enrich** 🟢 orgs: named contact, geo, funding context, warm angle.

@@ -54,6 +54,19 @@ A skill-shaped instance of this threat model: an [[agent-skills|Agent Skill]] is
 code + instructions, so an untrusted skill can misuse tools or exfiltrate data — audit before
 installing, trust only self-authored/Anthropic sources.
 
+## Scan the harness itself as an attack surface
+The sharpest framing, from the [[ecc]] harness's **AgentShield** scanner: your own agent
+*configuration* — `CLAUDE.md`, `settings.json`, [[claude-code-hooks|hooks]], MCP configs, and installed
+[[claude-code-skills|skills]] — **is executable policy, and therefore an attack surface**, not inert
+setup. Hooks run shell, MCP servers hold credentials, and project instructions enter the model's
+context; a poisoned skill, a hook with an injected command, or an over-broad permission rule is a live
+vulnerability. AgentShield audits five categories (secret detection, permission auditing,
+hook-injection analysis, MCP risk profiling, agent-config review) and can run an adversarial
+**red-team / blue-team / auditor** agent pipeline instead of pure pattern-matching. The *posture* is the
+lesson, not the binary: periodically audit your own `~/.claude` the way you'd audit any code that can
+act for you — and note that **installing a large third-party harness ([[ecc]] itself) is adding a big
+trusted-code surface**, the reason it's worth mining but not installing. Src: [[affaan-ecc-agent-harness-os]].
+
 **Same threat, civilizational scale.** This page is the *personal* version (your agent turned against
 you); [[tech-authoritarianism]] / [[palantir]] are the *societal* version — the same data-plus-tooling
 capability aimed at mass surveillance and elite control ([[antichrist-story-peter-thiel]]). Least-privilege
@@ -61,4 +74,4 @@ and democratic checks are the same idea at different scales.
 
 Related: [[claude-code-permissions]] · [[agent-skills]] · [[ai-executive-assistant]] ·
 [[proactive-agents]] · [[hosting-ai-agents]] · [[vault-autoresearch]] · [[openclaw]] ·
-[[paperclip]] · [[tech-authoritarianism]] · [[palantir]].
+[[paperclip]] · [[ecc]] · [[tech-authoritarianism]] · [[palantir]].
