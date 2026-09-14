@@ -6,10 +6,11 @@ created: 2026-08-08
 # Skill audit — a worked example (`startup-radar`)
 
 The [[skill-authoring-playbook]] is the *checklist*; this page is the checklist **run against a
-real skill** so it stops being abstract. It audits the vault's `startup-radar` skill against all
-six playbook sections, records a verdict + specific finding per section, applies the safe fixes,
-and ends with a **copy-paste audit template** Cole can rerun on every other skill. It's the
-worked example the *Improve + general skills* task ([[Claude Mastery]]) asked for.
+real skill** so it stops being abstract. It audits `startup-radar` against all six playbook
+sections, records a verdict + specific finding per section, applies the safe fixes, and ends with a
+**copy-paste audit template** Cole can rerun on every other skill. A second skill has already been
+run through it — see the companion [[skill-audit-networking-prep]]. It's the worked example the
+*Improve + general skills* task ([[Claude Mastery]]) asked for.
 
 **Subject chosen:** `startup-radar` — at ~198 lines it's the vault's largest skill, so it exposes
 the most checklist surface (progressive disclosure, degrees of freedom, anti-patterns), and only
@@ -107,4 +108,5 @@ can't be truth-checked without a live run. Same split the [[vault-autoresearch]]
 its auto-merge fast-track and its review-lane PR.
 
 Related: [[skill-authoring-playbook]] · [[claude-code-skills]] · [[skill-trigger-tuning]] ·
-[[token-context-management]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
+[[token-context-management]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]] ·
+[[skill-audit-networking-prep]].
