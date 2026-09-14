@@ -1257,3 +1257,16 @@ transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/M
 extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
 → one morning PR. Baseline debt 16 → final 0.
 >>>>>>> origin/autoresearch/night-2026-08-30
+
+## [2026-09-14] ingest | NEUROSCI 206L — Auditory System (Week 4, Ch 10)
+Cole prepping for his Wk4 auditory class. Ingested two PDFs (Prof [[Leonard White]]): the **tutorial notes** (10 pp)
++ **lecture deck** (35 slides) → source pages [[neurosci-206-auditory-tutorial-notes]] & [[neurosci-206-auditory-deck]].
+Built the Wk4 knowledge note [[neurosci-206-auditory-system]] — all 9 Key Concepts (10.1–10.9): sound/Fourier,
+ear air-to-fluid + basilar-membrane tonotopy (base=high, apex=low), hair-cell K⁺ transduction (endolymph +80 mV),
+temporal (~3 kHz) + labeled-line codes, OHC cochlear amplifier + otoacoustic emissions, ascending pathway (cochlear
+nuclei → SOC[MSO timing/LSO intensity] → IC → MGC → core/belt cortex + Wernicke's/planum temporale), sound
+localization (ITD/ILD/spectral cues), McGurk + head-centered-vs-retinotopic coordinate problem — plus the prof's 5
+study Qs explained (#1=C #2=D #3=C #4=B #5=F). Connection pass: reciprocated [[neuroanatomy-landmarks]] (its inferior
+colliculus + Heschl's gyrus landmarks now point to the auditory pathway — the fMRI↔206 tie). Updated [[neurosci-206]]
+hub (material table Wk4 row + tracker + resources) and root index.md (concept + 2 source entries). Moved both raw PDFs
+to raw/Processed/.

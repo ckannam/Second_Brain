@@ -392,6 +392,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### NEUROSCI 206L / Systems Neuroscience (Fall 2026 coursework)
 - [[neurosci-206]] — course hub (Profs White & Yin): TBL format, 60/40 grading, 15-week schedule, key dates, resources (Lt/Sylvius).
 - [[neurosci-206-human-neuroanatomy]] — Wk1: systems-neuro definition, CNS/PNS divisions, neurodevelopment (neural tube → vesicles → adult brain), neurons/glia, gray/white matter, lobes & sulci, ventricles, meninges, arterial supply, anatomical axes & planes.
+- [[neurosci-206-auditory-system]] — Wk4 (Ch 10): sound as pressure wave; ear→cochlea air-to-fluid + basilar-membrane tonotopy (base=high/apex=low); hair-cell K⁺ transduction; OHC cochlear amplifier + otoacoustic emissions; ascending pathway (cochlear nuclei → SOC → IC → MGC → cortex); MSO/timing vs LSO/intensity localization; core/belt cortex + Wernicke's; McGurk & coordinate-frame problem; 5 study Qs.
 
 ### Neuro channel (venture)
 - [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
@@ -438,6 +439,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Duke — NEUROSCI 206L course (Intro to Systems Neuroscience, Fall 2026)
 - [[neurosci-206-syllabus-fall-2026]] — the syllabus: TBL format, 60/40 individual/team grading, drop policy, AI policy, 15-week sensory→motor schedule, key dates.
 - [[neurosci-206-first-class-human-brain]] — Week 1 first-class deck (51 slides): course orientation + human-brain anatomy foundations.
+- [[neurosci-206-auditory-tutorial-notes]] — Wk4 tutorial-notes handout (10 pp): Ch 10 outline of Key Concepts 10.1–10.9 + learning objectives + 5 study Qs w/ answer key.
+- [[neurosci-206-auditory-deck]] — Wk4 lecture deck (35 slides): the figure companion (ear/cochlea/organ-of-Corti, pathway, MSO/LSO, cortex, McGurk).
 
 ### Job search — target intel
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.
