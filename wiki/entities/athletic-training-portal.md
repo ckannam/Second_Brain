@@ -29,10 +29,11 @@ turns it into a clear picture of **mobility, form, rehab, and performance** — 
 - **CEO: Jaylen Coleman** — Duke football + BME grad; building alongside undergrad and grad
   cofounders Cole knows and trusts.
 
-> ⚠️ **Conflict flag:** Cole is **joining ATP post-grad as an operator** *and* pitched it as a
-> **DRF investment**. Pitching a company you're joining as an investor is a potential conflict of
-> interest — see [[dorm room fund]] for how to handle if asked. Also: the **DoD/SBIR** detail is a
-> private, verifiable claim — confirm it isn't shared in confidence before repeating it.
+> ⚠️ **Conflict flag (sharper now):** Cole is **actively joining ATP as an operator this senior
+> year** *and* pitched it as a **DRF investment**. Recommending a company you're joining is a real
+> conflict of interest a DRF interviewer could probe — see [[dorm room fund]] for how to handle if
+> asked. Also: the **DoD/SBIR** detail is a private, verifiable claim — confirm it isn't shared in
+> confidence before repeating it.
 
 ## Why it fits the plan
 The [[five-year-plan]] locked **operator-first, in health/bio/AI, then VC as the stretch** —
