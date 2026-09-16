@@ -1293,3 +1293,37 @@ see the app and hopes to meet at an applicant coffee chat; asked Cole to spread 
 Duke builder/entrepreneurship group chats (target freshmen–juniors close to talent-dense networks;
 apply by Sept 17). Cole agreed and used the reply to advocate for himself as a senior. Updated
 crm/index.md (C section). Cross-linked to [[dorm room fund]] · [[Job Search]] · [[Duke]].
+
+## [2026-09-15] ingest | VC/investor applications hub (Contrary, ShangBay, Catalyst)
+Created [[vc-investor-applications]] as the hub + answer store for Cole's student-VC push beyond DRF.
+Cole has now **applied to 3** (DRF, Contrary, ShangBay); Bessemer in process (sessions upcoming);
+Catalyst drafted. Stored final answer texts (Contrary "why join", ShangBay "anything to know",
+Catalyst "what have you built" / "what are you interested in" / "exciting founders") for reuse, plus
+the pipeline shortlist and the Tory Macdonald (First Round CoS) outreach. Contrary edge reframed to
+better sourcing (Contrary is active at Duke AND JHU, unlike DRF) via the Amy Linane / Amy Wyron
+Robinson relationships. Linked from [[Job Search]] + index.md. Next up: the Tactile application.
+
+## [2026-09-15] update | Coursework — semester exam schedule → Google Calendar
+Consolidated all Fall 2026 midterms + finals into a roll-up table on [[coursework/index]] and **added them to
+Cole's Google Calendar** (red for midterms, orange for finals; reminders 1 wk / 1 day / 2 h). Midterms: fMRI I
+**Sep 29** (1st of semester, 30%), CHEM 210D M1 **Oct 1**, NEUROSCI 206L **Oct 14**, CHEM 210D M2 **Nov 12**.
+Finals: CHEM 210D **Dec 9 2–5 PM**, fMRI write-up due **Dec 8 11:59 PM** (no final exam), NEUROSCI 206L
+**Dec 13 7–10 PM** = **last final**. Flagged: fMRI Midterm II (early Dec) date unconfirmed — NOT yet on calendar
+(syllabus says "TH 4 Dec" but class meets Tue; confirm in class). Study note: Sep 29→Oct 1 are back-to-back.
+
+## [2026-09-16] ingest | Bessemer "How to prepare" VC-interview framework
+Captured Bessemer Venture Partners' recruiting prep slide (source raw/Processed/bessemer-how-to-prepare-slide.png)
+as [[vc-interview-prep]] — the four pillars (know the firm, stay informed on tech, practice asking
+questions, get excited about a category) turned into Cole's action list for all his VC interviews.
+Category locked = techbio / AI drug discovery. Linked from [[vc-investor-applications]], [[Job Search]],
+index.md; spawned a [[deal-sourcing]] stub link to fill with the next deep-dive. Source image saved to
+raw/Processed.
+
+## [2026-09-16] ingest | Techbio / AI drug discovery — Cole's category POV
+Built [[techbio-ai-drug-discovery]], Cole's industry-of-specialty POV for VC interviews. Captured the
+broken timeline (10-15yr / $2.6B / ~90% clinical failure), market size (~$4B 2026, ~25-30% CAGR, wide
+analyst variance), timeline-compression proof (Insilico target-to-preclinical ~18mo/$2.6M, target-to-
+Phase1 <30mo, Rentosertib positive Phase 2), the big validation deals (Lilly-Insilico up to $2.75B,
+Lilly-Isomorphic $1.75B), and the key companies (Isomorphic ~$20B, Insilico, Recursion, Xaira, insitro,
+Genesis/Chai). Tied to [[valley-of-death]] + [[jhtv]]. Left a stub for Cole's specific summer company.
+Linked from [[vc-interview-prep]], [[vc-investor-applications]], index.md.
