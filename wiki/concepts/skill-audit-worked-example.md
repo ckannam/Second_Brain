@@ -109,4 +109,4 @@ its auto-merge fast-track and its review-lane PR.
 
 Related: [[skill-authoring-playbook]] · [[claude-code-skills]] · [[skill-trigger-tuning]] ·
 [[token-context-management]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]] ·
-[[skill-audit-networking-prep]].
+[[skill-audit-networking-prep]] · [[skill-audits-2026]] (running audit log — subsequent skills audited there).

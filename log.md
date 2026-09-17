@@ -1185,45 +1185,14 @@ Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
 
-<<<<<<< HEAD
-## [2026-09-08] query | Prep — Kelli Luginbuhl: Duke vs. JHU innovation ecosystems
-Cole prepping a conversation with [[Kelli Luginbuhl]] on Duke vs. JHU innovation ecosystems, with
-concrete examples. Filed the answer as **[[kelli-luginbuhl-call-prep]]** (4 beats: JHTV as
-capital-first tech transfer vs. Duke · the DSAI institute + JHTV's DS/AI TF track · Cole's
-[[vc-matching-second-brain|VC-matcher]] · postgrad = joining ATP operator-first). Two new entity
-pages created from Cole's inputs + web research: **[[dsai-institute]]** (JHU Data Science & AI
-Institute — 80-faculty cluster hire, 30 Bloomberg Distinguished Profs, Demonstration Projects
-grants $100k/yr×2→5, + JHTV's new DS/AI translational-funding track; sources: ai.jhu.edu,
-engineering.jhu.edu, hub.jhu.edu) and **[[athletic-training-portal]]** (ATP — the startup Cole is
-joining post-grad as an early operator; stub, needs product/stage/role detail). Enriched
-[[translational-funding]] (DS/AI track), the [[JHTV]] + [[Job Search]] buckets, [[Kelli Luginbuhl]]
-CRM, and root index.
+## [2026-09-13] autoresearch | Weekly AutoResearch run — skill audit batch + evals-for-taste enrichment
 
-## [2026-09-08] ingest | The Business of Science (I&E 710) syllabus — Kelli & Doug's class
-Cole asked to fold "what he learned from Kelli" into the prep; flagged the **valley of death** as
-the most useful concept and asked what else was helpful. Ingested the Spring 2026 syllabus
-([[business-of-science-syllabus-spring2026]], copied to `raw/Processed/`). New concept pages:
-**[[valley-of-death]]** (the lab→market funding gap that [[translational-funding]] bridges — Cole's
-#1) and **[[technology-commercialization]]** (full framework map: stakeholder landscape &
-misaligned incentives, commercialization phases, TTOs & SBIR/STTR, transactional intelligence,
-tech/market/execution risk, H5W brief, AI invention-disclosure scouting = the manual version of his
-[[vc-matching-second-brain|matcher]]). Enriched [[kelli-luginbuhl-call-prep]] (new "§0 What you
-learned in her class"), [[Kelli Luginbuhl]] CRM, and [[translational-funding]]; added index entries.
-Also **resolved a git merge conflict** in index.md (kept both [[ply]] and [[athletic-training-portal]]).
-Open q for Cole: exact definition of the course's **H5W framework**.
-
-## [2026-09-09] query | How the Duke innovation ecosystem is actually set up
-Cole asked to research the Duke side so the JHU-vs-Duke comparison is concrete on both ends. Web
-research (Duke OTC, Duke Capital Partners, Duke I&E, CTSI/MEDx). Finding: **Duke runs a distributed,
-federated ecosystem of 4 separate pillars — not JHTV's single integrated "front door."** New pages:
-concept **[[duke-innovation-ecosystem]]** (the synthesis + a JHU-vs-Duke comparison table) and
-entities **[[duke-otc]]** (Robin Rasor; FY23 15 startups / $102M), **[[duke-capital-partners]]**
-(ex-Duke Angel Network; $105M+/60+ cos; top-5 university investor in NA), **[[duke-ie]]** (Bullpen /
-Foundry / Co-Lab; where Kelli teaches), **[[duke-ctsi-medx]]** (medical translational engine).
-Key structural insight: Duke's capital function is an **affiliated alumni-angel network (DCP)**,
-where JHU's is a **staff capital-strategy team** inside tech transfer — the whitespace Cole's
-[[vc-matching-second-brain|matcher]] addresses. Enriched [[kelli-luginbuhl-call-prep]] §1 (concrete
-Duke-side facts + the insight to voice), [[Robin Rasor]] CRM, and index.
+**Phase 0:** HEALTH_DEBT=0 (orphans:0, missing_from_index:0, stale_claims:0). Pre-existing defect set empty.
+**Phase 1:** Fast-track skip — no pre-existing debt to heal; results.tsv logged.
+**Phase 2 build (autoresearch/night-2026-09-13):** Applied skill-authoring-playbook 6-section checklist to `orchestrate-agents`, `wiki-query`, `vault-autoresearch`; all three clean (no structural fixes needed). Created [[skill-audits-2026]] audit log + updated [[skill-audit-worked-example]] with cross-link. Updated index.md.
+**Phase 3:** HEALTH_DEBT=0 after build (no build-introduced debt). Updated tasks/index.md progress note for "Improve + general skills."
+**Phase 4 MODE B:** Enriched [[evals-for-taste]] source page with a vault-skill application section connecting the evals-for-taste pattern to the skill audit work; added reciprocal backlinks to skill-authoring-playbook, writing-reliable-skills, skill-audit-worked-example, skill-audits-2026, llm-as-judge, vault-autoresearch.
+**Phase 5:** Morning PR opened (autoresearch/night-2026-09-13 → main).
 
 ## [2026-09-12] ingest | affaan-m/ECC — the agent harness operating system (README)
 Cole added the ECC repo README to `raw/assets/` and asked what it teaches about Claude Code beyond his
@@ -1242,7 +1211,46 @@ recipes + the v2.1 plugin `hooks.json` double-fire gotcha), **[[agent-security-r
 entity (harness-framework layer) and the **[[Claude Mastery]]** bucket; added index entries. Flagged
 follow-up sources to clip next: ECC's Longform/Security/Shorthand guides (Longform = most implementable).
 Moved the source to `raw/Processed/`.
-=======
+
+## [2026-09-09] query | How the Duke innovation ecosystem is actually set up
+Cole asked to research the Duke side so the JHU-vs-Duke comparison is concrete on both ends. Web
+research (Duke OTC, Duke Capital Partners, Duke I&E, CTSI/MEDx). Finding: **Duke runs a distributed,
+federated ecosystem of 4 separate pillars — not JHTV's single integrated "front door."** New pages:
+concept **[[duke-innovation-ecosystem]]** (the synthesis + a JHU-vs-Duke comparison table) and
+entities **[[duke-otc]]** (Robin Rasor; FY23 15 startups / $102M), **[[duke-capital-partners]]**
+(ex-Duke Angel Network; $105M+/60+ cos; top-5 university investor in NA), **[[duke-ie]]** (Bullpen /
+Foundry / Co-Lab; where Kelli teaches), **[[duke-ctsi-medx]]** (medical translational engine).
+Key structural insight: Duke's capital function is an **affiliated alumni-angel network (DCP)**,
+where JHU's is a **staff capital-strategy team** inside tech transfer — the whitespace Cole's
+[[vc-matching-second-brain|matcher]] addresses. Enriched [[kelli-luginbuhl-call-prep]] §1 (concrete
+Duke-side facts + the insight to voice), [[Robin Rasor]] CRM, and index.
+
+## [2026-09-08] ingest | The Business of Science (I&E 710) syllabus — Kelli & Doug's class
+Cole asked to fold "what he learned from Kelli" into the prep; flagged the **valley of death** as
+the most useful concept and asked what else was helpful. Ingested the Spring 2026 syllabus
+([[business-of-science-syllabus-spring2026]], copied to `raw/Processed/`). New concept pages:
+**[[valley-of-death]]** (the lab→market funding gap that [[translational-funding]] bridges — Cole's
+#1) and **[[technology-commercialization]]** (full framework map: stakeholder landscape &
+misaligned incentives, commercialization phases, TTOs & SBIR/STTR, transactional intelligence,
+tech/market/execution risk, H5W brief, AI invention-disclosure scouting = the manual version of his
+[[vc-matching-second-brain|matcher]]). Enriched [[kelli-luginbuhl-call-prep]] (new "§0 What you
+learned in her class"), [[Kelli Luginbuhl]] CRM, and [[translational-funding]]; added index entries.
+Also **resolved a git merge conflict** in index.md (kept both [[ply]] and [[athletic-training-portal]]).
+Open q for Cole: exact definition of the course's **H5W framework**.
+
+## [2026-09-08] query | Prep — Kelli Luginbuhl: Duke vs. JHU innovation ecosystems
+Cole prepping a conversation with [[Kelli Luginbuhl]] on Duke vs. JHU innovation ecosystems, with
+concrete examples. Filed the answer as **[[kelli-luginbuhl-call-prep]]** (4 beats: JHTV as
+capital-first tech transfer vs. Duke · the DSAI institute + JHTV's DS/AI TF track · Cole's
+[[vc-matching-second-brain|VC-matcher]] · postgrad = joining ATP operator-first). Two new entity
+pages created from Cole's inputs + web research: **[[dsai-institute]]** (JHU Data Science & AI
+Institute — 80-faculty cluster hire, 30 Bloomberg Distinguished Profs, Demonstration Projects
+grants $100k/yr×2→5, + JHTV's new DS/AI translational-funding track; sources: ai.jhu.edu,
+engineering.jhu.edu, hub.jhu.edu) and **[[athletic-training-portal]]** (ATP — the startup Cole is
+joining post-grad as an early operator; stub, needs product/stage/role detail). Enriched
+[[translational-funding]] (DS/AI track), the [[JHTV]] + [[Job Search]] buckets, [[Kelli Luginbuhl]]
+CRM, and root index.
+
 ## [2026-08-30] autoresearch | AutoResearch night (Sunday weekly run)
 Full six-phase loop on branch `autoresearch/night-2026-08-30`. **Phase 1 build:** ran the
 [[skill-authoring-playbook]] checklist against the `networking-prep` skill (2nd worked example on
@@ -1256,7 +1264,6 @@ host/client/server architecture, the tools/resources/prompts primitives, stdio +
 transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
 extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
 → one morning PR. Baseline debt 16 → final 0.
->>>>>>> origin/autoresearch/night-2026-08-30
 
 ## [2026-09-14] ingest | NEUROSCI 206L — Auditory System (Week 4, Ch 10)
 Cole prepping for his Wk4 auditory class. Ingested two PDFs (Prof [[Leonard White]]): the **tutorial notes** (10 pp)
@@ -1283,8 +1290,7 @@ outreach messages, and a reusable answer bank for future applications.
   [[uship]], [[jhtv]], [[andrej-karpathy]], [[duke-innovation-ecosystem]], [[outreach-kit]].
 - Flags raised: (1) verify "Amy Linane" / "Amy Wyron Robinson" name spellings + titles; (2) DoD/SBIR
   is a private verifiable claim; (3) ATP join-vs-invest conflict of interest; (4) May 2027 graduation
-  vs. DRF ">1 year remaining" eligibility. Also noticed a stray git merge-conflict marker in index.md
-  (>>>>>>> origin/autoresearch/night-2026-08-30, ~line 245) worth cleaning in a future lint.
+  vs. DRF ">1 year remaining" eligibility. Stray git conflict marker in index.md cleaned in this merge.
 
 ## [2026-09-14] CRM | Christian McGrew (DRF Managing Partner)
 Added [[Christian McGrew]] — Managing Partner at [[dorm room fund|Dorm Room Fund]], Cole's key
