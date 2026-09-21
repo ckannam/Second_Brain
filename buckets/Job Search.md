@@ -56,6 +56,9 @@ writes new company notes for the triage.
 - [[flourish]] — Bezos-backed ($500M/$2.5B), brain-inspired AI (Cortex AI); warmest path = [[jhtv]] (cofounder Joshua Vogelstein is JHU faculty) + [[catalio-capital]] (Baltimore; Flourish backer).
 - [[catalio-capital]] — neuro/science VC; second warm route.
 
+## Key targets — biopharma operator lane
+- [[roivant]] — NYC biopharma that builds a family of drug-development subsidiaries ("Vants"). Live target = its **Rotational Analyst Program** (2yr, four 6-month rotations, ~$100k, NYC). Cole's two-lens fit: reads the science (Neuro + pre-med) and evaluates company/capital ([[jhtv]]). Outreach contact: [[Sophie Katz]] (LinkedIn DM, Sept 2026). ⚠️ Confirm the current cycle's graduation window fits May 2027.
+
 ## Knowledge (wiki)
 - Future of work / jobs in the AI era: [[future-of-work-claude-tag]], [[the-capability-curve]], [[ai-native-enterprise-scale]], [[running-ai-native-engineering-org]], [[natural-language-coding]]. _(Useful for positioning.)_
 

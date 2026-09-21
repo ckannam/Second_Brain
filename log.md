@@ -1342,3 +1342,14 @@ tracts; VPC thalamus → parieto-insular vestibular cortex (multimodal) + motion
 source pages [[neurosci-206-vestibular-tutorial-notes]] + [[neurosci-206-vestibular-deck]]. Updated index.md (knowledge
 + sources), coursework/index.md status. Raw DOCX + PPTX copied to raw/Processed. Also produced a live 25-min study
 primer for Cole in-chat (not filed as a page — it's the same content as the knowledge note).
+
+## [2026-09-21] ingest | Roivant Sciences (Rotational Analyst target)
+Researched Roivant Sciences (roivant.com/about/company + web) for Cole's job search.
+Created entity [[roivant]] (the "Vant" subsidiary model; 9 FDA approvals; VTAMA/LISRAYA;
+the 2yr / four-6-month-rotation Rotational Analyst Program, ~$100k, NYC, GPA 3.5+, no visa
+sponsorship — eligibility flagged as a snapshot to verify). Framed Cole's two-lens fit
+(Neuro/pre-med reads the science × [[jhtv]] capital-strategy evaluates company/capital ×
+[[uship]] operator). Added CRM [[Sophie Katz]] (LinkedIn outreach contact, role TBD) +
+crm/index. Linked from [[Job Search]] (new biopharma operator lane) and [[index]]. Outreach
+DM reuses the [[Christian McGrew]]/[[dorm room fund|DRF]] structure. ⚠️ Confirm current-cycle
+graduation window fits May 2027; confirm Sophie's exact title.
