@@ -1327,3 +1327,18 @@ Phase1 <30mo, Rentosertib positive Phase 2), the big validation deals (Lilly-Ins
 Lilly-Isomorphic $1.75B), and the key companies (Isomorphic ~$20B, Insilico, Recursion, Xaira, insitro,
 Genesis/Chai). Tied to [[valley-of-death]] + [[jhtv]]. Left a stub for Cole's specific summer company.
 Linked from [[vc-interview-prep]], [[vc-investor-applications]], index.md.
+
+## [2026-09-21] ingest | NEUROSCI 206L Week 5 — Vestibular System (Ch 11)
+Ingested Cole's Wk5 [[neurosci-206]] materials — tutorial notes (DOCX) + student lecture deck (28-slide PPTX),
+Prof [[Leonard White]]. Built knowledge note [[neurosci-206-vestibular-system]] covering the 5 Key Concepts
+(11.1–11.5): inner-ear inertial sensor; **shared hair-cell transduction with the auditory system** (endolymph/
+perilymph, CN VIII, Scarpa's ganglion); otolith organs (utricle=horizontal/saccule=vertical) sensing tonic tilt +
+linear accel via otoconia across the striola; semicircular canals sensing rotational **acceleration not velocity**
+via the cupula, in push-pull pairs; central vestibular nuclei → VOR circuit (vestibular nucleus → contralateral
+abducens → MLF → oculomotor) + nystagmus; lateral (ipsilateral extensor) vs medial (bilateral neck) vestibulospinal
+tracts; VPC thalamus → parieto-insular vestibular cortex (multimodal) + motion-sickness/autonomic hook; 3 study Qs
+(answers C&E / B / B). **Connection pass:** wired reciprocal "mechanism twin" links with [[neurosci-206-auditory-system]]
+(they share the identical hair-cell transduction — study together); added Wk5 row + RA task + sources to the course hub;
+source pages [[neurosci-206-vestibular-tutorial-notes]] + [[neurosci-206-vestibular-deck]]. Updated index.md (knowledge
++ sources), coursework/index.md status. Raw DOCX + PPTX copied to raw/Processed. Also produced a live 25-min study
+primer for Cole in-chat (not filed as a page — it's the same content as the knowledge note).

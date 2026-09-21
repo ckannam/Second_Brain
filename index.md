@@ -401,6 +401,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurosci-206]] — course hub (Profs White & Yin): TBL format, 60/40 grading, 15-week schedule, key dates, resources (Lt/Sylvius).
 - [[neurosci-206-human-neuroanatomy]] — Wk1: systems-neuro definition, CNS/PNS divisions, neurodevelopment (neural tube → vesicles → adult brain), neurons/glia, gray/white matter, lobes & sulci, ventricles, meninges, arterial supply, anatomical axes & planes.
 - [[neurosci-206-auditory-system]] — Wk4 (Ch 10): sound as pressure wave; ear→cochlea air-to-fluid + basilar-membrane tonotopy (base=high/apex=low); hair-cell K⁺ transduction; OHC cochlear amplifier + otoacoustic emissions; ascending pathway (cochlear nuclei → SOC → IC → MGC → cortex); MSO/timing vs LSO/intensity localization; core/belt cortex + Wernicke's; McGurk & coordinate-frame problem; 5 study Qs.
+- [[neurosci-206-vestibular-system]] — Wk5 (Ch 11): inner-ear inertial sensor; shared hair-cell transduction w/ auditory (twin); otoliths (utricle/saccule) = otoconia sensing tonic tilt + linear accel; semicircular canals = cupula sensing rotational **acceleration not velocity** in push-pull pairs; central vestibular nuclei; **VOR** circuit (abducens↔oculomotor via MLF) + nystagmus; lateral (ipsilateral extensor) vs medial (bilateral neck) vestibulospinal tracts; parieto-insular vestibular cortex + motion-sickness hook; 3 study Qs.
 
 ### Neuro channel (venture)
 - [[neuro-production-pipeline]] — design: automate producing + storing Neuro videos (spec = source of truth, MP4 = artifact).
@@ -449,6 +450,8 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurosci-206-first-class-human-brain]] — Week 1 first-class deck (51 slides): course orientation + human-brain anatomy foundations.
 - [[neurosci-206-auditory-tutorial-notes]] — Wk4 tutorial-notes handout (10 pp): Ch 10 outline of Key Concepts 10.1–10.9 + learning objectives + 5 study Qs w/ answer key.
 - [[neurosci-206-auditory-deck]] — Wk4 lecture deck (35 slides): the figure companion (ear/cochlea/organ-of-Corti, pathway, MSO/LSO, cortex, McGurk).
+- [[neurosci-206-vestibular-tutorial-notes]] — Wk5 tutorial-notes handout (DOCX): Ch 11 outline of Key Concepts 11.1–11.5 + learning objectives + 3 study Qs w/ answer key.
+- [[neurosci-206-vestibular-deck]] — Wk5 lecture deck (28 slides): the figure companion (labyrinth, otolith maculae, cupula/canals, VOR, vestibulospinal tracts, ascending pathway).
 
 ### Job search — target intel
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.

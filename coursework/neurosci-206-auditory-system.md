@@ -144,7 +144,10 @@ Two complementary codes (recap of 10.2–10.3):
 5. **First structure with selectivity for spectral+temporal combinations?** → **Medial geniculate complex (MGC)** (F).
 
 ## Links
-Course: [[neurosci-206]] · unit sibling: [[neurosci-206-human-neuroanatomy]] (Wk1 anatomy vocabulary — temporal
+Course: [[neurosci-206]] · **mechanism twin:** [[neurosci-206-vestibular-system]] (Wk5) — the vestibular labyrinth
+uses the **identical hair-cell transduction** taught here in §10.3 (bend toward tallest → K⁺-influx depolarization;
+endolymph/perilymph; CN VIII; ganglion→brainstem arc), just driven by head motion instead of sound. Study the two
+together. · unit sibling: [[neurosci-206-human-neuroanatomy]] (Wk1 anatomy vocabulary — temporal
 lobe, brainstem, thalamus). **fMRI overlap:** [[neuroanatomy-landmarks]] (Heschl's gyrus = primary auditory cortex;
 inferior colliculus = subcortical auditory station) — the same landmarks 206 teaches functionally. Broader:
 [[neuroscience-of-behavior]]. Sources: [[neurosci-206-auditory-tutorial-notes]], [[neurosci-206-auditory-deck]].

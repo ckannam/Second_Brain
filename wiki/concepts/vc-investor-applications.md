@@ -21,7 +21,8 @@ person), respect word limits. See [[dorm room fund]].
 | Contrary Capital | Venture Partner (Duke) | Rolling, Sept 13 final | **Applied** |
 | ShangBay Capital | Intern | rolling (interest form) | **Applied** |
 | Catalyst | (VC/fellowship) | TBD | Drafted (confirm if submitted) |
-| Bessemer (BVP) | Fellowship / Summer Analyst | rolling | In process (sessions coming up) |
+| Bessemer (BVP) | Full-time Analyst | rolling | **Applied 2026-09-20** |
+| Tactile | Analyst | TBD | In process (Q1 done, pitch drafted 2026-09-21) |
 
 **Pipeline to still hit** (see [[Job Search]] shortlist): Kleiner Perkins Fellows (~late Jan),
 8VC Fellowship, Vertex Ventures Healthcare Fellowship, 5AM Ventures Fellowship, [[catalio-capital]]
@@ -96,6 +97,49 @@ I am plugged into two startup ecosystems at once, which is how I come across fou
 Everyday Robotics (Johns Hopkins). What excites me most is the founders. Victor Nikhil Antony, a JHU computer science PhD, has created a suite of social robots deployed in real classrooms, and cofounded the company with Andrés de la Sierra Renier, who brings the business side from J.P. Morgan. Together they are a relentless technical builder paired with a real operator. They build LLM powered robots, starting with one that helps children learn to read in Baltimore schools. They won JHU's 2026 President's Venture Fellowship and Blaze Award, through JHTV, where I worked this summer. Barely a third of Baltimore City students read at grade level, the lowest rate in Maryland. Places with this much need are where new innovation like embodied AI gets adopted fastest, because the demand already exists. At this stage a team that can pivot matters more than any idea, and having met both, I am confident this one will.
 
 Athletic Training Portal (Duke). Their app records an athlete running, steps frame by frame through the footage to pull joint angle data, then builds a clear picture of mobility, form, rehab, and performance for coaches and PTs to predict injuries before they happen. They are already contracted with Duke football, but sports is the proof of concept for a bigger target that is not yet public, DoD contracts through SBIR. CEO Jaylen Coleman is a Duke football and BME grad building alongside undergrad and grad founders I know and trust. Getting in before the defense jump is the bet I would take.
+
+---
+
+## Bessemer (BVP) — Full-time Analyst (submitted 2026-09-20)
+
+Three written answers (1000 char each) + a ~1 min "why Bessemer" video. Built off Bessemer's own
+roadmaps (Cole ingested six: Reinventing Life Sciences with AI, Healthcare AI, Built World AI, AI
+Infrastructure Five Frontiers 2026, Defense Tech 2026). Core POV threaded through everything: **AI-native
+challengers eat labor/seat-based incumbents by owning an entire vertical workflow end to end** (services-as-software).
+*(Answers below are the final drafts; if Cole tweaked wording at submit, reconcile here. Q1/Q3 endings were
+"A" variants.)*
+
+**Q1 — lived experiences → how you think about tech/entrepreneurship (999 char):**
+> I finished the entire pre med track knowing I would probably never use it because it was fascinating to me but mainly because it is hard. I have run University Shipping, a six figure company, through three years of full course loads for the same reason. I never framed my path around an industry or a single goal, I have framed it around challenges, because no matter the next step, the ability to equip yourself with and apply new skills is what college is really for. The trick is finding something you love enough that the difficulty is the draw and finishing it is reward enough, so you are never working for the payoff.
+>
+> That belief is how I now think about founders. What a founder needs most is the will to keep choosing hard problems long before anyone rewards them for it. That trait is rare but easy to spot once you have seen it yourself. Without this nothing else matters, and I believe I am uniquely positioned to diagnose it.
+
+**Q2 — industry trend + why + one early-stage startup (999 char):**
+> The trend I care about most is owning, end to end, industries that stay inefficient because too many stakeholders with misaligned incentives must cooperate to move. Two giants fit, healthcare and the built world. Bessemer pegs US real estate at 4.2 trillion dollars SaaS barely touched, and healthcare at over 1 trillion wasted yearly on administration alone. The friction you could remove is astronomical. I got closest to healthcare on the capital strategy team at Johns Hopkins Technology Ventures. Its incumbents were founded in the 1960s and still hold 70 percent plus share, having survived the data and SaaS waves. Multimodal LLMs will finally hit them at the core. This is no longer about drug discovery models like Insilico or Isomorphic controlling one stage. It is the layer above that owns discovery, development, manufacturing, and commercialization, breaking the silos each stage lives in. Perceptic, an AI operating system for drug development, does exactly that.
+
+**Q3 — peer with founder potential (optional, 945 char):**
+> Carson Eisner is the most recent person I hired to my University Shipping team. He is the youngest in every room and still the one pushing back on our assumptions, always asking if there is a better way. This summer we built the University Shipping operating system together, the engine behind our expansion. We reached Columbia this fall after failed attempts at UNC and Richmond, and this system is why the next campuses will stick. Building it, we noticed something. Productivity is rarely capped by a model's intelligence. It is capped by the context the model has to work with. Bessemer agrees, and is backing companies solving exactly that in a frontier it named harness infrastructure. So we built our own vector vault, inspired by Andrej Karpathy, to expand our context and our output. Carson does not just ask if there is a better way, he builds it. That is the founder instinct in its purest form, and he already has it as a sophomore.
+
+**Video script — why Bessemer + what I hope to learn (~1 min, ~153 words):**
+> Hi, I am Cole Kannam. In a moment this uncertain, you find trends first and back the founders who prove them right. Healthcare makes a third of the world's data and wastes almost all of it. You backed Abridge to capture the richest new stream, the doctor patient conversation, and SmarterDx to reclaim the value buried in old records. But I want to do that next. In your 2026 AI infrastructure roadmap, the frontier I believe in most is world models. As AI leaves the screen for the physical world, it needs intuition, the same problem a brain without a body would face. You backed Mind Robotics to build exactly that, and I think it becomes the next Abridge. That skill, to diagnose the future in ambiguity and make it real through the best founders, is what I most want to learn. I cannot imagine a better place to learn it than Bessemer.
+
+**Verified Bessemer portfolio companies used (interview-prep facts):**
+- **Abridge** — clinical documentation; BVP Series A 2020, holds ~14.5%. Category-definer.
+- **SmarterDx** — hospital revenue integrity from a hospital's own charts; BVP investor (Series B 2024).
+- **Mind Robotics** — generalized physical intelligence / world models; BVP (partner Talia Goldberg).
+- **Graph AI** — AI drug safety / pharmacovigilance; **BVP led the seed** (proof the life-sciences services thesis is BVP-validated; cite as their bet, not Cole's sourcing).
+- **Perceptic** (Cole's Q2 pick) — AI OS for drug development; **$12M seed led by Accel (May 2026), Pre-Series A**; ex-Palantir team (Tilman Flock CEO, Zaki Trache, Martin Copes); customer CSL. NOT a BVP company.
+- Not BVP, do not claim as backed: **Anduril, Saronic, World Labs, Insilico, Isomorphic**.
+
+## Tactile — Analyst (in process, drafted 2026-09-21)
+
+Word limits here are **words, not chars** (150 word max each). Same style rules, no Bessemer wording.
+
+**Q1 — industry/trend you're interested in and why (150 words):**
+> The trend I care about most is owning, end to end, industries that stay inefficient because too many stakeholders with misaligned incentives must cooperate to move. Two giants fit, healthcare and the built world. US real estate is a 4.2 trillion dollar market SaaS barely touched, and healthcare wastes over 1 trillion a year on administration alone. The friction you could remove is astronomical. I got closest to healthcare on the capital strategy team at Johns Hopkins Technology Ventures. Its main incumbents were founded decades ago and still hold 70 percent share, having survived the data and SaaS waves. What excites me is that multimodal LLMs are the first thing in half a century to truly threaten them. This is no longer about drug discovery models like Insilico or Isomorphic controlling one stage. It is the layer above that owns discovery, development, manufacturing, and commercialization. Perceptic is doing exactly that.
+
+**Q2 — pitch a Pre-Series A startup in that industry you'd personally invest in (146 words):**
+> Perceptic, the AI operating system for drug development. I would invest because it is the clearest bet on the layer above, not another single stage tool. Three ex Palantir leaders, led by Tilman Flock who spent seven years building Palantir's life sciences platform, are doing for pharma what Palantir did for enterprises, unifying the evidence, data, and decisions that today sit siloed across discovery, development, and trials. That wedge is almost impossible to copy, because it needs both deep drug development context and the rare experience of shipping enterprise AI into it. The proof is already here. Top tier pharma like CSL use it, and Accel led a 12 million dollar seed. Pharma spends over 150 billion dollars a year on this fragmented work, and multimodal AI is the first thing that can finally own it end to end. This is the team that does it.
 
 ---
 

@@ -46,12 +46,13 @@ sensory testing) and produce a **team Lab Report**.
 - **Drop policy:** ~13 RAs + 13 lab reports administered; **top 10 of each count** (lowest 3 dropped, incl. any zeros from missed sessions). Missed labs can't be made up.
 
 ## The material — knowledge base (by week/topic)
-Durable course knowledge lives in atomic per-topic notes. **Week 1 (ingested 2026-08-26); Week 4 (ingested 2026-09-14).**
+Durable course knowledge lives in atomic per-topic notes. **Week 1 (ingested 2026-08-26); Week 4 (2026-09-14); Week 5 (2026-09-21).**
 
 | Week/Topic | Knowledge note | Status |
 |---|---|---|
 | **Wk 1 — Human brain & systems-neuro foundations** | [[neurosci-206-human-neuroanatomy]] | ✅ built |
 | **Wk 4 — Auditory system (Ch 10)** | [[neurosci-206-auditory-system]] | ✅ built |
+| **Wk 5 — Vestibular system (Ch 11)** | [[neurosci-206-vestibular-system]] | ✅ built |
 
 **Full arc** (textbook = *Neuroscience* 7e; chapters below). Notes added as materials land:
 - **Unit 1 — Sensation** (before fall break): Wk2 sensory-system principles (Ch 1) · Wk3 Visual (Ch 9) · Wk4 Auditory (Ch 10) · Wk5 Vestibular (Ch 11) · Wk6 Somatosensory (Ch 12–13) · Wk7 Olfaction/Taste (Ch 14–15).
@@ -63,6 +64,7 @@ Weekly cadence — **Wed Readiness Assurance** + **Thu/Fri Lab Report** (both gr
 - [ ] **Wk 1 reading:** *Neuroscience* 7e — **Appendix: Survey of Human Neuroanatomy**
 - [ ] **Wk 1 lab:** Visible human brain anatomy via **Lt software** + real specimens (preview the protocol; RA may test it)
 - [ ] **Wk 4 — Auditory system (Ch 10)** — study [[neurosci-206-auditory-system]] for the Wed RA (9 Key Concepts 10.1–10.9 + the 5 study Qs)
+- [ ] **Wk 5 — Vestibular system (Ch 11)** — study [[neurosci-206-vestibular-system]] for the Wed RA (5 Key Concepts 11.1–11.5 + the 3 study Qs; **shares hair-cell transduction with Wk4 — study them together**)
 - Closed-toed shoes required for any lab with specimen contact (gloves provided).
 
 ## Key dates
@@ -72,7 +74,7 @@ Weekly cadence — **Wed Readiness Assurance** + **Thu/Fri Lab Report** (both gr
 - **Comprehensive final exam** — **Sun Dec 13, 7:00–10:00 PM**
 
 ## Resources
-- **Sources ingested:** [[neurosci-206-syllabus-fall-2026]] · [[neurosci-206-first-class-human-brain]] · [[neurosci-206-auditory-tutorial-notes]] · [[neurosci-206-auditory-deck]] (raw PDFs in `raw/Processed/`).
+- **Sources ingested:** [[neurosci-206-syllabus-fall-2026]] · [[neurosci-206-first-class-human-brain]] · [[neurosci-206-auditory-tutorial-notes]] · [[neurosci-206-auditory-deck]] · [[neurosci-206-vestibular-tutorial-notes]] · [[neurosci-206-vestibular-deck]] (raw files in `raw/Processed/`).
 - **Textbook:** *Neuroscience*, **7th Ed.** (Oxford UP), by course faculty. Cheapest: used **4th–6th ed ~$15** (syllabus says earlier editions are fine). Or **Oxford Insight** digital ($85/6mo — includes Sylvius + animations + quizzes), hardcover $129–200, ebook $85. "Required" is in quotes — passable on lectures + labs + free resources.
 - **Sylvius 4 Online** (digital CNS atlas) — **FREE for Duke** (in Oxford Insight or via Canvas).
 - **Lt** (ADInstruments **Lt**, formerly "Lessons") — the browser-based physiology-lab platform the course records experiments in (nerve conduction, EMG, EOG, sensory testing on teammates). Pre-built guided lessons where you collect live physiological signals (often via ADInstruments PowerLab hardware + sensors in the teaching lab) and answer questions inline → becomes the Lab Report. **FREE for Duke**; join *this course's* Lt collection via the **Canvas** Week 0 / Getting-Started link. Cloud-based, no standalone install.
