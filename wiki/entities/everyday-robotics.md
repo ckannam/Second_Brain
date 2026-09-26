@@ -27,7 +27,9 @@ complete, complementary founding team, which is a strong early-stage signal.
 
 ## Traction & recognition
 - Won JHU's **2026 President's Venture Fellowship and Blaze Award** (run through [[jhtv]] — the
-  award Cole's summer team touches, which is how it came onto his radar).
+  award Cole's summer team touches, which is how it came onto his radar). Blaze is one of JHTV's
+  non-dilutive [[translational-funding]] programs, so this is the vault's recorded translational-funding
+  recipient from Cole's tenure.
 - Real classroom deployments (not lab demos) generating interaction data no dataset can replicate.
 
 ## Why it's an investable DRF pick

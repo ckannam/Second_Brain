@@ -1353,3 +1353,10 @@ sponsorship — eligibility flagged as a snapshot to verify). Framed Cole's two-
 crm/index. Linked from [[Job Search]] (new biopharma operator lane) and [[index]]. Outreach
 DM reuses the [[Christian McGrew]]/[[dorm room fund|DRF]] structure. ⚠️ Confirm current-cycle
 graduation window fits May 2027; confirm Sophie's exact title.
+
+## [2026-09-24] query | Who won translational funding during Cole's JHTV tenure?
+Answer: **[[everyday-robotics|Everyday Robotics]]** (JHU spinout, LLM reading robots in Baltimore
+schools) won JHU's 2026 President's Venture Fellowship + Blaze Award — Blaze being one of JHTV's
+non-dilutive [[translational-funding]] programs. Only recipient recorded in the vault; not a full
+2026 winners list. Filed by enriching [[translational-funding]] (new "Recorded recipients" note) and
+making the link reciprocal from [[everyday-robotics]].

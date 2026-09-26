@@ -23,5 +23,11 @@ research grants but too unproven for VCs (a core concept from [[technology-comme
   commercialization escalator. Pairs with the Institute's own **Demonstration Projects** grants
   ($100k/yr × 2, extendable to 5). See [[dsai-institute]].
 
+## Recorded recipients (during Cole's JHTV tenure, summer 2026)
+- **[[everyday-robotics|Everyday Robotics]]** — JHU spinout (LLM-powered reading robots in Baltimore
+  schools) won JHU's **2026 President's Venture Fellowship** + **Blaze Award** (Blaze is one of the
+  non-dilutive programs above). The award Cole's team touches — how the company came onto his radar.
+  *This is the only recipient recorded in the vault so far; not a complete list of 2026 winners.*
+
 Complements equity funding (VCs) — see [[capital-strategy]] and [[vc-matching-second-brain]].
 Source: JHTV Translational Funding page (jhtv.org).
