@@ -44,6 +44,53 @@ and hands more of the loop to the agent.
 [[vault-autoresearch]] (git ratchet + a HEALTH_DEBT metric). The scheduled *source-seeking*
 rung remains open.
 
+## Source-seeking design (MODE C sketch — 2026-09-27)
+
+The self-healing + generative rungs are operational, but the vault still depends entirely on
+Cole to *supply* sources. The source-seeking rung closes that loop: the routine scans public
+surfaces, scores candidate sources against the vault's topic frontier, and proposes the
+highest-value ones in the morning PR for Cole to approve before anything is ingested.
+
+### What it seeks
+
+| Surface | Rationale |
+|---|---|
+| arXiv `cs.AI` + `q-bio` daily digest | Covers the hard-science side of Cole's topic clusters (spaced learning, neurotech, LLM architecture) |
+| HN front page + "Ask HN Who is Hiring" | Startup radar + AI tooling news; overlaps `startup-radar` skill but different signal (discourse, not just jobs) |
+| YouTube channel RSS for existing vault channels | New uploads by [[nate-herk]], [[andrej-karpathy]], [[sarah-guo]], [[the-economist]] etc. that the vault already references |
+| Newsletter issues (Substack RSS) | Next Play, a16z, Lenny's — already in the job-search orbit |
+
+### Scoring a candidate
+
+A source earns a score based on overlap with the vault's open frontier:
+1. **Topic match**: does it touch a concept already in the wiki with thin coverage (e.g. a 3-line stub) or a dangling `[[link]]` target? More overlap = higher score.
+2. **Freshness**: does it report something dated after the vault's most recent entry on that topic? Avoids re-ingesting ground already covered.
+3. **Novelty bonus**: does it introduce a concept, person, or organization *not yet in the vault* that passes the new-page test (`AGENTS.md` §Ingest)?
+4. **Cole-relevance filter**: hard filter — drop sources unrelated to Cole's active areas (Neuro, AI/LLM, Fulbright/entrepreneurship, Job Search, neuroscience).
+
+### Output
+
+The routine does **not** ingest autonomously. It proposes in the morning PR:
+```
+## Source-seeking proposals (MODE C)
+
+1. [arXiv 2509.XXXXX] "Title" — new claims on [[spacing-effect]] (thin page); adds the 2026 protocol update.
+2. [YouTube] New Nate Herk upload: "Claude Code X" — covers [[claude-code-hooks]] and a new pattern not yet in wiki.
+```
+Cole approves by merging the PR; the next run ingests approved proposals via the normal ingest
+workflow. This keeps the human in the sourcing loop while offloading the *scanning* step.
+
+### Implementation path (deferred to Cole)
+
+The design fits as a new **Phase 2.5** in `program.md` between Phase 2 (Build) and Phase 3
+(Write-back), running on the branch. Concretely: one `WebSearch`/`WebFetch` sweep per surface,
+scored against `score.py --json`'s dangling-links list + index topic set, top 2–3 proposals
+appended to the PR description. The scoring is heuristic (not `score.py`–verifiable), so it
+belongs in the review lane — exactly the right posture for content that needs a human eye.
+
+**Shipped 2026-09-27:** this design section. Implementation in `program.md` is deferred pending
+Cole's review (in the morning PR).
+
 ## The throughline
 
 Each rung is a step up the [[ai-second-brain-levels]] ladder — from a well-maintained manual

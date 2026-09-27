@@ -1353,3 +1353,20 @@ sponsorship — eligibility flagged as a snapshot to verify). Framed Cole's two-
 crm/index. Linked from [[Job Search]] (new biopharma operator lane) and [[index]]. Outreach
 DM reuses the [[Christian McGrew]]/[[dorm room fund|DRF]] structure. ⚠️ Confirm current-cycle
 graduation window fits May 2027; confirm Sophie's exact title.
+
+## [2026-09-27] autoresearch | Weekly AutoResearch — 2026-09-27 (Sunday run)
+
+**Phase 0:** HEALTH_DEBT = 0 at baseline (orphans 0, missing_from_index 0, stale_claims 0).
+Selected 2 @cloud items from `tasks/index.md`. Queue in `autoresearch/nightly-queue.md`.
+
+**Phase 1 (fast-track, main):** No-op — HEALTH_DEBT already 0; nothing to heal.
+
+**Phase 2 (build, branch `autoresearch/night-2026-09-27`):**
+1. *Improve + general skills:* Audited `wiki-query` SKILL.md against [[skill-authoring-playbook]] — §1–§4 clean, 2 recommendations logged (description third-person form; guardrails dedup), no structural fixes needed on wiki-query itself. As side-finding, applied the outstanding startup-radar path fix (absolute→relative) that was described but not persisted in [[skill-audit-worked-example]]. New page: [[skill-audit-wiki-query]].
+2. *Build source-seeking MODE B rung:* Added source-seeking design section to [[extending-the-llm-wiki]] — covers sweep surfaces, scoring heuristic, PR-proposal output format, and implementation path. Advances the task without unreviewed changes to `program.md`.
+
+**Phase 3 (build-heal, branch):** Fixed 1 build-introduced defect (`skill-audit-wiki-query` missing from `index.md`); HEALTH_DEBT 2→0.
+
+**Phase 4 (MODE B, branch):** Enriched [[proactive-agents]] from a 9-line stub to a full concept page (proactivity-spectrum table, mechanism, Anthropic first-party stack, vault instantiation, future rungs). Synthesis from [[claude-code-scheduled-tasks]], [[agent-memory]], [[ai-executive-assistant]], [[claude-tag]], [[vault-autoresearch]].
+
+**Phase 5:** Morning PR opened (branch → main).

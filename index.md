@@ -288,6 +288,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
 - [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill.
 - [[skill-audit-networking-prep]] — [[skill-authoring-playbook]] checklist applied to `networking-prep`; §1–§4 clean; step-numbering fix applied; §5 eval recommendations logged for Cole.
+- [[skill-audit-wiki-query]] — [[skill-authoring-playbook]] checklist applied to `wiki-query`; §1–§4 clean; two recommendations (description third-person form, guardrails dedup); startup-radar path fix applied as side-finding.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
