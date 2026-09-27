@@ -234,10 +234,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
-<<<<<<< HEAD
-- [[ply]] — NYC seed-stage vertical SaaS for trade contractors (HVAC/R, plumbing, electrical); ~$14.2M raised (Ferguson Ventures, Primary, SignalFire). Off Cole's health/bio tilt but strong Uship-operator overlap. Cole's contact: [[Ryan Berger]] (Head of Ops).
-- [[athletic-training-portal]] — **ATP**, the startup Cole is joining post-grad as an early operator (the operator-first bet from the [[five-year-plan]]). · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
-=======
+- [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
 
 ### Job-search targets — other lanes (see [[Job Search]])
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
@@ -251,7 +248,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[dorm room fund]] — Cole's application to be a student Investment Partner at **Dorm Room Fund** (deadline Sept 17, 2026). Holds all six polished answers, the two investment picks, the ≤200-char LinkedIn outreach messages, open verify-before-submit flags, and a **reusable answer bank** for future apps.
 - [[everyday-robotics]] — JHU spinout building LLM-powered social robots (kids-reading tabletop robot, deployed in Baltimore schools); founders [[Victor Nikhil Antony]] (JHU CS PhD, ELLA) + Andrés de la Sierra Renier (ex-J.P. Morgan). Cole's **JHU DRF pick.**
 - [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged).
->>>>>>> origin/autoresearch/night-2026-08-30
+- [[isomorphic-labs]] — **scale leader** of [[techbio-ai-drug-discovery|AI drug discovery]]: Alphabet/[[deepmind]] spinout on AlphaFold (CEO Demis Hassabis); ~$2.7B raised (incl. $2.1B Series B, May 2026, Thrive-led) + ~$3B Lilly/Novartis milestones; IsoDDE beats AlphaFold 3 on hard benchmarks; IND expected end-2026 (no human readout yet — Insilico is the *proof* leader). Cole's AI-bio category name-drop.
 
 ## Concepts
 
@@ -288,6 +285,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
 - [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill.
 - [[skill-audit-networking-prep]] — [[skill-authoring-playbook]] checklist applied to `networking-prep`; §1–§4 clean; step-numbering fix applied; §5 eval recommendations logged for Cole.
+- [[skill-audit-wiki-query]] — [[skill-authoring-playbook]] checklist applied to `wiki-query`; §1–§4 clean; two recommendations (description third-person form, guardrails dedup); startup-radar path fix applied as side-finding.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).

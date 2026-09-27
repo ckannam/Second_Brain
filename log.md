@@ -1185,7 +1185,20 @@ Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
 
-<<<<<<< HEAD
+## [2026-08-30] autoresearch | AutoResearch night (Sunday weekly run)
+Full six-phase loop on branch `autoresearch/night-2026-08-30`. **Phase 1 build:** ran the
+[[skill-authoring-playbook]] checklist against the `networking-prep` skill (2nd worked example on
+[[skill-audit-worked-example]]) — one safe fix: removed a baked, stale-prone lane snapshot from
+Step 1 that violated the skill's own Freshness principle; lane now read live from `five-year-plan.md`.
+Advances *Improve + general skills* ([[Claude Mastery]]). **Phase 3 self-heal:** drove HEALTH_DEBT
+16→0 — fixed the `startup-radar` orphan (reciprocal links from [[outreach-pipeline]] + [[Job Search]])
+and indexed 5 missing pages ([[startup-radar]], [[skill-audit-worked-example]], [[claude-api]],
+[[activate]], [[ply]]). **Phase 4 MODE B:** built the [[mcp]] stub (14 lines) into a full hub —
+host/client/server architecture, the tools/resources/prompts primitives, stdio + Streamable HTTP
+transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
+extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
+→ one morning PR. Baseline debt 16 → final 0.
+
 ## [2026-09-08] query | Prep — Kelli Luginbuhl: Duke vs. JHU innovation ecosystems
 Cole prepping a conversation with [[Kelli Luginbuhl]] on Duke vs. JHU innovation ecosystems, with
 concrete examples. Filed the answer as **[[kelli-luginbuhl-call-prep]]** (4 beats: JHTV as
@@ -1242,21 +1255,6 @@ recipes + the v2.1 plugin `hooks.json` double-fire gotcha), **[[agent-security-r
 entity (harness-framework layer) and the **[[Claude Mastery]]** bucket; added index entries. Flagged
 follow-up sources to clip next: ECC's Longform/Security/Shorthand guides (Longform = most implementable).
 Moved the source to `raw/Processed/`.
-=======
-## [2026-08-30] autoresearch | AutoResearch night (Sunday weekly run)
-Full six-phase loop on branch `autoresearch/night-2026-08-30`. **Phase 1 build:** ran the
-[[skill-authoring-playbook]] checklist against the `networking-prep` skill (2nd worked example on
-[[skill-audit-worked-example]]) — one safe fix: removed a baked, stale-prone lane snapshot from
-Step 1 that violated the skill's own Freshness principle; lane now read live from `five-year-plan.md`.
-Advances *Improve + general skills* ([[Claude Mastery]]). **Phase 3 self-heal:** drove HEALTH_DEBT
-16→0 — fixed the `startup-radar` orphan (reciprocal links from [[outreach-pipeline]] + [[Job Search]])
-and indexed 5 missing pages ([[startup-radar]], [[skill-audit-worked-example]], [[claude-api]],
-[[activate]], [[ply]]). **Phase 4 MODE B:** built the [[mcp]] stub (14 lines) into a full hub —
-host/client/server architecture, the tools/resources/prompts primitives, stdio + Streamable HTTP
-transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
-extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
-→ one morning PR. Baseline debt 16 → final 0.
->>>>>>> origin/autoresearch/night-2026-08-30
 
 ## [2026-09-14] ingest | NEUROSCI 206L — Auditory System (Week 4, Ch 10)
 Cole prepping for his Wk4 auditory class. Ingested two PDFs (Prof [[Leonard White]]): the **tutorial notes** (10 pp)
@@ -1353,3 +1351,26 @@ sponsorship — eligibility flagged as a snapshot to verify). Framed Cole's two-
 crm/index. Linked from [[Job Search]] (new biopharma operator lane) and [[index]]. Outreach
 DM reuses the [[Christian McGrew]]/[[dorm room fund|DRF]] structure. ⚠️ Confirm current-cycle
 graduation window fits May 2027; confirm Sophie's exact title.
+
+## [2026-09-27] autoresearch | Weekly AutoResearch — 2026-09-27 (Sunday run)
+
+**Phase 0:** HEALTH_DEBT = 0 at baseline (orphans 0, missing_from_index 0, stale_claims 0).
+Selected 2 @cloud items from `tasks/index.md`. Queue in `autoresearch/nightly-queue.md`.
+
+**Phase 1 (fast-track, main):** No-op — HEALTH_DEBT already 0; nothing to heal.
+
+**Phase 2 (build, branch `autoresearch/night-2026-09-27`):**
+1. *Improve + general skills:* Audited `wiki-query` SKILL.md against [[skill-authoring-playbook]] — §1–§4 clean, 2 recommendations logged (description third-person form; guardrails dedup), no structural fixes needed on wiki-query itself. As side-finding, applied the outstanding startup-radar path fix (absolute→relative) that was described but not persisted in [[skill-audit-worked-example]]. New page: [[skill-audit-wiki-query]].
+2. *Build source-seeking MODE B rung:* Added source-seeking design section to [[extending-the-llm-wiki]] — covers sweep surfaces, scoring heuristic, PR-proposal output format, and implementation path. Advances the task without unreviewed changes to `program.md`.
+
+**Phase 3 (build-heal, branch):** Fixed 1 build-introduced defect (`skill-audit-wiki-query` missing from `index.md`); HEALTH_DEBT 2→0.
+
+**Phase 4 (MODE B, branch):** Enriched [[proactive-agents]] from a 9-line stub to a full concept page (proactivity-spectrum table, mechanism, Anthropic first-party stack, vault instantiation, future rungs). Synthesis from [[claude-code-scheduled-tasks]], [[agent-memory]], [[ai-executive-assistant]], [[claude-tag]], [[vault-autoresearch]].
+
+**Phase 5:** Morning PR opened (branch → main).
+
+## [2026-09-27] autoresearch | Maintenance heal — resolved leftover merge-conflict markers
+Second concurrent Sunday run: found this branch (and `main`) still carried botched git merge-conflict markers from the night-2026-08-30 merge, in **index.md** and **log.md** (the other night-2026-09-27 run did not touch them). Resolved both as a union (no content invented or dropped): index.md keeps the fuller [[ply]] + [[athletic-training-portal]] entries and all VC/other-lane entries; log.md restores append-only chronological order (the 2026-08-30 autoresearch entry now sits between 08-27 and 09-08). score.py does not detect conflict markers, so this rides PR #28 for Cole to verify.
+
+## [2026-09-27] autoresearch | Phase 4 MODE B (2nd run) — new entity: Isomorphic Labs
+Second concurrent run's generative enrichment (distinct from the other run's [[proactive-agents]] MODE B): created [[isomorphic-labs]] (entity, job-search) — the **scale leader** named but page-less in [[techbio-ai-drug-discovery]], now its own linkable node. Web-grounded 2026-09-27: Alphabet/[[deepmind]] AlphaFold spinout (2021, CEO Demis Hassabis); ~$2.7B raised (incl. $2.1B Series B May 2026, Thrive-led) + ~$3B Lilly/Novartis committed milestones; IsoDDE ~50% vs AlphaFold 3's 23.3% on hardest protein-ligand benchmarks; late-preclinical candidates, ≥1 IND expected end-2026, first trials pushed to end-2026 (no human readout yet → Insilico stays the *proof* leader). Passes the new-page test; linked to techbio, [[insilico-medicine]], [[jhtv]], [[valley-of-death]], [[vc-interview-prep]], [[Job Search]]; added to index. Sources: Forbes/FierceBiotech, IntuitionLabs/StartupHub.ai, Fortune, Lilly/Novartis deal coverage.
