@@ -15,9 +15,9 @@ clear a bar someone has already set?" Built on the method in the sector-specific
 and the [[dorm room fund]] pick.
 
 > **Data note.** Figures below are web-sourced (Sept 2026) and cited inline; nothing is invented.
-> Cole is bringing **PitchBook** funding/valuation/comps for the private players separately —
-> treat the funding lines here as public-source placeholders to be replaced/confirmed. Duke's
-> Euromonitor / IBISWorld / Capital IQ and practitioner interviews are flagged as manual follow-ups.
+> **Funding/valuation for Zone7, Svexa, Kitman, Hudl, Teamworks is now confirmed from PitchBook**
+> (via Cole, Sept 2026 — see §3a); other private-player funding lines remain public-source placeholders.
+> Duke's Euromonitor / IBISWorld / Capital IQ and practitioner interviews are flagged as manual follow-ups.
 
 ---
 
@@ -67,8 +67,9 @@ mistake would be benchmarking only Ring 1.
 |---|---|---|
 | **1 — Direct: movement analysis / injury-risk AI** | [[Uplift Labs]], [[DARI Motion]], [[Kinetisense]], [[OpenCap]], [[Zone7]], [[Kitman Labs]], [[Svexa]] | Same job-to-be-done: "tell me who's at risk and what to change" from movement/biometric data |
 | **2 — Data-capture platforms moving up-stack** | [[Catapult]], [[Kinexon]], STATSports, Polar, Firstbeat, K-Sport/SPT | They own the sensor data + the team relationship and add analytics on top |
+| **2b — Athlete ops / video / engagement platforms (own the relationship)** | [[Teamworks]] ($1.5B, Durham NC), [[Hudl]] ($900M, video-to-insight), [[Kitman Labs]] (EMR) | Own the athlete record, video, and workflow — the layer that actually captures value & the realistic acquirers |
 | **3 — Consumer/prosumer wearables → teams** | [[WHOOP]], [[Oura]], Garmin, Apple | Win athletes directly; HRV/sleep/recovery commoditizing; build enterprise/team tiers |
-| **4 — Substitutes / status quo** | In-house sports scientists, Excel/R/Python, AMS (Teamworks, Smartabase/Fusion Sport, EDGE10), force plates (Hawkin), lab mocap (Theia, Simi), **[[OpenCap]] (free)** | "Do nothing new" is the most common competitor in team sport |
+| **4 — Substitutes / status quo** | In-house sports scientists, Excel/R/Python, AMS ([[Teamworks]], Smartabase/Fusion Sport, EDGE10), force plates (Hawkin), lab mocap (Theia, Simi), **[[OpenCap]] (free)** | "Do nothing new" is the most common competitor in team sport |
 
 **ATP's true peer set is Ring 1's markerless-video sub-cluster** — Uplift, DARI, Kinetisense,
 OpenCap — because they share ATP's core mechanism (camera → pose → joint angles). Zone7/Kitman are
@@ -104,15 +105,25 @@ adjacent (they *ingest* data or run the medical record, they don't capture movem
 ### The analytics/medical-record adjacents
 
 - **[[Zone7]]** — AI **injury-risk forecasting**, explicitly **device-agnostic** (ingests others'
-  data). ~30+ pro franchises (Liverpool, Napoli, LAFC). Public funding modest (~$11M / 2 rounds,
-  incl. an $8M Series A per Crunchbase — *confirm in PitchBook*); **acquired by [[Svexa]] Feb 2024**.
-  Validation is **retrospective across 11 football teams and explicitly "not intended as peer-reviewed
-  research."** → The purest "prediction" claim in the space, and a template for how *not* to overclaim.
+  data). ~30+ pro franchises (Liverpool, Napoli, LAFC). **PitchBook: raised $10.70M lifetime** across
+  7 deals — the meaningful round was an **$8.20M Early-Stage VC (Jun 2021, 11 investors)** atop a $2.5M
+  seed (2019); post-money undisclosed; only **24 employees (2025)**; HQ Newark, DE. **Acquired by
+  [[Svexa]] 12-Apr-2024** — and Svexa is itself tiny (**$6.61M raised**, latest a $3.75M Later-Stage
+  round Aug 2026). Zone7's **"Predicting and mitigating athlete injury risk" patents (CPC G16H50/30,
+  family 77747997) are all now _Inactive_** — the category leader let its IP lapse. Validation is
+  **retrospective across 11 football teams and explicitly "not intended as peer-reviewed research."**
+  → The purest "prediction" claim in the space, a template for how *not* to overclaim — and living
+  proof (see §3a) that a **standalone injury-predictor is a hard venture business**.
 - **[[Kitman Labs]]** — performance-medicine **EMR + intelligence platform ("iP")**; wins **league-
   wide** deals (Premier League EPPP academies, USL Championship, UFL, RFU/Premiership Rugby) and is used
-  across NFL/NBA/MLS/NWSL/NCAA; "2,000+ organizations." → Owns the *medical record and the league
-  procurement*, a layer ATP doesn't touch — but a potential integration partner or acquirer, not a
-  head-to-head.
+  across NFL/NBA/MLS/NWSL/NCAA; "2,000+ organizations." **PitchBook:** founded **2012, Dublin**; CEO
+  **Stephen Smith** (co-founders Jason Cowman, Iarfhlaith Kelly); **$82.3M raised** incl. a **$52.23M
+  Series C led by Guggenheim Investments (Nov 2021, post-money $146.14M)**; other backers BlueRun
+  Ventures, Crescent Cove; 180 employees. **Itself a consolidator — acquired Presagia Sports and The
+  Sports Office** (athlete-data-management SaaS), and PitchBook's VC Exit Predictor tags it **M&A /
+  93% success probability**. → Owns the *medical record and league procurement*, a layer ATP doesn't
+  touch — the clearest **integration-partner / acquirer** in the space, not a head-to-head. Its buy-side
+  history (buying the athlete-data layer) is the template for how ATP could get acquired.
 
 ---
 
@@ -136,6 +147,43 @@ predictive), primary market, **evidence**, **regulatory status**, **data governa
 
 **Read-out:** ATP's row is strong on *capture friction* (one phone) and *governance* (FERPA-first),
 weak on *evidence* and *regulatory* — the two columns VCs and athletic-department buyers probe hardest.
+
+---
+
+## 3a. Funding & valuation snapshot (PitchBook, via Cole — Sept 2026)
+
+| Company | Layer | Total raised | Post-money val | Employees | HQ |
+|---|---|---|---|---|---|
+| **[[Zone7]]** | Injury-prediction AI | **$10.70M** (7 deals; $8.2M Early-Stage Jun-2021) | undisclosed | 24 (2025) | Newark, DE |
+| **[[Svexa]]** (Zone7's acquirer) | Injury-prediction / sports-science | **$6.61M** (latest $3.75M Later-Stage Aug-2026) | ~7 core team | — |
+| **[[Kitman Labs]]** | Performance-medicine EMR + intelligence | **$82.30M** | $146.14M (Nov-2021) | 180 (2024) | Dublin, IE |
+| **[[Hudl]]** | Video analysis + data | **$227.64M** | $900.00M (May-2021) | 3,500 (2026) | Lincoln, NE |
+| **[[Teamworks]]** | Athlete engagement / ops | **$485.96M** | **$1.50B** (Feb-2026); PitchBook est **$1.73B** (Sep-2026) | 680 (2026) | **Durham, NC** |
+| **[[Kinexon]]** | Hardware tracking (UWB) + platform | **$147.69M** ($130M Later-Stage round; Red Bull/BMW i/THL) | undisclosed | 218 (2026) | Munich, DE |
+
+*ATP's two closest rivals, **[[Uplift Labs]]** and **[[DARI Motion]]**, have **thin PitchBook coverage**
+(early/undisclosed) — they stay on public-source estimates (Uplift: ~20K athletes 2025, MLB/NBA/NCAA;
+DARI: FDA-cleared, NFL + hospitals). Catapult is public (ASX: FY26 rev US$140.7M); WHOOP $10.1B; Oura
+private-large — see §9. **PitchBook pass complete (Cole, Sept 2026).***
+
+> **The single clearest strategic signal in the whole analysis:** capital and valuation **concentrate
+> in the platform / EMR / engagement layer, not in standalone injury prediction.** The two pure-play
+> predictors combined — Zone7 ($10.7M) + its acquirer Svexa ($6.6M) — raised **≈ $17M lifetime** and
+> exited at an undisclosed (small) price, while Teamworks ($486M / **$1.5B**), Hudl ($228M / $900M),
+> and Kitman ($82M) — the players who **own the athlete relationship, record, video, or ops** — captured
+> the money. **Implication for ATP:** an injury-*predictor* that stays a point solution is a hard venture
+> business. ATP should either (a) build toward **owning a relationship/record** (the college athlete's
+> longitudinal movement baseline *is* a candidate for that), or (b) deliberately position as the best
+> **wedge/feed into — and acquisition target for —** a Teamworks / Hudl / Kitman / Catapult. Note
+> **Teamworks is a ~$1.7B company in Durham, ATP's own backyard** (founded 2006; CEO/co-founder **Zach
+> Maurides**, zmaurides@teamworks.com; backers General Catalyst, Delta-v, Hg), and it is a **serial
+> data/analytics acquirer — it has already bought Pro Football Focus (PFF) and Sportlogiq.** ATP is
+> a Durham-based sports data/analytics company; that makes Teamworks the **single most natural future
+> acquirer**, and one Jaylen/Cole can build a real relationship with locally. Note Teamworks' predicted
+> exit is **IPO (98%)** — i.e., it's the acquirer *building toward a public offering by rolling up the
+> data layer*, not itself a target. Separately, Zone7's core injury-prediction **patents are now
+> _Inactive_**, so the IP space isn't locked up (freedom-to-operate is open) — but that also confirms
+> **patents are not the moat here; evidence, data, and distribution are.**
 
 ---
 
@@ -293,8 +341,13 @@ Who owns and controls the athlete data decides *how you sell*, and it splits sha
    *future* moat (DARI shows clearance is a durable advantage), not an accident.
 5. **Treat DoD/SBIR as strategic capital + a proven second market.** Oura/Sparta's government traction
    confirms demand; SBIR is non-dilutive and dual-use. Keep specifics **confidential** (DRF flag).
-6. **Watch Uplift Labs like a hawk; consider Kitman/Catapult/Oura as future partners/acquirers.**
-   Rivalry is consolidating — the realistic ATP exit is acquisition by a platform that owns the team
+6. **Build to be acquired (or to become the platform) — and cultivate Teamworks first.** Three
+   independent PitchBook signals say the exit is acquisition by a relationship-owning platform: Kitman
+   (M&A 93%, already bought Presagia + The Sports Office), Kinexon (M&A 68%), and Zone7 (exited to
+   Svexa). The standout is **[[Teamworks]]** — a ~$1.7B, IPO-track (98%) Durham roll-up that has already
+   acquired **PFF and Sportlogiq** (the data/analytics layer). ATP is a Durham sports-data company →
+   Teamworks is the most natural acquirer *and* a local relationship worth building now. Meanwhile watch
+   **[[Uplift Labs]]** as the direct rival; the realistic ATP exit is a platform that owns the team
    relationship but lacks turnkey single-camera capture + a validated college/defense footprint.
 
 **Biggest risks:** (a) Uplift out-executes on the same phone-based pitch with more capital;
@@ -326,8 +379,8 @@ NCAA guidance — [ncaa.org](https://www.ncaa.org/news/2025/12/11/media-center-p
 Duke Deep Tech — [deeptech.duke.edu](https://deeptech.duke.edu/blog-post/no-pain-no-privacy-athletic-wearables-and-limits-consent/)
 
 **Cole's manual follow-ups (I can't reach these):**
-- **PitchBook** (Duke, academic-use): confirm/replace funding + valuation + investor lines for Uplift,
-  Zone7, Kitman, Kinexon, DARI; pull comps. *(You said you'll bring this.)*
+- **PitchBook — DONE (Sept 2026):** Zone7, Svexa, Kitman, Hudl, Teamworks, Kinexon confirmed in §3a;
+  Uplift Labs + DARI Motion have thin PitchBook coverage (left on public estimates). No further pull needed.
 - **Duke databases:** Euromonitor Passport (Sports module), IBISWorld, Capital IQ, BCC Research for
   market sizing; Factiva/ABI-INFORM for SBJ/SportTechie archives.
 - **Primary evidence:** SPORTDiscus/Scopus/PubMed deep-dive per competitor ("[company] validity

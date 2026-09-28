@@ -1394,3 +1394,48 @@ ATP's pilots would leapfrog everyone. Flagged the "predict injuries" FDA device-
 warning-letter trap). Wired reciprocal links into the ATP entity page, index (new Analyses subsection),
 and the Job Search bucket. Exporting a shareable Google Doc to the ATP Drive for the team. PitchBook
 funding lines left as public-source placeholders for Cole to replace.
+
+## [2026-09-27] study | CHEM 210 Midterm 1 prep — paused, state logged
+Paused CHEM 210 Midterm 1 prep (exam Oct 1) to focus on the fMRI midterm (Tuesday). Logged a full coverage table +
+resume-point into the [[chem-210]] hub ("Midterm 1 prep status"). Status: Phase-1 ideas done for Nuclear + all four
+Unit 2 blocks; Quantum + Periodic Trends still need a clean Phase 1; Phase 2/3 (slide walks + problem drilling) barely
+started. Resume by finishing Phase 1 on the two gaps, then problem-drilling Cox's flagged templates.
+
+## [2026-09-27] study | fMRI (NEUROSCI 382) Midterm I prep — started
+Pivoted from CHEM 210 to prep the fMRI Midterm I (Tue Sep 29). Extracted all six lecture decks (Weeks 1–5, Ch 1–8;
+282 slides) from Cole's .pptx files to text and worked from them against the existing [[fmri]] concept cluster
+([[mri-physics]], [[mri-contrast]], [[k-space]], [[bold-signal]], [[fmri-preprocessing]], [[neuroanatomy-landmarks]],
+[[mni-space]]). Added a "Midterm I prep" section + chapter→note map to the [[fmri]] hub. Delivered Phase 1 (big-picture
+ELI15) across all 8 chapters via the [[study-playbook]]. Group project: Cole is in Group C (Jack, Sasha, Andrea).
+
+## [2026-09-27] enrich | ATP competitive analysis — PitchBook data (Cole)
+Cole fed PitchBook screenshots for [[Zone7]] + acquirer [[Svexa]], a Zone7 comps table, and
+[[Kitman Labs]]. Folded confirmed funding/valuation into [[atp-competitive-analysis]]: new §3a
+"Funding & valuation snapshot" table (Zone7 $10.70M/24 emp; Svexa $6.61M; Kitman $82.30M/$146.14M
+Series C led by Guggenheim/180 emp; Hudl $227.64M/$900M/3,500 emp; Teamworks $485.96M/$1.5B/Durham
+NC). Added two new competitors — [[Hudl]] (video-to-insight) and [[Teamworks]] (athlete ops, $1.5B,
+Durham) — as a new Ring 2b "own-the-relationship" layer. Key synthesized insight: capital concentrates
+in the platform/EMR/engagement layer, NOT standalone injury prediction (Zone7+Svexa ≈ $17M lifetime,
+undisclosed exit), so ATP should own a relationship/record or position as a wedge/acquisition target;
+Kitman (a consolidator that bought Presagia + The Sports Office; PitchBook exit signal M&A/93%) and
+Durham-local Teamworks are live acquirer paths. Also: Zone7's injury-prediction patents (G16H50/30)
+are all Inactive → IP not the moat, freedom-to-operate open. Google Doc copy to be regenerated once
+Cole finishes feeding PitchBook data. Stub links spawned: [[Hudl]], [[Teamworks]].
+
+## [2026-09-27] deliver | ATP competitive analysis — Google Doc regenerated
+Added [[Kinexon]] to §3a ($147.69M; $130M Later-Stage; Munich; Enterprise-ERP w/ sports as one vertical;
+active hardware patents). Noted [[Uplift Labs]] + [[DARI Motion]] have thin PitchBook coverage (left on
+public estimates); marked PitchBook pass complete. Synthesized exit-path signal across profiles (Kitman
+M&A 93%, Kinexon 68%, Zone7→Svexa) into recommendation #6 (build to be acquired / become the platform).
+Regenerated the shareable Google Doc clean in one pass (new id 1ziHLwXOKXEEwk45b5Fv4i436-pSsb2rkfJh9QBcReNM,
+in Cole's My Drive) and trashed the stale copy. Vault page [[atp-competitive-analysis]] and the Doc are now
+in sync.
+
+## [2026-09-27] enrich | ATP competitive analysis — Teamworks (PitchBook)
+Folded richer [[Teamworks]] data into [[atp-competitive-analysis]]: founded 2006, Durham NC; CEO/
+co-founder Zach Maurides; backers General Catalyst/Delta-v/Hg; $485.96M raised, $1.5B post (Feb-2026),
+PitchBook valuation estimate $1.73B (Sep-2026); serial data/analytics acquirer (bought PFF + Sportlogiq);
+predicted exit IPO 98%. Reframed recommendation #6 to "build to be acquired / cultivate Teamworks first"
+— Teamworks is the local (Durham), IPO-track roll-up buying exactly ATP's layer, so the single most
+natural acquirer + relationship to build. Regenerated Google Doc (new id 1a--GGClqeW0UArhKBlGldY0MUGPC4-xT8uQ4umgyJ1Y)
+and trashed prior copy. Doc name stable: "ATP Competitive Analysis (internal draft — Cole, Sept 2026)".
