@@ -33,7 +33,7 @@ Consolidated roll-up across all classes. **Added to Google Calendar 2026-09-15**
 | ⏳ **early Dec (TBD)** | **fMRI Midterm II** ([[fmri]]) | Week 15 | ⚠️ date unconfirmed (syllabus says "TH 4 Dec" but class meets Tue) — **not yet on calendar**; confirm in class |
 
 **Finals** (📅 all added to Google Calendar 2026-09-15, orange): CHEM 210D final **Wed Dec 9, 2:00–5:00 PM** · fMRI project write-up due **Tue Dec 8, 11:59 PM** (no final exam) · NEUROSCI 206L final **Sun Dec 13, 7:00–10:00 PM** ← **last final of the semester**.
-Study note: **Sep 29 → Oct 1 midterms are back-to-back** — the crunch to protect. Cole's free study blocks: Mon daytime, Thu afternoon, Fri (see [[project_fall2026_availability]] in memory).
+Study note: **Sep 29 → Oct 1 midterms are back-to-back** — the crunch to protect. Cole's open weekly windows: Mon 9–3:30 / eve, Wed 11:30–1 / eve, Thu 9–11:30 & 3–6, Fri 9–1 / 4pm+ (full detail: [[weekly-availability-fall-2026]]).
 
 ## How each class page works
 - **Course info** (code, prof, meetings, grading) · **The material** (build full understanding) ·

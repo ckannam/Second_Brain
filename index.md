@@ -255,6 +255,9 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ## Concepts
 
+### Analyses
+- [[atp-competitive-analysis]] — internal-strategy competitive analysis for [[athletic-training-portal]] (Sept 2026): four-ring competitor map, capability matrix, evidence/regulatory/data-rights audits, Five Forces, honest 2×2. Closest rival [[Uplift Labs]]; FDA-cleared incumbent [[DARI Motion]]; ATP wins on single-camera + college/FERPA + DoD, and must win the evidence war.
+
 ### Job search / networking
 - [[cold-email-job-search]] — the playbook: cold-email rules (≤200 words, one ask, no fake personalization), the who/why/why-they-care format, and 9 sources for finding unposted startup roles. Feeds [[outreach-pipeline]].
 - [[outreach-pipeline]] — the job-search outreach system: tier structure (Lane 0 warm intros → Tier 1 funded targets → general), Monday batch runbook, templates, and reply-rate tracking. Backed by [[outreach-kit]] and [[target-orgs]].
@@ -370,6 +373,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[alcohol-sleep-dementia]] — how alcohol degrades deep sleep + astrocyte plumbing (AQP4), and what the dementia epidemiology really shows.
 - [[learning-by-connection]] — adults learn by connecting to prior knowledge (mirrors the LLM-wiki).
 - [[knowledge-types]] — skill vs concept vs fact each need a different study strategy.
+- [[study-playbook]] — the 3-phase pass for any new topic: main ideas (ELI15) → walk the slides → work problems. Course-agnostic; built for [[chem-210]] Midterm 1.
 - [[conscious-vs-subconscious]] — tiny conscious mind (~7±2) riding a vast subconscious (~11M bits/s).
 - [[doorway-effect]] — walking through a doorway wipes working memory: the event-boundary mechanism (Radvansky), with honest replication caveats.
 - [[reticular-activating-system]] — the attention filter you program with conscious focus.
@@ -445,6 +449,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[chem-210-syllabus-fall-2026]] — the syllabus: logistics, grading (50/35/15 + resurrection quizzes), exam dates, AI policy, 6-module arc.
 - [[chem-210-unit1-nuclear-quantum]] — Unit 1 lecture slides (59) + overview handout: nuclear, quantum, periodic-trends anchors, reading & HW schedule.
 - [[chem-210-bohr-model-handout]] — Cox's 2-page Bohr-model derivation (forces → radius → energy); relationships tested, derivation not.
+- [[chem-210-unit2-solutions-solubility]] — Unit 2 lecture slides (46): 4 blocks — intermolecular forces & phases, salts/lattice/dissolution thermo, colligative properties, solubility equilibrium (Ksp).
 
 ### Duke — NEUROSCI 206L course (Intro to Systems Neuroscience, Fall 2026)
 - [[neurosci-206-syllabus-fall-2026]] — the syllabus: TBL format, 60/40 individual/team grading, drop policy, AI policy, 15-week sensory→motor schedule, key dates.

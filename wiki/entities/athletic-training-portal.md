@@ -47,4 +47,14 @@ This is the **postgrad story** to tell her: *"I chose the operator path, and ATP
 learn to build a company."* It mirrors her own **scientist → founder → operator** arc — a natural
 note to end that conversation on, and a reason to keep her as a mentor as Cole steps into it.
 
-Related: [[five-year-plan]] · [[Job Search]] · [[cole]].
+## Competitive landscape
+A full internal-strategy competitive analysis lives at [[atp-competitive-analysis]] (Sept 2026).
+Headline: ATP's closest rival is **[[Uplift Labs]]** (iPhone-based 3D markerless, ~20K athletes,
+MLB/NBA/NCAA), and the FDA-cleared incumbent is **[[DARI Motion]]**. ATP's defensible wedges are
+**single-camera zero-setup capture**, **college/NCAA/FERPA-native compliance**, and the **DoD/SBIR**
+second market; its biggest gap-and-opportunity is **evidence** — external validation is absent across
+the entire injury-ML literature, so a prospective validated study off the signed pilots would put ATP
+ahead of everyone. ⚠️ The "predict injuries before they happen" claim is FDA device-line risk (the
+WHOOP warning-letter trap) — reframe to wellness-safe "deviation-from-baseline monitoring."
+
+Related: [[atp-competitive-analysis]] · [[five-year-plan]] · [[Job Search]] · [[cole]].

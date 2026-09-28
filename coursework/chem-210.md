@@ -36,7 +36,8 @@ the actual chemistry lives. One of Cole's [[Duke|Chemistry-major]] courses.
 - **AI policy:** the Mastering Chemistry embedded AI tutor is OK as a study aid; using *any* LLM to answer assigned HW is discouraged, and AI answers to in-class Learning Catalytics questions can be a **Duke Community Standard violation**. Exams are closed-book, calculator without Wi-Fi. ⚠️ Relevant to how Cole uses this vault for the class — help with *understanding*, not submitting answers.
 
 ## The material — knowledge base (by topic)
-Durable course knowledge lives in per-topic notes so it stays atomic and queryable.
+Durable course knowledge lives in per-topic notes so it stays atomic and queryable. Study each
+topic with the [[study-playbook]]: **main ideas (ELI15) → walk the slides → work problems.**
 
 **Prereq review (assumed from Chem 101/110):** [[chem-210-prereq-review]] — stoichiometry, limiting reagent, ideal gas law, formula-from-mole-ratio (Discussion I worked solutions).
 
@@ -47,6 +48,15 @@ Durable course knowledge lives in per-topic notes so it stays atomic and queryab
 | **Nuclear Chemistry** | [[chem-210-nuclear-chemistry]] | Sept 8 | ✅ built (Unit 1) |
 | **Quantum & Atomic Structure** | [[chem-210-quantum-atomic-structure]] | Sept 15 | ✅ built (Unit 1) |
 | **Periodic Trends** | [[chem-210-periodic-trends]] | Sept 22 | ✅ built (Unit 1) |
+
+**Unit 2 — Solutions & Solubility (source ingested 2026-09-27):** [[chem-210-unit2-solutions-solubility|lecture deck, 46 slides]], four blocks. Topic knowledge notes built via the [[study-playbook]] as we study:
+
+| Block | Knowledge note | Status |
+|---|---|---|
+| **Intermolecular Forces & Phase Changes** | [[chem-210-intermolecular-forces-phases]] | ⏳ building |
+| **Salts, Lattice Energy & Dissolution Thermo** | [[chem-210-salts-lattice-dissolution]] | ⏳ building |
+| **Colligative Properties** | [[chem-210-colligative-properties]] | ⏳ building |
+| **Solubility Equilibrium (Ksp)** | [[chem-210-solubility-equilibrium]] | ⏳ building |
 
 **Full course arc (from syllabus, ~26 lectures):** Nuclear & Atomic Structure (5) → Solutions & Solubility (4) →
 Acid–Base (6) → Coordination Complexes (5) → Electrochemistry (4) → Solid State (2). Notes for later units will be

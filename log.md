@@ -1360,3 +1360,37 @@ schools) won JHU's 2026 President's Venture Fellowship + Blaze Award — Blaze b
 non-dilutive [[translational-funding]] programs. Only recipient recorded in the vault; not a full
 2026 winners list. Filed by enriching [[translational-funding]] (new "Recorded recipients" note) and
 making the link reciprocal from [[everyday-robotics]].
+
+## [2026-09-26] concept | Study Playbook created
+Created [[study-playbook]] — Cole's repeatable 3-phase method for new course material:
+Phase 1 main ideas (ELI15) → Phase 2 walk the slides → Phase 3 work problems. Built while
+prepping [[chem-210]] Midterm 1 (Oct 1). Linked from [[chem-210]] hub and index Concepts →
+Neuroscience of behavior & learning. Kicking off Phase 1 for [[chem-210-nuclear-chemistry]].
+
+## [2026-09-26] update | Weekly Availability — Fall 2026
+Created [[weekly-availability-fall-2026]] with Cole's self-reported open windows (Mon 9–3:30/6pm+, Wed 11:30–1/6pm+, Thu 9–11:30 & 3–6, Fri 9–1/4pm+; Tue tight). Linked from [[coursework/index]]; synced the fall2026-availability memory.
+
+## [2026-09-27] ingest | CHEM 210 Unit 2 - Solutions & Solubility (lecture slides)
+Ingested the Unit 2 deck (46 slides, `raw/Processed/CHEM 210 Unit 2 - Solutions and Solubility (lecture slides).pdf`)
+for [[chem-210]]. Created source note [[chem-210-unit2-solutions-solubility]] capturing the four lecture blocks:
+(1) intermolecular forces & phase changes, (2) salts/lattice energy/dissolution thermo, (3) colligative properties,
+(4) solubility equilibrium (Ksp). Wired into index (Sources) and the [[chem-210]] hub (new Unit 2 table). Four atomic
+topic knowledge notes stubbed to be built via the [[study-playbook]] as Cole studies. Connected back to Unit 1
+([[chem-210-periodic-trends]] for lattice/inert-pair; Gibbs/entropy framing; `ΔG°=−RT ln K`). Running the playbook now —
+Phase 1 main ideas delivered in chat.
+
+## [2026-09-27] query | ATP competitive analysis
+Cole is helping Jaylen Coleman's [[athletic-training-portal]] (ATP) and asked for a full competitive
+analysis using a sector-specific method (four-ring map + capability matrix + evidence/regulatory/
+data-rights audits + Five Forces + honest 2×2). First pulled everything the vault + Google Drive
+(shared "ATP Drive") knew about ATP (NC Inc. May 2026, Duke football/baseball/wrestling + NCCU track
+pilots, Navy SBIR "Aircrew Readiness Fingerprint", team, cap table). Then ran live web research
+(Sept 2026) across the four rings. Created [[atp-competitive-analysis]] in wiki/concepts (category:
+analysis): closest rival [[Uplift Labs]] (iPhone 3D markerless, ~20K athletes, MLB/NBA/NCAA);
+FDA-cleared incumbent [[DARI Motion]]; adjacents [[Zone7]]/[[Kitman Labs]]; capture platforms
+[[Catapult]]/[[Kinexon]]; wearables [[WHOOP]]/[[Oura]]; free substitute [[OpenCap]]. Key finding:
+external validation absent across the entire injury-ML literature → a prospective validated study off
+ATP's pilots would leapfrog everyone. Flagged the "predict injuries" FDA device-line risk (WHOOP
+warning-letter trap). Wired reciprocal links into the ATP entity page, index (new Analyses subsection),
+and the Job Search bucket. Exporting a shareable Google Doc to the ATP Drive for the team. PitchBook
+funding lines left as public-source placeholders for Cole to replace.

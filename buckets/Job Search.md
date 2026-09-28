@@ -21,7 +21,7 @@ the professional overview.
 - **Where / when:** **NYC *or* DC — the two co-primary options** (updated 2026-07-25; DC is no longer a footnote), starting after **May 2027**. Target base **~$85k NYC operator** (was ~$75k) — see [[comp-targets]] for the researched breakdown + the **DC-vs-NYC read for Cole's path** (JHTV ~$60–75k Baltimore · startup ~$80–95k+equity · VC ~$95–130k all-in). Equity/upside is the real lever; **DC is cheaper + closer to family/JHTV and strong in bio/health**, NYC has more startup/VC density.
 
 ## Postgrad landing (Phase 1 of the plan)
-- **[[athletic-training-portal|ATP (Athletic Training Portal)]]** — the startup Cole is joining post-grad as an **early operator**. The "operator-first, health/bio/AI" bet from the [[five-year-plan]] made real. *(Page is a stub — needs product/stage/role detail.)*
+- **[[athletic-training-portal|ATP (Athletic Training Portal)]]** — the startup Cole is joining post-grad as an **early operator**. The "operator-first, health/bio/AI" bet from the [[five-year-plan]] made real. Full competitive analysis at [[atp-competitive-analysis]].
 
 ## Assets / credentials
 - [[uship]] — co-owner of a six-figure business (+40% sign-ups, expanded to Columbia): proof he can operate.
