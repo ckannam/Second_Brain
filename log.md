@@ -1185,7 +1185,6 @@ Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
 
-<<<<<<< HEAD
 ## [2026-09-08] query | Prep — Kelli Luginbuhl: Duke vs. JHU innovation ecosystems
 Cole prepping a conversation with [[Kelli Luginbuhl]] on Duke vs. JHU innovation ecosystems, with
 concrete examples. Filed the answer as **[[kelli-luginbuhl-call-prep]]** (4 beats: JHTV as
@@ -1242,7 +1241,6 @@ recipes + the v2.1 plugin `hooks.json` double-fire gotcha), **[[agent-security-r
 entity (harness-framework layer) and the **[[Claude Mastery]]** bucket; added index entries. Flagged
 follow-up sources to clip next: ECC's Longform/Security/Shorthand guides (Longform = most implementable).
 Moved the source to `raw/Processed/`.
-=======
 ## [2026-08-30] autoresearch | AutoResearch night (Sunday weekly run)
 Full six-phase loop on branch `autoresearch/night-2026-08-30`. **Phase 1 build:** ran the
 [[skill-authoring-playbook]] checklist against the `networking-prep` skill (2nd worked example on
@@ -1256,7 +1254,6 @@ host/client/server architecture, the tools/resources/prompts primitives, stdio +
 transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
 extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
 → one morning PR. Baseline debt 16 → final 0.
->>>>>>> origin/autoresearch/night-2026-08-30
 
 ## [2026-09-14] ingest | NEUROSCI 206L — Auditory System (Week 4, Ch 10)
 Cole prepping for his Wk4 auditory class. Ingested two PDFs (Prof [[Leonard White]]): the **tutorial notes** (10 pp)
@@ -1449,3 +1446,25 @@ that git history showed never landed; applied it for real + logged the verify-th
 evals already exist via the HEALTH_DEBT ratchet; added a running audit scoreboard). Phase 3: write-back
 to [[tasks/index]]; re-score HEALTH_DEBT=0 (no build-introduced debt). Phase 4 MODE B: one generative
 proposal (see PR). Review lane → one morning PR; nothing auto-merged to main.
+## [2026-10-04] autoresearch | Weekly AutoResearch loop — Sunday run
+
+**Cadence gate:** Sunday (TZ=America/New_York) — passed.
+**Baseline HEALTH_DEBT:** 0 (orphans 0, missing_from_index 0, stale_claims 0).
+
+**Phase 1 (fast-track heals → main):** No-op — HEALTH_DEBT already 0, nothing to heal.
+
+**Phase 2 (build — @cloud):** Audited `wiki-query` SKILL.md against [[skill-authoring-playbook]].
+Findings: §1–§4 and §6 clean; 2 recommendations logged (description third-person form, Guardrails
+section overlap); 0 structural fixes applied (Guardrails deferred — behaviorally significant).
+Deliverable: [[skill-audit-wiki-query]]. Also resolved a pre-existing merge conflict in `index.md`
+(lines 237-254, from the 2026-08-30 PR merge — took the richer branch version; preserved
+`[[kelli-luginbuhl-call-prep]]` from HEAD version).
+
+**Phase 4 (MODE B — generative enrichment):** New entity page [[dorm-room-fund]] — Dorm Room Fund
+as an organization ($50M 2026 fund, First Round Capital origin 2012, ~30 campuses, ~60 IPs/yr,
+100% student decision-making). Fills the gap: DRF was referenced in [[atp-competitive-analysis]]
+and Cole's application [[dorm room fund]] but had no entity page.
+
+**Post-build HEALTH_DEBT:** 0 (orphans 0, missing_from_index 0, stale_claims 0). Ratchet holds.
+
+**Branch:** `autoresearch/night-2026-10-04` → PR opened for Cole's review.
