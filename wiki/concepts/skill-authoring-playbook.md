@@ -120,4 +120,5 @@ well-structured `SKILL.md` content natively — no special "writing-skills" skil
 
 Related: [[claude-code-skills]] · [[token-context-management]] · [[evals-for-taste]] ·
 [[governed-skills-framework]] · [[skills-vs-subagents]] · [[master-claude-code-skills-28min]] ·
-[[claude-code-skills-update]] · [[claude-code]] · [[startup-radar]] · [[skill-audit-worked-example]].
+[[claude-code-skills-update]] · [[claude-code]] · [[startup-radar]] · [[skill-audit-worked-example]] ·
+[[skill-audit-networking-prep]] · [[skill-audit-vault-autoresearch]].

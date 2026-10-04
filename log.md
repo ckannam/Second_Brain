@@ -1439,3 +1439,13 @@ predicted exit IPO 98%. Reframed recommendation #6 to "build to be acquired / cu
 — Teamworks is the local (Durham), IPO-track roll-up buying exactly ATP's layer, so the single most
 natural acquirer + relationship to build. Regenerated Google Doc (new id 1a--GGClqeW0UArhKBlGldY0MUGPC4-xT8uQ4umgyJ1Y)
 and trashed prior copy. Doc name stable: "ATP Competitive Analysis (internal draft — Cole, Sept 2026)".
+
+## [2026-10-04] autoresearch | Sunday weekly run (night-2026-10-04)
+Cadence gate: Sunday → full loop. Phase 0 baseline HEALTH_DEBT=0 (empty defect set) → no Phase-1
+fast-track heals. Phase 2 build (2 @cloud items under "Improve + general skills"): (1) reconciled an
+audit↔skill drift — [[skill-audit-worked-example]] documented a Step-7 path fix on `startup-radar`
+that git history showed never landed; applied it for real + logged the verify-the-live-artifact lesson;
+(2) third worked-example audit [[skill-audit-vault-autoresearch]] (6/6 clean; the one skill whose §5
+evals already exist via the HEALTH_DEBT ratchet; added a running audit scoreboard). Phase 3: write-back
+to [[tasks/index]]; re-score HEALTH_DEBT=0 (no build-introduced debt). Phase 4 MODE B: one generative
+proposal (see PR). Review lane → one morning PR; nothing auto-merged to main.
