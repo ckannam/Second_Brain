@@ -1,65 +1,62 @@
-# AutoResearch nightly queue — 2026-08-30 (Sunday weekly run)
+# AutoResearch nightly queue — 2026-10-04 (Sunday weekly run)
 
 Regenerated each run from `tasks/index.md` Open items (this file is an output, never an input).
-Baseline this run: `HEALTH_DEBT = 16` (orphans 2×3=6, missing_from_index 5×2=10, stale_claims 0).
+Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs.
 
 ## Phase 0 baseline
 
-- **HEALTH_DEBT = 16** (orphans: 2 × 3 = 6, missing_from_index: 5 × 2 = 10)
-- Defects:
-  - Orphans: `skill-authoring-playbook` (no inbound from `startup-radar` / `skill-audit-worked-example`), `skill-audit-worked-example` itself had no inbound
-  - Missing from index: `startup-radar`, `skill-audit-worked-example`, `activate`, `claude-api`, `ply`
-- All 7 defects are pre-existing; all structural → Phase-1 fast-track eligible.
+- **HEALTH_DEBT = 0** (orphans 0 × 3, missing_from_index 0 × 2, stale_claims 0 × 1).
+- Pre-existing objective defect set: **empty**. Soft signals only (dangling wikilinks to
+  `@local`/`@human` CRM pages + stub pages — unscored, not cloud-fixable).
 
 ## Phase 1 fast-track heals (→ main, auto-merged)
 
-HEALTH_DEBT driven 16 → 0 across 6 iterations:
-1. Fixed 2 orphans: added `[[startup-radar]]` + `[[skill-audit-worked-example]]` to `skill-authoring-playbook.md` Related section. Debt 16→10.
-2. Added `startup-radar` to index.md. Debt 10→8.
-3. Added `skill-audit-worked-example` to index.md. Debt 8→6.
-4. Added `activate` to index.md. Debt 6→4.
-5. Added `claude-api` to index.md. Debt 4→2.
-6. Added `ply` to index.md. Debt 2→0. **HEALTH_DEBT = 0** after Phase 1.
+**None.** HEALTH_DEBT is already 0 on `main`; no structural heal to fast-track tonight.
 
-## Phase 2 build — Selected (@cloud, 1 item)
+## Phase 2 build — Selected (@cloud, 2 items — both under "Improve + general skills")
 
-1. **Improve + general skills → audit `networking-prep` SKILL.md against [[skill-authoring-playbook]]**:
-   The playbook checklist was built last session; applying it to a live skill is the outstanding
-   "run one skill through the checklist" deliverable. `networking-prep` chosen because it's
-   cloud-visible (~119 lines) and was recently extended. Deliverable:
-   `wiki/concepts/skill-audit-networking-prep.md` + structural step-numbering fix on the skill
-   (`Step 5-output`→`Step 4`, `Step 6`→`Step 5`). Review lane.
+1. **Reconcile the `startup-radar` audit drift.** [[skill-audit-worked-example]] (2026-08-08) §6
+   documents a 🔧 *applied* fix — "normalized Step 7 to `python3 startup-tracker/validate.py`" —
+   but `git log -S` confirms that relative path **never existed** in
+   `.claude/skills/startup-radar/SKILL.md`; the live Step 7 still hardcodes the absolute
+   `/Users/colekannam/Desktop/Second Brain/...` path. The documented fix never landed → the audit
+   page asserts a change the skill never got. **Deliverable:** actually apply the fix to SKILL.md
+   (vault-internal path → relative, matching Steps 4–5; the audit's own "structural, no-behavior
+   change" safe category) + update the audit page to record the drift was caught and the fix
+   re-applied 2026-10-04. Review lane. *(`.claude/` is unscored → zero HEALTH_DEBT impact; this is
+   a correctness fix, not a heal.)*
+
+2. **Third worked-example audit: `vault-autoresearch` SKILL.md.** The loop's own driver skill,
+   un-audited, 40 lines. Advances the tracked "more skill iterations" remaining-work note.
+   **Deliverable:** `wiki/concepts/skill-audit-vault-autoresearch.md` against all six
+   [[skill-authoring-playbook]] sections, indexed + reciprocally linked. Expect a clean bill (the
+   honest result for a mature skill) with one genuinely notable finding — it is the *one* vault
+   skill whose §5 "evals first" discipline is already satisfied, because its eval **is** the frozen
+   `score.py` / HEALTH_DEBT ratchet. Review lane.
 
 ## Phase 4 MODE B
 
-- **Gap-fill: `wiki/concepts/fmri-experimental-design.md`**:
-  The fMRI concept cluster covers preprocessing, GLM/stats, and lab pages but had no page on
-  experimental design — the upstream step that determines what the GLM can detect.
-  `fmri-glm-analysis` already referenced it with no target. New page written from course
-  knowledge (Huettel Ch. 7 + NEUROSCI 382 context); synthesis note included; reciprocal links
-  from `fmri-glm-analysis` and entry in index.md. Review lane.
-
-- **MCP hub enrichment: `wiki/entities/mcp.md`** (prior session, 2026-08-30T02):
-  Built the 19x-referenced mcp stub into a hub page — architecture, primitives, transports,
-  web-grounded 2026-07-28 spec snapshot; promoted index entry.
+- One generative enrichment proposal (see the morning PR body). Review lane — never auto-merges.
 
 ## Considered but skipped this night (with reason)
 
-- **Train skills — Skill Creator A/B eval run** (@cloud): the remaining work is an *interactive*
-  eval run (needs Cole + live baseline measurement); not fully unattended.
+- **Train skills — Skill Creator A/B eval run** (@cloud): remaining work is an *interactive* eval
+  run (needs Cole + live baseline measurement). Not fully unattended.
 - **Prompt max — eval-test the 3 prompt-architect skills** (@cloud): evals need interactive
   baseline measurement against real tasks. No bounded unattended deliverable.
 - **Skill max — Skill Creator A/B eval run** (@cloud): same interactive-eval blocker; the
   trigger-tuning pass it needed is already complete (progress 2026-08-10).
-- **Build the source-seeking (MODE B) rung** (@cloud): structural change to `program.md`;
-  warrants human sign-off, too large for one night's build.
-- **Tune HEALTH_DEBT weights / add metrics** (@cloud): would touch the frozen `score.py` —
-  never edited by the loop. HEALTH_DEBT = 0 tonight anyway.
+- **Build the source-seeking (MODE B) rung** (@cloud): a structural change to `program.md`, which
+  the human owns ("the human edits it; the loop follows it"). Warrants human sign-off; too large
+  for one unattended night's build.
+- **Tune HEALTH_DEBT weights / add metrics** (@cloud): would touch the frozen `score.py` — never
+  edited by the loop. HEALTH_DEBT = 0 tonight anyway.
 - **Try an autoresearch loop hands-on** (@cloud): requires provisioning an external/rented GPU →
   outward action + spending. Ineligible for the cloud lane.
 
 ## Not eligible here (for reference — @local or @human)
 
-All `@local` and `@human` items — Fulbright deadlines, Neuro pipeline, CRM enrichment, finance
-decisions, Uship, Claude Corps application steps, password holder, IG/YouTube exports — are
-ineligible for the cloud lane (local data, outward actions, or human decisions).
+All `@local` and `@human` items — Fulbright deadlines/materials, Neuro pipeline, CRM enrichment,
+finance decisions, Uship, Claude Corps application steps, password holder, IG/YouTube exports,
+reply-rate scoreboard, Spotify/concert alerts — are ineligible for the cloud lane (local data,
+outward/irreversible actions, or human decisions).
