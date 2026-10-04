@@ -1439,3 +1439,26 @@ predicted exit IPO 98%. Reframed recommendation #6 to "build to be acquired / cu
 — Teamworks is the local (Durham), IPO-track roll-up buying exactly ATP's layer, so the single most
 natural acquirer + relationship to build. Regenerated Google Doc (new id 1a--GGClqeW0UArhKBlGldY0MUGPC4-xT8uQ4umgyJ1Y)
 and trashed prior copy. Doc name stable: "ATP Competitive Analysis (internal draft — Cole, Sept 2026)".
+
+## [2026-10-04] autoresearch | Weekly AutoResearch loop — Sunday run
+
+**Cadence gate:** Sunday (TZ=America/New_York) — passed.
+**Baseline HEALTH_DEBT:** 0 (orphans 0, missing_from_index 0, stale_claims 0).
+
+**Phase 1 (fast-track heals → main):** No-op — HEALTH_DEBT already 0, nothing to heal.
+
+**Phase 2 (build — @cloud):** Audited `wiki-query` SKILL.md against [[skill-authoring-playbook]].
+Findings: §1–§4 and §6 clean; 2 recommendations logged (description third-person form, Guardrails
+section overlap); 0 structural fixes applied (Guardrails deferred — behaviorally significant).
+Deliverable: [[skill-audit-wiki-query]]. Also resolved a pre-existing merge conflict in `index.md`
+(lines 237-254, from the 2026-08-30 PR merge — took the richer branch version; preserved
+`[[kelli-luginbuhl-call-prep]]` from HEAD version).
+
+**Phase 4 (MODE B — generative enrichment):** New entity page [[dorm-room-fund]] — Dorm Room Fund
+as an organization ($50M 2026 fund, First Round Capital origin 2012, ~30 campuses, ~60 IPs/yr,
+100% student decision-making). Fills the gap: DRF was referenced in [[atp-competitive-analysis]]
+and Cole's application [[dorm room fund]] but had no entity page.
+
+**Post-build HEALTH_DEBT:** 0 (orphans 0, missing_from_index 0, stale_claims 0). Ratchet holds.
+
+**Branch:** `autoresearch/night-2026-10-04` → PR opened for Cole's review.
