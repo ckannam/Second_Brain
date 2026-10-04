@@ -11,7 +11,7 @@ Skill mastery tracks: **prompt max · token max · skill max · agent max** (+ t
 ## Knowledge (wiki)
 - Core: [[claude-code]], [[anthropic]], [[agentic-workflows]], [[agentic-vs-deterministic]].
 - Skills & agents: [[claude-code-skills]], [[skill-trigger-tuning]], [[skill-authoring-playbook]], [[master-claude-code-skills-28min]], [[master-claude-code-36min-beginner]], [[claude-code-subagents]], [[claude-code-agent-teams]], [[skills-vs-subagents]], [[parallel-agents]].
-- Skill audits (worked examples): [[skill-audit-worked-example|startup-radar]], [[skill-audit-networking-prep|networking-prep]], [[skill-audit-vault-autoresearch|vault-autoresearch]] — the [[skill-authoring-playbook]] checklist run against real skills.
+- Skill audits (worked examples): [[skill-audit-worked-example|startup-radar]], [[skill-audit-networking-prep|networking-prep]], [[skill-audit-vault-autoresearch|vault-autoresearch]] — the [[skill-authoring-playbook]] checklist run against real skills. How-to for the §5 evals gap: [[skill-evals-playbook]].
 - Memory & autonomy: [[claude-code-memory]], [[token-context-management]], [[claude-code-scheduled-tasks]], [[claude-code-permissions]], [[claude-code-hooks]].
 - Harness frameworks (mine, don't install): [[ecc]] — third-party "agent harness OS" (src [[affaan-ecc-agent-harness-os]]); net-new lessons folded into [[agent-dreaming]] (instincts), [[token-context-management]] (MCP budget + knobs), [[claude-code-hooks]] (enforcement recipes), [[agent-security-risks]] (scan your own config).
 - Vault meta: [[llm-wiki-pattern]], [[second-brain-system]], [[ai-second-brain-levels]], [[extending-the-llm-wiki]], [[overview]].

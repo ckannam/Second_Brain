@@ -95,6 +95,10 @@ and the enterprise **evals-for-taste** discipline ([[evals-for-taste]], [[llm-as
 objective signal that a change is an improvement, not a vibe. At org scale this eval + versioning
 discipline is what makes a skill library *governable* ([[governed-skills-framework]]).
 
+**The concrete how-to lives in [[skill-evals-playbook]]** — the triplet format, code- vs model-based
+grader choice, worked eval triplets for the vault's own skills, and the keep-or-revert run loop. That
+page turns this section's "write ~3 evals" from advice into a repeatable method.
+
 ## 6. Anti-patterns to avoid
 
 - **Time-sensitive info** ("before August 2025, use…") → put deprecated guidance in a collapsed
