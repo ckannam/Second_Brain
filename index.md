@@ -234,10 +234,6 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
-<<<<<<< HEAD
-- [[ply]] — NYC seed-stage vertical SaaS for trade contractors (HVAC/R, plumbing, electrical); ~$14.2M raised (Ferguson Ventures, Primary, SignalFire). Off Cole's health/bio tilt but strong Uship-operator overlap. Cole's contact: [[Ryan Berger]] (Head of Ops).
-- [[athletic-training-portal]] — **ATP**, the startup Cole is joining post-grad as an early operator (the operator-first bet from the [[five-year-plan]]). · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
-=======
 
 ### Job-search targets — other lanes (see [[Job Search]])
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
@@ -248,10 +244,10 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[vc-investor-applications]] — **hub + answer store** for every student-VC application beyond DRF. Tracker (DRF, Contrary, ShangBay applied; Catalyst drafted; Bessemer in process) plus the final texts for Contrary, ShangBay, and Catalyst, the pipeline shortlist, and outreach (Christian, Tory Macdonald).
 - [[vc-interview-prep]] — **Bessemer's "How to prepare" framework** for VC interviews (know the firm, stay informed on tech, practice asking questions, get excited about a category) turned into Cole's action list. The study plan for all his VC interviews.
 - [[techbio-ai-drug-discovery]] — Cole's **category POV** (his industry of specialty): the broken 10–15yr/$2.6B drug timeline, the ~$4B (2026) market at ~25–30% CAGR, timeline compression proof (Insilico ~18mo to preclinical), and the companies (Isomorphic, Insilico, Recursion, Xaira). Ties to [[valley-of-death]].
-- [[dorm room fund]] — Cole's application to be a student Investment Partner at **Dorm Room Fund** (deadline Sept 17, 2026). Holds all six polished answers, the two investment picks, the ≤200-char LinkedIn outreach messages, open verify-before-submit flags, and a **reusable answer bank** for future apps.
+- [[dorm-room-fund]] — **Dorm Room Fund (DRF)**: First Round Capital's student-run pre-seed VC fund ($50M, 2026 fund); ~30 partner campuses, ~60 student Investment Partners/year, 100% student decision-making, writes first checks for student founders. Cole applied as Investment Partner (Sept 2026); see application: [[dorm room fund]].
+- [[dorm room fund]] — Cole's Investment Partner application to DRF (deadline Sept 17, 2026). Holds all six polished answers, the two investment picks ([[everyday-robotics]] JHU + [[athletic-training-portal]] Duke), the ≤200-char LinkedIn outreach messages, and a reusable answer bank.
 - [[everyday-robotics]] — JHU spinout building LLM-powered social robots (kids-reading tabletop robot, deployed in Baltimore schools); founders [[Victor Nikhil Antony]] (JHU CS PhD, ELLA) + Andrés de la Sierra Renier (ex-J.P. Morgan). Cole's **JHU DRF pick.**
-- [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged).
->>>>>>> origin/autoresearch/night-2026-08-30
+- [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged). · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
 
 ## Concepts
 
@@ -291,6 +287,9 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-authoring-playbook]] — actionable build checklist: description trigger surface, progressive disclosure tiers, conciseness, degrees of freedom, evals-first; the checklist Cole works from when improving vault skills.
 - [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill.
 - [[skill-audit-networking-prep]] — [[skill-authoring-playbook]] checklist applied to `networking-prep`; §1–§4 clean; step-numbering fix applied; §5 eval recommendations logged for Cole.
+- [[skill-audit-vault-autoresearch]] — [[skill-authoring-playbook]] checklist applied to the loop's own `vault-autoresearch` driver skill; 6/6 sections clean; the one skill that already satisfies §5 (its eval is the HEALTH_DEBT ratchet); includes a running skill-audit scoreboard.
+- [[skill-audit-wiki-query]] — [[skill-authoring-playbook]] checklist applied to `wiki-query` (2026-10-04); §1–§4 and §6 clean; 2 recommendations logged (description third-person form, Guardrails overlap); 0 structural fixes; skill judged healthy.
+- [[skill-evals-playbook]] — the concrete how-to for the recurring §5 "write ~3 evals" gap: the query+files+expected_behavior triplet, code- vs model-based grader choice, worked triplets for the vault's own skills, and the keep-or-revert run loop (a skill's private HEALTH_DEBT).
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
