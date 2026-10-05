@@ -1185,7 +1185,20 @@ Phase 2 met primary endpoint, JAMA Psychiatry Feb 2026; FDA Breakthrough Therapy
 recruiting). Added Lane 0 row to [[outreach-pipeline]] (queued, no job ask), plus crm/index + root index
 entries. Ask = advice + keep-warm for 2027 recruiting.
 
-<<<<<<< HEAD
+## [2026-08-30] autoresearch | AutoResearch night (Sunday weekly run)
+Full six-phase loop on branch `autoresearch/night-2026-08-30`. **Phase 1 build:** ran the
+[[skill-authoring-playbook]] checklist against the `networking-prep` skill (2nd worked example on
+[[skill-audit-worked-example]]) — one safe fix: removed a baked, stale-prone lane snapshot from
+Step 1 that violated the skill's own Freshness principle; lane now read live from `five-year-plan.md`.
+Advances *Improve + general skills* ([[Claude Mastery]]). **Phase 3 self-heal:** drove HEALTH_DEBT
+16→0 — fixed the `startup-radar` orphan (reciprocal links from [[outreach-pipeline]] + [[Job Search]])
+and indexed 5 missing pages ([[startup-radar]], [[skill-audit-worked-example]], [[claude-api]],
+[[activate]], [[ply]]). **Phase 4 MODE B:** built the [[mcp]] stub (14 lines) into a full hub —
+host/client/server architecture, the tools/resources/prompts primitives, stdio + Streamable HTTP
+transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
+extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
+→ one morning PR. Baseline debt 16 → final 0.
+
 ## [2026-09-08] query | Prep — Kelli Luginbuhl: Duke vs. JHU innovation ecosystems
 Cole prepping a conversation with [[Kelli Luginbuhl]] on Duke vs. JHU innovation ecosystems, with
 concrete examples. Filed the answer as **[[kelli-luginbuhl-call-prep]]** (4 beats: JHTV as
@@ -1242,21 +1255,6 @@ recipes + the v2.1 plugin `hooks.json` double-fire gotcha), **[[agent-security-r
 entity (harness-framework layer) and the **[[Claude Mastery]]** bucket; added index entries. Flagged
 follow-up sources to clip next: ECC's Longform/Security/Shorthand guides (Longform = most implementable).
 Moved the source to `raw/Processed/`.
-=======
-## [2026-08-30] autoresearch | AutoResearch night (Sunday weekly run)
-Full six-phase loop on branch `autoresearch/night-2026-08-30`. **Phase 1 build:** ran the
-[[skill-authoring-playbook]] checklist against the `networking-prep` skill (2nd worked example on
-[[skill-audit-worked-example]]) — one safe fix: removed a baked, stale-prone lane snapshot from
-Step 1 that violated the skill's own Freshness principle; lane now read live from `five-year-plan.md`.
-Advances *Improve + general skills* ([[Claude Mastery]]). **Phase 3 self-heal:** drove HEALTH_DEBT
-16→0 — fixed the `startup-radar` orphan (reciprocal links from [[outreach-pipeline]] + [[Job Search]])
-and indexed 5 missing pages ([[startup-radar]], [[skill-audit-worked-example]], [[claude-api]],
-[[activate]], [[ply]]). **Phase 4 MODE B:** built the [[mcp]] stub (14 lines) into a full hub —
-host/client/server architecture, the tools/resources/prompts primitives, stdio + Streamable HTTP
-transports, and a web-grounded 2026-07-28 spec snapshot (stateless core, Tasks/MCP Apps/EMA
-extensions, OAuth/CIMD); promoted its index entry from a "supporting tools" mention. All on the branch
-→ one morning PR. Baseline debt 16 → final 0.
->>>>>>> origin/autoresearch/night-2026-08-30
 
 ## [2026-09-14] ingest | NEUROSCI 206L — Auditory System (Week 4, Ch 10)
 Cole prepping for his Wk4 auditory class. Ingested two PDFs (Prof [[Leonard White]]): the **tutorial notes** (10 pp)
@@ -1439,3 +1437,46 @@ predicted exit IPO 98%. Reframed recommendation #6 to "build to be acquired / cu
 — Teamworks is the local (Durham), IPO-track roll-up buying exactly ATP's layer, so the single most
 natural acquirer + relationship to build. Regenerated Google Doc (new id 1a--GGClqeW0UArhKBlGldY0MUGPC4-xT8uQ4umgyJ1Y)
 and trashed prior copy. Doc name stable: "ATP Competitive Analysis (internal draft — Cole, Sept 2026)".
+
+## [2026-09-28] study | fMRI Midterm I prep — Phase 2 complete
+Finished Phase 2 (slide walks) of the [[study-playbook]] for the fMRI [[fmri|Midterm I]] (Tue Sep 29), covering Ch 1–8
+with nothing left a black box. Walked: TR/TE contrast curves (long TR kills T1 diff, intermediate TE maxes T2 diff),
+spin-echo 180° refocusing (reversible T2* dephasing vs irreversible true T2; GRE=T2* for BOLD), EPI (single 90° +
+oscillating gradients boustrophedon-raster all of k-space from center→corner in ~40 ms), astrocyte neurovascular coupling
+(glutamate→Ca²⁺→arteriole dilation→functional hyperemia→↓deoxyHb→↑BOLD), Logothetis 2001 (BOLD tracks LFP/input not
+SUA-MUA/spiking output), HDR linearity/superposition + Dale & Buckner 1997 (roughly linear, sublinear <~5 s ITI =
+refractory period), and preprocessing steps 1–2 (motion correction = 6-param rigid-body realign minimizing SSD/mutual
+info; slice-timing = temporal interpolation to a reference slice). Next: Phase 3 active problem drilling on weak chapters.
+
+## [2026-09-29] study | CHEM 210 Midterm 1 — 29 learning objectives study sheet
+Built [[chem-210-midterm1-learning-objectives]] from Cox's 29 stated LOs (Units 1 & 2, exam Thu Oct 1). Each objective given the ELI15 → normal → practice-problem + answer-key treatment per the [[study-playbook]]. Grouped Nuclear (1-3) · Bohr/nodes (4,7,8) · e-config/Slater/shielding (5,6,9) · periodic/relativistic (10-14) · lattice/IMF/dissolution (15-18) · colligative (19-23,25) · solubility eq/thermo (24,26-29). Linked from [[chem-210]] hub. Next: interactive Phase-3 problem drilling.
+
+## [2026-10-04] ingest | ATP DoD/federal landscape memo + Frank Schwagel email
+Ingested the follow-on [[Frank Schwagel]] asked for after [[atp-competitive-analysis]]: his DoD-resource
+email (AFRL / 711th HPW via [[Barbara Knight]], xTech, SOFWERX, SOCOM) + a commissioned research memo on
+ATP's federal landscape beyond the Navy SBIR. Source → [[atp-dod-federal-landscape-2026]] (raw at
+raw/Processed/2026-10-04-atp-dod-federal-landscape.md). Built the main deliverable
+[[atp-federal-funding-landscape]] — reconciling the generic memo (written with limited ATP knowledge)
+against what the vault knows about ATP: the "Aircrew Readiness Fingerprint" Navy angle maps onto the
+711th HPW's aerospace-medicine mission; the FDA injury-claim risk = the same wellness-safe reframe xTech's
+Army-medical exclusion requires; advisor Dr. Dickens (military sports med) is a federal credential;
+TACFI/STRATFI is Air-Force-SBIR-only (not ATP's Navy work); flagged the unconfirmed Navy SBIR phase as a
+decision point. Independently ✅verified the two imminent deadlines via web: xTech|Search 10 due Oct 19
+2026 5pm ET ($1M cash + $6M SBIR); SOFWERX/USSOCOM OSBP event Nov 5 Tampa, request-to-attend by Oct 8
+2026 (≤2/org). Enriched [[athletic-training-portal]] (new Federal/DoD section + reciprocal link) and
+[[atp-competitive-analysis]] (DoD-wedge + Related links). Added CRM records for [[Frank Schwagel]] (warm,
+ATP SOF navigator) and [[Barbara Knight]] (target AFRL contact) + crm/index.md. Filed 7 action items under
+a new ATP federal/DoD section in tasks/index.md. Updated index.md (Analyses + new Ventures—ATP source +
+ATP entity line) and the [[Job Search]] bucket. **Also resolved a pre-existing unresolved git merge
+conflict in index.md** (HEAD vs origin/autoresearch/night-2026-08-30, around the Job-search-targets block):
+kept the newer autoresearch structure, preserved the HEAD-only [[kelli-luginbuhl-call-prep]] reference,
+removed the duplicate [[ply]] line + conflict markers.
+
+## [2026-10-04] enrich | ATP Navy SBIR stage — resolved (pending/pre-award)
+Cole clarified ATP is still very early: the Navy SBIR ("Aircrew Readiness Fingerprint") application was
+*just submitted* — pending, pre-award — not a Phase II. Reconciled [[atp-federal-funding-landscape]]
+(flipped the §4 "open question" box to resolved; noted the follow-on vehicles — Navy STP, Phase III,
+TACFI/STRATFI — are all downstream and don't apply yet; near-term play = the relationship/prize moves +
+winning the pending award; the pending proposal still must be disclosed to xTech since "substantially
+the same" covers pending work) and [[athletic-training-portal]]. Closed the "confirm Navy SBIR phase"
+task item in tasks/index.md.

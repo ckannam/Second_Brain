@@ -234,10 +234,6 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
-<<<<<<< HEAD
-- [[ply]] — NYC seed-stage vertical SaaS for trade contractors (HVAC/R, plumbing, electrical); ~$14.2M raised (Ferguson Ventures, Primary, SignalFire). Off Cole's health/bio tilt but strong Uship-operator overlap. Cole's contact: [[Ryan Berger]] (Head of Ops).
-- [[athletic-training-portal]] — **ATP**, the startup Cole is joining post-grad as an early operator (the operator-first bet from the [[five-year-plan]]). · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
-=======
 
 ### Job-search targets — other lanes (see [[Job Search]])
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
@@ -250,13 +246,13 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[techbio-ai-drug-discovery]] — Cole's **category POV** (his industry of specialty): the broken 10–15yr/$2.6B drug timeline, the ~$4B (2026) market at ~25–30% CAGR, timeline compression proof (Insilico ~18mo to preclinical), and the companies (Isomorphic, Insilico, Recursion, Xaira). Ties to [[valley-of-death]].
 - [[dorm room fund]] — Cole's application to be a student Investment Partner at **Dorm Room Fund** (deadline Sept 17, 2026). Holds all six polished answers, the two investment picks, the ≤200-char LinkedIn outreach messages, open verify-before-submit flags, and a **reusable answer bank** for future apps.
 - [[everyday-robotics]] — JHU spinout building LLM-powered social robots (kids-reading tabletop robot, deployed in Baltimore schools); founders [[Victor Nikhil Antony]] (JHU CS PhD, ELLA) + Andrés de la Sierra Renier (ex-J.P. Morgan). Cole's **JHU DRF pick.**
-- [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged).
->>>>>>> origin/autoresearch/night-2026-08-30
+- [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining as an early operator (conflict flagged). Competitive analysis: [[atp-competitive-analysis]]; federal/DoD funding lane: [[atp-federal-funding-landscape]]. · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
 
 ## Concepts
 
 ### Analyses
 - [[atp-competitive-analysis]] — internal-strategy competitive analysis for [[athletic-training-portal]] (Sept 2026): four-ring competitor map, capability matrix, evidence/regulatory/data-rights audits, Five Forces, honest 2×2. Closest rival [[Uplift Labs]]; FDA-cleared incumbent [[DARI Motion]]; ATP wins on single-camera + college/FERPA + DoD, and must win the evidence war.
+- [[atp-federal-funding-landscape]] — ATP's DoD/federal landscape beyond the Navy SBIR (Oct 2026): the follow-on Frank Schwagel asked for. Three near-term moves (xTech|Search 10 by Oct 19, SOFWERX/USSOCOM OSBP seat by Oct 8, open the 711th HPW via [[Barbara Knight]]); what recurs (monthly DSIP SBIR, CHEERS, ARL BAA); eligibility + two ATP-specific risks (Army medical exclusion / FDA injury-claim line; TACFI/STRATFI is Air-Force-SBIR-only). Ties to ATP's "Aircrew Readiness Fingerprint."
 
 ### Job search / networking
 - [[cold-email-job-search]] — the playbook: cold-email rules (≤200 words, one ask, no fake personalization), the who/why/why-they-care format, and 9 sources for finding unposted startup roles. Feeds [[outreach-pipeline]].
@@ -463,6 +459,9 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[flourish-wired-core-algorithm]] — WIRED (Steven Levy, Jun 2026): the Bezos-funded launch profile of [[flourish|Flourish]]; source for the company page + the Hopkins outreach angle.
 - [[july-hiring-thread-benlang]] — Ben Lang's July 2026 hiring thread (86 startups); in-lane NYC health/bio/AI names promoted to [[target-orgs]].
 - **[[relentless]] testimonials** — 3 "Relentless Reviews" YouTube clips on the done-for-you job-search service: [[relentless-review-roger-wyatt]] (+$60K, Director of Eng), [[relentless-review-yasmin-endassa]] (offer while running her business), [[relentless-review-yanis-romero]] (+$155K in 6 weeks). Marketing — read with survivorship bias.
+
+### Ventures — ATP
+- [[atp-dod-federal-landscape-2026]] — Frank Schwagel's DoD-resource email (AFRL/711 HPW, xTech, SOFWERX, SOCOM) + the commissioned research memo on ATP's federal landscape beyond the Navy SBIR (2026-10-04). Snapshot with flagged unverified items; analysis at [[atp-federal-funding-landscape]].
 
 ### World & ideas — interviews & reading
 - [[us-carceral-system-channel5-freleng]] — Channel 5 / Maggie Freleng on US mass incarceration (substantive first half → [[mass-incarceration]]); back-half conspiracy content flagged + not encoded. Values context for [[cole]].

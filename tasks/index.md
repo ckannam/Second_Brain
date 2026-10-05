@@ -9,6 +9,16 @@ Format: `- [ ] <action> — <context> [[related-page]] (added YYYY-MM-DD)`
 
 ## Open
 
+### ATP — federal / DoD funding ([[atp-federal-funding-landscape]])
+_The follow-on [[Frank Schwagel]] asked for after [[atp-competitive-analysis]]. Verified deadlines ✅. Frame ATP as commander-facing **readiness**, not medicine. See [[atp-federal-funding-landscape]] for the full map._
+- [ ] ⏰💰 @human **xTech|Search 10 — 3-page white paper DUE Oct 19, 2026, 5pm ET** ✅ — Army open-topic prize comp ($1M cash + up to $6M SBIR), Valid Eval portal (not DSIP). Go/no-go first: confirm >50% US-citizen/PR ownership still holds (DRF/VC check) + disclose the Navy SBIR ("not substantially the same"). Pitch unit-readiness/training-load for commanders. [[atp-federal-funding-landscape]] (added 2026-10-04)
+- [ ] ⏰🎯 @human **SOFWERX/USSOCOM OSBP networking event — request a seat by Oct 8, 2026, 11:59pm ET** ✅ — event Nov 5 in Tampa, ≤2 attendees/org; meet POTFF primes (sports med / S&C / nutrition) + investors. Virtual Q&A Oct 22; confirm via networking-app profile by Oct 29. [[atp-federal-funding-landscape]] (added 2026-10-04)
+- [ ] 🎯 @human **Email [[Barbara Knight]] (AFRL Small Business Office) + afrl.sb.questions@us.af.mil** — one-page ATP capability summary; ask for a 711th HPW/RH technical PoC and whether CHEERS (rolling 5-pg white paper to Sep 30, 2027) or a future Focused Open Topic is the better route. Highest-fit AF customer; ties to ATP's "Aircrew Readiness Fingerprint." [[atp-federal-funding-landscape]] (added 2026-10-04)
+- [x] ✅ **Navy SBIR stage resolved (Cole, 2026-10-04): application *just submitted*, pending/pre-award.** So ATP is very early — Navy STP / Phase III / TACFI-STRATFI are all downstream and don't apply yet; near-term federal play = the relationship-and-prize moves below + winning the pending Navy award. (The pending proposal still must be disclosed to xTech.) [[atp-federal-funding-landscape]] (added 2026-10-04, done 2026-10-04)
+- [ ] 🔽 @human **MTEC FY26 Multi-Topic RPP Focus Area 10B (MSK health) — due Oct 30, 2026** — only if feasible: needs MTEC membership + TRL≥3 + prelim data, best with a Johns Hopkins/[[capital-strategy|JHTV]] clinical partner. Else queue the next multi-topic cycle. (added 2026-10-04)
+- [ ] 🔁 @cloud **Monitor the monthly DSIP + AFWERX pre-release (first Wednesday)** for a 711 HPW / human-performance Focused Open Topic; FY27 Release 1 pre-releases Oct 7, opens Oct 28, closes Nov 25, 2026. [[atp-federal-funding-landscape]] (added 2026-10-04)
+- [ ] 🔽 @human **Join SOFWERX ecosystem + SOCOM Engage SOF (Vulcan)** — submit a capability profile; explore a SOCOM CRADA (discovery@socom.mil) for SOF data/users without funding. (added 2026-10-04)
+
 ### Job Search — networking engine ([[outreach-pipeline]])
 _Improvement plan: [[tasks/improvements/2026-07-27-outreach-engine|2026-07-27-outreach-engine]]. Local steps run on approval; these are the deferred ones._
 - [ ] 🎯 @human **Christy Wyskiel 15-min talk — Wed Aug 5** — head of [[JHTV]] (Sr. Advisor to the JHU President for Enterprise Development). High value: relationship + potential Fulbright JHTV-recommender channel + job-search signal. **Prep done → [[Christy Wyskiel|prep]].** After: thank-you <24h + log what she said. [[outreach-pipeline]] (added 2026-07-31)

@@ -57,4 +57,20 @@ the entire injury-ML literature, so a prospective validated study off the signed
 ahead of everyone. ⚠️ The "predict injuries before they happen" claim is FDA device-line risk (the
 WHOOP warning-letter trap) — reframe to wellness-safe "deviation-from-baseline monitoring."
 
-Related: [[atp-competitive-analysis]] · [[five-year-plan]] · [[Job Search]] · [[cole]].
+## Federal / DoD funding landscape (Oct 2026)
+Beyond the Navy SBIR, ATP has a real federal-customer and non-dilutive-capital lane — mapped in
+[[atp-federal-funding-landscape]] (the follow-on [[Frank Schwagel]] asked for after the competitive
+analysis). Three near-term moves: **(1) submit an xTech|Search 10 white paper by Oct 19, 2026, 5pm ET**
+(framed as commander-facing *readiness*, not medicine — the Army medical-command exclusion is the same
+line as the WHOOP/FDA injury-claim risk); **(2) request a seat at the SOFWERX/USSOCOM OSBP networking
+event by Oct 8, 2026** (event Nov 5 in Tampa; meet the POTFF primes whose physical domain = sports med /
+S&C / nutrition); **(3) open the 711th Human Performance Wing relationship now** via [[Barbara Knight]]
+(AFRL Small Business Office) + a rolling CHEERS white paper. The 711th HPW is the standout fit — it
+houses the USAF School of Aerospace Medicine, so ATP's **"Aircrew Readiness Fingerprint"** Navy work is
+a ready-made proof point. Advisor **Dr. Dickens (military sports medicine)** is a federal-credibility
+asset. ⚠️ Flag: **TACFI/STRATFI scaling money applies only to *Air Force* SBIR** (not ATP's Navy
+work). Note ATP is **very early** — it *just submitted* the Navy SBIR application (pending, pre-award,
+Oct 2026), so the follow-on vehicles (Navy STP, Phase III, TACFI/STRATFI) are all downstream; the
+near-term federal play is the relationship-and-prize moves above, and winning the pending Navy award.
+
+Related: [[atp-competitive-analysis]] · [[atp-federal-funding-landscape]] · [[five-year-plan]] · [[Job Search]] · [[cole]].

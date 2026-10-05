@@ -39,7 +39,9 @@ Readiness Fingerprint") second front. See [[athletic-training-portal]].
 3. **Founder–market fit.** Jaylen (ex-Duke football + BME) embedded in Duke Athletics; advisors
    Dickens (military sports med) and Luck (Duke BME biomechanics) map directly onto the SBIR bet.
 4. **DoD/SBIR wedge** = non-dilutive capital + a second market **[[Oura]]/Sparta already proved**
-   exists (Trinsic serves government incl. US Air Force). *(Keep confidential per DRF flag.)*
+   exists (Trinsic serves government incl. US Air Force). *(Keep confidential per DRF flag.)* The full
+   federal-customer map beyond the Navy SBIR — xTech|Search 10, the 711th HPW, SOCOM/POTFF, MTEC — is
+   its own analysis at **[[atp-federal-funding-landscape]]** (Oct 2026).
 
 **Where ATP must clear a bar someone else already set:**
 - **Evidence.** The whole field is thin (see §4), but **[[DARI Motion]] holds "the world's only
@@ -389,4 +391,4 @@ Duke Deep Tech — [deeptech.duke.edu](https://deeptech.duke.edu/blog-post/no-pa
   G2/app-store reviews + job postings (clinical/regulatory hires = FDA-path signal).
 - **Ecosystem reports:** SportsTechX *Global SportsTech Ecosystem Report 2026*, Drake Star, PEAK.
 
-Related: [[athletic-training-portal]] · [[dorm room fund]] · [[capital-strategy]] · [[Job Search]] · [[cole]]
+Related: [[athletic-training-portal]] · [[atp-federal-funding-landscape]] · [[dorm room fund]] · [[capital-strategy]] · [[Job Search]] · [[cole]]
