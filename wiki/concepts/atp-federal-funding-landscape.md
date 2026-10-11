@@ -23,6 +23,26 @@ Companion to [[athletic-training-portal]] and [[atp-competitive-analysis]].
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-10-11
+
+Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, secondary sources):
+
+**FY27 Release 1 status:** Pre-released Oct 7 on schedule ✅. Opens Oct 28, closes Nov 25, 2026, 12:00 PM ET. Total 25 topics: 16 DAF (13 SBIR + 3 STTR), 6 Navy, 2 OSW, 1 Army. Topic-author contact window open now through Oct 27 (closes when proposals open).
+
+**Human performance topics in FY27 R1: NONE confirmed.** The 13 confirmed Air Force SBIR topics (NV001–NV006 Phase I; DV007–DV013 Direct-to-Phase-II) are dominated by hypersonics, laser/directed energy, UAS logistics, and electronics. The confirmed STTR (DAF27TZ01-DV001) covers AI-assisted air refueling debrief — adjacent to human-machine teaming but not human performance. *Caveat: DSIP was inaccessible via proxy during this scan; list is from secondary indexers. Directly verify on dodsbirsttr.mil before Oct 27 to confirm no unindexed human performance topic.*
+
+**AFWERX Focused Open Topics:** No human performance topic currently open. The most recent FOT was Manufacturing (closed July 9, 2026). AFWERX's stated "Agile Combat & Readiness" focus area is manufacturing/logistics, not physical human performance. Next pre-release cycle: first Wednesday of November 2026.
+
+**xTech|Search 10:** Deadline **Oct 19, 5:00 PM ET still stands** — no extension found. SBIR topic number **ARM26BX05-NP011** (STTR: ARM26TX05-NP002). Submission portal: xtech.army.mil (NOT DSIP). ⚠️ A secondary source also mentions topic **ARM27BX01-DP001** with an Oct 23 white-paper deadline — this may be a distinct Army FY27 topic; verify on dodsbirsttr.mil and armysbir.army.mil before Oct 23.
+
+**New lead — SOCOM rolling BAA:** SOCOM operates a standing FY23–FY28 BAA for **biomedical and human performance technologies** accepting rolling submissions year-round. This is potentially ATP's most direct fit and is independent of the monthly DSIP release cycle. Contact: discovery@socom.mil (capability submission via Engage SOF / Vulcan or the CRADA pathway already noted in §5).
+
+**Competitor alert:** Dynamic Athletic Research Institute (DARI) appeared in a 2021 Air Force Special Warfare markerless-capture study; Southwest Research Institute received DoD funding for markerless biomechanics AI in 2026. ATP should cite the 2021 AFSPECWAR validation study (PMID 34734097) as scientific precedent in its white papers.
+
+---
+
+---
+
 ## 0. The three moves that actually matter for ATP (prioritized)
 
 1. **xTech|Search 10 — submit a 3-page white paper by Oct 19, 2026, 5:00 p.m. ET** ✅verified.
@@ -119,6 +139,10 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
   (e.g. xTech|Kinetic Reach, Dec 2026 window).
 - **CDMRP/PRMRP** — annual (FY26 $370M, MSK among topics); FY26 deadlines passed; **FY27 ~spring 2027**,
   best run with an academic lead (JHU/[[capital-strategy|JHTV]]).
+- **SOCOM rolling BAA for biomedical + human performance** — the standing FY23–FY28 BAA accepts
+  rolling submissions year-round. Confirmed as a standing open vehicle (web-verified 2026-10-11).
+  This is potentially ATP's most direct mission fit among all identified vehicles. Contact/submit:
+  discovery@socom.mil; Engage SOF (Vulcan) capability submission or CRADA pathway.
 - **SOCOM Engage SOF (Vulcan)** — open, continuous capability submissions; **SOCOM CRADA** — any time;
   **SOCOM S&T BAA** valid to Dec 31, 2030.
 - **Paused/empty:** SOFWERX **Tech Tuesday** (new submissions paused since Sep 18, no reopen date — fill
@@ -205,10 +229,19 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
 - **Independently ✅verified (web, 2026-10-04):** xTech|Search 10 deadline **Oct 19, 2026 5pm ET**, prize
   structure ($1M cash + up to $6M SBIR, ≤50 semis/≤20 finalists); SOFWERX OSBP event **Nov 5 Tampa**,
   request-to-attend by **Oct 8, 2026**, ≤2 attendees/org.
+- **Independently ✅verified (web, 2026-10-11):** FY27 Release 1 pre-released Oct 7 on schedule; opens
+  Oct 28, closes Nov 25, 2026; xTech SBIR topic number ARM26BX05-NP011; SOCOM rolling BAA confirmed as
+  open vehicle; no 711th HPW / human-performance Focused Open Topic in FY27 R1 (partial topic list —
+  verify DSIP directly before Oct 27); competitors DARI + Theia3D + Southwest Research Institute
+  confirmed in DoD markerless-capture validation studies (2021 AFSPECWAR study PMID 34734097;
+  2024 soldier load study; SwRI 2026 DoD award).
+- **New unresolved item (2026-10-11):** topic ARM27BX01-DP001 (Army FY27, Oct 23 white-paper deadline)
+  appeared in one secondary source — may be distinct from xTechSearch 10. Verify on dodsbirsttr.mil
+  + armysbir.army.mil before Oct 23.
 - **Open ATP-side question:** Navy SBIR phase (§4). Confirm with Jaylen.
 - **Snapshot:** AFWERX's Focused Open Topic model is new and its topic mix shifts monthly; Tech Tuesday's
   reopen date is undetermined; DoD naming (DoW) is mid-transition.
 
 Related: [[athletic-training-portal]] · [[atp-competitive-analysis]] · [[atp-dod-federal-landscape-2026]]
-· [[Barbara Knight]] · [[Frank Schwagel]] · [[dorm room fund]] · [[capital-strategy]] · [[Job Search]]
-· [[cole]]
+· [[xtech-search]] · [[Barbara Knight]] · [[Frank Schwagel]] · [[dorm room fund]] · [[capital-strategy]]
+· [[Job Search]] · [[cole]]
