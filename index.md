@@ -236,6 +236,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
 - [[athletic-training-portal]] — **ATP**, the startup Cole is joining post-grad as an early operator (the operator-first bet from the [[five-year-plan]]). · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
+- [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
 
 ### Job-search targets — other lanes (see [[Job Search]])
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
@@ -253,6 +254,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[left-lane-capital]] — growth-stage VC (NY + London, consumer-internet/subscription). Managing Partner [[Dan Ahrens]] met Cole at a 2026-10-06 info session and encouraged him to apply. Open action: **apply.**
 - [[atlanta-ventures]] — Atlanta early-stage VC + venture studio (B2B SaaS), CEO/Founder [[David Cummings]] (also founded Atlanta Tech Village). Surfaced via mentor [[Damien Hoffman]], who'll make a warm intro **for a specific reason**. Open action: **research the portfolio → shortlist 1–2 best-fit openings → ask Damien for the [[David Cummings]] intro.**
 - [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged).
+- [[isomorphic-labs]] — **scale leader** of [[techbio-ai-drug-discovery|AI drug discovery]]: Alphabet/[[deepmind]] spinout on AlphaFold (CEO Demis Hassabis); ~$2.7B raised (incl. $2.1B Series B, May 2026, Thrive-led) + ~$3B Lilly/Novartis milestones; IsoDDE beats AlphaFold 3 on hard benchmarks; IND expected end-2026 (no human readout yet — Insilico is the *proof* leader). Cole's AI-bio category name-drop.
 
 ## Concepts
 
@@ -297,6 +299,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill, plus a vault-wide sweep of all 11 skills.
 - [[skill-evals]] — the concrete how-to for skill evaluations: official eval file format (query/files/expected_behavior), the baseline-first 5-step process, the Claude-A/B loop, the "no built-in runner" reality, and a runnable worked eval set for `startup-radar`.
 - [[skill-audits-2026]] — running audit log applying the playbook checklist across vault skills; Sept 2026 batch covers `orchestrate-agents`, `wiki-query`, `vault-autoresearch`; cross-skill finding: every skill lacks evals (§5 gap).
+- [[skill-audit-wiki-query]] — [[skill-authoring-playbook]] checklist applied to `wiki-query`; §1–§4 clean; two recommendations (description third-person form, guardrails dedup); startup-radar path fix applied as side-finding.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).

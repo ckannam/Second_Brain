@@ -47,3 +47,7 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-09-13T02:07	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed tonight
 2026-09-13T02:15	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build; no build-introduced debt
 2026-09-13T02:15	B	wiki/sources/evals-for-taste.md	0	0	keep	MODE B: enriched evals-for-taste with vault-skill application section + reciprocal backlinks to skill pages
+2026-09-27T02:00	A	(none)	0	0	skip	HEALTH_DEBT already 0 at baseline; no Phase-1 fast-track work needed
+2026-09-27T02:05	A	.claude/skills/startup-radar/SKILL.md	0	0	keep	applied outstanding path fix from skill-audit-worked-example: Step 7 validator path absolute→relative (startup-tracker/validate.py); structural only
+2026-09-27T02:10	A	index.md (skill-audit-wiki-query)	2	0	keep	Phase-3 build-heal: added skill-audit-wiki-query.md to index.md; debt 2→0
+2026-09-27T02:15	B	wiki/concepts/proactive-agents.md	0	0	keep	Phase-4 MODE B: enriched 9-line stub to full concept page (proactivity spectrum table, mechanism, vault instantiation, future rungs); synthesis from claude-code-scheduled-tasks, agent-memory, ai-executive-assistant, claude-tag, vault-autoresearch

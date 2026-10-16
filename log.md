@@ -1600,3 +1600,25 @@ and "Train skills" @cloud items. **Phase 4 (MODE B):** created [[outreach-kit]] 
 template library (4 ready-to-send templates + pre-send checklist); fills the long-standing dangling
 link from [[outreach-pipeline]] and [[cold-email-job-search]]; wired into [[Job Search]] bucket.
 Opened morning PR `autoresearch/night-2026-09-06 → main` for review.
+## [2026-09-27] autoresearch | Weekly AutoResearch — 2026-09-27 (Sunday run)
+
+**Phase 0:** HEALTH_DEBT = 0 at baseline (orphans 0, missing_from_index 0, stale_claims 0).
+Selected 2 @cloud items from `tasks/index.md`. Queue in `autoresearch/nightly-queue.md`.
+
+**Phase 1 (fast-track, main):** No-op — HEALTH_DEBT already 0; nothing to heal.
+
+**Phase 2 (build, branch `autoresearch/night-2026-09-27`):**
+1. *Improve + general skills:* Audited `wiki-query` SKILL.md against [[skill-authoring-playbook]] — §1–§4 clean, 2 recommendations logged (description third-person form; guardrails dedup), no structural fixes needed on wiki-query itself. As side-finding, applied the outstanding startup-radar path fix (absolute→relative) that was described but not persisted in [[skill-audit-worked-example]]. New page: [[skill-audit-wiki-query]].
+2. *Build source-seeking MODE B rung:* Added source-seeking design section to [[extending-the-llm-wiki]] — covers sweep surfaces, scoring heuristic, PR-proposal output format, and implementation path. Advances the task without unreviewed changes to `program.md`.
+
+**Phase 3 (build-heal, branch):** Fixed 1 build-introduced defect (`skill-audit-wiki-query` missing from `index.md`); HEALTH_DEBT 2→0.
+
+**Phase 4 (MODE B, branch):** Enriched [[proactive-agents]] from a 9-line stub to a full concept page (proactivity-spectrum table, mechanism, Anthropic first-party stack, vault instantiation, future rungs). Synthesis from [[claude-code-scheduled-tasks]], [[agent-memory]], [[ai-executive-assistant]], [[claude-tag]], [[vault-autoresearch]].
+
+**Phase 5:** Morning PR opened (branch → main).
+
+## [2026-09-27] autoresearch | Maintenance heal — resolved leftover merge-conflict markers
+Second concurrent Sunday run: found this branch (and `main`) still carried botched git merge-conflict markers from the night-2026-08-30 merge, in **index.md** and **log.md** (the other night-2026-09-27 run did not touch them). Resolved both as a union (no content invented or dropped): index.md keeps the fuller [[ply]] + [[athletic-training-portal]] entries and all VC/other-lane entries; log.md restores append-only chronological order (the 2026-08-30 autoresearch entry now sits between 08-27 and 09-08). score.py does not detect conflict markers, so this rides PR #28 for Cole to verify.
+
+## [2026-09-27] autoresearch | Phase 4 MODE B (2nd run) — new entity: Isomorphic Labs
+Second concurrent run's generative enrichment (distinct from the other run's [[proactive-agents]] MODE B): created [[isomorphic-labs]] (entity, job-search) — the **scale leader** named but page-less in [[techbio-ai-drug-discovery]], now its own linkable node. Web-grounded 2026-09-27: Alphabet/[[deepmind]] AlphaFold spinout (2021, CEO Demis Hassabis); ~$2.7B raised (incl. $2.1B Series B May 2026, Thrive-led) + ~$3B Lilly/Novartis committed milestones; IsoDDE ~50% vs AlphaFold 3's 23.3% on hardest protein-ligand benchmarks; late-preclinical candidates, ≥1 IND expected end-2026, first trials pushed to end-2026 (no human readout yet → Insilico stays the *proof* leader). Passes the new-page test; linked to techbio, [[insilico-medicine]], [[jhtv]], [[valley-of-death]], [[vc-interview-prep]], [[Job Search]]; added to index. Sources: Forbes/FierceBiotech, IntuitionLabs/StartupHub.ai, Fortune, Lilly/Novartis deal coverage.
