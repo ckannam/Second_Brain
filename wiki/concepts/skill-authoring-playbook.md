@@ -97,6 +97,10 @@ discipline is what makes a skill library *governable* ([[governed-skills-framewo
 concrete mechanics — the exact eval file format, the baseline-first run, and a runnable worked eval
 set for a vault skill — see [[skill-evals]] (this §5's runnable companion).
 
+**The concrete how-to lives in [[skill-evals-playbook]]** — the triplet format, code- vs model-based
+grader choice, worked eval triplets for the vault's own skills, and the keep-or-revert run loop. That
+page turns this section's "write ~3 evals" from advice into a repeatable method.
+
 ## 6. Anti-patterns to avoid
 
 - **Time-sensitive info** ("before August 2025, use…") → put deprecated guidance in a collapsed
@@ -123,4 +127,4 @@ well-structured `SKILL.md` content natively — no special "writing-skills" skil
 Related: [[claude-code-skills]] · [[token-context-management]] · [[evals-for-taste]] ·
 [[governed-skills-framework]] · [[skills-vs-subagents]] · [[master-claude-code-skills-28min]] ·
 [[claude-code-skills-update]] · [[claude-code]] · [[startup-radar]] · [[skill-audit-worked-example]] ·
-[[skill-evals]] · [[skill-audit-networking-prep]] · [[skill-audit-wiki-query]].
+[[skill-evals]] · [[skill-audit-networking-prep]] · [[skill-audit-wiki-query]] · [[skill-audit-vault-autoresearch]].

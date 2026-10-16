@@ -70,6 +70,14 @@ hardcoded the absolute `python3 /Users/colekannam/Desktop/Second\ Brain/startup-
 - 🔧 **Fixed:** normalized Step 7 to `python3 startup-tracker/validate.py` (run from the vault root),
   matching Steps 4–5 and staying portable if the vault moves. This is a structural, no-behavior-change
   fix — the kind that's safe to apply in the audit itself.
+  - ⚠️ **Drift caught & re-applied 2026-10-04:** a later autoresearch night found this fix had **never
+    actually landed** in the live skill — `git log -S "python3 startup-tracker/validate.py"` on
+    `.claude/skills/startup-radar/SKILL.md` returned empty, and Step 7 still hardcoded the absolute
+    `/Users/colekannam/Desktop/Second Brain/...` path. The 2026-08-08 audit edited *this page* but the
+    companion SKILL.md edit was dropped, so the page asserted a change the skill never received. The
+    edit is now genuinely applied to SKILL.md. **Lesson for unattended audits:** a 🔧 finding isn't
+    done until the live artifact is re-read and confirmed — document the *verified* state, not the
+    intended one, or the audit page itself becomes the stale claim.
 - ✅ **Correctly left absolute:** Step 6's `osascript /Users/colekannam/.claude/concerts/send.scpt`
   is a *system-integration* script outside the vault — absolute is right there. The rule is
   "vault-internal paths relative, external system paths absolute," not "all paths relative."

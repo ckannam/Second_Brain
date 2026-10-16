@@ -1622,3 +1622,34 @@ Second concurrent Sunday run: found this branch (and `main`) still carried botch
 
 ## [2026-09-27] autoresearch | Phase 4 MODE B (2nd run) — new entity: Isomorphic Labs
 Second concurrent run's generative enrichment (distinct from the other run's [[proactive-agents]] MODE B): created [[isomorphic-labs]] (entity, job-search) — the **scale leader** named but page-less in [[techbio-ai-drug-discovery]], now its own linkable node. Web-grounded 2026-09-27: Alphabet/[[deepmind]] AlphaFold spinout (2021, CEO Demis Hassabis); ~$2.7B raised (incl. $2.1B Series B May 2026, Thrive-led) + ~$3B Lilly/Novartis committed milestones; IsoDDE ~50% vs AlphaFold 3's 23.3% on hardest protein-ligand benchmarks; late-preclinical candidates, ≥1 IND expected end-2026, first trials pushed to end-2026 (no human readout yet → Insilico stays the *proof* leader). Passes the new-page test; linked to techbio, [[insilico-medicine]], [[jhtv]], [[valley-of-death]], [[vc-interview-prep]], [[Job Search]]; added to index. Sources: Forbes/FierceBiotech, IntuitionLabs/StartupHub.ai, Fortune, Lilly/Novartis deal coverage.
+## [2026-10-04] autoresearch | Sunday weekly run (night-2026-10-04)
+Cadence gate: Sunday → full loop. Phase 0 baseline HEALTH_DEBT=0 (empty defect set) → no Phase-1
+fast-track heals. Phase 2 build (2 @cloud items under "Improve + general skills"): (1) reconciled an
+audit↔skill drift — [[skill-audit-worked-example]] documented a Step-7 path fix on `startup-radar`
+that git history showed never landed; applied it for real + logged the verify-the-live-artifact lesson;
+(2) third worked-example audit [[skill-audit-vault-autoresearch]] (6/6 clean; the one skill whose §5
+evals already exist via the HEALTH_DEBT ratchet; added a running audit scoreboard). Phase 3: write-back
+to [[tasks/index]]; re-score HEALTH_DEBT=0 (no build-introduced debt). Phase 4 MODE B: one generative
+proposal (see PR). Review lane → one morning PR; nothing auto-merged to main.
+## [2026-10-04] autoresearch | Weekly AutoResearch loop — Sunday run
+
+**Cadence gate:** Sunday (TZ=America/New_York) — passed.
+**Baseline HEALTH_DEBT:** 0 (orphans 0, missing_from_index 0, stale_claims 0).
+
+**Phase 1 (fast-track heals → main):** No-op — HEALTH_DEBT already 0, nothing to heal.
+
+**Phase 2 (build — @cloud):** Audited `wiki-query` SKILL.md against [[skill-authoring-playbook]].
+Findings: §1–§4 and §6 clean; 2 recommendations logged (description third-person form, Guardrails
+section overlap); 0 structural fixes applied (Guardrails deferred — behaviorally significant).
+Deliverable: [[skill-audit-wiki-query]]. Also resolved a pre-existing merge conflict in `index.md`
+(lines 237-254, from the 2026-08-30 PR merge — took the richer branch version; preserved
+`[[kelli-luginbuhl-call-prep]]` from HEAD version).
+
+**Phase 4 (MODE B — generative enrichment):** New entity page [[dorm-room-fund]] — Dorm Room Fund
+as an organization ($50M 2026 fund, First Round Capital origin 2012, ~30 campuses, ~60 IPs/yr,
+100% student decision-making). Fills the gap: DRF was referenced in [[atp-competitive-analysis]]
+and Cole's application [[dorm room fund]] but had no entity page.
+
+**Post-build HEALTH_DEBT:** 0 (orphans 0, missing_from_index 0, stale_claims 0). Ratchet holds.
+
+**Branch:** `autoresearch/night-2026-10-04` → PR opened for Cole's review.

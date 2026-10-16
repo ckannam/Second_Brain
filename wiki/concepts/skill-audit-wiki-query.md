@@ -3,93 +3,105 @@ type: concept
 created: 2026-09-27
 ---
 
-# Skill audit — `wiki-query` (2026-09-27)
+# Skill audit — `wiki-query` (2026-10-04)
 
-**Subject:** `wiki-query` — 71 lines, vault-core (reads `index.md`, `crm/index.md`, `tasks/index.md`,
-`buckets/`, `wiki/`), the skill Cole runs every query through. Chosen because it's the single most
-frequently invoked vault skill and hadn't been audited yet; all five earlier Claude-Mastery audits
-covered other skills ([[skill-audit-worked-example]], [[skill-audit-networking-prep]]). Audited
-against [[skill-authoring-playbook]]; format mirrors the [[skill-audit-worked-example]] template.
+**Subject:** `wiki-query` — ~70 lines, the vault's core retrieval skill; fires on any question
+meant to be answered from the wiki/CRM/tasks. The most frequently triggered vault skill and the
+entry point to every query session. Audited against [[skill-authoring-playbook]]; format mirrors
+[[skill-audit-worked-example]] and [[skill-audit-networking-prep]].
+
+> First audited 2026-09-27 and re-audited 2026-10-04 (this page); the two passes agree on the
+> verdict. The one side-finding from the 2026-09-27 pass is preserved under §6 below: it applied
+> the `startup-radar` Step 7 validator-path fix that [[skill-audit-worked-example]] had described
+> on 2026-08-08 but never persisted to the actual `SKILL.md`.
 
 ## The audit
 
 ### §1 — Description is the trigger surface — ✅ / 🟡
 
-The description packs what it does ("answered from this Second Brain vault/wiki"), explicit trigger
-phrases ("what does the wiki/vault say about X", "ask the wiki/vault", "according to my notes"), the
-command trigger (`/wiki-query`), and a boundary clause ("question whose answer lives in the wiki
-pages, CRM, tasks, or journal rather than general knowledge"). It passes on substance.
+The description packs the key triggers ("what does the wiki/vault say about X", "ask the
+wiki/vault", "according to my notes") and names the scope (wiki pages, CRM, tasks, journal),
+distinguishing vault-grounded answers from general knowledge. It also covers the slash-command
+path ("Also runs on the /wiki-query command"). Passes on coverage.
 
-- 🟡 **Recommend (not applied — trigger-surface change, leave to Cole):** The description opens with
-  "Use when the user asks a question" — functional, but the playbook specifies third-person
-  declarative to avoid discovery problems. A tighter rewrite ("Retrieves and synthesizes answers from
-  the Second Brain vault — wiki pages, CRM, tasks, and journal — with mandatory file-back so every
-  query answer becomes a persistent cross-linked artifact.") would sharpen the signal and put the
-  distinctive *file-back* behavior front-and-center. Deferred because description edits shift firing
-  behavior and belong in a human-reviewed change.
+- 🟡 **Recommend (not applied — trigger-surface change, leave to Cole):** The description opens
+  with "Use when the user asks a question…" — functional, but the playbook specifies true
+  third-person declarative form ("Answers questions from the Second Brain vault/wiki…") to avoid
+  discovery problems in larger toolboxes. Deferred: description edits shift trigger behavior and
+  belong in a human-reviewed iteration.
 
 ### §2 — Progressive disclosure keeps it cheap — ✅
 
-At 71 lines the body is far under the ~500-line ceiling. All vault files (`index.md`, `crm/index.md`,
-etc.) are read at runtime, not bundled. No nested reference files needed. No action.
+At ~70 lines the body is well under the ~500-line ceiling; no split required. No nested reference
+files. The skill explicitly delegates to `AGENTS.md` for canonical rules rather than bundling
+them — correct load discipline: AGENTS.md is already in-context at session start, so
+referencing it costs nothing extra.
 
-### §3 — Be concise (assume Claude is smart) — 🟡
+### §3 — Be concise (assume Claude is smart) — ✅ / 🟡
 
-The skill's **Guardrails** section (4 bullets) and **Common Mistakes** section (4 bullets) are
-complementary but have a 1-bullet overlap: both sections independently note the "never invent facts"
-rule that `AGENTS.md` already states. Guardrails is "what to avoid (canonical rules)"; Common Mistakes
-is "where Claude actually goes wrong (behavioral reminders)" — that distinction is real and worth
-keeping, but the overlap adds a small token cost for zero new information.
+The skill opens with "Do not restate `AGENTS.md`'s rules here" and largely honours this. Steps
+are action-oriented and lean. Step 6 includes a necessary reminder list (file-back sub-steps)
+that the Common Mistakes section shows are genuinely skipped — the token cost is justified.
 
-- 🟡 **Recommend (not applied — behavior-adjacent, leave to Cole):** Remove "Never invent facts" from
-  the Guardrails section (it's already in `AGENTS.md` and restated in Common Mistake #1), keeping only
-  the three guardrails that add something the common-mistake framing doesn't: "Links > pages",
-  "Snapshots age", "Don't duplicate." This keeps Guardrails as design-intent reminders and Common
-  Mistakes as behavioral reminders, with no overlap. 4→3 bullets saves 2 lines; the single dedup
-  rule in Guardrails stays because it's a proactive *gate* ("check before creating"), not a reactive
-  mistake.
+- 🟡 **Recommend (not applied — behavioral risk):** The **Guardrails** section (4 bullets: never
+  invent, links > pages, snapshots age, don't duplicate) partially restates content already in
+  steps 4, 5, and 6, and in Common Mistakes. Merging the unique items into Common Mistakes and
+  removing the section would save ~8 lines. Not applied unattended: the explicit guardrails are
+  a behaviorally significant reminder at the top of the decision path; removing them could
+  increase hallucination or duplication on edge cases. Leave to Cole.
 
 ### §4 — Match degrees of freedom to task fragility — ✅
 
-Correctly **medium-freedom**: a fixed 7-step procedure for the fragile parts (index-first, traverse
-links, freshness reconciliation, mandatory file-back) plus prose latitude for synthesis and deciding
-which pages to read. The "skip step 6 for navigational lookups" escape hatch is explicit. This is
-the right posture for a task that needs consistent structure but can't be scripted at the content
-level. No action.
+Correctly **medium-freedom**: a 7-step procedure for consistency-critical parts (always check
+index first, always file back, always traverse links), with prose latitude for the synthesis
+and writing. The "Navigational lookup → skip file-back" short-circuit is properly placed at
+step 1 to exit early, not buried in step 6. Appropriate for a query skill where the failure
+modes (skipping index, not filing back, answering from memory) are well-defined.
 
 ### §5 — Build evals first, then iterate — 🟡
 
-No evals exist. Three obvious candidates:
+No evals exist. The three obvious ones for future coverage:
 
-1. *"A non-navigational query (e.g. 'what does the vault say about spaced repetition?') must produce
-   a file in `wiki/` after the run with `type` and `created` frontmatter and at least one `[[wikilink]]`
-   citation."*
-2. *"The answer must cite `[[wiki-pages]]` that exist in `index.md` — never an invented page name."*
-3. *"A life-area query ('what should I do about JHTV?') must read the matching `buckets/` MOC page
-   as a step, not just `index.md`."*
+1. *"Given a topic that has a page in `wiki/`, the answer must cite `[[page-name]]` and not
+   rely on general knowledge alone."*
+2. *"After a non-navigational query, `index.md` must contain a new or updated entry for the
+   filed answer page."*
+3. *"After a query touching a life area (e.g. Job Search), the answer page must link from
+   the relevant `buckets/` MOC."*
 
-Building/running evals requires the eval harness + live runs → follow-up for Cole, not a nightly fix.
+Building and running these requires an eval harness + baseline runs → follow-up item for Cole,
+not a nightly unattended fix.
 
 ### §6 — Anti-patterns — ✅ (one pre-existing fix noted)
 
-- ✅ **No absolute paths.** All vault-internal references (`index.md`, `crm/index.md`, `tasks/index.md`,
-  `buckets/<Area>.md`, `wiki/`) are relative — correct style.
-- ✅ **No voodoo constants, no inconsistent terminology.** "File back", "link graph", "wikilinks",
-  "freshness" are used consistently throughout.
-- ✅ **No time-sensitive info or "too many options"** anti-patterns. The one conditional ("skip step 6
-  for navigational lookups") is explicit and well-defined.
-- **Pre-existing note (structural, applied):** The `skill-audit-worked-example.md` described fixing the
-  `startup-radar` Step 7 validator path (absolute → `startup-tracker/validate.py`) on 2026-08-08,
-  but the fix was never persisted in the actual SKILL.md file. Applied tonight on the review branch
-  so the worked-example's described change actually lands. This is unrelated to `wiki-query` but
-  noted here as the only structural fix in this night's audit pass.
+No time-sensitive specifics (model names, product versions). No "too many options" branching —
+step 2's sub-cases (CRM / tasks / bucket entry points) are exclusive and clear. Step numbering
+is clean 1–7 with no gaps or hybrid labels. No Windows-style paths. No voodoo constants.
+Terminology is consistent: "vault" and "wiki" are used as the skill's own index sets
+them (vault = everything including crm/tasks; wiki/ = the generated pages). No anti-patterns
+found.
+
+- **Pre-existing note (structural, applied 2026-09-27):** The `skill-audit-worked-example.md`
+  described fixing the `startup-radar` Step 7 validator path (absolute → `startup-tracker/validate.py`)
+  on 2026-08-08, but the fix was never persisted in the actual SKILL.md file. Applied on the
+  2026-09-27 review branch so the worked-example's described change actually lands. This is
+  unrelated to `wiki-query` but noted here as the only structural fix in that night's audit pass.
 
 ## Verdict
 
-`wiki-query` is a **healthy, lean, vault-integrated skill**: 3 sections clean, 2 recommendations
-logged for Cole (description third-person form; guardrails dedup), no structural fixes needed on
-the skill file itself. The audit surfaced the startup-radar path discrepancy as a side-finding and
-applied that fix.
+`wiki-query` is a **healthy, well-structured, vault-integrated skill**: sections clean, 2
+recommendations logged (description third-person form, Guardrails overlap), 0 structural fixes
+required on the skill file itself. The skill's deliberate choice to restate the file-back
+sub-steps despite the "no AGENTS.md restatement" norm is *justified* by the Common Mistakes list —
+skipping file-back is the most documented failure mode.
+
+## Reusable audit notes
+
+- "Restate vs. delegate" is a judgment call proportional to skip-rate: when a step is
+  frequently skipped in practice (evidence: Common Mistakes), restating it in the procedure is
+  worth its token cost — the skill's own failure mode list is the evidence base.
+- A vault-entry skill (one that triggers first and sets up everything else) benefits from a
+  slightly more prescriptive procedure than a downstream skill that assumes setup is done.
 
 Related: [[skill-authoring-playbook]] · [[skill-audit-worked-example]] · [[skill-audit-networking-prep]] ·
 [[wiki-query]] · [[claude-code-skills]] · [[vault-autoresearch]] · [[token-context-management]] ·
