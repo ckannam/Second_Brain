@@ -1,6 +1,6 @@
 ---
 name: startup-radar
-description: Use to discover and triage newly-funded startups matching Cole's job-search lanes. Sweeps free public sources, lane-filters to health-bio-ai and ai-infra, dedupes against existing company notes, and writes new startup-tracker entries. Triggered when Cole says "run the startup radar" or "weekly startup discovery".
+description: Discovers and triages newly-funded startups matching Cole's job-search lanes. Sweeps free public sources, lane-filters to health-bio-ai and ai-infra, dedupes against existing company notes, and writes new startup-tracker entries. Triggered when Cole says "run the startup radar" or "weekly startup discovery".
 ---
 
 # Startup Radar
@@ -116,7 +116,7 @@ Add one interaction-log line:
 
 Filename: kebab-case of the company name (e.g. `chai-discovery.md`, `prime-intellect.md`).
 
-## Step 5.5 — Contact enrichment
+## Step 5a — Contact enrichment
 
 For every new company note, find the single best outreach target and fill the `person` and `contact` fields. Do this before reporting.
 

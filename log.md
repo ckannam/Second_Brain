@@ -1653,3 +1653,29 @@ and Cole's application [[dorm room fund]] but had no entity page.
 **Post-build HEALTH_DEBT:** 0 (orphans 0, missing_from_index 0, stale_claims 0). Ratchet holds.
 
 **Branch:** `autoresearch/night-2026-10-04` → PR opened for Cole's review.
+## [2026-10-11] autoresearch | Weekly AutoResearch loop (Sunday run)
+
+Weekly AutoResearch (Phase 0–5). HEALTH_DEBT baseline = 0; no Phase-1 fast-track heals.
+
+**Phase 2 build (branch autoresearch/night-2026-10-11):**
+
+1. *DSIP + AFWERX FY27 Release 1 monitoring* — web-verified: pre-released Oct 7 on schedule;
+   opens Oct 28, closes Nov 25, 2026; no 711 HPW / human-performance topics in FY27 R1 (partial
+   list via secondary sources; DSIP proxy-blocked — verify directly before Oct 27). AFWERX: no
+   human-performance FOT open. xTech ARM26BX05-NP011 confirmed; possible ARM27BX01-DP001 (Oct 23
+   deadline) flagged for verification. New lead: SOCOM standing FY23–FY28 BAA for biomedical +
+   human performance. Competitor alert: DARI + Theia3D + SwRI in DoD validation studies. Updated
+   [[atp-federal-funding-landscape]] with dated monitoring note + §3 SOCOM BAA + §6 caveats.
+
+2. *Skill audit: `startup-radar`* — applied [[skill-authoring-playbook]] §1–§6 checklist; fixed
+   description to third-person ("Discovers and triages…"); renamed Step 5.5 → Step 5a; logged
+   3 eval recommendations for Cole. Audit record: [[skill-audit-startup-radar]].
+
+**Phase 3:** write-back to tasks/index.md (progress notes on monitoring + skill audit).
+HEALTH_DEBT post-build = 0.
+
+**Phase 4:** MODE B proposal — [[xtech-search]] entity page (Army prize competition program;
+distinct reusable entity referenced in tasks + [[atp-federal-funding-landscape]]; no dedicated
+page existed). On branch.
+
+**Phase 5:** PR opened → autoresearch/night-2026-10-11 → main.
