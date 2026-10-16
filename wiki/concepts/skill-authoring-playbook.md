@@ -93,7 +93,9 @@ This is the core of "master reliable skill creation" — the discipline that sep
 Evals are the skill's version of the vault's own **HEALTH_DEBT ratchet** ([[vault-autoresearch]])
 and the enterprise **evals-for-taste** discipline ([[evals-for-taste]], [[llm-as-judge]]): an
 objective signal that a change is an improvement, not a vibe. At org scale this eval + versioning
-discipline is what makes a skill library *governable* ([[governed-skills-framework]]).
+discipline is what makes a skill library *governable* ([[governed-skills-framework]]). For the
+concrete mechanics — the exact eval file format, the baseline-first run, and a runnable worked eval
+set for a vault skill — see [[skill-evals]] (this §5's runnable companion).
 
 ## 6. Anti-patterns to avoid
 
@@ -120,4 +122,5 @@ well-structured `SKILL.md` content natively — no special "writing-skills" skil
 
 Related: [[claude-code-skills]] · [[token-context-management]] · [[evals-for-taste]] ·
 [[governed-skills-framework]] · [[skills-vs-subagents]] · [[master-claude-code-skills-28min]] ·
-[[claude-code-skills-update]] · [[claude-code]] · [[startup-radar]] · [[skill-audit-worked-example]].
+[[claude-code-skills-update]] · [[claude-code]] · [[startup-radar]] · [[skill-audit-worked-example]] ·
+[[skill-evals]].

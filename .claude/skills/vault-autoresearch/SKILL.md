@@ -1,6 +1,6 @@
 ---
 name: vault-autoresearch
-description: Use when asked to run the vault's self-healing or AutoResearch loop — "heal the wiki", "run autoresearch", "improve the vault", "lower the health debt", the overnight/scheduled vault-maintenance run, or the /vault-autoresearch command. For answering a question from the wiki use wiki-query instead; for writing wiki content follow AGENTS.md.
+description: Use when asked to run the vault's self-healing or AutoResearch loop — "heal the wiki", "run autoresearch", "lower the health debt", the overnight/scheduled vault-maintenance run, or the /vault-autoresearch command. For answering a question from the wiki use wiki-query instead; for targeted vault improvements (a skill, wiki page, or project) use vault-improve instead.
 ---
 
 # Vault AutoResearch

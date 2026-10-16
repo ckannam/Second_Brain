@@ -1554,3 +1554,15 @@ Prepped Cole's **first meeting with Morrie Ruffin** (this afternoon) — **Manag
 
 ## [2026-10-15] app | Claude Corps — take-home SUBMITTED (AI Fellow)
 Cole **completed and submitted the timed take-home assessment** for **[[claude-corps]]** (the Anthropic/[[codepath]] AI Fellow program). Done on the clock, Claude-assisted where the brief allowed. **Decision expected within ~2 weeks (~2026-10-29).** This moves [[claude-corps]] from "actively applying" to **"submitted — awaiting decision."** No assessment materials are stored in the vault (the program monitors for that). Updated the [[claude-corps]] entity Application section; it stays one of the three post-grad paths competing for the Aug 2027 window vs. [[Fulbright]] + a direct startup/VC role. Related: [[claude-corps]] · [[anthropic]] · [[codepath]] · [[Job Search]].
+## [2026-09-06] autoresearch | Weekly Sunday run — skill-audit sweep + skill-evals page
+Phase 1 build: landed `startup-radar`'s Step 7 validator path fix (relative `startup-tracker/validate.py`) that the 2026-08-08 audit recorded as applied but had never reached the SKILL.md; added a vault-wide audit-sweep table (all 11 skills: 10 clean, 1 fix) to [[skill-audit-worked-example]]. Phase 2 write-back: progress notes on "Improve + general skills" and "Skill max". Phase 3: HEALTH_DEBT held at 0 (no build-introduced defect). Phase 4 MODE B: created [[skill-evals]] — the concrete skill-eval how-to (official query/files/expected_behavior format, baseline-first 5-step process, Claude-A/B loop, "no built-in runner" reality, runnable worked eval set for startup-radar); grounded in Anthropic's Skill authoring best practices (platform.claude.com/docs, 2026); wired into [[skill-authoring-playbook]] §5, [[skill-audit-worked-example]], index, and the [[Claude Mastery]] bucket. Review-lane → morning PR.
+
+## [2026-09-06] autoresearch | Weekly AutoResearch — skill cross-redirects + outreach-kit
+Nightly AutoResearch (Sunday 2026-09-06). HEALTH_DEBT = 0 at baseline; no fast-track heals.
+**Phase 2 (build):** added sibling-skill cross-redirects to `vault-autoresearch` + `wiki-query`
+SKILL.md descriptions per [[skill-authoring-playbook]] §1 (vault-autoresearch now redirects to
+vault-improve; wiki-query now redirects to both siblings). Advances "Improve + general skills"
+and "Train skills" @cloud items. **Phase 4 (MODE B):** created [[outreach-kit]] — the executable
+template library (4 ready-to-send templates + pre-send checklist); fills the long-standing dangling
+link from [[outreach-pipeline]] and [[cold-email-job-search]]; wired into [[Job Search]] bucket.
+Opened morning PR `autoresearch/night-2026-09-06 → main` for review.

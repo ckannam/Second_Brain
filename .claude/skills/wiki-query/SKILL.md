@@ -1,6 +1,6 @@
 ---
 name: wiki-query
-description: Use when the user asks a question meant to be answered from this Second Brain vault/wiki — "what does the wiki/vault say about X", "ask the wiki/vault", "according to my notes", or any question whose answer lives in the wiki pages, CRM, tasks, or journal rather than general knowledge. Also runs on the /wiki-query command.
+description: Use when the user asks a question meant to be answered from this Second Brain vault/wiki — "what does the wiki/vault say about X", "ask the wiki/vault", "according to my notes", or any question whose answer lives in the wiki pages, CRM, tasks, or journal rather than general knowledge. Also runs on the /wiki-query command. For running self-heal or the autoresearch loop use vault-autoresearch instead; for improving vault content use vault-improve instead.
 ---
 
 # Wiki Query
