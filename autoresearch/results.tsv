@@ -61,3 +61,5 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-10-04T02:45	B	wiki/concepts/skill-evals-playbook.md	0	0	keep	MODE B: new concept page owning the recurring §5 evals gap (triplet format, grader choice, worked triplets, keep-or-revert loop); indexed + linked from playbook/bucket; HEALTH_DEBT stays 0
 2026-10-11T02:10	A	.claude/skills/startup-radar/SKILL.md	0	0	build	description fixed to third-person; Step 5.5→Step 5a; audit record in wiki/concepts/skill-audit-startup-radar.md
 2026-10-11T02:30	B	wiki/concepts/atp-federal-funding-landscape.md	0	0	build	FY27 R1 monitoring: no HPW topics; xTech ARM26BX05-NP011 confirmed; SOCOM BAA added; competitor data added
+2026-09-13T06:13	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase-1 build (tasks/+autoresearch/ only; scorer scans wiki/+crm/); no build-introduced defect
+2026-09-13T06:13	B	tasks/index.md (Sourcing & verification)	0	0	keep	MODE B-src first live run: 1 source-to-ingest proposal (Code with Claude 2026 -> refresh claude-code-memory/subagents/agent-teams); @human verify vs primary sources
