@@ -35,6 +35,21 @@ launch.
   applies. Made **replayable** over real user projects so each model/config change is
   re-scored cheaply.
 
-Related: [[prompt-engineering-playbook]], [[picking-the-right-model]], [[cost-per-successful-outcome]].
+## Applying evals-for-taste to vault skill development
+
+The vault's own skill quality problem is structurally identical to the slide-generation
+problem: "good output" is a matter of taste (does the skill trigger reliably? does it stay
+concise?), not a string match. The [[skill-authoring-playbook]] §5 formalises this connection:
+write ~3 `(query, files, expected_behavior)` triples per skill, measure no-skill baseline, then
+iterate with the Claude-A/Claude-B loop. The [[skill-audits-2026]] audit log documents the
+universal §5 gap across the vault's audited skills — every one currently lacks this harness.
+
+Until skill-level evals are built, the [[vault-autoresearch]] HEALTH_DEBT ratchet serves as the
+vault-level proxy: a skill that sends the loop off-track surfaces as raised debt. But it is a
+lagging, indirect signal — evals-for-taste is the direct, per-skill version.
+
+Related: [[prompt-engineering-playbook]], [[picking-the-right-model]], [[cost-per-successful-outcome]],
+[[skill-authoring-playbook]], [[writing-reliable-skills]], [[skill-audit-worked-example]],
+[[skill-audits-2026]], [[llm-as-judge]], [[vault-autoresearch]].
 
 **Raw clip:** [[Evals for taste Hill-climbing a slide-generation agent]]

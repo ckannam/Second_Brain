@@ -44,3 +44,6 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-09-06T02:10	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed this week
 2026-09-06T02:11	build	.claude/skills/{vault-autoresearch,wiki-query}/SKILL.md	0	0	keep	cross-redirect pass: added sibling redirects to vault-autoresearch + wiki-query descriptions per skill-authoring-playbook §1
 2026-09-06T02:12	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build (skill files not scored); no build-introduced debt
+2026-09-13T02:07	A	(none)	0	0	skip	HEALTH_DEBT already 0; no Phase-1 fast-track heals needed tonight
+2026-09-13T02:15	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build; no build-introduced debt
+2026-09-13T02:15	B	wiki/sources/evals-for-taste.md	0	0	keep	MODE B: enriched evals-for-taste with vault-skill application section + reciprocal backlinks to skill pages

@@ -235,6 +235,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[neurotech]] — the neurotech industry vertical: BCI + brain-inspired AI + neurostimulation; market snapshot, key sub-sectors, the brain-inspired AI wave (2026), Cole's angle.
 - [[flourish]] — Bezos-backed ($500M/$2.5B) neuro-AI startup; **cofounder [[Joshua Vogelstein]] is JHU faculty** = Cole's warm Hopkins path. · [[catalio-capital]] — Baltimore neuro/science VC, a Flourish backer + second warm route.
 - [[transcend-therapeutics]] — clinical-stage PTSD biotech (methylone / TSND-201, a non-hallucinogenic neuroplastogen); **acquired by Otsuka for $700M + $525M milestones (June 2026)**. Where Cole's warm contact [[Will Lipman]] (JHTV alum, Clinical Ops) works — a live science→capital→exit case study.
+- [[athletic-training-portal]] — **ATP**, the startup Cole is joining post-grad as an early operator (the operator-first bet from the [[five-year-plan]]). · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
 
 ### Job-search targets — other lanes (see [[Job Search]])
 - [[activate]] — Activate (activate.org), a national nonprofit turning PhD scientists into hard-tech founders via a **2-year non-dilutive fellowship** ($300K+, no equity); the founder-first cousin of [[jhtv]] / [[fast-forward]]. Cole's contact: [[Natasha Feshbach]] (Chief of Staff, Fellowship).
@@ -251,6 +252,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[damien-hoffman-call-prep]] — prep for Cole's mentor call with **[[Damien Hoffman]]** (Founder/Chairman of [[endgame360|Endgame360]] — Showbiz Cheat Sheet / Sportscasting / MotorBiscuit; ex sports IB; Miami JD; Duke I&E mentor). Two-goal: pressure-test the [[uship]] multi-campus expansion (his portfolio/holdco expertise) + get his read on the operator→VC path and keep-vs-hand-off-equity ([[five-year-plan]]). **Call happened 2026-10-08** → CRM [[Damien Hoffman]]; he offered VC intros to [[David Cummings]] ([[atlanta-ventures|Atlanta Ventures]]) + [[Josh Felser]], gated on portfolio research. · [[endgame360]] — his digital-media holdco (the UShip-structure analogy).
 - [[left-lane-capital]] — growth-stage VC (NY + London, consumer-internet/subscription). Managing Partner [[Dan Ahrens]] met Cole at a 2026-10-06 info session and encouraged him to apply. Open action: **apply.**
 - [[atlanta-ventures]] — Atlanta early-stage VC + venture studio (B2B SaaS), CEO/Founder [[David Cummings]] (also founded Atlanta Tech Village). Surfaced via mentor [[Damien Hoffman]], who'll make a warm intro **for a specific reason**. Open action: **research the portfolio → shortlist 1–2 best-fit openings → ask Damien for the [[David Cummings]] intro.**
+- [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining post-grad (conflict flagged).
 
 ## Concepts
 
@@ -294,6 +296,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-audit-networking-prep]] — [[skill-authoring-playbook]] checklist applied to `networking-prep`; §1–§4 clean; step-numbering fix applied; §5 eval recommendations logged for Cole.
 - [[skill-audit-worked-example]] — [[skill-authoring-playbook]] checklist applied to the vault's `startup-radar` skill; records verdicts + fixes per section; includes a reusable audit template for any vault skill, plus a vault-wide sweep of all 11 skills.
 - [[skill-evals]] — the concrete how-to for skill evaluations: official eval file format (query/files/expected_behavior), the baseline-first 5-step process, the Claude-A/B loop, the "no built-in runner" reality, and a runnable worked eval set for `startup-radar`.
+- [[skill-audits-2026]] — running audit log applying the playbook checklist across vault skills; Sept 2026 batch covers `orchestrate-agents`, `wiki-query`, `vault-autoresearch`; cross-skill finding: every skill lacks evals (§5 gap).
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
