@@ -1,0 +1,6 @@
+# Append-style research logs: keep both sides on merge conflict
+autoresearch/results.tsv        merge=union
+autoresearch/nightly-queue.md   merge=union
+log.md                          merge=union
+index.md                        merge=union
+tasks/index.md                  merge=union
