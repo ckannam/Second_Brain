@@ -40,7 +40,7 @@ post-grad path.
 3. **Host orgs near him** — **Code the Dream (Durham)** especially, to signal intent / shape placement.
 
 ## Application
-Actively applying — drafts & requirements in **[[claude-corps-application]]** (local-only).
+**Take-home SUBMITTED 2026-10-15 — awaiting decision (expected ~2026-10-29, ~2 weeks).** Completed the timed AI-Fellow assessment on the clock; now in the review window. Drafts & requirements in **[[claude-corps-application]]** (local-only). *No assessment materials kept in the vault — the program monitors for that.*
 
 ## Open decision
 - [ ] Decide whether Claude Corps (Aug 2027) is a path to pursue vs. [[Fulbright]] vs. direct

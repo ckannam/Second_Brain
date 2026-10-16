@@ -2,6 +2,7 @@
 type: concept
 category: analysis
 created: 2026-09-27
+updated: 2026-10-05
 about: "[[athletic-training-portal]]"
 ---
 
@@ -18,6 +19,10 @@ and the [[dorm room fund]] pick.
 > **Funding/valuation for Zone7, Svexa, Kitman, Hudl, Teamworks is now confirmed from PitchBook**
 > (via Cole, Sept 2026 — see §3a); other private-player funding lines remain public-source placeholders.
 > Duke's Euromonitor / IBISWorld / Capital IQ and practitioner interviews are flagged as manual follow-ups.
+> **Update (Oct 5, 2026):** added **[[Valor Vision]]** — ATP's closest direct rival, missing from the
+> Sept cut — across §0/§1/§2/§2a/§3/§3a/§4/§9/§10/§11; added the **DoD/military second-front competitor
+> map** (§10a); flagged ATP's **missing published price**. The college/FERPA wedge is now treated as
+> contested (table stakes), not a moat.
 
 ---
 
@@ -35,7 +40,12 @@ Readiness Fingerprint") second front. See [[athletic-training-portal]].
    [[Kinetisense]] lean on dedicated sensors/capture stations. Lowest friction wins the sideline.
 2. **College-native + FERPA-first + longitudinal baseline framing.** The NCAA's **Dec 15, 2025**
    performance-technology guidance now *requires schools to have a written data plan* — ATP can be
-   the compliance-native default while consumer/pro-first players retrofit.
+   the compliance-native default while consumer/pro-first players retrofit. ⚠️ **Now contested:**
+   **[[Valor Vision]]** already sells one-phone, FERPA-ready markerless 3D to Power-4 programs (LSU,
+   Arizona State, TCU, Gonzaga, Tennessee) with published pricing and SOC 2/ISO — so "college-native +
+   FERPA" is **table stakes, not a moat.** What's left as defensible is narrower (see §2a): the
+   *longitudinal individualized baseline*, *truly single-camera with no IMU dependency*, and the
+   *DoD/aircrew second front Valor doesn't have*.
 3. **Founder–market fit.** Jaylen (ex-Duke football + BME) embedded in Duke Athletics; advisors
    Dickens (military sports med) and Luck (Duke BME biomechanics) map directly onto the SBIR bet.
 4. **DoD/SBIR wedge** = non-dilutive capital + a second market **[[Oura]]/Sparta already proved**
@@ -53,10 +63,18 @@ Readiness Fingerprint") second front. See [[athletic-training-portal]].
 - **Scale/funding gap is stark.** Closest direct rival **[[Uplift Labs]]** hit ~20,000 athletes
   across MLB/NBA/NCAA in 2025; WHOOP is a $10.1B company; Catapult books $140M revenue. ATP is
   pre-seed with pilots. Buyer power in elite team sport is brutal (§7).
+- **A near-identical college rival already exists: [[Valor Vision]].** Same single-phone markerless
+  capture, same college buyer, same FERPA pitch — but **already live in multiple Power-4 athletic
+  departments**, with published SaaS pricing, SOC 2/ISO, HIPAA BAA, and a published validation number
+  (its IMU vs. Vicon, ±3.5°). On the sports side Valor, not Uplift, is now ATP's closest and most
+  threatening peer (§2, §2a). ATP has **no published price or validation** to answer it with.
 
-**One-line strategy:** *Don't out-feature Catapult/Kitman. Own "one phone, zero setup, your own
-baseline over time," make college/NCAA/FERPA compliance a moat, and win the evidence war nobody
-else has won (external validation) — that combination is ATP's, and Cole's, real edge.*
+**One-line strategy (revised for Valor):** *College + FERPA is now table stakes, not a moat — so don't
+win on "we're compliant," win on what Valor and Uplift can't copy cheaply: the **longitudinal
+individualized baseline** (your data compounds per athlete over time), **one camera with zero sensor
+dependency**, the **DoD/aircrew second front**, and being **first to a prospective, externally-validated
+study** (absent across the entire field). That stack — not generic "AI movement analysis" — is ATP's,
+and Cole's, real edge.*
 
 ---
 
@@ -67,15 +85,17 @@ mistake would be benchmarking only Ring 1.
 
 | Ring | Players | Why they compete with ATP |
 |---|---|---|
-| **1 — Direct: movement analysis / injury-risk AI** | [[Uplift Labs]], [[DARI Motion]], [[Kinetisense]], [[OpenCap]], [[Zone7]], [[Kitman Labs]], [[Svexa]] | Same job-to-be-done: "tell me who's at risk and what to change" from movement/biometric data |
+| **1 — Direct: movement analysis / injury-risk AI** | **[[Valor Vision]]**, [[Uplift Labs]], [[DARI Motion]], [[Kinetisense]], [[OpenCap]], [[Zone7]], [[Kitman Labs]], [[Svexa]] | Same job-to-be-done: "tell me who's at risk and what to change" from movement/biometric data |
 | **2 — Data-capture platforms moving up-stack** | [[Catapult]], [[Kinexon]], STATSports, Polar, Firstbeat, K-Sport/SPT | They own the sensor data + the team relationship and add analytics on top |
 | **2b — Athlete ops / video / engagement platforms (own the relationship)** | [[Teamworks]] ($1.5B, Durham NC), [[Hudl]] ($900M, video-to-insight), [[Kitman Labs]] (EMR) | Own the athlete record, video, and workflow — the layer that actually captures value & the realistic acquirers |
 | **3 — Consumer/prosumer wearables → teams** | [[WHOOP]], [[Oura]], Garmin, Apple | Win athletes directly; HRV/sleep/recovery commoditizing; build enterprise/team tiers |
 | **4 — Substitutes / status quo** | In-house sports scientists, Excel/R/Python, AMS ([[Teamworks]], Smartabase/Fusion Sport, EDGE10), force plates (Hawkin), lab mocap (Theia, Simi), **[[OpenCap]] (free)** | "Do nothing new" is the most common competitor in team sport |
 
-**ATP's true peer set is Ring 1's markerless-video sub-cluster** — Uplift, DARI, Kinetisense,
-OpenCap — because they share ATP's core mechanism (camera → pose → joint angles). Zone7/Kitman are
-adjacent (they *ingest* data or run the medical record, they don't capture movement from video).
+**ATP's true peer set is Ring 1's markerless-video sub-cluster** — **Valor Vision**, Uplift, DARI,
+Kinetisense, OpenCap — because they share ATP's core mechanism (camera → pose → joint angles).
+**[[Valor Vision]] is the single closest match** (same capture, same college buyer, same FERPA pitch,
+already live in Power-4 programs — see §2a). Zone7/Kitman are adjacent (they *ingest* data or run the
+medical record, they don't capture movement from video).
 
 ---
 
@@ -83,6 +103,17 @@ adjacent (they *ingest* data or run the medical record, they don't capture movem
 
 ### The markerless-video cluster (share ATP's mechanism)
 
+- **[[Valor Vision]]** (Valor Biomechanics) — *the closest match to ATP, full stop.* Markerless 3D
+  biomechanics from a **single iPhone/iPad**; <5-min assessment, movement scores + **30+ kinematic data
+  points**, asymmetry/injury-risk flags from baseline through return-to-play; an **optional Valor IMU**
+  can fuse with camera capture. **Already live in Power-4 college athletics** (LSU, Arizona State, TCU,
+  Gonzaga, Tennessee, UTampa, Houston Christian) plus pro soccer (Juventus, Fulham, Southampton, Austin
+  FC, Nashville SC) and the Parramatta Eels; claims **5K+ athletes, 35K+ movements, 21+ sports.**
+  **Published pricing** (Coach Base $89/mo, Coach Pro $149/mo, Enterprise custom; athlete tiers
+  free/$20/$200). Advertises **FERPA, HIPAA BAA, GDPR, CCPA, SOC 2/ISO 27001.** Validation: **IMU vs.
+  Vicon ±3.5°** (Sensors 2024) — covers the *sensor*, not the camera pipeline. **Lightly funded**
+  (~$400K–$535K incl. a $0.28M NSF grant, Sep 2023); founded 2021, McLean VA / Austin TX. → This is the
+  rival that most directly threatens ATP's college/FERPA wedge. See §2a for the head-to-head.
 - **[[Uplift Labs]]** — *the one to watch.* AI 3D motion capture from an **iPhone**; markets
   "replaces $50,000 motion-capture labs at 90% lower cost." Scaled to **~20,000 athletes in 2025**,
   serving pro teams across **MLB, NBA, and NCAA**; algorithms "identify high-risk patterns before
@@ -129,6 +160,33 @@ adjacent (they *ingest* data or run the medical record, they don't capture movem
 
 ---
 
+## 2a. ATP vs. Valor Vision — the head-to-head that matters most
+
+Valor is close enough that the analysis has to answer *"why does ATP win against Valor?"* out loud —
+otherwise Valor reads as strictly ahead. The honest scorecard:
+
+| Dimension | Valor Vision | ATP | Edge |
+|---|---|---|---|
+| Capture | 1 iPhone/iPad, **+ optional IMU** | **1 camera, no sensor at all** | **ATP** (zero hardware dependency; Valor's only hard validation is the IMU, not the camera) |
+| College traction | **Live in LSU/ASU/TCU/Gonzaga/Tennessee** | Duke football/baseball/wrestling, NCCU track (pilots) | **Valor** (scaled; ATP is pre-seed) |
+| Compliance | FERPA, HIPAA BAA, GDPR, SOC 2/ISO | FERPA-first, de-identified | **Valor** (broader, certified) → parity at best |
+| Evidence | **IMU vs. Vicon ±3.5°** (sensor only) | None published | **Valor** (partial head start) |
+| Pricing | **Public** ($89–$149/coach/mo) | **None set** | **Valor** (price anchor set in ATP's market) |
+| Output framing | Movement scores + asymmetry; return-to-play | **Longitudinal individualized baseline, deviation over time** | **ATP** (if it leans into compounding per-athlete data, not one-off scores) |
+| Second market | Sports only (incl. intl. soccer) | **DoD / aircrew readiness (Navy SBIR)** | **ATP** (a market Valor doesn't touch) |
+| Founder–market fit | — | **Jaylen (Duke football + BME), advisor Dickens (mil. sports med)** | **ATP** (embedded + defense-credible) |
+
+**Read-out:** Valor is *ahead on everything that's already been executed* (traction, pricing,
+compliance breadth, a validation number) and *behind only on things ATP hasn't built yet* (single-camera
+purity, longitudinal baseline, the DoD front). So ATP's differentiation is **a bet on execution, not a
+standing moat.** The three things ATP must do to make the edge real: **(1) ship the longitudinal
+baseline as the product's spine** (not another assessment-score app); **(2) win the prospective
+external-validation study first** (§4 — the whole field lacks it, Valor included on the camera pipeline);
+**(3) own the DoD/aircrew lane Valor can't follow into quickly** (see [[atp-federal-funding-landscape]]).
+And ATP needs **a published price** — leaving it blank against Valor's public tiers cedes the anchor.
+
+---
+
 ## 3. Capability matrix (the core artifact)
 
 Grade honestly. Columns that matter: capture mechanism, device-agnostic?, output (descriptive →
@@ -137,6 +195,7 @@ predictive), primary market, **evidence**, **regulatory status**, **data governa
 | Player | Capture | Device-agnostic? | Output altitude | Primary market | Evidence grade | Regulatory | Data governance |
 |---|---|---|---|---|---|---|---|
 | **ATP** | **1 phone camera**, markerless pose → ~18 joint angles | Own capture | Descriptive baseline → *aspiring* predictive | **College** (+ DoD) | ⚠️ None published yet | Wellness (uncleared) | **FERPA-first**, de-identified |
+| **Valor Vision** | 1 iPhone/iPad markerless 3D **(+ optional IMU)** | Own capture | Movement scores + asymmetry flags; return-to-play | **College + pro** | IMU vs. Vicon ±3.5° (sensor only); camera vendor-reported | No FDA clearance advertised | FERPA, HIPAA BAA, GDPR, SOC 2/ISO |
 | Uplift Labs | iPhone, 3D markerless | Own capture | Predictive ("high-risk patterns") | Pro + NCAA | Vendor/testimonial | Wellness | Team-held |
 | DARI Motion | Markerless, kinematics **+ kinetics** | Own capture | Descriptive + clinical | Pro + **clinical/hospital** | Validated + **FDA-cleared** | **FDA-cleared** | Clinical (HIPAA-side) |
 | Kinetisense | Single 3D sensor | Own capture | Screening + descriptive | **Clinics, schools** | "Evidence-based" (vendor) | Clinic-grade | Clinic-held |
@@ -162,6 +221,7 @@ weak on *evidence* and *regulatory* — the two columns VCs and athletic-departm
 | **[[Hudl]]** | Video analysis + data | **$227.64M** | $900.00M (May-2021) | 3,500 (2026) | Lincoln, NE |
 | **[[Teamworks]]** | Athlete engagement / ops | **$485.96M** | **$1.50B** (Feb-2026); PitchBook est **$1.73B** (Sep-2026) | 680 (2026) | **Durham, NC** |
 | **[[Kinexon]]** | Hardware tracking (UWB) + platform | **$147.69M** ($130M Later-Stage round; Red Bull/BMW i/THL) | undisclosed | 218 (2026) | Munich, DE |
+| **[[Valor Vision]]** | **ATP's closest rival** — 1-phone markerless 3D | **~$400K–$535K** (3 rounds incl. $0.28M NSF, Sep 2023) | undisclosed | small (founded 2021) | McLean, VA / Austin, TX |
 
 *ATP's two closest rivals, **[[Uplift Labs]]** and **[[DARI Motion]]**, have **thin PitchBook coverage**
 (early/undisclosed) — they stay on public-source estimates (Uplift: ~20K athletes 2025, MLB/NBA/NCAA;
@@ -207,9 +267,11 @@ test/train leakage? peer-reviewed *prospective* vs. retrospective vs. white pape
 
 - **DARI Motion:** validated + **FDA-cleared** → highest bar in the cluster.
 - **OpenCap:** **peer-reviewed** (but research-grade, not a commercial injury predictor).
+- **Valor Vision:** **one published number** — IMU vs. Vicon **±3.5°** (Sensors 2024) — but it covers the
+  *sensor*, not the camera pipeline. Still, within the phone-only cluster that's a partial head start on ATP.
 - **Zone7:** retrospective, **self-described as not peer-reviewed**.
 - **Kitman:** "30–50% injury reduction" is **self-reported** unless independently published.
-- **Uplift / ATP:** vendor/anecdotal so far.
+- **Uplift / ATP:** vendor/anecdotal so far — **ATP has nothing published.**
 
 > **The strategic opening:** external validation is **absent in the entire literature**. A single
 > **prospective, externally-validated** study — feasible for ATP given Jaylen's BME background,
@@ -323,6 +385,10 @@ Who owns and controls the athlete data decides *how you sell*, and it splits sha
   (not a $30K/team pro ACV), compliance-native, seeded from Duke/NCCU pilots → conference peers;
   **DoD/SBIR as parallel non-dilutive revenue**. Avoid the pro-league procurement wall until evidence
   + clearance are in hand.
+- ⚠️ **ATP has no published price; [[Valor Vision]] does** ($89 / $149 per coach per month, free→$200
+  athlete tiers). Valor has set the **price anchor in ATP's exact market**, so ATP needs an explicit
+  position relative to it — undercut on a per-athlete-department basis, or justify a premium with the
+  longitudinal-baseline + validation story. Leaving price blank cedes the framing to Valor.
 
 ---
 
@@ -331,9 +397,11 @@ Who owns and controls the athlete data decides *how you sell*, and it splits sha
 1. **Own the wedge, don't out-feature the incumbents.** ATP's defensible claim is *"one phone, zero
    setup, your own baseline tracked over time"* — not "more analytics than Catapult." YAGNI on
    breadth; depth on the single-camera longitudinal baseline.
-2. **Make college/NCAA/FERPA compliance a moat.** Build the NCAA-required **written data plan** into
-   the product; be the compliance-native default while Uplift/consumer players retrofit. This is a
-   real barrier the December 2025 guidance just created.
+2. **Treat college/NCAA/FERPA compliance as necessary, not sufficient.** Build the NCAA-required
+   **written data plan** into the product — but note **[[Valor Vision]] already advertises FERPA + HIPAA
+   BAA + SOC 2/ISO** and is live in Power-4 programs, so compliance is now **table stakes to compete, not
+   a moat.** The differentiation has to come from the longitudinal baseline, single-camera purity, the
+   DoD front, and evidence (see §2a) — compliance just keeps ATP in the room.
 3. **Win the evidence war (highest leverage).** Run a **prospective, externally-validated** study off
    the signed pilots. External validation is *absent in the entire literature* — clearing it would put
    ATP ahead of Uplift, Zone7, and Kitman on the axis buyers actually weight. Uniquely feasible given
@@ -352,10 +420,37 @@ Who owns and controls the athlete data decides *how you sell*, and it splits sha
    **[[Uplift Labs]]** as the direct rival; the realistic ATP exit is a platform that owns the team
    relationship but lacks turnkey single-camera capture + a validated college/defense footprint.
 
-**Biggest risks:** (a) Uplift out-executes on the same phone-based pitch with more capital;
-(b) ATP gets classed as a *feature* by a Catapult/Kitman that owns the data pipe and EMR;
-(c) an over-strong "predict injuries" claim draws FDA attention before ATP is ready;
-(d) elite-team buyer power + league procurement stalls revenue if ATP chases pro before college scales.
+**Biggest risks:** (a) **[[Valor Vision]] already sells the same one-phone, FERPA-ready product into
+Power-4 college programs** — the college wedge is contested *today*, not hypothetically;
+(b) Uplift out-executes on the same phone-based pitch with more capital;
+(c) ATP gets classed as a *feature* by a Catapult/Kitman that owns the data pipe and EMR;
+(d) an over-strong "predict injuries" claim draws FDA attention before ATP is ready;
+(e) elite-team buyer power + league procurement stalls revenue if ATP chases pro before college scales.
+
+---
+
+## 10a. The DoD / military second front — a *separate* competitor map
+
+The sports analysis above doesn't cover ATP's second market. If the Navy "Aircrew Readiness
+Fingerprint" is a real front (it is — proposal submitted, see [[atp-federal-funding-landscape]]), then
+DoD human-performance has its **own** competitive set, and ATP is **not** entering green field:
+
+- **[[Oura]] (Trinsic platform)** — already serves **government/enterprise incl. the US Air Force**;
+  the proof that a military human-performance market exists — and the incumbent ATP will be measured against.
+- **WHOOP** — holds **military/DoD contracts**; FDA-cleared ECG; consumer scale → government tiers.
+- **Sparta Science** — force-plate + movement-health platform with a **deep DoD/military footprint**
+  (the readiness/injury-screening use case ATP is pitching); acquired by Oura Oct 2024.
+- **[[DARI Motion]]** — markerless motion analysis used **across DoD rehab**; FDA-cleared → the clinical
+  bar on the defense side too.
+- **Services primes (POTFF ecosystem)** — e.g. KBR Wyle; they *hold the contract vehicle* for SOCOM
+  human-performance. For ATP these are **teaming partners / channel**, not head-to-head rivals.
+- **DIU / SBIR-native entrants** — a long tail of small firms chasing the same DHA/AFWERX wearable topics.
+
+**Read-out:** on the defense side ATP's edge is **not** being first (Oura/WHOOP/Sparta are already in),
+it's being **purpose-built for movement/readiness from a single camera** and **dual-use** (college proof
+→ military). The DoD play competes on *being the specialized, non-dilutive-friendly, data-owning tool*,
+and on relationships (711 HPW, SOCOM), not on out-scaling Oura. Full program/opportunity map:
+[[atp-federal-funding-landscape]].
 
 ---
 

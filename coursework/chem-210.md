@@ -70,6 +70,31 @@ Mastering Chemistry, **due Tuesdays 11:59 pm** (Unit 1 handout says 12 pts each;
 - Extra practice (Canvas → Modules → "Extra Practice by Topic"): *Nuclear Chemistry* & *Quantum Chemistry* sets.
 - Problem-solving office hours for Unit 1: **Aug 31, Sept 3, Sept 14, Sept 17**.
 
+## Midterm 1 prep status (paused 2026-09-27 — resume after fMRI midterm)
+Studying with the [[study-playbook]] (Phase 1 ideas → Phase 2 slide walk → Phase 3 problems). **Midterm 1 (Oct 1)
+covers Units 1 & 2** (confirmed by scope: nuclear→solubility; acid–base is a *later* module = Midterm 2, not on this exam).
+
+> **📄 Learning-objectives study sheet (2026-09-29):** [[chem-210-midterm1-learning-objectives]] — all 29 of Cox's
+> stated LOs, each with ELI15 → normal explanation → a practice problem + short answer key. Fast full-scope review.
+
+Coverage so far:
+
+| Topic | P1 ideas | P2 slides | P3 problems |
+|---|---|---|---|
+| Nuclear | ✅ (7 ideas) | ⚠️ Fe-56 slide only | ⚠️ 1 balancing rep |
+| Quantum | ⚠️ partial (LOs + mₗ) | ❌ | ❌ |
+| Periodic Trends | ⚠️ partial (relativistic + 3 self-tests) | ❌ | ⚠️ Z_eff touched |
+| U2 — IMF & Phases | ✅ | ❌ | ❌ |
+| U2 — Salts/Lattice/Dissolution | ✅ | ❌ | ❌ |
+| U2 — Colligative | ✅ | ❌ | ❌ |
+| U2 — Solubility/Ksp | ✅ | ❌ | ❌ |
+
+**Resume here:** (1) finish Phase 1 for **Quantum** + **Periodic Trends** (the two gaps); (2) shift to Phase 2+3 by
+block, prioritizing Cox's flagged problem templates — Fe-56 binding energy, half-life/activity, decay-equation balancing,
+Z_eff/Slater, e-configs (Cr/Cu + ion-stripping); U2: heating-curve (q=mcΔT+ΔH), Clausius–Clapeyron, Born–Haber lattice,
+ΔS/ΔG dissolution, ppm↔M↔m, Raoult/Dalton (CFC), BP-elevation w/ van't Hoff i, osmotic pressure, Ksp→molar solubility,
+common-ion, precipitation (Q vs Ksp).
+
 ## Key dates
 - **Midterm 1** — **Oct 1** (in lecture) → Resurrection quiz **Oct 7** (in discussion)
 - **Last day to withdraw with W** — Nov 6

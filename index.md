@@ -216,6 +216,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 ### Products / rivals
 - [[cal-ai]] — $100M vibecoded calorie app.
 - [[spacerep]] — spaced-repetition app (FSRS + Google Calendar); the closest competitor to Cole's learning-app idea + the gap it leaves open.
+- [[valor-vision]] — **ATP's single closest rival**: 1-phone markerless 3D biomechanics, already live in Power-4 college athletics (LSU/ASU/TCU) with public pricing + FERPA/SOC 2; contests ATP's college/FERPA wedge. Added to [[atp-competitive-analysis]] Oct 2026.
 
 ### JHTV — org & Cole's work (see the [[JHTV]] bucket)
 - [[jhtv]] · [[fast-forward]] · [[translational-funding]] — the org, accelerator, and funding landscape.
@@ -247,6 +248,9 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[dorm room fund]] — Cole's application to be a student Investment Partner at **Dorm Room Fund** (deadline Sept 17, 2026). Holds all six polished answers, the two investment picks, the ≤200-char LinkedIn outreach messages, open verify-before-submit flags, and a **reusable answer bank** for future apps.
 - [[everyday-robotics]] — JHU spinout building LLM-powered social robots (kids-reading tabletop robot, deployed in Baltimore schools); founders [[Victor Nikhil Antony]] (JHU CS PhD, ELLA) + Andrés de la Sierra Renier (ex-J.P. Morgan). Cole's **JHU DRF pick.**
 - [[athletic-training-portal]] — Duke sports-medicine startup (frame-by-frame joint-angle capture → injury prediction; Duke football contract; DoD/SBIR ambition; CEO Jaylen Coleman). Cole's **Duke DRF pick** *and* the startup he's joining as an early operator (conflict flagged). Competitive analysis: [[atp-competitive-analysis]]; federal/DoD funding lane: [[atp-federal-funding-landscape]]. · [[kelli-luginbuhl-call-prep]] — prep for the Duke-vs-JHU ecosystems conversation with [[Kelli Luginbuhl]].
+- [[damien-hoffman-call-prep]] — prep for Cole's mentor call with **[[Damien Hoffman]]** (Founder/Chairman of [[endgame360|Endgame360]] — Showbiz Cheat Sheet / Sportscasting / MotorBiscuit; ex sports IB; Miami JD; Duke I&E mentor). Two-goal: pressure-test the [[uship]] multi-campus expansion (his portfolio/holdco expertise) + get his read on the operator→VC path and keep-vs-hand-off-equity ([[five-year-plan]]). **Call happened 2026-10-08** → CRM [[Damien Hoffman]]; he offered VC intros to [[David Cummings]] ([[atlanta-ventures|Atlanta Ventures]]) + [[Josh Felser]], gated on portfolio research. · [[endgame360]] — his digital-media holdco (the UShip-structure analogy).
+- [[left-lane-capital]] — growth-stage VC (NY + London, consumer-internet/subscription). Managing Partner [[Dan Ahrens]] met Cole at a 2026-10-06 info session and encouraged him to apply. Open action: **apply.**
+- [[atlanta-ventures]] — Atlanta early-stage VC + venture studio (B2B SaaS), CEO/Founder [[David Cummings]] (also founded Atlanta Tech Village). Surfaced via mentor [[Damien Hoffman]], who'll make a warm intro **for a specific reason**. Open action: **research the portfolio → shortlist 1–2 best-fit openings → ask Damien for the [[David Cummings]] intro.**
 
 ## Concepts
 

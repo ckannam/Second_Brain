@@ -85,6 +85,28 @@ The [[fmri]] concept cluster (build/review from these):
   `/Users/colekannam/Downloads/Data` (~486 MB, *not* in the vault). Details in [[fmri-lab1-neuroanatomy]].
 - Scanning facility: [[biac|BIAC]].
 
+## Midterm I prep (started 2026-09-27 — exam Tue Sep 29)
+Studying with the [[study-playbook]] (Phase 1 ideas → Phase 2 slide walk → Phase 3 problems). All six lecture decks
+(Weeks 1–5, Ch 1–8) extracted to text and worked from. **Exam scope = Ch 1–8** (physics → image formation → contrast →
+neuron-to-hemodynamics → BOLD → signal/noise/preprocessing). Chapter → study note map:
+
+| Ch | Topic | Study note | Phase 1 |
+|---|---|---|---|
+| 1 | Intro: what fMRI is/isn't, contrast & resolution, history | [[huettel-ch1-intro-to-fmri]] + [[mri-contrast]] | ✅ |
+| 2 | MRI scanners (B0/RF/gradient coils), safety | [[mri-physics]] + [[huettel-ch2-mri-scanners]] | ✅ |
+| 3 | MR signal generation (spins, Larmor, excitation, T1/T2/T2*) | [[mri-physics]] | ✅ |
+| 4 | Image formation (gradients, encoding, k-space, EPI) | [[k-space]] | ✅ |
+| 5 | Contrast mechanisms (TR/TE, T1/T2/T2* weighting, SE vs GRE) | [[mri-contrast]] | ✅ |
+| 6 | Neuronal → hemodynamic (ATP, functional hyperemia, NVU) + neuroanatomy | [[bold-signal]] + [[neuroanatomy-landmarks]] | ✅ |
+| 7 | BOLD fMRI (Ogawa, oxy/deoxy-Hb, HDR, Logothetis/LFP, resolution, linearity) | [[bold-signal]] | ✅ |
+| 8 | Signal, noise & preprocessing (SNR, noise sources, the 5-step pipeline, MNI) | [[fmri-preprocessing]] + [[mni-space]] | ✅ |
+
+Phase 1 (big-picture ELI15) delivered across all 8 chapters 2026-09-27. **Phase 2 (slide-walks) complete 2026-09-28** —
+worked every deck Ch 1–8 with nothing left a black box (TR/TE contrast curves, spin-echo 180° refocusing, EPI k-space
+raster, astrocyte neurovascular coupling, Logothetis LFP↔BOLD, HDR linearity/superposition + Dale & Buckner, motion
+correction + slice-timing). **Next: Phase 3 (active problem drilling / self-test recall)** on the weakest chapters before
+the Sep 29 exam.
+
 ## Next
 - [ ] Do Week 2 reading (Ch 3) + Lab 1 — I can walk through the SPM steps and the Q6 landmark coords.
 - [ ] Form the project group and start brainstorming a study (Week 4 is the brainstorming session).

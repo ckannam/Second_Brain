@@ -1480,3 +1480,77 @@ TACFI/STRATFI — are all downstream and don't apply yet; near-term play = the r
 winning the pending award; the pending proposal still must be disclosed to xTech since "substantially
 the same" covers pending work) and [[athletic-training-portal]]. Closed the "confirm Navy SBIR phase"
 task item in tasks/index.md.
+
+## [2026-10-05] enrich | ATP competitive analysis — Valor Vision + DoD second-front + gaps
+Cole brought a newer (Sep 27, @nah) cut of the ATP competitive analysis that added **Valor Vision** and
+asked what else was missing vs. what the vault knows about ATP. Reconciled [[atp-competitive-analysis]]:
+folded **[[Valor Vision]]** (new entity page) through §0/§1/§2/§3/§3a/§4/§9/§10/§11 as ATP's single
+closest rival (1-phone markerless 3D, live in LSU/ASU/TCU/Gonzaga/Tennessee, public pricing
+$89–$149/coach/mo, FERPA+HIPAA+SOC 2, IMU-vs-Vicon ±3.5° validation, ~$400–535K raised). Resolved the
+resulting tension by demoting the **college/FERPA wedge to table stakes** (not a moat) and adding a new
+**§2a ATP-vs-Valor head-to-head scorecard**. Added **§10a — the DoD/military second-front competitor map**
+(Oura/Trinsic, WHOOP, Sparta Science, DARI, POTFF primes) since the analysis was 100% sports / 0%
+defense despite the Navy "Aircrew Readiness Fingerprint." Flagged **ATP's missing published price** vs.
+Valor's public tiers. Updated index + frontmatter (updated 2026-10-05). Next: deliver as a Google Slides
+deck with the vital information (in progress).
+
+## [2026-10-05] prep | Damien Hoffman mentor call — UShip expansion + operator→VC path
+Built [[damien-hoffman-call-prep]] for Cole's call with **Damien Hoffman** (Founder/Chairman of
+**Endgame360** — Showbiz Cheat Sheet / Sportscasting / MotorBiscuit; ex The Cheat Sheet, Top-50
+trafficked, multi-year Inc. 5000; prior sports IB on the NJ Nets sale; Miami JD; long-time **Duke I&E
+mentor / "Duke Expert in Entrepreneurship"**). Two-goal prep: (1) pressure-test the **UShip multi-campus
+expansion** with someone who scaled a one-engine/many-properties holding company and did M&A — framed the
+UShip Ventures holdco + [[uship-os]] as the direct analog, and surfaced the two real risks (no-fallback
+season; the Columbia 50/50-vs-80/20 turnkey question) plus the legacy-LLC brand-acquisition knot; (2) get
+his read on Cole's **operator-first (Series B–D, health/bio/AI) → VC** plan and the honest
+**keep-vs-hand-off-equity** question (equity forfeits at graduation). Web-verified Damien's current role
+(Endgame360 Minneapolis; Miami JD). Damien not yet in `crm/` — after-chat todo to create [[Damien Hoffman]].
+Next: confirm the Duke I&E connector before the call. Related: [[uship]] · [[five-year-plan]].
+
+## [2026-10-06] CRM | Shikha — career-crossroads conversation
+New contact [[Shikha]] (warm · Job Search). Cole met her in person the afternoon of 2026-10-06 for a
+career-crossroads conversation and sent a same-day thank-you note. Her clearest takeaway: **take
+[[uship|University Shipping]] as far as he can and make it his main thing** — a push that reinforces the
+operator-first → VC path over treating UShip as a side project ([[five-year-plan]]). Cole asked her to
+flag anyone who could offer further advice or intros, so she's a referral node going forward. Unknowns to
+backfill: last name, title, org, and how she and Cole are connected. Added to `crm/index.md`.
+Related: [[uship]] · [[five-year-plan]] · [[Job Search]].
+
+## [2026-10-06] CRM + entity | Dan Ahrens / Left Lane Capital
+Cole met **[[Dan Ahrens]]** (Managing Partner, [[left-lane-capital|Left Lane Capital]]) the afternoon of
+2026-10-06 at the end of a Left Lane information session; good conversation, and Dan encouraged him to
+apply. Created `crm/Dan Ahrens.md` (warm · Job Search) and a new entity page
+`wiki/entities/left-lane-capital.md` (growth-stage VC, NY + London, consumer-internet/subscription; team
+roster pulled from leftlane.com/team). Drafted a same-day follow-up for Cole (apologize for missing the
+info session, excited to get to know Dan + team through the process, will apply). Added both to the wiki
+`index.md` (VC-applications section), `crm/index.md` (D), and the [[Job Search]] bucket. **Open action:
+apply to Left Lane Capital.** Related: [[five-year-plan]] · [[Job Search]].
+
+## [2026-10-06] application | Left Lane Capital — 2027 Analyst essays drafted
+Drafted Cole's two Left Lane application answers and filed them in [[vc-investor-applications]] (tracker
+row added; status Drafting). Q1 = the slacklining + "seeking hard things" story recut to add a
+who-I-aspire-to-be close. Q2 = reframed his signature "own the inefficient industry end to end" trend to
+fit Left Lane's consumer thesis (their own language: "digitization of offline spend," "do it yourself to
+done for you"), anchored in [[uship]] and naming EliseAI + Decagon. Pulled Left Lane's thesis/portfolio
+from leftlane.com. Open: Cole to confirm he can speak to the named startups (swap options Rilla / Sierra /
+Rising Tide). Related: [[left-lane-capital]] · [[Dan Ahrens]] · [[dorm room fund]] · [[Job Search]].
+
+- **2026-10-07** — Networking prep built for **[[Jennifer A.]]** (Growth Strategy Advisor @ Red Bull, ex-Techstars, Duke Fuqua MBA) — cold-ish Duke I&E Network intro. Prep doc [[Jennifer A.|crm/prep]], CRM record, pipeline (Tier 1) + index updated. Operator/GTM lane; lead operator-first not science. Goals: operator-pick advice, GTM craft, LA/Techstars network.
+
+## [2026-10-08] crm | Damien Hoffman (VC-intro connector)
+Added CRM record for **Damien Hoffman** — warm connector (Duke tie) from a great convo 2026-10-08. Offered to intro Cole to two busy VCs, **Josh & David** (surnames/firms TBD), but only **for a specific reason**: research the two + their portfolio companies, find an excellent-fit job opening, then ask for the intro. Captured his exact advice verbatim. Linked [[Job Search]] · [[outreach-pipeline]] · [[five-year-plan]]; added to [[crm/index]] and the Job Search bucket (Connectors); filed the research action on the task board. **Open gaps to fill from Cole:** Josh & David's surnames/firms + the "companies we found" list.
+
+## [2026-10-08] crm | Damien Hoffman mentor call — outcome + VC intros (Atlanta Ventures)
+The prepped Damien Hoffman mentor call ([[damien-hoffman-call-prep]]) happened and went great. Reconciled: Damien was already documented (Endgame360 founder, Duke I&E mentor) — rewrote the new [[Damien Hoffman]] CRM record from "role TBD" to his real bio + the call outcome (fulfills the prep page's after-chat todo). **He offered to intro Cole to two VCs — [[Josh Felser]] & [[David Cummings]] — but only *for a specific reason*** (not a general undergrad chat): research their portfolio companies, find an excellent-fit opening, then ask. **Agreed play: go through [[David Cummings]] → [[atlanta-ventures|Atlanta Ventures]]** about a specific company or two + general interest in the firm; work [[Josh Felser]] second. Created [[David Cummings]] + [[Josh Felser]] CRM records, [[atlanta-ventures]] + [[endgame360]] entity pages; updated [[crm/index]], root [[index]], the [[Job Search]] bucket, and filed the portfolio-research + 24h-thank-you actions in [[tasks/index]]. Checked off the prep page's CRM + intro todos. **Still open from Cole:** confirm Josh Felser's firm; his read on UShip expansion + keep-vs-hand-off-equity (not yet relayed).
+
+## [2026-10-08] app | Left Lane Capital — APPLIED (2027 Analyst)
+Cole submitted the Left Lane Capital 2027 Analyst application. Two essays finalized this session: Q1 (slackline → passion for hard things for their own sake → backing founders who choose the risky path out of pure passion) and Q2 (re-cut to the Bessemer/Tactile "own the inefficient industry end to end" thesis across the built world + healthcare; startups EliseAI, Perceptic, Formation Bio). Marked Applied across [[vc-investor-applications]] (tracker + section), [[left-lane-capital]], [[Dan Ahrens]], [[crm/index]], and the [[Job Search]] bucket. Next action: **follow up with [[Dan Ahrens]]** to say it's in (filed in [[tasks/index]]).
+
+## [2026-10-08] tracker | Formation Bio — openings refreshed
+Refreshed [[startup-tracker/companies/formation-bio]] after Cole shared the careers link: 22 open roles, all director/senior/principal/VP (no new-grad or associate generalist fit) — confirms the existing BD/relationship play (note to CBO David Steinberg), not a direct application. Updated the careers URL and noted Formation Bio is now one of Cole's cited Left Lane Q2 startups.
+
+## [2026-10-14] crm | Morrie Ruffin meeting prep (biotech capital-formation heavyweight)
+Prepped Cole's **first meeting with Morrie Ruffin** (this afternoon) — **Managing Partner, [[adjuvant-partners|Adjuvant Partners]]** (Baltimore). Web-researched him: original **[[bio-org|BIO]]** employee (1994) who rose to **EVP of Capital Formation & Business Development**, building BIO's global investor-outreach/partnering programs; **co-founded the Alliance for Regenerative Medicine (ARM)** + its Foundation (2018); co-founded the **Alliance for AI in Healthcare**; Senior Advisor at **Alliance for mRNA Medicines**; earlier CEO of LifeTech Innovations + 5 yrs as Sen. Arlen Specter's legislative aide; **JHU SAIS** MA, UVA BA. **The closest career-mirror Cole has met** to his "help science companies get funded" goal, plus a prime Baltimore/Hopkins/advanced-therapy + health-AI node. Connection is **warm/personal** — Cole grew up with his son, intro via a family friend. Created [[morrie-ruffin-call-prep]] (30-sec intro, distinctive card, 6-question bank split across career / landscape / relationship, do-don't, follow-up discipline) + the [[Morrie Ruffin]] CRM record; linked into the [[Job Search]] bucket. **Open from Cole before the meeting:** confirm his son's name + the family-friend connector's name; confirm logistics.
+
+## [2026-10-15] app | Claude Corps — take-home SUBMITTED (AI Fellow)
+Cole **completed and submitted the timed take-home assessment** for **[[claude-corps]]** (the Anthropic/[[codepath]] AI Fellow program). Done on the clock, Claude-assisted where the brief allowed. **Decision expected within ~2 weeks (~2026-10-29).** This moves [[claude-corps]] from "actively applying" to **"submitted — awaiting decision."** No assessment materials are stored in the vault (the program monitors for that). Updated the [[claude-corps]] entity Application section; it stays one of the three post-grad paths competing for the Aug 2027 window vs. [[Fulbright]] + a direct startup/VC role. Related: [[claude-corps]] · [[anthropic]] · [[codepath]] · [[Job Search]].

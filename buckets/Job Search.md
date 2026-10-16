@@ -41,7 +41,10 @@ writes new company notes for the triage.
 ## People (crm/) — network
 - [[Stewart Neifart]] — head of Capital Strategy at JHTV; VC + startup relationships → **intros** (see [[stewart-1on1-prep]]).
 - **[[Pike Alumni Directory]]** — ~1,000 PIKE (Duke) alumni as a warm-intro channel, curated for Cole's lanes. **Marquee: Brad Lightcap, COO of OpenAI** (a PIKE brother). Also recent-grad peers in finance/VC/tech/consulting, NYC-heavy.
+- **[[Morrie Ruffin]]** — Managing Partner, [[adjuvant-partners|Adjuvant Partners]] (Baltimore); original [[bio-org|BIO]] employee who built its capital-formation/investor-outreach function, co-founder of the Alliance for Regenerative Medicine + Alliance for AI in Healthcare. **Biotech capital-formation heavyweight** and the closest career-mirror to Cole's "help science companies get funded" goal. Warm personal intro (Cole grew up with his son; via a family friend). **First meeting 2026-10-14** → [[morrie-ruffin-call-prep]].
 - **Warm / active (health-bio-AI):** [[Arielle (Forus Health)]] (Forus Health — potential post-grad team; reconnect near grad) · [[Sean Tunis]] (JHTV mentor) · [[Christina DeMur]] (JHTV, Tech Dev) · [[Dhevi Kumar]] (Microsoft Health) · [[Kahlil DSouza]] (GondolaBio/BridgeBio) · [[Nancy Kass]] (Hopkins bioethics + FDA).
+- **Advisors:** [[Shikha]] (met 2026-10-06; urged Cole to take [[uship|UShip]] as far as he can as his main thing — a push toward the operator-first path; referral node going forward).
+- **Mentors / connectors:** [[Damien Hoffman]] (Endgame360 founder, Duke I&E mentor; great mentor call 2026-10-08). Offered to intro two VCs — [[Josh Felser]] & [[David Cummings]] — but only **for a specific reason**: research their portfolio companies, find a best-fit opening, then ask. **Open action: do the [[atlanta-ventures|Atlanta Ventures]] research.**
 
 ## Market intel — job-search services
 - [[relentless]] (joinrelentless.com) — a **done-for-you executive job-search service**: resume/
@@ -58,6 +61,10 @@ writes new company notes for the triage.
 
 ## Key targets — biopharma operator lane
 - [[roivant]] — NYC biopharma that builds a family of drug-development subsidiaries ("Vants"). Live target = its **Rotational Analyst Program** (2yr, four 6-month rotations, ~$100k, NYC). Cole's two-lens fit: reads the science (Neuro + pre-med) and evaluates company/capital ([[jhtv]]). Outreach contact: [[Sophie Katz]] (LinkedIn DM, Sept 2026). ⚠️ Confirm the current cycle's graduation window fits May 2027.
+
+## Key targets — VC lane
+- [[left-lane-capital]] — growth-stage VC (NY + London, consumer-internet/subscription). Contact: [[Dan Ahrens]] (Managing Partner), met 2026-10-06 and encouraged Cole to apply. **Applied 2026-10-08; next: follow up with Dan.**
+- [[atlanta-ventures]] — Atlanta early-stage VC + venture studio (B2B SaaS). Contact: [[David Cummings]] (CEO/Founder; also Atlanta Tech Village). Warm intro available via mentor [[Damien Hoffman]], gated on a specific reason. **Open action: research portfolio → shortlist 1–2 best-fit openings → ask Damien for the intro.**
 
 ## Knowledge (wiki)
 - Future of work / jobs in the AI era: [[future-of-work-claude-tag]], [[the-capability-curve]], [[ai-native-enterprise-scale]], [[running-ai-native-engineering-org]], [[natural-language-coding]]. _(Useful for positioning.)_

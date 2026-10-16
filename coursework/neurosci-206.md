@@ -46,13 +46,15 @@ sensory testing) and produce a **team Lab Report**.
 - **Drop policy:** ~13 RAs + 13 lab reports administered; **top 10 of each count** (lowest 3 dropped, incl. any zeros from missed sessions). Missed labs can't be made up.
 
 ## The material — knowledge base (by week/topic)
-Durable course knowledge lives in atomic per-topic notes. **Week 1 (ingested 2026-08-26); Week 4 (2026-09-14); Week 5 (2026-09-21).**
+Durable course knowledge lives in atomic per-topic notes. **Week 1 (ingested 2026-08-26); Week 4 (2026-09-14); Week 5 (2026-09-21); Week 7 (2026-10-05).**
 
 | Week/Topic | Knowledge note | Status |
 |---|---|---|
 | **Wk 1 — Human brain & systems-neuro foundations** | [[neurosci-206-human-neuroanatomy]] | ✅ built |
 | **Wk 4 — Auditory system (Ch 10)** | [[neurosci-206-auditory-system]] | ✅ built |
 | **Wk 5 — Vestibular system (Ch 11)** | [[neurosci-206-vestibular-system]] | ✅ built |
+| **Wk 7 — Chemical senses: Olfaction & Taste (Ch 14–15)** | [[neurosci-206-chemical-senses]] | ✅ built |
+| *Wk 2 — Sensory principles (Ch 1) · Wk 3 — Visual (Ch 9) · Wk 6 — Somatosensory (Ch 12–13)* | *— not yet built (midterm gaps)* | ⬜ |
 
 **Full arc** (textbook = *Neuroscience* 7e; chapters below). Notes added as materials land:
 - **Unit 1 — Sensation** (before fall break): Wk2 sensory-system principles (Ch 1) · Wk3 Visual (Ch 9) · Wk4 Auditory (Ch 10) · Wk5 Vestibular (Ch 11) · Wk6 Somatosensory (Ch 12–13) · Wk7 Olfaction/Taste (Ch 14–15).
@@ -65,6 +67,8 @@ Weekly cadence — **Wed Readiness Assurance** + **Thu/Fri Lab Report** (both gr
 - [ ] **Wk 1 lab:** Visible human brain anatomy via **Lt software** + real specimens (preview the protocol; RA may test it)
 - [ ] **Wk 4 — Auditory system (Ch 10)** — study [[neurosci-206-auditory-system]] for the Wed RA (9 Key Concepts 10.1–10.9 + the 5 study Qs)
 - [ ] **Wk 5 — Vestibular system (Ch 11)** — study [[neurosci-206-vestibular-system]] for the Wed RA (5 Key Concepts 11.1–11.5 + the 3 study Qs; **shares hair-cell transduction with Wk4 — study them together**)
+- [ ] **Wk 7 — Chemical senses: Olfaction & Taste (Ch 14–15)** — study [[neurosci-206-chemical-senses]] (8 Key Concepts 14.1–14.4 + 15.1–15.4 + the 5 study Qs). **Last Unit 1 topic → rolls straight into the midterm.**
+- [ ] **MIDTERM prep (Wed Oct 14)** — covers **all of Unit 1 (Wk 1–7)**. Notes built: Wk1, Wk4, Wk5, Wk7. **Gaps to fill: Wk2 (sensory principles, Ch 1), Wk3 (visual, Ch 9), Wk6 (somatosensory, Ch 12–13).**
 - Closed-toed shoes required for any lab with specimen contact (gloves provided).
 
 ## Key dates

@@ -23,6 +23,7 @@ person), respect word limits. See [[dorm room fund]].
 | Catalyst | (VC/fellowship) | TBD | Drafted (confirm if submitted) |
 | Bessemer (BVP) | Full-time Analyst | rolling | **Applied 2026-09-20** |
 | Tactile | Analyst | TBD | In process (Q1 done, pitch drafted 2026-09-21) |
+| [[left-lane-capital\|Left Lane Capital]] | 2027 Analyst | TBD | **Applied 2026-10-08** ([[Dan Ahrens]] warm; follow up to tell him it's in) |
 
 **Pipeline to still hit** (see [[Job Search]] shortlist): Kleiner Perkins Fellows (~late Jan),
 8VC Fellowship, Vertex Ventures Healthcare Fellowship, 5AM Ventures Fellowship, [[catalio-capital]]
@@ -140,6 +141,37 @@ Word limits here are **words, not chars** (150 word max each). Same style rules,
 
 **Q2 — pitch a Pre-Series A startup in that industry you'd personally invest in (146 words):**
 > Perceptic, the AI operating system for drug development. I would invest because it is the clearest bet on the layer above, not another single stage tool. Three ex Palantir leaders, led by Tilman Flock who spent seven years building Palantir's life sciences platform, are doing for pharma what Palantir did for enterprises, unifying the evidence, data, and decisions that today sit siloed across discovery, development, and trials. That wedge is almost impossible to copy, because it needs both deep drug development context and the rare experience of shipping enterprise AI into it. The proof is already here. Top tier pharma like CSL use it, and Accel led a 12 million dollar seed. Pharma spends over 150 billion dollars a year on this fragmented work, and multimodal AI is the first thing that can finally own it end to end. This is the team that does it.
+
+---
+
+## Left Lane Capital — 2027 Analyst (**APPLIED 2026-10-08**)
+
+Growth-stage **consumer internet / consumer subscription** fund (NY + London). Warm in via
+[[Dan Ahrens]] (Managing Partner), who met Cole at a 2026-10-06 info session and told him to apply.
+**Key fit note:** Left Lane's own themes are *"the digitization of offline spend"* and *"AI from do it
+yourself to done for you."* So for them, Cole re-cuts his signature "own the inefficient industry end to
+end" trend toward **consumer / local-services verticals** and anchors it in [[uship]] (NOT the
+healthcare/techbio version used for Bessemer/Tactile). Q2 startups (updated 2026-10-08): **EliseAI** (built
+world) + **Perceptic** and **Formation Bio** (healthcare/drug development). ⚠️ Two of three are healthcare,
+off Left Lane's consumer thesis — EliseAI is the Left-Lane anchor; Decagon/Sierra are all-consumer swaps.
+Confirm Cole can speak to the named startups.
+
+### Q1 — Something most people wouldn't know; how it shaped you / who you aspire to be (slacklining + hard things)
+> Something most people would not know about me is that I slackline. There is nothing quite like standing on a piece of one inch webbing a few feet off the ground. The moment your focus drifts, you fall, so it forces you fully into the present. Every thought about my classes, my company, or my phone disappears, because the line will not let you think about anything except the next step.
+>
+> What I love is that it makes focus physical. Being fully present is something everyone knows is valuable but almost no one can train directly. Slacklining gives you the clearest feedback there is. Lose focus and you hit the ground. An hour on the line pulls me out of everything else and leaves me calmer and sharper, because for that hour the only thing that exists is the next step.
+>
+> Slacklining is really one version of something bigger about me. I am drawn to hard things, but the ones I chase hardest are the ones I genuinely love. The clearest example is that I finished every pre med requirement even though I never planned to go to medical school. I did not do it for the degree or for anything it could get me later. I did it because the science truly fascinated me and I wanted to go as deep into it as I could, and the difficulty was part of the pull, not a price I paid. Being passionate about something hard for the thing itself, not for what it will give you, is the rarest and most important trait I know.
+>
+> That is also who I want to spend my career around. I want to back the founders who choose the hard, risky path out of pure passion and nothing else, because there is no passion like a founder's. Loving a hard problem for its own sake, not for the reward at the end, is exactly what a founder needs to keep going when nothing is guaranteed. That is the trait I have spent three years building in myself, and it is the one I most want to find and back in others.
+
+### Q2 — Industry trend + why + a few startups (re-cut 2026-10-08, Bessemer/Tactile "own it end to end" mold; built world + healthcare)
+_Sharper, data-backed market-thesis style of the Bessemer/Tactile answers. Spans both giants (built world + healthcare) per the Bessemer framing. Startups: EliseAI (built world), Perceptic + Formation Bio (healthcare, per Cole 2026-10-08). ⚠️ Fit caveat: two of three are healthcare, which is off Left Lane's consumer thesis — kept EliseAI as the Left-Lane-native anchor; swap back to all-consumer (Decagon) if desired. Confirm Cole can speak to all three._
+> The trend I care about most is AI owning, end to end, the industries that stay inefficient because serving one customer takes too many people doing manual work that no one ever stitched together. Two giants fit, the built world and healthcare, both enormous and both barely touched by software. US real estate alone is a 4.2 trillion dollar market SaaS never cracked, and healthcare wastes over a trillion dollars a year on administration. For decades software could help an operator do the job but never do the job itself, so these industries stayed fragmented and labor bound. Multimodal AI is the first thing that can actually do the work. The winners will not sell a tool that makes an operator faster, they will absorb the labor and own the whole workflow end to end, the layer above that finally breaks the silos each stage lives in.
+>
+> I care about this because I am living it. At Duke I run University Shipping in one of the most offline industries there is, student move out logistics, where our growth ceiling was always people because every new campus needed operators doing manual work on the ground. This year my cofounder and I started building an operating system that uses AI to absorb that work, so for the first time the model travels without a person carrying it. I know exactly where the leverage is because I have been the person the software was replacing.
+>
+> A few companies prove it. In the built world, EliseAI owns leasing, renewals, and resident communication for property managers, running an entire offline workflow that used to need a full leasing office instead of selling that office a tool. In healthcare, the fight is for the layer above the single stage. Perceptic is building the operating system for the full drug development lifecycle, unifying the evidence, data, and decisions that today sit siloed across scouting, science, and trials. Formation Bio goes further and owns development itself, acquiring drug assets and running them through its own AI native trial engine faster than conventional pharma. All three win the same way, by owning a whole vertical end to end rather than renting out a feature. That is the wave I want to spend my career in front of.
 
 ---
 
