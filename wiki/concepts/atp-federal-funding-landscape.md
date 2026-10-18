@@ -238,9 +238,10 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
   Topic is the better route.** Office inbox: afrl.sb.questions@us.af.mil. Other AFRL SB contacts: Brian
   McJilton (Director), Tara Norris (Wright Research Site SB professional — Wright-Patt is where the
   Human Effectiveness Directorate is HQ'd).
-- **711th Human Performance Wing** — the highest-fit DoD customer for ATP (wearables/human-performance
-  portfolio + aerospace medicine). **Goal: come away with a named government end user** — that person is
-  the key to any future TACFI/STRATFI or Phase III.
+- **[[711th-human-performance-wing|711th Human Performance Wing]]** — the highest-fit DoD customer for ATP
+  (wearables/human-performance portfolio + aerospace medicine; directorates RH / USAFSAM / HP). **Goal:
+  come away with a named government end user** — that person is the key to any future TACFI/STRATFI or
+  Phase III. See [[711th-human-performance-wing]] for the org map + the CHEERS/Barbara-Knight entry path.
 - **SOCOM / POTFF** — Preservation of the Force & Family's **physical domain = Sports Medicine, Strength
   & Conditioning, Performance Nutrition.** This is the closest thing in DoD to ATP's actual model. POTFF
   mostly *buys services through primes* (POTFF II = KBR Wyle; POTFF III follow-on reported ~$1.5B,
