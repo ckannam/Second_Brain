@@ -144,7 +144,57 @@ fixes applied or needed.
 
 ---
 
-## Summary across all audited skills (2026-09-13)
+## 2026-10-18 — `concert-digest` (50 lines)
+
+**Subject:** `.claude/skills/concert-digest/SKILL.md`, 50 lines, git-tracked. Composes (and in
+standalone mode sends) Cole's weekly "Concerts near you" iMessage digest from
+`profile/concert-taste.md` + web search. One of the two previously un-audited vault skills (the
+other being the three prompt-architect skills, queued).
+
+**§1 Description (trigger surface): 🔧 fixed (structural, no behavior change)**
+Carried the same second-person lead-verb defect `startup-radar` had before its 2026-10-11 fix:
+"**Use to compose** (and … send)…". Normalized to the declarative third-person "**Composes** (and …
+sends)…" — matching the house style of every other audited skill. The actual trigger surface is
+untouched: the literal hooks ("Concerts near you", "weekly … iMessage digest") and the explicit
+*when* clause ("Triggered by the Monday launchd run or when Cole says 'run the concert digest'")
+are preserved verbatim, so this is a mood/consistency edit, not a trigger-content change — the same
+safe category applied to `startup-radar`.
+
+**§2 Progressive disclosure: ✅**
+50 lines — far under the ceiling. The 6-step procedure + Inputs + Rules all fit inline; no
+reference split warranted.
+
+**§3 Concise: ✅**
+Steps are lean and imperative. The composed-block template is a worked example (earns its tokens by
+pinning the exact iMessage-native format), not padding. Correctly assumes Claude knows what "web
+search" and "iMessage" are.
+
+**§4 Degrees of freedom: ✅**
+Low-to-medium, correctly matched: an exact output template and exact `MODE` branch logic (fragile —
+`standalone` sends, `section` must NOT), prose latitude for taste-ranking. The "never invent shows/
+dates/links; write `tix: search \"…\"` instead" rule is a good narrow-bridge guard against the
+hallucinated-ticket-link failure mode.
+
+**§5 Evals: 🟡 (recommend — not applied)**
+No evals (the universal vault-skill gap). Three recommended tests when the harness exists:
+1. *Artist on the Love list with a real tour date in-window → block lists it under the taste tier,
+   soonest-first, with a real or `tix: search` link (never a fabricated URL).*
+2. *Empty week (no credible shows) → emits the honest "Quiet week" fallback, not an invented lineup.*
+3. *`MODE=section` → returns ONLY the block and does NOT fire the `osascript` send.* (Guards the
+   outward-action branch — the highest-stakes behavior in the skill.)
+
+**§6 Anti-patterns: ✅**
+No time-sensitive constants. The one absolute path (`/Users/colekannam/.claude/concerts/send.scpt`)
+is **correct, not a defect** — it's a Mac-only `osascript` send step on the `@local`/standalone lane,
+unlike the `startup-radar` case where a *vault-internal* path should have been relative. Terminology
+consistent (`ACTIVE_METRO`, `MODE`, `window_weeks`). No voodoo constants.
+
+**Verdict:** 5 sections clean, 1 structural fix applied (§1 third-person normalization), 1 eval
+recommendation. Skill is healthy; the fix brings its description into house style.
+
+---
+
+## Summary across all audited skills (updated 2026-10-18)
 
 | Skill | Lines | §1 Desc | §2 Disclosure | §3 Concise | §4 Freedom | §5 Evals | §6 Anti-patterns | Fixed |
 |---|---|---|---|---|---|---|---|---|
@@ -152,9 +202,10 @@ fixes applied or needed.
 | `orchestrate-agents` | 55 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
 | `wiki-query` | 71 | ✅ | ✅ | 🟡 | ✅ | 🟡 | ✅ | none |
 | `vault-autoresearch` | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `concert-digest` (2026-10-18) | 50 | 🔧 → ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | §1 3rd-person |
 
 **Cross-skill pattern:** the universal gap is **evals (§5)**. Every audited skill lacks an
-objective test harness. The one-line fix for all four: write ~3 `(query, files,
+objective test harness. The one-line fix for all of them: write ~3 `(query, files,
 expected_behavior)` triples each and run them once before any description or body change. Until
 that infrastructure exists, the [[vault-autoresearch]] HEALTH_DEBT ratchet remains the
 vault-level proxy for skill quality — a skill that sends the loop off-track shows up as raised
