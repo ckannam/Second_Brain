@@ -25,19 +25,38 @@ Companion to [[athletic-training-portal]] and [[atp-competitive-analysis]].
 
 ### 🔁 DSIP + AFWERX monitoring note — 2026-10-18
 
-Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified):
+Weekly scan run per the `@cloud` monitoring task. **This week's delta resolves the one open item
+carried from 2026-10-11** (the unidentified Army FY27 topic) and re-confirms no new human-performance
+opening. Findings (web-verified, secondary sources — DSIP/armysbir/bwco all DNS-blocked via the cloud
+proxy again, so direct portal verification is still not possible from the cloud lane):
 
-**ARM27BX01-DP001 — confirmed real but irrelevant to ATP.** The Oct 23 white-paper deadline is confirmed. However, the topic is **Spectrum Enabled Warfare** (electromagnetic spectrum ops for NATO's Eastern Flank — G-TEAD USAREUR-AF ACE 27-02 xTech competition), not human performance or biomechanics. The secondary source that flagged it was misidentified. **Skip — zero ATP fit.**
+**ARM27BX01-DP001 — RESOLVED, and it is NOT an ATP fit.** The topic flagged "needs verification before
+Oct 23" last week is the Army's **xTech "Spectrum Enabled Warfare"** topic (prize competition
+**G-TEAD / USAREUR-AF ACE 27-02**), not a human-performance topic. Scope = electromagnetic spectrum
+operations for V Corps on the Eastern Flank (EM support & tactical surveillance, autonomous network
+management, EM-environment visualization + battle-damage assessment). Funding up to **$2M** over 12–18
+months. Path: **xTech white paper due Oct 23, 2026, 5:00 PM ET**; only competition finalists/winners may
+submit a DSIP proposal (window ~**Apr 19–May 7, 2027**). → **No ATP action** — this is EW, not MSK /
+human performance. (It is a *distinct* topic from xTech|Search 10, confirming last week's suspicion that
+the two were being conflated in one secondary source.)
 
-**FY27 R1 full Army topic count: 1 — spectrum warfare.** Total 25 topics: 16 DAF (13 SBIR + 3 STTR), 6 Navy, 2 OSW, 1 Army (ARM27BX01-DP001). The single Army topic is ARM27BX01-DP001. **Zero Army human performance topics in FY27 R1 — confirmed.** The prior partial list from secondary indexers was accurate; the full count is now verified.
+**FY27 Release 1 — still NO human-performance topic (re-confirmed).** Two independent secondary topic
+indexes now agree the 25-topic release spans hypersonics T&E, directed energy, advanced materials/
+manufacturing, robotics/autonomy, AI/computer vision, cyber, counter-UAS, shipboard systems, and XR —
+with the single Army topic being the spectrum/EW one above. No 711 HPW / human-performance / MSK topic.
+Proposal window open Oct 28 → closes Nov 25, 2026, 12:00 PM ET. *Caveat unchanged: verify directly on
+dodsbirsttr.mil before the Oct 27 topic-author-contact cutoff — the cloud proxy still cannot reach it.*
 
-**SOCOM rolling BAA — confirmed open through July 31, 2028.** HT9425-23-S-SOC1, revised July 29, 2026 (Revised-0004). Accepts rolling submissions continuously for biomedical + human performance technologies. Contact: discovery@socom.mil. This is ATP's most direct standing vehicle and requires no specific deadline to hit.
+**AFWERX:** no human-performance Focused Open Topic surfaced this week. Next pre-release cycle is the
+**first Wednesday of November (Nov 4, 2026)** — the next scheduled check. (Note the prior "Nov 2026"
+phrasing: first Wednesday is Nov 4.)
 
-**Oct 27 contact-author deadline (DSIP FY27 R1):** Unverified by secondary sources — direct DSIP access (dodsbirsttr.mil) is the only authoritative check. Since FY27 R1 opens Oct 28, the window likely closes by Oct 27. **Recommend verifying directly on dodsbirsttr.mil before Oct 27.** (Note: no ATP-fit topic exists in R1, so this is low-priority unless new topics appear.)
+**xTech|Search 10:** deadline **Oct 19, 2026, 5:00 PM ET** (tomorrow) still stands — the `@human`
+go/no-go + submit item on the board. No extension found.
 
-**AFWERX:** No human performance FOT currently open. Next pre-release cycle: first Wednesday of November 2026.
-
----
+**Net for ATP this cycle:** nothing new to chase in the SBIR/AFWERX cloud-monitor lane; the live plays
+remain the three in §0 (xTech|Search 10 tomorrow, the Nov 5 OSBP event, opening 711 HPW) plus the
+standing SOCOM biomedical/human-performance BAA. Next automated check: Nov 4 (first Wednesday).
 
 ### 🔁 DSIP + AFWERX monitoring note — 2026-10-11
 
@@ -219,9 +238,10 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
   Topic is the better route.** Office inbox: afrl.sb.questions@us.af.mil. Other AFRL SB contacts: Brian
   McJilton (Director), Tara Norris (Wright Research Site SB professional — Wright-Patt is where the
   Human Effectiveness Directorate is HQ'd).
-- **711th Human Performance Wing** — the highest-fit DoD customer for ATP (wearables/human-performance
-  portfolio + aerospace medicine). **Goal: come away with a named government end user** — that person is
-  the key to any future TACFI/STRATFI or Phase III.
+- **[[711th-human-performance-wing|711th Human Performance Wing]]** — the highest-fit DoD customer for ATP
+  (wearables/human-performance portfolio + aerospace medicine; directorates RH / USAFSAM / HP). **Goal:
+  come away with a named government end user** — that person is the key to any future TACFI/STRATFI or
+  Phase III. See [[711th-human-performance-wing]] for the org map + the CHEERS/Barbara-Knight entry path.
 - **SOCOM / POTFF** — Preservation of the Force & Family's **physical domain = Sports Medicine, Strength
   & Conditioning, Performance Nutrition.** This is the closest thing in DoD to ATP's actual model. POTFF
   mostly *buys services through primes* (POTFF II = KBR Wyle; POTFF III follow-on reported ~$1.5B,
@@ -251,10 +271,10 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
   verify DSIP directly before Oct 27); competitors DARI + Theia3D + Southwest Research Institute
   confirmed in DoD markerless-capture validation studies (2021 AFSPECWAR study PMID 34734097;
   2024 soldier load study; SwRI 2026 DoD award).
-- **Resolved (2026-10-18):** ARM27BX01-DP001 (Army FY27, Oct 23 deadline) confirmed on armysbir.army.mil
-  — it is a **Spectrum Enabled Warfare** xTech competition (electromagnetic ops, NATO Eastern Flank;
-  G-TEAD USAREUR-AF ACE 27-02). Zero ATP relevance. The secondary source that surfaced it was wrong
-  about its subject. Closed.
+- **Resolved (2026-10-18):** topic **ARM27BX01-DP001** is the Army's xTech **"Spectrum Enabled Warfare"**
+  topic (G-TEAD / USAREUR-AF ACE 27-02, up to $2M, xTech white paper due Oct 23, 2026) — a *distinct*
+  topic from xTech|Search 10, and **electromagnetic-warfare, not human performance → no ATP fit.** The
+  2026-10-11 "may be distinct / verify before Oct 23" flag is cleared.
 - **Verified (2026-10-18):** SOCOM BAA HT9425-23-S-SOC1 confirmed open through **July 31, 2028**
   (Revised-0004, July 29, 2026). FY27 R1 Army topic count = 1 (ARM27BX01-DP001 only) — zero
   human-performance Army topics confirmed.

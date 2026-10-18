@@ -1710,3 +1710,19 @@ Weekly Sunday run. Baseline HEALTH_DEBT = 0 (Phase 1: no-op).
 **Phase 4 (MODE B):** enriched [[proactive-agents]] vault-instantiation section — added concert-digest as the third proactive lane (context-maintaining level, Monday cron, personalized iMessage); added Spotify concert-alerts future rung; reciprocal [[skill-audit-concert-digest]] link added to Related.
 
 **Phase 5:** PR opened → autoresearch/night-2026-10-18 → main.
+## [2026-10-18] autoresearch | Weekly AutoResearch loop (Sunday run — night-2026-10-18)
+Cadence gate: Sunday ET ✅ → full loop. **Phase 0:** baseline HEALTH_DEBT = 0 (orphans/missing/stale all
+0); pre-existing defect set empty → no Phase-1 fast-track heal; regenerated `autoresearch/nightly-queue.md`.
+**Phase 2 (build, 2 items):** (1) DSIP + AFWERX monthly monitor — **resolved** the open 2026-10-11 item:
+Army FY27 topic **ARM27BX01-DP001** is the xTech **Spectrum Enabled Warfare** topic (ACE 27-02, up to $2M,
+white paper Oct 23), a distinct topic from xTech|Search 10 and **EW not human performance → no ATP fit**;
+re-confirmed FY27 R1 has no 711 HPW / human-performance topic; DSIP/armysbir/bwco all DNS-blocked via the
+cloud proxy; refreshed the dated note in [[atp-federal-funding-landscape]]. (2) Audited **`concert-digest`**
+SKILL.md vs [[skill-authoring-playbook]] — 5 sections clean, one structural fix (description second-person
+"Use to compose" → third-person "Composes", matching the startup-radar normalization); logged on the
+[[skill-audits-2026]] scoreboard (now 5 skills). **Phase 3:** write-back progress notes on both @cloud
+items (left open — both recurring); re-score → still 0, no build-introduced defect. **Phase 4 (MODE B):**
+new entity page **[[711th-human-performance-wing]]** — ATP's highest-fit DoD customer, surfaced repeatedly
+in the funding work but never a linkable page; web-grounded org map + ATP fit + CHEERS/Barbara-Knight entry
+path; indexed + reciprocal link from the funding landscape; HEALTH_DEBT stays 0. All work on the review
+branch → one morning PR (nothing auto-merged to main).
