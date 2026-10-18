@@ -63,3 +63,8 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-10-11T02:30	B	wiki/concepts/atp-federal-funding-landscape.md	0	0	build	FY27 R1 monitoring: no HPW topics; xTech ARM26BX05-NP011 confirmed; SOCOM BAA added; competitor data added
 2026-09-13T06:13	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase-1 build (tasks/+autoresearch/ only; scorer scans wiki/+crm/); no build-introduced defect
 2026-09-13T06:13	B	tasks/index.md (Sourcing & verification)	0	0	keep	MODE B-src first live run: 1 source-to-ingest proposal (Code with Claude 2026 -> refresh claude-code-memory/subagents/agent-teams); @human verify vs primary sources
+2026-10-18T02:00	A	(none)	0	0	skip	Phase-0 baseline HEALTH_DEBT=0, empty defect set; no Phase-1 fast-track heals needed
+2026-10-18T02:10	build	wiki/concepts/atp-federal-funding-landscape.md	0	0	keep	ARM27BX01-DP001 verified as Spectrum Enabled Warfare (zero ATP relevance); SOCOM BAA confirmed open through July 2028; FY27 R1 Army = 1 topic (spectrum warfare only)
+2026-10-18T02:20	build	.claude/skills/concert-digest/SKILL.md	0	0	keep	§1 description third-person fix ("Use to compose"→"Composes and delivers"; "Cole says"→"the user says"); audit record in wiki/concepts/skill-audit-concert-digest.md
+2026-10-18T02:25	A	(build check)	0	0	skip	HEALTH_DEBT=0 after Phase-2 build; no build-introduced debt
+2026-10-18T02:30	B	wiki/concepts/proactive-agents.md	0	0	keep	MODE B: enriched vault-instantiation section to add concert-digest as the third proactive lane (context-maintaining level, Monday cron, personalized iMessage); added Spotify/concert-alerts future rung; reciprocal link added

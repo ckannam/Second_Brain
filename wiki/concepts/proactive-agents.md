@@ -52,20 +52,30 @@ The vault instantiates all three: the AutoResearch routine is cron-triggered, re
 
 ## Vault instantiation
 
-This vault runs two proactive lanes:
+This vault runs three proactive lanes:
 
 - **@cloud lane** — `Vault AutoResearch` (Sunday 2 AM ET): self-heal + build + generative; produces
   a morning PR. Enabled by: cron trigger, `program.md` + wiki as memory, branch/PR pattern for the
   action scope. See [[vault-autoresearch]].
-- **@local lane** — `daily-ingest` (~3 AM, Mac awake): ingests `raw/assets/` clips → wiki per
+- **@local lane — ingest** — `daily-ingest` (~3 AM, Mac awake): ingests `raw/assets/` clips → wiki per
   `AGENTS.md`, commits to `main`. Enabled by: launchd trigger, AGENTS.md + raw inbox as inputs.
+- **@local lane — concert digest** — Monday cron, Mac awake: reads `profile/concert-taste.md`
+  (love / want-to-see / discovery seeds / venue lists + metro setting), web-searches artist tour
+  dates and local venue calendars within the configured window, ranks by taste tier and proximity,
+  composes a text-native "🎵 Concerts near you" iMessage digest (≤8–12 shows), and delivers via
+  `osascript` to Cole's iMessage self-chat. Context-maintaining level: the agent has a persistent
+  taste profile as its "memory" and makes personalized, time-bounded recommendations without being
+  asked. Driven by [[concert-digest]] skill. See [[skill-audit-concert-digest]] for the audit.
 
 Future proactive rungs under consideration:
 - **Source-seeking** (MODE C): sweep public surfaces, propose new sources in the PR → [[extending-the-llm-wiki]].
 - **CRM enrichment**: message-history pass to fill relationship context (needs @local, not yet built).
+- **Spotify concert alerts**: when Spotify is connected, cross-reference listening history with
+  upcoming shows for real-time proactive alerts (task in [[tasks/index|tasks]]). Higher fidelity
+  than the static taste profile — the watch-for-concert-alerts item in [[Personal]] bucket.
 
 ## Related
 
 [[claude-code-scheduled-tasks]] · [[claude-code-loops]] · [[agent-memory]] · [[agent-dreaming]] ·
 [[claude-tag]] · [[claude-cowork]] · [[vault-autoresearch]] · [[ai-executive-assistant]] ·
-[[extending-the-llm-wiki]] · [[ai-second-brain-levels]].
+[[extending-the-llm-wiki]] · [[ai-second-brain-levels]] · [[skill-audit-concert-digest]].

@@ -1696,3 +1696,17 @@ with Claude 2026" + Claude Code mid-2026 release notes (would refresh [[claude-c
 [[claude-code-agent-teams]]/[[multi-agent-orchestration]]); flagged @human + secondary-source, verify
 vs anthropic.com/news + docs.claude.com before writing to the wiki. All work on the review branch → one
 morning PR (nothing auto-merged to main).
+
+## [2026-10-18] autoresearch | night — DSIP monitoring + concert-digest skill audit
+
+Weekly Sunday run. Baseline HEALTH_DEBT = 0 (Phase 1: no-op).
+
+**Phase 2 build:**
+1. *DSIP + AFWERX monitoring* — web-verified ARM27BX01-DP001: confirmed real on armysbir.army.mil but is Spectrum Enabled Warfare (electromagnetic operations), not human performance — zero ATP relevance, Oct 23 deadline moot. SOCOM BAA HT9425-23-S-SOC1 confirmed open through July 31, 2028 (Revised-0004, July 29, 2026). Updated [[atp-federal-funding-landscape]] monitoring notes section + resolved outstanding caveats item. Progress note appended to tasks/index.md DSIP task.
+2. *Skill audit: `concert-digest`* — applied [[skill-authoring-playbook]] §1–§6 checklist (51 lines); fixed §1 description to third-person ("Use to compose" → "Composes and delivers") and "Cole says" → "the user says"; logged §5 eval recommendations (3 triplets). Audit record: [[skill-audit-concert-digest]]. Updated [[skill-audits-2026]] table + [[index]] + [[skill-authoring-playbook]] Related section. Progress note appended to tasks/index.md skill-audit task.
+
+**Phase 3:** build-heal check — HEALTH_DEBT = 0 post-build; no build-introduced debt.
+
+**Phase 4 (MODE B):** enriched [[proactive-agents]] vault-instantiation section — added concert-digest as the third proactive lane (context-maintaining level, Monday cron, personalized iMessage); added Spotify concert-alerts future rung; reciprocal [[skill-audit-concert-digest]] link added to Related.
+
+**Phase 5:** PR opened → autoresearch/night-2026-10-18 → main.

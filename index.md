@@ -307,6 +307,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-audit-wiki-query]] — [[skill-authoring-playbook]] checklist applied to `wiki-query` (2026-10-04); §1–§4 and §6 clean; 2 recommendations logged (description third-person form, Guardrails overlap); 0 structural fixes; skill judged healthy.
 - [[skill-evals-playbook]] — the concrete how-to for the recurring §5 "write ~3 evals" gap: the query+files+expected_behavior triplet, code- vs model-based grader choice, worked triplets for the vault's own skills, and the keep-or-revert run loop (a skill's private HEALTH_DEBT).
 - [[skill-audit-startup-radar]] — [[skill-authoring-playbook]] checklist applied to `startup-radar`; description fixed to third-person; Step 5.5 renamed to Step 5a; §5 eval recommendations logged for Cole.
+- [[skill-audit-concert-digest]] — [[skill-authoring-playbook]] checklist applied to `concert-digest`; §1 description fixed to third-person ("Use to compose" → "Composes and delivers"); §5 eval recommendations logged; absolute path in §6 noted as intentional @local design.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).

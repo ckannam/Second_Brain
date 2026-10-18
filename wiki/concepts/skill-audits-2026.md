@@ -152,6 +152,7 @@ fixes applied or needed.
 | `orchestrate-agents` | 55 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
 | `wiki-query` | 71 | ✅ | ✅ | 🟡 | ✅ | 🟡 | ✅ | none |
 | `vault-autoresearch` | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `concert-digest` (2026-10-18) | 51 | 🔧 desc | ✅ | ✅ | ✅ | 🟡 | ✅ | §1 third-person |
 
 **Cross-skill pattern:** the universal gap is **evals (§5)**. Every audited skill lacks an
 objective test harness. The one-line fix for all four: write ~3 `(query, files,
@@ -160,5 +161,9 @@ that infrastructure exists, the [[vault-autoresearch]] HEALTH_DEBT ratchet remai
 vault-level proxy for skill quality — a skill that sends the loop off-track shows up as raised
 debt. See [[evals-for-taste]] for the pattern, [[llm-as-judge]] for the grader architecture.
 
-Related: [[skill-authoring-playbook]] · [[skill-audit-worked-example]] · [[skill-trigger-tuning]] ·
+Standalone audit pages: [[skill-audit-worked-example]] · [[skill-audit-networking-prep]] ·
+[[skill-audit-vault-autoresearch]] · [[skill-audit-wiki-query]] · [[skill-audit-startup-radar]] ·
+[[skill-audit-concert-digest]].
+
+Related: [[skill-authoring-playbook]] · [[skill-trigger-tuning]] ·
 [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
