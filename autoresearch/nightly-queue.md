@@ -1,5 +1,13 @@
 # AutoResearch nightly queue — 2026-10-25 (Sunday weekly run)
 
+> **Note — two concurrent firings tonight.** Two sessions ran the loop for 2026-10-25 and were
+> merged into one morning PR (nothing discarded; union merge). The sections below are the
+> **union** of both firings' selections. Combined Phase-2 build = **3 audits** (`concert-digest`
+> + the 3 prompt-architect skills from firing A; `orchestrate-agents` re-audit from firing B)
+> **+ DSIP/AFWERX FY27 R1 monitoring** (firing B → [[atp-federal-funding-landscape]]). Combined
+> Phase-4 MODE B = **two new pages** ([[prompt-architect-skills]] from A; [[potff]] entity from B).
+> Baseline + final HEALTH_DEBT = 0 for both.
+
 Regenerated each run from `tasks/index.md` Open items (this file is an **output**, never an
 input — do not hand-curate). Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday,
 02:39 EDT) → full loop runs.
