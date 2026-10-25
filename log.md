@@ -1696,3 +1696,50 @@ with Claude 2026" + Claude Code mid-2026 release notes (would refresh [[claude-c
 [[claude-code-agent-teams]]/[[multi-agent-orchestration]]); flagged @human + secondary-source, verify
 vs anthropic.com/news + docs.claude.com before writing to the wiki. All work on the review branch → one
 morning PR (nothing auto-merged to main).
+
+## [2026-10-25] autoresearch | Weekly AutoResearch loop (Sunday run)
+Branch `autoresearch/night-2026-10-25` → one morning PR (base `main`; nothing auto-merged).
+**Phase 0:** cadence gate = Sunday 02:39 EDT ✅; baseline HEALTH_DEBT = 0 (orphans/missing/stale
+all 0; 609 files); pre-existing defect set empty. Regenerated `autoresearch/nightly-queue.md`.
+**Phase 1 (fast-track heal → main):** no-op — debt already 0, nothing to auto-merge.
+**Phase 2 (build, @cloud "Improve + general skills"):** audited the last 4 un-audited vault
+skills against the [[skill-authoring-playbook]] 6-section checklist, appended to
+[[skill-audits-2026]] — `concert-digest` (§1 "Use to compose…" → third-person "Composes…" fix
+applied; absolute osascript path confirmed correct; §5 evals gap) and the **3 prompt-architect
+skills** `claude-chat-prompt`/`claude-cowork-prompt`/`claude-code-prompt` (all 6/6 structurally
+clean; shared §5 eval set logged = the open "Prompt max" item). **Dedicated audit coverage now
+10 of 11 skills** (`token-context-management` the last, covered by the 2026-09-06 structural sweep).
+**Phase 3 (write-back + build-heal):** progress note under "Improve + general skills" (item left
+open); re-score still 0, no build-introduced defect. **Phase 4 (MODE B):** new concept page
+[[prompt-architect-skills]] — the 3-skill family as a system (surface-routing rule + shared
+4-step method + per-surface prompt shapes); indexed + reciprocally linked from
+[[prompt-engineering-playbook]], [[skill-audits-2026]], and the [[Claude Mastery]] bucket;
+HEALTH_DEBT stays 0. **Phase 5:** push branch + open PR "AutoResearch night 2026-10-25" (do not
+merge). Note: the first scheduled firing (~02:18 ET) was blocked by a transient Bash auto-mode
+classifier outage; a self-scheduled resume (~02:39 ET) ran the full loop once the classifier recovered.
+## [2026-10-25] autoresearch | night — DSIP monitoring + skill audit + POTFF entity
+Weekly Sunday run. Baseline HEALTH_DEBT = 0. Phase 0 selected two @cloud tasks from tasks/index.md:
+(1) **"Monitor DSIP + AFWERX for relevant SBIR topics"** — FY27 R1 opens Oct 28 as scheduled; no
+HPW/human-performance topic confirmed (consistent with Oct 11 scan); ARM27BX01-DP001 fully resolved
+as Army xTech G-TEAD Spectrum Warfare (NOT human performance) — Oct 23 deadline now past, no ATP
+action; SOCOM BAA HT9425-23-S-SOC1 confirmed open through July 2028 (revised July 2026); submission
+route clarified (formal pre-proposals via Grants.gov/eBRAP, not just discovery@socom.mil).
+(2) **"Improve + general skills"** — deeper audit of `orchestrate-agents`: §1 description updated to
+third-person action-verb form per post-startup-radar standard ("Guides multi-agent orchestration
+decisions…"); §2–§4/§6 clean; §5 eval recommendations logged (3 triplets). Full audit in
+[[skill-audit-orchestrate-agents]]; running table updated in [[skill-audits-2026]].
+
+**Phase 1:** skip (HEALTH_DEBT = 0).
+
+**Phase 2:** three build items — (a) progress write-back to both task items in tasks/index.md;
+(b) `orchestrate-agents` SKILL.md description fix (structural, review lane); (c)
+[[atp-federal-funding-landscape]] enriched with 2026-10-25 monitoring note.
+
+**Phase 3:** build-heal check — HEALTH_DEBT = 0 post-build; no build-introduced defect.
+
+**Phase 4:** MODE B proposal — [[potff]] entity page (USSOCOM Preservation of the Force & Family;
+new-page test passes: 4 pages referenced it, no own page existed; distinct reusable DoD entity).
+Content: program structure, four lines of effort, KBRwyle prime contract (~$955M), POTFF III
+recompete, ATP's three strategic paths. Indexed + reciprocal links in [[atp-federal-funding-landscape]].
+
+**Phase 5:** PR opened → autoresearch/night-2026-10-25 → main.

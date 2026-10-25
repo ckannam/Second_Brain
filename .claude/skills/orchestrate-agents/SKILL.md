@@ -1,6 +1,6 @@
 ---
 name: orchestrate-agents
-description: Use when Cole asks how to orchestrate multiple Claude Code agents, set up an agent team, parallelize work across agents, assign QA roles, or asks about sub-agents vs. agent teams vs. Claude Managed Agents. Also triggers on "I want agents to work together", "parallel agents", "agent swarm", or "QA agent".
+description: Guides multi-agent orchestration decisions in Claude Code — choosing between sub-agents, agent teams, and Claude Managed Agents; setting up teams; parallelizing work; assigning QA roles. Triggers on: "orchestrate agents", "set up an agent team", "parallelize work across agents", "sub-agents vs. agent teams", "I want agents to work together", "parallel agents", "agent swarm", "QA agent".
 ---
 
 # Agent Orchestration
