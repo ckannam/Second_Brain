@@ -23,6 +23,20 @@ Companion to [[athletic-training-portal]] and [[atp-competitive-analysis]].
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-10-25
+
+Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, secondary sources):
+
+**FY27 Release 1 status:** Opens Oct 28, closes Nov 25 — confirmed on schedule. Topic-author contact window closes when proposals open Oct 28. No new topics added since Oct 7 pre-release. **Human performance in FY27 R1: NONE** (consistent with Oct 11 scan; no 711 HPW or human-performance topic appeared in the 25-topic list). Nothing actionable for ATP in this release.
+
+**ARM27BX01-DP001 — resolved: NOT human performance.** The Oct 11 note flagged this as an unresolved secondary-source item with an "Oct 23 deadline." Web-verified 2026-10-25: ARM27BX01-DP001 is an Army Direct-to-Phase-II topic under the **xTech G-TEAD USAREUR-AF ACE 27-02 competition**, covering **Spectrum Enabled Warfare** (signal / electronic warfare) — no connection to human performance or ATP. The "Oct 23 white-paper deadline" for the G-TEAD xTech prize competition has now passed. ✅ **Item closed: no action for ATP.**
+
+**SOCOM standing BAA — still active.** HT9425-23-S-SOC1 confirmed currently open (revised July 29, 2026) and runs continuously through **July 31, 2028**. Research areas explicitly include "human performance optimization." Submit a pre-proposal via **Grants.gov or eBRAP** (see the BAA PDF at dodsbirsttr.mil for current submission instructions — the discovery@socom.mil address in prior notes is a capability/CRM submission path; formal BAA pre-proposals route through the grants portal). Consistent with the standing SOCOM opportunity first identified Oct 11.
+
+**xTech|Search 10:** The Oct 19, 2026 white-paper deadline has now passed. No extension found. Status (finalist vs. not) is a @human item (Cole/Jaylen to confirm).
+
+---
+
 ### 🔁 DSIP + AFWERX monitoring note — 2026-10-11
 
 Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, secondary sources):
@@ -235,13 +249,15 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
   verify DSIP directly before Oct 27); competitors DARI + Theia3D + Southwest Research Institute
   confirmed in DoD markerless-capture validation studies (2021 AFSPECWAR study PMID 34734097;
   2024 soldier load study; SwRI 2026 DoD award).
-- **New unresolved item (2026-10-11):** topic ARM27BX01-DP001 (Army FY27, Oct 23 white-paper deadline)
-  appeared in one secondary source — may be distinct from xTechSearch 10. Verify on dodsbirsttr.mil
-  + armysbir.army.mil before Oct 23.
+- **Independently ✅verified (web, 2026-10-25):** No HPW/human-performance topic in FY27 R1 (consistent);
+  ARM27BX01-DP001 is Spectrum Warfare/G-TEAD (NOT human performance) — Oct 23 deadline now past (no
+  ATP action); SOCOM BAA HT9425-23-S-SOC1 confirmed open through July 2028, revised July 2026; formal
+  pre-proposal route is Grants.gov/eBRAP (not just discovery@socom.mil).
+- **✅ Resolved (2026-10-25):** ARM27BX01-DP001 is Army FY27 R1 xTech G-TEAD Spectrum Enabled Warfare — NOT human performance. Oct 23 deadline (G-TEAD white paper) has passed. No action for ATP.
 - **Open ATP-side question:** Navy SBIR phase (§4). Confirm with Jaylen.
 - **Snapshot:** AFWERX's Focused Open Topic model is new and its topic mix shifts monthly; Tech Tuesday's
   reopen date is undetermined; DoD naming (DoW) is mid-transition.
 
 Related: [[athletic-training-portal]] · [[atp-competitive-analysis]] · [[atp-dod-federal-landscape-2026]]
 · [[xtech-search]] · [[Barbara Knight]] · [[Frank Schwagel]] · [[dorm room fund]] · [[capital-strategy]]
-· [[Job Search]] · [[cole]]
+· [[potff]] · [[Job Search]] · [[cole]]

@@ -144,14 +144,41 @@ fixes applied or needed.
 
 ---
 
-## Summary across all audited skills (2026-09-13)
+## 2026-10-25 — `orchestrate-agents` §1 follow-up
 
-| Skill | Lines | §1 Desc | §2 Disclosure | §3 Concise | §4 Freedom | §5 Evals | §6 Anti-patterns | Fixed |
-|---|---|---|---|---|---|---|---|---|
-| `startup-radar` (2026-08-08) | 198 | ✅ | ✅ | ✅ | ✅ | 🟡 | 🔧 path | Step 7 path |
-| `orchestrate-agents` | 55 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
-| `wiki-query` | 71 | ✅ | ✅ | 🟡 | ✅ | 🟡 | ✅ | none |
-| `vault-autoresearch` | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+The 2026-10-11 `startup-radar` audit established the refined §1 standard: skill descriptions
+should open with a third-person action verb ("Discovers and triages…" / "Guides…") rather than
+the imperative "Use when [person]…" form. On revisit tonight, `orchestrate-agents`' description
+("Use when Cole asks how to orchestrate…") was aligned to this newer standard.
+
+**🔧 Fix applied (2026-10-25):**
+- Old: `"Use when Cole asks how to orchestrate multiple Claude Code agents, set up an agent
+  team, parallelize work across agents, assign QA roles, or asks about sub-agents vs. agent
+  teams vs. Claude Managed Agents. Also triggers on 'I want agents to work together', 'parallel
+  agents', 'agent swarm', or 'QA agent'."`
+- New: `"Guides multi-agent orchestration decisions in Claude Code — choosing between
+  sub-agents, agent teams, and Claude Managed Agents; setting up teams; parallelizing work;
+  assigning QA roles. Triggers on: 'orchestrate agents', 'set up an agent team', 'parallelize
+  work across agents', 'sub-agents vs. agent teams', 'I want agents to work together', 'parallel
+  agents', 'agent swarm', 'QA agent'."`
+
+Improvements: leads with action verb, removes named-person reference ("Cole asks"), adds
+"orchestrate agents", "set up an agent team", "parallelize work across agents", "sub-agents vs.
+agent teams" as explicit trigger terms (stronger retrieval surface). Detailed per-section audit
+in [[skill-audit-orchestrate-agents]].
+
+---
+
+## Summary across all audited skills (2026-10-25)
+
+| Skill | Last audit | Lines | §1 Desc | §2 Disclosure | §3 Concise | §4 Freedom | §5 Evals | §6 Anti-patterns | Fixed |
+|---|---|---|---|---|---|---|---|---|---|
+| `startup-radar` | 2026-10-11 | 198 | ✅ | ✅ | ✅ | ✅ | 🟡 | 🔧 path | Step 7 path; description form; Step 5.5→5a |
+| `orchestrate-agents` | 2026-10-25 | 57 | 🔧 | ✅ | ✅ | ✅ | 🟡 | ✅ | §1 description → third-person action-verb form |
+| `wiki-query` | 2026-09-13 | 71 | ✅ | ✅ | 🟡 | ✅ | 🟡 | ✅ | none |
+| `vault-autoresearch` | 2026-09-13 | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+
+*For the Sep 2026 snapshot table see the prior section above.*
 
 **Cross-skill pattern:** the universal gap is **evals (§5)**. Every audited skill lacks an
 objective test harness. The one-line fix for all four: write ~3 `(query, files,
