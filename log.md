@@ -1696,3 +1696,24 @@ with Claude 2026" + Claude Code mid-2026 release notes (would refresh [[claude-c
 [[claude-code-agent-teams]]/[[multi-agent-orchestration]]); flagged @human + secondary-source, verify
 vs anthropic.com/news + docs.claude.com before writing to the wiki. All work on the review branch → one
 morning PR (nothing auto-merged to main).
+
+## [2026-10-25] autoresearch | Weekly AutoResearch loop (Sunday run)
+Branch `autoresearch/night-2026-10-25` → one morning PR (base `main`; nothing auto-merged).
+**Phase 0:** cadence gate = Sunday 02:39 EDT ✅; baseline HEALTH_DEBT = 0 (orphans/missing/stale
+all 0; 609 files); pre-existing defect set empty. Regenerated `autoresearch/nightly-queue.md`.
+**Phase 1 (fast-track heal → main):** no-op — debt already 0, nothing to auto-merge.
+**Phase 2 (build, @cloud "Improve + general skills"):** audited the last 4 un-audited vault
+skills against the [[skill-authoring-playbook]] 6-section checklist, appended to
+[[skill-audits-2026]] — `concert-digest` (§1 "Use to compose…" → third-person "Composes…" fix
+applied; absolute osascript path confirmed correct; §5 evals gap) and the **3 prompt-architect
+skills** `claude-chat-prompt`/`claude-cowork-prompt`/`claude-code-prompt` (all 6/6 structurally
+clean; shared §5 eval set logged = the open "Prompt max" item). **Dedicated audit coverage now
+10 of 11 skills** (`token-context-management` the last, covered by the 2026-09-06 structural sweep).
+**Phase 3 (write-back + build-heal):** progress note under "Improve + general skills" (item left
+open); re-score still 0, no build-introduced defect. **Phase 4 (MODE B):** new concept page
+[[prompt-architect-skills]] — the 3-skill family as a system (surface-routing rule + shared
+4-step method + per-surface prompt shapes); indexed + reciprocally linked from
+[[prompt-engineering-playbook]], [[skill-audits-2026]], and the [[Claude Mastery]] bucket;
+HEALTH_DEBT stays 0. **Phase 5:** push branch + open PR "AutoResearch night 2026-10-25" (do not
+merge). Note: the first scheduled firing (~02:18 ET) was blocked by a transient Bash auto-mode
+classifier outage; a self-scheduled resume (~02:39 ET) ran the full loop once the classifier recovered.

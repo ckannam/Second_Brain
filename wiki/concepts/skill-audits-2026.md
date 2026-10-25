@@ -290,4 +290,4 @@ tasks stay open pending an interactive Skill Creator eval run with Cole.
 
 Related: [[skill-authoring-playbook]] · [[skill-audit-worked-example]] · [[skill-trigger-tuning]] ·
 [[skill-audit-startup-radar]] · [[skill-evals-playbook]] · [[skill-evals]] · [[prompt-engineering-playbook]] ·
-[[proactive-agents]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
+[[prompt-architect-skills]] · [[proactive-agents]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].

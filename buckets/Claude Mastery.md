@@ -16,7 +16,7 @@ Skill mastery tracks: **prompt max · token max · skill max · agent max** (+ t
 - Harness frameworks (mine, don't install): [[ecc]] — third-party "agent harness OS" (src [[affaan-ecc-agent-harness-os]]); net-new lessons folded into [[agent-dreaming]] (instincts), [[token-context-management]] (MCP budget + knobs), [[claude-code-hooks]] (enforcement recipes), [[agent-security-risks]] (scan your own config).
 - Vault meta: [[llm-wiki-pattern]], [[second-brain-system]], [[ai-second-brain-levels]], [[extending-the-llm-wiki]], [[overview]].
 - Self-improving loops: [[autoresearch]] ([[andrej-karpathy]]), [[agent-hub]], [[nanochat]], [[self-healing-workflows]] — the frontier rung of [[agentic-workflows]] (sources [[autoresearch-repo]], [[autoresearch-tutorial-david-andre]], [[claude-code-karpathy-autoresearch-nick-saraev]], [[autoresearch-broke-internet-greg-isenberg]]).
-- Built here (skills, in `.claude/skills/`): [[vault-autoresearch]] · **`wiki-query`** (answer from the vault, file back) · **prompt architects — `claude-chat-prompt` · `claude-cowork-prompt` · `claude-code-prompt`** (understand a task → craft the optimal prompt for each arm of Claude, tailored to Cole's profile). *(= the "prompt max" track.)*
+- Built here (skills, in `.claude/skills/`): [[vault-autoresearch]] · **`wiki-query`** (answer from the vault, file back) · **prompt architects — `claude-chat-prompt` · `claude-cowork-prompt` · `claude-code-prompt`** (understand a task → craft the optimal prompt for each arm of Claude, tailored to Cole's profile; the family as a system: [[prompt-architect-skills]]). *(= the "prompt max" track.)*
 - Reference: [[session-opening-prompts]].
 
 ## Code with Claude — Anthropic first-party (parallel batch)

@@ -28,4 +28,5 @@ Best practices for prompting agentic systems, from [[the-prompting-playbook]]:
 
 Related: [[json-prompting]], [[html-over-markdown-specs]], [[bitter-lesson]] (don't
 over-constrain capable models), [[evals-for-taste]], [[writing-reliable-skills]] (the same
-evals-before-edits discipline, applied to skills).
+evals-before-edits discipline, applied to skills), [[prompt-architect-skills]] (the vault's
+3-skill instantiation of this playbook — one prompt-shaper per Claude surface).

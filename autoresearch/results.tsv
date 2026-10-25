@@ -66,3 +66,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-10-25T02:40	A	(none)	0	0	skip	Phase-1 fast-track: baseline HEALTH_DEBT=0, empty defect set; no heal to auto-merge
 2026-10-25T02:45	build	wiki/concepts/skill-audits-2026.md + .claude/skills/concert-digest/SKILL.md	0	0	keep	Phase-2: audited concert-digest (+1 third-person fix) and the 3 prompt-architect skills; coverage 10/11; .claude unscored, audit page already indexed
 2026-10-25T02:50	A	(build check)	0	0	noop	Phase-3: re-score after build still 0; build touched .claude/ + tasks/ + skill-audits-2026 (already linked+indexed); no build-introduced defect
+2026-10-25T02:55	B	wiki/concepts/prompt-architect-skills.md	0	0	keep	Phase-4 MODE B: new concept page documenting the 3-skill prompt-architect family (surface-routing rule, shared 4-step method, per-surface shapes); indexed + reciprocal links from prompt-engineering-playbook/skill-audits-2026/Claude Mastery; HEALTH_DEBT stays 0
