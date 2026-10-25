@@ -160,5 +160,134 @@ that infrastructure exists, the [[vault-autoresearch]] HEALTH_DEBT ratchet remai
 vault-level proxy for skill quality — a skill that sends the loop off-track shows up as raised
 debt. See [[evals-for-taste]] for the pattern, [[llm-as-judge]] for the grader architecture.
 
+---
+
+## 2026-10-25 — `concert-digest` (51 lines)
+
+**Subject:** `.claude/skills/concert-digest/SKILL.md`, 51 lines, git-tracked. Composes (and
+in standalone mode sends) Cole's weekly "Concerts near you" iMessage digest: reads
+`profile/concert-taste.md`, web-searches artists + venue calendars for the active metro, ranks
+by taste tier and proximity, delivers a text-native block. Part of the [[proactive-agents]]
+family (Monday launchd run).
+
+**§1 Description (trigger surface): 🔧 (fixed)**
+The description opened in the imperative ("Use to compose (and, in standalone mode, send)…"),
+the same second-person form the playbook §1 flags and the [[skill-audit-startup-radar]] audit
+(2026-10-11) normalized. **Fix applied:** "Use to compose … send" → "Composes … sends" — a
+leading-verb form change only; every trigger term is preserved ("Concerts near you", "concert
+digest", the literal "run the concert digest" phrase, the Monday launchd hook). Remainder is
+strong: concrete nouns (`profile/concert-taste.md`, `ACTIVE_METRO`), the what+when structure.
+
+**§2 Progressive disclosure: ✅**
+51 lines — far under the ~500-line ceiling. No reference files; the output template fits inline
+in a code block (zero extra cost). No split needed.
+
+**§3 Concise: ✅**
+Lean imperative steps. The output-format code block earns its tokens (it fixes a consistency-
+critical artifact — a phone-readable text block). No padding explaining what a "venue" or
+"iMessage" is.
+
+**§4 Degrees of freedom: ✅**
+Medium-low, correctly matched. The delivery format is a fixed template (narrow bridge — it must
+stay phone-scannable), while ranking and discovery are left to prose judgment (open field). The
+"Never invent shows, dates, venues, or ticket links" rule is a well-placed narrow-bridge guard
+against the skill's main failure mode (fabricated listings).
+
+**§5 Evals: 🟡 (recommend — not applied)**
+No evals. Four recommended tests for the interactive run:
+1. *Window filter* — a show one day past `TODAY + window_weeks` → excluded.
+2. *Dedup* — the same artist listed on two venue calendars → appears once.
+3. *Empty week* — no credible hits → emits the honest "Quiet week" note, not a fabricated list.
+4. *No-fabrication* — an artist with no verifiable date → `tix: search "…"`, never a made-up URL.
+
+**§6 Anti-patterns: ✅**
+No time-sensitive info, no voodoo constants, consistent terminology. **Considered but correct:**
+the `osascript /Users/colekannam/.claude/concerts/send.scpt …` path is absolute, but unlike the
+`startup-radar` `validate.py` case (a vault-internal path that could be relative) this script
+lives *outside* the vault in `~/.claude/concerts/` and runs only on the `@local` lane, so an
+absolute Mac path is correct here — not a portability defect.
+
+**Verdict:** 1 structural fix (§1 third-person), 1 eval gap logged. Otherwise healthy.
+
+---
+
+## 2026-10-25 — prompt-architect family: `claude-chat-prompt`, `claude-cowork-prompt`, `claude-code-prompt` (39 / 38 / 37 lines)
+
+**Subject:** the three sibling prompt-architect skills (shipped 2026-07-26), each turning a task
+into an optimal prompt for one Claude surface — chat (interactive), Cowork (async delegation),
+Code (agentic repo work). Audited together because they share one structure: *understand task →
+pull Cole context ([[prompt-engineering-playbook]] + `[[cole|profile]]`) → apply role/context/
+task/constraints/output-contract hygiene → shape for the surface → ready-to-paste block*.
+
+**§1 Description (trigger surface): ✅ (exemplary)**
+All three are the playbook's model §1. They use the endorsed `Use when …` trigger-context form
+(the playbook's own example is "Use when working with PDFs…" — this is *not* the prohibited
+first/second person, which is "I can help…" / "You can use this…"), pack what+when, carry the
+literal phrase hooks ("write me a Claude chat/Cowork/Code prompt"), and — best of all — each
+carries **sibling cross-redirects** ("For delegated async work use claude-cowork-prompt; for
+coding/repo work use claude-code-prompt"), exactly the [[skill-trigger-tuning]] disambiguation
+pattern. Three skills with near-identical intent that still route cleanly. No fix.
+
+**§2 Progressive disclosure: ✅**
+37–39 lines each — minimal. The per-surface "prompt shape" is the load-bearing content; no
+references or splits warranted.
+
+**§3 Concise: ✅**
+Best-practice delegation: each grounds prompt theory in [[prompt-engineering-playbook]] /
+[[the-prompting-playbook]] (and Code adds [[outcome-oriented-agents]], [[html-over-markdown-specs]])
+by wikilink rather than restating it — the opposite of the wiki-query §3 anti-pattern.
+
+**§4 Degrees of freedom: ✅**
+Medium, correct for a generative task. A fixed sectioned "prompt shape" (role/task/context/
+output-contract) gives structure; the actual drafting is left to Claude's judgment. The
+per-surface shapes genuinely differ (chat invites iteration; Cowork front-loads everything +
+definition-of-done; Code demands a verification contract) — the right axis to specialize on.
+
+**§5 Evals: 🟡 (recommend — this *is* the "Prompt max" task's blocker)**
+None. This maps directly to the open `@cloud` "Prompt max — eval-test the 3 prompt-architect
+skills" item, repeatedly deferred because the eval run is interactive (needs Cole + a live
+baseline). Recommended shared eval set (one task, three surfaces):
+1. *Routing* — an async "research competitors and write a brief" task → `claude-cowork-prompt`
+   fires (not chat); output includes a definition-of-done.
+2. *Chat shape* — an open-ended "help me think through X" → `claude-chat-prompt`; output invites
+   iteration rather than front-loading a spec.
+3. *Code shape* — "add a feature + tests to repo Y" → `claude-code-prompt`; output names a
+   verification/test step and a guardrail on what not to touch.
+
+**§6 Anti-patterns: ✅**
+Forward-slash wikilinks, consistent terminology ("prompt shape", "output contract"), no voodoo
+constants, no time-sensitive info. **Design note (not a defect):** all three ground in
+`[[cole|profile]]`, which is `profile/` — **local-only / gitignored** (personal identity data,
+invisible to the cloud lane). That is the correct home for it, but it means these three skills
+can only be *fully* exercised on Cole's Mac; the cloud lane can audit their structure (as here)
+but not their Cole-tailoring output. Worth noting when the §5 evals are eventually run.
+
+**Verdict:** all three 6/6 structurally clean — the cleanest-authored family in the vault
+(textbook §1 with working sibling redirects). The only gap is the shared §5 eval run, which is
+the "Prompt max" task itself and needs Cole.
+
+---
+
+## Updated scoreboard (2026-10-25)
+
+Tonight's four audits (🔧 = fix applied, 🟡 = recommendation for Cole, ✅ = clean):
+
+| Skill | Lines | §1 | §2 | §3 | §4 | §5 | §6 | Fixed |
+|---|---|---|---|---|---|---|---|---|
+| `concert-digest` | 51 | 🔧 | ✅ | ✅ | ✅ | 🟡 | ✅ | §1 third-person |
+| `claude-chat-prompt` | 39 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `claude-cowork-prompt` | 38 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `claude-code-prompt` | 37 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+
+**Coverage:** with these four, **10 of the vault's 11 skills now have a dedicated audit**
+(`startup-radar`, `networking-prep`, `wiki-query`, `vault-autoresearch`, `orchestrate-agents`,
+`vault-improve`, `concert-digest`, + the 3 prompt-architect skills). The one remaining —
+`token-context-management` — was covered by the 2026-09-06 all-11 *structural sweep* (clean:
+under the line ceiling, trigger surface sound) but has no dedicated section yet; it is the
+natural next audit subject. The universal §5 **evals** gap persists across every skill, which is
+why [[skill-evals-playbook]] / [[skill-evals]] own the how-to and the "Prompt max" + "Skill max"
+tasks stay open pending an interactive Skill Creator eval run with Cole.
+
 Related: [[skill-authoring-playbook]] · [[skill-audit-worked-example]] · [[skill-trigger-tuning]] ·
-[[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
+[[skill-audit-startup-radar]] · [[skill-evals-playbook]] · [[skill-evals]] · [[prompt-engineering-playbook]] ·
+[[proactive-agents]] · [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
