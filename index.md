@@ -308,6 +308,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 - [[skill-evals-playbook]] — the concrete how-to for the recurring §5 "write ~3 evals" gap: the query+files+expected_behavior triplet, code- vs model-based grader choice, worked triplets for the vault's own skills, and the keep-or-revert run loop (a skill's private HEALTH_DEBT).
 - [[skill-audit-startup-radar]] — [[skill-authoring-playbook]] checklist applied to `startup-radar`; description fixed to third-person; Step 5.5 renamed to Step 5a; §5 eval recommendations logged for Cole.
 - [[prompt-architect-skills]] — the 3-skill prompt-architect family (`claude-chat-prompt` / `claude-cowork-prompt` / `claude-code-prompt`) as a system: the surface-routing rule, the shared 4-step method, and the per-surface prompt-shape differences; the vault-specific instantiation of [[prompt-engineering-playbook]].
+- [[skill-audit-orchestrate-agents]] — [[skill-authoring-playbook]] checklist applied to `orchestrate-agents` (2026-10-25); §1 description updated to third-person action-verb form; §2–§4/§6 clean; §5 eval recommendations logged (3 triplets); detailed audit record.
 - [[agent-skills]] — the cross-surface platform primitive: three-level loading architecture (metadata/instructions/resources), Claude Code vs claude.ai vs API differences, pre-built document skills, security model.
 - [[claude-code-permissions]] — Auto Mode risk classifier (link stub).
 - [[agent-security-risks]] — threat model for running autonomous/always-on agents + mitigations (least privilege, human gate, ratchet).
@@ -483,6 +484,7 @@ A re-cuttable overlay — hub notes that link to pages by life area (see [[bucke
 
 ### Ventures — ATP
 - [[atp-dod-federal-landscape-2026]] — Frank Schwagel's DoD-resource email (AFRL/711 HPW, xTech, SOFWERX, SOCOM) + the commissioned research memo on ATP's federal landscape beyond the Navy SBIR (2026-10-04). Snapshot with flagged unverified items; analysis at [[atp-federal-funding-landscape]].
+- [[potff]] — **POTFF** (Preservation of the Force & Family): USSOCOM human performance program; four lines of effort (Human Performance, Behavioral Health, Spiritual Enhancement, Social/Family Programs); KBRwyle prime H9240019D0001 (~$955M ceiling); POTFF III recompete underway (no award as of Oct 2026); ATP's closest DoD analog — three paths: POTFF III teaming, Engage SOF/Vulcan capability submission, SOCOM standing BAA HT9425-23-S-SOC1. (2026-10-25)
 
 ### World & ideas — interviews & reading
 - [[us-carceral-system-channel5-freleng]] — Channel 5 / Maggie Freleng on US mass incarceration (substantive first half → [[mass-incarceration]]); back-half conspiracy content flagged + not encoded. Values context for [[cole]].
