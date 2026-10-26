@@ -62,6 +62,9 @@ writes new company notes for the triage.
 ## Key targets — biopharma operator lane
 - [[roivant]] — NYC biopharma that builds a family of drug-development subsidiaries ("Vants"). Live target = its **Rotational Analyst Program** (2yr, four 6-month rotations, ~$100k, NYC). Cole's two-lens fit: reads the science (Neuro + pre-med) and evaluates company/capital ([[jhtv]]). Outreach contact: [[Sophie Katz]] (LinkedIn DM, Sept 2026). ⚠️ Confirm the current cycle's graduation window fits May 2027.
 
+## Key targets — healthcare-navigation operator lane
+- [[solace-health|Solace Health]] — Series C healthcare-navigation startup (pairs patients with expert advocates; backers Inspired Capital, Craft, Torch, Menlo, SignalFire, IVP). **Applied 2026-10-19** to two College Grad 2027 roles, both starting July 2027: **Associate Product Manager** (Redwood City, hybrid) + **Clinical Operations Associate I** (Boston, hybrid). Passed on Associate Data Scientist + Associate Platform Engineer (stretch). Warm channel: **emailed Danny [VC — last name/firm TBD], who has Solace as a portfolio company** (2026-10-19). Next: follow up on the Danny intro; both apps require a sub-1-min video.
+
 ## Key targets — VC lane
 - [[left-lane-capital]] — growth-stage VC (NY + London, consumer-internet/subscription). Contact: [[Dan Ahrens]] (Managing Partner), met 2026-10-06 and encouraged Cole to apply. **Applied 2026-10-08; next: follow up with Dan.**
 - [[atlanta-ventures]] — Atlanta early-stage VC + venture studio (B2B SaaS). Contact: [[David Cummings]] (CEO/Founder; also Atlanta Tech Village). Warm intro available via mentor [[Damien Hoffman]], gated on a specific reason. **Open action: research portfolio → shortlist 1–2 best-fit openings → ask Damien for the intro.**

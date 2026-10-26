@@ -1696,3 +1696,17 @@ with Claude 2026" + Claude Code mid-2026 release notes (would refresh [[claude-c
 [[claude-code-agent-teams]]/[[multi-agent-orchestration]]); flagged @human + secondary-source, verify
 vs anthropic.com/news + docs.claude.com before writing to the wiki. All work on the review branch → one
 morning PR (nothing auto-merged to main).
+
+## [2026-10-19] job search | Solace Health — applied to 2 roles + warm VC channel
+Cole applied to **[[solace-health|Solace Health]]** (Series C healthcare-navigation startup; pairs
+patients with expert advocates) for two **College Grad 2027** roles, both starting July 2027:
+**Associate Product Manager** (Redwood City, hybrid) and **Clinical Operations Associate I** (Boston,
+hybrid). Drafted tailored answers for each — a shared mission answer (parents served Baltimore's neediest
+→ wanted to fix the broken system at a higher level rather than become a doctor), a project answer built
+on the JHTV funder-to-company matching tool (unified so his boss could walk into any meeting prepared in
+seconds instead of hours; 200+ validation checks, 3 data-refresh workflows), and a sub-1-min video script
+per role (both apps require the video). **Passed on** Associate Data Scientist + Associate Platform
+Engineer (real hooks but stretch — not a quant/infra background). Warm channel logged: **emailed Danny
+[VC — last name/firm TBD] who has Solace as a portfolio company** — use the two live applications as the
+reason; confirm Danny's full name + firm for the CRM. Related: [[solace-health]] · [[Job Search]] ·
+[[outreach-pipeline]].
