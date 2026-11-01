@@ -63,3 +63,7 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-10-11T02:30	B	wiki/concepts/atp-federal-funding-landscape.md	0	0	build	FY27 R1 monitoring: no HPW topics; xTech ARM26BX05-NP011 confirmed; SOCOM BAA added; competitor data added
 2026-09-13T06:13	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase-1 build (tasks/+autoresearch/ only; scorer scans wiki/+crm/); no build-introduced defect
 2026-09-13T06:13	B	tasks/index.md (Sourcing & verification)	0	0	keep	MODE B-src first live run: 1 source-to-ingest proposal (Code with Claude 2026 -> refresh claude-code-memory/subagents/agent-teams); @human verify vs primary sources
+2026-11-01T01:30	A	(none)	0	0	skip	Phase-0 baseline HEALTH_DEBT=0, empty defect set; no Phase-1 fast-track heals needed
+2026-11-01T01:45	build	wiki/concepts/atp-federal-funding-landscape.md	0	0	build	Phase 2: Nov first-Wed DSIP/AFWERX scan; FY27 R1 open no HPW topic; reauth through 2031; FOT model shift; all secondary (DSIP+afrl unreachable)
+2026-11-01T01:55	build	.claude/skills/concert-digest/SKILL.md + wiki/concepts/skill-audit-concert-digest.md	0	0	build	Phase 2: audit concert-digest; desc second->third person fix; new audit page indexed+linked; eval gap logged
+2026-11-01T02:00	A	(build check)	0	0	skip	Phase 3: re-scored after build; no build-introduced debt (scorer scans wiki/+crm/; all build committed structural/indexed)
