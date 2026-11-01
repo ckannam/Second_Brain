@@ -180,5 +180,10 @@ that infrastructure exists, the [[vault-autoresearch]] HEALTH_DEBT ratchet remai
 vault-level proxy for skill quality — a skill that sends the loop off-track shows up as raised
 debt. See [[evals-for-taste]] for the pattern, [[llm-as-judge]] for the grader architecture.
 
+**Standalone audit pages** (more detailed than the combined entries above):
+[[skill-audit-worked-example]] (startup-radar) · [[skill-audit-networking-prep]] ·
+[[skill-audit-vault-autoresearch]] · [[skill-audit-wiki-query]] · [[skill-audit-startup-radar]] ·
+[[skill-audit-concert-digest]] · [[skill-audit-orchestrate-agents]]
+
 Related: [[skill-authoring-playbook]] · [[skill-audit-worked-example]] · [[skill-trigger-tuning]] ·
 [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
