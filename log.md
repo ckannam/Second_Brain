@@ -1710,3 +1710,42 @@ Engineer (real hooks but stretch — not a quant/infra background). Warm channel
 [VC — last name/firm TBD] who has Solace as a portfolio company** — use the two live applications as the
 reason; confirm Danny's full name + firm for the CRM. Related: [[solace-health]] · [[Job Search]] ·
 [[outreach-pipeline]].
+
+## [2026-11-01] autoresearch | night — skill audits (concert-digest + orchestrate-agents) + DSIP monitoring + wiki-query concept page (MODE B)
+Weekly Sunday run. Baseline HEALTH_DEBT = 0 (orphans: 0, missing_from_index: 0, stale_claims: 0);
+vault healthy. **Phase 0** selected 3 items: (1) "Improve + general skills" @cloud task — standalone
+audit pages for concert-digest and orchestrate-agents (two audited skills lacking dedicated pages);
+(2) DSIP FY27 monthly monitoring check; (3) MODE B gap fill — [[wiki-query]] concept page (dangling
+link referenced by audit + task pages; no dedicated concept page existed). Skipped: Skill Creator A/B
+eval run (@human — interactive), weight-tuning (score.py frozen), Fulbright/academic links (@human).
+
+**Phase 1:** HEALTH_DEBT=0 at baseline; no fast-track heals needed.
+
+**Phase 2 builds:**
+- [[skill-audit-concert-digest]]: new standalone audit page (51-line skill; §1 fix applied — "Use to
+  compose" → "Composes" per startup-radar precedent; §5 three eval recs: ranked-block test,
+  fallback-template test, fabricated-link provenance test). Verdict: 1 fix applied, 1 eval rec.
+- `.claude/skills/concert-digest/SKILL.md`: §1 description fix (structural; on branch).
+- [[skill-audit-orchestrate-agents]]: new standalone audit page superseding the 2026-09-13 combined
+  log entry. §1 corrected from ✅→🟡 (prior audit was loose — "Use when Cole asks" is not strictly
+  third-person per the playbook; consistent with wiki-query + networking-prep vault patterns; batch
+  fix deferred to Cole). §5 three eval recs reproduced from combined log.
+- [[atp-federal-funding-landscape]]: DSIP FY27 R1 monitoring note added. FY27 R1 still open (Oct 28–
+  Nov 25, 2026); no human-performance topics in the 25 released topics (dominated by hypersonics /
+  directed-energy / UAS / cyber). **New structural finding:** AFWERX has retired the traditional Open
+  Topic — Focused Open Topics only going forward. **Personnel change:** Col. Dale Harrell took command
+  of the 711th HPW on March 30, 2026 (update HPW contacts). Next monitoring check: Dec 2, 2026.
+
+**Phase 3 build-heal:** the 3 new wiki pages created in Phase 2+4 were unindexed and two were orphans
+→ HEALTH_DEBT spiked to 10 (orphans=2, missing_from_index=3). Fixed: added all 3 pages to index.md;
+added inbound links to both audit pages from skill-audits-2026.md. Re-scored → HEALTH_DEBT=0.
+Progress notes written to tasks/index.md for both the "Improve + general skills" item and the DSIP
+monitoring item.
+
+**Phase 4 MODE B:** created [[wiki-query]] concept page — fills a long-standing dangling wikilink
+referenced by multiple audit and task pages. Documents the 5-step pipeline (index first → graph
+traversal → freshness → synthesize → file back), trigger signals, siblings table (vault-improve,
+vault-autoresearch, index.md navigational), quality constraints, and audit cross-links. Grounded in
+AGENTS.md Query section + wiki-query skill file. No fabrication.
+
+**Phase 5:** PR opened → autoresearch/night-2026-11-01 → main.

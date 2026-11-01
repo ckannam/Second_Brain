@@ -23,6 +23,40 @@ Companion to [[athletic-training-portal]] and [[atp-competitive-analysis]].
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-11-01
+
+Monthly scan run per the `@cloud` monitoring task (4 days ahead of the Nov 4 first-Wednesday
+pre-release; FY27 R1 already open). **Secondary sources only** — DSIP `dodsbirsttr.mil` and
+`afrl.af.mil` unreachable via proxy; verify directly before any submission or contact action.
+
+**FY27 Release 1 — still open:** Opened Oct 28; closes **Nov 25, 2026, 12:00 PM ET**. 25
+topics (16 DAF, 6 Navy, 2 OSW, 1 Army) confirmed. Topic areas remain hypersonics, directed
+energy, UAS, AI/computer vision, cybersecurity, counter-UAS, shipboard systems. **No human
+performance / 711 HPW topic confirmed in FY27 R1** — unchanged from the Oct 11 scan.
+
+**Reauthorization resolved (NEW):** SBIR/STTR reauthorized through **September 30, 2031**.
+AFWERX/SpaceWERX reopened solicitations post-reauthorization; D2P2 eligibility extended to
+STTR awards. Monthly-release cadence back to normal.
+
+**AFWERX structural change (NEW):** AFWERX has **retired the traditional Open Topic** and
+replaced it entirely with **Focused Open Topics** — AF now names a specific capability gap per
+release window. For ATP: wait for a FOT whose subject area is **human performance / readiness
+/ human-machine teaming**. **No human performance FOT is currently active.**
+
+**711th HPW command change (NEW):** Col. Dale Harrell took command of the 711th HPW on **March
+30, 2026** (outgoing: Robert Bogart). Barbara Knight contact at AFRL SBO unchanged; update any
+711 HPW email and confirm Harrell as the right technical contact for an Aircrew Readiness
+Fingerprint pitch.
+
+**Still-standing leads:** SOCOM rolling FY23-FY28 BAA for biomedical + human-performance tech
+(discovery@socom.mil) remains ATP's most direct fit. AFWERX CMMC Level 1/2 self-assessment
+requirement runs through **Nov 10, 2026** — relevant if ATP submits to any AFWERX vehicle.
+
+**Next scan:** Dec 2, 2026 (first Wednesday of December). Also check on/after Nov 4 for the
+DSIP FY27 R2 pre-release list and any AFWERX human-performance FOT.
+
+---
+
 ### 🔁 DSIP + AFWERX monitoring note — 2026-10-11
 
 Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, secondary sources):

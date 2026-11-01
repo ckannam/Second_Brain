@@ -144,6 +144,26 @@ fixes applied or needed.
 
 ---
 
+## 2026-11-01 — `concert-digest` (51 lines) → [[skill-audit-concert-digest]]
+
+**Subject:** `.claude/skills/concert-digest/SKILL.md`, 51 lines, git-tracked. Composes/sends
+Cole's weekly "Concerts near you" iMessage digest. First dedicated audit; full detail on
+[[skill-audit-concert-digest]].
+
+**Result:** one structural fix applied — §1 description opened second-person ("Use to compose…")
+→ corrected to third-person ("Composes…"), the same trigger-surface defect fixed in
+`startup-radar`. §2–§4 and §6 clean (51 lines, script executed-not-loaded, freedom well-matched,
+strong anti-fabrication guard on the outward send). §5 eval gap logged (3 tests recommended,
+incl. an empty-week honesty test). The local absolute path to `send.scpt` is intentional
+(`@local` send step), not a portability defect.
+
+**Cross-skill note:** the second-person-description defect is now confirmed in **two** of the
+five skills on the 2026-10-04 remaining-audits list (`startup-radar`, `concert-digest`) — worth
+a quick targeted sweep of the description line on the other three (`orchestrate-agents` already
+clean; the three prompt skills unaudited) on a future night.
+
+---
+
 ## Summary across all audited skills (2026-09-13)
 
 | Skill | Lines | §1 Desc | §2 Disclosure | §3 Concise | §4 Freedom | §5 Evals | §6 Anti-patterns | Fixed |
@@ -159,6 +179,11 @@ expected_behavior)` triples each and run them once before any description or bod
 that infrastructure exists, the [[vault-autoresearch]] HEALTH_DEBT ratchet remains the
 vault-level proxy for skill quality — a skill that sends the loop off-track shows up as raised
 debt. See [[evals-for-taste]] for the pattern, [[llm-as-judge]] for the grader architecture.
+
+**Standalone audit pages** (more detailed than the combined entries above):
+[[skill-audit-worked-example]] (startup-radar) · [[skill-audit-networking-prep]] ·
+[[skill-audit-vault-autoresearch]] · [[skill-audit-wiki-query]] · [[skill-audit-startup-radar]] ·
+[[skill-audit-concert-digest]] · [[skill-audit-orchestrate-agents]]
 
 Related: [[skill-authoring-playbook]] · [[skill-audit-worked-example]] · [[skill-trigger-tuning]] ·
 [[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
