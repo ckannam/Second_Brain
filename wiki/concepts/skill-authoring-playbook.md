@@ -41,6 +41,18 @@ the most load-bearing sentence in the whole skill.
 Description is also where **trigger tuning** happens: when a skill mis-fires or misses, the first
 fix is almost always the description, not the body.
 
+**A recurring vault defect — imperative openings.** The audit sweep keeps catching the *same*
+third-person violation: a description that opens with an imperative verb ("**Use** to compose…",
+"**Use** to discover…") instead of the third-person declarative the rule requires ("Composes…",
+"Discovers…"). As of 2026-11-01 it's confirmed in **2 of the 2** skills on the remaining-audits
+list that were checked ([[skill-audit-startup-radar]], [[skill-audit-concert-digest]]) — a high
+enough hit-rate that it's worth treating as a lint check, not a per-skill surprise. The one-line
+detection recipe: scan every `SKILL.md` frontmatter for a `description:` that begins with "Use "
+(or any second-person imperative) and rewrite the opening verb to third-person. It's a pure
+trigger-surface fix (no behavior change), so it's safe to apply unattended — the same structural
+lane the audit log reserves for path/link fixes. Catching it at authoring time (a gerund/declarative
+opening) is cheaper than catching it in an audit six months later.
+
 ## 2. Progressive disclosure keeps it cheap
 
 The context window is a public good ([[token-context-management]]). Structure the skill so tokens
