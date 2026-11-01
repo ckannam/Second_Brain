@@ -23,6 +23,26 @@ Companion to [[athletic-training-portal]] and [[atp-competitive-analysis]].
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-11-01 (Nov first-Wednesday check)
+
+Monthly scan run per the `@cloud` monitoring task, ahead of the **Nov 4, 2026** first-Wednesday pre-release. Key findings (web-verified, **secondary sources only** — DSIP `dodsbirsttr.mil` and `afrl.af.mil` were both unreachable via the session proxy; verify directly before any submission/contact action):
+
+**FY27 Release 1 is now OPEN.** Opened Oct 28; **closes Nov 25, 2026, 12:00 PM ET**. The topic-author contact window (pre-release) has closed. Still no human-performance / 711 HPW topic confirmed in the 25-topic set (16 DAF, 6 Navy, 2 OSW, 1 Army) — unchanged from the Oct 11 scan. Navy FY-27.1 Phase I topics (e.g., time-domain-reflectometer tank-level cleaner, fire-resistant bulkhead joiner) are not human-performance; DARPA's "Engineering Sleep for Cognitive Performance" (DPA26BZ03-DV012) is **closed** (pre-released Jun 3, closed Jul 22, 2026) and does not apply.
+
+**Reauthorization resolved (NEW — supersedes the earlier "lapse Oct 2025–Apr 2026" caveat):** SBIR/STTR has been **reauthorized through September 30, 2031**. AFWERX/SpaceWERX reopened solicitations following reauthorization, and Direct-to-Phase-II (D2P2) eligibility was extended to STTR awards. The monthly-release cadence is back to normal.
+
+**Format shift to watch (NEW):** FY27 AFWERX releases appear to use a **"Focused Open Topic"** model (mission-driven subject areas) in place of the traditional fully-open topic. For ATP this means the monthly check should look for a FOT whose subject area is **human performance / readiness / human-machine teaming**, not a generic open call. (Secondary: AFWERX reauthorization Q&A + a LinkedIn summary — confirm on the AFWERX specific-topic page.)
+
+**Nov 4 pre-release:** No topic list published yet as of this scan (3 days out). Cadence confirmed as first Wednesday of every month. **Action for the next check: on/after Nov 4, pull the AFWERX specific-topic page + DSIP FY27 R2 list and scan for a 711 HPW / human-performance FOT.**
+
+**Naming drift flag (cosmetic):** late-2026 sources increasingly brand the program **"Department of War (DoW) SBIR/STTR"** rather than "DoD." Same program, same `dodsbirsttr.mil` portal — noted only so future scans don't treat it as a new vehicle.
+
+**Still-standing leads (unchanged):** SOCOM rolling FY23–FY28 BAA for biomedical + human-performance tech (discovery@socom.mil) remains ATP's most direct fit, independent of the monthly cycle. AFWERX CMMC Level 1/2 self-assessment requirement on applicable solicitations runs **until Nov 10, 2026** — relevant if ATP submits to any open AFWERX vehicle this month.
+
+**Remaining:** recurring first-Wednesday check — **next scan Dec 2, 2026** (and a mid-cycle look on/after Nov 4 for the R2 pre-release list).
+
+---
+
 ### 🔁 DSIP + AFWERX monitoring note — 2026-10-11
 
 Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, secondary sources):
