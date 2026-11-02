@@ -53,6 +53,21 @@ non-dilutive-funded company.
 Phase I. This is unlike the standard DSIP process — submitting a white paper to xTechSearch
 is the prerequisite, not optional.
 
+> ⚠️ **No "Nov 4, 2026 pitch" on the published schedule (flagged Nov 2026).** The Nov-1 funding
+> plan ([[atp-nondilutive-funding-plan-2026-11]]) surfaced a supposed Nov 4 xTech|Search 10 pitch.
+> It matches **nothing** on the Army's published timeline (white papers Oct 19 → semifinalists
+> announced **Jan 5, 2027** → virtual pitches **Jan 18–29** → finals **Mar 2–4**) **and nothing in
+> ATP's own Drive tracker** (which lists only the Oct 19 Search 10 white paper and a ~Dec
+> xTech|Kinetic Reach). Treat any Nov 4 event as an informal/program-office engagement until ATP
+> holds the invitation email; **get it confirmed in writing** (which round, does it carry the $5K
+> semifinalist prize, does it lead to the Jan pitches).
+
+> **State-money linkage.** An xTech-**finalist** Army Phase I award would trigger a **One NC
+> Matching** claim (50% up to $75K) — but the **$5K/$20K xTech prizes do not**; only an executed
+> Phase I award does. A new One NC **Incentive** claim on the Army Phase I *proposal* is limited to
+> one per solicitation period, likely already used by ATP's Navy claim (→ FY2028 timing). See
+> [[atp-nc-nondilutive-funding]].
+
 ---
 
 ## Eligibility requirements
@@ -98,4 +113,5 @@ legitimate alternative pathways to Army SBIR Phase I — the other is the standa
 monthly pre-release. These paths are **additive**, not exclusive.
 
 Related: [[atp-federal-funding-landscape]] · [[athletic-training-portal]] ·
-[[atp-competitive-analysis]] · [[atp-dod-federal-landscape-2026]] · [[Job Search]]
+[[atp-competitive-analysis]] · [[atp-nc-nondilutive-funding]] · [[atp-nondilutive-funding-plan-2026-11]]
+· [[atp-dod-federal-landscape-2026]] · [[Job Search]]

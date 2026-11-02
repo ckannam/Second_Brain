@@ -70,7 +70,22 @@ houses the USAF School of Aerospace Medicine, so ATP's **"Aircrew Readiness Fing
 a ready-made proof point. Advisor **Dr. Dickens (military sports medicine)** is a federal-credibility
 asset. ⚠️ Flag: **TACFI/STRATFI scaling money applies only to *Air Force* SBIR** (not ATP's Navy
 work). Note ATP is **very early** — it *just submitted* the Navy SBIR application (pending, pre-award,
-Oct 2026), so the follow-on vehicles (Navy STP, Phase III, TACFI/STRATFI) are all downstream; the
-near-term federal play is the relationship-and-prize moves above, and winning the pending Navy award.
+submitted ~**Sep 23, 2026**; Vol 2 finalized that date per the Drive), so the follow-on vehicles
+(Navy STP, Phase III, TACFI/STRATFI) are all downstream; the near-term federal play is the
+relationship-and-prize moves above, and winning the pending Navy award. **Drive-confirmed (Nov 2026):**
+the Navy proposal is topic **DON26BZ05-NV068** ("Intelligent Tools for Naval Aircrew Performance and
+Readiness"), **Phase I ceiling $315K** (Base+Option), ATP's cost volume **$314,168**.
 
-Related: [[atp-competitive-analysis]] · [[atp-federal-funding-landscape]] · [[five-year-plan]] · [[Job Search]] · [[cole]].
+## NC state & Duke non-dilutive funding (Nov 2026)
+Beyond the federal/DoD lane, ATP has a **North Carolina state + Duke** non-dilutive lane — mapped in
+[[atp-nc-nondilutive-funding]] from the Nov 1 2026 plan ([[atp-nondilutive-funding-plan-2026-11]]).
+Headline moves: **(1) file the One NC Incentive claim on the pending Navy SBIR now** (50% Tier-3,
+cap $12K, rolling to Jun 30 2027 — the only state money reachable *without winning anything*);
+**(2) apply NC IDEA MICRO ($10K), not SEED**, unless a founder is genuinely full-time (40+ hrs/wk,
+≤15 hrs school); **(3) One NC Matching (50% up to $75K) only after an executed Phase I award** — xTech
+prizes don't trigger it. **Skip NCBiotech** (loan + warrant, needs licensed life-science IP ATP lacks).
+⚠️ Three eligibility unknowns decide everything and need Jaylen: ATP's **SOS registration date**,
+**founder full-time status**, and **revenue/ownership** (the same >50% US-citizen/PR control question
+the DRF conflict flag raised above).
+
+Related: [[atp-competitive-analysis]] · [[atp-federal-funding-landscape]] · [[atp-nc-nondilutive-funding]] · [[atp-nondilutive-funding-plan-2026-11]] · [[five-year-plan]] · [[Job Search]] · [[cole]].

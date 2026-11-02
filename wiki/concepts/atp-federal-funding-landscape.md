@@ -15,6 +15,15 @@ now, what recurs, where is ATP eligible, and which orgs/contacts to pursue direc
 **reconciled against what this vault actually knows about ATP** — which the memo author did not have.
 Companion to [[athletic-training-portal]] and [[atp-competitive-analysis]].
 
+> **Companion — the state lane.** This page is **federal/DoD only.** NC state + Duke non-dilutive
+> money (One NC Incentive/Matching, NC IDEA, NCBiotech, Duke I&E, plus NC-COMP/DEFTECH/SBTDC) now
+> lives in **[[atp-nc-nondilutive-funding]]** (from the Nov 1 2026 plan
+> [[atp-nondilutive-funding-plan-2026-11]]). The two lanes meet at the SBIR: a federal Phase I
+> proposal triggers the One NC **Incentive**, and an executed Phase I award triggers the One NC
+> **Match** (50% up to $75K). That plan also adds two federal R&D vehicles to pursue — **NSF SBIR**
+> (Phase I ≤$305K; full-proposal Jul 27 2026 / Nov 4 2026 / **Mar 4 2027**; needs a Project Pitch
+> invite first) and **NIH SBIR** (PA-27-100; due Jan 5 & Apr 5 2027; needs a Duke clinical co-I).
+
 > **Source posture.** The memo is a dated snapshot (Oct 4, 2026) with its own flagged unverified
 > items (see §Caveats). Where I independently confirmed a time-sensitive fact via web, it's marked
 > ✅verified. Government naming is in flux — DoD now brands itself "Department of War" (DoW) on some
@@ -73,10 +82,14 @@ The memo was written with limited understanding of ATP. These are the connection
   ATP *just submitted* (pending, pre-award; Cole, Oct 2026). The 711th Human Performance Wing folds in
   the **USAF School of Aerospace Medicine** and runs an **Integrated Cockpit Sensing System** for
   aircrew physiological monitoring. Even as a *pending* proposal, ATP's aircrew-readiness work is a
-  credible talking point for an Air Force conversation — not a cold start. The memo flagged the now-closed Navy
-  topic **DON26BZ05-NV068 "Intelligent Tools for Naval Aircrew Performance and Readiness"** and DARPA
-  **DPA26BZ03-DV012 "Engineering Sleep for Cognitive Performance"** as watch-for-reposts; both are
-  squarely in ATP's aircrew lane.
+  credible talking point for an Air Force conversation — not a cold start. **✅ Corrected (Nov 2026,
+  from the Drive): DON26BZ05-NV068 "Intelligent Tools for Naval Aircrew Performance and Readiness" is
+  exactly the topic ATP submitted to** — not merely a closed topic to watch. ATP's Navy intake
+  questionnaire is headed with NV068; the proposal was received **~Sep 23, 2026** (inside the FY2027
+  SBIR window), **Phase I ceiling $315K** (Base+Option), ATP cost volume **$314,168** — resolving the
+  Nov-1 memo's "$240K vs $315K" open question (see [[atp-nondilutive-funding-plan-2026-11]]). The DARPA
+  topic **DPA26BZ03-DV012 "Engineering Sleep for Cognitive Performance"** remains a watch-for-reposts
+  item in ATP's aircrew lane.
 - **ATP's product maps onto the DoD's #1 readiness problem: musculoskeletal (MSK) injury.** ATP is
   single-camera markerless pose → ~18 joint angles → individualized baseline → mobility/symmetry
   deviation over time (see [[athletic-training-portal]], [[atp-competitive-analysis]]). The memo says
@@ -242,6 +255,6 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
 - **Snapshot:** AFWERX's Focused Open Topic model is new and its topic mix shifts monthly; Tech Tuesday's
   reopen date is undetermined; DoD naming (DoW) is mid-transition.
 
-Related: [[athletic-training-portal]] · [[atp-competitive-analysis]] · [[atp-dod-federal-landscape-2026]]
-· [[xtech-search]] · [[Barbara Knight]] · [[Frank Schwagel]] · [[dorm room fund]] · [[capital-strategy]]
-· [[Job Search]] · [[cole]]
+Related: [[athletic-training-portal]] · [[atp-competitive-analysis]] · [[atp-nc-nondilutive-funding]]
+· [[atp-nondilutive-funding-plan-2026-11]] · [[atp-dod-federal-landscape-2026]] · [[xtech-search]]
+· [[Barbara Knight]] · [[Frank Schwagel]] · [[dorm room fund]] · [[capital-strategy]] · [[Job Search]] · [[cole]]
