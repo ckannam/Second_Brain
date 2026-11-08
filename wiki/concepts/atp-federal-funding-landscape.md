@@ -50,6 +50,22 @@ Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, se
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-11-08
+
+Monthly scan run per the `@cloud` monitoring task. First Wednesday of November was Nov 5, 2026; this scan covers that window. Key findings (web-verified, secondary sources):
+
+**FY27 Release 1 — currently OPEN:** The active window is Oct 28 – Nov 25, 2026, 12:00 PM ET. Release is live. Per secondary indexers, 16 Air Force topics (the same 25-topic slate from the Oct-11 note) remain open. **Still no 711 HPW / human-performance topic confirmed in R1.** ATP's monitoring window remains: submit anything by Nov 25 or wait for FY27 R2 (next pre-release: **first Wednesday of December 2026**).
+
+**AFWERX Focused Open Topics — none open for human performance:** No new Focused Open Topic for human performance announced in November. Structural note (new): AFWERX has permanently replaced the traditional "propose-anything" Open Topic with mission-driven **Focused Open Topics** — the Air Force defines the capability gap, applicants propose solutions. The wide-open model has not returned. This matters for ATP: a future FOT in AFWERX's "Agile Combat & Readiness" or "Human Systems" focus area is the realistic trigger for an AFWERX SBIR pitch, not a general open-topic submission. **Keep monitoring for a 711 HPW / human performance FOT.**
+
+**SOCOM rolling BAA — confirmed still active:** The FY23–FY28 BAA for Extramural Biomedical & Human Performance R&D (HT9425-23-S-SOC1) continues to accept rolling submissions (closes July 31, 2028). One source shows a Revised-0004 dated July 2026, though the exact revision content was not independently confirmed. Submission route and contact remain the same: discovery@socom.mil / Engage SOF (Vulcan) or the CRADA pathway.
+
+**ARM27BX01-DP001 (Oct 23 deadline) — PASSED.** The secondary-source mention in the Oct-11 note flagged this as needing direct verification before Oct 23. That deadline has now passed. If ATP did not submit, this topic is closed for this cycle. No ATP action needed.
+
+**POTFF III follow-on** (reported ~$1.5B, ~Dec 2026 award, previously unverified): no new primary-source confirmation found. Still flagged unverified.
+
+**Caveats (Nov scan):** DSIP direct access still not available via proxy; topic list from secondary indexers only. No primary-source AFWERX FOT announcement for November found. SOCOM revision content not confirmed.
+
 ---
 
 ## 0. The three moves that actually matter for ATP (prioritized)
@@ -242,6 +258,7 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
 - **Independently ✅verified (web, 2026-10-04):** xTech|Search 10 deadline **Oct 19, 2026 5pm ET**, prize
   structure ($1M cash + up to $6M SBIR, ≤50 semis/≤20 finalists); SOFWERX OSBP event **Nov 5 Tampa**,
   request-to-attend by **Oct 8, 2026**, ≤2 attendees/org.
+- **Independently ✅verified (web, 2026-11-08):** FY27 R1 is active (Oct 28 – Nov 25, 2026); still no 711 HPW / human-performance topic confirmed; AFWERX Focused Open Topic model confirmed permanent replacement of open-topic format; SOCOM BAA confirmed still active (closes July 31, 2028). ARM27BX01-DP001 Oct 23 deadline has passed. Next DSIP pre-release: first Wednesday of December 2026.
 - **Independently ✅verified (web, 2026-10-11):** FY27 Release 1 pre-released Oct 7 on schedule; opens
   Oct 28, closes Nov 25, 2026; xTech SBIR topic number ARM26BX05-NP011; SOCOM rolling BAA confirmed as
   open vehicle; no 711th HPW / human-performance Focused Open Topic in FY27 R1 (partial topic list —
@@ -258,3 +275,4 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
 Related: [[athletic-training-portal]] · [[atp-competitive-analysis]] · [[atp-nc-nondilutive-funding]]
 · [[atp-nondilutive-funding-plan-2026-11]] · [[atp-dod-federal-landscape-2026]] · [[xtech-search]]
 · [[Barbara Knight]] · [[Frank Schwagel]] · [[dorm room fund]] · [[capital-strategy]] · [[Job Search]] · [[cole]]
+· [[dod-sbir-program-structure]] (the program-structure concept page synthesized from this analysis)
