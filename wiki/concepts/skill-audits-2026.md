@@ -144,7 +144,37 @@ fixes applied or needed.
 
 ---
 
-## Summary across all audited skills (2026-09-13)
+## 2026-11-08 — `concert-digest` (51 lines)
+
+**Subject:** `.claude/skills/concert-digest/SKILL.md`, 51 lines, git-tracked. Composes (and in
+standalone mode sends via `osascript`) Cole's weekly "Concerts near you" iMessage digest from
+`profile/concert-taste.md` + web search. Full audit: [[skill-audit-concert-digest]].
+
+**§1 Description (trigger surface): 🔧 (fixed)**
+Opened second-person ("Use to compose (and, in standalone mode, send)…") → converted to third-person
+("Composes (and, in standalone mode, sends)…"), the same grammatical, no-behavior-change fix applied
+to `startup-radar`. Trigger phrase ("run the concert digest") + launchd hook + concrete nouns all
+preserved.
+
+**§2 Progressive disclosure: ✅** 51 lines; no references; `send.scpt` executed not loaded.
+
+**§3 Concise: ✅** Lean; the block template + exact delivery call are earned detail.
+
+**§4 Degrees of freedom: ✅** The best three-level example audited: low-freedom block template +
+`osascript` call, open-field search/rank, and the fabrication guard as the narrow-bridge rail.
+
+**§5 Evals: 🟡 (recommend — not applied)** No evals. Strong candidate (fabrication is a concrete,
+checkable failure mode). Three tests: empty-week honesty, link-fabrication guard, two-mode delivery
+contract. Needs harness + a live send (Cole).
+
+**§6 Anti-patterns: ✅** Clean. One minor observation (the "don't recompute the metro" reminder
+appears in both §Inputs and §Rules — deliberate safety reinforcement, left as-is).
+
+**Verdict:** 5 sections clean, 1 structural fix (§1 third-person), 1 eval recommendation. Healthy.
+
+---
+
+## Summary across all audited skills (2026-09-13, + 2026-11-08)
 
 | Skill | Lines | §1 Desc | §2 Disclosure | §3 Concise | §4 Freedom | §5 Evals | §6 Anti-patterns | Fixed |
 |---|---|---|---|---|---|---|---|---|
@@ -152,6 +182,12 @@ fixes applied or needed.
 | `orchestrate-agents` | 55 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
 | `wiki-query` | 71 | ✅ | ✅ | 🟡 | ✅ | 🟡 | ✅ | none |
 | `vault-autoresearch` | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `concert-digest` (2026-11-08) | 51 | 🔧 → ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | §1 3rd-person |
+
+**Audited to date:** `startup-radar`, `orchestrate-agents`, `wiki-query`, `vault-autoresearch`,
+`networking-prep`, `concert-digest` (+ worked example). **Still unaudited:**
+`token-context-management` and the three prompt-architect skills (`claude-chat-prompt`,
+`claude-cowork-prompt`, `claude-code-prompt`) — queue for future runs.
 
 **Cross-skill pattern:** the universal gap is **evals (§5)**. Every audited skill lacks an
 objective test harness. The one-line fix for all four: write ~3 `(query, files,
