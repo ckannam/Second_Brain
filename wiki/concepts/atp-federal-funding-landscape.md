@@ -32,6 +32,49 @@ Companion to [[athletic-training-portal]] and [[atp-competitive-analysis]].
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-11-08
+
+November first-Wednesday scan (Nov 4, 2026) run per the `@cloud` monitoring task. Key findings
+(web-verified, secondary sources — DSIP still blocks automated access):
+
+**DSIP FY27 Release 2 pre-released Nov 4, 2026** ✅ (first-Wednesday cadence held). Opens for
+submission **Dec 2, 2026**; proposals due **Jan 6, 2027, 12:00 PM ET**. ~**83 topics** (≈60 SBIR /
+≈23 STTR; ~33 Direct-to-Phase-II only) across seven components. Topic-author (TPOC) contact window
+is **open now through Dec 2** — the useful window for any fit topic.
+
+**Human-performance topics in FY27 R2: NONE found.** No 711 HPW / musculoskeletal / aircrew-readiness
+/ markerless-biomechanics topic surfaced in the available Release-2 indexing. Closest adjacents are
+out of ATP's lane: **DTR27BZ02-NV004 "Blast Injury Model Validation"** (DTRA — TBI/blast modeling, not
+MSK) and **MDA27BZ02-DV009 "Simulated Operator Decision Models"** (operator decision simulation, not
+physical human performance). *Caveat: partial secondary-source list; verify directly on
+dodsbirsttr.mil (keyword "musculoskeletal"/"aircrew"/"human performance") before the Dec 2 TPOC window
+closes.*
+
+**AFWERX Focused Open Topics:** No human-performance FOT found in the November pre-release. AFWERX FOTs
+ride the same first-Wednesday DSIP cadence (so the next look is the **first Wednesday of December 2026**,
+alongside R2 opening). No change to the Oct finding that AFWERX's "Agile Combat & Readiness" focus is
+manufacturing/logistics, not physical human performance.
+
+**xTech|Search 10 — update:** the **Oct 19, 2026 white-paper deadline has passed.** No semifinalist
+list is published yet (≤50 semifinalists each receive $5K, announced after review). → **Watch
+xtech.army.mil for the semifinalist announcement.** This was an `@human` go/no-go item; whether ATP
+submitted is a Cole/Jaylen question.
+
+**✅ Resolved — the Oct-11 "ARM27BX01-DP001 (Oct 23 deadline)" unknown is NOT ATP's lane.** Verified: it
+is **"G-TEAD USAREUR-AF ACE 27-02: Spectrum Enabled Warfare"** — an Army FY27 Direct-to-Phase-II
+**electromagnetic-spectrum-operations** topic powered by xTech, entirely distinct from both
+xTech|Search 10 and human performance. Dismiss from ATP's monitoring. (The Oct-19 **ARM26BX05-NP011**
+remains xTech|Search 10's SBIR topic number.)
+
+**SOCOM rolling BAA (FY23–FY28, biomedical + human performance):** unchanged — still ATP's most direct
+standing mission-fit vehicle, independent of the monthly DSIP cycle. Contact: discovery@socom.mil.
+
+**Net for ATP this month:** no new cloud-actionable federal topic. The standing plays (xTech outcome,
+711 HPW/CHEERS relationship, SOCOM BAA) are unchanged. Next automated check: **first Wednesday of
+December 2026** (FY27 R2 opens Dec 2 + December pre-release).
+
+---
+
 ### 🔁 DSIP + AFWERX monitoring note — 2026-10-11
 
 Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, secondary sources):
@@ -248,9 +291,13 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
   verify DSIP directly before Oct 27); competitors DARI + Theia3D + Southwest Research Institute
   confirmed in DoD markerless-capture validation studies (2021 AFSPECWAR study PMID 34734097;
   2024 soldier load study; SwRI 2026 DoD award).
-- **New unresolved item (2026-10-11):** topic ARM27BX01-DP001 (Army FY27, Oct 23 white-paper deadline)
-  appeared in one secondary source — may be distinct from xTechSearch 10. Verify on dodsbirsttr.mil
-  + armysbir.army.mil before Oct 23.
+- **Independently ✅verified (web, 2026-11-08):** FY27 Release 2 pre-released Nov 4 (opens Dec 2, due
+  Jan 6 2027; ~83 topics) with **no** human-performance/711 HPW/MSK topic (nearest = DTRA blast-injury
+  & MDA operator-models, both out of lane); no AFWERX human-performance FOT in the Nov pre-release;
+  xTech|Search 10 Oct-19 deadline passed, semifinalists not yet announced.
+- **✅ Resolved (2026-11-08):** the Oct-11 "ARM27BX01-DP001 (Oct 23 deadline)" unknown is
+  **"G-TEAD USAREUR-AF ACE 27-02: Spectrum Enabled Warfare"** — an electromagnetic-spectrum-operations
+  topic, distinct from xTechSearch 10 and unrelated to human performance. Dropped from ATP monitoring.
 - **Open ATP-side question:** Navy SBIR phase (§4). Confirm with Jaylen.
 - **Snapshot:** AFWERX's Focused Open Topic model is new and its topic mix shifts monthly; Tech Tuesday's
   reopen date is undetermined; DoD naming (DoW) is mid-transition.
