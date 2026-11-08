@@ -179,6 +179,11 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
 
 ## 3. What recurs (build a cadence, not a one-off)
 
+> **The recurring check now has a runbook.** The monthly first-Wednesday DSIP/AFWERX/xTech/SOCOM scan
+> is captured as a reusable procedure in **[[atp-federal-monitoring-runbook]]** (surfaces, lane
+> keywords, output format, standing watchlist) — so each run executes it instead of re-deriving it.
+
+
 - **DoD SBIR/STTR — monthly.** Reauthorized Apr 13, 2026 (S.3971) through **Sep 30, 2031** after a
   lapse (Oct 1, 2025–Apr 2026). Topics now pre-release the **first Wednesday of each month** on
   **DSIP (dodsbirsttr.mil)**, open ~4 weeks. FY27 Release 1: pre-release **Oct 7**, opens **Oct 28**,
