@@ -144,6 +144,31 @@ fixes applied or needed.
 
 ---
 
+---
+
+## 2026-11-08 — `concert-digest` (51 lines)
+
+See full audit: [[skill-audit-concert-digest]].
+
+**Subject:** `.claude/skills/concert-digest/SKILL.md`, 51 lines. Composes/sends Cole's weekly
+"Concerts near you" iMessage digest (web search → taste-ranked → `osascript` delivery).
+
+**§1 Description: 🟡** `"Use to compose…"` is second-person; playbook requires third-person.
+Recommend: `"Composes Cole's weekly…"`. Trigger coverage and key terms are strong. Review lane.
+
+**§2–§4: ✅** Well under size ceiling; concise; correct freedom split (low for delivery, medium
+for curation). The hardcoded absolute path in Step 6 is intentional for a `@local` iMessage skill.
+
+**§5 Evals: 🟡** No evals. Three triplets recommended: (1) quiet-week fallback, (2) taste-tier
+ranking + format compliance, (3) MODE routing (standalone vs section).
+
+**§6 Anti-patterns: ✅** No time-sensitive info; consistent terminology; absolute path is
+intentional. No structural fixes applied.
+
+**Verdict:** 4 sections clean, 2 recommendations (§1 form, §5 evals). Skill is healthy.
+
+---
+
 ## Summary across all audited skills (2026-09-13)
 
 | Skill | Lines | §1 Desc | §2 Disclosure | §3 Concise | §4 Freedom | §5 Evals | §6 Anti-patterns | Fixed |
@@ -152,6 +177,7 @@ fixes applied or needed.
 | `orchestrate-agents` | 55 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
 | `wiki-query` | 71 | ✅ | ✅ | 🟡 | ✅ | 🟡 | ✅ | none |
 | `vault-autoresearch` | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `concert-digest` (2026-11-08) | 51 | 🟡 | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
 
 **Cross-skill pattern:** the universal gap is **evals (§5)**. Every audited skill lacks an
 objective test harness. The one-line fix for all four: write ~3 `(query, files,
