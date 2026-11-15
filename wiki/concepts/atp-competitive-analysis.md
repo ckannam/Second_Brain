@@ -298,6 +298,9 @@ diagnostic/predictive medical claim — and you become a regulated device.
   now, and treat a **510(k)/De Novo path as a later moat** (DARI proves it's worth having) rather than
   an accidental trap. Watch FDA 510(k) + warning-letter databases for competitors hiring clinical/
   regulatory staff — that's the tell that someone is going for clearance.
+- **The positioning this implies** — "readiness, not medicine / deviation-from-baseline" — is the
+  through-line across ATP's product claims, competitive wedge, and DoD framing; it has a dedicated
+  page: [[atp-readiness-positioning]].
 
 ---
 

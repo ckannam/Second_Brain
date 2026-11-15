@@ -69,3 +69,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-11-15T03:05	B	.claude/skills/concert-digest/SKILL.md	0	0	keep	Phase 2: §1 description fixed second-person→third-person; audit record wiki/concepts/skill-audit-concert-digest.md
 2026-11-15T03:10	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build; no build-introduced debt
 2026-11-15T03:15	B	wiki/concepts/vault-autoresearch.md	0	0	keep	Phase 4 MODE B: enriched concept page with two-lane model table + 6-phase run structure; previously described only two modes
+2026-11-15T06:25	B	wiki/concepts/atp-readiness-positioning.md	0	0	keep	concurrent-firing reconcile: appended a 2nd MODE B page (readiness-positioning) onto the peer run PR #36 branch; peer MODE B was vault-autoresearch enrichment; both kept

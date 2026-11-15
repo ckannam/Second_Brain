@@ -115,7 +115,7 @@ The memo was written with limited understanding of ATP. These are the connection
   **"deviation-from-baseline monitoring."** That identical reframe is what keeps ATP on the right side
   of **xTech's Army-medical-command exclusion** (clinical/rehab medicine is out) and the general DoD
   preference for a **commander-facing readiness tool**, not a medical device. One discipline solves
-  two problems.
+  two problems. → See [[atp-readiness-positioning]] for the consolidated framing.
 - **Founder/advisor fit is a federal credential, not just a sports one.** CEO [[Jaylen Coleman]]
   (ex-Duke football + BME) plus advisors **Dr. Dickens (military sports medicine)** and **Dr. Luck
   (Duke BME biomechanics)** — per the competitive analysis — map directly onto the DoD human-
