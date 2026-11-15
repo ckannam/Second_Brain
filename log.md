@@ -1713,3 +1713,34 @@ reason; confirm Danny's full name + firm for the CRM. Related: [[solace-health]]
 
 ## [2026-11-01] ingest | ATP Non-Dilutive Funding Plan (Nov 1, 2026) + Drive reconciliation
 Ingested the Nov 1 2026 ATP funding plan — a verified shortlist + corrections + Nov–Jun timeline, centered on **NC state + Duke non-dilutive money**, a lane the vault hadn't mapped (the existing [[atp-federal-funding-landscape]] is federal/DoD only). Created source page [[atp-nondilutive-funding-plan-2026-11]] and a new companion concept page [[atp-nc-nondilutive-funding]]. Enriched [[athletic-training-portal]], [[atp-federal-funding-landscape]], and [[xtech-search]] with reciprocal links. **Reconciled the plan against ATP's shared Google Drive** (per "we have access to the ATP Drive"): (1) ✅ **resolved the memo's "$240K vs $315K" Navy Phase I question** — `ATP_Navy_SBIR_Vol3_Cost_Volume.xlsx` shows **DON26BZ05-NV068 ceiling $315K**, ATP proposed **$314,168**; (2) ✅ corrected the federal page — **NV068 is the topic ATP actually submitted to** (received ~Sep 23 2026), not a watch-for-reposts topic; (3) ✅ the **Nov 4 xTech event is absent from ATP's own Drive tracker** too (only Oct 19 Search 10 + ~Dec Kinetic Reach), corroborating the memo's "unverified" flag; (4) noted Jaylen certifies **primary employment with ATP** in the Navy intake, so the SEED full-time test may be live for him. Still open (need Jaylen): SOS registration date, founder full-time hours, revenue/ownership. Filed action items to [[tasks]]. Bottom line: the plan **lines up** with what the vault + Drive know about ATP; the one hard conflict (Navy $ figure) is resolved in the plan's favor.
+
+## [2026-11-15] autoresearch | night — DSIP/AFWERX Nov monitoring + concert-digest skill audit
+Weekly Sunday run. Baseline HEALTH_DEBT = 0 (no orphans / missing / stale). Phase 1 fast-track:
+no-op (HEALTH_DEBT already 0 on `main`).
+
+**Phase 2 build (2 items):**
+
+1. *DSIP + AFWERX Nov 2026 monitoring check* — confirmed FY27 R1 still open (closes Nov 25),
+   no human-performance topics. NEW finding: **FY27 R2 pre-release began Nov 4** (first Wed
+   Nov); opens Dec 2; MDA27BZ02-DV009 "Human Systems" tagged — not ATP fit. AFWERX 2026
+   priorities confirmed: no human-performance area. **SOCOM contact clarification** logged:
+   discovery@socom.mil = Innovation Cycles; BAAST20@socom.mil = BAA; osbp@socom.mil = OSBP.
+   Updated [[atp-federal-funding-landscape]] §2026-11-15 monitoring note.
+
+2. *Skill audit: `concert-digest`* — applied [[skill-authoring-playbook]] §1–§6 checklist.
+   §1 fix: description changed from second-person "Use to compose…" → third-person "Composes…"
+   §2–§4 and §6: clean (one portability flag: hardcoded `/Users/colekannam/…/send.scpt` in
+   Step 6 — acceptable for a @local skill, not fixed). §5: no evals — 3 recommendations
+   logged for Cole (metro-trust test, empty-week fallback, fabrication-guard test). Full audit
+   record: [[skill-audit-concert-digest]]. Scoreboard in [[skill-audits-2026]] updated with
+   concert-digest row; [[index]] updated with new audit page link.
+
+**Phase 3:** write-back — progress notes added to `tasks/index.md` (monitoring + audit items).
+[[skill-audits-2026]] running table updated. [[index]] updated. HEALTH_DEBT post-build = 0.
+
+**Phase 4 MODE B:** enriched [[vault-autoresearch]] concept page — added "The two-lane model"
+section (fast-track vs review lane table + merge policy) and "Six-phase run structure" section
+(Phase 0–5 outline); previously the page described only two work modes and lacked the
+current two-lane architecture. On branch.
+
+**Phase 5:** PR opened → autoresearch/night-2026-11-15 → main.
