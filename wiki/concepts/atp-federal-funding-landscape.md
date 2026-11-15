@@ -50,6 +50,20 @@ Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, se
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-11-15
+
+Monthly scan run per the `@cloud` monitoring task. First-Wednesday-of-November check (Nov 4 pre-release date). Key findings (web-verified, secondary sources):
+
+**FY27 Release 1 — final weeks open (closes Nov 25, 2026, noon ET):** Confirmed still open; no changes to topic roster. 25 topics (16 DAF, 6 Navy, 2 OSW, 1 Army/xTech). **NO human performance or 711th HPW topics.** Technology areas dominate in hypersonics, counter-UAS, directed energy, shipboard electronics, and C2/battle management. The closest adjacent topic is DAF27TZ01-DV001 (AI-enabled computer vision for air-to-air refueling performance assessment + automated pilot debrief) — human-machine teaming adjacent but not human performance proper.
+
+**FY27 Release 2 pre-release began Nov 4, 2026 (first-Wednesday trigger):** Opens **Dec 2, 2026**. Contains **MDA27BZ02-DV009 "Simulated Operator Decision Models"** (tagged Human Systems; Missile Defense Agency topic). Not an ATP fit (operator-decision modeling, not biometric/movement screening), but it is the first Human-Systems-tagged topic in FY27 to surface — signals MDA as a Human Systems funder to watch. Topic-author contact window is open now through Dec 1, 2026 (closes when proposals open).
+
+**AFWERX Focused Open Topics — Nov 2026:** No human performance topic open or pending. Confirmed 2026 priority areas: **Autonomous Mass**, **Command, Control & Battle Management**, **Counter Incursion**, **Agile Combat & Readiness**. Human performance is **not an AFWERX priority area in 2026.** The manufacturing FOT (Jun 4–Jul 9, 2026) remains the most recent FOT; no November FOT found. The AFWERX Agile Combat & Readiness area covers sortie-generation, not human performance readiness — different vocabulary. *Next pre-release cycle: first Wednesday of December 2026.*
+
+**SOCOM rolling BAA — contact clarification:** HT9425-23-S-SOC1 confirmed still active (closes Jul 31, 2028; most recent amendment ~Jul 2026). **Important contact distinction:** `discovery@socom.mil` = Innovation Cycles / Engage SOF (Vulcan) capability submission, NOT the BAA. `BAAST20@socom.mil` = the BAA itself (Extramural Biomedical and Human Performance R&D). `osbp@socom.mil` = OSBP general inquiries. For a capability submission → Vulcan + discovery@socom.mil; for a funded proposal → SAM.gov + BAAST20@socom.mil.
+
+**Summary for ATP:** Still no open DoD SBIR topic that is a clean ATP fit. The SOCOM BAA remains the strongest standing vehicle. AFWERX is not a near-term opportunity. The 711th HPW CHEERS rolling window (to Sep 30, 2027) + direct 711 HPW relationship via [[Barbara Knight]] remain the highest-priority open actions.
+
 ---
 
 ## 0. The three moves that actually matter for ATP (prioritized)
@@ -101,7 +115,7 @@ The memo was written with limited understanding of ATP. These are the connection
   **"deviation-from-baseline monitoring."** That identical reframe is what keeps ATP on the right side
   of **xTech's Army-medical-command exclusion** (clinical/rehab medicine is out) and the general DoD
   preference for a **commander-facing readiness tool**, not a medical device. One discipline solves
-  two problems.
+  two problems. → See [[atp-readiness-positioning]] for the consolidated framing.
 - **Founder/advisor fit is a federal credential, not just a sports one.** CEO [[Jaylen Coleman]]
   (ex-Duke football + BME) plus advisors **Dr. Dickens (military sports medicine)** and **Dr. Luck
   (Duke BME biomechanics)** — per the competitive analysis — map directly onto the DoD human-

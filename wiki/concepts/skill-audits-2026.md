@@ -144,7 +144,51 @@ fixes applied or needed.
 
 ---
 
-## Summary across all audited skills (2026-09-13)
+## 2026-11-15 — `concert-digest` (50 lines)
+
+**Subject:** `.claude/skills/concert-digest/SKILL.md`, ~50 lines, git-tracked. Composes
+Cole's weekly "Concerts near you" iMessage digest from `profile/concert-taste.md` via web
+search; `standalone` mode also sends via `osascript`. Runs Monday via launchd or on demand.
+
+**§1 Description (trigger surface): 🔧 Fixed**
+Description opened with "Use to compose…" — second-person imperative; playbook requires
+third-person. Fixed to "Composes (and, in standalone mode, sends)…" Remainder solid: what+when,
+names `profile/concert-taste.md` and the trigger phrase ("run the concert digest"), includes
+MODE distinction. No length issue (~220 chars).
+
+**§2 Progressive disclosure: ✅**
+~50 lines — well under the ceiling. Steps, output template, and Rules all fit inline; no split
+needed. Output format template in a code block.
+
+**§3 Concise: ✅**
+Appropriately detailed: exact input keys, ranking hierarchy (love > want-to-see > discovery →
+soonest), fallback "quiet week" message. All detail earned — this is exactly what Claude doesn't
+already know.
+
+**§4 Degrees of freedom: ✅**
+Hybrid: delivery (Step 6 `osascript`) is narrow-bridge with an exact command; discovery search
+and ranking is appropriately open-field prose direction.
+
+**§5 Evals: 🟡 (recommend — not applied)**
+No evals. Three recommended tests (all need Cole + Cole's Mac for a @local run):
+1. *Metro-trust test* — `ACTIVE_METRO=baltimore` → verify metro not re-derived; output shows
+   only Baltimore/DC venues.
+2. *Empty-week fallback test* — future date with no known shows → verify "quiet week" fallback,
+   no fabricated show.
+3. *Fabrication guard test* — niche artist, no upcoming shows → verify `tix: search "…"` not
+   a fabricated link.
+
+**§6 Anti-patterns: ✅ (one flag, not fixed)**
+Hardcoded absolute path `/Users/colekannam/.claude/concerts/send.scpt` in Step 6. Acceptable
+for a @local skill (runs only on Cole's Mac where the path exists); non-portable by design.
+No other anti-patterns: no time-sensitive info, no voodoo constants, consistent terminology.
+
+**Verdict:** 4 sections clean, 1 fix (description second-person → third), 1 eval gap + 1
+portability flag for Cole.
+
+---
+
+## Summary across all audited skills (updated 2026-11-15)
 
 | Skill | Lines | §1 Desc | §2 Disclosure | §3 Concise | §4 Freedom | §5 Evals | §6 Anti-patterns | Fixed |
 |---|---|---|---|---|---|---|---|---|
@@ -152,6 +196,7 @@ fixes applied or needed.
 | `orchestrate-agents` | 55 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
 | `wiki-query` | 71 | ✅ | ✅ | 🟡 | ✅ | 🟡 | ✅ | none |
 | `vault-autoresearch` | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `concert-digest` (2026-11-15) | 50 | 🔧 Fixed | ✅ | ✅ | ✅ | 🟡 | ✅ path⚑ | §1 third-person |
 
 **Cross-skill pattern:** the universal gap is **evals (§5)**. Every audited skill lacks an
 objective test harness. The one-line fix for all four: write ~3 `(query, files,

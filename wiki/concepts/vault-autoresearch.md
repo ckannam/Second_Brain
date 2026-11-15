@@ -30,13 +30,36 @@ as current). Judgment-heavy signals (stub debt, reciprocal-link gaps) are *repor
 scored*, and all net-new knowledge (MODE B) is routed to a human review branch rather than
 committed autonomously.
 
-## Two modes
+## The two-lane model
 
-- **MODE A — self-healing** (autonomous, commits to `main`): drive HEALTH_DEBT to 0 by fixing
-  objective defects, one change per iteration, keep-or-`git reset` on the metric.
-- **MODE B — generative** (proposes on `autoresearch/pending`, never self-merges): grow
-  coverage/connectivity; the human approves each morning — the "log of experiments you wake
-  up to." Guarded by `AGENTS.md`'s new-page test + a simplicity criterion.
+The loop runs two lanes on each nightly firing, each with a different merge policy:
+
+| Lane | Work | Branch | Merge |
+|---|---|---|---|
+| **Fast-track** | Phase 1 score-verified structural heals (orphan fixes, index gaps) | `main` directly | Auto, only after HEALTH_DEBT strictly decreases |
+| **Review** | Phases 2–4: build items, write-back, one MODE B page | `autoresearch/night-YYYY-MM-DD` | Morning PR → Cole approves |
+
+The fast-track / review split is the vault's key safety property: *nothing that changes facts or
+adds knowledge* lands on `main` without human review. Only objective-metric improvements
+(HEALTH_DEBT lower after the change, same as Karpathy's `val_bpb` gate) get the express lane.
+
+## Six-phase run structure
+
+Each nightly or weekly run (`autoresearch/program.md` is the authority):
+
+1. **Phase 0** — regenerate `autoresearch/nightly-queue.md`; run scorer for baseline HEALTH_DEBT.
+2. **Phase 1** — MODE A fast-track heals on `main` (keep-or-revert ratchet).
+3. **Phase 2** — build: fork branch, work selected `@cloud` task items (≤2–3/night).
+4. **Phase 3** — write-back + build-heal: update `tasks/index.md` progress notes; re-run MODE A for any build-introduced debt.
+5. **Phase 4** — one MODE B generative page or enrichment proposal.
+6. **Phase 5** — open morning PR (branch → main); stop.
+
+## Two work modes
+
+- **MODE A — self-healing** (autonomous, fast-track lane): drive HEALTH_DEBT to 0 one defect at a
+  time; keep-or-`git checkout --` ratchet on every iteration.
+- **MODE B — generative** (review lane only, never auto-merges): grow coverage and connectivity;
+  Cole approves each morning. Guarded by `AGENTS.md`'s new-page test + the two-lane boundary.
 
 ## First run
 

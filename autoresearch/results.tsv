@@ -64,3 +64,9 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-09-13T06:13	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase-1 build (tasks/+autoresearch/ only; scorer scans wiki/+crm/); no build-introduced defect
 2026-09-13T06:13	B	tasks/index.md (Sourcing & verification)	0	0	keep	MODE B-src first live run: 1 source-to-ingest proposal (Code with Claude 2026 -> refresh claude-code-memory/subagents/agent-teams); @human verify vs primary sources
 2026-11-08T01:12	A	(none)	0	0	skip	Phase-0 baseline HEALTH_DEBT=0, empty defect set; no Phase-1 fast-track heals needed tonight
+2026-11-15T02:00	A	(none)	0	0	skip	Phase-0 baseline HEALTH_DEBT=0, empty defect set; no Phase-1 fast-track heals needed tonight
+2026-11-15T03:00	B	wiki/concepts/atp-federal-funding-landscape.md	0	0	keep	Phase 2: FY27 R2 pre-release confirmed (Nov 4, opens Dec 2); no HPW topics; AFWERX no human-perf; SOCOM contacts clarified
+2026-11-15T03:05	B	.claude/skills/concert-digest/SKILL.md	0	0	keep	Phase 2: §1 description fixed second-person→third-person; audit record wiki/concepts/skill-audit-concert-digest.md
+2026-11-15T03:10	A	(build check)	0	0	skip	HEALTH_DEBT 0 after Phase 2 build; no build-introduced debt
+2026-11-15T03:15	B	wiki/concepts/vault-autoresearch.md	0	0	keep	Phase 4 MODE B: enriched concept page with two-lane model table + 6-phase run structure; previously described only two modes
+2026-11-15T06:25	B	wiki/concepts/atp-readiness-positioning.md	0	0	keep	concurrent-firing reconcile: appended a 2nd MODE B page (readiness-positioning) onto the peer run PR #36 branch; peer MODE B was vault-autoresearch enrichment; both kept

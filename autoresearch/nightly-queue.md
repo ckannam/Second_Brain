@@ -1,4 +1,4 @@
-# AutoResearch nightly queue — 2026-11-08 (Sunday weekly run)
+# AutoResearch nightly queue — 2026-11-15 (Sunday weekly run)
 
 Regenerated each run from `tasks/index.md` Open items (this file is an output, never an input).
 Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs.
@@ -24,8 +24,10 @@ Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs
    findings and a dated Nov 2026 monitoring note. Progress note on task.
 
 2. **@cloud Skill audit — `concert-digest` SKILL.md** (Improve + general skills).
-   `concert-digest` is one of the remaining unaudited vault skills (no dedicated audit page
-   exists; the other unaudited ones are `token-context-management`, and the 3 prompt skills).
+   `concert-digest` is one of the remaining unaudited vault skills (listed in progress notes
+   since 2026-09-13; previously-audited: startup-radar, orchestrate-agents, wiki-query,
+   vault-autoresearch, skill-audit-networking-prep, skill-audit-wiki-query,
+   skill-audit-vault-autoresearch).
    Apply the [[skill-authoring-playbook]] 6-section checklist; apply any structural
    no-behavior-change fixes; create `wiki/concepts/skill-audit-concert-digest.md` audit
    record + update `skill-audits-2026.md` running scoreboard.
@@ -34,9 +36,8 @@ Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs
 
 ## Phase 4 MODE B (planned)
 
-- One generative enrichment proposal chosen after Phase 2 — target: a new concept page
-  that consolidates the ATP funding landscape research into a reusable strategic framework
-  page, OR a source-seeking proposal for the highest-gap topic surfaced in the build.
+- One generative enrichment proposal chosen after Phase 2 — target: a stub concept page
+  worth filling, or a source-seeking proposal for the highest-gap topic surfaced in the build.
 
 ## Considered but skipped this run (with reason)
 

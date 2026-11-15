@@ -55,7 +55,9 @@ MLB/NBA/NCAA), and the FDA-cleared incumbent is **[[DARI Motion]]**. ATP's defen
 second market; its biggest gap-and-opportunity is **evidence** — external validation is absent across
 the entire injury-ML literature, so a prospective validated study off the signed pilots would put ATP
 ahead of everyone. ⚠️ The "predict injuries before they happen" claim is FDA device-line risk (the
-WHOOP warning-letter trap) — reframe to wellness-safe "deviation-from-baseline monitoring."
+WHOOP warning-letter trap) — reframe to wellness-safe "deviation-from-baseline monitoring." This
+"readiness, not medicine" rule is the through-line for every ATP claim and funding pitch; it has its
+own page now: [[atp-readiness-positioning]].
 
 ## Federal / DoD funding landscape (Oct 2026)
 Beyond the Navy SBIR, ATP has a real federal-customer and non-dilutive-capital lane — mapped in
