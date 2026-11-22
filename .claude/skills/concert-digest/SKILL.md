@@ -1,6 +1,6 @@
 ---
 name: concert-digest
-description: Use to compose (and, in standalone mode, send) Cole's weekly "Concerts near you" iMessage digest. Reads profile/concert-taste.md, uses the active metro + today's date passed in the prompt, web-searches his artists and local venue calendars, ranks by taste and proximity with taste-matched discovery, and delivers a short text-native block to his iMessage self-chat. Triggered by the Monday launchd run or when Cole says "run the concert digest".
+description: Composes (and, in standalone mode, sends) Cole's weekly "Concerts near you" iMessage digest. Reads profile/concert-taste.md, uses the active metro + today's date passed in the prompt, web-searches his artists and local venue calendars, ranks by taste and proximity with taste-matched discovery, and delivers a short text-native block to his iMessage self-chat. Triggered by the Monday launchd run or when Cole says "run the concert digest".
 ---
 
 # Concert Digest
@@ -39,7 +39,7 @@ You compose Cole's weekly concert digest. Two hobbies he is investing in: travel
    drive: {1–2 nearby options or 'none this week'}."
 6. Deliver:
    - `MODE=standalone`: send the block with
-     `osascript /Users/colekannam/.claude/concerts/send.scpt "<block>"`.
+     `osascript "$HOME/.claude/concerts/send.scpt" "<block>"`.
      Then stop. Do not also print a duplicate.
    - `MODE=section`: output ONLY the block as your final message; do NOT send.
 

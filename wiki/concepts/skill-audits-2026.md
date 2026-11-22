@@ -160,5 +160,41 @@ that infrastructure exists, the [[vault-autoresearch]] HEALTH_DEBT ratchet remai
 vault-level proxy for skill quality — a skill that sends the loop off-track shows up as raised
 debt. See [[evals-for-taste]] for the pattern, [[llm-as-judge]] for the grader architecture.
 
+---
+
+## 2026-10-11 — `startup-radar` (re-audit + applied fixes)
+
+Dedicated audit record: [[skill-audit-startup-radar]]. Findings:
+- §1: description fixed from second-person ("Use to discover") → third-person ("Discovers and triages").
+- §6: Step 5.5 renamed → Step 5a (consistent numbering).
+- §5: 3 eval recommendations logged for Cole.
+All other sections clean.
+
+---
+
+## 2026-11-22 — `concert-digest` (51 lines)
+
+Dedicated audit record: [[skill-audit-concert-digest]]. Findings:
+- §1: description fixed from second-person ("Use to compose…") → third-person ("Composes…").
+- §6: hardcoded absolute path `/Users/colekannam/.claude/concerts/send.scpt` → `$HOME`-relative in the `osascript` call; portable fix, no behavior change on Cole's Mac.
+- §5: 3 eval recommendations logged for Cole (standalone mode, quiet-week fallback, no-duplicate send).
+Sections §2–§4 clean.
+
+---
+
+## Running scoreboard (all audited skills)
+
+| Skill | Date | Lines | §1 | §2 | §3 | §4 | §5 | §6 | Fixes |
+|---|---|---|---|---|---|---|---|---|---|
+| `startup-radar` | 2026-08-08 | 198 | ✅ | ✅ | ✅ | ✅ | 🟡 | 🔧 | Step 7 path |
+| `orchestrate-agents` | 2026-09-13 | 55 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `wiki-query` | 2026-09-13 | 71 | ✅ | 🟡 | ✅ | ✅ | 🟡 | ✅ | none |
+| `vault-autoresearch` | 2026-09-13 | 41 | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | none |
+| `startup-radar` | 2026-10-11 | 198 | 🔧 | ✅ | ✅ | ✅ | 🟡 | 🔧 | desc + step rename |
+| `concert-digest` | 2026-11-22 | 51 | 🔧 | ✅ | ✅ | ✅ | 🟡 | 🔧 | desc + abs path |
+
+Remaining unaudited: `token-context-management`, `claude-chat-prompt`, `claude-cowork-prompt`,
+`claude-code-prompt`, `networking-prep` (re-audit), `wiki-query` (re-audit).
+
 Related: [[skill-authoring-playbook]] · [[skill-audit-worked-example]] · [[skill-trigger-tuning]] ·
-[[evals-for-taste]] · [[vault-autoresearch]] · [[Claude Mastery]].
+[[evals-for-taste]] · [[vault-autoresearch]] · [[skill-audit-concert-digest]] · [[Claude Mastery]].

@@ -154,6 +154,10 @@ grants, Duke CTSI pilots, NFL/NBA programs.
 
 ## 7. Owners, inputs, and the revised timeline (Nov 2026 – Jun 2027)
 
+> The table below is the **state-lane** timeline. For a single calendar that merges it with the
+> **federal/DoD** deadlines (DSIP FY27 releases, xTech, SOCOM/CHEERS rolling vehicles), see
+> **[[atp-funding-calendar]]**.
+
 Roles: **Jaylen** = business/finance/eligibility · **Kyle** = technical (2-min demo video,
 architecture diagram covering pose estimation + baseline model + data pipeline + FERPA/HIPAA
 controls, validation dataset summary) · **Cole** = research, compliance checks, drafting.
@@ -182,6 +186,6 @@ controls, validation dataset summary) · **Cole** = research, compliance checks,
   control test for xTech, flagged in [[athletic-training-portal]]'s DRF conflict note).
 - **NV068 Phase I amount — RESOLVED: $315K ceiling / $314,168 proposed** (Drive cost volume).
 
-Related: [[atp-nondilutive-funding-plan-2026-11]] · [[athletic-training-portal]] ·
+Related: [[atp-funding-calendar]] · [[atp-nondilutive-funding-plan-2026-11]] · [[athletic-training-portal]] ·
 [[atp-federal-funding-landscape]] · [[xtech-search]] · [[atp-competitive-analysis]] ·
 [[dorm room fund]] · [[capital-strategy]] · [[Job Search]] · [[cole]]

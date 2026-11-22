@@ -1,4 +1,4 @@
-# AutoResearch nightly queue — 2026-11-08 (Sunday weekly run)
+# AutoResearch nightly queue — 2026-11-22 (Sunday weekly run)
 
 Regenerated each run from `tasks/index.md` Open items (this file is an output, never an input).
 Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs.
@@ -15,17 +15,16 @@ Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs
 
 ## Phase 2 build — Selected (@cloud, 2 items)
 
-1. **🔁 @cloud DSIP + AFWERX Nov 2026 monitoring check** (first Wednesday of November was
-   Nov 5, 2026 — one check overdue). The Oct 11 progress note confirmed FY27 R1 is open
-   (Oct 28 – Nov 25, 2026) with no 711 HPW topic; the November first-Wednesday check is for
-   AFWERX Focused Open Topics and SOCOM OSBP BAA updates. Web-search DSIP, AFWERX, and
-   SOCOM channels for any new human-performance FOTs or OSBP updates.
-   **Deliverable:** update `wiki/concepts/atp-federal-funding-landscape.md` with verified
-   findings and a dated Nov 2026 monitoring note. Progress note on task.
+1. **🔁 @cloud DSIP + AFWERX Nov 2026 monitoring check** — URGENT: FY27 R1 closes Nov 25
+   (3 days). Last check was Oct 11; a full November scan is overdue. Verify: any 711 HPW /
+   human-performance topic added to FY27 R1; AFWERX Nov 4 FOT pre-release results for
+   human-performance; SOCOM standing BAA status; xTech|Search 10 outcome (deadline was Oct 19).
+   **Deliverable:** append a dated `### 🔁 DSIP + AFWERX monitoring note — 2026-11-22`
+   section to `wiki/concepts/atp-federal-funding-landscape.md`. Progress note on task.
 
 2. **@cloud Skill audit — `concert-digest` SKILL.md** (Improve + general skills).
    `concert-digest` is one of the remaining unaudited vault skills (no dedicated audit page
-   exists; the other unaudited ones are `token-context-management`, and the 3 prompt skills).
+   exists; others unaudited: `token-context-management`, the 3 prompt skills).
    Apply the [[skill-authoring-playbook]] 6-section checklist; apply any structural
    no-behavior-change fixes; create `wiki/concepts/skill-audit-concert-digest.md` audit
    record + update `skill-audits-2026.md` running scoreboard.
@@ -34,9 +33,10 @@ Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs
 
 ## Phase 4 MODE B (planned)
 
-- One generative enrichment proposal chosen after Phase 2 — target: a new concept page
-  that consolidates the ATP funding landscape research into a reusable strategic framework
-  page, OR a source-seeking proposal for the highest-gap topic surfaced in the build.
+- One generative enrichment proposal: a new concept page filling a genuine gap surfaced by
+  tonight's build — candidate: **`wiki/concepts/dod-sbir-human-performance-landscape.md`**
+  consolidating DoD SBIR / AFWERX / xTech topology as a reusable reference (distinct from the
+  ATP-scoped funding page; passes new-page test).
 
 ## Considered but skipped this run (with reason)
 
@@ -55,7 +55,7 @@ Cadence gate: `TZ=America/New_York date +%u` → `7` (Sunday) → full loop runs
 
 ## Not eligible this run (for reference — @local or @human)
 
-All `@local` and `@human` items (xTech white paper, One NC claim, Fulbright deadlines &
+All `@local` and `@human` items (xTech white paper outcome, One NC claim, Fulbright deadlines &
 materials, Neuro pipeline & accounts, CRM enrichment, finance decisions, Uship, Claude Corps
 application steps, password holder, IG/YouTube exports, Solace/Atlanta Ventures follow-ups,
 SOFWERX join, Barbara Knight email, etc.) are ineligible for the cloud lane.
