@@ -1713,3 +1713,31 @@ reason; confirm Danny's full name + firm for the CRM. Related: [[solace-health]]
 
 ## [2026-11-01] ingest | ATP Non-Dilutive Funding Plan (Nov 1, 2026) + Drive reconciliation
 Ingested the Nov 1 2026 ATP funding plan — a verified shortlist + corrections + Nov–Jun timeline, centered on **NC state + Duke non-dilutive money**, a lane the vault hadn't mapped (the existing [[atp-federal-funding-landscape]] is federal/DoD only). Created source page [[atp-nondilutive-funding-plan-2026-11]] and a new companion concept page [[atp-nc-nondilutive-funding]]. Enriched [[athletic-training-portal]], [[atp-federal-funding-landscape]], and [[xtech-search]] with reciprocal links. **Reconciled the plan against ATP's shared Google Drive** (per "we have access to the ATP Drive"): (1) ✅ **resolved the memo's "$240K vs $315K" Navy Phase I question** — `ATP_Navy_SBIR_Vol3_Cost_Volume.xlsx` shows **DON26BZ05-NV068 ceiling $315K**, ATP proposed **$314,168**; (2) ✅ corrected the federal page — **NV068 is the topic ATP actually submitted to** (received ~Sep 23 2026), not a watch-for-reposts topic; (3) ✅ the **Nov 4 xTech event is absent from ATP's own Drive tracker** too (only Oct 19 Search 10 + ~Dec Kinetic Reach), corroborating the memo's "unverified" flag; (4) noted Jaylen certifies **primary employment with ATP** in the Navy intake, so the SEED full-time test may be live for him. Still open (need Jaylen): SOS registration date, founder full-time hours, revenue/ownership. Filed action items to [[tasks]]. Bottom line: the plan **lines up** with what the vault + Drive know about ATP; the one hard conflict (Navy $ figure) is resolved in the plan's favor.
+
+## [2026-11-22] autoresearch | Weekly AutoResearch loop — Sunday run
+Cadence gate: Sunday ✅ (TZ=America/New_York date +%u = 7). Full loop completed on branch `autoresearch/night-2026-11-22`.
+
+**Phase 0 — baseline:** HEALTH_DEBT = 0. Empty defect set; no Phase-1 fast-track heals needed.
+
+**Phase 2 — build (2 @cloud items):**
+1. **DSIP/AFWERX Nov 22 monitoring** — final pre-close scan for FY27 R1 (closes Nov 25; still no 711 HPW topic). Key new finding: **FY27 R2 is now pre-released** (pre-released Nov 3–4, opens Dec 2, closes Jan 6, 2027; ~83 topics — topic-author contact window open NOW through Dec 2). xTech|Search 10 pitches Jan 2027, winner Mar 4, 2027. SOCOM BAA (HT9425-23-S-SOC1) confirmed still open through Jul 31, 2028. Appended monitoring note to [[atp-federal-funding-landscape]].
+2. **Skill audit — `concert-digest`** — [[skill-authoring-playbook]] 6-section checklist applied. Two structural fixes applied: §1 description second-person→third-person; §6 hardcoded `/Users/colekannam/` osascript path → `$HOME`-relative. Created [[skill-audit-concert-digest]]; updated [[skill-audits-2026]] running scoreboard; updated [[index.md]] + [[Claude Mastery]] bucket.
+
+**Phase 3 — write-back:** `tasks/index.md` updated with ⏳ progress notes for both items. HEALTH_DEBT = 0 confirmed post write-back.
+
+**Phase 4 — MODE B generative:** Created [[dod-sbir-human-performance-landscape]] — a static mechanism map synthesizing the DoD/federal funding landscape for human-performance startups (5 mechanisms: DSIP, AFWERX FOTs, SOCOM BAA, xTech, MTEC; Phase I/II ceilings; timing calendar; ATP cross-mechanism priority stack). Companion to the live [[atp-federal-funding-landscape]] monitoring page. HEALTH_DEBT = 0 confirmed post build.
+
+**Phase 5 — PR:** Branch `autoresearch/night-2026-11-22` → morning review PR (see PR).
+
+**Files changed (branch vs main, 9 total):**
+- `.claude/skills/concert-digest/SKILL.md` (§1 desc + §6 path fixed)
+- `autoresearch/nightly-queue.md` (Phase-0 queue)
+- `autoresearch/results.tsv` (3 result rows appended)
+- `buckets/Claude Mastery.md` (concert-digest audit link)
+- `buckets/Job Search.md` (dod-sbir mechanism-map link)
+- `index.md` (2 new entries)
+- `tasks/index.md` (2 progress notes)
+- `wiki/concepts/atp-federal-funding-landscape.md` (Nov 22 monitoring note)
+- `wiki/concepts/dod-sbir-human-performance-landscape.md` (new)
+- `wiki/concepts/skill-audit-concert-digest.md` (new)
+- `wiki/concepts/skill-audits-2026.md` (scoreboard updated)

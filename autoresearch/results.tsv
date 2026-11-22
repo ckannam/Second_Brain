@@ -65,3 +65,6 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-09-13T06:13	B	tasks/index.md (Sourcing & verification)	0	0	keep	MODE B-src first live run: 1 source-to-ingest proposal (Code with Claude 2026 -> refresh claude-code-memory/subagents/agent-teams); @human verify vs primary sources
 2026-11-08T01:12	A	(none)	0	0	skip	Phase-0 baseline HEALTH_DEBT=0, empty defect set; no Phase-1 fast-track heals needed tonight
 2026-11-22T02:00	A	(none)	0	0	skip	Phase-0 baseline HEALTH_DEBT=0, empty defect set; no Phase-1 fast-track heals needed tonight
+2026-11-22T02:00	B	wiki/concepts/atp-federal-funding-landscape.md	0	0	build	FY27 R1 final pre-close check (no HPW topics); FY27 R2 newly open Dec 2 (83 topics); xTech pitches Jan 2027; SOCOM BAA confirmed
+2026-11-22T02:00	B	.claude/skills/concert-digest/SKILL.md	0	0	build	concert-digest skill audit: §1 desc second-person→third-person; §6 abs osascript path→$HOME-relative
+2026-11-22T02:00	B	wiki/concepts/dod-sbir-human-performance-landscape.md	0	0	build	MODE B generative: new mechanism map page (DSIP/AFWERX/SOCOM/xTech/MTEC; Phase I/II ceilings; ATP priority stack)
