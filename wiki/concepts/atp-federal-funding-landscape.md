@@ -277,6 +277,10 @@ file an Army SBIR/STTR Phase I (≤$300K) Mar 4–Apr 30, 2027.
 - **Snapshot:** AFWERX's Focused Open Topic model is new and its topic mix shifts monthly; Tech Tuesday's
   reopen date is undetermined; DoD naming (DoW) is mid-transition.
 
-Related: [[athletic-training-portal]] · [[atp-competitive-analysis]] · [[atp-nc-nondilutive-funding]]
+> **Cross-lane calendar.** For the merged chronological view of *both* lanes' deadlines in one
+> place (this federal page + the state page), see **[[atp-funding-calendar]]** — a navigational
+> view that links each dated action back here for the detail and framing.
+
+Related: [[atp-funding-calendar]] · [[athletic-training-portal]] · [[atp-competitive-analysis]] · [[atp-nc-nondilutive-funding]]
 · [[atp-nondilutive-funding-plan-2026-11]] · [[atp-dod-federal-landscape-2026]] · [[xtech-search]]
 · [[Barbara Knight]] · [[Frank Schwagel]] · [[dorm room fund]] · [[capital-strategy]] · [[Job Search]] · [[cole]]

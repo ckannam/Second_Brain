@@ -1741,3 +1741,11 @@ Cadence gate: Sunday ✅ (TZ=America/New_York date +%u = 7). Full loop completed
 - `wiki/concepts/dod-sbir-human-performance-landscape.md` (new)
 - `wiki/concepts/skill-audit-concert-digest.md` (new)
 - `wiki/concepts/skill-audits-2026.md` (scoreboard updated)
+
+## [2026-11-22] autoresearch | concurrent-firing reconcile (night-2026-11-22)
+A second firing of the Sunday loop had already completed and opened **PR #37** (DSIP Nov monitoring
++ concert-digest audit + a `dod-sbir-human-performance-landscape` MODE B page). To avoid a tangled
+double-run, this firing **based on #37's branch and added only its one unique deliverable** — the
+cross-lane **[[atp-funding-calendar]]** (merging ATP's federal + NC-state deadlines; #37's MODE B is
+a different artifact). Nothing from #37 discarded; HEALTH_DEBT stays 0. Both MODE B pages are
+complementary (a mechanism/landscape map vs. a cross-lane deadline calendar).

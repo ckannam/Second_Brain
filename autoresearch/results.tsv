@@ -68,3 +68,4 @@ ts	mode	target	debt_before	debt_after	status	note
 2026-11-22T02:00	B	wiki/concepts/atp-federal-funding-landscape.md	0	0	build	FY27 R1 final pre-close check (no HPW topics); FY27 R2 newly open Dec 2 (83 topics); xTech pitches Jan 2027; SOCOM BAA confirmed
 2026-11-22T02:00	B	.claude/skills/concert-digest/SKILL.md	0	0	build	concert-digest skill audit: §1 desc second-person→third-person; §6 abs osascript path→$HOME-relative
 2026-11-22T02:00	B	wiki/concepts/dod-sbir-human-performance-landscape.md	0	0	build	MODE B generative: new mechanism map page (DSIP/AFWERX/SOCOM/xTech/MTEC; Phase I/II ceilings; ATP priority stack)
+2026-11-22T06:40	B	wiki/concepts/atp-funding-calendar.md	0	0	keep	Concurrent-firing reconcile: based on PR #37 tree (earlier firing); added this run unique MODE B page (cross-lane ATP funding calendar); reciprocally linked; HEALTH_DEBT stays 0; nothing from #37 discarded
