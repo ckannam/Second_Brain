@@ -50,6 +50,28 @@ Weekly scan run per the `@cloud` monitoring task. Key findings (web-verified, se
 
 ---
 
+### 🔁 DSIP + AFWERX monitoring note — 2026-11-22
+
+Monthly scan run per the `@cloud` monitoring task (Nov 22 check; FY27 R1 closes in 3 days). Key findings (web-verified, secondary sources).
+
+**FY27 Release 1 — final pre-close check:** Still 25 topics; closes **Nov 25, 2026, 12:00 PM ET**. **No human-performance / 711 HPW topic added.** Confirm this holds: check dodsbirsttr.mil directly before Nov 25. Source: grantedai.com, bwcoconsulting.com R1 (secondary); DSIP proxy still inaccessible for direct verification.
+
+**FY27 Release 2 — NEW — now pre-released:** Pre-released **Nov 3–4, 2026**. Opens **Dec 2, 2026**; closes **Jan 6, 2027, 12:00 PM ET**. ~83 topics (60 SBIR + 23 STTR, 7 components). **Topic-author contact window is open NOW through Dec 2** — this is the window to reach out to any adjacent-topic author (e.g. any human-performance–adjacent topic) before proposals open. ⚠️ Action: scan R2 topic list on dodsbirsttr.mil and ask if any 711 HPW / POTFF-adjacent topic appears. Source: bwcoconsulting.com R2, grantedai.com (secondary); confidence high on dates.
+
+**AFWERX Nov 2026:** No human-performance Focused Open Topic. DAF SBIR Specific Topic **27.BZ Release 2** pre-released Nov 4 (opens Dec 2, closes Jan 5, 2027) — scope is not human performance. AFWERX stated focus areas remain manufacturing/logistics under "Agile Combat & Readiness." Source: afwerx.com (primary).
+
+**xTech|Search 10 — post-submission status:** Submissions closed Oct 19, 2026 at 5 PM ET ✅. Up to 50 semifinalists (~$5K each) + 20 finalists (~$20K each). **Virtual pitch presentations: January 2027; winner announced March 4, 2027.** Semifinalist list not yet public (expected Dec 2026–Jan 2027 on xtech.army.mil). Source: xtech.army.mil + army.mil (primary); confidence high.
+
+**SOCOM rolling BAA — confirmed still open:** BAA number **HT9425-23-S-SOC1**, FY23–FY28, administered by USAMRAA, closes July 31, 2028. Research areas confirmed: human performance optimization, prolonged casualty care, brain health, chronic pain. Rolling submissions year-round. Contact: discovery@socom.mil. ✅ This remains ATP's most direct DoD fit. Source: simpler.grants.gov/berkeley BRDO notice (primary PDF link); confidence high.
+
+**Summary / action flags for ATP:**
+1. FY27 R2 opens Dec 2 — scan topic list NOW (before Dec 2) for any adjacent human-performance topic; use the contact-author window to ask questions.
+2. xTech results: watch for semifinalist announcement Dec 2026–Jan 2027.
+3. SOCOM BAA still accepting — submit anytime before Jul 31, 2028.
+4. No AFWERX FOT relevant to human performance in the near term.
+
+---
+
 ---
 
 ## 0. The three moves that actually matter for ATP (prioritized)
